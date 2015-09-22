@@ -1,0 +1,10 @@
+pftcode,description,notes
+2TEB ,"Tree, evergreen, broadleaf",
+2TDB,"Tree, deciduous, broadleaf",Includes semi-deciduous and drought-deciduous species
+2TEN,"Tree, evergreen, needleleaf",
+2TDN ,"Tree, deciduous, needleleaf",Includes semi-deciduous and drought-deciduous species
+2TD,"Tree, deciduous",Includes semi-deciduous and drought-deciduous species. Dominant species are a mix of broadleaf and needleleaf species.
+2TE ,"Tree, evergreen",Dominant species are a mix of broadleaf and needleleaf species.
+2TN,"Tree, needleleaf (coniferous)",Includes semi-deciduous and drought-deciduous species. Dominant species are a mix of deciduous and evergreen species.
+2TB,"Tree, broadleaf",Includes semi-deciduous and drought-deciduous species. Dominant species are a mix of deciduous and evergreen species.
+2TREE,Tree,Mixed plant functional traits.
