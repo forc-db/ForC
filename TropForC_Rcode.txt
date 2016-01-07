@@ -1,0 +1,66 @@
+# Load packages
+# install.packages("dplyr")
+library(dplyr)
+
+# Read in data (change path to folder containing these files, or change working directory)
+sites <- read.csv("TropForC_sites.csv")
+plothist <- read.csv("TropForC_plothistory.csv")
+measure <- read.csv("TropForC_measurements.csv")
+
+str(sites)
+str(plothist)
+str(measure)
+
+# No. of records
+nrow(measure) 
+
+# No. of sites
+length(unique(sites$sites.sitename))  
+length(unique(measure$sites.sitename))  
+length(unique(plothist$sites.sitename)) 
+
+# No. of plots
+nrow(distinct(measure, sites.sitename, plot.name)) 
+nrow(distinct(plothist, sites.sitename, plot.name)) 
+
+# No. of areas
+length(unique(sites$area)) 
+
+
+# Joining tables
+sites.to.join <- sites[ , c("siteID", "sites.sitename", "area", "biogeog", "Koeppen", "FAOecozone")]
+measure.sites <- merge(measure, sites.to.join, by="sites.sitename")
+measure.hist <- merge(measure, plothist, by=c("sites.sitename", "plot.name"))
+plothist.sites <- merge(plothist, sites.to.join, by="sites.sitename")
+
+
+# Add age classes
+measure$stand.age <- as.numeric(as.character(measure$stand.age)) #convert to numeric
+measure$ageclass <- "NA"
+for (i in 1:length(measure$ageclass)) {
+   if (is.na(measure$stand.age[i]) == FALSE)
+   { 
+      if (measure$stand.age[i] < 20.5)
+      { measure$ageclass[i] <- "young"}
+      else {
+         if (measure$stand.age[i] > 99.9)
+         { measure$ageclass[i] <- "mature"}
+         else {
+            if (measure$stand.age[i] > 20.49 & measure$stand.age[i] < 100)
+            {measure$ageclass[i] <- "intermediate"} 
+         }
+      }
+   }
+}
+table(measure$ageclass)
+
+# Quick look at variables
+table(measure$variables.name)
+
+# Subset aboveground biomass and deadwood
+th.agb <- subset(measure.sites, measure.sites$variables.name == "Biomass_ag" | measure.sites$variables.name == "C_ag")
+th.dw <- subset(measure.sites, measure.sites$variables.name == "Deadwood" | measure.sites$variables.name == "C_deadwood")
+
+
+
+
