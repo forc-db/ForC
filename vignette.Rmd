@@ -1,0 +1,51 @@
+
+## Prepare Data
+
+### Load libraries and data
+
+```{r libraries}
+# install.packages("dplyr")
+library(dplyr)
+library(tabplot) # https://cran.r-project.org/web/packages/tabplot/vignettes/tabplot-vignette.html
+library(ggplot2)
+library(knitr)
+# Read in data (change path to folder containing these files, or change working directory)
+sites <- read.csv("sites.csv", stringsAsFactors = FALSE) %>% tbl_df
+plothistory <- read.csv("plothistory.csv", stringsAsFactors = FALSE) %>% tbl_df
+measurements <- read.csv("measurements.csv", stringsAsFactors = FALSE) %>% tbl_df
+```
+
+|unit | number | 
+|----|----|
+| observations | `r nrow(measure)` |
+| sites |  `r length(sites$sites.sitename)` |
+| plots | `r length(unique(c(plothist$sites.sitename, plothist$plot.name)))` |
+| areas | `r length(unique(sites$area))` |
+
+
+### Joining tables
+
+```{r merge tables}
+
+#sites.to.join <- sites[ , c("siteID", "sites.sitename", "area", "biogeog", "Koeppen", "FAOecozone")]
+#measure.sites <- merge(measure, sites.to.join, by="sites.sitename")
+#measure.hist <- merge(measure, plothist, by=c("sites.sitename", "plot.name"))
+#plothist.sites <- merge(plothist, sites.to.join, by="sites.sitename")
+
+tropforc <- measurements %>% 
+  left_join(sites, by = 'sites.sitename') %>% 
+  left_join(plothistory, by = c('sites.sitename', 'plot.name')) %>% 
+  mutate(stand.age = as.numeric(stand.age)) %>% 
+  ## classify by age
+  mutate(ageclass = ifelse(stand.age < 20.5, 'young', 
+                           ifelse(stand.age >= 100, 'mature', 
+                                  ifelse(stand.age >= 20.5 & stand.age < 100, 'intermediate', NA))))
+
+
+```
+
+## Summarize Data
+
+```{r}
+
+tableplot(tropforc)
