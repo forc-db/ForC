@@ -1,4 +1,10 @@
 
+## TODO
+
+* [ ] convert dates to `YYYY-MM-DD` following [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 
+* [ ] normalize covariates to separate covariates table
+* [ ] Create R package infrastructure
+
 ## Prepare Data
 
 ### Load libraries and data
@@ -10,10 +16,13 @@ library(tabplot) # https://cran.r-project.org/web/packages/tabplot/vignettes/tab
 library(ggplot2)
 library(knitr)
 # Read in data (change path to folder containing these files, or change working directory)
-sites <- read.csv("sites.csv", stringsAsFactors = FALSE) %>% tbl_df
-plothistory <- read.csv("plothistory.csv", stringsAsFactors = FALSE) %>% tbl_df
-measurements <- read.csv("measurements.csv", stringsAsFactors = FALSE) %>% tbl_df
+sites <- read.csv("data/sites.csv", na.strings = c('NA', 'NAC', 'NRA', 'NI', 'missing')) %>% tbl_df
+plothistory <- read.csv("data/plothistory.csv", na.strings = c('NA', 'NAC', 'NRA', 'NI', 'missing')) %>% tbl_df
+measurements <- read.csv("data/measurements.csv", na.strings = c('NA', 'NAC', 'NRA', 'NI', 'missing')) %>% tbl_df
 ```
+
+
+### Summarize data
 
 |unit | number | 
 |----|----|
@@ -21,6 +30,17 @@ measurements <- read.csv("measurements.csv", stringsAsFactors = FALSE) %>% tbl_d
 | sites |  `r length(sites$sites.sitename)` |
 | plots | `r length(unique(c(plothist$sites.sitename, plothist$plot.name)))` |
 | areas | `r length(unique(sites$area))` |
+
+
+```{r}
+tableplot(sites %>% select(lat, lon, masl, mat, map, #soil.texture, soil.classification, 
+                           area, biogeog, Koeppen, FAOecozone),
+          sortCol = c('biogeog', 'FAOecozone'), scales = 'lin', nBins = nrow(sites))
+
+tableplot(measurements %>% select(plot.name, stand.age, dominantveg, variables.name, mean, n), 
+          sortCol = 'variables.name', scales = 'lin', nBins = nrow(measurements))
+
+```
 
 
 ### Joining tables
@@ -48,4 +68,5 @@ tropforc <- measurements %>%
 
 ```{r}
 
-tableplot(tropforc)
+tableplot(tropforc %>% select(plot.name, stand.age, dominantveg, variables.name, mean, n), 
+          sortCol = 'variables.name', scales = 'lin')#, nBins = nrow(measurements))
