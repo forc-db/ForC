@@ -1,6 +1,6 @@
 # Tropical Forest Carbon database (TropForC-db)
 ##Source: 
-Anderson-Teixeira, K.J. *et al.* 2016. Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC). Global Change Biology.
+Anderson-Teixeira, K.J. *et al.* 2016. Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC). Global Change Biology. http://dx.doi.org/10.1111/gcb.13226
 
 ##Database description:
 The Tropical Forest C database (**TropForC-db**) is the tropical component of ForC-db, which is a global C database that is currently under development and maintained at https://github.com/forc-db, where a more
@@ -21,7 +21,7 @@ Map of Life on Earth. BioScience, 51, 933.
 
 ##How to cite:
 Publications using these data should cite both the original publication and the Dryad data package:  
-* Anderson-Teixeira, K.J. *et al.* 2016. Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db). Global Change Biology.  
+* Anderson-Teixeira, K.J. *et al.* 2016. Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db). Global Change Biology. http://dx.doi.org/10.1111/gcb.13226 
 
 * Anderson-Teixeira, K.J. *et al.* 2016. Data from: Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db). Dryad Digital Repository.
 http://dx.doi.org/10.5061/dryad.t516f
