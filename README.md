@@ -10,7 +10,7 @@ measurements table (3), and full citations are in the file `TropForC_bibliograph
 `TropForC_Rcode.txt`. 
 
 ##Data Use: 
-ForC-db is an open access database, and we encourage use of the data for scientific research purposes. All users are responsible to adhere to the data use policy: `DATA USE POLICY.md` (https://github.com/forc-db/TropForC/blob/master/DATA%20USE%20POLICY.md).
+ForC-db is an open access database, and we encourage use of the data for scientific research and educational purposes. All users are responsible to adhere to the data use policy: `DATA USE POLICY.md` (https://github.com/forc-db/TropForC/blob/master/DATA%20USE%20POLICY.md).
 
 ##Contributing to the database: 
 We anticipate that ForC-db will be of great value for various initiatives seeking to understand and manage the role of tropical forests in the global C cycle, and we encourage authors to contribute data. Please see `CONTRIBUTING.md`(https://github.com/forc-db/TropForC/blob/master/CONTRIBUTING.md).
