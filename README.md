@@ -10,6 +10,9 @@ allometries. A full description of the database and metaadata for all tables is 
 measurements table (3), and full citations are in the file `TropForC_bibliography.pdf`. Sample R code, showing how to load the data files into R and join the tables, is provided in a separate file, named
 `TropForC_Rcode.txt`. 
 
+##Contributing to the database: 
+We anticipate that ForC-db will be of great value for various initiatives seeking to understand and manage the role of tropical forests in the global C cycle, and we encourage authors to contribute data. Please see `Contributing.md`.
+
 ##How to cite:
 Publications using these data should cite both the original publication and the Dryad data package:  
 * Anderson-Teixeira, K.J. *et al.* 2016. Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db). Global Change Biology. http://dx.doi.org/10.1111/gcb.13226 
