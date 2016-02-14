@@ -3,11 +3,11 @@
 ##Database overview:
 The Forest C database (**ForC-db**) is an open access global C database that is updated and maintained on Github (https://github.com/forc-db). The database contains data on ground-based measurements of ecosystem-level C stocks and annual fluxes in forests globally, along with site information, disturbance history, and information on methodology. The Tropical Forest C database (**TropForC-db**) is the tropical component of ForC-db, which has been published in the peer-reviewed literature: Anderson-Teixeira *et al.* (2016); http://dx.doi.org/10.1111/gcb.13226. At present, this is the only publicly available portion of ForC, but additional data (both tropical and extra-tropical) have been compiled and will eventually be made publicly available (interested users may contact database PI Dr. Kristina Anderson-Teixeira to discuss collaboration). Moreover, we anticipate database growth as other investigators contribute to the database.
 
-TropForC-db currently contains 3,568 records from 845 plots in 178 geographically distinct areas, making it the largest and most comprehensive database of its type. 
+TropForC-db currently contains 3,568 records from 845 plots in 178 geographically distinct areas, making it the largest and most comprehensive database of its type. These data were obtained from multiple previous compilations and individual published studies, as detailed in Anderson-Teixeira et al. (2016).
 
 The database consists of a series of cross-referenced data tables describing
 (1) sites, (2) plots and their history, (3) measurements of C cycle variables, (4) variables, (5) disturbance/history event type, (6) plant functional types (PFTs)/ species, (7) methodology, and (8)
-allometries. A full description of the database and metaadata for all tables is given in `readme_TropForC.pdf`. Data were obtained from multiple previous compilations and individual published studies, as detailed in Anderson-Teixeira et al. (2016). Original citations associated with all data are given in the
+allometries. A full description of the database and metaadata for all tables is given in `readme_TropForC.pdf`.  Original citations associated with all data are given in the
 measurements table (3), and full citations are in the file `TropForC_bibliography.pdf`. Sample R code, showing how to load the data files into R and join the tables, is provided in a separate file, named
 `TropForC_Rcode.txt`. 
 
