@@ -1,4 +1,12 @@
-#Basic instructions for contributing to the database: 
+#Contributing to the database: 
+We anticipate that ForC-db will be of great value for various initiatives seeking to understand and manage the role of tropical forests in the global C cycle, and we encourage authors to contribute data.
+
+Instructions for formally adding data to the master branch of ForC-db are given below.
+
+Alternatively, if you want to post data that has not been formatted for ForC-db, you can do so by creating a Github issue: https://help.github.com/articles/creating-an-issue. That way the existence of a dataset can be recorded and discussed without requiring anyone to format it until someone is motivated to do so (e.g., because it will help them with their research).
+
+
+#Basic instructions for editing ForC-db: 
 1.	Download latest version of files.
 2.	Check if data has already been entered in database:  
     a.	In **measurements**:  
