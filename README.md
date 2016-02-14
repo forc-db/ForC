@@ -11,7 +11,7 @@ measurements table (3), and full citations are in the file `TropForC_bibliograph
 `TropForC_Rcode.txt`. 
 
 ##Contributing to the database: 
-We anticipate that ForC-db will be of great value for various initiatives seeking to understand and manage the role of tropical forests in the global C cycle, and we encourage authors to contribute data. Please see `Contributing.md`.
+We anticipate that ForC-db will be of great value for various initiatives seeking to understand and manage the role of tropical forests in the global C cycle, and we encourage authors to contribute data. Please see `Contributing.md`(https://github.com/forc-db/TropForC/blob/master/CONTRIBUTING.md).
 
 ##How to cite:
 Publications using these data should cite both the original publication and the Dryad data package:  
