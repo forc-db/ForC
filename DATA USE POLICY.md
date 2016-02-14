@@ -1,6 +1,6 @@
 #ForC-db data use policy
 
-ForC-db is an open access database, and we encourage use of the data for scientific research purposes. Data may not be used for commercial purposes without written permission of the database PI (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu). 
+ForC-db is an open access database, and we encourage use of the data for scientific research and educational purposes. Data may not be used for commercial purposes without written permission of the database PI (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu). 
 
 While all data currently contained in the database have been previously published, compilation of these data has represented a substantive effort on the part of database investigators. We consider it best practices to contact the principle investigator of ForC-db (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu) along with any additional investigators identified in association with data used to inform them of intended use of the data and to discuss potential collaboration. As of February 2016, Dr. Anderson-Teixeira is the point of contact for all records in the database; however, we anticipate that additional investigators will be added as they contribute to the database.
 
