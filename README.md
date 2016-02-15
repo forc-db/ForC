@@ -7,7 +7,7 @@ TropForC-db currently contains 3,568 records from 845 plots in 178 geographicall
 
 The database consists of a series of cross-referenced data tables describing
 (1) sites, (2) plots and their history, (3) measurements of C cycle variables, (4) variables, (5) disturbance/history event type, (6) plant functional types (PFTs)/ species, (7) methodology, and (8)
-allometries. A full description of the database and metaadata for all tables is given in `readme_TropForC.pdf`.  Original citations associated with all data are given in the
+allometries. A full description of the database and metaadata for all tables is given in `ForC_metadata.pdf`.  Original citations associated with all data are given in the
 measurements table (3), and full citations are in the file `TropForC_bibliography.pdf`. Sample R code, showing how to load the data files into R and join the tables, is provided in a separate file, named
 `TropForC_Rcode.txt`. 
 
