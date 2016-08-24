@@ -22,3 +22,8 @@ We anticipate that ForC-db will be of great value for various initiatives seekin
 
 * Anderson-Teixeira, K.J. *et al.* 2016. Data from: Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db). Dryad Digital Repository.
 http://dx.doi.org/10.5061/dryad.t516f
+
+##Funding acknowledgements
+* DOE Terrestrial Ecosystem Science grant DE-SC0008085/ DE-SC0010039 to Kristina Anderson-Teixeira, Evan DeLucia, and Benjamin Duval
+
+* Smithsonian Women's Committee grant to Kristina Anderson-Teixeira
