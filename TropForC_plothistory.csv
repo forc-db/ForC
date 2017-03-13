@@ -240,7 +240,6 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 239,BDFFP Fazenda Dimona,UM mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,Unmanaged tropical forest that could be considered old-growth in structural/functional terms,614
 240,BDFFP Fazenda Dimona,terra firma 2303 BDF-01,2,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2349
 241,BDFFP Fazenda Dimona,old-growth tropical forest.BDF3,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
-242,BDFFP Fazenda Dimona,UM mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 243,BDFFP Fazenda Esteio,Forest recovery following pasture abandonment and fire.E6,0.1,NI,NI,9,Disturbance,Burned,NA,NA,NA,430
 244,BDFFP Fazenda Esteio,Forest recovery following pasture abandonment and fire.E6,0.1,1981.01.01,19810101,8.5,Disturbance,Cut,100,%,NA,431
 245,BDFFP Fazenda Esteio,Forest recovery following pasture abandonment and fire.E6,0.1,1981.01.01,19810101,8.5,Disturbance,Grazed,6 to 8,year,NA,432
@@ -469,9 +468,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 468,Caxiuana 2 CAX-02,terra firma,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2372
 469,Caxiuana Drought Control CAX-04,largely undisturbed terra firma forest,1,NI,NI,9,No.disturbance,No disturbance,NA,NA,largely undisturbed terra firma forest,2289
 470,Caxiuana Terra Preta CAX-08,UM Late successional forest,1,1960.01.01,19600101,8.5,No.disturbance,No disturbance,NA,NA,well preserved late successional forest growing on  very fertile Terra Preta soil formed by human activities from ancient inhabitants during 720-300 years BP. Covered by forest that has remained largely undisturbed for at least 40 years since the creation of Caxiuana National Forest reserve.,2271
-471,Caxiuana Terra Preta CAX-08,UM Late successional forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 472,Caxiuana Tower CAX-06,tall primary forest near flux tower site,1,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,2290
-473,Caxiuana Tower CAX-06,tall primary forest near flux tower site,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 474,CELOS 67/9A,terra firma CEL-08,0.64,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2373
 475,CELOS 67/9A,terra firma CEL-15,0.64,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2374
 476,Central Rondonia Chronosequence Site a,Undisturbed forest,0.1,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,565
@@ -516,11 +513,8 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 515,Chajul,mature 'old growth' forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 516,Chamela - ReSerBos,mature 'old growth' forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 517,Chamela 1 Lower,UM Mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,Unmanaged tropical forest that could be considered old-growth in structural/functional terms,602
-518,Chamela 1 Lower,UM Mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 519,Chamela 2 Middle,UM Mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,Unmanaged tropical forest that could be considered old-growth in structural/functional terms,603
-520,Chamela 2 Middle,UM Mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 521,Chamela 3 Upper,UM Mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,Unmanaged tropical forest that could be considered old-growth in structural/functional terms,604
-522,Chamela 3 Upper,UM Mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 523,Charabaru,mature 'old growth' forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 524,Cheko,evergreen seasonal forest,NAC,NAC,NAC,9,No.info,NAC,NA,NA,NA,2107
 525,"Chiribiquete, Tepuy",short-statured tropical forest.CHI1,NAC,NAC,NAC,9,NAC,NAC,NAC,NAC,NAC,NA
@@ -567,14 +561,10 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 566,Culebra,Tropical Wet Forest recovery following pasture abandonment,NAC,NAC,NAC,9,Establishment,Establishment of oldest trees,NA,NA,Age data exist in measurements file. Regeneration date can be calculated from this and the date of measurement. ,NA
 567,Curua-Una e-serve,old-growth tropical forest.CUU,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 568,Cuyabeno,terra firma CYB-01,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2378
-569,Cuzco Amazonico 1,"terra firma, floodplain, CUZAM1E CUZ-01",1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2379
-570,Cuzco Amazonico 1,"terra firma, floodplain, CUZAM1U CUZ-02",1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2380
-571,Cuzco Amazonico 1,"terra firma, floodplain, CUZAM1E CUZ-01",NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
-572,Cuzco Amazonico 1,"terra firma, floodplain, CUZAM1U CUZ-02",NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
-573,Cuzco Amazonico 2,"terra firma, floodplain, CUZAM2E CUZ-03",1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2381
-574,Cuzco Amazonico 2,"terra firma, floodplain, CUZAM2U CUZ-04",1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2382
-575,Cuzco Amazonico 2,"terra firma, floodplain, CUZAM2E CUZ-03",NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
-576,Cuzco Amazonico 2,"terra firma, floodplain, CUZAM2U CUZ-04",NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
+569,Cuzco Amazonico 1,"terra firma, floodplain, CUZAM1E CUZ-01",1,1904.01.01,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2379
+570,Cuzco Amazonico 1,"terra firma, floodplain, CUZAM1U CUZ-02",1,1904.01.01,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2380
+573,Cuzco Amazonico 2,"terra firma, floodplain, CUZAM2E CUZ-03",1,1904.01.01,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2381
+574,Cuzco Amazonico 2,"terra firma, floodplain, CUZAM2U CUZ-04",1,1904.01.01,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2382
 577,CVL-01_Cavalla 1,african tropical forest,1,NAC,NAC,9,No.info,NAC,NA,NA,NA,2108
 578,CVL-08_Cavalla 8,african tropical forest,1,NAC,NAC,9,No.info,NAC,NA,NA,NA,2109
 579,CVL-10_Cavalla 10,african tropical forest,1,NAC,NAC,9,No.info,NAC,NA,NA,NA,2110
@@ -1490,8 +1480,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 1489,Las Londras plot 2,seasonally flooded LSL-02,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2402
 1490,Las Margaritas,mature 'old growth' forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1491,LAT-01a_La Tene,african tropical forest,40,NAC,NAC,9,No.info,NAC,NA,NA,Lewis Ref [47]-Favrichon 1997,2168
-1492,Laupahoehoe,UM Mature Metrosideros polymorpha.20000-y,NAC,NAC,NAC,9,No.info,NAC,NA,NA,Unmanaged tropical forest,890
-1493,Laupahoehoe,UM Mature Metrosideros polymorpha.20000-y,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
+1492,Laupahoehoe,UM Mature Metrosideros polymorpha.20000-y,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,Unmanaged tropical forest,890
 1494,Lely,mature 'old growth' forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1495,LEN-01_Ituri Lenda 1,african tropical forest,10,NAC,NAC,9,No.info,NAC,NA,NA,NA,2169
 1496,LEN-02_Ituri Lenda 2,african tropical forest,10,NAC,NAC,9,No.info,NAC,NA,NA,NA,2170
@@ -1641,17 +1630,11 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 1640,Mata de Piedade,old-growth tropical forest.MDP1,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1641,Mata de Piedade,secondary tropical forest.MDP2,NAC,NAC,NAC,9,NAC,NAC,NAC,NAC,NAC,NA
 1642,Maui 1,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,This watershed area has never been cleared by humans and all six sites were located in mature forests stands,991
-1643,Maui 1,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1644,Maui 2,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,This watershed area has never been cleared by humans and all six sites were located in mature forests stands,992
-1645,Maui 2,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1646,Maui 3,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,This watershed area has never been cleared by humans and all six sites were located in mature forests stands,993
-1647,Maui 3,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1648,Maui 4,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,This watershed area has never been cleared by humans and all six sites were located in mature forests stands,994
-1649,Maui 4,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1650,Maui 5,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,This watershed area has never been cleared by humans and all six sites were located in mature forests stands,995
-1651,Maui 5,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1652,Maui 6,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,This watershed area has never been cleared by humans and all six sites were located in mature forests stands,996
-1653,Maui 6,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1654,Maun- Mopane Woodland,semi-arid savanna mopane woodland,NAC,NI,NI,9,Disturbance,Grazed,NA,NA,"Study area is under communal land use; primarily for cattle grazing and firewood collection for many decades. Few cattle present during study period due to cattle elimination around 1997 for disease control, 2.5 years before the study.",997
 1655,Maun- Mopane Woodland,semi-arid savanna mopane woodland,NAC,NI,NI,9,Disturbance,Harvest,NA,NA,Firewood collection for many decades,998
 1656,Maun- Mopane Woodland,semi-arid savanna mopane woodland,NAC,NI,NI,9,Regrowth,Initiation of forest regrowth,NA,NA,"Study area is under communal land use; primarily for cattle grazing and firewood collection for many decades. Few cattle present during study period due to cattle elimination around 1997 for disease control, 2.5 years before the study.",999
@@ -1665,7 +1648,6 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 1664,Milpa,Premontane Rain Forest recovery following pasture abandonment,NAC,NAC,NAC,9,Establishment,Establishment of oldest trees,NA,NA,Age data exist in measurements file. Regeneration date can be calculated from this and the date of measurement. ,NA
 1665,Mishana,terra firma MSH-01,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2414
 1666,Mocambo,terra firma MBO-01,2,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2415
-1667,Mocambo,terra firma MBO-01,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 1668,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,NAC,NI,NI,9,Disturbance,Cut,100,%,"All stands were initially primary forest, which were cleared, burned, and then used for growing beans, corn, rice and yucca for 2-3 years prior to abandonment. No stands underwent wildfires, logging, or had been reentered for agricultural use poset-abandonment.",1001
 1669,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,NAC,NI,NI,9,Disturbance,Burned,NA,NA,"All stands were initially primary forest, which were cleared, burned, and then used for growing beans, corn, rice and yucca for 2-3 years prior to abandonment. No stands underwent wildfires, logging, or had been reentered for agricultural use poset-abandonment.",1002
 1670,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,NAC,NI,NI,9,Disturbance,Cultivation,2 to 3,year,"beans, corn, rice, yucca (2-3 years)",1003
@@ -2240,7 +2222,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 2239,Reserva Ducke,Forest recovery following pasture abandonment and fire.R16? ~1863,NAC,NI,NI,9,Disturbance,Grazed,NA,NA,light to moderate intensity,2336
 2240,Reserva Ducke,Forest recovery following pasture abandonment and fire.R16? ~1863,NAC,1963.01.01,19630101,8,Establishment,Establishment of oldest trees*,NA,NA,NA,2337
 2241,Reserva Ducke,Forest recovery following pasture abandonment and fire.R16? ~1863,NAC,1963.01.01,19630101,8,Regrowth,Initiation of natural succession*,NA,NA,NA,2338
-2242,Reserva Ducke,"dense, primary lowland ""terra firme"" rainforest",0.1125,NI,NI,9,No.info,NI,NA,NA,NA,5694
+2242,Reserva Ducke,"dense, primary lowland ""terra firma"" rainforest",0.1125,NI,NI,9,No.info,NI,NA,NA,NA,5694
 2243,Reserva Ducke Chave,old-growth tropical forest.DUC,,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,5150
 2244,Reserva Ecologica do IBGE,burned,NAC,1992.09.01,19920901,6,Disturbance,Burned,NA,NA,Biennial prescribed fires since September 1992,1338
 2245,Reserva Ecologica do IBGE,burned,NAC,1998.09.22,19980922,5,Disturbance,Burned,NA,NA,Burned 3 months after commencement of eddy covariance measurements,1339
@@ -2253,7 +2235,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 2252,Reserva el Tigre,mature 'old growth' forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2253,Rio Branco,open forest,NAC,NAC,NAC,9,No.info,NAC,NA,NA,NA,2192
 2254,"Rio Grande, RG",terra firma RIO-01 plotDA1,0.25,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2422
-2255,"Rio Grande, RG",terra firme RIO-02 plotDA2,0.25,2001.01.04,,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2423
+2255,"Rio Grande, RG",terra firma RIO-02 plotDA2,0.25,2001.01.04,,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2423
 2256,"Rio Grande, RG",terra firma RIO-01/02,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,5715
 2257,Rio Juruena,old-growth tropical forest.JUR,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2258,Rio Mameyes abandoned pastures chronosequence,Forest recovery following pasture abandonment.7-y,NI,1986.01.01,19860101,8,Establishment,Establishment of oldest trees*,NA,NA,NA,949
@@ -2459,14 +2441,13 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 2458,San Carlos de Rio Negro Species-rich Tierra Firme (Oxisols),natural regeneration of experimental tree fall gap,NAC,1981.10.01,19811001,6,Regrowth,Initiation of natural succession,NA,NA,NA,5697
 2459,San Carlos de Rio Negro Species-rich Tierra Firme (Oxisols),UM Mature terra firma,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2460,San Carlos de Rio Negro Tall Caatinga,mature tall caatinga natural forest,0.13,NI,NI,9,No.info,NI,NA,NA,NA,2086
-2461,"San Carlos de Rio Negro, SC1, Uhl",terra firme SCR-01,0.25,2001.01.04,,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2424
+2461,"San Carlos de Rio Negro, SC1, Uhl",terra firma SCR-01,0.25,2001.01.04,,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2424
 2462,"San Carlos de Rio Negro, SC3, MAB site",terra firma SCR-03,0.25,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2425
 2463,"San Carlos de Rio Negro, Veillon RN1-4, SC2",terra firma SCR-02,2,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2426
 2464,San Emilio,mature 'old growth' forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2465,San Eusebio,"""Primary"" (some selective cutting in the area) Montane",NAC,NI,NI,9,Disturbance,Thinned,NA,NA,Selective cutting,1474
 2466,San Eusebio,"""Primary"" (some selective cutting in the area) Montane",NAC,NI,NI,9,Regrowth,Initiation of natural succession,NA,NA,"""Primary"" (some selective cutting in the area) Montane",1475
 2467,San Pedro,UM upland tropical forest,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,2276
-2468,San Pedro,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2469,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,1983.09.01,19830901,6,Disturbance,Burned,NA,NA,NA,1476
 2470,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,1983.09.01,19830901,6,Disturbance,Cut,100,%,clear-cut,1477
 2471,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,1983.09.01,19830901,6,Disturbance,Cultivation,NA,NA,Oryza sativa,1478
@@ -2558,10 +2539,8 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 2557,Sipitang,Forest recovery following drought and wildfire.2-y,NAC,NAC,NAC,9,Establishment,Establishment of oldest trees,NA,NA,Age data exist in measurements file. Regeneration date can be calculated from this and the date of measurement. ,NA
 2558,Southeastern Puerto Rico chronosequence,Forest recovery following pasture abandonment ,NAC,NAC,NAC,9,Disturbance,Grazed,NA,NA,NA,1559
 2559,Southeastern Puerto Rico chronosequence,Forest recovery following pasture abandonment ,NAC,1936.01.01,19360101,8,Regrowth,Initiation of natural succession,NA,NA,NA,1560
-2560,Sucusari A,terra firma SUC-01,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2427
-2561,Sucusari A,terra firma SUC-01,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
-2562,Sucusari B,terra firma SUC-02,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2428
-2563,Sucusari B,terra firma SUC-02,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
+2560,Sucusari A,terra firma SUC-01,1,1904.01.01,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2427
+2562,Sucusari B,terra firma SUC-02,1,1904.01.01,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2428
 2564,Sucusari C,terra firma SUC-03,NAC,NI,NI,9,No.info,NI,NA,NA,NA,5718
 2565,Sucusari D,terra firma SUC-04,NAC,NI,NI,9,No.info,NI,NA,NA,NA,5719
 2566,Sucusari E,terra firma SUC-05,NAC,NI,NI,9,No.info,NI,NA,NA,NA,5720
@@ -2615,20 +2594,12 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 2614,Tambopata,old-growth tropical forest.TAM6,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2615,Tambopata,partially flooded tropical forest.TAM5,NAC,NAC,NAC,9,NAC,NAC,NAC,NAC,NAC,NA
 2616,Tambopata plot 0 TAM-01,"terra firma, floodplain TAM-01",1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2429
-2617,Tambopata plot 0 TAM-01,"terra firma, floodplain TAM-01",NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2618,Tambopata plot 1 TAM-02,"terra firma, floodplain TAM-02",1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2430
-2619,Tambopata plot 1 TAM-02,"terra firma, floodplain TAM-02",NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2620,Tambopata plot 2 TAM-03 swamp,swamp TAM-03,0.58,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2432
 2621,Tambopata plot 2 TAM-04 clay,"terra firma, floodplain TAM-04",0.42,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2431
-2622,Tambopata plot 2 TAM-04 clay,"terra firma, floodplain TAM-04",NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
-2623,Tambopata plot 3 TAM-05,UM primary forest,NAC,NI,,9,No.disturbance,No disturbance,NA,NA,NA,2199
 2624,Tambopata plot 3 TAM-05,terra firma UM primary forest,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. Long-term forest inventory plots established in early 1980s,2433
-2625,Tambopata plot 3 TAM-05,terra firma UM primary forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
-2626,Tambopata plot 4 TAM-06,UM primary forest,NAC,NI,,9,No.disturbance,No disturbance,NA,NA,NA,2200
 2627,Tambopata plot 4 TAM-06,"terra firma, floodplain UM primary forest",0.96,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. Long-term forest inventory plots established in early 1980s,2434
-2628,Tambopata plot 4 TAM-06,"terra firma, floodplain UM primary forest",NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2629,Tambopata plot 6 TAM-07,terra firma TAM-07,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2435
-2630,Tambopata plot 6 TAM-07,terra firma TAM-07,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2631,Tambopata plot 7 TAM-08,terra firma TAM-08,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,5721
 2632,Tambopata-Candamo Reserve (TAM-05),permanent plot TAM-05,NAC,NI,,9,No.info,NI,NI,NI,based on long-term forest inventory plots established in early 1980s,1646
 2633,Tambopata-Candamo Reserve (TAM-06),permanent plot TAM-06,NAC,NI,,9,No.info,NI,NI,NI,based on long-term forest inventory plots established in early 1980s,1647
@@ -2768,13 +2739,9 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 2767,Tranquilla,teak plantation,NAC,1979.01.01,19790101,8.5,Regrowth,Planted,NA,NA,"established in 1978-1979. These are small-scale plantations of about 5 ha each, and have received very little management, with only natural thinning and no undergrowth removal",1896
 2768,Tranquilla,teak plantation,NAC,1979.01.01,19790101,8.5,Establishment,Establishment of oldest trees,NA,NA,NA,2267
 2769,Trocha Union 3,UM upland tropical forest,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,2278
-2770,Trocha Union 3,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2771,Trocha Union 4,UM upland tropical forest,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,2279
-2772,Trocha Union 4,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2773,Trocha Union 7,UM upland tropical forest,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,2280
-2774,Trocha Union 7,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2775,Trocha Union 8,UM upland tropical forest,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,2281
-2776,Trocha Union 8,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2777,Tucuri,old-growth tropical forest.TUC,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2778,TUVA,Tropical Wet Forest recovery following pasture abandonment,NAC,NAC,NAC,9,Establishment,Establishment of oldest trees,NA,NA,Age data exist in measurements file. Regeneration date can be calculated from this and the date of measurement. ,NA
 2779,Uatuma,mature 'old growth' forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
@@ -2796,7 +2763,6 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 2795,Volcan,Premontane Rain Forest recovery following pasture abandonment,NAC,NAC,NAC,9,Establishment,Establishment of oldest trees,NA,NA,Age data exist in measurements file. Regeneration date can be calculated from this and the date of measurement. ,NA
 2796,Walter Egler Reserve,Mature terra firma,0.25,NAC,NAC,9,No.info,NAC,NA,NA,NA,2056
 2797,Wayqecha,UM upland tropical forest,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,2282
-2798,Wayqecha,UM upland tropical forest,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2799,West Kalimantan,lowland tropical forest,,NAC,NAC,9,No.info,NI,NA,NA,NA,5613
 2800,Western Ghats 1,tropical wet evergreen forest,,NAC,NAC,9,No.info,NI,NA,NA,NA,5617
 2801,Western Ghats 2,tropical wet evergreen forest,,NAC,NAC,9,No.info,NI,NA,NA,NA,5618
@@ -2808,7 +2774,6 @@ plothistoryID,sites.sitename,plot.name,plotarea,date,daten,dateloc,distcat,distt
 2807,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,1982.01.01,19820101,8,Regrowth,Initiation of natural succession,NA,NA,NA,2030
 2808,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,1982.01.01,19820101,8,Establishment,Establishment of oldest trees*,NA,NA,NA,2238
 2809,Yanamono A,terra firma  YAN-01,1,2001.01.04,19040101,8.5,No.disturbance,No disturbance,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2441
-2810,Yanamono A,terra firma  YAN-01,NAC,NAC,NAC,9,No.disturbance,No disturbance,NA,NA,NAC,NA
 2811,Yanamono B,terra firma  YAN-01,NAC,NI,NI,9,No.disturbance,No disturbance,NA,NA,NA,5722
 2812,Yangambi,17-18 years forest fallow,NAC,NI,NI,9,Disturbance,Cut,NA,NA,slash and burn ag,1626
 2813,Yangambi,2 years forest fallow,NAC,NI,NI,9,Disturbance,Cut,NA,NA,slash and burn ag,1627
