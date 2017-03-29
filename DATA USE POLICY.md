@@ -1,4 +1,4 @@
-#ForC-db data use policy
+# ForC-db data use policy
 
 ForC-db is an open access database, and we encourage use of the data for scientific research and educational purposes. Data may not be used for commercial purposes without written permission of the database PI (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu). 
 
@@ -6,7 +6,7 @@ While all data currently contained in the database have been previously publishe
 
 Publications using the database should acknowledge ForC-db (https://github.com/forc-db) as the intermediary source of the data and cite the publications listed below. Studies relying on data from ≤20 original publications contained within the database (listed in citations fields of the measurements table) should also cite those publications. Furthermore, studies relying on data from ≤10 previous data compilations (as listed in measurements table) should cite those publications. Publications should also acknowledge the efforts of the original researchers who collected the data.
 
-##Database citations:
+## Database citations:
 
 * Anderson-Teixeira, K.J. *et al.* 2016. Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db). Global Change Biology. http://dx.doi.org/10.1111/gcb.13226 
 
