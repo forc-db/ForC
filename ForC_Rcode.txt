@@ -3,9 +3,9 @@
 library(dplyr)
 
 # Read in data (change path to folder containing these files, or change working directory)
-sites <- read.csv("TropForC_sites.csv")
-plothist <- read.csv("TropForC_plothistory.csv")
-measure <- read.csv("TropForC_measurements.csv")
+sites <- read.csv("ForC_sites.csv")
+plothist <- read.csv("ForC_plothistory.csv")
+measure <- read.csv("ForC_measurements.csv")
 
 str(sites)
 str(plothist)
