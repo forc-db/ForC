@@ -627,10 +627,10 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 626,Downey,Tropical Moist Forest recovery following pasture abandonment,NAC,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
 627,Dubya,Tropical Moist Forest recovery following pasture abandonment,NAC,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
 628,Eastern Jamaica,montane rainforest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2132,tropical
-629,"Eastern Panama Early Tropical Forests, age 2",Forest recovery following shifting cultivation,NAC,1,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,638,tropical
-630,"Eastern Panama Early Tropical Forests, age 2",Forest recovery following shifting cultivation,NAC,2,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,639,tropical
-631,"Eastern Panama Early Tropical Forests, age 4-6",Forest recovery following shifting cultivation,NAC,1,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,640,tropical
-632,"Eastern Panama Early Tropical Forests, age 4-6",Forest recovery following shifting cultivation,NAC,2,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,641,tropical
+630,"Eastern Panama Early Tropical Forests, age 2",Forest recovery following shifting cultivation,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,638,tropical
+629,"Eastern Panama Early Tropical Forests, age 2",Forest recovery following shifting cultivation,NAC,1,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,639,tropical
+632,"Eastern Panama Early Tropical Forests, age 4-6",Forest recovery following shifting cultivation,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,640,tropical
+631,"Eastern Panama Early Tropical Forests, age 4-6",Forest recovery following shifting cultivation,NAC,1,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,641,tropical
 633,EDO-01_Ituri Edoro 1,african tropical forest,10,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2133,tropical
 634,EDO-02_Ituri Edoro 2,african tropical forest,10,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2134,tropical
 635,EJA-04_Ejagham 4,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2135,tropical
@@ -1455,18 +1455,18 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 1454,Lely,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 1455,LEN-01_Ituri Lenda 1,african tropical forest,10,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2169,tropical
 1456,LEN-02_Ituri Lenda 2,african tropical forest,10,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2170,tropical
-1457,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.10-y,0.32,1,NI,9,Disturbance,Burned,NA,NA,100,NA,892,tropical
-1458,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.10-y,0.32,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,896,tropical
-1459,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.10-y,0.32,3,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,900,tropical
-1460,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.20-y,0.32,1,NI,9,Disturbance,Burned,NA,NA,100,NA,893,tropical
-1461,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.20-y,0.32,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,897,tropical
-1462,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.20-y,0.32,3,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,901,tropical
-1463,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.30-y,0.32,1,NI,9,Disturbance,Burned,NA,NA,100,NA,894,tropical
-1464,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.30-y,0.32,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,898,tropical
-1465,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.30-y,0.32,3,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,902,tropical
-1466,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.5-y,0.32,1,NI,9,Disturbance,Burned,NA,NA,100,NA,891,tropical
-1467,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.5-y,0.32,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,895,tropical
-1468,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.5-y,0.32,3,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,899,tropical
+1457,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.10-y,0.32,2,NI,9,Disturbance,Burned,NA,NA,100,NA,892,tropical
+1458,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.10-y,0.32,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,896,tropical
+1459,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.10-y,0.32,1,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,900,tropical
+1460,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.20-y,0.32,2,NI,9,Disturbance,Burned,NA,NA,100,NA,893,tropical
+1461,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.20-y,0.32,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,897,tropical
+1462,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.20-y,0.32,1,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,901,tropical
+1463,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.30-y,0.32,2,NI,9,Disturbance,Burned,NA,NA,100,NA,894,tropical
+1464,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.30-y,0.32,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,898,tropical
+1465,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.30-y,0.32,1,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,902,tropical
+1466,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.5-y,0.32,2,NI,9,Disturbance,Burned,NA,NA,100,NA,891,tropical
+1467,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.5-y,0.32,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,895,tropical
+1468,Leuser Ecosystem chronosequence,Forest recovery following shifting cultivation.5-y,0.32,1,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,899,tropical
 1469,Leuser Ecosystem chronosequence,Undisturbed forest,1.2,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,903,tropical
 1470,Linhares,terra firma LIN-01,2.5,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2403,tropical
 1471,LLL-01a_La Lole,african tropical forest,4,1,NAC,9,No.info,NAC,NA,NA,NA,Lewis Ref [47]-Favrichon 1997,2172,tropical
@@ -1662,8 +1662,8 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 1661,Niah Forest Reserve chronosequence 2,Forest recovery following shifting cultivation,NAC,2,1987,8,Disturbance,Shifting cultivation,NA,NA,100,NA,1010,tropical
 1662,Niah Forest Reserve chronosequence 2,Forest recovery following shifting cultivation,NAC,3,1990,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1011,tropical
 1663,Niah Forest Reserve chronosequence 2,Forest recovery following shifting cultivation,NAC,4,1990,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1012,tropical
-1664,Niah River Chronosequence III,Forest recovery following shifting cultivation,NAC,1,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,1013,tropical
-1665,Niah River Chronosequence III,Forest recovery following shifting cultivation,NAC,2,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,1014,tropical
+1665,Niah River Chronosequence III,Forest recovery following shifting cultivation,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,1013,tropical
+1664,Niah River Chronosequence III,Forest recovery following shifting cultivation,NAC,1,NI,9,Disturbance,Shifting cultivation,NA,NA,100,NA,1014,tropical
 1666,Nickerie Rivier,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 1667,Nicolas Bravo,Forest recovery following maize agriculture.16 y,0.05,1,1970,8,Disturbance,Cultivation,4,year,100,Maize,369,tropical
 1668,Nicolas Bravo,Forest recovery following maize agriculture.16 y,0.05,2,1983,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,384,tropical
