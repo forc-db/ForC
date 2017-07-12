@@ -140,27 +140,21 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 140,Arroyo Negro,Forest recovery following maize agriculture.18 y,0.05,2,1981,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,315,tropical
 141,Arroyo Negro,Forest recovery following maize agriculture.18 y,0.05,3,1981,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,NA,323,tropical
 142,Arroyo Negro,Forest recovery following maize agriculture.4 y,0.05,1,1970,8.5,Disturbance,Cultivation,7,year,100,Maize,296,tropical
-143,Arroyo Negro,Forest recovery following maize agriculture.4 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,302,tropical
 144,Arroyo Negro,Forest recovery following maize agriculture.4 y,0.05,3,1995,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,308,tropical
 145,Arroyo Negro,Forest recovery following maize agriculture.4 y,0.05,4,1995,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,NA,316,tropical
 146,Arroyo Negro,Forest recovery following maize agriculture.5 y Fermin,0.05,1,1970,8.5,Disturbance,Cultivation,4,year,100,Maize,297,tropical
-147,Arroyo Negro,Forest recovery following maize agriculture.5 y Fermin,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,303,tropical
 148,Arroyo Negro,Forest recovery following maize agriculture.5 y Fermin,0.05,3,1994,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,309,tropical
 149,Arroyo Negro,Forest recovery following maize agriculture.5 y Fermin,0.05,4,1994,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,NA,317,tropical
 150,Arroyo Negro,Forest recovery following maize agriculture.5 y Gilberto,0.05,1,1970,8.5,Disturbance,Cultivation,1,year,100,Maize,298,tropical
-151,Arroyo Negro,Forest recovery following maize agriculture.5 y Gilberto,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,304,tropical
 152,Arroyo Negro,Forest recovery following maize agriculture.5 y Gilberto,0.05,3,1994,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,310,tropical
 153,Arroyo Negro,Forest recovery following maize agriculture.5 y Gilberto,0.05,4,1994,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,NA,318,tropical
 154,Arroyo Negro,Forest recovery following maize agriculture.7 y,0.05,1,1970,8.5,Disturbance,Cultivation,1,year,100,Maize,299,tropical
-155,Arroyo Negro,Forest recovery following maize agriculture.7 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,305,tropical
 156,Arroyo Negro,Forest recovery following maize agriculture.7 y,0.05,3,1992,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,311,tropical
 157,Arroyo Negro,Forest recovery following maize agriculture.7 y,0.05,4,1992,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,NA,319,tropical
 158,Arroyo Negro,Forest recovery following maize agriculture.8 y,0.05,1,1970,8.5,Disturbance,Cultivation,3+,year,100,Maize,300,tropical
-159,Arroyo Negro,Forest recovery following maize agriculture.8 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,306,tropical
 160,Arroyo Negro,Forest recovery following maize agriculture.8 y,0.05,3,1991,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,312,tropical
 161,Arroyo Negro,Forest recovery following maize agriculture.8 y,0.05,4,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,NA,320,tropical
 162,Arroyo Negro,Forest recovery following maize agriculture.9 y,0.05,1,1970,8.5,Disturbance,Cultivation,3+,year,100,Maize,301,tropical
-163,Arroyo Negro,Forest recovery following maize agriculture.9 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,307,tropical
 164,Arroyo Negro,Forest recovery following maize agriculture.9 y,0.05,3,1990,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,313,tropical
 165,Arroyo Negro,Forest recovery following maize agriculture.9 y,0.05,4,1990,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,NA,321,tropical
 166,Arroyo Negro,Undisturbed forest Antonio,0.05,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,mature forest,324,tropical
@@ -169,8 +163,8 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 169,ASN-04_Asenanyo F.R. 4,african tropical forest,0.88,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2095,tropical
 170,ASU-01_Asukese F.R. 1,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2096,tropical
 171,Atherton Gadgarra,long term management; undisturbed,0.25,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,well-developed rainforests with no evidence of disturbance,2219,tropical
-172,Atherton Tableland,long term management; disturbed by drought/fire/cyclone,0.5,1,1915,8,Disturbance,Drought,NA,NA,NAC,severely disturbed by drought and forest fires in 1915 and a cyclone in 1918.,2220,tropical
-173,Atherton Tableland,long term management; disturbed by drought/fire/cyclone,0.5,2,1915,8,Disturbance,Burned,NA,NA,NAC,severely disturbed by drought and forest fires in 1915 and a cyclone in 1918.,2221,tropical
+172,Atherton Tableland,long term management; disturbed by drought/fire/cyclone,0.5,1,1915,8,Disturbance,Drought,NA,NA,<100%,severely disturbed by drought and forest fires in 1915 and a cyclone in 1918.,2220,tropical
+173,Atherton Tableland,long term management; disturbed by drought/fire/cyclone,0.5,2,1915,8,Disturbance,Burned,NA,NA,<100%,severely disturbed by drought and forest fires in 1915 and a cyclone in 1918.,2221,tropical
 174,Atherton Tableland,long term management; disturbed by drought/fire/cyclone,0.5,3,1918,8,Disturbance,Major storm,NA,NA,<100%,severely disturbed by drought and forest fires in 1915 and a cyclone in 1918.,2222,tropical
 175,Atherton Tableland,long term management; disturbed by drought/fire/cyclone,0.5,4,NI,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),NA,NA,NA,severely disturbed by drought and forest fires in 1915 and a cyclone in 1918.,2223,tropical
 176,Atherton Wongabel,long term management; undisturbed,0.25,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,well-developed rainforests with no evidence of disturbance,2218,tropical
@@ -704,9 +698,8 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 704,El Ocote biosphere preserve undisturbed forest,Undisturbed forest,2.4,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,tropical
 705,El Pozo,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
 706,El Refugio,Forest recovery following maize agriculture.10 y,0.05,1,1970,8.5,Disturbance,Cultivation,2,year,100,Maize,332,tropical
-707,El Refugio,Forest recovery following maize agriculture.10 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,342,tropical
-708,El Refugio,Forest recovery following maize agriculture.10 y,0.05,3,1989,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,352,tropical
-709,El Refugio,Forest recovery following maize agriculture.10 y,0.05,4,1989,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,362,tropical
+708,El Refugio,Forest recovery following maize agriculture.10 y,0.05,2,1989,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,352,tropical
+709,El Refugio,Forest recovery following maize agriculture.10 y,0.05,3,1989,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,362,tropical
 710,El Refugio,Forest recovery following maize agriculture.12 y Hermelindo,0.05,1,1970,8.5,Disturbance,Cultivation,2,year,100,Maize,334,tropical
 711,El Refugio,Forest recovery following maize agriculture.12 y Hermelindo,0.05,2,1987,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,354,tropical
 712,El Refugio,Forest recovery following maize agriculture.12 y Hermelindo,0.05,3,1987,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,364,tropical
@@ -720,29 +713,23 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 720,El Refugio,Forest recovery following maize agriculture.12 y Juventino,0.05,3,1987,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,365,tropical
 721,El Refugio,Forest recovery following maize agriculture.12 y Juventino,0.05,4,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,345,tropical
 722,El Refugio,Forest recovery following maize agriculture.2 y,0.05,1,1970,8.5,Disturbance,Cultivation,5,year,100,Maize,326,tropical
-723,El Refugio,Forest recovery following maize agriculture.2 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,336,tropical
-724,El Refugio,Forest recovery following maize agriculture.2 y,0.05,3,1995,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,346,tropical
-725,El Refugio,Forest recovery following maize agriculture.2 y,0.05,4,1995,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,356,tropical
+724,El Refugio,Forest recovery following maize agriculture.2 y,0.05,2,1995,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,346,tropical
+725,El Refugio,Forest recovery following maize agriculture.2 y,0.05,3,1995,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,356,tropical
 726,El Refugio,Forest recovery following maize agriculture.3 y,0.05,1,1970,8.5,Disturbance,Cultivation,3,year,100,Maize,327,tropical
-727,El Refugio,Forest recovery following maize agriculture.3 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,337,tropical
-728,El Refugio,Forest recovery following maize agriculture.3 y,0.05,3,1996,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,347,tropical
-729,El Refugio,Forest recovery following maize agriculture.3 y,0.05,4,1996,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,357,tropical
+728,El Refugio,Forest recovery following maize agriculture.3 y,0.05,2,1996,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,347,tropical
+729,El Refugio,Forest recovery following maize agriculture.3 y,0.05,3,1996,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,357,tropical
 730,El Refugio,Forest recovery following maize agriculture.4 y,0.05,1,1970,8.5,Disturbance,Cultivation,5,year,100,Maize,328,tropical
-731,El Refugio,Forest recovery following maize agriculture.4 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,338,tropical
-732,El Refugio,Forest recovery following maize agriculture.4 y,0.05,3,1995,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,348,tropical
-733,El Refugio,Forest recovery following maize agriculture.4 y,0.05,4,1995,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,358,tropical
+732,El Refugio,Forest recovery following maize agriculture.4 y,0.05,2,1995,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,348,tropical
+733,El Refugio,Forest recovery following maize agriculture.4 y,0.05,3,1995,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,358,tropical
 734,El Refugio,Forest recovery following maize agriculture.5 y,0.05,1,1970,8.5,Disturbance,Cultivation,2,year,100,Maize,329,tropical
-735,El Refugio,Forest recovery following maize agriculture.5 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,339,tropical
-736,El Refugio,Forest recovery following maize agriculture.5 y,0.05,3,1994,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,349,tropical
-737,El Refugio,Forest recovery following maize agriculture.5 y,0.05,4,1994,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,359,tropical
+736,El Refugio,Forest recovery following maize agriculture.5 y,0.05,2,1994,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,349,tropical
+737,El Refugio,Forest recovery following maize agriculture.5 y,0.05,3,1994,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,359,tropical
 738,El Refugio,Forest recovery following maize agriculture.8 y Juan,0.05,1,1970,8.5,Disturbance,Cultivation,4,year,100,Maize,331,tropical
-739,El Refugio,Forest recovery following maize agriculture.8 y Juan,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,341,tropical
-740,El Refugio,Forest recovery following maize agriculture.8 y Juan,0.05,3,1991,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,351,tropical
-741,El Refugio,Forest recovery following maize agriculture.8 y Juan,0.05,4,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,361,tropical
+740,El Refugio,Forest recovery following maize agriculture.8 y Juan,0.05,2,1991,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,351,tropical
+741,El Refugio,Forest recovery following maize agriculture.8 y Juan,0.05,3,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,361,tropical
 742,El Refugio,Forest recovery following maize agriculture.8 y Rufino,0.05,1,1970,8.5,Disturbance,Cultivation,2,year,100,Maize,330,tropical
-743,El Refugio,Forest recovery following maize agriculture.8 y Rufino,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,340,tropical
-744,El Refugio,Forest recovery following maize agriculture.8 y Rufino,0.05,3,1991,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,350,tropical
-745,El Refugio,Forest recovery following maize agriculture.8 y Rufino,0.05,4,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,360,tropical
+744,El Refugio,Forest recovery following maize agriculture.8 y Rufino,0.05,2,1991,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,350,tropical
+745,El Refugio,Forest recovery following maize agriculture.8 y Rufino,0.05,3,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,360,tropical
 746,El Refugio,Undisturbed forest Camino Pr.,0.05,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,367,tropical
 747,El Refugio,Undisturbed forest Roberto,0.05,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,368,tropical
 748,El Refugio,Undisturbed forest Victor,0.05,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,366,tropical
@@ -1684,25 +1671,20 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 1685,Nicolas Bravo,Forest recovery following maize agriculture.25 y Enrique,0.05,2,1974,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,388,tropical
 1686,Nicolas Bravo,Forest recovery following maize agriculture.25 y Enrique,0.05,3,1974,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,398,tropical
 1687,Nicolas Bravo,Forest recovery following maize agriculture.3 y,0.05,1,1970,8,Disturbance,Cultivation,4?,year,100,Maize,374,tropical
-1688,Nicolas Bravo,Forest recovery following maize agriculture.3 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,379,tropical
-1689,Nicolas Bravo,Forest recovery following maize agriculture.3 y,0.05,3,1996,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,389,tropical
-1690,Nicolas Bravo,Forest recovery following maize agriculture.3 y,0.05,4,1996,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,399,tropical
+1689,Nicolas Bravo,Forest recovery following maize agriculture.3 y,0.05,2,1996,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,389,tropical
+1690,Nicolas Bravo,Forest recovery following maize agriculture.3 y,0.05,3,1996,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,399,tropical
 1691,Nicolas Bravo,Forest recovery following maize agriculture.5 y Enrique,0.05,1,1970,8,Disturbance,Cultivation,2+,year,100,Maize,375,tropical
-1692,Nicolas Bravo,Forest recovery following maize agriculture.5 y Enrique,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,380,tropical
-1693,Nicolas Bravo,Forest recovery following maize agriculture.5 y Enrique,0.05,3,1994,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,390,tropical
-1694,Nicolas Bravo,Forest recovery following maize agriculture.5 y Enrique,0.05,4,1994,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,400,tropical
+1693,Nicolas Bravo,Forest recovery following maize agriculture.5 y Enrique,0.05,2,1994,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,390,tropical
+1694,Nicolas Bravo,Forest recovery following maize agriculture.5 y Enrique,0.05,3,1994,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,400,tropical
 1695,Nicolas Bravo,Forest recovery following maize agriculture.5 y Pedro,0.05,1,1970,8,Disturbance,Cultivation,4,year,100,Maize,376,tropical
-1696,Nicolas Bravo,Forest recovery following maize agriculture.5 y Pedro,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,381,tropical
-1697,Nicolas Bravo,Forest recovery following maize agriculture.5 y Pedro,0.05,3,1994,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,391,tropical
-1698,Nicolas Bravo,Forest recovery following maize agriculture.5 y Pedro,0.05,4,1994,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,401,tropical
+1697,Nicolas Bravo,Forest recovery following maize agriculture.5 y Pedro,0.05,2,1994,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,391,tropical
+1698,Nicolas Bravo,Forest recovery following maize agriculture.5 y Pedro,0.05,3,1994,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,401,tropical
 1699,Nicolas Bravo,Forest recovery following maize agriculture.6 y,0.05,1,1970,8,Disturbance,Cultivation,4?,year,100,Maize,377,tropical
-1700,Nicolas Bravo,Forest recovery following maize agriculture.6 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,382,tropical
-1701,Nicolas Bravo,Forest recovery following maize agriculture.6 y,0.05,3,1993,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,392,tropical
-1702,Nicolas Bravo,Forest recovery following maize agriculture.6 y,0.05,4,1993,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,402,tropical
+1701,Nicolas Bravo,Forest recovery following maize agriculture.6 y,0.05,2,1993,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,392,tropical
+1702,Nicolas Bravo,Forest recovery following maize agriculture.6 y,0.05,3,1993,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,402,tropical
 1703,Nicolas Bravo,Forest recovery following maize agriculture.8 y,0.05,1,1970,8,Disturbance,Cultivation,4,year,100,Maize,378,tropical
-1704,Nicolas Bravo,Forest recovery following maize agriculture.8 y,0.05,2,1988,8,Disturbance,Major storm,NA,NA,<100%,Hurricane Gilbert,383,tropical
-1705,Nicolas Bravo,Forest recovery following maize agriculture.8 y,0.05,3,1991,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,393,tropical
-1706,Nicolas Bravo,Forest recovery following maize agriculture.8 y,0.05,4,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,403,tropical
+1705,Nicolas Bravo,Forest recovery following maize agriculture.8 y,0.05,2,1991,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,393,tropical
+1706,Nicolas Bravo,Forest recovery following maize agriculture.8 y,0.05,3,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,403,tropical
 1707,Nicolas Bravo,Undisturbed forest Calakmulita,0.05,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,406,tropical
 1708,Nicolas Bravo,Undisturbed forest NB1,0.05,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,404,tropical
 1709,Nicolas Bravo,Undisturbed forest NB2,0.05,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,405,tropical
@@ -3856,9 +3838,8 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 3865,Intensive Management Practices Assessment Center slash pine plantation (control),Stand development of unmanaged plantation,NAC,1,1981,8,Disturbance,Burned,NA,NA,NAC,wildfire through slash pine plantation,NA,extratropical
 3866,Intensive Management Practices Assessment Center slash pine plantation (control),Stand development of unmanaged plantation,NAC,2,1983,6,Regrowth,Planted,6050,plants ha-1,NA,1-year-old seedlings,NA,extratropical
 3867,Intensive Management Practices Assessment Center slash pine plantation (control),Stand development of unmanaged plantation,NAC,3,1983,8,Management,No_management,NA,NA,NA,NA,NA,extratropical
-3868,Ione - Tonzi Ranch,Managed grazed oak/grass savanna,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,Cattle grazing and understory removal by ranchers,NA,extratropical
+3868,Ione - Tonzi Ranch,Managed grazed oak/grass savanna,NAC,1,NI,9,Disturbance,Grazed,NA,NA,<100%,Cattle grazing and understory removal by ranchers,NA,extratropical
 3869,Ione - Tonzi Ranch,Managed grazed oak/grass savanna,NAC,2,NI,9,Disturbance,Harvest,NA,NA,<100%,Cattle grazing and understory removal by ranchers,NA,extratropical
-3870,Ione - Tonzi Ranch,Managed grazed oak/grass savanna,NAC,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,Cattle grazing and understory removal by ranchers,NA,extratropical
 3871,Irkutsk 1,NI,NAC,1,1899,8,Establishment,Establishment of oldest trees*,NA,NA,NA,No information available,NA,extratropical
 3872,Irkutsk 1,NI,NAC,2,1899,8,Regrowth,Initiation of post-disturbance cohort (planted or natural)*,NA,NA,NA,No information available,NA,extratropical
 3873,Irkutsk 2,NI,NAC,1,1879,8,Establishment,Establishment of oldest trees*,NA,NA,NA,Age method: Tree rings. No information available,NA,extratropical
@@ -4401,11 +4382,11 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 4410,Metolius 9,Managed,NAC,2,1905,8,Regrowth,Initiation of post-disturbance cohort (planted or natural)*,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
 4411,Metolius 90-y-o. Pine,mature ponderosa pine forest,NAC,1,1912,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,NA,extratropical
 4412,Metolius 90-y-o. Pine,mature ponderosa pine forest,NAC,2,1912,8,Regrowth,Initiation of post-disturbance cohort (planted or natural)*,NA,NA,NA,NA,NA,extratropical
-4413,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,1,1748,8,Establishment,Establishment of oldest trees*,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
-4414,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,2,1748,8,Disturbance,Burned,NA,NA,100,the old-growth component has remain unchanged since a 1748 fire that caused a 100% stand replacement.,NA,extratropical
-4415,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,3,1854,8,Disturbance,Burned,NA,NA,50,a second fire resulted in a 50% stand replacement,NA,extratropical
-4416,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,4,1944,8,Disturbance,Burned,NA,NA,50,the youngest trees the result of a 50% replacement fire in 1944.,NA,extratropical
-4417,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,5,1748,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,the old-growth component has remain unchanged since a 1748 fire that caused a 100% stand replacement.,NA,extratropical
+4413,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,3,1748,8,Establishment,Establishment of oldest trees*,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
+4414,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,1,1748,8,Disturbance,Burned,NA,NA,100,the old-growth component has remain unchanged since a 1748 fire that caused a 100% stand replacement.,NA,extratropical
+4415,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,4,1854,8,Disturbance,Burned,NA,NA,50,a second fire resulted in a 50% stand replacement,NA,extratropical
+4416,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,5,1944,8,Disturbance,Burned,NA,NA,50,the youngest trees the result of a 50% replacement fire in 1944.,NA,extratropical
+4417,Metolius Old Pine,"mosaic of old growth, young trees, and mixed age stands natural regeneration after fire",NAC,2,1748,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,the old-growth component has remain unchanged since a 1748 fire that caused a 100% stand replacement.,NA,extratropical
 4418,Metolius young,Managed,NAC,1,1978,8,Disturbance,Harvest,NA,NA,100,Harvested in 1978 naturally regenerated,NA,extratropical
 4419,Metolius young,Managed,NAC,2,1978,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,Harvested in 1978 naturally regenerated,NA,extratropical
 4420,Metolius young,Managed,NAC,3,1984,8,Establishment,Establishment of oldest trees*,NA,NA,NA,Harvested in 1978 naturally regenerated,NA,extratropical
