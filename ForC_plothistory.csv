@@ -1,5 +1,7 @@
 plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,distcat,disttype,level,units,percent.mortality,distnotes,plothistoryID.v1,tropical_extratropical
-1,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
+1,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,100,history event derived from plot.name,NA,tropical
+1.1,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,history event derived from plot.name,NA,tropical
+1.2,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,NA,tropical
 2,Acahual 1,Forest recovery following clear-cut and burn,2,1,1980,8,Disturbance,Burned,NA,NA,100,NA,6,tropical
 3,Acahual 1,Forest recovery following clear-cut and burn,2,2,1980,8,Disturbance,Cut,100,%,100,clear-cut,7,tropical
 4,Acahual 1,Forest recovery following clear-cut and burn,2,3,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,8,tropical
@@ -19,7 +21,9 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 18,Alava,natural regeneration of abandoned agroforestry secondary forest,NAC,2,1950,8.5,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,Abandoned 30-40 years prior to interview with landowner,1649,tropical
 19,Alava,natural regeneration of abandoned agroforestry secondary forest,NAC,3,1990,8,Disturbance,Major storm,NA,NA,<100%,more affected by hurricane because more exposed,1650,tropical
 20,Alberga,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
-21,Aleman,Premontane Rain Forest recovery following pasture abandonment,NAC,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
+21,Aleman,Premontane Rain Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,100,history event derived from plot.name,NA,tropical
+21.1,Aleman,Premontane Rain Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,history event derived from plot.name,NA,tropical
+21.2,Aleman,Premontane Rain Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
 22,Allpahuayo A,terra firma ALP-A,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,5700,tropical
 23,Allpahuayo A ALP11/ALP12,wet aseasonal forest,1,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,2284,tropical
 24,Allpahuayo A clay-rich soils,terra firma clay-rich soils ALP-11,0.44,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2339,tropical
@@ -180,7 +184,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 186,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.12-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,Natural regeneration,5638,tropical
 187,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5634,tropical
 188,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,Natural regeneration,5639,tropical
-189,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,3,NI,9,Disturbance,Cut,NaN,NaN,<100%,pole cutting from local people,5640,tropical
+189,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,3,NI,9,Disturbance,Cut,NaN,NaN,<<100%,pole cutting from local people,5640,tropical
 190,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.4-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5631,tropical
 191,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.4-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,Natural regeneration,5636,tropical
 192,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.8-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5632,tropical
@@ -320,7 +324,9 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 326,BDFFP km 67,Forest recovery following pasture abandonment.K13? ~1981,NAC,4,1981,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,2328,tropical
 327,BDFFP Reserve,old-growth tropical forest.BDF1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 328,BDFFP Reserve,secondary tropical forest.BDF2,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,tropical
-329,Bebedero,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
+329,Bebedero,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,100,History event derived from plot.name,NA,tropical
+329.1,Bebedero,Tropical Dry Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,History event derived from plot.name,NA,tropical
+329.2,Bebedero,Tropical Dry Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
 330,Bionte (Luizao),lowland tropical forest,,1,NAC,9,No.info,NI,NA,NA,NA,NA,5614,tropical
 331,Bionte 1,terra firma BNT-01,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2359,tropical
 332,Bionte 2,terra firma BNT-02,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2360,tropical
@@ -434,7 +440,9 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 440,Brazilian Lower Amazon mature forest,mature forest,0.15,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,560,tropical
 441,Brownsberg,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 442,BUD-17_Budongo Plot 7,african tropical forest,1.86,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2101,tropical
-443,Buen Uso,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
+443,Buen Uso,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,100,History event derived from plot.name,NA,tropical
+443.1,Buen Uso,Tropical Dry Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,History event derived from plot.name,NA,tropical
+443.2,Buen Uso,Tropical Dry Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
 444,Bukit Soeharto,Forest recovery following fire,NAC,1,NI,9,Disturbance,Burned,NA,NA,100,"Secondary forest, regenerating after fire in 1998",561,tropical
 445,Bukit Soeharto,Forest recovery following fire,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,"Secondary forest, regenerating after fire in 1998",562,tropical
 446,Bukit Soeharto,Forest recovery following fire,NAC,3,1998,8,Establishment,Establishment of oldest trees,NA,NA,NA,"Secondary forest, regenerating after fire in 1998",563,tropical
@@ -1267,7 +1275,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 1281,Johnson et al 2000_sandy subtropical_1,Forest recovery following slash and burn agriculture,NAC,3,NI,9,Disturbance,Cultivation,NA,NA,100,NA,876,tropical
 1282,Johnson et al 2000_sandy subtropical_1,Forest recovery following slash and burn agriculture,NAC,4,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,879,tropical
 1283,Juruena,Managed.reduced impact logging,,1,2003,8,Disturbance,Cut,6.4-15,m3 ha-1,<100%,NA,5659,tropical
-1284,Juruena,undisturbed forest,,1,1980,8.5,Disturbance,Harvest,NI,NI,<100%,it is likely that some mahogany had been harvested in the last 2 decades,5661,tropical
+1284,Juruena,undisturbed forest,,1,1980,8.5,Disturbance,Harvest,NI,NI,<<100%,it is likely that some mahogany had been harvested in the last 2 decades,5661,tropical
 1285,Juruena,undisturbed forest,,2,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,5662,tropical
 1286,Kabaung reserved forest compartment 103,Managed.33 stands in selectively logged natural teak forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,tropical
 1287,Kade,UM 30-50 yr Semi-deciduous secondary forest,NAC,1,1925,8.5,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,Not cultivated for previous 40-50 years,880,tropical
