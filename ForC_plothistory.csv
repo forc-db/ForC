@@ -1948,9 +1948,9 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 1947,Pitahaya,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,100,History event derived from plot.name,NA,tropical
 1948,Pitahaya,Tropical Dry Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,History event derived from plot.name,NA,tropical
 1949,Pitahaya,Tropical Dry Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
-1950,Pitahaya,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,100,History event derived from plot.name,NA,tropical
-1951,Pitahaya,Tropical Dry Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,History event derived from plot.name,NA,tropical
-1952,Pitahaya,Tropical Dry Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
+1950,Pocosol,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,100,History event derived from plot.name,NA,tropical
+1951,Pocosol,Tropical Dry Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,History event derived from plot.name,NA,tropical
+1952,Pocosol,Tropical Dry Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,tropical
 1953,Podocarpus 1,UM,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,2272,tropical
 1954,Podocarpus 2,UM,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,2273,tropical
 1955,Podocarpus National Park 1,montane tropical forest.PNP1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
@@ -6140,6 +6140,3 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 6139,Zhuwagen Quercus,Quercus,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 6140,Zotino,Pinus sylvestris,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 6141,Zuogong,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
