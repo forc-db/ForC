@@ -1589,18 +1589,16 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 1583,Luo Site 4700.Dinghushan,evergreen broadleaved forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,Age.det.by: Tree rings. ,2116,tropical
 1584,Luo Site 4722.Heishiding 2,evergreen broadleaved forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,Age.det.by: Tree rings. ,2155,tropical
 1585,Luo Site Table 3-63 Limushan,montane rainforest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,Age.det.by: Tree rings. ,2171,tropical
-1586,Luquillo,UM,NAC,1,1930,8.5,Establishment,Establishment of oldest trees*,NA,NA,NA,Undisturbed since about 1930. LTERNET: human disturbance nearly everywhere in Luquillo until USFS acquired LEF in about the 1930s,934,tropical
+1586,Luquillo,UM,NAC,1,,9,Establishment,Establishment of oldest trees*,NA,NA,NA,Undisturbed since about 1930. LTERNET: human disturbance nearly everywhere in Luquillo until USFS acquired LEF in about the 1930s,934,tropical
 1587,Luquillo,UM,NAC,2,1930,8.5,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,Undisturbed since about 1930. LTERNET: human disturbance nearly everywhere in Luquillo until USFS acquired LEF in about the 1930s,935,tropical
 1588,Luquillo,UM,NAC,3,1930,8.5,No.disturbance,No disturbance,NA,NA,NA,Undisturbed since about 1930. LTERNET: human disturbance nearly everywhere in Luquillo until USFS acquired LEF in about the 1930s,936,tropical
 1589,Luquillo (ORNL),UM,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 1590,Luquillo 2,UM pine plantation on abandoned cropland,NAC,1,NI,9,Disturbance,Cultivation,NA,NA,100,"The plantation was established on an abandoned cropland in 1976 as part of a reforestation program of the United States Forest Service (Lugo, 1992).",937,tropical
 1591,Luquillo 2,UM pine plantation on abandoned cropland,NAC,2,1976,8,Regrowth,Planted,NA,NA,NA,"The plantation was established on an abandoned cropland in 1976 as part of a reforestation program of the United States Forest Service (Lugo, 1992).",938,tropical
-1592,Luquillo 2,UM secondary forest on abandoned cropland,NAC,1,NI,9,Disturbance,Cultivation,NA,NA,100,he secondary forest was naturally developed on the same abandoned cropland during the same period as pine plantation (1976).,939,tropical
-1593,Luquillo 2,UM secondary forest on abandoned cropland,NAC,2,1976,8,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,he secondary forest was naturally developed on the same abandoned cropland during the same period as pine plantation (1976).,940,tropical
+1592,Luquillo 2,UM secondary forest on abandoned cropland,NAC,1,NI,9,Disturbance,Cultivation,NA,NA,100,The secondary forest was naturally developed on the same abandoned cropland during the same period as pine plantation (1976).,939,tropical
+1593,Luquillo 2,UM secondary forest on abandoned cropland,NAC,2,1976,8,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,The secondary forest was naturally developed on the same abandoned cropland during the same period as pine plantation (1976).,940,tropical
 1594,Luquillo 3,"Prestoea montana, tropical palm forest",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2176,tropical
 1595,Luquillo Experimental Forest,1932 hurricane recovery,NAC,1,1932,8,Disturbance,Major storm,NA,NA,<100%,NA,941,tropical
-1596,Luquillo Experimental Forest,1932 hurricane recovery,NAC,2,1932,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,942,tropical
-1597,Luquillo Experimental Forest,1932 hurricane recovery,NAC,3,1932,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,943,tropical
 1598,Luquillo Forest Dynamics Plot,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 1599,LWW-01_Lope West Woods,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,2177,tropical
 1600,Madeira River 1,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
@@ -3991,10 +3989,10 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 3985,Indiana,"Quercus shumardii, Liquidambar styraciflua",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 3986,Intensive Management Practices Assessment Center loblolly pine plantation (control),Stand development of unmanaged plantation,NAC,1,1981,8,Disturbance,Burned,NA,NA,NAC,wildfire through slash pine plantation,NA,extratropical
 3987,Intensive Management Practices Assessment Center loblolly pine plantation (control),Stand development of unmanaged plantation,NAC,2,1983,6,Regrowth,Planted,6050,plants ha-1,NA,1-year-old seedlings,NA,extratropical
-3988,Intensive Management Practices Assessment Center loblolly pine plantation (control),Stand development of unmanaged plantation,NAC,3,1983,8,Management,No_management,NA,NA,NA,NA,NA,extratropical
+3988,Intensive Management Practices Assessment Center loblolly pine plantation (control),Stand development of unmanaged plantation,NAC,3,1983,8,No.disturbance,No disturbance,NA,NA,NA,NA,NA,extratropical
 3989,Intensive Management Practices Assessment Center slash pine plantation (control),Stand development of unmanaged plantation,NAC,1,1981,8,Disturbance,Burned,NA,NA,NAC,wildfire through slash pine plantation,NA,extratropical
 3990,Intensive Management Practices Assessment Center slash pine plantation (control),Stand development of unmanaged plantation,NAC,2,1983,6,Regrowth,Planted,6050,plants ha-1,NA,1-year-old seedlings,NA,extratropical
-3991,Intensive Management Practices Assessment Center slash pine plantation (control),Stand development of unmanaged plantation,NAC,3,1983,8,Management,No_management,NA,NA,NA,NA,NA,extratropical
+3991,Intensive Management Practices Assessment Center slash pine plantation (control),Stand development of unmanaged plantation,NAC,3,1983,8,No.disturbance,No disturbance,NA,NA,NA,NA,NA,extratropical
 3992,Ione - Tonzi Ranch,Managed grazed oak/grass savanna,NAC,1,NI,9,Disturbance,Grazed,NA,NA,<100%,Cattle grazing and understory removal by ranchers,NA,extratropical
 3993,Ione - Tonzi Ranch,Managed grazed oak/grass savanna,NAC,2,NI,9,Disturbance,Harvest,NA,NA,<100%,Cattle grazing and understory removal by ranchers,NA,extratropical
 3994,Irkutsk 1,NI,NAC,1,1899,8,Establishment,Establishment of oldest trees*,NA,NA,NA,No information available,NA,extratropical
