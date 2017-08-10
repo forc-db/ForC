@@ -1730,17 +1730,17 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 1726,Ngong,plantation fallow - Acacia polyacantha,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,The former woody savanna was clearcut and burned on-site by the farmer,1875,tropical
 1727,Ngong,plantation fallow - Acacia polyacantha,NAC,3,NI,9,Disturbance,Cultivation,>10,year,100,a cropping system based on a biennial rotation of cotton and peanut was practiced for more than 10 years,1880,tropical
 1728,Ngong,plantation fallow - Acacia polyacantha,NAC,4,NI,9,Regrowth,Planted,NA,NA,NA,Trees and peanut were planted simultaneously the first year and intercropping continued in the second year with cotton,1885,tropical
-1729,Ngong,plantation fallow - Acacia polyacantha,NAC,5,NI,9,Management,Plantation,5,year,NA,The fallow period (without intercropping) lasted 5 years.,1888,tropical
+1729,Ngong,plantation fallow - Acacia polyacantha,NAC,5,NI,9,Management,Seeded_agriculture,2,year,NA,The fallow period (without intercropping) lasted 5 years.,1888,tropical
 1730,Ngong,plantation fallow - Eucalyptus camaldulensis,NAC,1,NI,9,Disturbance,Cut,100,%,100,The former woody savanna was clearcut and burned on-site by the farmer,1872,tropical
 1731,Ngong,plantation fallow - Eucalyptus camaldulensis,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,The former woody savanna was clearcut and burned on-site by the farmer,1877,tropical
 1732,Ngong,plantation fallow - Eucalyptus camaldulensis,NAC,3,NI,9,Disturbance,Cultivation,>10,year,100,a cropping system based on a biennial rotation of cotton and peanut was practiced for more than 10 years,1882,tropical
 1733,Ngong,plantation fallow - Eucalyptus camaldulensis,NAC,4,NI,9,Regrowth,Planted,NA,NA,NA,Trees and peanut were planted simultaneously the first year and intercropping continued in the second year with cotton,1887,tropical
-1734,Ngong,plantation fallow - Eucalyptus camaldulensis,NAC,5,NI,9,Management,Plantation,5,year,NA,The fallow period (without intercropping) lasted 5 years.,1890,tropical
+1734,Ngong,plantation fallow - Eucalyptus camaldulensis,NAC,5,NI,9,Management,Seeded_agriculture,2,year,NA,The fallow period (without intercropping) lasted 5 years.,1890,tropical
 1735,Ngong,plantation fallow - Senna siamea,NAC,1,NI,9,Disturbance,Cut,100,%,100,The former woody savanna was clearcut and burned on-site by the farmer,1871,tropical
 1736,Ngong,plantation fallow - Senna siamea,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,The former woody savanna was clearcut and burned on-site by the farmer,1876,tropical
 1737,Ngong,plantation fallow - Senna siamea,NAC,3,NI,9,Disturbance,Cultivation,>10,year,100,a cropping system based on a biennial rotation of cotton and peanut was practiced for more than 10 years,1881,tropical
 1738,Ngong,plantation fallow - Senna siamea,NAC,4,NI,9,Regrowth,Planted,NA,NA,NA,Trees and peanut were planted simultaneously the first year and intercropping continued in the second year with cotton,1886,tropical
-1739,Ngong,plantation fallow - Senna siamea,NAC,5,NI,9,Management,Plantation,5,year,NA,"The fallow period (without intercropping) lasted 5 years. Senna had not been included in the initial design, but was installed, 1 year after the plantation of the other tree species",1889,tropical
+1739,Ngong,plantation fallow - Senna siamea,NAC,5,NI,9,Management,Seeded_agriculture,2,year,NA,"The fallow period (without intercropping) lasted 5 years. Senna had not been included in the initial design, but was installed, 1 year after the plantation of the other tree species",1889,tropical
 1740,Niah Forest Reserve chronosequence 1,Forest recovery following shifting cultivation,NAC,1,1980,8,Disturbance,Harvest,NA,NA,100,NA,1005,tropical
 1741,Niah Forest Reserve chronosequence 1,Forest recovery following shifting cultivation,NAC,2,1987,8,Disturbance,Shifting cultivation,NA,NA,100,NA,1006,tropical
 1742,Niah Forest Reserve chronosequence 1,Forest recovery following shifting cultivation,NAC,3,1995,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1007,tropical
@@ -3043,16 +3043,14 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 3039,Balmoral,Managed,NAC,2,1986,8,Regrowth,Planted,NA,NA,NA,Planted in 1986,NA,extratropical
 3040,BangorFACE,Ambient CO2 F. sylvatica,NAC,1,2003,8,Disturbance,Harvest,NA,NA,NAC,NA,NA,extratropical
 3041,BangorFACE,Ambient CO2 F. sylvatica,NAC,2,2004.163934,6,Regrowth,Planted,15000,plants ha-1,NA,NA,NA,extratropical
-3042,BangorFACE,Ambient CO2 F. sylvatica,NAC,3,2005.246575,6,Management,CO2_fumigation,380,ppm,NA,NA,NA,extratropical
 3043,BangorFACE,Ambient CO2 Mixture ,NAC,1,2003,8,Disturbance,Harvest,NA,NA,NAC,NA,NA,extratropical
 3044,BangorFACE,Ambient CO2 Mixture ,NAC,2,2004.163934,6,Regrowth,Planted,15000,plants ha-1,NA,NA,NA,extratropical
-3045,BangorFACE,Ambient CO2 Mixture ,NAC,3,2005.246575,6,Management,CO2_fumigation,380,ppm,NA,NA,NA,extratropical
 3046,BangorFACE,Elevated CO2 F. sylvatica,NAC,1,2003,8,Disturbance,Harvest,NA,NA,NAC,NA,NA,extratropical
 3047,BangorFACE,Elevated CO2 F. sylvatica,NAC,2,2004.163934,6,Regrowth,Planted,15000,plants ha-1,NA,NA,NA,extratropical
-3048,BangorFACE,Elevated CO2 F. sylvatica,NAC,3,2005.246575,6,Management,CO2_fumigation,580,ppm,NA,NA,NA,extratropical
+3048,BangorFACE,Elevated CO2 F. sylvatica,NAC,3,2005.246575,6,Management,CO2_fumigation,580,ppm,NA,ambient was 380ppm,NA,extratropical
 3049,BangorFACE,Elevated CO2 Mixture ,NAC,1,2003,8,Disturbance,Harvest,NA,NA,NAC,NA,NA,extratropical
 3050,BangorFACE,Elevated CO2 Mixture ,NAC,2,2004.163934,6,Regrowth,Planted,15000,plants ha-1,NA,NA,NA,extratropical
-3051,BangorFACE,Elevated CO2 Mixture ,NAC,3,2005.246575,6,Management,CO2_fumigation,580,ppm,NA,NA,NA,extratropical
+3051,BangorFACE,Elevated CO2 Mixture ,NAC,3,2005.246575,6,Management,CO2_fumigation,580,ppm,NA,ambient was 380ppm,NA,extratropical
 3052,Baotianman Nature Reserve,natural regeneration of secondary Quercus acutidentata forest,NAC,1,NI,9,Disturbance,Harvest,NA,NA,100,naturally regenerated after destruction of natural forest,NA,extratropical
 3053,Baotianman Nature Reserve,natural regeneration of secondary Quercus acutidentata forest,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,naturally regenerated after destruction of natural forest,NA,extratropical
 3054,Baotianman Nature Reserve,natural regeneration of secondary Quercus acutidentata forest,NAC,3,1961,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,NA,extratropical
@@ -5810,6 +5808,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 5805,Web-FACE ,Ambient CO2,NAC,2,1900,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural)*,NA,NA,NA,NA,NA,extratropical
 5806,Web-FACE ,Elevated CO2,NAC,1,1900,8.5,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,NA,extratropical
 5807,Web-FACE ,Elevated CO2,NAC,2,1900,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural)*,NA,NA,NA,NA,NA,extratropical
+5807.5,Web-FACE ,Elevated CO2,NAC,3,1900,8.5,Management,CO2_fumigation,NAC,NA,NA,NA,NA,extratropical
 5808,Weidong,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 5809,Weixi 1,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 5810,Weixi 2,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical

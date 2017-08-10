@@ -27,7 +27,6 @@ Management,Herbicide,Herbicide application.,kg ha-1
 Management,Irrigation,Experimental or agricultural irrigation,"mm yr-1, mm day-1"
 Management,Pesticide,Pesticide application.,kg ha-1
 Management,Planted,"Planting of trees within existing forest stand (e.g., to fill gaps)",plants ha-1
-Management,Plantation,Managed as a plantation. (Category added 2017),NA
 Management,Precipitation diversion,Experimental rain exclusion or partial blockage of precipitation. ,mm yr-1
 Management,Seeded_agriculture,Seeded with pasture grasses or crops,NA
 Management,Soil disturbance,"Mechanical soil disturbance (e.g.,  tillage, ditching, trenching, installation of soil warming cables, soil scarification, adding soil to improve cultivation). This is distinct from Disturbance:Tillage in that it does not involve forest clearing", (depth)
