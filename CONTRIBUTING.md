@@ -1,9 +1,9 @@
 # Contributing to the database: 
-We anticipate that ForC-db will be of great value for various initiatives seeking to understand and manage the role of tropical forests in the global C cycle, and we encourage authors to contribute data. We hope that this will provide an avenue for data contributors to collaborate on projects using the data that they provide, and we encourage database users to inform researchers who contribute to the database of intended use of the data and to discuss potential collaboration (see `DATA USE POLICY.md`: https://github.com/forc-db/ForC/blob/master/DATA%20USE%20POLICY.md). However, the database is open access, and data contributors assume the risk that some users may not adhere to our best practices guidelines. 
+We anticipate that ForC-db will be of great value for various initiatives seeking to understand and manage the role of tropical forests in the global C cycle, and we encourage authors to contribute data. We hope that this will provide an avenue for data contributors to collaborate on projects using the data that they provide, and we encourage database users to inform researchers who contribute to the database of intended use of the data and to discuss potential collaboration (see [`DATA USE POLICY.md`](https://github.com/forc-db/ForC/blob/master/DATA%20USE%20POLICY.md)). However, the database is open access, and data contributors assume the risk that some users may not adhere to our best practices guidelines. 
 
 Instructions for formally adding data to the master branch of ForC-db are given below.
 
-Alternatively, if you want to post data that has not been formatted for ForC-db, you can do so by creating a Github issue: https://help.github.com/articles/creating-an-issue. That way the existence of a dataset can be recorded and discussed without requiring anyone to format it until someone is motivated to do so (e.g., because it will help them with their research).
+Alternatively, if you want to post data that has not been formatted for ForC-db, you can do so by creating a [Github issue](https://help.github.com/articles/creating-an-issue). That way the existence of a dataset can be recorded and discussed without requiring anyone to format it until someone is motivated to do so (e.g., because it will help them with their research).
 
 
 ## Basic instructions for editing ForC-db: 
@@ -26,5 +26,5 @@ Alternatively, if you want to post data that has not been formatted for ForC-db,
     d.	Every cell should be populated. For missing data, please use missing data codes (Additional Table 1 in [readme_ForC.pdf](ForC/readme_ForC.pdf)) to indicate reason for missing values.  
     e.	Conduct basic QA/QC to make sure additions/changes are made in all linked files.  
 6.	Add new rows to the bottom of existing files (or replace old files with updated files), and commit changes to the newly created branch.  
-7.	Open a pull request: https://help.github.com/articles/creating-a-pull-request/. This will compare changes across the master branch and the new branch.  
+7.	Open a [pull request](https://help.github.com/articles/creating-a-pull-request/). This will compare changes across the master branch and the new branch.  
 8.	Database authors will approve pull request and merge changes. Include the words “fixes #__ <insert Issue number> to automatically close issue. Otherwise, manually close issue and refer to pull request. Delete branch when changes have been merged.  
