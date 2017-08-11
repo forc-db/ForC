@@ -18,9 +18,9 @@ ForC-db is an open access database, and we encourage use of the data for scienti
 We anticipate that ForC-db will be of great value for various initiatives seeking to understand and manage the role of tropical forests in the global C cycle, and we encourage authors to contribute data. Please see [`CONTRIBUTING.md`](https://github.com/forc-db/ForC/blob/master/CONTRIBUTING.md).
 
 ## Database citations
-* Anderson-Teixeira, K.J. *et al.* 2016. [Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db))](http://dx.doi.org/10.1111/gcb.13226). Global Change Biology. 
+* Anderson-Teixeira, K.J. *et al.* 2016. [Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db)](http://dx.doi.org/10.1111/gcb.13226). Global Change Biology. 
 
-* Anderson-Teixeira, K.J. *et al.* 2016. [Data from: Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db))](http://dx.doi.org/10.5061/dryad.t516f). Dryad Digital Repository.
+* Anderson-Teixeira, K.J. *et al.* 2016. [Data from: Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db)](http://dx.doi.org/10.5061/dryad.t516f). Dryad Digital Repository.
 
 
 ## Funding acknowledgements
