@@ -2894,7 +2894,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 2890,Aheden,UM,NAC,3,NAC,9,Disturbance,Grazed,NA,NA,<100%,"Natural unmanaged, forest fires and reindeer grazing",NA,extratropical
 2891,Aheden 2,NI,NAC,1,1953,8,Establishment,Establishment of oldest trees*,NA,NA,NA,Age method: Tree rings. No information.,NA,extratropical
 2892,Aheden 2,NI,NAC,2,1953,8,Regrowth,Initiation of post-disturbance cohort (planted or natural)*,NA,NA,NA,Age method: Tree rings. No information.,NA,extratropical
-2893,Ailao,"Lithocarpus chintungensis, Rhododendron leptothrium, Vaccinium duclouxii, Lithocarpus xylocarpus, Castanopsis wattii, Schima noronhae, Hartia sinensis, Manglietia insignsis",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
+2893,Ailao,old-growth subtropical Asian evergreen forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 2894,Akou,plantation forest,NAC,1,1987,8,Regrowth,Planted,15000,plants ha-1,NA,3-year-old seedlings planted at density of 1-2 plants m-2. Planting density assumes 1.5 plants m-2.,NA,extratropical
 2895,Akou,plantation forest,NAC,2,1987,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,NA,extratropical
 2896,Akou,plantation forest,NAC,3,1996,8,Disturbance,Cut,NA,NA,NAC,planted Pinus thunbergii cut and removed because of pine-wilt disease,NA,extratropical
