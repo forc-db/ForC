@@ -33,49 +33,49 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 32,Allpahuayo B sandy soils,terra firma sandy soils ALP-21,0.48,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2342,tropical
 33,Allpahuayo C ALP30,wet aseasonal forest,1,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,2285,tropical
 34,Allpahuayo C ALP30,white sand,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,5703,tropical
-35,AM10,Forest recovery following long-term agriculture. A3,4,1,1985,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 6 y rice",14,tropical
-36,AM10,Forest recovery following long-term agriculture. A3,4,2,1985,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 6 y rice",15,tropical
-37,AM10,Forest recovery following long-term agriculture. A3,4,3,1985,8,Disturbance,Cultivation,6,year,100,"Forest, slash-and-burn, 6 y rice",16,tropical
-38,AM10,Forest recovery following long-term agriculture. A3,4,4,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 6 y rice",17,tropical
-39,AM10,Forest recovery following long-term agriculture. A3,4,5,1991,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,18,tropical
-40,AM10,Forest recovery following long-term pasture. A12,2,1,1982,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 6 y pasture",19,tropical
-41,AM10,Forest recovery following long-term pasture. A12,2,2,1982,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 6 y pasture",20,tropical
-42,AM10,Forest recovery following long-term pasture. A12,2,3,1982,8,Disturbance,Grazed,6,year,100,"Forest, slash-and-burn, 6 y pasture",21,tropical
-43,AM10,Forest recovery following long-term pasture. A12,2,4,1988,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 6 y pasture",22,tropical
-44,AM10,Forest recovery following long-term pasture. A12,2,5,1988,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,23,tropical
-45,AM10,Forest recovery following long-term pasture. A9,4,1,1973,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 7 y pasture",24,tropical
-46,AM10,Forest recovery following long-term pasture. A9,4,2,1973,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 7 y pasture",25,tropical
-47,AM10,Forest recovery following long-term pasture. A9,4,3,1973,8,Disturbance,Grazed,7,year,100,"Forest, slash-and-burn, 7 y pasture",26,tropical
-48,AM10,Forest recovery following long-term pasture. A9,4,4,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 7 y pasture",27,tropical
-49,AM10,Forest recovery following long-term pasture. A9,4,5,1980,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,28,tropical
-50,AM10,Forest recovery following short-term agriculture. A10,2.5,1,1983,8,Disturbance,Cut,100,%,100,cleared not burned and then immediately abandoned without any cultivation,29,tropical
-51,AM10,Forest recovery following short-term agriculture. A10,2.5,2,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,cleared not burned and then immediately abandoned without any cultivation,30,tropical
-52,AM10,Forest recovery following short-term agriculture. A10,2.5,3,1983,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,31,tropical
-53,AM10,Forest recovery following short-term agriculture. A2,8,1,1984,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y rice",32,tropical
-54,AM10,Forest recovery following short-term agriculture. A2,8,2,1984,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y rice",33,tropical
-55,AM10,Forest recovery following short-term agriculture. A2,8,3,1984,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y rice",34,tropical
-56,AM10,Forest recovery following short-term agriculture. A2,8,4,1985,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 1 y rice",35,tropical
-57,AM10,Forest recovery following short-term agriculture. A2,8,5,1985,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,36,tropical
-58,AM10,Forest recovery following short-term agriculture. A5,2,1,1983,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, seeded w/ rice only + abandoned, sandy hilltop",37,tropical
-59,AM10,Forest recovery following short-term agriculture. A5,2,2,1983,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, seeded w/ rice only + abandoned, sandy hilltop",38,tropical
-60,AM10,Forest recovery following short-term agriculture. A5,2,3,1983,8,Management,Seeded_agriculture,NA,NA,NA,"Forest, slash-and-burn, seeded w/ rice only + abandoned, sandy hilltop",39,tropical
-61,AM10,Forest recovery following short-term agriculture. A5,2,4,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, seeded w/ rice only + abandoned, sandy hilltop",40,tropical
-62,AM10,Forest recovery following short-term agriculture. A5,2,5,1983,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,41,tropical
-63,AM10,Forest recovery following short-term agriculture. A6,6,1,1974,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y rice",42,tropical
-64,AM10,Forest recovery following short-term agriculture. A6,6,2,1974,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y rice",43,tropical
-65,AM10,Forest recovery following short-term agriculture. A6,6,3,1974,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y rice",44,tropical
-66,AM10,Forest recovery following short-term agriculture. A6,6,4,1975,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 1 y rice",45,tropical
-67,AM10,Forest recovery following short-term agriculture. A6,6,5,1975,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,46,tropical
-68,AM10,Forest recovery following short-term agriculture. A7,5,1,1971,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y rice",47,tropical
-69,AM10,Forest recovery following short-term agriculture. A7,5,2,1971,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y rice",48,tropical
-70,AM10,Forest recovery following short-term agriculture. A7,5,3,1971,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y rice",49,tropical
-71,AM10,Forest recovery following short-term agriculture. A7,5,4,1972,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y rice",50,tropical
-72,AM10,Forest recovery following short-term agriculture. A7,5,5,1972,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,51,tropical
-73,AM10,Forest recovery following short-term pasture. A8,4,1,1974,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y pasture",52,tropical
-74,AM10,Forest recovery following short-term pasture. A8,4,2,1974,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y pasture",53,tropical
-75,AM10,Forest recovery following short-term pasture. A8,4,3,1974,8,Disturbance,Grazed,1,year,100,"Forest, slash-and-burn, 1 y pasture",54,tropical
-76,AM10,Forest recovery following short-term pasture. A8,4,4,1975,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 1 y pasture",55,tropical
-77,AM10,Forest recovery following short-term pasture. A8,4,5,1975,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,56,tropical
+35,AM10,Forest recovery following long-term agriculture. A3,0.07,1,1985,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 6 y rice",14,tropical
+36,AM10,Forest recovery following long-term agriculture. A3,0.07,2,1985,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 6 y rice",15,tropical
+37,AM10,Forest recovery following long-term agriculture. A3,0.07,3,1985,8,Disturbance,Cultivation,6,year,100,"Forest, slash-and-burn, 6 y rice",16,tropical
+38,AM10,Forest recovery following long-term agriculture. A3,0.07,4,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 6 y rice",17,tropical
+39,AM10,Forest recovery following long-term agriculture. A3,0.07,5,1991,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,18,tropical
+40,AM10,Forest recovery following long-term pasture. A12,0.08,1,1982,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 6 y pasture",19,tropical
+41,AM10,Forest recovery following long-term pasture. A12,0.08,2,1982,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 6 y pasture",20,tropical
+42,AM10,Forest recovery following long-term pasture. A12,0.08,3,1982,8,Disturbance,Grazed,6,year,100,"Forest, slash-and-burn, 6 y pasture",21,tropical
+43,AM10,Forest recovery following long-term pasture. A12,0.08,4,1988,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 6 y pasture",22,tropical
+44,AM10,Forest recovery following long-term pasture. A12,0.08,5,1988,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,23,tropical
+45,AM10,Forest recovery following long-term pasture. A9,0.07,1,1973,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 7 y pasture",24,tropical
+46,AM10,Forest recovery following long-term pasture. A9,0.07,2,1973,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 7 y pasture",25,tropical
+47,AM10,Forest recovery following long-term pasture. A9,0.07,3,1973,8,Disturbance,Grazed,7,year,100,"Forest, slash-and-burn, 7 y pasture",26,tropical
+48,AM10,Forest recovery following long-term pasture. A9,0.07,4,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 7 y pasture",27,tropical
+49,AM10,Forest recovery following long-term pasture. A9,0.07,5,1980,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,28,tropical
+50,AM10,Forest recovery following short-term agriculture. A10,0.1,1,1983,8,Disturbance,Cut,100,%,100,cleared not burned and then immediately abandoned without any cultivation,29,tropical
+51,AM10,Forest recovery following short-term agriculture. A10,0.1,2,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,cleared not burned and then immediately abandoned without any cultivation,30,tropical
+52,AM10,Forest recovery following short-term agriculture. A10,0.1,3,1983,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,31,tropical
+53,AM10,Forest recovery following short-term agriculture. A2,0.07,1,1984,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y rice",32,tropical
+54,AM10,Forest recovery following short-term agriculture. A2,0.07,2,1984,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y rice",33,tropical
+55,AM10,Forest recovery following short-term agriculture. A2,0.07,3,1984,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y rice",34,tropical
+56,AM10,Forest recovery following short-term agriculture. A2,0.07,4,1985,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 1 y rice",35,tropical
+57,AM10,Forest recovery following short-term agriculture. A2,0.07,5,1985,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,36,tropical
+58,AM10,Forest recovery following short-term agriculture. A5,0.08,1,1983,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, seeded w/ rice only + abandoned, sandy hilltop",37,tropical
+59,AM10,Forest recovery following short-term agriculture. A5,0.08,2,1983,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, seeded w/ rice only + abandoned, sandy hilltop",38,tropical
+60,AM10,Forest recovery following short-term agriculture. A5,0.08,3,1983,8,Management,Seeded_agriculture,NA,NA,NA,"Forest, slash-and-burn, seeded w/ rice only + abandoned, sandy hilltop",39,tropical
+61,AM10,Forest recovery following short-term agriculture. A5,0.08,4,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, seeded w/ rice only + abandoned, sandy hilltop",40,tropical
+62,AM10,Forest recovery following short-term agriculture. A5,0.08,5,1983,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,41,tropical
+63,AM10,Forest recovery following short-term agriculture. A6,0.07,1,1974,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y rice",42,tropical
+64,AM10,Forest recovery following short-term agriculture. A6,0.07,2,1974,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y rice",43,tropical
+65,AM10,Forest recovery following short-term agriculture. A6,0.07,3,1974,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y rice",44,tropical
+66,AM10,Forest recovery following short-term agriculture. A6,0.07,4,1975,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 1 y rice",45,tropical
+67,AM10,Forest recovery following short-term agriculture. A6,0.07,5,1975,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,46,tropical
+68,AM10,Forest recovery following short-term agriculture. A7,0.09,1,1971,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y rice",47,tropical
+69,AM10,Forest recovery following short-term agriculture. A7,0.09,2,1971,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y rice",48,tropical
+70,AM10,Forest recovery following short-term agriculture. A7,0.09,3,1971,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y rice",49,tropical
+71,AM10,Forest recovery following short-term agriculture. A7,0.09,4,1972,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y rice",50,tropical
+72,AM10,Forest recovery following short-term agriculture. A7,0.09,5,1972,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,51,tropical
+73,AM10,Forest recovery following short-term pasture. A8,0.1,1,1974,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y pasture",52,tropical
+74,AM10,Forest recovery following short-term pasture. A8,0.1,2,1974,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y pasture",53,tropical
+75,AM10,Forest recovery following short-term pasture. A8,0.1,3,1974,8,Disturbance,Grazed,1,year,100,"Forest, slash-and-burn, 1 y pasture",54,tropical
+76,AM10,Forest recovery following short-term pasture. A8,0.1,4,1975,8,Regrowth,Initiation of post-disturbance cohort (natural)*,*,NA,NA,"Forest, slash-and-burn, 1 y pasture",55,tropical
+77,AM10,Forest recovery following short-term pasture. A8,0.1,5,1975,8,Establishment,Establishment of oldest trees*,*,NA,NA,NA,56,tropical
 78,Amacayacu E,old-growth tropical forest.AGP1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 79,Amacayacu U,old-growth tropical forest.AGP2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 80,Amalau,lowland forest,NAC,1,1990,8,Disturbance,Major storm,NA,NA,<100%,Hurricane. no anthropogenic disturbance,1651,tropical
@@ -1216,84 +1216,84 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 1215,Jacaranda plots 1-5,terra firma JAC-01,5,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2390,tropical
 1216,Jacaranda plots 6-10,terra firma JAC-02,5,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2391,tropical
 1217,Jacaranda/K34,UM,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,old-growth,858,tropical
-1218,Janauaca,Forest recovery following long-term pasture. J1,6,1,1955,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 10 y pasture",57,tropical
-1219,Janauaca,Forest recovery following long-term pasture. J1,6,2,1955,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 10 y pasture",58,tropical
-1220,Janauaca,Forest recovery following long-term pasture. J1,6,3,1955,8,Disturbance,Grazed,10,year,100,"Forest, slash-and-burn, 10 y pasture",59,tropical
-1221,Janauaca,Forest recovery following long-term pasture. J1,6,4,1965,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 10 y pasture",60,tropical
-1222,Janauaca,Forest recovery following long-term pasture. J1,6,5,1965,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,61,tropical
-1223,Janauaca,Forest recovery following long-term pasture. J10,1.5,1,1980,8,Disturbance_prior,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",62,tropical
-1224,Janauaca,Forest recovery following long-term pasture. J10,1.5,2,1980,8,Disturbance_prior,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",63,tropical
-1225,Janauaca,Forest recovery following long-term pasture. J10,1.5,3,1980,8,Disturbance_prior,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",64,tropical
-1226,Janauaca,Forest recovery following long-term pasture. J10,1.5,4,1981,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",65,tropical
-1227,Janauaca,Forest recovery following long-term pasture. J10,1.5,5,1984,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",66,tropical
-1228,Janauaca,Forest recovery following long-term pasture. J10,1.5,6,1984,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",67,tropical
-1229,Janauaca,Forest recovery following long-term pasture. J10,1.5,7,1984,8,Disturbance,Grazed,6,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",68,tropical
-1230,Janauaca,Forest recovery following long-term pasture. J10,1.5,8,1990,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",69,tropical
-1231,Janauaca,Forest recovery following long-term pasture. J10,1.5,9,1990,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,70,tropical
-1232,Janauaca,Forest recovery following long-term pasture. J6,3,1,1969,8,Disturbance_prior,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",71,tropical
-1233,Janauaca,Forest recovery following long-term pasture. J6,3,2,1969,8,Disturbance_prior,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",72,tropical
-1234,Janauaca,Forest recovery following long-term pasture. J6,3,3,1969,8,Disturbance_prior,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",73,tropical
-1235,Janauaca,Forest recovery following long-term pasture. J6,3,4,1970,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),5,year,NA,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",74,tropical
-1236,Janauaca,Forest recovery following long-term pasture. J6,3,5,1975,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",75,tropical
-1237,Janauaca,Forest recovery following long-term pasture. J6,3,6,1975,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",76,tropical
-1238,Janauaca,Forest recovery following long-term pasture. J6,3,7,1975,8,Disturbance,Grazed,5,year,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",77,tropical
-1239,Janauaca,Forest recovery following long-term pasture. J6,3,8,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",78,tropical
-1240,Janauaca,Forest recovery following long-term pasture. J6,3,9,1980,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,79,tropical
-1241,Janauaca,Forest recovery following long-term pasture. J7,8,1,1955,8,Disturbance_prior,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",80,tropical
-1242,Janauaca,Forest recovery following long-term pasture. J7,8,2,1955,8,Disturbance_prior,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",81,tropical
-1243,Janauaca,Forest recovery following long-term pasture. J7,8,3,1955,8,Disturbance_prior,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",82,tropical
-1244,Janauaca,Forest recovery following long-term pasture. J7,8,4,1956,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",83,tropical
-1245,Janauaca,Forest recovery following long-term pasture. J7,8,5,1959,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",84,tropical
-1246,Janauaca,Forest recovery following long-term pasture. J7,8,6,1959,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",85,tropical
-1247,Janauaca,Forest recovery following long-term pasture. J7,8,7,1959,8,Disturbance,Grazed,10,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",86,tropical
-1248,Janauaca,Forest recovery following long-term pasture. J7,8,8,1969,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",87,tropical
-1249,Janauaca,Forest recovery following long-term pasture. J7,8,9,1969,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,88,tropical
-1250,Janauaca,Forest recovery following long-term pasture. J9,2,1,1976,8,Disturbance_prior,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",89,tropical
-1251,Janauaca,Forest recovery following long-term pasture. J9,2,2,1976,8,Disturbance_prior,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",90,tropical
-1252,Janauaca,Forest recovery following long-term pasture. J9,2,3,1976,8,Disturbance_prior,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",91,tropical
-1253,Janauaca,Forest recovery following long-term pasture. J9,2,4,1977,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",92,tropical
-1254,Janauaca,Forest recovery following long-term pasture. J9,2,5,1980,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",93,tropical
-1255,Janauaca,Forest recovery following long-term pasture. J9,2,6,1980,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",94,tropical
-1256,Janauaca,Forest recovery following long-term pasture. J9,2,7,1980,8,Disturbance,Grazed,5,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",95,tropical
-1257,Janauaca,Forest recovery following long-term pasture. J9,2,8,1985,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",96,tropical
-1258,Janauaca,Forest recovery following long-term pasture. J9,2,9,1985,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,97,tropical
-1259,Janauaca,Forest recovery following short-fallow agriculture. J4,2,1,1974,8,Disturbance_prior,Cut,100,%,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (1st cycle)",98,tropical
-1260,Janauaca,Forest recovery following short-fallow agriculture. J4,2,2,1974,8,Disturbance_prior,Burned,NA,NA,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (1st cycle)",99,tropical
-1261,Janauaca,Forest recovery following short-fallow agriculture. J4,2,3,1974,8,Disturbance_prior,Cultivation,1,year,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (1st cycle)",100,tropical
-1262,Janauaca,Forest recovery following short-fallow agriculture. J4,2,4,1975,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (1st cycle)",101,tropical
-1263,Janauaca,Forest recovery following short-fallow agriculture. J4,2,5,1978,8,Disturbance_prior,Cut,100,%,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (2nd cycle)",102,tropical
-1264,Janauaca,Forest recovery following short-fallow agriculture. J4,2,6,1978,8,Disturbance_prior,Burned,NA,NA,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (2nd cycle)",103,tropical
-1265,Janauaca,Forest recovery following short-fallow agriculture. J4,2,7,1978,8,Disturbance_prior,Cultivation,1,year,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (2nd cycle)",104,tropical
-1266,Janauaca,Forest recovery following short-fallow agriculture. J4,2,8,1979,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (2nd cycle)",105,tropical
-1267,Janauaca,Forest recovery following short-fallow agriculture. J4,2,9,1982,8,Disturbance_prior,Cut,100,%,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (3rd cycle)",106,tropical
-1268,Janauaca,Forest recovery following short-fallow agriculture. J4,2,10,1982,8,Disturbance_prior,Burned,NA,NA,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (3rd cycle)",107,tropical
-1269,Janauaca,Forest recovery following short-fallow agriculture. J4,2,11,1982,8,Disturbance_prior,Cultivation,1,year,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (3rd cycle)",108,tropical
-1270,Janauaca,Forest recovery following short-fallow agriculture. J4,2,12,1983,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (3rd cycle)",109,tropical
-1271,Janauaca,Forest recovery following short-fallow agriculture. J4,2,13,1986,8,Disturbance,Cut,100,%,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (4th cycle)",110,tropical
-1272,Janauaca,Forest recovery following short-fallow agriculture. J4,2,14,1986,8,Disturbance,Burned,NA,NA,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (4th cycle)",111,tropical
-1273,Janauaca,Forest recovery following short-fallow agriculture. J4,2,15,1986,8,Disturbance,Cultivation,1,year,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (4th cycle) -then I assume abandoned after 4th cycle of manioc cultivation",112,tropical
-1274,Janauaca,Forest recovery following short-fallow agriculture. J4,2,16,1987,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (4th cycle) -then I assume abandoned after 4th cycle of manioc cultivation",113,tropical
-1275,Janauaca,Forest recovery following short-fallow agriculture. J4,2,17,1987,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,114,tropical
-1276,Janauaca,Forest recovery following short-term agriculture. J11,2,1,1989,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc",115,tropical
-1277,Janauaca,Forest recovery following short-term agriculture. J11,2,2,1989,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc",116,tropical
-1278,Janauaca,Forest recovery following short-term agriculture. J11,2,3,1989,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc",117,tropical
-1279,Janauaca,Forest recovery following short-term agriculture. J11,2,4,1990,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc",118,tropical
-1280,Janauaca,Forest recovery following short-term agriculture. J11,2,5,1990,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,119,tropical
-1281,Janauaca,Forest recovery following short-term agriculture. J2,4,1,1974,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc",120,tropical
-1282,Janauaca,Forest recovery following short-term agriculture. J2,4,2,1974,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc",121,tropical
-1283,Janauaca,Forest recovery following short-term agriculture. J2,4,3,1974,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc",122,tropical
-1284,Janauaca,Forest recovery following short-term agriculture. J2,4,4,1975,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc",123,tropical
-1285,Janauaca,Forest recovery following short-term agriculture. J2,4,5,1975,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,124,tropical
-1286,Janauaca,Forest recovery following short-term agriculture. J3,3,1,1979,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc",125,tropical
-1287,Janauaca,Forest recovery following short-term agriculture. J3,3,2,1979,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc",126,tropical
-1288,Janauaca,Forest recovery following short-term agriculture. J3,3,3,1979,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc",127,tropical
-1289,Janauaca,Forest recovery following short-term agriculture. J3,3,4,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc",128,tropical
-1290,Janauaca,Forest recovery following short-term agriculture. J3,3,5,1980,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,129,tropical
-1291,Janauaca,Forest recovery following short-term agriculture. J5,4,1,1982,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc",130,tropical
-1292,Janauaca,Forest recovery following short-term agriculture. J5,4,2,1982,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc",131,tropical
-1293,Janauaca,Forest recovery following short-term agriculture. J5,4,3,1982,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc",132,tropical
-1294,Janauaca,Forest recovery following short-term agriculture. J5,4,4,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc",133,tropical
-1295,Janauaca,Forest recovery following short-term agriculture. J5,4,5,1983,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,134,tropical
+1218,Janauaca,Forest recovery following long-term pasture. J1,0.1,1,1955,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 10 y pasture",57,tropical
+1219,Janauaca,Forest recovery following long-term pasture. J1,0.1,2,1955,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 10 y pasture",58,tropical
+1220,Janauaca,Forest recovery following long-term pasture. J1,0.1,3,1955,8,Disturbance,Grazed,10,year,100,"Forest, slash-and-burn, 10 y pasture",59,tropical
+1221,Janauaca,Forest recovery following long-term pasture. J1,0.1,4,1965,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 10 y pasture",60,tropical
+1222,Janauaca,Forest recovery following long-term pasture. J1,0.1,5,1965,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,61,tropical
+1223,Janauaca,Forest recovery following long-term pasture. J10,0.08,1,1980,8,Disturbance_prior,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",62,tropical
+1224,Janauaca,Forest recovery following long-term pasture. J10,0.08,2,1980,8,Disturbance_prior,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",63,tropical
+1225,Janauaca,Forest recovery following long-term pasture. J10,0.08,3,1980,8,Disturbance_prior,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",64,tropical
+1226,Janauaca,Forest recovery following long-term pasture. J10,0.08,4,1981,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",65,tropical
+1227,Janauaca,Forest recovery following long-term pasture. J10,0.08,5,1984,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",66,tropical
+1228,Janauaca,Forest recovery following long-term pasture. J10,0.08,6,1984,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",67,tropical
+1229,Janauaca,Forest recovery following long-term pasture. J10,0.08,7,1984,8,Disturbance,Grazed,6,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",68,tropical
+1230,Janauaca,Forest recovery following long-term pasture. J10,0.08,8,1990,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 6 y pasture",69,tropical
+1231,Janauaca,Forest recovery following long-term pasture. J10,0.08,9,1990,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,70,tropical
+1232,Janauaca,Forest recovery following long-term pasture. J6,0.09,1,1969,8,Disturbance_prior,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",71,tropical
+1233,Janauaca,Forest recovery following long-term pasture. J6,0.09,2,1969,8,Disturbance_prior,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",72,tropical
+1234,Janauaca,Forest recovery following long-term pasture. J6,0.09,3,1969,8,Disturbance_prior,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",73,tropical
+1235,Janauaca,Forest recovery following long-term pasture. J6,0.09,4,1970,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),5,year,NA,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",74,tropical
+1236,Janauaca,Forest recovery following long-term pasture. J6,0.09,5,1975,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",75,tropical
+1237,Janauaca,Forest recovery following long-term pasture. J6,0.09,6,1975,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",76,tropical
+1238,Janauaca,Forest recovery following long-term pasture. J6,0.09,7,1975,8,Disturbance,Grazed,5,year,100,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",77,tropical
+1239,Janauaca,Forest recovery following long-term pasture. J6,0.09,8,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc, 5 y fallow, slash-and-burn, 5 y pasture",78,tropical
+1240,Janauaca,Forest recovery following long-term pasture. J6,0.09,9,1980,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,79,tropical
+1241,Janauaca,Forest recovery following long-term pasture. J7,0.07,1,1955,8,Disturbance_prior,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",80,tropical
+1242,Janauaca,Forest recovery following long-term pasture. J7,0.07,2,1955,8,Disturbance_prior,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",81,tropical
+1243,Janauaca,Forest recovery following long-term pasture. J7,0.07,3,1955,8,Disturbance_prior,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",82,tropical
+1244,Janauaca,Forest recovery following long-term pasture. J7,0.07,4,1956,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",83,tropical
+1245,Janauaca,Forest recovery following long-term pasture. J7,0.07,5,1959,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",84,tropical
+1246,Janauaca,Forest recovery following long-term pasture. J7,0.07,6,1959,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",85,tropical
+1247,Janauaca,Forest recovery following long-term pasture. J7,0.07,7,1959,8,Disturbance,Grazed,10,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",86,tropical
+1248,Janauaca,Forest recovery following long-term pasture. J7,0.07,8,1969,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 10 y pasture",87,tropical
+1249,Janauaca,Forest recovery following long-term pasture. J7,0.07,9,1969,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,88,tropical
+1250,Janauaca,Forest recovery following long-term pasture. J9,0.1,1,1976,8,Disturbance_prior,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",89,tropical
+1251,Janauaca,Forest recovery following long-term pasture. J9,0.1,2,1976,8,Disturbance_prior,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",90,tropical
+1252,Janauaca,Forest recovery following long-term pasture. J9,0.1,3,1976,8,Disturbance_prior,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",91,tropical
+1253,Janauaca,Forest recovery following long-term pasture. J9,0.1,4,1977,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",92,tropical
+1254,Janauaca,Forest recovery following long-term pasture. J9,0.1,5,1980,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",93,tropical
+1255,Janauaca,Forest recovery following long-term pasture. J9,0.1,6,1980,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",94,tropical
+1256,Janauaca,Forest recovery following long-term pasture. J9,0.1,7,1980,8,Disturbance,Grazed,5,year,100,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",95,tropical
+1257,Janauaca,Forest recovery following long-term pasture. J9,0.1,8,1985,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc, 3 y fallow, slash-and-burn, 5 y pasture",96,tropical
+1258,Janauaca,Forest recovery following long-term pasture. J9,0.1,9,1985,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,97,tropical
+1259,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,1,1974,8,Disturbance_prior,Cut,100,%,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (1st cycle)",98,tropical
+1260,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,2,1974,8,Disturbance_prior,Burned,NA,NA,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (1st cycle)",99,tropical
+1261,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,3,1974,8,Disturbance_prior,Cultivation,1,year,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (1st cycle)",100,tropical
+1262,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,4,1975,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (1st cycle)",101,tropical
+1263,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,5,1978,8,Disturbance_prior,Cut,100,%,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (2nd cycle)",102,tropical
+1264,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,6,1978,8,Disturbance_prior,Burned,NA,NA,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (2nd cycle)",103,tropical
+1265,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,7,1978,8,Disturbance_prior,Cultivation,1,year,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (2nd cycle)",104,tropical
+1266,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,8,1979,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (2nd cycle)",105,tropical
+1267,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,9,1982,8,Disturbance_prior,Cut,100,%,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (3rd cycle)",106,tropical
+1268,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,10,1982,8,Disturbance_prior,Burned,NA,NA,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (3rd cycle)",107,tropical
+1269,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,11,1982,8,Disturbance_prior,Cultivation,1,year,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (3rd cycle)",108,tropical
+1270,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,12,1983,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),3,year,NA,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (3rd cycle)",109,tropical
+1271,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,13,1986,8,Disturbance,Cut,100,%,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (4th cycle)",110,tropical
+1272,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,14,1986,8,Disturbance,Burned,NA,NA,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (4th cycle)",111,tropical
+1273,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,15,1986,8,Disturbance,Cultivation,1,year,100,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (4th cycle) -then I assume abandoned after 4th cycle of manioc cultivation",112,tropical
+1274,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,16,1987,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"4 cycles of slash-and-burn, 1 y manioc, 3 y fallow (4th cycle) -then I assume abandoned after 4th cycle of manioc cultivation",113,tropical
+1275,Janauaca,Forest recovery following short-fallow agriculture. J4,0.07,17,1987,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,114,tropical
+1276,Janauaca,Forest recovery following short-term agriculture. J11,0.08,1,1989,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc",115,tropical
+1277,Janauaca,Forest recovery following short-term agriculture. J11,0.08,2,1989,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc",116,tropical
+1278,Janauaca,Forest recovery following short-term agriculture. J11,0.08,3,1989,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc",117,tropical
+1279,Janauaca,Forest recovery following short-term agriculture. J11,0.08,4,1990,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc",118,tropical
+1280,Janauaca,Forest recovery following short-term agriculture. J11,0.08,5,1990,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,119,tropical
+1281,Janauaca,Forest recovery following short-term agriculture. J2,0.1,1,1974,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc",120,tropical
+1282,Janauaca,Forest recovery following short-term agriculture. J2,0.1,2,1974,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc",121,tropical
+1283,Janauaca,Forest recovery following short-term agriculture. J2,0.1,3,1974,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc",122,tropical
+1284,Janauaca,Forest recovery following short-term agriculture. J2,0.1,4,1975,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc",123,tropical
+1285,Janauaca,Forest recovery following short-term agriculture. J2,0.1,5,1975,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,124,tropical
+1286,Janauaca,Forest recovery following short-term agriculture. J3,0.1,1,1979,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc",125,tropical
+1287,Janauaca,Forest recovery following short-term agriculture. J3,0.1,2,1979,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc",126,tropical
+1288,Janauaca,Forest recovery following short-term agriculture. J3,0.1,3,1979,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc",127,tropical
+1289,Janauaca,Forest recovery following short-term agriculture. J3,0.1,4,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc",128,tropical
+1290,Janauaca,Forest recovery following short-term agriculture. J3,0.1,5,1980,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,129,tropical
+1291,Janauaca,Forest recovery following short-term agriculture. J5,0.08,1,1982,8,Disturbance,Cut,100,%,100,"Forest, slash-and-burn, 1 y manioc",130,tropical
+1292,Janauaca,Forest recovery following short-term agriculture. J5,0.08,2,1982,8,Disturbance,Burned,NA,NA,100,"Forest, slash-and-burn, 1 y manioc",131,tropical
+1293,Janauaca,Forest recovery following short-term agriculture. J5,0.08,3,1982,8,Disturbance,Cultivation,1,year,100,"Forest, slash-and-burn, 1 y manioc",132,tropical
+1294,Janauaca,Forest recovery following short-term agriculture. J5,0.08,4,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"Forest, slash-and-burn, 1 y manioc",133,tropical
+1295,Janauaca,Forest recovery following short-term agriculture. J5,0.08,5,1983,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,134,tropical
 1296,Jari 1,terra firma JRI-01,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2392,tropical
 1297,"Jari, Para secondary",secondary tropical forest.JAR2,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,tropical
 1298,"Jari,Para primary",old-growth tropical forest.JAR1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
@@ -2622,52 +2622,52 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 2618,Sucusari D,terra firma SUC-04,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,5719,tropical
 2619,Sucusari E,terra firma SUC-05,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,5720,tropical
 2620,Sulawesi,upland tropical forest,,1,NAC,9,No.info,NI,NA,NA,NA,NA,5623,tropical
-2621,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NAC,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (4+ cycles, S3)",1575,tropical
-2622,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (4+ cycles, S3)",1584,tropical
-2623,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,0.1,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1565,tropical
-2624,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NAC,4,1985,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1593,tropical
-2625,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NAC,5,1985,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1602,tropical
-2626,Surutu,Forest recovery following slash and burn agriculture.12y,NAC,1,NI,9,Disturbance,Cut,100,%,100,slash-and-burn,1576,tropical
-2627,Surutu,Forest recovery following slash and burn agriculture.12y,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,slash-and-burn,1585,tropical
-2628,Surutu,Forest recovery following slash and burn agriculture.12y,NAC,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1566,tropical
-2629,Surutu,Forest recovery following slash and burn agriculture.12y,NAC,4,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1594,tropical
-2630,Surutu,Forest recovery following slash and burn agriculture.12y,NAC,5,1983,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1603,tropical
-2631,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NAC,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (4+ cycles,5 y fallow - S6)",1577,tropical
-2632,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (4+ cycles,5 y fallow - S6)",1586,tropical
-2633,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NAC,3,NI,9,Disturbance,Cultivation,1,year,100,"Rice (S4, S6), Manioc (S17)",1567,tropical
-2634,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NAC,4,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1595,tropical
-2635,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NAC,5,1980,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1604,tropical
-2636,Surutu,Forest recovery following slash and burn agriculture.20y,NAC,1,NI,9,Disturbance,Cut,100,%,100,slash-and-burn,1578,tropical
-2637,Surutu,Forest recovery following slash and burn agriculture.20y,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,slash-and-burn,1587,tropical
-2638,Surutu,Forest recovery following slash and burn agriculture.20y,NAC,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1568,tropical
-2639,Surutu,Forest recovery following slash and burn agriculture.20y,NAC,4,1975,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1596,tropical
-2640,Surutu,Forest recovery following slash and burn agriculture.20y,NAC,5,1975,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1605,tropical
-2641,Surutu,Forest recovery following slash and burn agriculture.25y,NAC,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (4+ cycles, 5 y fallow)",1579,tropical
-2642,Surutu,Forest recovery following slash and burn agriculture.25y,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (4+ cycles, 5 y fallow)",1588,tropical
-2643,Surutu,Forest recovery following slash and burn agriculture.25y,NAC,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1569,tropical
-2644,Surutu,Forest recovery following slash and burn agriculture.25y,NAC,4,1970,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1597,tropical
-2645,Surutu,Forest recovery following slash and burn agriculture.25y,NAC,5,1970,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1606,tropical
-2646,Surutu,Forest recovery following slash and burn agriculture.4y,NAC,1,NI,9,Disturbance,Cut,100,%,100,slash-and-burn,1571,tropical
-2647,Surutu,Forest recovery following slash and burn agriculture.4y,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,slash-and-burn,1580,tropical
-2648,Surutu,Forest recovery following slash and burn agriculture.4y,NAC,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1561,tropical
-2649,Surutu,Forest recovery following slash and burn agriculture.4y,NAC,4,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1589,tropical
-2650,Surutu,Forest recovery following slash and burn agriculture.4y,NAC,5,1991,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1598,tropical
-2651,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NAC,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (3 cycles, 5 y fallow - S7)",1572,tropical
-2652,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (3 cycles, 5 y fallow - S7)",1581,tropical
-2653,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NAC,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1562,tropical
-2654,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NAC,4,NI,9,Disturbance,Grazed,7,year,100,pasture,1570,tropical
-2655,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NAC,5,1990,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1590,tropical
-2656,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NAC,6,1990,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1599,tropical
-2657,Surutu,Forest recovery following slash and burn agriculture.6y,NAC,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (4+ cycles, 5 y fallow)",1573,tropical
-2658,Surutu,Forest recovery following slash and burn agriculture.6y,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (4+ cycles, 5 y fallow)",1582,tropical
-2659,Surutu,Forest recovery following slash and burn agriculture.6y,NAC,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1563,tropical
-2660,Surutu,Forest recovery following slash and burn agriculture.6y,NAC,4,1989,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1591,tropical
-2661,Surutu,Forest recovery following slash and burn agriculture.6y,NAC,5,1989,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1600,tropical
-2662,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,NAC,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (3 cycles, 8 y fallow)",1574,tropical
-2663,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,NAC,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (3 cycles, 8 y fallow)",1583,tropical
-2664,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,NAC,3,NI,9,Disturbance,Cultivation,1,year,100,"Rice (S10), Manioc(S16)",1564,tropical
-2665,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,NAC,4,1987,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1592,tropical
-2666,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,NAC,5,1987,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1601,tropical
+2621,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NA,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (4+ cycles, S3)",1575,tropical
+2622,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NA,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (4+ cycles, S3)",1584,tropical
+2623,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NA,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1565,tropical
+2624,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NA,4,1985,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1593,tropical
+2625,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NA,5,1985,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1602,tropical
+2626,Surutu,Forest recovery following slash and burn agriculture.12y,0.1,1,NI,9,Disturbance,Cut,100,%,100,slash-and-burn,1576,tropical
+2627,Surutu,Forest recovery following slash and burn agriculture.12y,0.1,2,NI,9,Disturbance,Burned,NA,NA,100,slash-and-burn,1585,tropical
+2628,Surutu,Forest recovery following slash and burn agriculture.12y,0.1,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1566,tropical
+2629,Surutu,Forest recovery following slash and burn agriculture.12y,0.1,4,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1594,tropical
+2630,Surutu,Forest recovery following slash and burn agriculture.12y,0.1,5,1983,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1603,tropical
+2631,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NA,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (4+ cycles,5 y fallow - S6)",1577,tropical
+2632,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NA,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (4+ cycles,5 y fallow - S6)",1586,tropical
+2633,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NA,3,NI,9,Disturbance,Cultivation,1,year,100,"Rice (S4, S6), Manioc (S17)",1567,tropical
+2634,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NA,4,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1595,tropical
+2635,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NA,5,1980,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1604,tropical
+2636,Surutu,Forest recovery following slash and burn agriculture.20y,0.1,1,NI,9,Disturbance,Cut,100,%,100,slash-and-burn,1578,tropical
+2637,Surutu,Forest recovery following slash and burn agriculture.20y,0.1,2,NI,9,Disturbance,Burned,NA,NA,100,slash-and-burn,1587,tropical
+2638,Surutu,Forest recovery following slash and burn agriculture.20y,0.1,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1568,tropical
+2639,Surutu,Forest recovery following slash and burn agriculture.20y,0.1,4,1975,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1596,tropical
+2640,Surutu,Forest recovery following slash and burn agriculture.20y,0.1,5,1975,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1605,tropical
+2641,Surutu,Forest recovery following slash and burn agriculture.25y,0.1,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (4+ cycles, 5 y fallow)",1579,tropical
+2642,Surutu,Forest recovery following slash and burn agriculture.25y,0.1,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (4+ cycles, 5 y fallow)",1588,tropical
+2643,Surutu,Forest recovery following slash and burn agriculture.25y,0.1,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1569,tropical
+2644,Surutu,Forest recovery following slash and burn agriculture.25y,0.1,4,1970,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1597,tropical
+2645,Surutu,Forest recovery following slash and burn agriculture.25y,0.1,5,1970,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1606,tropical
+2646,Surutu,Forest recovery following slash and burn agriculture.4y,0.1,1,NI,9,Disturbance,Cut,100,%,100,slash-and-burn,1571,tropical
+2647,Surutu,Forest recovery following slash and burn agriculture.4y,0.1,2,NI,9,Disturbance,Burned,NA,NA,100,slash-and-burn,1580,tropical
+2648,Surutu,Forest recovery following slash and burn agriculture.4y,0.1,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1561,tropical
+2649,Surutu,Forest recovery following slash and burn agriculture.4y,0.1,4,1991,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1589,tropical
+2650,Surutu,Forest recovery following slash and burn agriculture.4y,0.1,5,1991,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1598,tropical
+2651,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NA,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (3 cycles, 5 y fallow - S7)",1572,tropical
+2652,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NA,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (3 cycles, 5 y fallow - S7)",1581,tropical
+2653,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NA,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1562,tropical
+2654,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NA,4,NI,9,Disturbance,Grazed,7,year,100,pasture,1570,tropical
+2655,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NA,5,1990,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1590,tropical
+2656,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NA,6,1990,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1599,tropical
+2657,Surutu,Forest recovery following slash and burn agriculture.6y,0.1,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (4+ cycles, 5 y fallow)",1573,tropical
+2658,Surutu,Forest recovery following slash and burn agriculture.6y,0.1,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (4+ cycles, 5 y fallow)",1582,tropical
+2659,Surutu,Forest recovery following slash and burn agriculture.6y,0.1,3,NI,9,Disturbance,Cultivation,1,year,100,Rice,1563,tropical
+2660,Surutu,Forest recovery following slash and burn agriculture.6y,0.1,4,1989,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1591,tropical
+2661,Surutu,Forest recovery following slash and burn agriculture.6y,0.1,5,1989,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1600,tropical
+2662,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,0.1,1,NI,9,Disturbance,Cut,100,%,100,"slash-and-burn (3 cycles, 8 y fallow)",1574,tropical
+2663,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,0.1,2,NI,9,Disturbance,Burned,NA,NA,100,"slash-and-burn (3 cycles, 8 y fallow)",1583,tropical
+2664,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,0.1,3,NI,9,Disturbance,Cultivation,1,year,100,"Rice (S10), Manioc(S16)",1564,tropical
+2665,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,0.1,4,1987,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,1592,tropical
+2666,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,0.1,5,1987,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,1601,tropical
 2667,Tambopata,old-growth tropical forest.TAM6,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NAC,NA,tropical
 2668,Tambopata,partially flooded tropical forest.TAM5,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,tropical
 2669,Tambopata plot 0 TAM-01,"terra firma, floodplain TAM-01",1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2429,tropical
