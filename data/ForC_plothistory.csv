@@ -3820,10 +3820,10 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 3818,Hanjiayuan,Pinus sylvestris var. mongolica,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 3819,Hartheim,planted scots pine forest in 1963,NAC,1,1963,8,Regrowth,Planted,NA,NA,NA,NA,NA,extratropical
 3820,Harvard 2,UM,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,Unmanaged,NA,extratropical
-3821,"Harvard Forest EMS, Prospect Hill",UM,NAC,1,1895,8,Establishment,Establishment of oldest trees*,NA,NA,NA,"Urbanski: About 1/3 of the existing red oaks were established prior to 1895, another 1/3 prior to 1930, and the rest before 1940; hence the stand is 75-110 years old.",NA,extratropical
-3822,"Harvard Forest EMS, Prospect Hill",UM,NAC,2,1938,8,Disturbance,Major storm,NA,NA,<100%,Most of the trees within the dominant fetch of the eddy-covariance tower were downed by a 1938 hurricane and salvaged. The canopy and understory are now relatively open and free of coarse woody debris,NA,extratropical
-3823,"Harvard Forest EMS, Prospect Hill",UM,NAC,3,1938,8,Disturbance,Harvest,NA,NA,<100%,Most of the trees within the dominant fetch of the eddy-covariance tower were downed by a 1938 hurricane and salvaged. The canopy and understory are now relatively open and free of coarse woody debris,NA,extratropical
-3824,"Harvard Forest EMS, Prospect Hill",UM,NAC,4,1938,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,Most of the trees within the dominant fetch of the eddy-covariance tower were downed by a 1938 hurricane and salvaged. The canopy and understory are now relatively open and free of coarse woody debris,NA,extratropical
+3821,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1) ,NA,1,1895,8,Establishment,Establishment of oldest trees*,NA,NA,NA,"Urbanski: About 1/3 of the existing red oaks were established prior to 1895, another 1/3 prior to 1930, and the rest before 1940; hence the stand is 75-110 years old.",NA,extratropical
+3822,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1) ,NA,2,1938,8,Disturbance,Major storm,NA,NA,<100%,Most of the trees within the dominant fetch of the eddy-covariance tower were downed by a 1938 hurricane and salvaged. The canopy and understory are now relatively open and free of coarse woody debris,NA,extratropical
+3823,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1) ,NA,3,1938,8,Disturbance,Harvest,NA,NA,<100%,Most of the trees within the dominant fetch of the eddy-covariance tower were downed by a 1938 hurricane and salvaged. The canopy and understory are now relatively open and free of coarse woody debris,NA,extratropical
+3824,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1) ,NA,4,1938,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,Most of the trees within the dominant fetch of the eddy-covariance tower were downed by a 1938 hurricane and salvaged. The canopy and understory are now relatively open and free of coarse woody debris,NA,extratropical
 3825,Harvard Forest Hemlock / US-Ha2,UM,NAC,1,1800,8.5,Disturbance,Harvest,NA,NA,<100%,selected trees were removed during 19th century for fuel and bark,NA,extratropical
 3826,Harvard Forest Hemlock / US-Ha2,UM,NAC,2,1900,8.5,Disturbance,Harvest,NA,NA,<100%,some chestnut trees were removed after being killed by blight,NA,extratropical
 3827,Harvard Forest Soil Warming Experiment- Barre Woods,Control UM,NAC,1,NI,9,Disturbance_prior,Grazed,NA,NA,NA,NA,NA,extratropical
@@ -4353,8 +4353,7 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 4351,Linnebjer,NI,NAC,2,1774,8,Regrowth,Initiation of post-disturbance cohort (planted or natural)*,NA,NA,NA,Age method: Tree rings. No information available,NA,extratropical
 4352,Linzhi,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 4353,Lithuania,Pinus sylvestris,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
-4354,Little Prospect Hill,Managed,NAC,1,1957,8,Disturbance,Burned,NA,NA,<100%,"A portion of the stand lies within the boundaries of a 1957 forest fire, which killed nearly all trees within about 20 hectares",NA,extratropical
-4355,Little Prospect Hill,Managed,NAC,2,1957,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,"A portion of the stand lies within the boundaries of a 1957 forest fire, which killed nearly all trees within about 20 hectares",NA,extratropical
+3824.1,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1) ,NA,5,1957,8,Disturbance,Burned,NA,NA,<100%,"A portion of the stand lies within the boundaries of a 1957 forest fire, which killed nearly all trees within about 20 hectares",NA,extratropical
 4356,"Lixian Picea, Abies","Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 4357,"Lixian Populus, Betula","Populus, Betula",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
 4358,Longkang,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,extratropical
