@@ -3934,11 +3934,11 @@ plothistoryID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,dist
 3932,Hubbard Brook W2,Forest recovery following clear cut.6 y,NAC,1,1962,8,Disturbance,Cut,100,%,100,clear-cut,NA,extratropical
 3933,Hubbard Brook W2,Forest recovery following clear cut.6 y,NAC,2,1962,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,NA,extratropical
 3934,Hubbard Brook W2,Forest recovery following clear cut.6 y,NAC,3,1962,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,NA,extratropical
-3935,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,1,1965,8,Disturbance,Cut,NA,NA,<100%,NA,NA,extratropical
-3936,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,2,1966.389041,5,Management,Fertilization_Bromacil,28,kg ha-1,NA,NA,NA,extratropical
-3937,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,3,1967.328767,6,Management,Fertilization,87,liters,NA,"Fertilization_ester of 2, 4, 5-trichlorophenoxyacetic acid",NA,extratropical
-3938,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,4,1968,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,NA,extratropical
-3939,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,5,1968,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,NA,extratropical
+3935,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,1,1965,8,Disturbance,Cut,NA,NA,100,NA,NA,extratropical
+3936,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,2,1966.389041,5,Management,Herbicide,28,kg ha-1,NA,Herbicide = Bromacil. Plant regeneration was suppressed by herbicide application until the 1969 growing season,NA,extratropical
+3937,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,3,1967.328767,6,Management,Herbicide,87,liters,NA,"Herbicide = ester of 2, 4, 5-trichlorophenoxyacetic acid.  Plant regeneration was suppressed by herbicide application until the 1969 growing season",NA,extratropical
+3938,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,4,1969,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,Plant regeneration was suppressed by herbicide application until the 1969 growing season,NA,extratropical
+3939,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,5,1969,8,Establishment,Establishment of oldest trees*,NA,NA,NA,Plant regeneration was suppressed by herbicide application until the 1969 growing season,NA,extratropical
 3940,Hubbard Brook W5- no soil disturbance,Forest recovery following clear cut,NAC,1,1983,8,Disturbance,Cut,100,%,100,clear-cut,NA,extratropical
 3941,Hubbard Brook W5- no soil disturbance,Forest recovery following clear cut,NAC,2,1983,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,NA,extratropical
 3942,Hubbard Brook W5- no soil disturbance,Forest recovery following clear cut,NAC,3,1983,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,NA,extratropical
