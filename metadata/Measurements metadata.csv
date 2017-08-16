@@ -1,0 +1,45 @@
+Column,Field,Description,Alphanumeric attributes/ storage type*,Variable codes,Units,Range
+1 / A,measurementID,Unique identifier for each record in the measurements table.,numeric (integer),-,-,##-##
+2 / B,sites.sitename,Unique site identifier name for the site at which the measurement was made. Links to sites and HISTORY tables.,character (string),-,-,-
+3 / C,plot.name,Unique plot identifier name for the plot in which the measurement was made. Links to HISTORY table.,character (string),-,-,-
+4 / D,stand.age,"Age of stand at time of measurement as reported in the original publication or calculated based on the date of initiation of forest regrowth. When the publication reports a range of ages, the mean is recorded. For primary/old-growth/mature/ intact stands, the stand.age is recorded as “999”. ",numeric (double),see description,years,##-##
+5 / E,dominant.lifeform,"Dominant life form at time of measurement, with categories including “woody” (trees, seedlings, or shrubs), “grass”, and “woody+grass” (i.e., savanna). ",character (string),,,
+6 / F,dominantveg,"Code used to identify plant functional type of dominant vegetation at time of measurement. For trees, groupings are based on leaf type (broadleaf /needleleaf/ mixed) and phenology (deciduous/ evergreen/ mixed), and dominance is defined based on an 80% threshold (if given). If vegetation is a mix of trees and other vegetation, codes refer to the functional type of trees. For vegetation with no significant tree species component, groupings are by life form, if any. ",character (string),Given in PFT table,-,-
+7 / G,scientificname,"Genus and species for single dominant species at time of measurement, if applicable.",character (string),-,-,-
+8 / H,veg.notes,"Notes on the vegetation at time of measurement (e.g., forest type/ list of dominant species) . For single species, field gives species name acronym, as listed in the USDA Plants Checklist (http://plants.usda.gov/dl_all.html), or listed as ‘nocode’ if not available for the species. ",character (string),-,-,-
+9 / I,Regentype,Regeneration type of plot at time of measurement: natcult – Natural regeneration following cultivation; natgrazed – Natural regeneration following grazing; natother – Natural regeneration following other forms of disturbance; plantation – Plantation/regeneration by planting or sowing; nodata – Missing data or none of the above ,character (string),see description,-,-
+10 / J,Managementtype ,"Broad categorization of management status at time of measurement: unmanaged (“UM”), managed (“M”) or other/unknown (“O”).",character (string),see description,-,-
+11 / K,variables.name,Code name for variable sampled. ,character (string),Given in VARIABLES table,-,-
+12 / L,date,"Date on which measurement was made. Usually found as the year of measurement in the methods section, or, when unavailable, approximated as the year before publication. ",numeric (double),-,decimal years,##-##
+13 / M,dateloc,Level of confidence in date. ,numeric (double),Given in Table #,-,##-##
+14 / N,start_date,Date on which measurements were started.,numeric (double),,decimal years,##-##
+15 / O,start_dateloc,Level of confidence in date. ,numeric (double),Given in Table #,-,##-##
+16 / P,end_date,Date on which measurements ended.,numeric (double),,decimal years,##-##
+17 / Q,end_dateloc,Level of confidence in date. ,numeric (double),Given in Table #,-,##-##
+18 / R,mean,Mean value of measurement recorded. Units dependent on variables.name. ,numeric (double) ,-,Given in VARIABLES table,Given in VARIABLES table
+19 / S,n,Number of experimental replicates used to estimate mean and statistical summary.,numeric (integer) ,-,-,##-##
+20 / T,statname,Name of reported statistic (SE- standard error; SD- standard deviation; 95%CI- 95% confidence interval). ,character (string),see description,-,-
+21 / U,stat,Value of reported statistic.,numeric (double),-,VARIABLES table,VARIABLES table
+22 / V,area_sampled,"Area sampled for measurement of the particular variable. If the measurement includes multiple components with different sampling area (e.g., large trees sampled in the entire plot, small trees sampled in subplots), the largest area is reported. This may be less than plotarea (PLOTS table). As this field was added after most of the data had been entered, it is coded as ‘NAC’ for most records.",numeric (double),-,ha,##-##
+23 / W,notes,"Additional information about the record, including notes on methodology and notes on any known anomalies.  Potentially problematic values have notes prefaced with asterisks. ",character (string),-,-,-
+24 / X,method_id,Code number for methodology. ,numeric (integer),Given in METHODOLOGY table,-,##-##
+25 / Y,allometry,Code number for allometry (when it is a required covariate).,numeric (integer),Given in ALLOMETRY table,-,##-##
+26 / Z,allometry2,Code number for allometry (when it is a required covariate).,numeric (integer),Given in ALLOMETRY table,-,##-##
+27 / AA,min_dbh,"Minimum diameter (typically DBH, diameter at breast height) of tree stems included in the measurement. ‘0’ indicates that all stems were included.",numeric (integer),,cm,##-##
+28 / AB,depth,Depth of measurement if belowground or including belowground components,numeric (integer),-,cm,##-##
+29 / AC,covariate_1,Code name for covariate associated with the variable being measured. Codes defined in VARIABLES table.,character (string),-,-,-
+30 / AD,coV1_value,Value of reported covariate.,character (string),-,VARIABLES table,VARIABLES table
+31 / AE,covariate_2,Code name for covariate associated with the variable being measured. Codes defined in VARIABLES table.,character (string),-,-,-
+32 / AF,coV2_value,Value of reported covariate.,numeric (double) ,-,VARIABLES table,VARIABLES table
+33 / AG,dupcode,Marks entries that meet one of the following criteria: (1) D- Duplicate estimates of the same variable but with different values; (2) R - Replicate sampling of the same variables within the same study; (3) M- Multiple estimates of the same variables within the same study but using different methods. Code for no duplicates is 0. ,character (string) ,see description,-,-
+34 / AH,dupnum,"Assigns a number to every entry in each set of duplicates/replicates, in chronological order according to the citation.year. If two sources were published in the same year, the primary source (as opposed to a synthesis) comes first.",numeric integer),-,-,##-##
+35 / AI,citations.doi,"Digital object identifier unique to original data publication, if available. Studies relying on data from ≤20 original publications contained within the database should cite those publications.",character (string) ,-,-,-
+36 / AJ,citations.author,First author’s last name of original data publication. Studies relying on data from ≤20 original publications contained within the database should cite those publications.,character (string) ,-,-,-
+37 / AK,citations.year,Year of original data publication. Studies relying on data from ≤20 original publications contained within the database should cite those publications.,numeric (integer),-,-,##-##
+38 / AL,citations.title,Complete title of original data publication. Studies relying on data from ≤20 original publications contained within the database should cite those publications.,character (string) ,-,-,-
+39 / AM,loaded_from,"Reference to data compilations from which data and reference to primary source were obtained, if applicable. Studies relying on data from ≤10 previous data compilations contained within the database should cite those publications.",character (string) ,-,-,-
+40 / AN,source_notes,Notes on data source. Source notes were originally entered in notes column; some source notes may remain there.,character (string) ,-,-,-
+41/ AO,measurementID.v1,"Original measurementID, where numbers ≤3568 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)",numeric (integer),-,-,1-3568
+42/ AP,tropical_extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-
+43/ AQ,loaded_by,Name of individual who created the record,character (string) ,-,-,-
+44 / AR,ForC_investigator,"Name, institution, and email address of the corresponding author for the database record. This is the individual who should be contacted with correspondence regarding that record (e.g., questions, corrections, requests for collaboration). ",character (string) ,-,-,-
