@@ -39,7 +39,7 @@ Column,Field,Description,Alphanumeric attributes/ storage type*,Variable codes,U
 38 / AL,citations.title,Complete title of original data publication. Studies relying on data from over 20 original publications contained within the database should cite those publications.,character (string) ,-,-,-
 39 / AM,loaded_from,"Reference to data compilations from which data and reference to primary source were obtained, if applicable. Studies relying on data from over 10 previous data compilations contained within the database should cite those publications.",character (string) ,-,-,-
 40 / AN,source_notes,Notes on data source. Source notes were originally entered in notes column; some source notes may remain there.,character (string) ,-,-,-
-41/ AO,measurementID.v1,"Original measurementID, where numbers <3568 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)",numeric (integer),-,-,1-3568
+41/ AO,measurementID.v1,"Original measurementID, where numbers <3568 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,1-3568
 42/ AP,tropical_extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-
 43/ AQ,loaded_by,Name of individual who created the record,character (string) ,-,-,-
 44 / AR,ForC_investigator,"Name, institution, and email address of the corresponding author for the database record. This is the individual who should be contacted with correspondence regarding that record (e.g., questions, corrections, requests for collaboration). ",character (string) ,-,-,-
