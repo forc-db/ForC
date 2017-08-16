@@ -2144,6 +2144,10 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,distcat,
 999.02,Holme Fen Nature Reserve,birch stand_age53,NAC,2,NI,9,Disturbance,Tillage,NA,NA,100,NA,NA,extratropical
 999.03,Holme Fen Nature Reserve,birch stand_age53,NAC,3,1870,8,Regrowth_prior,Planted,NA,NA,NA,Woodlots,NA,extratropical
 999.04,Holme Fen Nature Reserve,birch stand_age53,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,NA,extratropical
+999.01,Holme Fen Nature Reserve,birch stand_age55,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,extratropical
+999.02,Holme Fen Nature Reserve,birch stand_age55,NAC,2,NI,9,Disturbance,Tillage,NA,NA,100,NA,NA,extratropical
+999.03,Holme Fen Nature Reserve,birch stand_age55,NAC,3,1870,8,Regrowth_prior,Planted,NA,NA,NA,Woodlots,NA,extratropical
+999.04,Holme Fen Nature Reserve,birch stand_age55,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,NA,extratropical
 1000.01,Holme Fen Nature Reserve,birch stand_age6,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,extratropical
 1000.02,Holme Fen Nature Reserve,birch stand_age6,NAC,2,NI,9,Disturbance,Tillage,NA,NA,100,NA,NA,extratropical
 1000.03,Holme Fen Nature Reserve,birch stand_age6,NAC,3,1870,8,Regrowth_prior,Planted,NA,NA,NA,Woodlots,NA,extratropical
