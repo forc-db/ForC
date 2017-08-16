@@ -4,8 +4,8 @@
 
 Data Table	| Metadata Table | Data File Identity |	Description
 --- | --- | --- | ---
-(1) MEASUREMENTS | x |	ForC_ measurements.csv	| Records of ecosystem-level measurements relevant to C cycling, vegetation characteristics at the time of measurement, and data sources.
-(2) SITES |	x | ForC_sites.csv	| Geographic, climatic, and edaphic site data
+(1) MEASUREMENTS | [`measurements_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/measurements_metadata.csv) |	ForC_ measurements.csv	| Records of ecosystem-level measurements relevant to C cycling, vegetation characteristics at the time of measurement, and data sources.
+(2) SITES |	[`sites_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/sites_metadata.csv) | ForC_sites.csv	| Geographic, climatic, and edaphic site data
 (3) PLOTS | x | ForC_plots.csv	| Plot data, including plot area of each plot or set of replicate plots and summary of plot history 
 (4) HISTORY | x | 	ForC_history.csv |	Details on known history of each plot or set of replicate plots, including disturbances, regrowth, and management.  
 (4) VARIABLES	| x | ForC_variables.csv	| Definitions of C cycle variables and covariates. 	
