@@ -9,42 +9,16 @@ library(readr)  # version 1.1.0
 
 na_codes <- c("NA", "NAC", "NRA", "NI")   # various ways "NA" is encoded in ForC
 
-measurements_coltypes <- cols(
-  .default = col_character(),
-  measurementID = col_integer(),
-  dateloc = col_double(),
-  start_date = col_double(),
-  start_dateloc = col_double(),
-  end_date = col_double(),
-  end_dateloc = col_double(),
-  mean = col_double(),
-  stat = col_double(),
-  area_sampled = col_double(),
-  min_dbh = col_double(),
-  dupnum = col_integer(),
-  citations.year = col_integer(),
-  method_id = col_character(),
-  measurementID.v1 = col_integer(),
-  # wtf:
-  TEMPORARY.FIELD..internal.purposes...match.in.2ForC..0.indicates.no.match. = col_integer()
-)
-
-MEASUREMENTS <- read_csv("data/ForC_measurements.csv", col_types = measurements_coltypes, na = na_codes)
-
-PLOTS     <- read_csv("data/ForC_plots.csv")
-SITES     <- read_csv("data/ForC_sites.csv", na = na_codes)
-HISTORY   <- read_csv("data/ForC_history.csv", na = na_codes)
-PFT       <- read_csv("data/ForC_pft.csv")
-DIST      <- read_csv("data/ForC_disttype.csv")
-VARIABLES <- read_csv("data/ForC_variables.csv", na = na_codes)
-METHODOLOGY <- read_csv("data/ForC_methodology.csv", col_types = "cccc")
+MEASUREMENTS <- read_csv("data/ForC_measurements.csv", guess_max = 1e6)
+PLOTS        <- read_csv("data/ForC_plots.csv")
+SITES        <- read_csv("data/ForC_sites.csv", na = na_codes)
+HISTORY      <- read_csv("data/ForC_history.csv")
+PFT          <- read_csv("data/ForC_pft.csv")
+HIST         <- read_csv("data/ForC_histtype.csv")
+VARIABLES    <- read_csv("data/ForC_variables.csv", na = na_codes)
+METHODOLOGY  <- read_csv("data/ForC_methodology.csv", col_types = "cccc")
 
 # ===== MEASUREMENTS and PLOTS checks ====
-
-MEASUREMENTS$sites.sitename <- trimws(MEASUREMENTS$sites.sitename)
-MEASUREMENTS$plot.name <- trimws(MEASUREMENTS$plot.name)
-PLOTS$sites.sitename <- trimws(PLOTS$sites.sitename)
-PLOTS$plot.name <- trimws(PLOTS$plot.name)
 
 # For each site-plot combination in MEASUREMENTS, there is a corresponding site-plot record in PLOTS
 MEASUREMENTS %>%
@@ -80,6 +54,8 @@ SITES %>%
 cat("There are", nrow(s_no_p), "sites with no corresponding plot record\n")
 if(nrow(s_no_p)) message("See `s_no_p`")
 
+# ===== HISTORY checks ====
+
 # For each site-plot combination in PLOTS, there should be at least one corresponding record in HISTORY
 PLOTS %>% 
   anti_join(HISTORY, by = c("sites.sitename", "plot.name")) %>% 
@@ -87,8 +63,6 @@ PLOTS %>%
   p_no_h
 cat("There are", nrow(p_no_h), "plots with no corresponding history record\n")
 if(nrow(p_no_h)) message("See `p_no_h`")
-
-# ===== HISTORY checks ====
 
 # There are no records in HISTORY that lack corresponding records in PLOTS
 # (these can be identified based on whether the site-plot combination and the historyID 
@@ -104,6 +78,7 @@ if(nrow(h_no_p)) message("See `h_no_p`")
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
 MEASUREMENTS %>% 
+  filter(!method_id %in% na_codes) %>% 
   anti_join(METHODOLOGY, by = c("method_id")) %>% 
   distinct(measurementID, method_id) ->
   m_no_m
@@ -119,6 +94,7 @@ if(any(duplicated(PFT$pftcode))) {
 
 # All measurement PFTs should be defined
 MEASUREMENTS %>%
+  filter(!dominantveg %in% na_codes) %>% 
   filter(!is.na(dominantveg)) %>%
   anti_join(PFT, by = c("dominantveg" = "pftcode")) %>%
   distinct(measurementID, dominantveg) ->
@@ -127,13 +103,13 @@ cat("There are", nrow(m_no_pft), "measurement records with undefined PFTs\n")
 if(nrow(m_no_pft)) message("See `m_no_pft`")
 
 # Disturbance types should only be defined once
-if(any(duplicated(paste(DIST$distcat, DIST$disttype)))) {
-  message("There are duplicated disturbance category/types in the DIST table!")  
+if(any(duplicated(paste(HIST$histcat, HIST$histtype)))) {
+  message("There are duplicated history category/types in the HIST table!")  
 }
 
 # All disturbance categories and types in HISTORY should be defined
 HISTORY %>%
-  anti_join(DIST, by = c("distcat", "disttype")) %>%
+  anti_join(HIST, by = c("distcat" = "histcat", "disttype" = "histtype")) %>%
   distinct(historyID, distcat, disttype) ->
   h_no_dist
 cat("There are", nrow(h_no_dist), "history records with undefined disturbance category/type combinations\n")
