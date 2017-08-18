@@ -1,4 +1,4 @@
-Column,Field,Description,Alphanumeric attributes/ storage type*,Variable codes,Units,Range
+Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes,Units,Range
 1 / A,measurementID,Unique identifier for each record in the measurements table.,numeric (integer),-,-,##-##
 2 / B,sites.sitename,Unique site identifier name for the site at which the measurement was made. Links to sites and HISTORY tables.,character (string),-,-,-
 3 / C,plot.name,Unique plot identifier name for the plot in which the measurement was made. Links to HISTORY table.,character (string),-,-,-
@@ -37,7 +37,7 @@ Column,Field,Description,Alphanumeric attributes/ storage type*,Variable codes,U
 36 / AJ,citations.title,Complete title of original data publication. Studies relying on data from over 20 original publications contained within the database should cite those publications.,character (string) ,-,-,-
 37 / AK,loaded_from,"Reference to data compilations from which data and reference to primary source were obtained, if applicable. Studies relying on data from over 10 previous data compilations contained within the database should cite those publications.",character (string) ,-,-,-
 38 / AL,source_notes,Notes on data source. Source notes were originally entered in notes column; some source notes may remain there.,character (string) ,-,-,-
-39 / AM,measurementID.v1,"Original measurementID, where numbers <3568 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,1 - 3568
+39 / AM,measurementID.v1,"Original measurementID, where numbers <3568 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,1--3568
 40 / AN,tropical_extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-
 41/ AO,loaded_by,Name of individual who created the record,character (string) ,-,-,-
 42/ AP,ForC_investigator,"Name, institution, and email address of the corresponding author for the database record. This is the individual who should be contacted with correspondence regarding that record (e.g., questions, corrections, requests for collaboration). ",character (string) ,-,-,-
