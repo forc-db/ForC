@@ -1,12 +1,12 @@
 # Forest Carbon database (ForC-db)
 
 ## Database overview
-The Forest C database (**ForC-db**) is an open access global C database that is updated and maintained in this Github repository. The database contains data on ground-based measurements of ecosystem-level C stocks and annual fluxes in forests globally, along with site information, disturbance history, and information on methodology. The tropical component of ForC-db (**TropForC-db**) has been published in the peer-reviewed literature: [Anderson-Teixeira *et al.* (2016)](http://dx.doi.org/10.1111/gcb.13226). Additional data (both tropical and extra-tropical) have been compiled and will eventually be made publicly available (interested users may contact database PI Dr. Kristina Anderson-Teixeira to discuss collaboration). Moreover, we anticipate database growth as other investigators contribute to the database.
+The Forest C database (**ForC-db**) is an open access global C database that is updated and maintained in this Github repository. The database contains data on ground-based measurements of ecosystem-level C stocks and annual fluxes in forests globally, along with site information, disturbance history, and information on methodology. The tropical component of ForC-db (**TropForC-db**) has been published in the peer-reviewed literature: [Anderson-Teixeira *et al.* (2016)](http://dx.doi.org/10.1111/gcb.13226). Additional data are included in this repository but have not yet been officially published (interested users may contact database PI Dr. Kristina Anderson-Teixeira for an update on status and to discuss collaboration). Moreover, we anticipate database growth as other investigators contribute to the database.
 
-TropForC-db currently contains 3,568 records from 845 plots in 178 geographically distinct areas, making it the largest and most comprehensive database of its type. These data were obtained from multiple previous compilations and individual published studies, as detailed in Anderson-Teixeira et al. (2016).
+TropForC-db currently contains >17,500 records from >2,700 plots and >2,000 sites, making it the largest and most comprehensive database of its type. These data were obtained from multiple previous compilations and individual published studies, as detailed in Anderson-Teixeira et al. (2016) and an in-prep publication.
 
-The database consists of a series of cross-referenced data tables describing (1) measurements of C cycle variables,
-(2) sites, (3) plots, (4) history,  (5) variables, (6) history event type, (7) plant functional types (PFTs)/ species, (8) methodology, and (9) allometries. A full description of the database and metaadata for all tables is given in the [metadata folder](https://github.com/forc-db/ForC/tree/master/metadata).  Original citations associated with all data are given in the
+The database structure is described in the [metadata folder](https://github.com/forc-db/ForC/tree/master/metadata).  
+Original citations associated with all data are given in the
 measurements table, and full citations are in the file `TropForC_bibliography.pdf`. 
 
 ## Data Use 
