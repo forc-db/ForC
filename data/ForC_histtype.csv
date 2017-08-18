@@ -1,0 +1,38 @@
+histcat,histtype,description,units
+Establishment,Establishment of oldest trees*,"Establishment of oldest trees. Date of establishment estimated based on age of the oldest trees (e.g., using cores and tree rings). This is not necessarily equal to the time of stand establishment, particularly for older stands. The year of Establishment of oldest trees can be calculated if both stand.age and measurement date are given in the traits table. *Indicates record where it was assumed that establishment of oldest trees occurred in the same year as the initiation of forest regrowth/natural succession.",NA
+Establishment,Establishment of key species,Establishment of a keystone/ dominant tree species or taxa. Notes should the taxa.,NA
+Regrowth(_prior),Initiation of post-disturbance cohort (planted or natural)*,"Initiation of post-disturbance cohort (following significant disturbance), unknown whether via natural succession or planting. *Indicates record where it was assumed that this was the same year as establishment of oldest trees.",NA
+Regrowth(_prior),Initiation of post-disturbance cohort (natural)*,"Initiation of post-disturbance cohort (following significant disturbance) via natural succession. Date of event estimated based on land history records (e.g., records of fire history, satellite records of land cover, and interviews of land owners). *Indicates record where it was assumed that this was the same year as establishment of oldest trees. ",NA
+Regrowth(_prior),Planted,Planting/transplanting of seedlings.,plants ha-1
+Regrowth(_prior),Seeded_trees,Seeded with tree species.,plants ha-1
+Regrowth(_prior),Planted_and_natural_regeneration,Combination of planting or seeding and natural regeneration,plants ha-1
+Disturbance(_prior),Burned,"Includes prescribed burns, wildfires, and slash-and-burn events.","cycles (slash-and-burn), times, ha, km2, kW m-1"
+Disturbance(_prior),Cultivation,Any form of cultivation. Use Tillage if soil was tilled.,"months, seasons, years, harvests"
+Disturbance(_prior),Cut,"Forest cutting, without removing (all) wood from site, or when it is unknown whether wood was removed from site. When wood was removed from site, ""Harvest"" is used.  100% tree mortality indicates clear-cutting. Slash-and-burn events are indicated by Burned + Cut (100 %).",multiple
+Disturbance(_prior),Drought,Significant drought.,NA
+Disturbance(_prior),Flood,Significant flood.,NA
+Disturbance(_prior),Forest dieback,Forest dieback for other/unknown reason.,NA
+Disturbance(_prior),Grazed,Use as pasture.,"years, individuals ha-1"
+Disturbance(_prior),Harvest,Removal of wood from site.,multiple
+Disturbance(_prior),Landslide,Disturbance by landslide,NA
+Disturbance(_prior),Major storm,Includes major storms and hurricanes/typhoons.,NA
+Disturbance(_prior),Other,Non stand-clearing disturbance that does not fit within other categories. Stand-clearing disturbances that don't fit within other categories are classified as StandClearing.,NA
+Disturbance(_prior),Shifting cultivation,Shifting cultivation.,NA
+Disturbance(_prior),StandClearing,"Severe (stand clearing) disturbance, type unknown or not fitting within other categories (spedify in notes).",NA
+Disturbance(_prior),Tillage,Arable agriculture where soil was tilled.,NA
+Management,CO2_fumigation,Elevation of CO2 concentration using Free-Air CO2 Enrichment (FACE) or chambers,ppm
+Management,Drained,Draining of wetlands (e.g. forest peat swamps).,NA
+Management,Fertilization_X,"Fertilizer inputs. X refers to the nutrient (N, K, P, etc.), when known.","kg X ha-1, liters, mM"
+Management,Herbicide,Herbicide application.,kg ha-1
+Management,Irrigation,Experimental or agricultural irrigation,"mm yr-1, mm day-1"
+Management,Pesticide,Pesticide application.,kg ha-1
+Management,Planted,"Planting of trees within existing forest stand (e.g., to fill gaps)",plants ha-1
+Management,Precipitation diversion,Experimental rain exclusion or partial blockage of precipitation. ,mm yr-1
+Management,Seeded_agriculture,Seeded with pasture grasses or crops,NA
+Management,Soil disturbance,"Mechanical soil disturbance (e.g.,  tillage, ditching, trenching, installation of soil warming cables, soil scarification, adding soil to improve cultivation). This is distinct from Disturbance:Tillage in that it does not involve forest clearing", (depth)
+Management,Warming_soil,"Experimental warming of soil (e.g., using buried heating cables).",increase in temp (degrees C)
+Management,Warming_air,"Experimental warming of air (e.g., using chambers).",increase in temp (degrees C)
+No.disturbance,No disturbance,"Indicates no known anthropogenic impacts or severe/stand replancing disturbance (since the associated year, when given). In some cases, this year corresponds to the year in which the site received protected status (these cases are identified in the notes section).",NA
+No.info,NAC,Not Acquired - Information may be available but has not been acquired.,NA
+No.info,NI,No Information - Publication does not contain the required information.,NA
+No.info,NRA,"Not Readily Available - Information was not readily available to the authors (e.g., publication not readily available).",NA

@@ -1,0 +1,17 @@
+Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes,Units,Range
+1 / A,historyID,Unique numerical identifier for each record in the history table. ,numeric (decimal),-,-,##-##
+2 / B,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES and MEASUREMENTS tables.",character (string),-,-,-
+3 / C,plot.name,"Unique plot name, sufficient to identify the plot within the original publication.",character (string),-,-,-
+4 / D,plotarea,Area of plot or combined area of replicate plots.,numeric (double),-,ha,##-##
+5 / E,event.sequence,"Order of event within the sequence of existing records. This allows determination of event order when dates are missing or events have the same date. NOTE: This field was created after original data entry based on order entered and notes, not in consultation with original publications.  ",numeric (integer),-,-,##-##
+6 / F,date,Date of plot history event.,character (string),-,decimal years,##-##
+7 / G,dateloc,Level of confidence in date.,numeric (double),Given in Table #,-,##-##
+8 / H,distcat,Plot history event categories.,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,-
+9 / I,histtype,Plot history event types. ,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,-
+10 / J,level,"Intensity/frequency/amount applied of history event type, if available.",character (string),-,-,n/a
+11 / K,units,Level units.,character (string),-,-,-
+12 / L,percent.mortality,Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.,numeric (double),-,-,##-##
+13 / M,distnotes,History event details not included above.,character (string),-,-,-
+14 / N,plothistoryID.v1,"Original plothistoryID, where numbers ²2441 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)",numeric (integer),-,-,1--2441
+15 / N,tropical_extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-
+15 / N,tropical_extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-

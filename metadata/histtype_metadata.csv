@@ -1,0 +1,5 @@
+Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes
+1 / A,histcat,Plot history event categories. ,character (string),"Disturbance - includes natural and anthropogenic disturbances that directly kill or prevent establishment of trees.; Management- anthropogenic management or experimental manipulation, including chemical inputs (CO2, fertilizer, pesticides, herbicides), altered hydrology, warming, and minor mechanical disturbances; Establishment Ð tree establishment, not necessarily following disturbance.; No.disturbance- Confirmed absence of major disturbance.; No.info- data not available Regrowth- vegetation regrowth following disturbance"
+2 / B,histtype,Code name for plot history event types. Used in PLOT and HISTORY tables.,character (string),-
+3 / C,description,"Definition and notes about the disturbance, management, or regeneration type.",character (string),-
+4 / D,units,Units of the variable.,character (string),-
