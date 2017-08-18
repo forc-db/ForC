@@ -5,11 +5,9 @@ The Forest C database (**ForC-db**) is an open access global C database that is 
 
 TropForC-db currently contains 3,568 records from 845 plots in 178 geographically distinct areas, making it the largest and most comprehensive database of its type. These data were obtained from multiple previous compilations and individual published studies, as detailed in Anderson-Teixeira et al. (2016).
 
-The database consists of a series of cross-referenced data tables describing
-(1) sites, (2) plots and their history, (3) measurements of C cycle variables, (4) variables, (5) disturbance/history event type, (6) plant functional types (PFTs)/ species, (7) methodology, and (8)
-allometries. A full description of the database and metaadata for all tables is given in `ForC_metadata.pdf`.  Original citations associated with all data are given in the
-measurements table (3), and full citations are in the file `TropForC_bibliography.pdf`. Sample R code, showing how to load the data files into R and join the tables, is provided in a separate file, named
-`TropForC_Rcode.txt`. 
+The database consists of a series of cross-referenced data tables describing (1) measurements of C cycle variables,
+(2) sites, (3) plots, (4) history,  (5) variables, (6) history event type, (7) plant functional types (PFTs)/ species, (8) methodology, and (9) allometries. A full description of the database and metaadata for all tables is given in the [metadata folder](https://github.com/forc-db/ForC/tree/master/metadata).  Original citations associated with all data are given in the
+measurements table, and full citations are in the file `TropForC_bibliography.pdf`. 
 
 ## Data Use 
 ForC-db is an open access database, and we encourage use of the data for scientific research and educational purposes. All users are responsible to adhere to the data use policy: [`DATA USE POLICY.md`](https://github.com/forc-db/ForC/blob/master/DATA%20USE%20POLICY.md).
