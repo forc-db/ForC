@@ -1,13 +1,15 @@
 # Forest Carbon database (ForC-db)
 
 ## Database overview
-The Forest C database (**ForC-db**) is an open access global C database that is updated and maintained in this Github repository. The database contains data on ground-based measurements of ecosystem-level C stocks and annual fluxes in forests globally, along with site information, disturbance history, and information on methodology. The tropical component of ForC-db (**TropForC-db**) has been published in the peer-reviewed literature: [Anderson-Teixeira *et al.* (2016)](http://dx.doi.org/10.1111/gcb.13226). Additional data are included in this repository but have not yet been officially published (interested users may contact database PI Dr. Kristina Anderson-Teixeira for an update on status and to discuss collaboration). Moreover, we anticipate database growth as other investigators contribute to the database.
+The Forest C database (**ForC-db**) is an open access global C database that is updated and maintained in this Github repository. The database contains data on ground-based measurements of ecosystem-level C stocks and annual fluxes in forests globally, along with site information, disturbance history, and information on methodology. It currently contains >17,500 records from >2,700 plots and >2,000 sites, making it the largest and most comprehensive database of its type. These data were obtained from multiple previous compilations and individual published studies, as detailed in Anderson-Teixeira et al. (2016) and an in-prep publication.
 
-TropForC-db currently contains >17,500 records from >2,700 plots and >2,000 sites, making it the largest and most comprehensive database of its type. These data were obtained from multiple previous compilations and individual published studies, as detailed in Anderson-Teixeira et al. (2016) and an in-prep publication.
+*Database structure* is described in the [metadata folder](https://github.com/forc-db/ForC/tree/master/metadata).  
 
-The database structure is described in the [metadata folder](https://github.com/forc-db/ForC/tree/master/metadata).  
-Original citations associated with all data are given in the
-measurements table, and full citations are in the file `TropForC_bibliography.pdf`. 
+*Scripts* for manipulating the database are given in the [scripts folder](https://github.com/forc-db/ForC/tree/master/scripts).
+
+*Original citations* associated with all data are given in the measurements table, and full citations are in the file `TropForC_bibliography.pdf`. 
+
+The tropical component of ForC-db (**TropForC-db**) has been published in the peer-reviewed literature: [Anderson-Teixeira *et al.* (2016)](http://dx.doi.org/10.1111/gcb.13226). Additional data are included in this repository but have not yet been officially published (interested users may contact database PI Dr. Kristina Anderson-Teixeira for an update on status and to discuss collaboration). Moreover, we anticipate database growth as other investigators contribute to the database.
 
 ## Data Use 
 ForC-db is an open access database, and we encourage use of the data for scientific research and educational purposes. All users are responsible to adhere to the data use policy: [`DATA USE POLICY.md`](https://github.com/forc-db/ForC/blob/master/DATA%20USE%20POLICY.md).
