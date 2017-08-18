@@ -23,7 +23,9 @@ measurements_coltypes <- cols(
   min_dbh = col_double(),
   dupnum = col_integer(),
   citations.year = col_integer(),
+  method_id = col_character(),
   measurementID.v1 = col_integer(),
+  # wtf:
   TEMPORARY.FIELD..internal.purposes...match.in.2ForC..0.indicates.no.match. = col_integer()
 )
 
@@ -35,7 +37,7 @@ HISTORY   <- read_csv("data/ForC_history.csv", na = na_codes)
 PFT       <- read_csv("data/ForC_pft.csv")
 DIST      <- read_csv("data/ForC_disttype.csv")
 VARIABLES <- read_csv("data/ForC_variables.csv", na = na_codes)
-
+METHODOLOGY <- read_csv("data/ForC_methodology.csv", col_types = "cccc")
 
 # ===== MEASUREMENTS and PLOTS checks ====
 
@@ -98,6 +100,16 @@ HISTORY %>%
 cat("There are", nrow(h_no_p), "history records with no corresponding plot record\n")
 if(nrow(h_no_p)) message("See `h_no_p`")
 
+# ===== METHODOLOGY checks ====
+
+# There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
+MEASUREMENTS %>% 
+  anti_join(METHODOLOGY, by = c("method_id")) %>% 
+  distinct(measurementID, method_id) ->
+  m_no_m
+cat("There are", nrow(m_no_m), "measurement records with no corresponding methodology record\n")
+if(nrow(m_no_m)) message("See `m_no_m`")
+
 # ===== PFT and DIST checks ====
 
 # PFTs should only be defined once
@@ -133,6 +145,7 @@ if(nrow(h_no_dist)) message("See `h_no_dist`")
 # the VARIABLES table. (It is possible that valid new records will fall outside the range, but
 # script should generate a warning.)
 MEASUREMENTS %>%
+  filter(variables.name=="Deadwood") %>%
   select(measurementID, sites.sitename, variables.name, mean) %>%
   left_join(select(VARIABLES, variables.name, min, max), by = "variables.name") %>%
   mutate(out_of_bounds = mean < min | mean > max) ->
@@ -144,7 +157,11 @@ if(any(is.na(meas_check$out_of_bounds))) {
 }
 if(any(meas_check$out_of_bounds, na.rm = TRUE)) {
   message("Measurements fall outside the range of valies that currently exist for this variable")
-  message("Check value, and if valid update range for this variable in VARIABLES")
-  message("See `meas_check`")
+  message("Check value, and if valid update allowed range in VARIABLES")
+  message("See `filter(meas_check, out_of_bounds)`")
 }
 
+# Variables should only be defined once
+if(any(duplicated(VARIABLES$variables.name))) {
+  message("There are duplicated variable names in the VARIABLES table!")  
+}
