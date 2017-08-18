@@ -4,8 +4,8 @@
 
 Data Table	| Metadata Table | Data File Identity |	Description
 --- | --- | --- | ---
-(1) MEASUREMENTS | [`measurements_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/measurements_metadata.csv) |	[`ForC_ measurements.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_measurements.csv)	| Records of ecosystem-level measurements relevant to C cycling, vegetation characteristics at the time of measurement, and data sources.
-(2) SITES |	[`sites_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/sites_metadata.csv) | [`ForC_ sites.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_sites.csv)	| Geographic, climatic, and edaphic site data
+(1) MEASUREMENTS | [`measurements_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/measurements_metadata.csv) |	[`ForC_measurements.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_measurements.csv)	| Records of ecosystem-level measurements relevant to C cycling, vegetation characteristics at the time of measurement, and data sources.
+(2) SITES |	[`sites_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/sites_metadata.csv) | [`ForC_sites.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_sites.csv)	| Geographic, climatic, and edaphic site data
 (3) PLOTS | [`plots_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/plots_metadata.csv) | [`ForC_plots.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_plots.csv)	| Plot data, including plot area of each plot or set of replicate plots and summary of plot history 
 (4) HISTORY |[`history_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/history_metadata.csv) | [`ForC_history.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_sites.csv) |	Details on known history of each plot or set of replicate plots, including disturbances, regrowth, and management.  
 (4) VARIABLES	| [`variables_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/variables_metadata.csv) | [`ForC_variables.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_variables.csv)	| Definitions of C cycle variables and covariates. 	
