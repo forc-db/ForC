@@ -1,0 +1,32 @@
+Column,Field,,Description,Alphanumeric attributes/ storage type (present data values),Variable codes,Units,Range
+1 / A,plotID,plotID,Unique numerical identifier for each record in the plots table.,numeric (integer),-,-,##-##
+2 / B,sites.sitename,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES and MEASUREMENTS tables.",character (string),-,-,-
+3 / C,plot.name,plot.name,"Unique plot name, sufficient to identify the plot within the original publication.",character (string),-,-,-
+4 / D,plotarea,plotarea,"Area of plot or combined area of replicate plots. For forest monitoring plots that change in area, this should be the most recent area. Note that area.sampled is recorded separately in the measurements table.",numeric (double),-,ha,##-##
+5 / E,establishment.rn,establishment.rn,historyID (if any) of entry in HISTORY detailing the establishment of oldest trees or of a keystone/ dominant tree taxa.,numeric (double),0-no record; nonzero number- historyID,-,-
+6 / F,year.establishment.oldest.trees,year.establishment.oldest.trees,Year of establishment of the oldest trees or of a keystone/ dominant tree taxa. Matches year given in HISTORY.,numeric (double),,-,-
+7 / G,regrowth.rn,regrowth.rn,DESCRIPTION REQUIRED,numeric (double),0-no record; nonzero number- historyID,decimal years,##-##
+8 / H,regrowth.type,regrowth.type,DESCRIPTION REQUIRED,character (string),Given in HISTTYPE metadata table,-,-
+9 / I,regrowth.year,regrowth.year,DESCRIPTION REQUIRED,numeric (double),,decimal years,##-##
+10 / J,dist.mrs.rn,dist.mrs.rn,Record number (if any) of entry in HISTORY detailing the most recent severe/ stand clearing disturbance or event in a disturbance sequence (see description of dist.additional.mrs.rn). ,numeric (double),0-no record; nonzero number- historyID,-,##-##
+11 / K,distmrs.type,distmrs.type,Type of the most recent severe/ stand clearing disturbance or event in a disturbance sequence.,character (string),Given in HISTTYPE metadata table,-,-
+12 / L,mortality,mortality,DESCRIPTION REQUIRED,numeric (double) or character (string),,%,##-##
+13 / M,distmrs.yr,distmrs.yr,"Year of the most recent severe/ stand clearing disturbance or event in a disturbance sequence. For a multi-year disturbance (e.g., agricultural use), the starting year is given.",numeric (double),0-no record; nonzero number- historyID,decimal years,##-##
+14 / N,dist.additional.mrs.rn,dist.additional.mrs.rn,"Reference to entry/entries in HISTORY detailing any additional history events in the most recent severe/ stand-clearing disturbance sequence. For example, for a disturbance sequence consisting of cutting, burning, and cultivation, cutting and burning events would be indicated here, cultivation would be indicated in dist.mrs.rn.",numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+15 / O,prior.history.rn,prior.history.rn,Reference to entry/entries in HISTORY detailing any regrowth or severe / stand clearing disturbance events prior to the most recent severe/ stand-clearing disturbance sequence. Such events are categorized as “regrowth_prior“ or “disturbance_prior” in HISTORY.,numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+16 / P,dist1.rn,dist1.rn,DESCRIPTION REQUIRED,numeric (double),0-no record; nonzero number- historyID,-,##-##
+17 / Q,dist1.type,dist1.type,DESCRIPTION REQUIRED,character (string),Given in HISTTYPE metadata table,-,-
+18 / R,dist1.mort,dist1.mort,DESCRIPTION REQUIRED,numeric (double) or character (string),-,%,##-##
+19 / S,dist1.year,dist1.year,DESCRIPTION REQUIRED,numeric (double) or character (string),-,decimal years,##-##
+20 / T,dist2.rn,dist2.rn,DESCRIPTION REQUIRED,numeric (double),0-no record; nonzero number- historyID,-,##-##
+21 / U,dist2.type,dist2.type,DESCRIPTION REQUIRED,character (string),Given in HISTTYPE metadata table,-,-
+22 / V,dist2.mort,dist2.mort,DESCRIPTION REQUIRED,numeric (double) or character (string),-,%,##-##
+23 / W,dist2.year,dist2.year,DESCRIPTION REQUIRED,numeric (double) or character (string),-,decimal years,##-##
+24 / X,additional.history.rn,additional.history.rn,DESCRIPTION REQUIRED,numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+25 / Y,management.CO2.rn,management.CO2.rn,DESCRIPTION REQUIRED,numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+26 / Z,management.temperature.rn,management.temperature.rn,DESCRIPTION REQUIRED,numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+27 / AA,management.hydrology.rn,management.hydrology.rn,DESCRIPTION REQUIRED,numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+28 / AB,management.nutrients.rn,management.nutrients.rn,DESCRIPTION REQUIRED,numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+29 / AC,management.biota.rn,management.biota.rn,DESCRIPTION REQUIRED,numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+30 / AD,management.other.rn,management.other.rn,DESCRIPTION REQUIRED,numeric (double),"0-no record; nonzero decimal- historyID; nonzero integer- plot number, given if this field refers to multiple records in HISTORY.",-,##-##
+31 / AE,tropical_extratropical,tropical_extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-
