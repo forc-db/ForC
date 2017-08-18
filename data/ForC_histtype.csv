@@ -1,4 +1,4 @@
-distcat,disttype,description,units
+histcat,histtype,description,units
 Establishment,Establishment of oldest trees*,"Establishment of oldest trees. Date of establishment estimated based on age of the oldest trees (e.g., using cores and tree rings). This is not necessarily equal to the time of stand establishment, particularly for older stands. The year of Establishment of oldest trees can be calculated if both stand.age and measurement date are given in the traits table. *Indicates record where it was assumed that establishment of oldest trees occurred in the same year as the initiation of forest regrowth/natural succession.",NA
 Establishment,Establishment of key species,Establishment of a keystone/ dominant tree species or taxa. Notes should the taxa.,NA
 Regrowth(_prior),Initiation of post-disturbance cohort (planted or natural)*,"Initiation of post-disturbance cohort (following significant disturbance), unknown whether via natural succession or planting. *Indicates record where it was assumed that this was the same year as establishment of oldest trees.",NA
