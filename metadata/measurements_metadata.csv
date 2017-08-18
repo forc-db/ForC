@@ -9,11 +9,11 @@ Column,Field,Description,Alphanumeric attributes/ storage type (present data val
 8 / H,veg.notes,"Notes on the vegetation at time of measurement (e.g., forest type/ list of dominant species). For single species, field gives species name acronym, as listed in the USDA Plants Checklist (http://plants.usda.gov/dl_all.html). ",character (string),-,-,-
 9 / I,variables.name,Code name for variable sampled. ,character (string),Given in VARIABLES table,-,-
 10 / J,date,"Date on which measurement was made. Usually found as the year of measurement in the methods section, or, when unavailable, approximated as the year before publication. ",numeric (double),-,decimal years,##-##
-11 / K,dateloc,Level of confidence in date. ,numeric (double),Given in Table #,-,##-##
+11 / K,dateloc,Level of confidence in date. ,numeric (double),"5-day; 5.5- range of days within a month; 6-month; 6.5- range of months within a season; 7- season; 7.5-range of seasons within a year; 8-year; 8.5- approximate year (e.g., decade); 9-no data",-,##-##
 12 / L,start_date,Date on which measurements were started.,numeric (double),,decimal years,##-##
-13 / M,start_dateloc,Level of confidence in date. ,numeric (double),Given in Table #,-,##-##
+13 / M,start_dateloc,Level of confidence in date. ,numeric (double),"5-day; 5.5- range of days within a month; 6-month; 6.5- range of months within a season; 7- season; 7.5-range of seasons within a year; 8-year; 8.5- approximate year (e.g., decade); 9-no data",-,##-##
 14 / N,end_date,Date on which measurements ended.,numeric (double),,decimal years,##-##
-15 / O,end_dateloc,Level of confidence in date. ,numeric (double),Given in Table #,-,##-##
+15 / O,end_dateloc,Level of confidence in date. ,numeric (double),"5-day; 5.5- range of days within a month; 6-month; 6.5- range of months within a season; 7- season; 7.5-range of seasons within a year; 8-year; 8.5- approximate year (e.g., decade); 9-no data",-,##-##
 16 / P,mean,Mean value of measurement recorded. Units dependent on variables.name. ,numeric (double) ,-,Given in VARIABLES table,Given in VARIABLES table
 17 / Q,n,Number of experimental replicates used to estimate mean and statistical summary.,numeric (integer) ,-,-,##-##
 18 / R,statname,Name of reported statistic (SE- standard error; SD- standard deviation; 95%CI- 95% confidence interval). ,character (string),see description,-,-
