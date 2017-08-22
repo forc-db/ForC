@@ -17,5 +17,4 @@ ALLOMETRY	| [`allometry_metadata`](https://github.com/forc-db/ForC/blob/master/m
 
 ## Entitity Relationship Diagram
 
-The entity relationship diagram is currently out of date, but can be viewed and edited [here]
-(https://drive.google.com/file/d/0B9F3sC2fKyd3WS1lZzcwYXd4UmM/view?usp=sharing).
+The entity relationship diagram is currently out of date, but can be viewed and edited [here](https://drive.google.com/file/d/0B9F3sC2fKyd3WS1lZzcwYXd4UmM/view?usp=sharing).
