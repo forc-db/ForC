@@ -8,12 +8,12 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 2.04,Aakre,Forest recovery following agricultural abandonment,NAC,4,2008,8,Disturbance,Cut,305,n ha-1,<100%,NA,NA,extratropical
 3.01,Aberfeldy/Griffins,plantation forest,NAC,1,1980,8,Establishment,Establishment of oldest trees*,NA,NA,NA,plantation forest,NA,extratropical
 3.02,Aberfeldy/Griffins,plantation forest,NAC,2,1980,8,Regrowth,Planted,NA,NA,NA,plantation forest,NA,extratropical
-4.01,Acahual 1,Forest recovery following clear-cut and burn,2,1,1980,8,Disturbance,Burned,NA,NA,100,NA,6,tropical
-4.02,Acahual 1,Forest recovery following clear-cut and burn,2,2,1980,8,Disturbance,Cut,100,%,100,clear-cut,7,tropical
+4.02,Acahual 1,Forest recovery following clear-cut and burn,2,2,1980,8,Disturbance,Burned,NA,NA,100,NA,6,tropical
+4.01,Acahual 1,Forest recovery following clear-cut and burn,2,1,1980,8,Disturbance,Cut,100,%,100,clear-cut,7,tropical
 4.03,Acahual 1,Forest recovery following clear-cut and burn,2,3,1980,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,8,tropical
 4.04,Acahual 1,Forest recovery following clear-cut and burn,2,4,1980,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,9,tropical
-5.01,Acahual 2,Forest recovery following clear-cut and burn,2,1,1972,8,Disturbance,Burned,NA,NA,100,NA,10,tropical
-5.02,Acahual 2,Forest recovery following clear-cut and burn,2,2,1972,8,Disturbance,Cut,100,%,100,clear-cut,11,tropical
+5.02,Acahual 2,Forest recovery following clear-cut and burn,2,2,1972,8,Disturbance,Burned,NA,NA,100,NA,10,tropical
+5.01,Acahual 2,Forest recovery following clear-cut and burn,2,1,1972,8,Disturbance,Cut,100,%,100,clear-cut,11,tropical
 5.03,Acahual 2,Forest recovery following clear-cut and burn,2,3,1973,8,Regrowth,Initiation of post-disturbance cohort (natural)*,NA,NA,NA,NA,12,tropical
 5.04,Acahual 2,Forest recovery following clear-cut and burn,2,4,1973,8,Establishment,Establishment of oldest trees*,NA,NA,NA,NA,13,tropical
 6.01,Agrovila Grande Esperanca.BR-230,secondary forest established in abandoned pasture,NAC,1,NRA,9,Disturbance,Grazed,NA,NA,100,NA,1622,tropical
