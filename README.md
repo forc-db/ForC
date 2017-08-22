@@ -7,7 +7,7 @@ The Forest C database (**ForC-db**) is an open access global C database that is 
 
 *Scripts* for manipulating the database are given in the [scripts folder](https://github.com/forc-db/ForC/tree/master/scripts).
 
-*Original citations* associated with all data are given in the measurements table, and full citations are in the file `TropForC_bibliography.pdf`. 
+*Original citations* associated with all data are given in the measurements table, and full citations are in the file `TropForC_bibliography.pdf`. The references contained in the database are archived in the ForC-db group on Mendeley (https://www.mendeley.com/community/forc-db/), which is a public repository. PDFs of ForC-db references are stored in a [private repository](https://github.com/forc-db/References), which is private because of copyright restrictions, with access available upon request.
 
 The tropical component of ForC-db (**TropForC-db**) has been published in the peer-reviewed literature: [Anderson-Teixeira *et al.* (2016)](http://dx.doi.org/10.1111/gcb.13226). Additional data are included in this repository but have not yet been officially published (interested users may contact database PI Dr. Kristina Anderson-Teixeira for an update on status and to discuss collaboration). Moreover, we anticipate database growth as other investigators contribute to the database.
 
