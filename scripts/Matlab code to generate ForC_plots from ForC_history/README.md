@@ -6,6 +6,6 @@ Because I don't currently know a way to have Matlab read .csv files with a mix o
 
 2. Run the code
 
-3. Paste Matlab output (ForC_plots.mat; cell array) into ForC_plots.xlsx, which removes quotes around text fields. From that file, save new version of [`ForC_plots.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_plots.csv).
+3. Paste Matlab output (ForC_plots.mat; cell array) into ForC_plots_convert.xlsx, which removes quotes around text fields (see README tab in that file). From that file, save new version of [`ForC_plots.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_plots.csv). Once saved as a .csv, need to find and replace all instances of '' with ' in site and plot names. 
 
 4. If plots were renumbered, also need to copy and paste histID.mat into the *historyID* field of [`ForC_history.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_history.csv).
