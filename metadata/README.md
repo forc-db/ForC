@@ -1,6 +1,6 @@
 # ForC-db Metadata
 
-## Overview of data tables
+## Overview of Data Tables
 
 Data Table	| Metadata Table | Data File Identity |	Description
 --- | --- | --- | ---
@@ -13,3 +13,9 @@ PLANT FUNCTIONAL TYPES (PFT) | [`pft_metadata`](https://github.com/forc-db/ForC/
 VARIABLES	| [`variables_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/variables_metadata.csv) | [`ForC_variables.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_variables.csv)	| Definitions of C cycle variables and covariates. 
 METHODOLOGY	| [`methodology_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/methodology_metadata.csv) | [`ForC_methodology.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_methodology.csv) | Description of methodologies.
 ALLOMETRY	| [`allometry_metadata`](https://github.com/forc-db/ForC/blob/master/metadata/pallometry_metadata.csv) | [`ForC_allometry.csv`](https://github.com/forc-db/ForC/blob/master/data/ForC_allometry.csv)		| Sources and description of allometric equations for biomass.
+
+
+## Entitity Relationship Diagram
+
+The entity relationship diagram is currently out of date, but can be viewed and edited [here]
+(https://drive.google.com/file/d/0B9F3sC2fKyd3WS1lZzcwYXd4UmM/view?usp=sharing).
