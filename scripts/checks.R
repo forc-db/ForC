@@ -109,8 +109,8 @@ if(any(duplicated(paste(HIST$histcat, HIST$histtype)))) {
 
 # All disturbance categories and types in HISTORY should be defined
 HISTORY %>%
-  anti_join(HIST, by = c("distcat" = "histcat", "disttype" = "histtype")) %>%
-  distinct(historyID, distcat, disttype) ->
+  anti_join(HIST, by = c("histcat", "histtype")) %>%
+  distinct(historyID, histcat, histtype) ->
   h_no_dist
 cat("There are", nrow(h_no_dist), "history records with undefined disturbance category/type combinations\n")
 if(nrow(h_no_dist)) message("See `h_no_dist`")
@@ -141,3 +141,4 @@ if(any(meas_check$out_of_bounds, na.rm = TRUE)) {
 if(any(duplicated(VARIABLES$variables.name))) {
   message("There are duplicated variable names in the VARIABLES table!")  
 }
+
