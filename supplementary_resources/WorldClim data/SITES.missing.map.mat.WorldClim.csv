@@ -1,0 +1,409 @@
+"sites.sitename","lat","lon","mat","map"
+"Aguas Claras",9.333333,-79.833333,26.5,3237
+"Alberga",5.341,-55.764,26.7,2234
+"Allpahuayo A",-4,-73.4,26.5,2730
+"Allpahuayo B",-4,-73.4,26.5,2730
+"Amacayacu E",-3.72,-70.3,25.8,2806
+"Amacayacu U",-3.72,-70.3,25.8,2806
+"Apiau,Roraima",2.57,-61.3,27,1785
+"Atherton Gadgarra",-17.3,145.72,21.1,2588
+"Atherton Wongabel",-17.32,145.5,20.5,1755
+"Banco Valley",5.38,-4.03,26.1,1774
+"Barama, NW Guyana",7.7,-59.943,26.2,2510
+"BCI.poachers1",9.28,-79.8,26.1,3019
+"BCI.poachers2",9.28,-79.8,26.1,3019
+"BCI.poachers3",9.28,-79.8,26.1,3019
+"BCI.poachers4",9.28,-79.8,26.1,3019
+"BDFFP FASTIO",-2.333333333,-60,26.8,2549
+"BDFFP Fazenda Agroman",-2.333333333,-60,26.8,2549
+"BDFFP Fazenda Esteio",-2.41667,-59.76667,27,2411
+"BDFFP Fazenda Maringa",-2.333333333,-60,26.8,2549
+"BDFFP Fazenda Porto Alegre",-2.348,-60,26.9,2525
+"BDFFP km 67",-2.333333333,-60,26.8,2549
+"BDFFP Reserve",-2.5,-60,27,2319
+"Bionte averaged (Chao2009)",-2.63,-60.17,27,2258
+"Bisley",18.32,-65.82,23,2574
+"Bissiga B12",12.6833,-1.1667,28.3,701
+"Bitagron",5.079,-56.201,26.7,2264
+"Boqueron",9.333333,-79.833333,26.5,3237
+"BR-319_M01_TN_1500",-3.353,-59.856,27.3,2155
+"BR-319_M01_TN_3500",-3.346,-59.83,27.3,2158
+"BR-319_M02_TN_0500",-3.688,-60.332,27.2,2173
+"BR-319_M02_TN_1500",-3.683,-60.324,27.2,2173
+"BR-319_M02_TN_4500",-3.669,-60.301,27.2,2169
+"BR-319_M04_TN_0500",-4.383,-60.943,26.9,2403
+"BR-319_M04_TN_3500",-4.402,-60.923,26.9,2403
+"BR-319_M05_TN_(-)0500",-4.616,-61.244,26.7,2611
+"BR-319_M05_TN_1500",-4.603,-61.258,26.7,2607
+"BR-319_M06_TN_(-)0500",-4.984,-61.571,26.6,2619
+"BR-319_M06_TN_0500",-4.99,-61.563,26.6,2621
+"BR-319_M06_TN_1500",-4.994,-61.556,26.6,2621
+"BR-319_M06_TN_2500",-4.999,-61.549,26.6,2623
+"BR-319_M08_TS_0500",-5.629,-62.194,26.4,2588
+"BR-319_M08_TS_1500",-5.634,-62.186,26.4,2591
+"BR-319_M08_TS_2500",-5.638,-62.178,26.4,2593
+"BR-319_M09_TS_2500",-5.947,-62.51,26.3,2556
+"BR-319_M09_TS_3500",-5.94,-62.516,26.3,2556
+"BR-319_M10_TS_1500",-6.574,-62.931,26.3,2430
+"BR-319_M10_TS_2500",-6.575,-62.922,26.3,2430
+"BR-319_M11_TN_1500",-7.207,-63.117,26.4,2268
+"BR-319_M11_TN_2500",-7.211,-63.109,26.4,2270
+"Brownsberg",4.946,-55.178,24.7,2447
+"Capitao Paco,Para 1",-1.73,-47.2,26.1,2271
+"Capitao Paco,Para 2",-1.73,-47.2,26.1,2271
+"Caqueta (Poorter)",-0.417,-70.5,26,2998
+"Caxiuana",-1.72,-51.45,26.7,2205
+"Chajul",16.017,-90.917,25.9,3140
+"Chamela - ReSerBos",19.483,-105.033,26.1,803
+"Charabaru",4.937,-58.355,26.6,2503
+"Chiribiquete, Tepuy",0.07,-72.4,26.8,2827
+"Chiribiquete,TF Alta",0.07,-72.4,26.8,2827
+"Cockscomb",16.794,-88.555,25.1,2413
+"Colorado Forest",18.3,-65.7,25.7,1974
+"COMARA",-0.085,-66.89,26.5,2882
+"Congo Eucalyptus plantation chronosequence",-4,12,24.8,1375
+"Corinto",10.204,-83.883,24.8,4122
+"Cuieiras Reserve Plateau CUR1",-2.58,-60.1,26.9,2237
+"Cuieiras Reserve Plateau CUR3",-2.57,-60.1,26.9,2246
+"Cuieiras Reserve Slope CUR4",-2.57,-60.1,26.9,2246
+"Cuieiras Reserve Valley CUR2",-2.58,-60.1,26.9,2237
+"Cuieiras Reserve Valley CUR5",-2.58,-60.1,26.9,2237
+"Curua-Una e-serve",-2,-54,27.2,1693
+"Darien-Premontane wet",8.655,-78.125,26.5,1754
+"Darien-Riverine",8.655,-78.125,26.5,1754
+"Darwin",10.681,-84.15,25.8,3665
+"El Dorado/Rio Grande",6.1,-61.4,25.6,2503
+"Fazenda Cauaxi",-3.73,-48.29,26.7,1994
+"Fazenda Vitoria 2",-2.916667,-47.566667,26.4,1914
+"Fireburn",18.205,-88.188,25.7,1431
+"Gonse G10",12.399398,-1.303261,28.3,749
+"Gonse G5",12.399398,-1.303261,28.3,749
+"Gran Sabana,Guayana",5,-61.3,22.4,2109
+"Guama, Para",-1.37,-48.5,27,2143
+"Howard Springs",-12.29,131.09,27.3,1548
+"Howard Springs Fluxnet site",-12.4952,131.15005,27.2,1486
+"INPA 1",-16.311,-61.695,23.2,1112
+"INPA 2",-16.142,-61.728,23.5,1122
+"Jari, Para secondary",-1,-52,27,2482
+"Jari,Para primary",-1,-52,27,2482
+"Jau National-Park",-1.900126,-61.450297,27.2,2420
+"Jenaro Herrera",-4.92,-73.73,26.9,2614
+"Kabaung reserved forest compartment 103",18.875,96.058333,25.8,1524
+"Kembera",-0.4,110.1,27.1,3060
+"Kibale National Park",0.45,30.425,21,1207
+"La Chonta 1,2",-15.685,-62.773,24.6,1061
+"La Chonta 3",-15.666,-62.817,24.8,1057
+"Lago Central 23-25 m a.s.l.",-3.2251,-59.9317,27.5,2148
+"Lago Cobra 23-25 m a.s.l.",-3.2251,-59.9317,27.5,2148
+"Lago Cobra 25-26 m a.s.l.",-3.2251,-59.9317,27.5,2148
+"Lago Cobra 26-27 m a.s.l.",-3.2251,-59.9317,27.5,2148
+"Las Margaritas",20,-97.3,21.5,2754
+"Lely",4.264,-54.753,24,2673
+"Leuser Ecosystem chronosequence",3.789,97.872,15.8,2042
+"Luquillo Forest Dynamics Plot",18.324,-65.818,23,2574
+"Madeira River 1",-5.739,-61.579,26.5,2634
+"Madeira River 2",-5.654,-61.042,26.6,2547
+"Madeira River 3",-5.739,-61.42,26.5,2592
+"Madeira River 4",-5.652,-61.036,26.6,2547
+"Mamiraua Sustainable Development Reserve",-2.799934,-64.883583,26.6,3172
+"Manaus (Nascimento & Laurance)",-2.5,-60,27,2319
+"Manaus BR-174",-2.45,-60.05,27,2378
+"Manaus Floresta",-3.13,-59.9,27.6,2156
+"Manaus Secondary",-3.13,-59.9,27.6,2156
+"Maraca Island",3.3333,-61.3333,27.1,1597
+"Maraca Island,Forest without Peltogyne",3.37,-61.4,27,1616
+"Maraca Island,Peltogyne poor forest",3.37,-61.4,27,1616
+"Maraca Island,Peltogyne-rich forest",3.37,-61.4,27,1616
+"Marafunga",-6,145.18,14.4,2118
+"Mata de Piedade",-7.83,-35.2,24.5,1195
+"Maun- Mopane Woodland",-19.91546,23.56047,22.3,454
+"Medio Rio Caqueta 1",-0.42,-72.5,25.9,2936
+"Medio Rio Caqueta 2",-0.42,-72.5,25.9,2936
+"Medio Rio Caqueta 3",-0.42,-72.5,25.9,2936
+"Medio Rio Caqueta 4",-0.42,-72.5,25.9,2936
+"Medio Rio Caqueta 5",-0.42,-72.5,25.9,2936
+"Nassau",4.858,-54.575,26.2,2358
+"Nickerie Rivier",4.995,-56.998,26.8,2227
+"Nizanda",16.664,-95.497,22.2,1205
+"Nova Xavantina cerrado",-14.7,-52.3,25.1,1500
+"Osa",8.71,-83.6,25.3,3900
+"Pamaali",1.553,-68.676,26,3306
+"Panama Transect 1.Parque Metropolitano",8.994875,-79.5431167,26.6,1902
+"Panama Transect 2.Pipeline Road.Soberania National Park",9.128596,-79.715523,26.5,2313
+"Panama Transect 3.Fort Sherman",9.2810306,-79.9745194,26.2,3188
+"Panama Transect 4.Santa Rita.Chagres National Park",9.3644444,-79.7061111,24.1,3233
+"Paragominas 2",-3,-50,26.9,2456
+"Penas Blancas",9.333333,-79.833333,26.5,3237
+"Pibiri",5.021,-58.616,26.5,2656
+"Podocarpus National Park 1",-3.97,-79.1,15.1,1127
+"Podocarpus National Park 2",-3.97,-79.1,15.1,1127
+"Podocarpus National Park 3",-3.97,-79.1,15.1,1127
+"Reserva Ducke Chave",-2.72,-59.8,27.1,2265
+"Reserva Ecologica do IBGE",-15.933333,-47.85,20.5,1584
+"Reserva el Tigre",-10.971,-65.715,26.5,1661
+"Rio Juruena",-10.4,-58.8,24.9,1884
+"Rio Ucayali 1",-4.92,-73.7,27,2618
+"Rio Ucayali 2",-4.92,-73.7,27,2618
+"Rio Ucayali 3",-4.92,-73.7,27,2618
+"S village Karen area swidden cultivation fallow chronosequence",18.866667,95.883333,25.5,1311
+"S. Bhadra",13.25,75.25,21.6,4322
+"Sa S14",12.65,-3.28333,28.8,715
+"Saldarriaga chronosequence I",1.86,-67.03,26.3,3413
+"Saldarriaga chronosequence II",1.96,-67.05,26.2,3433
+"Saldarriaga chronosequence III",1.87,-67.06,26.2,3425
+"Saldarriaga chronosequence IV",1.86,-67.03,26.3,3413
+"Saldarriaga chronosequence IX",1.96,-67.05,26.2,3433
+"Saldarriaga chronosequence V",1.87,-67.06,26.2,3425
+"Saldarriaga chronosequence VI",1.96,-67.05,26.2,3433
+"Saldarriaga chronosequence VII",1.86,-67.03,26.3,3413
+"Saldarriaga chronosequence VIII",1.87,-67.06,26.2,3425
+"Saldarriaga chronosequence X",1.96,-67.05,26.2,3433
+"Saldarriaga chronosequence XI",1.87,-67.06,26.2,3425
+"Saldarriaga chronosequence XII",1.87,-67.06,26.2,3425
+"Saldarriaga chronosequence XIII",1.96,-67.05,26.2,3433
+"Saldarriaga chronosequence XIV",1.87,-67.06,26.2,3425
+"Saldarriaga chronosequence XIX",1.86,-67.03,26.3,3413
+"Saldarriaga chronosequence XV",1.87,-67.06,26.2,3425
+"Saldarriaga chronosequence XVI",1.87,-67.06,26.2,3425
+"Saldarriaga chronosequence XVII",1.933,-67.05,26.2,3432
+"Saldarriaga chronosequence XVIII",1.86,-67.03,26.3,3413
+"Saldarriaga chronosequence XX",1.96,-67.05,26.2,3433
+"Saldarriaga chronosequence XXI",1.86,-67.03,26.3,3413
+"Saldarriaga chronosequence XXII",1.96,-67.05,26.2,3433
+"Saldarriaga chronosequence XXIII",1.87,-67.06,26.2,3425
+"San Carlos (Chao2009)",1.93,-67.05,26.2,3432
+"San Emilio",10.809,-85.609,24.9,1720
+"Sao Gabriel da Cachoeira - Pico da",0.211,-66.771,26.6,2905
+"Sinop",-11.4,-55.3,24.9,1859
+"Sipitang",5.0792,115.5508,27.6,3551
+"Sucusari C",-3.3,-72.9,26.4,2783
+"Sucusari D",-3.3,-72.9,26.4,2783
+"Sucusari E",-3.3,-72.9,26.4,2783
+"Tambopata",-12.8,-69.7,25,3034
+"Tambopata plot 7 TAM-08",-12.83,-69.27,25.3,2477
+"Tapajos (Poorter)",-3.302,-54.935,25.6,1879
+"Tapajos Chave 1",-2.85,-55,25.5,2005
+"Tapajos Chave 2",-2.85,-55,25.5,2005
+"Tapajos National forest",-3.233333,-54.75,25.6,1916
+"Tiogo T13",12.263288,-2.761648,28.4,756
+"Toa Baja experiment station",18.45,-66.166667,25.7,1742
+"Tono",-12.96,-71.56,22.8,2749
+"Tranquilla",9.333333,-79.833333,26.5,3237
+"Tucuri",-3.77,-49.7,26.9,2420
+"Uatuma",-1.802,-59.262,26.9,2340
+"Virginia Park",-19.883333,146.553889,22.9,670
+"West Kalimantan",-0.9277,109.9534,27,3228
+"Yabo Y13",13,-1.5,28.3,664
+"Yanamono B",-3.4,-72.8,26.2,2847
+"Yapo (Plateau)",5.7,-4.1,26.3,1607
+"Zafire Altura",-4,-69.9,25.8,2795
+"Zafire flooded",-4,-69.9,25.8,2795
+"Zafire TF",-4,-69.9,25.8,2795
+"Zafire varrilal",-4,-69.9,25.8,2795
+"Tumbarumba flux station",-35.655722,148.152083,8.9,1491
+"BOREAS University of California-2003",55.898,-98.216,-3.2,508
+"BOREAS University of California-1998",56.636,-99.948,-3.3,471
+"BOREAS University of Wisconsin-D1998",56.628,-99.942,-3.3,471
+"BOREAS University of California-1989",55.917,-98.964,-2.8,500
+"BOREAS University of Wisconsin-D1989",55.906,-98.979,-2.8,498
+"BOREAS University of California-1981",55.863,-98.485,-3.1,506
+"BOREAS University of Wisconsin-D1981",55.864,-98.483,-3.1,507
+"BOREAS University of California-1964",55.912,-98.382,-3.1,506
+"BOREAS University of Wisconsin-D1964",55.92,-98.656,-3,508
+"BOREAS University of California-1930",55.906,-98.525,-3.1,508
+"BOREAS University of Wisconsin-D1930",55.908,-98.519,-3.1,508
+"BOREAS University of California-1850",55.879,-98.484,-3.1,507
+"BOREAS University of Wisconsin-D1850",55.879,-98.48,-3.1,505
+"BOREAS NOBS-1850",55.879,-98.48,-3.1,505
+"Lake States Warba soil aspen chronosequence 1",47.33,-94.5,3.5,670
+"Lake States Warba soil aspen chronosequence 2a",47.33,-94.5,3.5,670
+"Lake States Warba soil aspen chronosequence 2b",47.33,-94.5,3.5,670
+"Lake States Warba soil aspen chronosequence 3",47.33,-94.5,3.5,670
+"Lake States aspen chronosequence 4",47.33,-94.5,3.5,670
+"Lake States aspen chronosequence 5",47.33,-94.5,3.5,670
+"Lake States aspen chronosequence 6",46.85,-89.32,4.8,799
+"Miyaluo Experimental Forest-spruce-fir-dominated natural forest",31.583,102.583,0.9,930
+"Brindabella Range Eucalyptus pauciflora forest",-35.389722,148.803889,8.6,1249
+"Eucalyptus globulus and Acacia mearnsii plantation",-37.5667,149.15,14.6,1012
+"Yellowstone National Park (YNP)",44.6,-110.5,-1,624
+"Fumin",25.32,102.55,13,1025
+"Andrews 1",44.2576,-122.2012,8.1,1921
+"Andrews 10",44.2479,-122.2008,7.8,1897
+"Andrews 11",44.2334,-122.1731,7.3,1828
+"Andrews 12",44.2587,-122.1818,7.1,1871
+"Andrews 2",44.2515,-122.2018,8.1,1921
+"Andrews 3",44.2588,-122.2041,8.5,1944
+"Andrews 4",44.2477,-122.1974,8.4,1916
+"Andrews 5",44.2347,-122.1766,7.7,1855
+"Andrews 6",44.2548,-122.1827,7.9,1884
+"Andrews 7",44.2705,-122.2173,7.8,1948
+"Andrews 8",44.2699,-122.2265,7.4,1948
+"Andrews 9",44.2626,-122.1944,7.8,1910
+"Battle Ax 1",44.7782,-122.1476,4.8,2431
+"Battle Ax 2",44.8094,-122.2324,6.4,2370
+"Battle Ax 3",44.8094,-122.2324,6.4,2370
+"Battle Ax 4",44.8285,-122.2429,8.2,2253
+"Battle Ax 5",44.836,-122.2246,7.2,2306
+"Battle Ax 6",44.8386,-122.2342,6.5,2378
+"Big Butte Springs 1",42.5853,-122.4062,8.1,885
+"Big Butte Springs 2",42.586,-122.4478,9,887
+"Big Butte Springs 3",42.5601,-122.4966,9.5,880
+"Big Butte Springs 4",42.6231,-122.4367,8.3,919
+"Big Butte Springs 5",42.5791,-122.4414,8.9,878
+"Big Butte Springs 6",42.6025,-122.4755,8.6,920
+"Blue Mountain 1",43.6776,-122.916,8.8,1621
+"Blue Mountain 2",43.7362,-122.9288,9.7,1470
+"Blue Mountain 3",43.6915,-122.9297,9.8,1467
+"Blue Mountain 4",43.6943,-122.8992,8.6,1648
+"Blue Mountain 5",43.7037,-122.9292,8.2,1719
+"Blue Mountain 6",43.7062,-122.9356,8.9,1615
+"Boulder junction C",46.16,-89.66,3.8,835
+"Boulder junction F",46.16,-89.66,3.8,835
+"Bradford county 1",29.53,-82.19,20.5,1322
+"Bradford county 2",29.53,-82.19,20.5,1322
+"Breitenbush Hot Springs 1",44.7824,-121.8975,5.2,1990
+"Breitenbush Hot Springs 2",44.8006,-121.9901,7.2,1940
+"Breitenbush Hot Springs 3",44.763,-121.8859,4.3,2087
+"Breitenbush Hot Springs 4",44.7894,-121.9945,7.5,1934
+"Breitenbush Hot Springs 5",44.7723,-121.9007,5.2,1991
+"Breitenbush Hot Springs 6",44.7855,-121.8935,5.4,1967
+"Cascade Head 1 ",45.1024,-123.8816,9.7,2554
+"Cascade Head 10",45.0679,-123.8882,9.2,2747
+"Cascade Head 11",45.0819,-123.9038,9.5,2649
+"Cascade Head 12",45.0445,-123.9007,9.5,2662
+"Cascade Head 2",45.0974,-123.8972,9,2788
+"Cascade Head 3",45.1122,-123.8841,9.9,2446
+"Cascade Head 4",45.1122,-123.8841,9.9,2446
+"Cascade Head 5",45.1122,-123.8841,9.9,2446
+"Cascade Head 6",45.0894,-123.8816,9.3,2714
+"Cascade Head 7",45.0894,-123.8807,9.3,2714
+"Cascade Head 8",45.0894,-123.8807,9.3,2714
+"Cascade Head 9",45.0699,-123.8949,9.4,2677
+"Chakia Forest 1",25,83.033333,26.1,1003
+"Eastern Canada 1",47.31,-71.1,0.3,1299
+"Eastern Canada 2",47.73,-68.15,1.8,1059
+"Eastern Canada 3",46.03,-66.38,5,1112
+"Emigrant Butte 1",43.4364,-122.2439,5.6,1299
+"Emigrant Butte 2",43.5015,-122.2083,5.7,1268
+"Emigrant Butte 3",43.4169,-122.1608,7,1073
+"Emigrant Butte 4",43.4991,-122.1899,5.1,1318
+"Emigrant Butte 5",43.4263,-122.2342,5.7,1271
+"Emigrant Butte 6",43.4949,-122.1896,5.1,1318
+"Gainsville",29.69,-82.35,20.4,1327
+"Grants Pass 1",42.4875,-123.2612,9.6,849
+"Grants Pass 2",42.4778,-123.2612,8.5,874
+"Grants Pass 3",42.4918,-123.2745,10.4,823
+"Grants Pass 4",42.4789,-123.3002,10,859
+"Grants Pass 5",42.4723,-123.2642,9,860
+"Grants Pass 6",42.4725,-123.2665,9,860
+"Hampshire",51.12,-0.86,9.6,827
+"Heidelberg",49.41,8.7,10.2,667
+"Hellion Rapids 1",44.399,-123.7799,8.7,2389
+"Hellion Rapids 2",44.4465,-123.8595,8.7,2504
+"Hellion Rapids 3",44.4213,-123.7759,10.1,2204
+"Hellion Rapids 4",44.4758,-123.8605,8.5,2570
+"Hellion Rapids 5",44.3983,-123.7938,9.4,2294
+"Kennedy",28.6,-80.7,21.7,1321
+"Lookout Mountains 1",45.8708,-122.097,5.4,2714
+"Lookout Mountains 2",45.849,-122.0274,8.4,2552
+"Lookout Mountains 3",45.8596,-122.0736,6.9,2577
+"Lookout Mountains 4",45.8141,-122.0101,7.6,2480
+"Lookout Mountains 5",45.8344,-122.0899,6.2,2637
+"Lookout Mountains 6",45.8464,-122.1093,5.3,2744
+"Metolius 1",44.4371,-121.5679,6.2,825
+"Metolius 10",44.4982,-121.6249,7.3,780
+"Metolius 11",44.4222,-121.6066,6.4,814
+"Metolius 2",44.4508,-121.6908,7.3,886
+"Metolius 3",44.4327,-121.6104,6.4,840
+"Metolius 4",44.4277,-121.5852,6.3,800
+"Metolius 5",44.4373,-121.587,6.1,852
+"Metolius 6",44.4513,-121.5575,5.8,893
+"Metolius 7",44.434,-121.6701,7.4,826
+"Metolius 8",44.4526,-121.6691,7.4,843
+"Metolius 9",44.4634,-121.6634,7.5,826
+"Mill City South 1",44.644,-122.4507,6.9,2407
+"Mill City South 2",44.6886,-122.4967,9.5,2092
+"Mill City South 3",44.6358,-122.4955,7.8,2308
+"Mill City South 4",44.7248,-122.4212,8.6,2252
+"Mill City South 5",44.7301,-122.3909,9.3,2195
+"Mill City South 6",44.7019,-122.5,7.6,2346
+"Mount Jefferson 1",44.7035,-121.873,4.9,1927
+"Mount Jefferson 2",44.6877,-121.8699,5.8,1758
+"Mount Jefferson 3",44.7004,-121.8761,5.6,1830
+"Mount Jefferson 4",44.6882,-121.865,5.1,1868
+"Mount Jefferson 5",44.6958,-121.8698,6.2,1708
+"Mt Kasuga",34.68,135.85,14.3,1625
+"Mt Odaigahara",34.18,136.1,6.8,2782
+"Oskarshamn Oak1",57.09,16.11,7,536
+"Oskarshamn Oak2",57.09,16.11,7,536
+"Oskarshamn Pine",57.09,16.11,7,536
+"Oskarshamn Spruce",57.09,16.11,7,536
+"Prades",41.25,0.92,13.4,615
+"Sky Oaks chaparral old",33.3739,-116.6229,13,558
+"Station Creek",-42.22,172.25,9.8,2004
+"Tumbara",-35.66,148.15,8.8,1506
+"Willow Creek AE 1",45.48,-90.08,4.2,813
+"Willow Creek AE 2",45.48,-90.08,4.2,813
+"Willow Creek AF 1",45.48,-90.08,4.2,813
+"Willow Creek AF 2",45.48,-90.08,4.2,813
+"Willow Creek IA 1",45.48,-90.08,4.2,813
+"Willow Creek IA 2",45.48,-90.08,4.2,813
+"Willow Creek NH 1",45.48,-90.08,4.2,813
+"Willow Creek NH 2",45.48,-90.08,4.2,813
+"Willow Creek NH 3",45.48,-90.08,4.2,813
+"Willow Creek NH 4",45.48,-90.08,4.2,813
+"Willow Creek YA 1",45.48,-90.08,4.2,813
+"Willow Creek YA 2",45.48,-90.08,4.2,813
+"Skukuza",-25.0197,31.4969,21.6,648
+"Chersky",69,160,-12.8,155
+"Wytham Woods",51.77,-1.32,9.6,636
+"Cardoso Island",-25.1,-48,22.7,2461
+"Cardoso Island restinga",-25.1,-48,22.7,2461
+"Belt Woods",38.906743,-76.7604,12.7,1071
+"Broad Creek Memorial Reserve",39.68525,-76.252664,11.9,1091
+"Green Ridge State Forest, Jacob's Road",39.603565,-78.500392,10.4,937
+"Green Ridge S.F., Roby Ridge 1",39.598132,-78.441066,11,915
+"Green Ridge S.F., Tunnel Hill",39.558133,-78.452574,10.9,918
+"Gunpowder Falls State Park",39.423473,-76.434603,12.6,1142
+"Potomac-Garrett S.F., Crabtree Woods",39.483783,-79.179758,8.8,1076
+"Smithsonian Environmental Research Center (SERC), Hog Island",38.878334,-76.551647,13.3,1061
+"Smithsonian Environmental Research Center (SERC), Frog Canyon",38.884779,-76.553617,13.1,1069
+"Savage River S.F., Turkey Lodge",39.620016,-79.110462,8.1,1093
+"Saddler Woods",39.900459,-75.057947,12.3,1131
+"Buchanan S.F., Sweet Root Natural Area",39.843137,-78.532878,8.9,1015
+"French Creek State Park, Mount Pleasure",40.196193,-75.781048,10.4,1156
+"Peak Woods",40.13543,-75.075785,11.6,1150
+"Rothrock S.F., Allan Seeger Natural Area",40.695914,-77.754183,9.7,998
+"Rothrock S.F., Detweiler Run Natural Area",40.717099,-77.746596,8.7,1034
+"Appomattox Buckingham S.F., Chestnut Ridge Natural Area",37.407916,-78.622173,13.1,1113
+"Caledon State Park",38.329529,-77.14784,13.5,1035
+"Cumberland S.F., Rock Quarry",37.572573,-78.263619,13.4,1073
+"Montpelier",38.215183,-78.161261,12.7,1109
+"Rudolph Family Farm",39.237218,-78.533602,10.1,946
+"Sweetbriar College, Carry Sanctuary",37.555744,-79.074608,13.2,1084
+"Sweetbriar College, Constitution Oaks",37.55705,-79.070839,13.2,1084
+"Horner Woods Game Refuge",38.970904,-80.477063,10.7,1266
+"Murphy Preserve",39.24431,-81.011982,11,1122
+"Bonanza Creek/Standard Creek",64.783333,-148.375,-3.6,298
+"Oregon Transect (OTTER) Site 5 Metolius",44.42,-121.67,7.2,819
+"Alaska - interior",64,-147,-6.6,285
+"Alkkia Scots pine plantation",62.1764333,22.7836833,2.8,603
+"Cedar Bridge fire tower Pine/Scrub Oak stand",39.8379,-74.3791,11.5,1148
+"Fort Dix Army Base Pine/Oak stand",39.9712,-74.4346,11.5,1139
+"Silas Little Experimental Forest Oak/Pine stand",39.9138,-74.596,11.6,1128
+"Hartheim",47.934444,7.600556,10.1,700
+"Harvard Forest Hemlock / US-Ha2",42.5393,-72.1779,6.7,1151
+"Netherlands Douglas fir",52.167857,5.743958,9.1,793
+"North Carolina Loblolly Pine Plantation US-NC2",35.8031,-76.6679,15.9,1277
+"Prince Albert SSA (F77)",54.485,-105.818,-0.8,492
+"Prince Albert SSA (F98)",53.917,-106.078,-0.1,454
+"Prince Albert SSA (HJP94)",53.908,-104.656,-0.6,480
+"Prince Albert SSA (HJP02)",53.945,-104.649,-0.6,483
+"San Pedro mesquite woodland",31.666667,-110.183333,17.3,334
+"Santa Rita Mesquite savanna",31.8214,-110.8661,17.6,428
+"Siikaneva (NECC)",61.8327,24.1928,2.9,605
+"Thompson Fire Chronosequence near NOBS",55.9,-98.466667,-3,504
+"Vancouver Island unmanaged plantation",49.8721667,-125.2922833,8.1,1589
+"Yakutsk - Larix cajanderi",62.2551111,129.6188611,-10.8,254
+"Hyytiala Scots Pine Chronosequence",61.85,24.283,3,608
+"Savanna sites within 65km of Darwin",-12.4634,130.8456,NA,NA
