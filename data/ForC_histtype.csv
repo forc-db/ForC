@@ -25,6 +25,7 @@ Management,Drained,Draining of wetlands (e.g. forest peat swamps).,NA
 Management,Fertilization_X,"Fertilizer inputs. X refers to the nutrient (N, K, P, etc.), when known.","kg X ha-1, liters, mM"
 Management,Herbicide,Herbicide application.,kg ha-1
 Management,Irrigation,Experimental or agricultural irrigation,"mm yr-1, mm day-1"
+Management,Other,Management that does not fit within any of the other categories.,NA
 Management,Pesticide,Pesticide application.,kg ha-1
 Management,Planted,"Planting of trees within existing forest stand (e.g., to fill gaps)",plants ha-1
 Management,Precipitation diversion,Experimental rain exclusion or partial blockage of precipitation. ,mm yr-1

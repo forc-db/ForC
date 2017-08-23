@@ -2227,7 +2227,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2226,Slash pine Florida clearcut,clear-cut slash pine plantation,NAC,0,NAC,2226.02,Planted,1998.915068,2226.01,Cut,100,1997.328767,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2227,Slash pine Florida mid,mid-rotation slash pine plantation,NAC,2227.02,1989,2227.03,Planted,1989,2227.01,Cut,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2228,Slash pine Florida rotation-aged,rotation-aged slash pine plantation,NAC,2228.02,1973,2228.03,Planted,1973,2228.01,Cut,100,1972,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2229,Smithsonian Conservation Biology Institute,CTFS-ForestGEO plot,25.6,2229.03,1900,0,No disturbance,1975,0,No disturbance,NA,1975,0,0,2229.01,Cut,<100%,NI,2229.02,Grazed,<100%,1973,2229.04,0,0,0,0,0,0,extratropical
+2229,Smithsonian Conservation Biology Institute,CTFS-ForestGEO plot,25.6,2229.03,1900,2229.06,Initiation of post-disturbance cohort (natural),1973,2229.05,Grazed,<100%,1909,2229.04,2229,2229.09,Other,<100%,NA,0,NA,NA,NA,0,0,0,0,0,0,2229,extratropical
 2230,"Smithsonian Environmental Research Center (SERC), Frog Canyon",Quercus spp. old-growth forest,0.21,2230.01,1874,0,No disturbance,1874,0,No disturbance,NA,1874,0,0,2230.02,No disturbance,NA,1874,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2231,"Smithsonian Environmental Research Center (SERC), Hog Island", old-growth forest,0.21,2231.01,1754,0,No disturbance,1754,0,No disturbance,NA,1754,0,0,2231.02,No disturbance,NA,1754,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2232,Sodankyla,UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical

@@ -393,7 +393,8 @@ for n=1:n_plots
 
     %other
     i1=find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Management')==1 & (strcmp(dist_type,'Soil disturbance')==1));
-    iOTHER= [i1]; 
+    i2=find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Management')==1 & (strcmp(dist_type,'Other')==1));
+    iOTHER= [i1;i2]; 
     if length(iOTHER)==1
         OTHER(n)= {histID(iOTHER)};
     elseif isempty(iOTHER)==1
