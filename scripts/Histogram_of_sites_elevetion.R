@@ -1,6 +1,6 @@
 ######################################################
 # Purpose: Plot histogram of elevation using ForC_db
-# Inputs: ForC_db sites table
+# Inputs: ForC_db SITES table
 # outputs: tiff file with histogram
 # Developped by: Valentine Herrmann - HerrmannV@si.edu
 # R version 3.3.2 (2016-10-31)
@@ -9,11 +9,6 @@
 
 # Clean environment ####
 rm(list = ls())
-
-# Load labraries ####
-
-library(dplyr)
-library(tidyr)
 
 # Setup working directory ####
 setwd(".")
