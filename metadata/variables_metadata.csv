@@ -1,0 +1,14 @@
+Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes
+1 / A,variables.type,Variable type ,character (string) ,primary - a C cycle variable; secondary - a variable recorded because it can influence C cycle variables;  covariate - a variable required to interpret C cycle variables.
+2 / B,variables.name,Code name for variable sampled. Used in MEASUREMENTS table.,character (string) ,-
+3 / C,units,Units of the variable.,character (string) ,-
+4 / D,description,Definition and notes about the variable.,character (string) ,-
+5 / E,equations,Equations describing relationships among variables. Parentheses indicate variables that are not included in the current database version.,character (string) ,-
+6 / F,requires_allometry,Indicates whether covariate allometric_equation should (generally) be recorded in association with the measurement. Covariate is defined in this table. ,number (binary),0- false; 1- true
+7 / G,requires_min_dbh,Indicates whether covariate min_dbh should (generally) be recorded in association with the measurement. Covariate is defined in this table.,number (binary),0- false; 1- true
+8 / H,requires_depth,Indicates whether covariate depth should (generally) be recorded in association with the measurement. Covariate is defined in this table.,number (binary),0- false; 1- true
+9 / I,associated.covariate_1,Other covariate associated with the variable listed. Parentheses indicate non-required covariate. Order listed here does not necessarily match the order listed in the MEASUREMENTS table). These covariates are also defined in this table.,character (string) ,-
+10 / J,associated.covariate_2,Same as above.,character (string) ,-
+11 / K,min,Minimum value in current version of the database.,numeric (double),-
+12 / L,max,Maximum value in current version of the database.,numeric (double),-
+13 / K,notes,Notes of relevance to interpreting variables. ,character (string) ,-

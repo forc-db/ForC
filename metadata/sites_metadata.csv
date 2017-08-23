@@ -1,0 +1,27 @@
+Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes,Units,Range
+1 / A,siteID,Unique numerical identifier for each record in the SITES table.,numeric (integer),-,-,##-##
+2 / B,sites.sitename,"Site identifier, sufficient to uniquely identify the site within the paper. Links to MEASUREMENTS, PLOTS, and HISTORY tables.",character (string),-,-,-
+3 / C,city ,"Nearest city, when identified in original publication.",character (string),-,-,-
+4 / D,state,State,character (string),-,-,-
+5 / E,country,Country,character (string),-,-,-
+6 / F,lat ,"Latitude, where negative values indicage S hemisphere",numeric (double),-,decimal degrees,##-##
+7 / G,lon ,"Longitude, where negative values indicate W hemisphere",numeric (double),-,decimal degrees,##-##
+8 / H,masl,Elevation ,numeric (double),-,m.a.s.l.,##-##
+9 / I,geography.notes,"Notes pertaining to site name, location, or topography",character (string),-,-,-
+10 / J,mat,Mean annual temperature ,numeric (double),-,ÁC,##-##
+11 / K,min.temp,Mean temperature of the coldest month ,numeric (double),-,ÁC,##-##
+12 / L,max.temp,Mean temperature of the warmest month,numeric (double),-,ÁC,##-##
+13 / M,map,Mean annual precipitation ,numeric (double),-,mm,##-##
+14 / N,climate.notes,Climate details not included above,character (string),-,-,-
+15 / O,soil.texture,"Soil texture, based on % sand-silt-clay. When original publication reports % sand-silt-clay, classification follows USDA soil classification. ",character (string),-,-,-
+16 / P,soil.classification,Soil classification (USDA soil taxonomy or FAO soil classification),character (string),-,-,-
+17 / Q,soilnotes,Soil details not included above,character (string),-,-,-
+18 / R,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,,-
+19 / S,sitenotes,Site details not included above,character (string),-,-,-
+20 / T,siteref,"References„in addition to those associated with measurement data„used to obtain site data. When all site data were obtained from references associated with measurement data, this field is populated with ïNAÍ.",character (string),-,-,-
+21 / U,area,"Groups sites that are geographically proximate and edaphically similar. Defined as a group of sites where no site is removed from the rest in its group by >0.25 degrees latitude or longitude. Note that groupings are subject to change. As of February 2017, all values were for the set of sites published in Anderson-Teixeira et al. (2016).",numeric (integer) ,-,-,##-##
+22 / V,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,-
+23 / W,Koeppen,"K_ppen-Geiger classification, extracted from the ESRI K_ppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,-
+24 / X,FAOecozone,"FAO global ecological zones classification, extracted from FAOÍs GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,-
+25 / Y,siteID.v1,"Original siteID, where numbers _503 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,1-###
+26 / Z,tropical_extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-

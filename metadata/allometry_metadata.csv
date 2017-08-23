@@ -1,0 +1,5 @@
+Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes
+1 / A,allometric_equation,"Code for allometric equation. Used in covariate field in MEASUREMENTS table. When a single study presents multiple allometries (e.g., for various vegetation components or climates), the integer part refers to the study and the fractional parts refer to each individual allometry.   ",numeric (double) ,-
+2 / B,allometry_citation,Author name and year of publication describing the allometries.,character (string) ,-
+3 / C,allometry_citation.title,Title of reference for the allometries.,character (string) ,-
+4 / D,allometry_notes,Description of the allometries used.,character (string) ,-

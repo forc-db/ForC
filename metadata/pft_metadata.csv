@@ -1,0 +1,4 @@
+Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes
+1 / A,pftcode,Code name for plant functional traits. Used in MEASUREMENTS table. ,character (string),-
+2 / B,description,Definition of the pftcode.,character (string),-
+3 / C,notes,Details.,character (string),-

@@ -1,0 +1,5 @@
+Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes
+1 / A,method_id,Code name for methodology. Used in MEASUREMENTS table. ,numeric (double) ,-
+2 / B,method_citation,Reference for the methodology used.,character (string) ,-
+3 / C,variables.name,"The type of variable for which the methodology is described. May not exactly correspond to variables.name in VARIABLES table, as similar variables may be grouped together.",character (string) ,-
+4 / D,method_notes,Description of the methodology used.,character (string) ,-
