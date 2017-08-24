@@ -1,7 +1,7 @@
 ######################################################
 # Purpose: Plot histogram of stand age
 # Inputs: - ForC MEASUREMENTS table
-# outputs: 2 .png files with figure of World Map with our without Biogegraphic zones and chart.
+# outputs:  1. png file, saved in figures foler as Histogram_of_Stand_age.png
 # Developped by: Valentine Herrmann - HerrmannV@si.edu
 # R version 3.4.0 (2017-08-23)
 ######################################################
