@@ -1,7 +1,7 @@
 ######################################################
 # Purpose: Plot a World map with Biogeographic regions and ForC sites, with or without Biogeographic zones and chart.
 # Inputs: - pre-saved R environment (data_for_World_Map_with_Biogeographic_regions_and_sites.Rdata), created by script. Both script and .Rdata file are in supplementary_resources/World Map data
-# outputs: 2 .png files with figure of World Map with our without Biogegraphic zones and chart.
+# outputs: 2 .png files saved in figures foler as 1/ World_Map_with_Biogeographic_regions_and_sites.png and 2/World_Map_of_sites.png
 # Developped by: Valentine Herrmann - HerrmannV@si.edu
 # R version 3.4.0 (2017-08-23)
 ######################################################
@@ -10,7 +10,7 @@
 # Clean environment ####
 rm(list = ls())
 
-# Setup working directory ####
+# Set working directory as ForC main folder ####
 setwd(".")
 
 # Load libraries ####

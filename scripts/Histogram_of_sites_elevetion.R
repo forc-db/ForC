@@ -1,7 +1,7 @@
 ######################################################
 # Purpose: Plot histogram of elevation using ForC_db
 # Inputs: ForC_db SITES table
-# outputs: png file with histogram
+# outputs: 1. png file, saved in figures foler as Histogram_of_sites_elevation.png
 # Developped by: Valentine Herrmann - HerrmannV@si.edu
 # R version 3.3.2 (2016-10-31)
 ######################################################
@@ -10,7 +10,7 @@
 # Clean environment ####
 rm(list = ls())
 
-# Setup working directory ####
+# Set working directory as ForC main folder ####
 setwd(".")
 
 # Load sites table ####
