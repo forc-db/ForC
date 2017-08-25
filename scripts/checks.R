@@ -2,6 +2,9 @@
 # Following criteria laid out in https://github.com/forc-db/ForC/issues/23
 # BBL August 2017
 
+# Set working directory as ForC main folder
+setwd(".")
+
 library(dplyr)  # version 0.5.0
 library(readr)  # version 1.1.0
 
