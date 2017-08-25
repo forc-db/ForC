@@ -111,8 +111,17 @@ if(any(duplicated(paste(HIST$histcat, HIST$histtype)))) {
 }
 
 # All disturbance categories and types in HISTORY should be defined
+
+# We need to do some work to ensure that the `histcat` and `histtype` fields are correctly matched
+# See https://github.com/forc-db/ForC/issues/23#issuecomment-324903771
+pattern1 <- "[(]?_prior[)]?$"  # remove optional "_prior" and "(_prior)"
+HISTORY$histcat2 <- gsub(pattern1, "", HISTORY$histcat)
+HIST$histcat2 <- gsub(pattern1, "", HIST$histcat)
+pattern2 <- "Fertilization_[A-Za-z]*$"  # remove _N, _Mg, etc.
+HISTORY$histtype2 <- gsub(pattern2, "Fertilization", HISTORY$histtype)
+HIST$histtype2 <- gsub(pattern2, "Fertilization", HIST$histtype)
 HISTORY %>%
-  anti_join(HIST, by = c("histcat", "histtype")) %>%
+  anti_join(HIST, by = c("histcat2", "histtype2")) %>%
   distinct(historyID, histcat, histtype) ->
   h_no_dist
 cat("There are", nrow(h_no_dist), "history records with undefined disturbance category/type combinations\n")
