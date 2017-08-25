@@ -248,7 +248,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 247,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Control (C),NAC,247.06,1973,247.07,Planted,1973,247.05,Burned,100,1972,247.04,247,247.08,Cut,<100%,1988.748634,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 248,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,248.06,1973,248.07,Planted,1973,248.05,Burned,100,1972,248.04,248,248.09,Cut,<100%,1988.748634,0,NA,NA,NA,0,0,0,248.08,0,0,0,extratropical
 249,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,249.07,1973,249.06,Planted,1973,249.05,Burned,100,1972,249.04,249,249.1,Cut,<100%,1988.748634,0,NA,NA,NA,0,0,0,249.08,249.09,0,0,extratropical
-250,Bionte (Luizao),lowland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+250,Bionte (Luizao),lowland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 251,Bionte 1,terra firma BNT-01,1,0,NAC,0,No disturbance,1904,0,No disturbance,NA,1904,0,0,251.01,No disturbance,NA,1904,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 252,Bionte 2,terra firma BNT-02,1,0,NAC,0,No disturbance,1904,0,No disturbance,NA,1904,0,0,252.01,No disturbance,NA,1904,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 253,Bionte 4,terra firma BNT-04,1,0,NAC,0,No disturbance,1904,0,No disturbance,NA,1904,0,0,253.01,No disturbance,NA,1904,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -629,7 +629,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 628,Dawson Creek Forest District age sequence- Poor site,Forest recovery following natural disturbance.25 y,NAC,628.03,1966,628.02,Initiation of post-disturbance cohort (natural),1966,628.01,Cut,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 629,Dawson Creek Forest District age sequence- Poor site,Forest recovery following natural disturbance.65 y,NAC,629.03,1926,629.02,Initiation of post-disturbance cohort (natural),1926,629.01,Burned,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 630,Dawson Creek Forest District age sequence- Poor site,Forest recovery following natural disturbance.95 y,NAC,630.03,1896,630.02,Initiation of post-disturbance cohort (natural),1896,630.01,Burned,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-631,Daxing Forest Farm,poplar plantation,NAC,631.02,1998,631.01,Planted,1998,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,631,0,631.03,0,extratropical
+631,Daxing Forest Farm,poplar plantation,NAC,631.02,1998,631.01,Planted,1998,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,631,0,631.03,631,extratropical
 632,Daxing'anling 3,Larix gmelinii-Ledum,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 633,Daxing'anling 4,Larix gmelinii-grass,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 634,Daxing'anling 5,Larix gmelinii-Rhododendron,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -802,12 +802,12 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 801,Even-aged mountain maple chronosequence,Forest recovery following clear cut,NAC,0,NAC,801.02,Initiation of post-disturbance cohort (natural),NI,801.01,Cut,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 802,Fagne de Chimay,Managed,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 803,Fairbanks,NAC,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-804,Fazenda Cauaxi,Managed.conventional logging CCL1,a,0,NAC,804.01,Initiation of post-disturbance cohort (natural),2000,0,NAC,NAC,NAC,0,0,804.02,Harvest,NAC,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-805,Fazenda Cauaxi,Managed.conventional logging CCL2,a,0,NAC,805.01,Initiation of post-disturbance cohort (natural),2000,0,NAC,NAC,NAC,0,0,805.02,Harvest,NAC,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-806,Fazenda Cauaxi,Managed.reduced impact logging CRIL1,a,0,NAC,806.01,Initiation of post-disturbance cohort (natural),2000,0,NAC,NAC,NAC,0,0,806.02,Harvest,<100%,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-807,Fazenda Cauaxi,Managed.reduced impact logging CRIL2,a,0,NAC,807.01,Initiation of post-disturbance cohort (natural),2000,0,NAC,NAC,NAC,0,0,807.02,Harvest,<100%,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-808,Fazenda Cauaxi,undisturbed forest CUF1,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,808.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-809,Fazenda Cauaxi,undisturbed forest CUF2,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,809.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+804,Fazenda Cauaxi,Managed.conventional logging CCL1,NAC,0,NAC,804.01,Initiation of post-disturbance cohort (natural),2000,0,NAC,NAC,NAC,0,0,804.02,Harvest,NAC,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+805,Fazenda Cauaxi,Managed.conventional logging CCL2,NAC,0,NAC,805.01,Initiation of post-disturbance cohort (natural),2000,0,NAC,NAC,NAC,0,0,805.02,Harvest,NAC,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+806,Fazenda Cauaxi,Managed.reduced impact logging CRIL1,NAC,0,NAC,806.01,Initiation of post-disturbance cohort (natural),2000,0,NAC,NAC,NAC,0,0,806.02,Harvest,<100%,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+807,Fazenda Cauaxi,Managed.reduced impact logging CRIL2,NAC,0,NAC,807.01,Initiation of post-disturbance cohort (natural),2000,0,NAC,NAC,NAC,0,0,807.02,Harvest,<100%,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+808,Fazenda Cauaxi,undisturbed forest CUF1,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,808.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+809,Fazenda Cauaxi,undisturbed forest CUF2,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,809.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 810,Fazenda Vitoria 2,Forest recovery following clear-cut and pasture,NI,0,NAC,810.03,Initiation of post-disturbance cohort (natural),1981,810.02,Grazed,100,1971,810.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 811,Fazenda Vitoria 2,Managed.logged forest,NI,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,811.01,Harvest,<100%,1987,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 812,Fazenda Vitoria 2,primary forest,NI,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,812.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -835,7 +835,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 834,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,834.02,1969,834.01,Planted,1965,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 835,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,835.02,1967,835.01,Planted,1965,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 836,Fort Dix Army Base Pine/Oak stand,gypsy moth defoliation,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-837,Fortuna,upland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+837,Fortuna,upland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 838,France,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 839,Frazer old,UM,NAC,839.01,1740,839.02,Initiation of post-disturbance cohort (natural),1740,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 840,Frazer young,Managed,NAC,840.03,1946,840.02,Initiation of post-disturbance cohort (planted or natural),1946,840.01,Cut,100,1946,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -956,7 +956,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 955,Hanjiayuan,Pinus sylvestris var. mongolica,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 956,Hartheim,planted scots pine forest in 1963,NAC,0,NAC,956.01,Planted,1963,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 957,Harvard 2,UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-958,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1) ,NA,958.01,1895,958.04,Initiation of post-disturbance cohort (natural),1938,958.03,Harvest,<100%,1938,958.02,0,958.05,Burned,<100%,1957,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+958,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1) ,NAC,958.01,1895,958.04,Initiation of post-disturbance cohort (natural),1938,958.03,Harvest,<100%,1938,958.02,0,958.05,Burned,<100%,1957,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 959,Harvard Forest Hemlock / US-Ha2,UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,959.01,Harvest,<100%,1800,959.02,Harvest,<100%,1900,0,0,0,0,0,0,0,extratropical
 960,Harvard Forest Soil Warming Experiment- Barre Woods,Control UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,960,960.03,Major storm,<100%,1938,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 961,Harvard Forest Soil Warming Experiment- Barre Woods,"Warming_soil, soil disturbance",NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,961,961.03,Major storm,<100%,1938,0,NA,NA,NA,0,0,961.05,0,0,0,961.04,extratropical
@@ -1143,8 +1143,8 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 1142,Johnson et al 2000_nonsandy subtropical_1,Forest recovery following slash and burn agriculture,NAC,0,NAC,1142.04,Initiation of post-disturbance cohort (natural),NI,1142.03,Cultivation,100,NI,1142,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1143,Johnson et al 2000_sandy subtropical_1,Forest recovery following slash and burn agriculture,NAC,0,NAC,1143.04,Initiation of post-disturbance cohort (natural),NI,1143.03,Cultivation,100,NI,1143,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1144,Juniper,RD,NAC,0,NAC,1144.02,Initiation of post-disturbance cohort (planted or natural),NAC,1144.01,Grazed,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-1145,Juruena,Managed.reduced impact logging,a,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1145.01,Cut,<100%,2003,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1146,Juruena,undisturbed forest,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1146.01,Harvest,<<100%,1980,1146.02,No disturbance,NA,NI,0,0,0,0,0,0,0,tropical
+1145,Juruena,Managed.reduced impact logging,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1145.01,Cut,<100%,2003,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1146,Juruena,undisturbed forest,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1146.01,Harvest,<<100%,1980,1146.02,No disturbance,NA,NI,0,0,0,0,0,0,0,tropical
 1147,Kabaung reserved forest compartment 103,Managed.33 stands in selectively logged natural teak forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1148,Kade,UM 30-50 yr Semi-deciduous secondary forest,NAC,0,NAC,1148.01,Initiation of post-disturbance cohort (natural),1925,0,No disturbance,NA,1930,0,0,1148.02,No disturbance,NA,1930,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1149,Kagneri,Mature Rain forest,1,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -1265,11 +1265,11 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 1264,La Sabanita low forest (SB3),short-statured tropical forest.YUR3,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1265,La Sabanita medium forest (SMA5),secondary tropical forest.YUR2,NAC,1265.01,1940,0,NAC,NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1266,La Sabanita tall forest (SA1),old-growth tropical forest.YUR1,0.25,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1266.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1267,La Selva (Russell),Hieronyma alchorneoides,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1268,La Selva (Russell),Pentaclethra macroloba,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1269,La Selva (Russell),Pinus patula,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1270,La Selva (Russell),Virola koschnyi,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1271,La Selva (Russell),Vochysia guatemalensis,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1267,La Selva (Russell),Hieronyma alchorneoides,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1268,La Selva (Russell),Pentaclethra macroloba,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1269,La Selva (Russell),Pinus patula,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1270,La Selva (Russell),Virola koschnyi,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1271,La Selva (Russell),Vochysia guatemalensis,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1272,La Selva Biological Station.CARBONO project,primary forest,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1272.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1273,La Selva Biological Station.OTS plots,primary forest,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1273.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1274,La Selva Biological Station.Vegetation map plots,reserve-wide plots,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1274.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -1462,7 +1462,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 1461,Luquillo 3,"Prestoea montana, tropical palm forest",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1462,Luquillo Experimental Forest,1932 hurricane recovery,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1462.01,Major storm,<100%,1932,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1463,Luquillo Forest Dynamics Plot,mature 'old growth' forest,NAC,0,NAC,0,No disturbance,NAC,0,No disturbance,NA,NAC,0,0,1463.01,No disturbance,NA,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1464,Luquillo,UM,NAC,1464.01,a,1464.02,Initiation of post-disturbance cohort (natural),1930,0,No disturbance,NA,1930,0,0,1464.03,No disturbance,NA,1930,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1464,Luquillo,UM,NAC,1464.01,NA,1464.02,Initiation of post-disturbance cohort (natural),1930,0,No disturbance,NA,1930,0,0,1464.03,No disturbance,NA,1930,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1465,LWW-01_Lope West Woods,african tropical forest,1,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1466,Madeira River 1,mature 'old growth' forest,NAC,0,NAC,0,No disturbance,NAC,0,No disturbance,NA,NAC,0,0,1466.01,No disturbance,NA,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1467,Madeira River 2,mature 'old growth' forest,NAC,0,NAC,0,No disturbance,NAC,0,No disturbance,NA,NAC,0,0,1467.01,No disturbance,NA,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -1491,7 +1491,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 1490,Mamiraua Sustainable Development Reserve,late successional varzea,1,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1491,Mamiraua Sustainable Development Reserve,pioneer varzea,1,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1492,Manasi,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-1493,Manaus (Malhi 2009),lowland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1493,Manaus (Malhi 2009),lowland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1494,Manaus (Nascimento & Laurance),intact rainforest/fragment interiors,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1494.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1495,Manaus 2,tropical evergreen forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1496,Manaus 3,tropical upland moist forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -1563,7 +1563,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 1562,Mekrijarvi Research Station,naturally regenerated Pinus sylvestris stands-pole,NAC,1562.01,1950,1562.02,Initiation of post-disturbance cohort (natural),1950,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1563,Mekrijarvi Research Station,naturally regenerated Pinus sylvestris stands-sapling,NAC,1563.01,1970,1563.02,Initiation of post-disturbance cohort (natural),1970,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1564,Mengkeshan,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-1565,Menglun Nature Reserve,lowland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1565,Menglun Nature Reserve,lowland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1566,Menglun Nature Reserve,primary forest,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1566.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1567,Metolius 10,UM,NAC,1567.01,1811,1567.02,Initiation of post-disturbance cohort (natural),1811,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1568,Metolius 11,UM,NAC,1568.01,1685,1568.02,Initiation of post-disturbance cohort (natural),1685,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -1625,18 +1625,18 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 1624,Mt. Disappointment State Forest,Stand development of a managed plantation,NAC,1624.02,1906,1624.01,Planted,1906,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1625,Mt. Disappointment,NI,NAC,1625.01,1904,1625.02,Initiation of post-disturbance cohort (planted or natural),1904,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1626,Mt. Kerigomma,Montane Rain Forest,0.24,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1627,Mt. Kinabalu 1560m,lower montane rain forest on sedimentary rock,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1627.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1628,Mt. Kinabalu 1860m,lower montane rain forest on ultrabasic rock,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1628.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1629,Mt. Kinabalu 2590m,upper montane rain forest on sedimentary rock,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1629.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1630,Mt. Kinabalu 2700m,upper montane rain forest on ultrabasic rock,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1630.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1631,Mt. Kinabalu 3050m,subalpine forest on ultrabasic rock,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1631.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1632,Mt. Kinabalu 3080m,subalpine forest on sedimentary rock,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1632.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1633,Mt. Kinabalu 650m,hill dipterocarp rain forest on sedimentary rock,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1633.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1634,Mt. Kinabalu 700m,hill dipterocarp rain forest on ultrabasic rock,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1634.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1635,"Mt. Kinabalu, Q ridge",upland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1636,"Mt. Kinabalu, T ridge",upland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1637,"Mt. Kinabalu, U lower",upland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1638,"Mt. Kinabalu, U ridge",upland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1627,Mt. Kinabalu 1560m,lower montane rain forest on sedimentary rock,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1627.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1628,Mt. Kinabalu 1860m,lower montane rain forest on ultrabasic rock,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1628.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1629,Mt. Kinabalu 2590m,upper montane rain forest on sedimentary rock,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1629.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1630,Mt. Kinabalu 2700m,upper montane rain forest on ultrabasic rock,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1630.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1631,Mt. Kinabalu 3050m,subalpine forest on ultrabasic rock,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1631.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1632,Mt. Kinabalu 3080m,subalpine forest on sedimentary rock,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1632.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1633,Mt. Kinabalu 650m,hill dipterocarp rain forest on sedimentary rock,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1633.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1634,Mt. Kinabalu 700m,hill dipterocarp rain forest on ultrabasic rock,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1634.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1635,"Mt. Kinabalu, Q ridge",upland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1636,"Mt. Kinabalu, T ridge",upland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1637,"Mt. Kinabalu, U lower",upland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1638,"Mt. Kinabalu, U ridge",upland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1639,Mulei,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1640,"Muli Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1641,Muli Quercus,Quercus,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -1800,11 +1800,11 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 1799,Pao,"Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment",NAC,1799.03,NI,1799.02,Initiation of post-disturbance cohort (natural),NI,1799.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1800,Paracou,old-growth tropical forest.PAR,NAC,0,NAC,0,No disturbance,NAC,0,No disturbance,NA,NAC,0,0,1800.01,No disturbance,NA,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1801,Paracou,terra firma PAR,6.25,0,NAC,0,No disturbance,1904,0,No disturbance,NA,1904,0,0,1801.01,No disturbance,NA,1904,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1802,Paragominas 2,Intact ,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1802.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1803,Paragominas 2,Managed.Heavily logged ,a,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1803.01,Harvest,<100%,NI,1803.02,Harvest,<100%,NI,0,0,0,0,0,0,0,tropical
-1804,Paragominas 2,Managed.Logged and heavily burned ,a,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1804.01,Harvest,<100%,NI,1804.02,Burned,95.5,NI,0,0,0,0,0,0,0,tropical
-1805,Paragominas 2,Managed.Logged and lightly burned ,a,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1805.01,Harvest,<100%,NI,1805.02,Burned,70,NI,0,0,0,0,0,0,0,tropical
-1806,Paragominas 2,Managed.Moderately logged ,a,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1806.01,Harvest,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1802,Paragominas 2,Intact ,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1802.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1803,Paragominas 2,Managed.Heavily logged ,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1803.01,Harvest,<100%,NI,1803.02,Harvest,<100%,NI,0,0,0,0,0,0,0,tropical
+1804,Paragominas 2,Managed.Logged and heavily burned ,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1804.01,Harvest,<100%,NI,1804.02,Burned,95.5,NI,0,0,0,0,0,0,0,tropical
+1805,Paragominas 2,Managed.Logged and lightly burned ,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1805.01,Harvest,<100%,NI,1805.02,Burned,70,NI,0,0,0,0,0,0,0,tropical
+1806,Paragominas 2,Managed.Moderately logged ,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1806.01,Harvest,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1807,Paragominas age sequence-heavy use,abandoned pasture- HEAVY use. 2.5y #11,NAC,0,NAC,1807.05,Initiation of post-disturbance cohort (natural),NI,1807.04,Grazed,100,NI,1807,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,1807.03,0,tropical
 1808,Paragominas age sequence-heavy use,abandoned pasture- HEAVY use. 2.5y #12,NAC,0,NAC,1808.05,Initiation of post-disturbance cohort (natural),NI,1808.04,Grazed,100,NI,1808,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,1808.03,0,tropical
 1809,Paragominas age sequence-heavy use,abandoned pasture- HEAVY use. 8y,NAC,0,NAC,1809.05,Initiation of post-disturbance cohort (natural),NI,1809.04,Grazed,100,NI,1809,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,1809.03,0,tropical
@@ -1988,7 +1988,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 1987,Renon,Managed,NAC,1987.01,1821,1987.02,Initiation of post-disturbance cohort (planted or natural),1821,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1988,Reserva Biologica San Francisco 1,UM,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1988.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1989,Reserva Biologica San Francisco 2,UM,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1989.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1990,Reserva Ducke Chave,old-growth tropical forest.DUC,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1990.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1990,Reserva Ducke Chave,old-growth tropical forest.DUC,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,1990.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1991,Reserva Ducke,"dense, primary lowland ""terra firma"" rainforest",0.1125,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1992,Reserva Ducke,Forest recovery following pasture abandonment and fire.R15,0.1,1992.04,1972,1992.05,Initiation of post-disturbance cohort (natural),1972,1992.03,Grazed,100,NI,1992,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1993,Reserva Ducke,Forest recovery following pasture abandonment and fire.R15? ~1872,NAC,1993.04,1972,1993.05,Initiation of post-disturbance cohort (natural),1972,1993.03,Grazed,100,NI,1993,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -2085,8 +2085,8 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2084,Sambalpur University,NI mixed deciduous tropical forest,NAC,2084.01,1973,2084.02,Initiation of post-disturbance cohort (planted or natural),1973,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2085,San Carlos (Chao2009),white sand SCR-04D,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2086,San Carlos (Chao2009),white sand SCR-05D,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2087,San Carlos de Rio Negro abandoned slash-and-burn plots,succession after slash-and-burn,a,2087.04,1976.915301,2087.03,Initiation of post-disturbance cohort (natural),1976.915301,2087.02,Burned,100,1976.915301,2087.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2088,San Carlos de Rio Negro Bana,short-statured tropical forest (bana),a,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2087,San Carlos de Rio Negro abandoned slash-and-burn plots,succession after slash-and-burn,NAC,2087.04,1976.915301,2087.03,Initiation of post-disturbance cohort (natural),1976.915301,2087.02,Burned,100,1976.915301,2087.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2088,San Carlos de Rio Negro Bana,short-statured tropical forest (bana),NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2089,San Carlos de Rio Negro Bana,UM Low Bana,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2090,San Carlos de Rio Negro Bana,UM Open Bana,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2091,San Carlos de Rio Negro Bana,UM Tall Bana,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -2204,7 +2204,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2203,Silas Little Experimental Forest Oak/Pine stand,gypsy moth defoliation,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2204,Sinop flux station,mature transitional tropical forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2205,Sinop,old-growth tropical forest.SIN,NAC,0,NAC,0,No disturbance,NAC,0,No disturbance,NA,NAC,0,0,2205.01,No disturbance,NA,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2206,Sipitang,Forest recovery following drought and wildfire.2-y,NAC,2206.04,1983,2206.03,Initiation of post-disturbance cohort (natural),1983,2206.02,Wildfire,100,1983,2206.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2206,Sipitang,Forest recovery following drought and wildfire.2-y,NAC,2206.04,1983,2206.03,Initiation of post-disturbance cohort (natural),1983,2206.02,Burned,100,1983,2206.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2207,"Site region 5E, site class I/high stocking class",Forest recovery following clear cut.20y,NAC,2207.03,1949,2207.02,Initiation of post-disturbance cohort (natural),1949,2207.01,Cut,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2208,"Site region 5E, site class I/high stocking class",Forest recovery following clear cut.30y,NAC,2208.03,1939,2208.02,Initiation of post-disturbance cohort (natural),1939,2208.01,Cut,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2209,"Site region 5E, site class I/high stocking class",Forest recovery following clear cut.65y,NAC,2209.03,1904,2209.02,Initiation of post-disturbance cohort (natural),1904,2209.01,Cut,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -2282,14 +2282,14 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2281,Sucusari C,terra firma SUC-03,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2282,Sucusari D,terra firma SUC-04,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2283,Sucusari E,terra firma SUC-05,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2284,Sulawesi,upland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2285,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NA,2285.05,1985,2285.04,Initiation of post-disturbance cohort (natural),1985,2285.03,Cultivation,100,NI,2285,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2284,Sulawesi,upland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2285,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,NAC,2285.05,1985,2285.04,Initiation of post-disturbance cohort (natural),1985,2285.03,Cultivation,100,NI,2285,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2286,Surutu,Forest recovery following slash and burn agriculture.12y,0.1,2286.05,1983,2286.04,Initiation of post-disturbance cohort (natural),1983,2286.03,Cultivation,100,NI,2286,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2287,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NA,2287.05,1980,2287.04,Initiation of post-disturbance cohort (natural),1980,2287.03,Cultivation,100,NI,2287,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2287,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,NAC,2287.05,1980,2287.04,Initiation of post-disturbance cohort (natural),1980,2287.03,Cultivation,100,NI,2287,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2288,Surutu,Forest recovery following slash and burn agriculture.20y,0.1,2288.05,1975,2288.04,Initiation of post-disturbance cohort (natural),1975,2288.03,Cultivation,100,NI,2288,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2289,Surutu,Forest recovery following slash and burn agriculture.25y,0.1,2289.05,1970,2289.04,Initiation of post-disturbance cohort (natural),1970,2289.03,Cultivation,100,NI,2289,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2290,Surutu,Forest recovery following slash and burn agriculture.4y,0.1,2290.05,1991,2290.04,Initiation of post-disturbance cohort (natural),1991,2290.03,Cultivation,100,NI,2290,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2291,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NA,2291.06,1990,2291.05,Initiation of post-disturbance cohort (natural),1990,2291.04,Grazed,100,NI,2291,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2291,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,NAC,2291.06,1990,2291.05,Initiation of post-disturbance cohort (natural),1990,2291.04,Grazed,100,NI,2291,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2292,Surutu,Forest recovery following slash and burn agriculture.6y,0.1,2292.05,1989,2292.04,Initiation of post-disturbance cohort (natural),1989,2292.03,Cultivation,100,NI,2292,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2293,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,0.1,2293.05,1987,2293.04,Initiation of post-disturbance cohort (natural),1987,2293.03,Cultivation,100,NI,2293,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2294,Susser Schlag,PO,NAC,2294.01,1924,2294.02,Initiation of post-disturbance cohort (planted or natural),1924,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -2328,7 +2328,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2327,Tampere,"Pinus sylvestris, Picea abies, Betula pendula, B. pubescens",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2328,Tanguro,control,1,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,2328.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2329,Tanguro,Managed burn annually,1,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2329.01,Burned,NAC,2009,2329.02,Burned,NAC,2010,2329.03,0,0,0,0,0,0,tropical
-2330,Tapajos (Malhi 2009),lowland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2330,Tapajos (Malhi 2009),lowland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2331,Tapajos (Poorter),mature 'old growth' forest,NAC,0,NAC,0,No disturbance,NAC,0,No disturbance,NA,NAC,0,0,2331.01,No disturbance,NA,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2332,Tapajos 1,tropical old-growth forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2333,Tapajos 2,tropical upland moist forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -2337,14 +2337,14 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2336,Tapajos National forest,mature forest clay soil,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2337,Tapajos National forest,mature forest sandy soil,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2338,Tapajos NF near km 67 on BR-163,well-drained old-growth upland forest,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,2338.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2339,Tapajos NF near km 83 on BR-163,Managed.logging concession,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2340,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging,a,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2340.01,Harvest,<100%,2001,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2341,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging TRIL6,a,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2341.02,Harvest,<100%,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2342,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging TRIL9,a,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2342.02,Harvest,<100%,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2343,Tapajos NF near km 83 on BR-163,undisturbed forest,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,2343.01,Cut,<100%,1975,2343.02,No disturbance,NA,NI,0,0,0,0,0,0,0,tropical
-2344,Tapajos NF near km 83 on BR-163,undisturbed forest TUF1,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,2344.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2345,Tapajos NF near km 83 on BR-163,undisturbed forest TUF2,a,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,2345.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2346,"Tapajos,RP014",Nepstad et al. 2002,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2339,Tapajos NF near km 83 on BR-163,Managed.logging concession,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2340,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2340.01,Harvest,<100%,2001,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2341,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging TRIL6,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2341.02,Harvest,<100%,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2342,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging TRIL9,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2342.02,Harvest,<100%,2000,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2343,Tapajos NF near km 83 on BR-163,undisturbed forest,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,2343.01,Cut,<100%,1975,2343.02,No disturbance,NA,NI,0,0,0,0,0,0,0,tropical
+2344,Tapajos NF near km 83 on BR-163,undisturbed forest TUF1,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,2344.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2345,Tapajos NF near km 83 on BR-163,undisturbed forest TUF2,NAC,0,NAC,0,No disturbance,NI,0,No disturbance,NA,NI,0,0,2345.01,No disturbance,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2346,"Tapajos,RP014",Nepstad et al. 2002,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2347,"Tapajos,RP014","terra firma,1-4d TAP-01",1,0,NAC,0,No disturbance,1904,0,No disturbance,NA,1904,0,0,2347.01,No disturbance,NA,1904,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2348,"Tapajos,RP014","terra firma,5-8d TAP-02",1,0,NAC,0,No disturbance,1904,0,No disturbance,NA,1904,0,0,2348.01,No disturbance,NA,1904,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2349,"Tapajos,RP014","terra firma,9-12d TAP-03",1,0,NAC,0,No disturbance,1904,0,No disturbance,NA,1904,0,0,2349.01,No disturbance,NA,1904,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -2387,7 +2387,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2386,Thong Pha Phum NF,dry evergreen forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2387,Thong Pha Phum NF,mixed deciduous forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2388,Thong Pha Phum NF,tropical rainforest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2389,Thurston,Meterosideros forest.300-y,a,0,NAC,2389.01,Initiation of post-disturbance cohort (natural),NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2389,Thurston,Meterosideros forest.300-y,NAC,0,NAC,2389.01,Initiation of post-disturbance cohort (natural),NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2390,Tianchi,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2391,Tianshan,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2392,Tiantong Fangyang Hill,human and typhoon disturbed Schima superba-Castanopsis carlesii forest,NAC,2392.01,1951,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2392.02,Major storm,<100%,NI,2392.03,Harvest,<100%,NI,0,0,0,0,0,0,0,extratropical
@@ -2562,11 +2562,11 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2561,Weixi 4,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2562,Weixi 5,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2563,Weixi 8,"Populus, Betula",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2564,West Kalimantan,lowland tropical forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2565,Western Ghats 1,tropical wet evergreen forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2566,Western Ghats 2,tropical wet evergreen forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2567,Western Ghats 3,tropical wet evergreen forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2568,Western Ghats 4,tropical wet evergreen forest,a,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2564,West Kalimantan,lowland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2565,Western Ghats 1,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2566,Western Ghats 2,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2567,Western Ghats 3,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2568,Western Ghats 4,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2569,Wet-114,Managed,NAC,2569.01,1884,2569.02,Initiation of post-disturbance cohort (planted or natural),1884,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2570,Wet-160,Managed,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2571,Wet-33,Managed,NAC,2571.01,1962,2571.02,Initiation of post-disturbance cohort (planted or natural),1962,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
