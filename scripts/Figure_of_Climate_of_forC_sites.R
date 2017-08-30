@@ -3,7 +3,7 @@
 # Inputs: - ForC_db SITES table
 #         - summary of CRU data for 1990-2014 given by Ben Bond-Lamberty thought GitHub on 8/23/2017 
 #         - A subset of sites (in SITES table) that have their mean annual temperature and precipitation extracted from WoldClim data base. This file (as well as the script that creates it) is in supplementary_resources\WorldClim
-# outputs: 1. png file, saved in figures foler as Climate_of_forC_sites.png
+# outputs: 1. png file, saved in figures folder as Climate_of_forC_sites.png
 # Developped by: Valentine Herrmann - HerrmannV@si.edu
 # R version 3.4.0 (2017-08-23)
 ######################################################
