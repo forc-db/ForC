@@ -44,11 +44,12 @@ dateloc=raw(2:end,7);
     dateloc_num=num(:,7);
 dist_cat=raw(2:end,8);
 dist_type=raw(2:end,9);
-level=raw(2:end,10);
-units=raw(2:end,11);
-permort=raw(2:end,12);
-distnotes=raw(2:end,13);
-trop_extratrop=raw(2:end,15);
+est_regrowth_assumed_same_year=raw(2:end,10);
+level=raw(2:end,11);
+units=raw(2:end,12);
+permort=raw(2:end,13);
+distnotes=raw(2:end,14);
+trop_extratrop=raw(2:end,16);
 
 %create sequence variable
 seq=event_sequence;
@@ -130,19 +131,14 @@ for n=1:n_plots
     
     %establishment of oldest trees
     i1= find(strcmp(site_plot, plots_list(n))==1 & (strcmp(dist_type,'Establishment of oldest trees')==1));
-    i2= find(strcmp(site_plot, plots_list(n))==1 & (strcmp(dist_type,'Establishment of oldest trees*')==1));
-    i3=find(strcmp(site_plot, plots_list(n))==1 & (strcmp(dist_type,'Establishment of key species')==1));
-    i_est=[i1;i2;i3];
+    i2= find(strcmp(site_plot, plots_list(n))==1 & (strcmp(dist_type,'Establishment of key species')==1));
+    i_est=[i1;i2];
     if length(i_est)==1
         EST_RN(n,1)={histID(i_est)};
         EST_DATE(n,1)=date_(i_est);
         EST_DATE_LOC(n,1)=dateloc(i_est);
+        EST_DATE_INFERRED(n,1)=est_regrowth_assumed_same_year(i_est);  
         if isempty (i2)==1
-            EST_DATE_INFERRED(n,1)={0};   
-        else
-            EST_DATE_INFERRED(n,1)={1};
-        end
-        if isempty (i3)==1
             EST_TYPE(n,1)={'trees'};
         else
             EST_TYPE(n,1)={'key_taxa'};
@@ -170,27 +166,20 @@ for n=1:n_plots
     
     %regrowth (most recent)
     i1= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Regrowth')==1 & (strcmp(dist_type,'Initiation of post-disturbance cohort (natural)')==1));
-    i2= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Regrowth')==1 & (strcmp(dist_type,'Initiation of post-disturbance cohort (natural)*')==1));
     i3= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Regrowth')==1 & (strcmp(dist_type,'Initiation of post-disturbance cohort (planted or natural)')==1));
-    i4= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Regrowth')==1 & (strcmp(dist_type,'Initiation of post-disturbance cohort (planted or natural)*')==1));
     i5= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Regrowth')==1 & (strcmp(dist_type,'Planted')==1));
     i6= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Regrowth')==1 & (strcmp(dist_type,'Seeded_trees')==1));
     i7= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Regrowth')==1 & (strcmp(dist_type,'Planted_and_natural_regeneration')==1));
-    i_reg=[i1;i2;i3;i4;i5;i6;i7];
-    i_reg2=[i2;i4];
+    i_reg=[i1;i3;i5;i6;i7];
     if length(i_reg)==1
         REGROWTH_RN(n,1)={histID(i_reg)};
         REGROWTH_DATE(n,1)=date_(i_reg);
         REGROWTH_DATE_LOC(n,1)=dateloc(i_reg);
-        if isempty (i_reg2)==1;
-            REGROWTH_DATE_INFERRED(n,1)={0};   
-        else
-            REGROWTH_DATE_INFERRED(n,1)={1};
-        end
-        if isempty([i1;i2])==0
+        EST_DATE_INFERRED(n,1)=est_regrowth_assumed_same_year(i_reg);  
+        if isempty(i1)==0
             REGROWTH_TYPE(n,1)={'Initiation of post-disturbance cohort (natural)'}; 
             REGROWTH_PLANTING_DENSITY(n,1)={'NA'};
-        elseif isempty([i3;i4])==0
+        elseif isempty(i3)==0
             REGROWTH_TYPE(n,1)={'Initiation of post-disturbance cohort (planted or natural)'};
             REGROWTH_PLANTING_DENSITY(n,1)={'NA'};
         elseif isempty(i5)==0
