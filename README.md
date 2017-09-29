@@ -1,5 +1,7 @@
 # Forest Carbon database (ForC-db)
 
+![Wolrd map](https://github.com/forc-db/ForC/blob/master/figures/World_Map_of_sites.png)
+
 ## Database overview
 The Forest C database (**ForC-db**) is an open access global C database that is updated and maintained in this Github repository. The database contains data on ground-based measurements of ecosystem-level C stocks and annual fluxes in forests globally, along with site information, disturbance history, and information on methodology. It currently contains >17,500 records from >2,700 plots and >2,000 sites, making it the largest and most comprehensive database of its type. These data were obtained from multiple previous compilations and individual published studies, as detailed in Anderson-Teixeira et al. (2016) and an in-prep publication.
 
