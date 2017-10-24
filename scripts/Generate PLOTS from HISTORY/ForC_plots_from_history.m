@@ -195,11 +195,7 @@ for n=1:n_plots
         REGROWTH_NOTES(n,1)=distnotes(i_reg);
         seqREGROWTH(n,1)=seq(i_reg);
     elseif isempty(i_reg)==1
-        if length(i_ND)==1 %cases with confirmed lack of disturbance since a given date.
-            REGROWTH_DATE(n,1)=date_(i_ND);
-            REGROWTH_TYPE(n,1)=dist_type(i_ND);
-            REGROWTH_NOTES(n,1)=distnotes(i_ND);
-        elseif length(i_ni)==1  %cases with No.Info records. For these,we can know the missing value code
+        if length(i_ni)==1  %cases with No.Info records. For these,we can know the missing value code
             REGROWTH_DATE(n,1)=date_(i_ni);
             REGROWTH_TYPE(n,1)=dist_type(i_ni);
             REGROWTH_NOTES(n,1)=distnotes(i_ni);
@@ -275,9 +271,8 @@ for n=1:n_plots
     %disturbance after regrowth or in primary forests or forests with unknown disturbance history
 
     i1= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'Disturbance')==1 & seq>seqREGROWTH(n));
-    i_ND2= find(strcmp(site_plot, plots_list(n))==1 & strcmp(dist_cat, 'No.disturbance')==1 & seq>seqREGROWTH(n)); %no disturbance confirmed since last regrowth
     
-    i_dist=[i1;i_ND2];
+    i_dist=[i1];
 
     if isempty(i_dist)==0 
         for e=1:2
