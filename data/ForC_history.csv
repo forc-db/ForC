@@ -3745,7 +3745,7 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 1800.01,Paracou,old-growth tropical forest.PAR,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
 1801.01,Paracou,terra firma PAR,6.25,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2421,tropical
 1802.01,Paragominas 2,Intact ,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,5677,tropical
-1803.01,Paragominas 2,Managed.Heavily logged ,NAC,1,NI,9,Disturbance,Harvest,NA,6,trees ha-1,<100%,repeat logging,5680,tropical
+1803.01,Paragominas 2,Managed.Heavily logged ,NAC,1,NI,9,Disturbance_prior,Harvest,NA,6,trees ha-1,<100%,repeat logging,5680,tropical
 1803.02,Paragominas 2,Managed.Heavily logged ,NAC,2,NI,9,Disturbance,Harvest,NA,6,trees ha-1,<100%,repeat logging,5681,tropical
 1804.01,Paragominas 2,Managed.Logged and heavily burned ,NAC,1,NI,9,Disturbance,Harvest,NA,5.333333333,trees ha-1,<100%,NA,5686,tropical
 1804.02,Paragominas 2,Managed.Logged and heavily burned ,NAC,2,NI,9,Disturbance,Burned,NA,95.5,%,95.5,2-3 times burned,5687,tropical
