@@ -2116,42 +2116,51 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 991.02,Hesse,Managed,NAC,2,1966,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Managed,NA,extratropical
 992.01,Hestehaven,NI,NAC,1,1885,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. No information available,NA,extratropical
 992.02,Hestehaven,NI,NAC,2,1885,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Age method: Tree rings. No information available,NA,extratropical
-993.01,Holme Fen Nature Reserve,birch stand_age24,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-993.02,Holme Fen Nature Reserve,birch stand_age24,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-993.03,Holme Fen Nature Reserve,birch stand_age24,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-993.04,Holme Fen Nature Reserve,birch stand_age24,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-994.01,Holme Fen Nature Reserve,birch stand_age27,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-994.02,Holme Fen Nature Reserve,birch stand_age27,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-994.03,Holme Fen Nature Reserve,birch stand_age27,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-994.04,Holme Fen Nature Reserve,birch stand_age27,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-995.01,Holme Fen Nature Reserve,birch stand_age32,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-995.02,Holme Fen Nature Reserve,birch stand_age32,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-995.03,Holme Fen Nature Reserve,birch stand_age32,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-995.04,Holme Fen Nature Reserve,birch stand_age32,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-996.01,Holme Fen Nature Reserve,birch stand_age38,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-996.02,Holme Fen Nature Reserve,birch stand_age38,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-996.03,Holme Fen Nature Reserve,birch stand_age38,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-996.04,Holme Fen Nature Reserve,birch stand_age38,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-997.01,Holme Fen Nature Reserve,birch stand_age42,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-997.02,Holme Fen Nature Reserve,birch stand_age42,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-997.03,Holme Fen Nature Reserve,birch stand_age42,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-997.04,Holme Fen Nature Reserve,birch stand_age42,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-998.01,Holme Fen Nature Reserve,birch stand_age46,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-998.02,Holme Fen Nature Reserve,birch stand_age46,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-998.03,Holme Fen Nature Reserve,birch stand_age46,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-998.04,Holme Fen Nature Reserve,birch stand_age46,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-999.01,Holme Fen Nature Reserve,birch stand_age53,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-999.02,Holme Fen Nature Reserve,birch stand_age53,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-999.03,Holme Fen Nature Reserve,birch stand_age53,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-999.04,Holme Fen Nature Reserve,birch stand_age53,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-1000.01,Holme Fen Nature Reserve,birch stand_age55,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-1000.02,Holme Fen Nature Reserve,birch stand_age55,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-1000.03,Holme Fen Nature Reserve,birch stand_age55,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-1000.04,Holme Fen Nature Reserve,birch stand_age55,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-1001.01,Holme Fen Nature Reserve,birch stand_age6,NAC,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
-1001.02,Holme Fen Nature Reserve,birch stand_age6,NAC,2,NI,9,Disturbance,Tillage,NA,NA,NA,100,NA,NA,extratropical
-1001.03,Holme Fen Nature Reserve,birch stand_age6,NAC,3,1870,8,Regrowth_prior,Planted,1,NA,NA,NA,Woodlots,NA,extratropical
-1001.04,Holme Fen Nature Reserve,birch stand_age6,NAC,4,NAC,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+993.01,Holme Fen Nature Reserve,birch stand_age24,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+993.02,Holme Fen Nature Reserve,birch stand_age24,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+993.03,Holme Fen Nature Reserve,birch stand_age24,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+993.04,Holme Fen Nature Reserve,birch stand_age24,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+993.05,Holme Fen Nature Reserve,birch stand_age24,0.1,5,NI,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+994.01,Holme Fen Nature Reserve,birch stand_age27,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+994.02,Holme Fen Nature Reserve,birch stand_age27,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+994.03,Holme Fen Nature Reserve,birch stand_age27,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+994.04,Holme Fen Nature Reserve,birch stand_age27,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+994.05,Holme Fen Nature Reserve,birch stand_age27,0.1,5,NI,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+995.01,Holme Fen Nature Reserve,birch stand_age32,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+995.02,Holme Fen Nature Reserve,birch stand_age32,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+995.03,Holme Fen Nature Reserve,birch stand_age32,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+995.04,Holme Fen Nature Reserve,birch stand_age32,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+995.05,Holme Fen Nature Reserve,birch stand_age32,0.1,5,NI,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+996.01,Holme Fen Nature Reserve,birch stand_age38,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+996.02,Holme Fen Nature Reserve,birch stand_age38,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+996.03,Holme Fen Nature Reserve,birch stand_age38,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+996.04,Holme Fen Nature Reserve,birch stand_age38,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+996.05,Holme Fen Nature Reserve,birch stand_age38,0.1,5,NI,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+997.01,Holme Fen Nature Reserve,birch stand_age42,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+997.02,Holme Fen Nature Reserve,birch stand_age42,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+997.03,Holme Fen Nature Reserve,birch stand_age42,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+997.04,Holme Fen Nature Reserve,birch stand_age42,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+997.05,Holme Fen Nature Reserve,birch stand_age42,0.1,5,NI,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+998.01,Holme Fen Nature Reserve,birch stand_age46,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+998.02,Holme Fen Nature Reserve,birch stand_age46,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+998.03,Holme Fen Nature Reserve,birch stand_age46,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+998.04,Holme Fen Nature Reserve,birch stand_age46,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+998.05,Holme Fen Nature Reserve,birch stand_age46,0.1,5,NI,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+999.01,Holme Fen Nature Reserve,birch stand_age53,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+999.02,Holme Fen Nature Reserve,birch stand_age53,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+999.03,Holme Fen Nature Reserve,birch stand_age53,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+999.04,Holme Fen Nature Reserve,birch stand_age53,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+999.05,Holme Fen Nature Reserve,birch stand_age53,0.1,5,NI,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+1000.01,Holme Fen Nature Reserve,birch stand_age55,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+1000.02,Holme Fen Nature Reserve,birch stand_age55,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+1000.03,Holme Fen Nature Reserve,birch stand_age55,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+1000.04,Holme Fen Nature Reserve,birch stand_age55,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+1000.05,Holme Fen Nature Reserve,birch stand_age55,0.1,5,NI,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
+1001.01,Holme Fen Nature Reserve,birch stand_age6,0.1,1,1800,8,Management,Drained,NA,NA,NA,NA,NA,NA,extratropical
+1001.02,Holme Fen Nature Reserve,birch stand_age6,0.1,2,NI,9,Disturbance_prior,Tillage,NA,NA,NA,100,NA,NA,extratropical
+1001.03,Holme Fen Nature Reserve,birch stand_age6,0.1,3,1900,9,Regrowth_prior,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"A few small coverts were planted around 1870, and by the turn of the centruy the rest of the former fen had been invaded by birch and reverted to woodland",NA,extratropical
+1001.04,Holme Fen Nature Reserve,birch stand_age6,0.1,4,NI,9,Disturbance,StandClearing,NA,NA,NA,100,accidental burning or wartime felling,NA,extratropical
+1001.05,Holme Fen Nature Reserve,birch stand_age6,0.1,5,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 1002.01,Hondura,Premontane Rain Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA,tropical
 1002.02,Hondura,Premontane Rain Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA,tropical
 1002.03,Hondura,Premontane Rain Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA,tropical
