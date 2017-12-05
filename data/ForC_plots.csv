@@ -2693,26 +2693,26 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2692,Yellowstone National Park (YNP),13 yr mod density forest recovery following wildfire,NAC,2692.03,1988,2692.02,Initiation of post-disturbance cohort (natural),1988,2692.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2693,Yenisei River,"Pinus sylvestris, lichen",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2694,Yenisei River,"Pinus sylvestris, Vaccinium mosses",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2695,Yenisey 12vu,"Managed, RD",NAC,2695.01,1988,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2695.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2696,Yenisey 138lm,"Managed, RD",NAC,2696.01,1862,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2696.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2697,Yenisey 14lh,"Managed, RD",NAC,2697.01,1986,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2697.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2698,Yenisey 14lu,"Managed, RD",NAC,2698.01,1986,2698.02,Initiation of post-disturbance cohort (planted or natural),1986,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2699,Yenisey 200lm,"Managed, RD",NAC,2699.01,1800,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2699.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2700,Yenisey 204lm,"Managed, RD",NAC,2700.01,1796,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2700.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2701,Yenisey 215lh,"Managed, RD",NAC,2701.01,1785,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2701.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2702,Yenisey 28lu,UM,NAC,2702.01,1972,2702.02,Initiation of post-disturbance cohort (natural),1972,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2703,Yenisey 31lu,UM,NAC,2703.01,1972,2703.02,Initiation of post-disturbance cohort (natural),1972,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2704,Yenisey 32lh,"Managed, RD",NAC,2704.01,1968,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2704.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2705,Yenisey 383lm,"Managed, RD",NAC,2705.01,1617,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2705.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2706,Yenisey 48lh,"Managed, RD",NAC,2706.01,1952,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2706.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2707,Yenisey 53vm,"Managed, RD",NAC,2707.01,1947,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2707.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2708,Yenisey 67lm,"Managed, RD",NAC,2708.01,1933,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2708.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2709,Yenisey 95lu,UM,NAC,2709.01,1969,2709.02,Initiation of post-disturbance cohort (natural),1969,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2710,Yenisey 95vm,"Managed, RD",NAC,2710.01,1905,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2710.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2711,Yenisey Abies,UM,NAC,2711.02,1800,2711.03,Initiation of post-disturbance cohort (natural),1800,2711.01,Burned,NAC,1800,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2712,Yenisey Betula,UM,NAC,2712.02,1950,2712.03,Initiation of post-disturbance cohort (natural),1950,2712.01,Burned,NAC,1950,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2713,Yenisey Mixed,UM,NAC,2713.01,1750,2713.02,Initiation of post-disturbance cohort (natural),1750,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2714,Yenisey/Zotino,Managed,NAC,2714.03,1784,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2714.01,Harvest,<100%,NAC,2714.02,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2695,Yenisei 12vu,"Managed, RD",NAC,2695.01,1988,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2695.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2696,Yenisei 138lm,"Managed, RD",NAC,2696.01,1862,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2696.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2697,Yenisei 14lh,"Managed, RD",NAC,2697.01,1986,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2697.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2698,Yenisei 14lu,"Managed, RD",NAC,2698.01,1986,2698.02,Initiation of post-disturbance cohort (planted or natural),1986,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2699,Yenisei 200lm,"Managed, RD",NAC,2699.01,1800,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2699.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2700,Yenisei 204lm,"Managed, RD",NAC,2700.01,1796,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2700.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2701,Yenisei 215lh,"Managed, RD",NAC,2701.01,1785,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2701.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2702,Yenisei 28lu,UM,NAC,2702.01,1972,2702.02,Initiation of post-disturbance cohort (natural),1972,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2703,Yenisei 31lu,UM,NAC,2703.01,1972,2703.02,Initiation of post-disturbance cohort (natural),1972,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2704,Yenisei 32lh,"Managed, RD",NAC,2704.01,1968,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2704.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2705,Yenisei 383lm,"Managed, RD",NAC,2705.01,1617,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2705.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2706,Yenisei 48lh,"Managed, RD",NAC,2706.01,1952,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2706.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2707,Yenisei 53vm,"Managed, RD",NAC,2707.01,1947,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2707.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2708,Yenisei 67lm,"Managed, RD",NAC,2708.01,1933,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2708.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2709,Yenisei 95lu,UM,NAC,2709.01,1969,2709.02,Initiation of post-disturbance cohort (natural),1969,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2710,Yenisei 95vm,"Managed, RD",NAC,2710.01,1905,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2710.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2711,Yenisei Abies,UM,NAC,2711.02,1800,2711.03,Initiation of post-disturbance cohort (natural),1800,2711.01,Burned,NAC,1800,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2712,Yenisei Betula,UM,NAC,2712.02,1950,2712.03,Initiation of post-disturbance cohort (natural),1950,2712.01,Burned,NAC,1950,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2713,Yenisei Mixed,UM,NAC,2713.01,1750,2713.02,Initiation of post-disturbance cohort (natural),1750,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2714,Yenisei/Zotino,Managed,NAC,2714.03,1784,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2714.01,Harvest,<100%,NAC,2714.02,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
 2715,Yonghe,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2716,Yongsheng 1,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2717,Yongsheng 2,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical

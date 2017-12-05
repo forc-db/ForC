@@ -6078,49 +6078,49 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 2692.03,Yellowstone National Park (YNP),13 yr mod density forest recovery following wildfire,NAC,3,1988,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Yellowstone fires (natural disturbance regime),NA,extratropical
 2693.01,Yenisei River,"Pinus sylvestris, lichen",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2694.01,Yenisei River,"Pinus sylvestris, Vaccinium mosses",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
-2695.01,Yenisey 12vu,"Managed, RD",NAC,1,1988,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Vaccinum and mosses understory, moderately burned, frequency 41 year",NA,extratropical
-2695.02,Yenisey 12vu,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"Vaccinum and mosses understory, moderately burned- surface fires, frequency 41 year",NA,extratropical
-2696.01,Yenisey 138lm,"Managed, RD",NAC,1,1862,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 year",NA,extratropical
-2696.02,Yenisey 138lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 year",NA,extratropical
-2697.01,Yenisey 14lh,"Managed, RD",NAC,1,1986,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
-2697.02,Yenisey 14lh,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
-2698.01,Yenisey 14lu,"Managed, RD",NAC,1,1986,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
-2698.02,Yenisey 14lu,"Managed, RD",NAC,2,1986,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
-2699.01,Yenisey 200lm,"Managed, RD",NAC,1,1800,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 year",NA,extratropical
-2699.02,Yenisey 200lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 year",NA,extratropical
-2700.01,Yenisey 204lm,"Managed, RD",NAC,1,1796,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 year",NA,extratropical
-2700.02,Yenisey 204lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 year",NA,extratropical
-2701.01,Yenisey 215lh,"Managed, RD",NAC,1,1785,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
-2701.02,Yenisey 215lh,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
-2702.01,Yenisey 28lu,UM,NAC,1,1972,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
-2702.02,Yenisey 28lu,UM,NAC,2,1972,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
-2703.01,Yenisey 31lu,UM,NAC,1,1972,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
-2703.02,Yenisey 31lu,UM,NAC,2,1972,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
-2704.01,Yenisey 32lh,"Managed, RD",NAC,1,1968,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
-2704.02,Yenisey 32lh,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
-2705.01,Yenisey 383lm,"Managed, RD",NAC,1,1617,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 yea",NA,extratropical
-2705.02,Yenisey 383lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 yea",NA,extratropical
-2706.01,Yenisey 48lh,"Managed, RD",NAC,1,1952,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
-2706.02,Yenisey 48lh,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
-2707.01,Yenisey 53vm,"Managed, RD",NAC,1,1947,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Vaccinum and mosses understory, moderately burned, frequency 41 year",NA,extratropical
-2707.02,Yenisey 53vm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"Vaccinum and mosses understory, moderately burned- surface fires, frequency 41 year",NA,extratropical
-2708.01,Yenisey 67lm,"Managed, RD",NAC,1,1933,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 years",NA,extratropical
-2708.02,Yenisey 67lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 years",NA,extratropical
-2709.01,Yenisey 95lu,UM,NAC,1,1969,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
-2709.02,Yenisey 95lu,UM,NAC,2,1969,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
-2710.01,Yenisey 95vm,"Managed, RD",NAC,1,1905,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Vaccinum and mosses understory, moderately burned, frequency 41 year",NA,extratropical
-2710.02,Yenisey 95vm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"Vaccinum and mosses understory, moderately burned- surface fires, frequency 41 year",NA,extratropical
-2711.01,Yenisey Abies,UM,NAC,1,1800,8,Disturbance,Burned,NA,NA,NA,NAC,Established after fire in 1800,NA,extratropical
-2711.02,Yenisey Abies,UM,NAC,2,1800,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Established after fire in 1800,NA,extratropical
-2711.03,Yenisey Abies,UM,NAC,3,1800,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Established after fire in 1800,NA,extratropical
-2712.01,Yenisey Betula,UM,NAC,1,1950,8,Disturbance,Burned,NA,NA,NA,NAC,Established after fire in 1950,NA,extratropical
-2712.02,Yenisey Betula,UM,NAC,2,1950,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Established after fire in 1950,NA,extratropical
-2712.03,Yenisey Betula,UM,NAC,3,1950,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Established after fire in 1950,NA,extratropical
-2713.01,Yenisey Mixed,UM,NAC,1,1750,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Established after wind break or insect damage,NA,extratropical
-2713.02,Yenisey Mixed,UM,NAC,2,1750,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Established after wind break or insect damage,NA,extratropical
-2714.01,Yenisey/Zotino,Managed,NAC,1,NAC,9,Disturbance,Harvest,NA,NA,NA,<100%,"Includes subsites with different histories: 7- and 13-y old logging areas, 53 and 215-y old natural regenerations after fire",NA,extratropical
-2714.02,Yenisey/Zotino,Managed,NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"Includes subsites with different histories: 7- and 13-y old logging areas, 53 and 215-y old natural regenerations after fire",NA,extratropical
-2714.03,Yenisey/Zotino,Managed,NAC,3,1784,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Age method: Tree rings. Including 7- and 13-y old logging areas, 53 and 215-y old natural regenerations after fire",NA,extratropical
+2695.01,Yenisei 12vu,"Managed, RD",NAC,1,1988,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Vaccinum and mosses understory, moderately burned, frequency 41 year",NA,extratropical
+2695.02,Yenisei 12vu,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"Vaccinum and mosses understory, moderately burned- surface fires, frequency 41 year",NA,extratropical
+2696.01,Yenisei 138lm,"Managed, RD",NAC,1,1862,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 year",NA,extratropical
+2696.02,Yenisei 138lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 year",NA,extratropical
+2697.01,Yenisei 14lh,"Managed, RD",NAC,1,1986,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
+2697.02,Yenisei 14lh,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
+2698.01,Yenisei 14lu,"Managed, RD",NAC,1,1986,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
+2698.02,Yenisei 14lu,"Managed, RD",NAC,2,1986,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
+2699.01,Yenisei 200lm,"Managed, RD",NAC,1,1800,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 year",NA,extratropical
+2699.02,Yenisei 200lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 year",NA,extratropical
+2700.01,Yenisei 204lm,"Managed, RD",NAC,1,1796,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 year",NA,extratropical
+2700.02,Yenisei 204lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 year",NA,extratropical
+2701.01,Yenisei 215lh,"Managed, RD",NAC,1,1785,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
+2701.02,Yenisei 215lh,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
+2702.01,Yenisei 28lu,UM,NAC,1,1972,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
+2702.02,Yenisei 28lu,UM,NAC,2,1972,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
+2703.01,Yenisei 31lu,UM,NAC,1,1972,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
+2703.02,Yenisei 31lu,UM,NAC,2,1972,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
+2704.01,Yenisei 32lh,"Managed, RD",NAC,1,1968,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
+2704.02,Yenisei 32lh,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
+2705.01,Yenisei 383lm,"Managed, RD",NAC,1,1617,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 yea",NA,extratropical
+2705.02,Yenisei 383lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 yea",NA,extratropical
+2706.01,Yenisei 48lh,"Managed, RD",NAC,1,1952,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
+2706.02,Yenisei 48lh,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
+2707.01,Yenisei 53vm,"Managed, RD",NAC,1,1947,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Vaccinum and mosses understory, moderately burned, frequency 41 year",NA,extratropical
+2707.02,Yenisei 53vm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"Vaccinum and mosses understory, moderately burned- surface fires, frequency 41 year",NA,extratropical
+2708.01,Yenisei 67lm,"Managed, RD",NAC,1,1933,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichens understory, moderately burned, frequency +/-43 years",NA,extratropical
+2708.02,Yenisei 67lm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 years",NA,extratropical
+2709.01,Yenisei 95lu,UM,NAC,1,1969,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
+2709.02,Yenisei 95lu,UM,NAC,2,1969,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
+2710.01,Yenisei 95vm,"Managed, RD",NAC,1,1905,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Vaccinum and mosses understory, moderately burned, frequency 41 year",NA,extratropical
+2710.02,Yenisei 95vm,"Managed, RD",NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"Vaccinum and mosses understory, moderately burned- surface fires, frequency 41 year",NA,extratropical
+2711.01,Yenisei Abies,UM,NAC,1,1800,8,Disturbance,Burned,NA,NA,NA,NAC,Established after fire in 1800,NA,extratropical
+2711.02,Yenisei Abies,UM,NAC,2,1800,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Established after fire in 1800,NA,extratropical
+2711.03,Yenisei Abies,UM,NAC,3,1800,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Established after fire in 1800,NA,extratropical
+2712.01,Yenisei Betula,UM,NAC,1,1950,8,Disturbance,Burned,NA,NA,NA,NAC,Established after fire in 1950,NA,extratropical
+2712.02,Yenisei Betula,UM,NAC,2,1950,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Established after fire in 1950,NA,extratropical
+2712.03,Yenisei Betula,UM,NAC,3,1950,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Established after fire in 1950,NA,extratropical
+2713.01,Yenisei Mixed,UM,NAC,1,1750,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Established after wind break or insect damage,NA,extratropical
+2713.02,Yenisei Mixed,UM,NAC,2,1750,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Established after wind break or insect damage,NA,extratropical
+2714.01,Yenisei/Zotino,Managed,NAC,1,NAC,9,Disturbance,Harvest,NA,NA,NA,<100%,"Includes subsites with different histories: 7- and 13-y old logging areas, 53 and 215-y old natural regenerations after fire",NA,extratropical
+2714.02,Yenisei/Zotino,Managed,NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"Includes subsites with different histories: 7- and 13-y old logging areas, 53 and 215-y old natural regenerations after fire",NA,extratropical
+2714.03,Yenisei/Zotino,Managed,NAC,3,1784,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Age method: Tree rings. Including 7- and 13-y old logging areas, 53 and 215-y old natural regenerations after fire",NA,extratropical
 2715.01,Yonghe,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2716.01,Yongsheng 1,"Pinus yunnanensis, P. khasya",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2717.01,Yongsheng 2,"Pinus yunnanensis, P. khasya",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
