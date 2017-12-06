@@ -1,4 +1,4 @@
-historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,histtype,est.regrowth.assumed.same.year,level,units,percent.mortality,distnotes,plothistoryID.v1,tropical_extratropical
+historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,histtype,est.regrowth.assumed.same.year,level,units,percent.mortality,histnotes,plothistoryID.v1,tropical_extratropical
 1.01,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,history event derived from plot.name,NA,tropical
 1.02,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,history event derived from plot.name,NA,tropical
 1.03,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,tropical
@@ -339,7 +339,7 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 135.02,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.12-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,Natural regeneration,5638,tropical
 136.01,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5634,tropical
 136.02,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,Natural regeneration,5639,tropical
-136.03,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,3,NI,9,Disturbance,Cut,NA,NaN,NaN,<<100%,pole cutting from local people,5640,tropical
+136.03,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,3,NI,9,Disturbance,Cut,NA,NA,NA,<<100%,pole cutting from local people,5640,tropical
 137.01,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.4-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5631,tropical
 137.02,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.4-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,Natural regeneration,5636,tropical
 138.01,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.8-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5632,tropical
@@ -2205,7 +2205,7 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 1017.03,Hubbard Brook W2,Forest recovery following clear cut.6 y,NAC,3,1962,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
 1018.01,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,1,1965,8,Disturbance,Cut,NA,NA,NA,100,NA,NA,extratropical
 1018.02,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,2,1966.389041,5,Management,Herbicide,NA,28,kg ha-1,NA,Herbicide = Bromacil. Plant regeneration was suppressed by herbicide application until the 1969 growing season,NA,extratropical
-1018.03,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,3,1967.328767,6,Management,Herbicide,NA,87,liters,NA,"Herbicide = ester of 2, 4, 5-trichlorophenoxyacetic acid.  Plant regeneration was suppressed by herbicide application until the 1969 growing season",NA,extratropical
+1018.03,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,3,1967.328767,6,Management,Herbicide,NA,NAC,NAC,NA,"Herbicide = ester of 2, 4, 5-trichlorophenoxyacetic acid.  Plant regeneration was suppressed by herbicide application until the 1969 growing season. 87 liters applied (area not recorded)",NA,extratropical
 1018.04,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,4,1969,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Plant regeneration was suppressed by herbicide application until the 1969 growing season,NA,extratropical
 1018.05,Hubbard Brook W2,Forest recovery following slash and herbicide treatment,NAC,5,1969,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plant regeneration was suppressed by herbicide application until the 1969 growing season,NA,extratropical
 1019.01,Hubbard Brook W5- no soil disturbance,Forest recovery following clear cut,NAC,1,1983,8,Disturbance,Cut,NA,100,%,100,clear-cut,NA,extratropical
@@ -5216,7 +5216,7 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 2340.01,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging,NAC,1,2001,8,Disturbance,Harvest,NA,20-30,m3 ha-1,<100%,NA,5663,tropical
 2341.02,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging TRIL6,NAC,2,2000,8,Disturbance,Harvest,NA,NI,NI,<100%,NA,5656,tropical
 2342.02,Tapajos NF near km 83 on BR-163,Managed.reduced impact logging TRIL9,NAC,2,2000,8,Disturbance,Harvest,NA,NI,NI,<100%,NA,5657,tropical
-2343.01,Tapajos NF near km 83 on BR-163,undisturbed forest,NAC,1,1975,8.5,Disturbance,Cut,NA,NaN,NaN,<100%,limited felling of Manilkara huberi for latex extraction ~25 years prior to this study,5665,tropical
+2343.01,Tapajos NF near km 83 on BR-163,undisturbed forest,NAC,1,1975,8.5,Disturbance,Cut,NA,NA,NA,<100%,limited felling of Manilkara huberi for latex extraction ~25 years prior to this study,5665,tropical
 2343.02,Tapajos NF near km 83 on BR-163,undisturbed forest,NAC,2,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,5666,tropical
 2344.01,Tapajos NF near km 83 on BR-163,undisturbed forest TUF1,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,5648,tropical
 2345.01,Tapajos NF near km 83 on BR-163,undisturbed forest TUF2,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,5649,tropical
@@ -5228,7 +5228,7 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 2350.02,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA,tropical
 2350.03,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA,tropical
 2351.01,Teshio,clear-cut 13.7ha area,NAC,1,2003,6,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
-2351.02,Teshio,clear-cut 13.7ha area,NAC,2,2003,6,Disturbance,Cut,NA,13.7,ha,100,"trees intentionally clear-cut in Jan-March 2003, after 1.5 years of observation in mixed forest",NA,extratropical
+2351.02,Teshio,clear-cut 13.7ha area,NAC,2,2003,6,Disturbance,Cut,NA,NA,NA,100,"trees intentionally clear-cut in Jan-March 2003, after 1.5 years of observation in mixed forest",NA,extratropical
 2351.03,Teshio,clear-cut 13.7ha area,NAC,3,2003,6,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 2352.01,Teshio,mixed forest,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,Large trees more than 200-years-old,NA,extratropical
 2352.02,Teshio,mixed forest,NAC,2,1961,8,Disturbance,Cut,NA,NA,NA,<100%,Selective cutting (15% of trees) in experimental area,NA,extratropical
