@@ -2,7 +2,7 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 1.01,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,history event derived from plot.name,NA,tropical
 1.02,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,history event derived from plot.name,NA,tropical
 1.03,4 Rios,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,tropical
-2.01,Aakre,Forest recovery following agricultural abandonment,NAC,1,NAC,9,Disturbance,Harvest,NA,NA,NA,100,NA,NA,extratropical
+2.01,Aakre,Forest recovery following agricultural abandonment,NAC,1,NAC,9,Disturbance,Cultivation,NA,NA,NA,100,NA,NA,extratropical
 2.02,Aakre,Forest recovery following agricultural abandonment,NAC,2,1949,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 2.03,Aakre,Forest recovery following agricultural abandonment,NAC,3,1949,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
 2.04,Aakre,Forest recovery following agricultural abandonment,NAC,4,2008,8,Disturbance,Cut,NA,305,n ha-1,<100%,NA,NA,extratropical
@@ -3078,10 +3078,10 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 1378.02,Los Tuxtlas S-50,Forest recovery following agricultural abandonment,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,925,tropical
 1379.01,Los Tuxtlas S-8a,Forest recovery following agricultural and pasture abandonment,0.3,1,NI,9,Disturbance_prior,Grazed,NA,10,year,NA,NA,926,tropical
 1379.02,Los Tuxtlas S-8a,Forest recovery following agricultural and pasture abandonment,0.3,2,NI,9,Disturbance_prior,Cultivation,NA,15,year,100,corn,927,tropical
-1379.03,Los Tuxtlas S-8a,Forest recovery following agricultural and pasture abandonment,0.3,3,NI,9,Disturbance_prior,Cultivation,NA,2,year,100,corn,928,tropical
+1379.03,Los Tuxtlas S-8a,Forest recovery following agricultural and pasture abandonment,0.3,3,NI,9,Disturbance,Cultivation,NA,2,year,100,corn,928,tropical
 1379.04,Los Tuxtlas S-8a,Forest recovery following agricultural and pasture abandonment,0.3,4,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,929,tropical
 1380.01,Los Tuxtlas S-8b,Forest recovery following agricultural and pasture abandonment,0.3,1,NI,9,Disturbance_prior,Grazed,NA,2,year,NA,NA,930,tropical
-1380.02,Los Tuxtlas S-8b,Forest recovery following agricultural and pasture abandonment,0.3,2,NI,9,Disturbance_prior,Cultivation,NA,5,year,100,corn,931,tropical
+1380.02,Los Tuxtlas S-8b,Forest recovery following agricultural and pasture abandonment,0.3,2,NI,9,Disturbance,Cultivation,NA,5,year,100,corn,931,tropical
 1380.03,Los Tuxtlas S-8b,Forest recovery following agricultural and pasture abandonment,0.3,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,932,tropical
 1381.01,Los Tuxtlas,Los Tuxtlas (Poorter),NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
 1382.01,Los Tuxtlas,"tropical, tall evergreen",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2175,tropical
