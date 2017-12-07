@@ -8,7 +8,7 @@ Column,Field,Description,Alphanumeric attributes/ storage type (present data val
 7 / G,dateloc,Level of confidence in date.,numeric (double),Given in Table #,-,##-##
 8 / H,histcat,Plot history event categories.,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,-
 9 / I,histtype,Plot history event types. ,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,-
-10 / J,est.regrowth.assumed.same.year,"Indicates whether it is assumed that establishment of the oldest trees and regrowth (e.g., initiation of post-disturbance cohort, planting) occurred in the same year. These may differ if there was a lag in tree establishment following a severe/stand clearing disturbance or if some trees survived the most recent severe/stand clearin disturbance. ",numeric (integer),0- false; 1- true,-,0--1
+10 / J,est.regrowth.assumed.same.year,"Indicates whether it is assumed that establishment of the oldest trees and regrowth (e.g., initiation of post-disturbance cohort, planting) occurred in the same year. These may differ if there was a lag in tree establishment following a severe/stand clearing disturbance or if some trees survived the most recent severe/stand clearing disturbance. ",numeric (integer),0- false; 1- true,-,0--1
 11 / K,level,"Intensity/frequency/amount applied of history event type, if available.",character (string),-,-,n/a
 12 / L,units,Level units.,character (string),-,-,-
 13 / M,percent.mortality,Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.,numeric (double),-,-,##-##
