@@ -1,5 +1,5 @@
 Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes,Units,Range
-1 / A,measurementID,Unique identifier for each record in the measurements table.,numeric (integer),-,-,1-17544
+1 / A,measurementID,Unique identifier for each record in the measurements table.,numeric (integer),-,-,1-17538
 2 / B,sites.sitename,Unique site identifier name for the site at which the measurement was made. Links to sites and HISTORY tables.,character (string),-,-,-
 3 / C,plot.name,Unique plot identifier name for the plot in which the measurement was made. Links to HISTORY table.,character (string),-,-,-
 4 / D,stand.age,"Age of stand at time of measurement as reported in the original publication or calculated based on the date of initiation of forest regrowth. When the publication reports a range of ages, the mean is recorded. For primary/old-growth/mature/ intact stands, the stand.age is recorded as ""999"". ",numeric (double),see description,years,0-3400
