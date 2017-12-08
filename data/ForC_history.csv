@@ -2081,8 +2081,6 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 965.02,Harvard Forest Soil Warming Experiment- Prospect Hill,"Warmed, soil disturbance",NAC,2,1908,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,regrowth date assumed to match that of Barre Woods,NA,extratropical
 965.03,Harvard Forest Soil Warming Experiment- Prospect Hill,"Warmed, soil disturbance",NAC,3,1991,8,Management,Soil disturbance,NA,10,cm,NA,Soil disturbance from installation of soil warming cables,NA,extratropical
 965.04,Harvard Forest Soil Warming Experiment- Prospect Hill,"Warmed, soil disturbance",NAC,4,1991.246575,5,Management,Warming_soil,NA,5,degC,NA,NA,NA,extratropical
-966.01,Harwood CarboAge Chronosequence,clear-cut chronosequence,NAC,1,NI,9,Disturbance,Cut,NA,100,%,100,NA,NA,extratropical
-966.02,Harwood CarboAge Chronosequence,clear-cut chronosequence,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 967.01,Harwood CarboAge Chronosequence,Managed 21-y ,NAC,1,1980,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
 967.02,Harwood CarboAge Chronosequence,Managed 21-y ,NAC,2,1980,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA,extratropical
 968.01,Harwood CarboAge Chronosequence,Managed 30-y second rotation,NAC,1,1971,8,Disturbance,Cut,NA,100,%,100,NA,NA,extratropical
@@ -2237,8 +2235,6 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 1028.02,Huitong Experimental Forest,Castanopsis hysrix - Cyclobalanopsis glauca - Machilus pauhoi community,NAC,2,1958,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 1030.01,Huma,Boreal coniferous forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 1031.01,Hungary,NI,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,No information available,NA,extratropical
-1036.01,Hyytiala Scots Pine Chronosequence,clear-cut chronosequence,NAC,1,NI,9,Disturbance,Cut,NA,100,%,100,NA,NA,extratropical
-1036.02,Hyytiala Scots Pine Chronosequence,clear-cut chronosequence,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 1032.01,Hyytiala Scots Pine Chronosequence 12,Stand development of an unmanaged plantation,NAC,1,1990,8,Disturbance,Cut,NA,100,%,100,clearfelled,NA,extratropical
 1032.02,Hyytiala Scots Pine Chronosequence 12,Stand development of an unmanaged plantation,NAC,2,1990,8,Disturbance,Burned,NA,NA,NA,NAC,NA,NA,extratropical
 1032.03,Hyytiala Scots Pine Chronosequence 12,Stand development of an unmanaged plantation,NAC,3,1991,8,Regrowth,Seeded_trees,1,NA,NA,NA,seeded with scots pine,NA,extratropical
@@ -2976,8 +2972,6 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 1312.03,Laurimburg I,FI,NAC,3,NAC,9,Management,Irrigation,NA,NA,NA,NA,"Thinning, irrigated",NA,extratropical
 1313.01,Lavarone,Managed,NAC,1,1881,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Managed,NA,extratropical
 1313.02,Lavarone,Managed,NAC,2,1881,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Managed,NA,extratropical
-1314.01,Le Bray,clear-cut chronosequence,NAC,1,NI,9,Disturbance,Cut,NA,100,%,100,NA,NA,extratropical
-1314.02,Le Bray,clear-cut chronosequence,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA,extratropical
 1315.01,Le Bray,Managed 1970 pine plantation,NAC,1,1970,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"2 precommercial thinnings, thinnings  every 5y from 15 y to the final clearcut. Previous thinnings as recorded  in 1991 and 1996, 20% stems removed, corresponding to rougly 15% of the LAI and basal area. 2002 thinning after 1999 storm.",NA,extratropical
 1315.02,Le Bray,Managed 1970 pine plantation,NAC,2,1970,8,Regrowth,Planted,1,NA,NA,NA,"2 precommercial thinnings, thinnings  every 5y from 15 y to the final clearcut. Previous thinnings as recorded  in 1991 and 1996, 20% stems removed, corresponding to rougly 15% of the LAI and basal area. 2002 thinning after 1999 storm.",NA,extratropical
 1315.03,Le Bray,Managed 1970 pine plantation,NAC,3,1991,8,Disturbance,Cut,NA,20,% stems,20,"2 precommercial thinnings, thinnings  every 5y from 15 y to the final clearcut. Previous thinnings as recorded  in 1991 and 1996, 20% stems removed, corresponding to rougly 15% of the LAI and basal area. 2002 thinning after 1999 storm.",NA,extratropical
@@ -3613,8 +3607,6 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 1703.01,northern NSW 1,"Caldcluvia paniculosa, Geissois benthami",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 1704.01,northern NSW 2,E. pilularis,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 1705.01,Northern Rondonia State,tropical moist forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2186,tropical
-1706.01,Norunda,clear-cut chronosequence,NAC,1,NI,9,Disturbance,Cut,NA,100,%,100,NA,NA,extratropical
-1706.02,Norunda,clear-cut chronosequence,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 1707.01,Norunda,Managed,NAC,1,1901,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
 1707.02,Norunda,Managed,NAC,2,1901,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
 1708.01,Nouragues Grand Plateau,old-growth tropical forest.NOR2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
@@ -4430,8 +4422,6 @@ historyID,sites.sitename,plot.name,plotarea,event.sequence,date,dateloc,histcat,
 2023.01,Rio Ucayali 1,old-growth tropical forest.UCA1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
 2024.01,Rio Ucayali 2,old-growth tropical forest.UCA2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
 2025.01,Rio Ucayali 3,old-growth tropical forest.UCA3,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
-2026.01,Roccarespampani 1,coppice chronosequence,NAC,1,NI,9,Disturbance,Harvest,NA,NA,NA,NAC,NA,NA,extratropical
-2026.02,Roccarespampani 1,coppice chronosequence,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 2027.01,Roccarespampani 1,Managed coppice-oak,NAC,1,1999.915068,6,Disturbance,Harvest,NA,NA,NA,<100%,"Harvested in 12/1999, leaving 100 stems ha-1 unharvested to provide seeds (Kowalski 2004)",NA,extratropical
 2027.02,Roccarespampani 1,Managed coppice-oak,NAC,2,1999.915068,6,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"Harvested in 12/1999, leaving 100 stems ha-1 unharvested to provide seeds (Kowalski 2004)",NA,extratropical
 2027.03,Roccarespampani 1,Managed coppice-oak,NAC,3,1999.915068,6,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Harvested in 12/1999, leaving 100 stems ha-1 unharvested to provide seeds (Kowalski 2004)",NA,extratropical
