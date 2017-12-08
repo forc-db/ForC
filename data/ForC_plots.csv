@@ -2368,371 +2368,365 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 2367,Thompson dry chronosequence d6,RD,NAC,2367.02,1995,2367.03,Initiation of post-disturbance cohort (natural),1995,2367.01,Burned,NAC,1995,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2368,Thompson dry chronosequence d71,UM,NAC,2368.02,1930,2368.03,Initiation of post-disturbance cohort (natural),1930,2368.01,Burned,NAC,1930,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2369,Thompson dry chronosequence,"Picea marina - dry, well-drained soils",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2370,Thompson Fire Chronosequence near NOBS,secondary succession following large stand replacement fires,NAC,0,NAC,2370.02,Initiation of post-disturbance cohort (natural),NI,2370.01,Burned,NAC,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2371,Thompson NSA (NOAS),NI,NAC,2371.01,1941,2371.02,Initiation of post-disturbance cohort (planted or natural),1941,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2372,Thompson NSA (NOBS),UM,NAC,2372.02,1880,2372.03,Initiation of post-disturbance cohort (natural),1880,2372.01,Burned,NAC,1880,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2373,Thompson NSA (NOJP),NI,NAC,2373.01,1931,2373.02,Initiation of post-disturbance cohort (planted or natural),1931,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2374,Thompson NSA (NYJP),NI,NAC,2374.01,1969,2374.02,Initiation of post-disturbance cohort (planted or natural),1969,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2375,Thompson Seattle,plantation forest,NAC,2375.01,1925,2375.02,Planted,1925,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2376,Thompson wet chronosequence w12,RD,NAC,2376.02,1989,2376.03,Initiation of post-disturbance cohort (natural),1989,2376.01,Burned,NAC,1989,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2377,Thompson wet chronosequence w131,UM,NAC,2377.02,1870,2377.03,Initiation of post-disturbance cohort (natural),1870,2377.01,Burned,NAC,1870,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2378,Thompson wet chronosequence w20,RD,NAC,2378.02,1981,2378.03,Initiation of post-disturbance cohort (natural),1981,2378.01,Burned,NAC,1981,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2379,Thompson wet chronosequence w37,UM,NAC,2379.02,1964,2379.03,Initiation of post-disturbance cohort (natural),1964,2379.01,Burned,NAC,1964,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2380,Thompson wet chronosequence w3,RD,NAC,2380.02,1998,2380.03,Initiation of post-disturbance cohort (natural),1998,2380.01,Burned,NAC,1998,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2381,Thompson wet chronosequence w6,RD,NAC,2381.02,1995,2381.03,Initiation of post-disturbance cohort (natural),1995,2381.01,Burned,NAC,1995,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2382,Thompson wet chronosequence w71,UM,NAC,2382.02,1930,2382.03,Initiation of post-disturbance cohort (natural),1930,2382.01,Burned,NAC,1930,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2383,Thompson wet chronosequence,"Picea marina - wet, poorly drained soils",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2384,Thong Pha Phum NF,dry evergreen forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2385,Thong Pha Phum NF,mixed deciduous forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2386,Thong Pha Phum NF,tropical rainforest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2387,Thurston,Meterosideros forest.300-y,NAC,0,NAC,2387.01,Initiation of post-disturbance cohort (natural),NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2388,Tianchi,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2389,Tianshan,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2390,Tiantong Fangyang Hill,human and typhoon disturbed Schima superba-Castanopsis carlesii forest,NAC,2390.01,1951,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2390.02,Major storm,<100%,NI,2390.03,Harvest,<100%,NI,0,0,0,0,0,0,0,extratropical
-2391,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,2391.03,1982,2391.02,Initiation of post-disturbance cohort (natural),1982,2391.01,Cut,100,1982,0,0,2391.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2392,Tiputini 2,terra firma TIP-02,0.8,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2393,Tiputini 3,seasonally flooded TIP-03,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2394,Tirimbina,Tropical Wet Forest recovery following pasture abandonment,NAC,2394.03,NI,2394.02,Initiation of post-disturbance cohort (natural),NI,2394.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2395,Toa Baja experiment station,Casuarina + Eucalyptus,0.0768,2395.05,1989.665753,2395.06,Planted,1989.665753,2395.04,Burned,100,NI,2395,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2396,Toa Baja experiment station,Casuarina + Eucalyptus: Casuarina specific,0.0768,2396.05,1989.665753,2396.06,Planted,1989.665753,2396.04,Burned,100,NI,2396,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2397,Toa Baja experiment station,Casuarina + Eucalyptus: Eucalyptus specific,0.0768,2397.05,1989.665753,2397.06,Planted,1989.665753,2397.04,Burned,100,NI,2397,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2398,Toa Baja experiment station,Casuarina + Leucaena,0.0768,2398.05,1989.665753,2398.06,Planted,1989.665753,2398.04,Burned,100,NI,2398,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2399,Toa Baja experiment station,Casuarina + Leucaena: Casuarina specific,0.0768,2399.05,1989.665753,2399.06,Planted,1989.665753,2399.04,Burned,100,NI,2399,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2400,Toa Baja experiment station,Casuarina + Leucaena: Leucaena specific,0.0768,2400.05,1989.665753,2400.06,Planted,1989.665753,2400.04,Burned,100,NI,2400,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2401,Toa Baja experiment station,Casuarina equisetifolia,0.0768,2401.05,1989.665753,2401.06,Planted,1989.665753,2401.04,Burned,100,NI,2401,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2402,Toa Baja experiment station,Eucalyptus + Leucaena,0.0768,2402.05,1989.665753,2402.06,Planted,1989.665753,2402.04,Burned,100,NI,2402,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2403,Toa Baja experiment station,Eucalyptus + Leucaena: Eucalyptus specific,0.0768,2403.05,1989.665753,2403.06,Planted,1989.665753,2403.04,Burned,100,NI,2403,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2404,Toa Baja experiment station,Eucalyptus + Leucaena: Leucaena specific,0.0768,2404.05,1989.665753,2404.06,Planted,1989.665753,2404.04,Burned,100,NI,2404,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2405,Toa Baja experiment station,Eucalyptus robusta,0.0768,2405.05,1989.665753,2405.06,Planted,1989.665753,2405.04,Burned,100,NI,2405,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2406,Toa Baja experiment station,Leucaena leucocephala,0.0768,2406.05,1989.665753,2406.06,Planted,1989.665753,2406.04,Burned,100,NI,2406,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2407,Tomakomai Experimental Forest.Horonai stream basin,secondary forest,NAC,2407.01,1954,2407.02,Initiation of post-disturbance cohort (natural),1954,0,NAC,NAC,NAC,0,0,2407.03,Major storm,<100%,1954,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2408,Tomakomai National Forest,planted larch forest,NAC,2408.01,1957,2408.02,Planted,1957,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2409,Tomsk 10,NI,NAC,2409.01,1898,2409.02,Initiation of post-disturbance cohort (planted or natural),1898,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2410,Tomsk 11,NI,NAC,2410.01,1914,2410.02,Initiation of post-disturbance cohort (planted or natural),1914,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2411,Tomsk 1,NI,NAC,2411.01,1949,2411.02,Initiation of post-disturbance cohort (planted or natural),1949,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2412,Tomsk 2,NI,NAC,2412.01,1925,2412.02,Initiation of post-disturbance cohort (planted or natural),1925,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2413,Tomsk 3,NI,NAC,2413.01,1904,2413.02,Initiation of post-disturbance cohort (planted or natural),1904,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2414,Tomsk 4,NI,NAC,2414.01,1852,2414.02,Initiation of post-disturbance cohort (planted or natural),1852,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2415,Tomsk 5,NI,NAC,2415.01,1937,2415.02,Initiation of post-disturbance cohort (planted or natural),1937,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2416,Tomsk 6,NI,NAC,2416.01,1909,2416.02,Initiation of post-disturbance cohort (planted or natural),1909,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2417,Tomsk 7,NI,NAC,2417.01,1894,2417.02,Initiation of post-disturbance cohort (planted or natural),1894,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2418,Tomsk 8,NI,NAC,2418.01,1943,2418.02,Initiation of post-disturbance cohort (planted or natural),1943,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2419,Tomsk 9,NI,NAC,2419.01,1927,2419.02,Initiation of post-disturbance cohort (planted or natural),1927,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2420,Tono,UM,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2421,Tranquilla,teak plantation,NAC,2421.02,1979,2421.01,Planted,1979,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2422,Trento S1,Managed,NAC,2422.01,1956,2422.02,Initiation of post-disturbance cohort (planted or natural),1956,0,NAC,NAC,NAC,0,0,2422.03,Harvest,NAC,1956,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2423,Trento S2,NI,NAC,2423.01,1957,2423.02,Initiation of post-disturbance cohort (planted or natural),1957,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2424,Trento S3,NI,NAC,2424.01,1932,2424.02,Initiation of post-disturbance cohort (planted or natural),1932,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2425,Trento S4,NI,NAC,2425.01,1951,2425.02,Initiation of post-disturbance cohort (planted or natural),1951,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2426,Trento S5,NI,NAC,2426.01,1941,2426.02,Initiation of post-disturbance cohort (planted or natural),1941,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2427,Triangle site,plantation forest,NAC,2427.01,1957,2427.02,Planted,NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2428,Trocha Union 3,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2429,Trocha Union 4,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2430,Trocha Union 7,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2431,Trocha Union 8,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2432,Trounson Forest Reserve,Agathis australis mature forest,0.36,0,NAC,2432.01,Initiation of post-disturbance cohort (natural),NI,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2433,Tucuri,old-growth tropical forest.TUC,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2434,Tumbara,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2435,Tumbarumba flux station,mature managed forest,NAC,2435.01,1911,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2435.02,Harvest,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2436,"Tura, right bank of Kochechum River",Larix gmelinii dominated mixed-age forest,0.1,2436.01,1715,0,NAC,NAC,0,No disturbance,NA,NI,0,0,2436.02,Burned,NAC,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2437,Tura,natural regeneration after fire.Larix gmelinii forest,NAC,2437.03,1899,2437.02,Initiation of post-disturbance cohort (natural),1899,2437.01,Burned,100,1899,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2438,Tura,natural regeneration after fire.Larix gmelinii forest C1,NAC,2438.01,1717,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2438.02,Burned,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2439,Tura,natural regeneration after fire.Larix gmelinii forest W1,NAC,2439.03,1898,2439.02,Initiation of post-disturbance cohort (natural),1898,2439.01,Burned,100,1898,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2440,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1939,0.24,2440.03,1939,2440.02,Planted,1939,2440.01,Cut,100,1939,0,0,2440.04,Cut,<100%,1983,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2441,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1974,0.12,2441.03,1974,2441.02,Planted,1974,2441.01,Cut,100,1974,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2442,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1989,0.12,2442.05,1989,2442.04,Planted,1989,2442.03,Cut,NA,1989,0,2442,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2443,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 2002,0.12,2443.05,2002,2443.04,Planted,2002,2443.03,Cut,NA,1992,0,2443,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2444,TUVA,Tropical Wet Forest recovery following pasture abandonment,NAC,2444.03,NI,2444.02,Initiation of post-disturbance cohort (natural),NI,2444.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2445,Uatuma,mature 'old growth' forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2446,UDJ-01j_Udagaji,african tropical forest,0.25,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2447,UDJ-02j_Udagaji,african tropical forest,0.25,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2448,Ulu Segama FR,dipterocarp hill forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2449,UMBS harvest and fire chronosequence,Managed.24-y since clear-cut and burn,NAC,2449.04,1980,2449.03,Initiation of post-disturbance cohort (natural),1980,2449.02,Burned,100,1980,2449.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2450,UMBS harvest and fire chronosequence,Managed.50-y since clear-cut and burn,NAC,2450.04,1954,2450.03,Initiation of post-disturbance cohort (natural),1954,2450.02,Burned,100,1954,2450.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2451,UMBS harvest and fire chronosequence,Managed.56-y since clear-cut and burn,NAC,2451.04,1948,2451.03,Initiation of post-disturbance cohort (natural),1948,2451.02,Burned,100,1948,2451.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2452,UMBS harvest and fire chronosequence,Managed.6-y since clear-cut and burn,NAC,2452.04,1998,2452.03,Initiation of post-disturbance cohort (natural),1998,2452.02,Burned,100,1998,2452.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2453,UMBS harvest and fire chronosequence,Managed.68-y since clear-cut and burn,NAC,2453.04,1936,2453.03,Initiation of post-disturbance cohort (natural),1936,2453.02,Burned,100,1936,2453.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2454,University of Michigan Biological Station (UMBS) ,secondary successional mixed northern hardwood forest,1.1,0,NAC,2454.04,Initiation of post-disturbance cohort (natural),1900,2454.03,Harvest,NI,1890,2454,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2455,University of Michigan Biological Station (UMBS) ,UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2455.01,Cut,NAC,1880,2455.02,Burned,NAC,1923,0,0,0,0,0,0,0,extratropical
-2456,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.18-y,NAC,2456.11,1980,2456.1,Initiation of post-disturbance cohort (natural),1980,2456.09,Cut,100,1980,2456,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2457,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.44-y,NAC,2457.09,1954,2457.08,Initiation of post-disturbance cohort (natural),1954,2457.07,Cut,100,1954,2457,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2458,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.50-y,NAC,2458.07,1948,2458.06,Initiation of post-disturbance cohort (natural),1948,2458.05,Cut,100,1948,2458,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2459,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.62-y,NAC,2459.05,1936,2459.04,Initiation of post-disturbance cohort (natural),1936,2459.03,Cut,100,1936,2459,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2460,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.87-y,NAC,2460.03,1911,2460.02,Initiation of post-disturbance cohort (natural),1911,2460.01,Burned,100,1911,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2461,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.18-y,NAC,2461.11,1980,2461.1,Initiation of post-disturbance cohort (natural),1980,2461.09,Cut,100,1980,2461,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2462,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.44-y,NAC,2462.09,1954,2462.08,Initiation of post-disturbance cohort (natural),1954,2462.07,Cut,100,1954,2462,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2463,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.50-y,NAC,2463.07,1948,2463.06,Initiation of post-disturbance cohort (natural),1948,2463.05,Cut,100,1948,2463,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2464,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.62-y,NAC,2464.05,1936,2464.04,Initiation of post-disturbance cohort (natural),1936,2464.03,Cut,100,1936,2464,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2465,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.87-y,NAC,2465.03,1911,2465.02,Initiation of post-disturbance cohort (natural),1911,2465.01,Burned,100,1911,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2466,University of Michigan,UM,NAC,2466.04,NAC,0,NAC,NAC,0,No disturbance,NA,1923,0,0,2466.01,Harvest,NI,1890,2466.02,Burned,<100%,NI,0,0,0,0,0,0,0,extratropical
-2467,US-UMB,NAC,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2468,USA 1,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2469,USA 2,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2470,USA 3,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2471,USA 4,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2472,USA 5,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2473,Valle Azul,Tropical Moist Forest recovery following pasture abandonment,NAC,2473.03,NI,2473.02,Initiation of post-disturbance cohort (natural),NI,2473.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2474,Valles Caldera Mixed Conifer ,subalpine conifer forest,NAC,0,NAC,2474.03,Initiation of post-disturbance cohort (natural),NI,2474.02,Harvest,NI,NI,2474.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2475,Valles Caldera Ponderosa Pine ,ponderosa pine forest,NAC,0,NAC,2475.03,Initiation of post-disturbance cohort (natural),NI,2475.02,Harvest,NI,NI,2475.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2476,Vancouver Island DF49,planted Douglas fir mixed with natural regeneration,NAC,2476.04,1949,2476.03,Planted_and_natural_regeneration,1949,2476.02,Burned,100,1943,2476.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2477,Vancouver Island HDF00,"RD planted 97% Douglas-fir, 3% western red cedar",NAC,2477.02,1999,2477.04,Planted,2000.163934,2477.03,Cut,100,1999.915068,2477.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2478,Vancouver Island HDF88,"RD planted 75% Douglas-fir, 21% western red cedar, and 4% grand fir",NAC,2478.04,1988,2478.05,Planted,1988,2478.03,Burned,100,1987,2478,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,2478.06,0,extratropical
-2479,Vancouver Island unmanaged plantation,planted with 93% Douglas fir and 7% western cedar after clear-cut,NAC,0,NAC,2479.05,Planted,2000.163934,2479.04,Cut,100,1999.915068,0,2479,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2480,Vargas,Premontane Rain Forest recovery following pasture abandonment,NAC,2480.03,NI,2480.02,Initiation of post-disturbance cohort (natural),NI,2480.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2481,Vatia,lowland forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2481.01,Major storm,<100%,1990,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2482,Venezuela: Caimital/Ticoporo,tropical transition moist to dry forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2483,Venezuela: Carbonera,tropical lower montane moist forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2484,Venezuela: Cerro El Coco,tropical dry forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2485,Venezuela: Mucuy,tropical montane wet forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2486,Venezuela: Rio Grande/KM92,tropical moist forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2487,Vielsalm,Mixed age mixed species planted stand with traditional forest management,NAC,0,NAC,2487.01,Planted,1882,0,NAC,NAC,NAC,0,0,2487.09,Cut,<100%,NI,0,NA,NA,NA,0,0,0,0,0,2487,0,extratropical
-2488,Virelles,NI,NAC,2488.01,1884,2488.02,Initiation of post-disturbance cohort (planted or natural),1884,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2489,Virgen Maria,Premontane Rain Forest recovery following pasture abandonment,NAC,2489.03,NI,2489.02,Initiation of post-disturbance cohort (natural),NI,2489.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2490,Virginia Park,pastoral lease; heavily grazed,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2490.01,Grazed,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2491,Volcan,Premontane Rain Forest recovery following pasture abandonment,NAC,2491.03,NI,2491.02,Initiation of post-disturbance cohort (natural),NI,2491.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2492,"WACASC,Mt. Rainier NP 1",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2493,"WACASC,Mt. Rainier NP 2",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2494,"WACASC,Mt. Rainier NP 3",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2495,"WACASC,Mt. Rainier NP 4",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2496,"WACASC,Mt. Rainier NP 5",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2497,"WACASC,Mt. Rainier NP 6",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2498,"WACASC,Mt. Rainier NP 7",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2499,"WACASC,Mt. Rainier NP 8",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2500,"WACASC,Mt. Rainier NP 9",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2501,"WACASC,Wind River",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2502,"WACOAST,Olympic Peninsula 1",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2503,"WACOAST,Olympic Peninsula 2",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2504,"WACOAST,Olympic Peninsula 3",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2505,"WACOAST,Olympic Peninsula 4",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2506,Waldo Lake (cool dry),"Tsuga mertensiana, Pinus contorta, Pinus monticola",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2507,Waldstein 2 Picea abies,chronosequence of 28-140-y-o stands,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2508,Walker Branch (WB) Forest,UM,NAC,0,NAC,2508.03,Initiation of post-disturbance cohort (natural),1940,2508.02,Cultivation,100,NI,2508.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2509,Walker Branch_2,UM,NAC,2509.01,1937,2509.02,Initiation of post-disturbance cohort (natural),1940,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2510,Walker Branch_3,UM,NAC,2510.01,1937,2510.02,Initiation of post-disturbance cohort (natural),1940,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2511,Walker Branch_4,UM,NAC,2511.01,1937,2511.02,Initiation of post-disturbance cohort (natural),1940,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2512,Walker Branch,"UM, agricultural abandonment in 1940",NAC,2512.01,1940,2512.02,Initiation of post-disturbance cohort (natural),1940,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2513,Walter Egler Reserve,Mature terra firma,0.25,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2514,"Wandashan Populus, Betula","Populus, Betula",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2515,Wangtai,Cunninghamia lanceolata,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2516,Warings Woods,RD,NAC,0,NAC,2516.02,Planted_and_natural_regeneration,NAC,2516.01,Cut,100,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2517,Washington 1,"Abies amabilis, Pseudotsuga menziesii",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2518,Washington 2,Pseudotsuga menziesii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2519,Washington Cascades 1 (cool temperate montane),"Abies amabilis, Tsuga heterophylla",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2520,Washington Cascades 2 (cool temperate montane),Abies amabilis,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2521,Washington coast (cool temperate montane),"Tsuga heterophylla, Picea sitchensis",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2522,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.10y,0.01,2522.03,1962,2522.02,Initiation of post-disturbance cohort (natural),NI,2522.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2523,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.13y,0.01,2523.03,1959,2523.02,Initiation of post-disturbance cohort (natural),NI,2523.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2524,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.15y,0.01,2524.03,1957,2524.02,Initiation of post-disturbance cohort (natural),NI,2524.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2525,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.17y,0.01,2525.03,1955,2525.02,Initiation of post-disturbance cohort (natural),NI,2525.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2526,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.19y,0.01,2526.03,1953,2526.02,Initiation of post-disturbance cohort (natural),NI,2526.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2527,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.20y,0.01,2527.03,1952,2527.02,Initiation of post-disturbance cohort (natural),NI,2527.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2528,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.24y,0.01,2528.03,1948,2528.02,Initiation of post-disturbance cohort (natural),NI,2528.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2529,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.25y,0.01,2529.03,1947,2529.02,Initiation of post-disturbance cohort (natural),NI,2529.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2530,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.26y,0.01,2530.03,1946,2530.02,Initiation of post-disturbance cohort (natural),NI,2530.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2531,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.28y,0.01,2531.03,1944,2531.02,Initiation of post-disturbance cohort (natural),NI,2531.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2532,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.2y,0.01,2532.03,1970,2532.02,Initiation of post-disturbance cohort (natural),NI,2532.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2533,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.30y,0.01,2533.03,1942,2533.02,Initiation of post-disturbance cohort (natural),NI,2533.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2534,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.33y,0.01,2534.03,1939,2534.02,Initiation of post-disturbance cohort (natural),NI,2534.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2535,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.35y,0.01,2535.03,1937,2535.02,Initiation of post-disturbance cohort (natural),NI,2535.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2536,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.3y,0.01,2536.03,1969,2536.02,Initiation of post-disturbance cohort (natural),NI,2536.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2537,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.40y,0.01,2537.03,1932,2537.02,Initiation of post-disturbance cohort (natural),NI,2537.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2538,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.43y,0.01,2538.03,1929,2538.02,Initiation of post-disturbance cohort (natural),NI,2538.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2539,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.45y,0.01,2539.03,1927,2539.02,Initiation of post-disturbance cohort (natural),NI,2539.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2540,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.49y,0.01,2540.03,1923,2540.02,Initiation of post-disturbance cohort (natural),NI,2540.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2541,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.50y,0.01,2541.03,1922,2541.02,Initiation of post-disturbance cohort (natural),NI,2541.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2542,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.51y,0.01,2542.03,1921,2542.02,Initiation of post-disturbance cohort (natural),NI,2542.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2543,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.54y,0.01,2543.03,1918,2543.02,Initiation of post-disturbance cohort (natural),NI,2543.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2544,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.55y,0.01,2544.03,1917,2544.02,Initiation of post-disturbance cohort (natural),NI,2544.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2545,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.56y,0.01,2545.03,1916,2545.02,Initiation of post-disturbance cohort (natural),NI,2545.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2546,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.58y,0.01,2546.03,1914,2546.02,Initiation of post-disturbance cohort (natural),NI,2546.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2547,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.59y,0.01,2547.03,1913,2547.02,Initiation of post-disturbance cohort (natural),NI,2547.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2548,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.5y,0.01,2548.03,1967,2548.02,Initiation of post-disturbance cohort (natural),NI,2548.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2549,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.60y,0.01,2549.03,1912,2549.02,Initiation of post-disturbance cohort (natural),NI,2549.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2550,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.6y,0.01,2550.03,1966,2550.02,Initiation of post-disturbance cohort (natural),NI,2550.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2551,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.7y,0.01,2551.03,1965,2551.02,Initiation of post-disturbance cohort (natural),NI,2551.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2552,Wayqecha,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2553,Web-FACE ,Ambient CO2,NAC,2553.01,1900,2553.02,Initiation of post-disturbance cohort (planted or natural),1900,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2554,Web-FACE ,Elevated CO2,NAC,2554.01,1900,2554.02,Initiation of post-disturbance cohort (planted or natural),1900,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,2554.03,0,0,0,0,0,extratropical
-2555,Weidong,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2556,Weixi 1,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2557,Weixi 2,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2558,Weixi 3,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2559,Weixi 4,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2560,Weixi 5,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2561,Weixi 8,"Populus, Betula",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2562,West Kalimantan,lowland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2563,Western Ghats 1,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2564,Western Ghats 2,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2565,Western Ghats 3,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2566,Western Ghats 4,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2567,Wet-114,Managed,NAC,2567.01,1884,2567.02,Initiation of post-disturbance cohort (planted or natural),1884,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2568,Wet-160,Managed,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2569,Wet-33,Managed,NAC,2569.01,1962,2569.02,Initiation of post-disturbance cohort (planted or natural),1962,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2570,Wet-60,Managed,NAC,2570.01,1924,2570.02,Initiation of post-disturbance cohort (planted or natural),1924,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2571,Wet-67,Managed,NAC,2571.01,1927,2571.02,Initiation of post-disturbance cohort (planted or natural),1927,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2572,Wet-6,"Managed, RD",NAC,2572.01,1991,2572.02,Initiation of post-disturbance cohort (planted or natural),1991,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2573,Wet-9,Managed,NAC,2573.01,1985,2573.02,Initiation of post-disturbance cohort (planted or natural),1985,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2574,Wet-T-57,Managed,NAC,2574.01,1955,2574.02,Initiation of post-disturbance cohort (planted or natural),1955,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2575,Wetzstein,managed 50-y.o. Picea abies stand,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2576,Wildfire-regenerating Jack Pine Chronosequence 12,Forest recovery following wildfire,NAC,2576.02,1990,2576.03,Initiation of post-disturbance cohort (natural),1990,2576.01,Burned,100,1990,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2577,Wildfire-regenerating Jack Pine Chronosequence 14,Forest recovery following wildfire,NAC,2577.02,1988,2577.03,Initiation of post-disturbance cohort (natural),1988,2577.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2578,Wildfire-regenerating Jack Pine Chronosequence 1,Forest recovery following wildfire,NAC,2578.02,2001,2578.03,Initiation of post-disturbance cohort (natural),2001,2578.01,Burned,100,2001,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2579,Wildfire-regenerating Jack Pine Chronosequence 22,Forest recovery following wildfire,NAC,2579.02,1980,2579.03,Initiation of post-disturbance cohort (natural),1980,2579.01,Burned,100,1980,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2580,Wildfire-regenerating Jack Pine Chronosequence 27,Forest recovery following wildfire,NAC,2580.02,1975,2580.03,Initiation of post-disturbance cohort (natural),1975,2580.01,Burned,100,1975,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2581,Wildfire-regenerating Jack Pine Chronosequence 2,Forest recovery following wildfire,NAC,2581.02,2000,2581.03,Initiation of post-disturbance cohort (natural),2000,2581.01,Burned,100,2000,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2582,Wildfire-regenerating Jack Pine Chronosequence 36,Forest recovery following wildfire,NAC,2582.02,1966,2582.03,Initiation of post-disturbance cohort (natural),1966,2582.01,Burned,100,1966,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2583,Wildfire-regenerating Jack Pine Chronosequence 4,Forest recovery following wildfire,NAC,2583.02,1998,2583.03,Initiation of post-disturbance cohort (natural),1998,2583.01,Burned,100,1998,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2584,Wildfire-regenerating Jack Pine Chronosequence 52,Forest recovery following wildfire,NAC,2584.02,1950,2584.03,Initiation of post-disturbance cohort (natural),1950,2584.01,Burned,100,1950,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2585,Wildfire-regenerating Jack Pine Chronosequence 72,Forest recovery following wildfire,NAC,2585.02,1930,2585.03,Initiation of post-disturbance cohort (natural),1930,2585.01,Burned,100,1930,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2586,Wildfire-regenerating Jack Pine Chronosequence 7,Forest recovery following wildfire,NAC,2586.02,1995,2586.03,Initiation of post-disturbance cohort (natural),1995,2586.01,Burned,100,1995,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2587,Willow Creek (WC)-Chequamegon National Forest ,RD mature regrowth upland hardwood forest,NAC,2587.02,1933,0,NAC,NAC,0,No disturbance,NA,1970,0,0,2587.01,Harvest,NI,1920,2587.03,Harvest,<100%,1970,0,0,0,0,0,0,0,extratropical
-2588,Willow Creek AE 1,NI,NAC,2588.01,1928,2588.02,Initiation of post-disturbance cohort (planted or natural),1928,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2589,Willow Creek AE 2,NI,NAC,2589.01,1921,2589.02,Initiation of post-disturbance cohort (planted or natural),1921,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2590,Willow Creek AF 1,NI,NAC,2590.01,1939,2590.02,Initiation of post-disturbance cohort (planted or natural),1939,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2591,Willow Creek AF 2,NI,NAC,2591.01,1945,2591.02,Initiation of post-disturbance cohort (planted or natural),1945,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2592,Willow Creek IA 1,NI,NAC,2592.01,1976,2592.02,Initiation of post-disturbance cohort (planted or natural),1976,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2593,Willow Creek IA 2,NI,NAC,2593.01,1973,2593.02,Initiation of post-disturbance cohort (planted or natural),1973,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2594,Willow Creek NH 1,NI,NAC,2594.01,1935,2594.02,Initiation of post-disturbance cohort (planted or natural),1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2595,Willow Creek NH 2,NI,NAC,2595.01,1935,2595.02,Initiation of post-disturbance cohort (planted or natural),1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2596,Willow Creek NH 3,NI,NAC,2596.01,1935,2596.02,Initiation of post-disturbance cohort (planted or natural),1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2597,Willow Creek NH 4,NI,NAC,2597.01,1935,2597.02,Initiation of post-disturbance cohort (planted or natural),1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2598,Willow Creek YA 1,RD,NAC,2598.01,1986,2598.02,Initiation of post-disturbance cohort (planted or natural),1986,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2599,Willow Creek YA 2,RD,NAC,2599.01,1991,2599.02,Initiation of post-disturbance cohort (planted or natural),1991,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2600,Winand,NAC,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2601,Wind River Canopy Crane,old-growth douglas fir and western hemlock,NAC,2601.01,1500,0,NAC,NAC,0,No disturbance,NA,1500,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2602,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.10y,NAC,2602.03,1988,2602.02,Initiation of post-disturbance cohort (natural),1988,2602.01,Cut,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2603,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.11y,NAC,2603.03,1987,2603.02,Initiation of post-disturbance cohort (natural),1987,2603.01,Cut,100,1987,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2604,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.12y,NAC,2604.03,1986,2604.02,Initiation of post-disturbance cohort (natural),1986,2604.01,Cut,100,1986,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2605,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.14y,NAC,2605.03,1984,2605.02,Initiation of post-disturbance cohort (natural),1984,2605.01,Cut,100,1984,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2606,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.15y,NAC,2606.03,1983,2606.02,Initiation of post-disturbance cohort (natural),1983,2606.01,Cut,100,1983,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2607,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.16y,NAC,2607.03,1982,2607.02,Initiation of post-disturbance cohort (natural),1982,2607.01,Cut,100,1982,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2608,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.18y,NAC,2608.03,1980,2608.02,Initiation of post-disturbance cohort (natural),1980,2608.01,Cut,100,1980,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2609,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.21y,NAC,2609.03,1977,2609.02,Initiation of post-disturbance cohort (natural),1977,2609.01,Cut,100,1977,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2610,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.22y,NAC,2610.03,1976,2610.02,Initiation of post-disturbance cohort (natural),1976,2610.01,Cut,100,1976,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2611,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.23y,NAC,2611.03,1975,2611.02,Initiation of post-disturbance cohort (natural),1975,2611.01,Cut,100,1975,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2612,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.25y,NAC,2612.03,1973,2612.02,Initiation of post-disturbance cohort (natural),1973,2612.01,Cut,100,1973,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2613,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.26y,NAC,2613.03,1972,2613.02,Initiation of post-disturbance cohort (natural),1972,2613.01,Cut,100,1972,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2614,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.29y,NAC,2614.03,1969,2614.02,Initiation of post-disturbance cohort (natural),1969,2614.01,Cut,100,1969,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2615,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.30y,NAC,2615.03,1968,2615.02,Initiation of post-disturbance cohort (natural),1968,2615.01,Cut,100,1968,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2616,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.32y,NAC,2616.03,1966,2616.02,Initiation of post-disturbance cohort (natural),1966,2616.01,Cut,100,1966,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2617,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.33y,NAC,2617.03,1965,2617.02,Initiation of post-disturbance cohort (natural),1965,2617.01,Cut,100,1965,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2618,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.34y,NAC,2618.03,1964,2618.02,Initiation of post-disturbance cohort (natural),1964,2618.01,Cut,100,1964,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2619,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.35y,NAC,2619.03,1963,2619.02,Initiation of post-disturbance cohort (natural),1963,2619.01,Cut,100,1963,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2620,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.36y,NAC,2620.03,1962,2620.02,Initiation of post-disturbance cohort (natural),1962,2620.01,Cut,100,1962,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2621,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.38y,NAC,2621.03,1960,2621.02,Initiation of post-disturbance cohort (natural),1960,2621.01,Cut,100,1960,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2622,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.39y,NAC,2622.03,1959,2622.02,Initiation of post-disturbance cohort (natural),1959,2622.01,Cut,100,1959,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2623,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.41y,NAC,2623.03,1957,2623.02,Initiation of post-disturbance cohort (natural),1957,2623.01,Cut,100,1957,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2624,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.43y,NAC,2624.03,1955,2624.02,Initiation of post-disturbance cohort (natural),1955,2624.01,Cut,100,1955,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2625,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.44y,NAC,2625.03,1954,2625.02,Initiation of post-disturbance cohort (natural),1954,2625.01,Cut,100,1954,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2626,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.49y,NAC,2626.03,1949,2626.02,Initiation of post-disturbance cohort (natural),1949,2626.01,Cut,100,1949,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2627,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.4y,NAC,2627.03,1994,2627.02,Initiation of post-disturbance cohort (natural),1994,2627.01,Cut,100,1994,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2628,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.69y,NAC,2628.03,1928,2628.02,Initiation of post-disturbance cohort (natural),1928,2628.01,Cut,100,1928,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2629,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.6y,NAC,2629.03,1992,2629.02,Initiation of post-disturbance cohort (natural),1992,2629.01,Cut,100,1992,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2630,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.9y,NAC,2630.03,1989,2630.02,Initiation of post-disturbance cohort (natural),1989,2630.01,Cut,100,1989,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2631,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.148y,NAC,2631.03,1850,2631.02,Initiation of post-disturbance cohort (natural),1850,2631.01,StandClearing,100,1850,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2632,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.150y,NAC,2632.03,1848,2632.02,Initiation of post-disturbance cohort (natural),1848,2632.01,StandClearing,100,1848,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2633,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.154y,NAC,2633.03,1844,2633.02,Initiation of post-disturbance cohort (natural),1844,2633.01,StandClearing,100,1844,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2634,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.155y,NAC,2634.03,1843,2634.02,Initiation of post-disturbance cohort (natural),1843,2634.01,StandClearing,100,1843,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2635,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.70y,NAC,2635.03,1928,2635.02,Initiation of post-disturbance cohort (natural),1928,2635.01,StandClearing,100,1928,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2636,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.71y,NAC,2636.03,1927,2636.02,Initiation of post-disturbance cohort (natural),1927,2636.01,StandClearing,100,1927,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2637,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.87y,NAC,2637.03,1911,2637.02,Initiation of post-disturbance cohort (natural),1911,2637.01,StandClearing,100,1911,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2638,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.89y,NAC,2638.03,1909,2638.02,Initiation of post-disturbance cohort (natural),1909,2638.01,StandClearing,100,1909,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2639,Wind River Ranger District Chronosequence: Primary Forest,undisturbed forest,NAC,2639.01,1498,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2640,Wisconsin (cool dry),"Tsuga canadensis, Pinus strobus",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2641,WLEF tower in Park Falls Ranger District,Managed for logging,NAC,2641.01,1936,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2641.02,Harvest,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2642,Wolongwan 1,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2643,Wolongwan 2,"Populus, Betula",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2644,Wudaogou,Pinus sylvestris var. mongolica,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2645,Wuyishan.Xianfengling,Castanopsis eyrei community,NAC,2645.01,1941,2645.02,Initiation of post-disturbance cohort (planted or natural),1941,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2646,Wytham Woods,ancient semi-natural woodland,18,0,NAC,0,NAC,NAC,0,No disturbance,NA,1968,0,0,2646.02,Cut,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2647,Xiachayu,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2648,Xianmi,Juniperus przewalskii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2649,Xiaohu CF,plantation,NAC,2649.01,1968,2649.02,Planted,1968,0,NAC,NAC,NAC,0,0,2649.04,Cut,<100%,1980,0,NA,NA,NA,0,0,0,0,2649.03,0,0,extratropical
-2650,Xiaohu CK,plantation,NAC,2650.01,1968,2650.02,Planted,1968,0,NAC,NAC,NAC,0,0,2650.04,Cut,<100%,1980,0,NA,NA,NA,0,0,0,0,2650.03,0,0,extratropical
-2651,Xiaohu NF,UM,NAC,2651.01,1853,2651.02,Initiation of post-disturbance cohort (natural),1853,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2652,Xiaojin 1,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2653,Xiaojin 2,Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2654,Xiaolangdi,mixed plantation,NAC,2654.02,1974,2654.01,Planted,1974,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,2654,0,extratropical
-2655,Xiaomohe,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2656,Xiaoshennongjia,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2657,Xiaoxing'anling,Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2658,Xiaoxinganling Mountains.Wuying Flux Station,secondary forest,NAC,2658.01,1986,2658.02,Initiation of post-disturbance cohort (planted or natural),1986,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2659,Xingdoushan,"Pinus armandii, P. taiwanensis, P. densada",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2660,Xingjiangling,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2661,Xinlong,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2662,Xiping (SP),poplar plantation,NAC,2662.02,2002,2662.01,Planted,2002,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2663,Xishuangbanna,"Castanopsis ferox, Choerospondias axillaris, Elaeocarpus varunua, Pometia tomentosa, Chukrasia tabularia, ",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2664,Xu (1988),Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2665,Xueka,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2666,Xujiaba Research Station.Lithocarpus xylocarpus forest,high density stand,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2667,Xujiaba Research Station.Lithocarpus xylocarpus forest,low density stand,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2668,Y site,natural regeneration of ponderosa pine forest 21 years since clearcut,NAC,2668.03,1984,2668.02,Initiation of post-disturbance cohort (natural),1978,2668.01,Cut,100,1978,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2669,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,2669.03,1982,2669.02,Initiation of post-disturbance cohort (natural),1982,2669.01,Cut,100,1982,0,0,2669.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2670,Yajiang,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2671,Yakutsk - Larix cajanderi,siberian larch forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2672,Yakutsk 1,Larix gmellinii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2673,Yakutsk 2,Larix gmelinii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2674,Yakutsk,UM,NAC,2674.01,1874,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2675,Yamashiro Experimental Forest,mixed forest,NAC,2675.01,1909,2675.02,Initiation of post-disturbance cohort (planted or natural),1909,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2676,Yanamono A,terra firma  YAN-01,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2677,Yanamono B,terra firma  YAN-01,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2678,Yangambi,17-18 years forest fallow,NAC,2678.04,1933,2678.05,Initiation of post-disturbance cohort (natural),1933,2678.03,Cultivation,100,NI,2678,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2679,Yangambi,2 years forest fallow,NAC,2679.04,1949,2679.05,Initiation of post-disturbance cohort (natural),1949,2679.03,Cultivation,100,NI,2679,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2680,Yangambi,5 years forest fallow,NAC,2680.04,1946,2680.05,Initiation of post-disturbance cohort (natural),1946,2680.03,Cultivation,100,NI,2680,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2681,Yangambi,8 years forest fallow,NAC,2681.04,1943,2681.05,Initiation of post-disturbance cohort (natural),1943,2681.03,Cultivation,100,NI,2681,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2682,Yangyu,Juniperus przewalskii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2683,YAP-01b_Yapo IBP,african tropical forest,0.2,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2684,Yapo (Plateau),Mature ,5,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2685,Yatir,maturing Pinus halepensis planted forest,NAC,2685.02,1966,2685.01,Planted,1966,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2686,Yele,"Cupressus, Sabina (Juniperus)",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2687,Yellowstone National Park (YNP),110 yr,NAC,2687.01,1881,2687.02,Initiation of post-disturbance cohort (natural),1881,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2688,Yellowstone National Park (YNP),13 yr high density forest recovery following wildfire,NAC,2688.03,1988,2688.02,Initiation of post-disturbance cohort (natural),1988,2688.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2689,Yellowstone National Park (YNP),13 yr low density forest recovery following wildfire,NAC,2689.03,1988,2689.02,Initiation of post-disturbance cohort (natural),1988,2689.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2690,Yellowstone National Park (YNP),13 yr mod density forest recovery following wildfire,NAC,2690.03,1988,2690.02,Initiation of post-disturbance cohort (natural),1988,2690.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2691,Yenisei 12vu,"moderately burned Pinus sylvestris stand, mosses+Vaccinum understory",NAC,2691.02,1988,2691.03,Initiation of post-disturbance cohort (planted or natural),1988,2691.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2692,Yenisei 138lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2692.02,1862,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2692.01,Burned,100,1862,2692.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2693,Yenisei 14lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2693.02,1986,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2693.01,Burned,100,1986,2693.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2694,Yenisei 14lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2694.02,1986,2694.03,Initiation of post-disturbance cohort (planted or natural),1986,2694.01,Burned,100,1986,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2695,Yenisei 200lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2695.02,1800,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2695.01,Burned,100,1800,2695.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2696,Yenisei 204lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2696.02,1796,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2696.01,Burned,100,1796,2696.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2697,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2697.02,1785,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2697.01,Burned,100,1785,2697.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2698,Yenisei 28lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2698.02,1972,2698.03,Initiation of post-disturbance cohort (natural),1972,2698.01,Burned,100,1972,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2699,Yenisei 31lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2699.02,1969,2699.03,Initiation of post-disturbance cohort (natural),1969,2699.01,Burned,100,1969,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2700,Yenisei 32lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2700.01,1968,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2700.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2701,Yenisei 383lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2701.02,1617,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2701.01,Burned,100,1617,2701.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2702,Yenisei 48lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2702.02,1952,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2702.01,Burned,100,1952,2702.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2703,Yenisei 53vm,"moderately burned Pinus sylvestris stand, mosses+Vaccinum understory",NAC,2703.02,1947,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2703.01,Burned,100,1947,2703.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2704,Yenisei 67lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2704.02,1933,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2704.01,Burned,100,1933,2704.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2705,Yenisei 95lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2705.02,1969,2705.03,Initiation of post-disturbance cohort (natural),1969,2705.01,Burned,100,1969,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2706,Yenisei 95vm,"moderately burned Pinus sylvestris stand, mosses+Vaccinum understory",NAC,2706.02,1905,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2706.01,Burned,100,1905,2706.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2707,Yenisei Abies,UM,NAC,2707.02,1800,2707.03,Initiation of post-disturbance cohort (natural),1800,2707.01,Burned,NAC,1800,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2708,Yenisei Betula,UM,NAC,2708.02,1950,2708.03,Initiation of post-disturbance cohort (natural),1950,2708.01,Burned,NAC,1950,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2709,Yenisei Mixed,UM,NAC,2709.01,1750,2709.02,Initiation of post-disturbance cohort (natural),1750,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2710,Yenisei River,"Pinus sylvestris, lichen",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2711,Yenisei River,"Pinus sylvestris, Vaccinium mosses",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2712,Yenisei/Zotino,Managed,NAC,2712.03,1784,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2712.01,Harvest,<100%,NAC,2712.02,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
-2713,Yonghe,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2714,Yongsheng 1,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2715,Yongsheng 2,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2716,Yucal,"Premontane Wet, Transition to Basal, Pacific Forest recovery following pasture abandonment",NAC,2716.03,NI,2716.02,Initiation of post-disturbance cohort (natural),NI,2716.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2717,"Yunlong Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2718,Yunlong Pinus 1,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2719,Yunlong Pinus 2,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2720,Yusuhara kubotaniyama,UM,NAC,2720.01,1527,2720.02,Initiation of post-disturbance cohort (natural),1527,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2721,Yusuhara takatoriyama,UM,NAC,2721.01,1826,2721.02,Initiation of post-disturbance cohort (natural),1826,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2722,Zafire Altura,old-growth tropical forest.ZAR4,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2723,Zafire flooded,partially flooded tropical forest.ZAR2,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2724,Zafire TF,old-growth tropical forest.ZAR3,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2725,Zafire varrilal,short-statured tropical forest.ZAR1,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2726,Zafire,UM,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2727,"Zhangmu Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2728,Zhangmu Quercus,Quercus,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2729,Zhanwa,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2730,Zhaosu,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2731,"Zhongdian Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2732,Zhongdian Quercus,Quercus,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2733,Zhongtie,Juniperus przewalskii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2734,"Zhuwagen Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2735,Zhuwagen Quercus,Quercus,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2736,Zotino,Pinus sylvestris,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2737,Zuogong,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2370,Thompson NSA (NOAS),NI,NAC,2370.01,1941,2370.02,Initiation of post-disturbance cohort (planted or natural),1941,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2371,Thompson NSA (NOBS),UM,NAC,2371.02,1880,2371.03,Initiation of post-disturbance cohort (natural),1880,2371.01,Burned,NAC,1880,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2372,Thompson NSA (NOJP),NI,NAC,2372.01,1931,2372.02,Initiation of post-disturbance cohort (planted or natural),1931,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2373,Thompson NSA (NYJP),NI,NAC,2373.01,1969,2373.02,Initiation of post-disturbance cohort (planted or natural),1969,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2374,Thompson Seattle,plantation forest,NAC,2374.01,1925,2374.02,Planted,1925,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2375,Thompson wet chronosequence w12,RD,NAC,2375.02,1989,2375.03,Initiation of post-disturbance cohort (natural),1989,2375.01,Burned,NAC,1989,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2376,Thompson wet chronosequence w131,UM,NAC,2376.02,1870,2376.03,Initiation of post-disturbance cohort (natural),1870,2376.01,Burned,NAC,1870,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2377,Thompson wet chronosequence w20,RD,NAC,2377.02,1981,2377.03,Initiation of post-disturbance cohort (natural),1981,2377.01,Burned,NAC,1981,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2378,Thompson wet chronosequence w37,UM,NAC,2378.02,1964,2378.03,Initiation of post-disturbance cohort (natural),1964,2378.01,Burned,NAC,1964,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2379,Thompson wet chronosequence w3,RD,NAC,2379.02,1998,2379.03,Initiation of post-disturbance cohort (natural),1998,2379.01,Burned,NAC,1998,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2380,Thompson wet chronosequence w6,RD,NAC,2380.02,1995,2380.03,Initiation of post-disturbance cohort (natural),1995,2380.01,Burned,NAC,1995,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2381,Thompson wet chronosequence w71,UM,NAC,2381.02,1930,2381.03,Initiation of post-disturbance cohort (natural),1930,2381.01,Burned,NAC,1930,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2382,Thompson wet chronosequence,"Picea marina - wet, poorly drained soils",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2383,Thong Pha Phum NF,dry evergreen forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2384,Thong Pha Phum NF,mixed deciduous forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2385,Thong Pha Phum NF,tropical rainforest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2386,Thurston,Meterosideros forest.300-y,NAC,0,NAC,2386.01,Initiation of post-disturbance cohort (natural),NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2387,Tianchi,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2388,Tianshan,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2389,Tiantong Fangyang Hill,human and typhoon disturbed Schima superba-Castanopsis carlesii forest,NAC,2389.01,1951,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2389.02,Major storm,<100%,NI,2389.03,Harvest,<100%,NI,0,0,0,0,0,0,0,extratropical
+2390,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,2390.03,1982,2390.02,Initiation of post-disturbance cohort (natural),1982,2390.01,Cut,100,1982,0,0,2390.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2391,Tiputini 2,terra firma TIP-02,0.8,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2392,Tiputini 3,seasonally flooded TIP-03,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2393,Tirimbina,Tropical Wet Forest recovery following pasture abandonment,NAC,2393.03,NI,2393.02,Initiation of post-disturbance cohort (natural),NI,2393.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2394,Toa Baja experiment station,Casuarina + Eucalyptus,0.0768,2394.05,1989.665753,2394.06,Planted,1989.665753,2394.04,Burned,100,NI,2394,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2395,Toa Baja experiment station,Casuarina + Eucalyptus: Casuarina specific,0.0768,2395.05,1989.665753,2395.06,Planted,1989.665753,2395.04,Burned,100,NI,2395,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2396,Toa Baja experiment station,Casuarina + Eucalyptus: Eucalyptus specific,0.0768,2396.05,1989.665753,2396.06,Planted,1989.665753,2396.04,Burned,100,NI,2396,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2397,Toa Baja experiment station,Casuarina + Leucaena,0.0768,2397.05,1989.665753,2397.06,Planted,1989.665753,2397.04,Burned,100,NI,2397,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2398,Toa Baja experiment station,Casuarina + Leucaena: Casuarina specific,0.0768,2398.05,1989.665753,2398.06,Planted,1989.665753,2398.04,Burned,100,NI,2398,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2399,Toa Baja experiment station,Casuarina + Leucaena: Leucaena specific,0.0768,2399.05,1989.665753,2399.06,Planted,1989.665753,2399.04,Burned,100,NI,2399,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2400,Toa Baja experiment station,Casuarina equisetifolia,0.0768,2400.05,1989.665753,2400.06,Planted,1989.665753,2400.04,Burned,100,NI,2400,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2401,Toa Baja experiment station,Eucalyptus + Leucaena,0.0768,2401.05,1989.665753,2401.06,Planted,1989.665753,2401.04,Burned,100,NI,2401,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2402,Toa Baja experiment station,Eucalyptus + Leucaena: Eucalyptus specific,0.0768,2402.05,1989.665753,2402.06,Planted,1989.665753,2402.04,Burned,100,NI,2402,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2403,Toa Baja experiment station,Eucalyptus + Leucaena: Leucaena specific,0.0768,2403.05,1989.665753,2403.06,Planted,1989.665753,2403.04,Burned,100,NI,2403,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2404,Toa Baja experiment station,Eucalyptus robusta,0.0768,2404.05,1989.665753,2404.06,Planted,1989.665753,2404.04,Burned,100,NI,2404,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2405,Toa Baja experiment station,Leucaena leucocephala,0.0768,2405.05,1989.665753,2405.06,Planted,1989.665753,2405.04,Burned,100,NI,2405,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2406,Tomakomai Experimental Forest.Horonai stream basin,secondary forest,NAC,2406.01,1954,2406.02,Initiation of post-disturbance cohort (natural),1954,0,NAC,NAC,NAC,0,0,2406.03,Major storm,<100%,1954,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2407,Tomakomai National Forest,planted larch forest,NAC,2407.01,1957,2407.02,Planted,1957,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2408,Tomsk 10,NI,NAC,2408.01,1898,2408.02,Initiation of post-disturbance cohort (planted or natural),1898,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2409,Tomsk 11,NI,NAC,2409.01,1914,2409.02,Initiation of post-disturbance cohort (planted or natural),1914,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2410,Tomsk 1,NI,NAC,2410.01,1949,2410.02,Initiation of post-disturbance cohort (planted or natural),1949,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2411,Tomsk 2,NI,NAC,2411.01,1925,2411.02,Initiation of post-disturbance cohort (planted or natural),1925,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2412,Tomsk 3,NI,NAC,2412.01,1904,2412.02,Initiation of post-disturbance cohort (planted or natural),1904,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2413,Tomsk 4,NI,NAC,2413.01,1852,2413.02,Initiation of post-disturbance cohort (planted or natural),1852,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2414,Tomsk 5,NI,NAC,2414.01,1937,2414.02,Initiation of post-disturbance cohort (planted or natural),1937,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2415,Tomsk 6,NI,NAC,2415.01,1909,2415.02,Initiation of post-disturbance cohort (planted or natural),1909,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2416,Tomsk 7,NI,NAC,2416.01,1894,2416.02,Initiation of post-disturbance cohort (planted or natural),1894,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2417,Tomsk 8,NI,NAC,2417.01,1943,2417.02,Initiation of post-disturbance cohort (planted or natural),1943,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2418,Tomsk 9,NI,NAC,2418.01,1927,2418.02,Initiation of post-disturbance cohort (planted or natural),1927,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2419,Tono,UM,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2420,Tranquilla,teak plantation,NAC,2420.02,1979,2420.01,Planted,1979,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2421,Trento S1,Managed,NAC,2421.01,1956,2421.02,Initiation of post-disturbance cohort (planted or natural),1956,0,NAC,NAC,NAC,0,0,2421.03,Harvest,NAC,1956,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2422,Trento S2,NI,NAC,2422.01,1957,2422.02,Initiation of post-disturbance cohort (planted or natural),1957,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2423,Trento S3,NI,NAC,2423.01,1932,2423.02,Initiation of post-disturbance cohort (planted or natural),1932,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2424,Trento S4,NI,NAC,2424.01,1951,2424.02,Initiation of post-disturbance cohort (planted or natural),1951,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2425,Trento S5,NI,NAC,2425.01,1941,2425.02,Initiation of post-disturbance cohort (planted or natural),1941,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2426,Triangle site,plantation forest,NAC,2426.01,1957,2426.02,Planted,NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2427,Trocha Union 3,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2428,Trocha Union 4,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2429,Trocha Union 7,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2430,Trocha Union 8,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2431,Trounson Forest Reserve,Agathis australis mature forest,0.36,0,NAC,2431.01,Initiation of post-disturbance cohort (natural),NI,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2432,Tucuri,old-growth tropical forest.TUC,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2433,Tumbara,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2434,Tumbarumba flux station,mature managed forest,NAC,2434.01,1911,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2434.02,Harvest,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2435,"Tura, right bank of Kochechum River",Larix gmelinii dominated mixed-age forest,0.1,2435.01,1715,0,NAC,NAC,0,No disturbance,NA,NI,0,0,2435.02,Burned,NAC,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2436,Tura,natural regeneration after fire.Larix gmelinii forest,NAC,2436.03,1899,2436.02,Initiation of post-disturbance cohort (natural),1899,2436.01,Burned,100,1899,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2437,Tura,natural regeneration after fire.Larix gmelinii forest C1,NAC,2437.01,1717,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2437.02,Burned,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2438,Tura,natural regeneration after fire.Larix gmelinii forest W1,NAC,2438.03,1898,2438.02,Initiation of post-disturbance cohort (natural),1898,2438.01,Burned,100,1898,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2439,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1939,0.24,2439.03,1939,2439.02,Planted,1939,2439.01,Cut,100,1939,0,0,2439.04,Cut,<100%,1983,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2440,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1974,0.12,2440.03,1974,2440.02,Planted,1974,2440.01,Cut,100,1974,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2441,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1989,0.12,2441.05,1989,2441.04,Planted,1989,2441.03,Cut,NA,1989,0,2441,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2442,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 2002,0.12,2442.05,2002,2442.04,Planted,2002,2442.03,Cut,NA,1992,0,2442,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2443,TUVA,Tropical Wet Forest recovery following pasture abandonment,NAC,2443.03,NI,2443.02,Initiation of post-disturbance cohort (natural),NI,2443.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2444,Uatuma,mature 'old growth' forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2445,UDJ-01j_Udagaji,african tropical forest,0.25,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2446,UDJ-02j_Udagaji,african tropical forest,0.25,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2447,Ulu Segama FR,dipterocarp hill forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2448,UMBS harvest and fire chronosequence,Managed.24-y since clear-cut and burn,NAC,2448.04,1980,2448.03,Initiation of post-disturbance cohort (natural),1980,2448.02,Burned,100,1980,2448.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2449,UMBS harvest and fire chronosequence,Managed.50-y since clear-cut and burn,NAC,2449.04,1954,2449.03,Initiation of post-disturbance cohort (natural),1954,2449.02,Burned,100,1954,2449.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2450,UMBS harvest and fire chronosequence,Managed.56-y since clear-cut and burn,NAC,2450.04,1948,2450.03,Initiation of post-disturbance cohort (natural),1948,2450.02,Burned,100,1948,2450.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2451,UMBS harvest and fire chronosequence,Managed.6-y since clear-cut and burn,NAC,2451.04,1998,2451.03,Initiation of post-disturbance cohort (natural),1998,2451.02,Burned,100,1998,2451.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2452,UMBS harvest and fire chronosequence,Managed.68-y since clear-cut and burn,NAC,2452.04,1936,2452.03,Initiation of post-disturbance cohort (natural),1936,2452.02,Burned,100,1936,2452.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2453,University of Michigan Biological Station (UMBS) ,secondary successional mixed northern hardwood forest,1.1,0,NAC,2453.04,Initiation of post-disturbance cohort (natural),1900,2453.03,Harvest,NI,1890,2453,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2454,University of Michigan Biological Station (UMBS) ,UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2454.01,Cut,NAC,1880,2454.02,Burned,NAC,1923,0,0,0,0,0,0,0,extratropical
+2455,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.18-y,NAC,2455.11,1980,2455.1,Initiation of post-disturbance cohort (natural),1980,2455.09,Cut,100,1980,2455,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2456,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.44-y,NAC,2456.09,1954,2456.08,Initiation of post-disturbance cohort (natural),1954,2456.07,Cut,100,1954,2456,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2457,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.50-y,NAC,2457.07,1948,2457.06,Initiation of post-disturbance cohort (natural),1948,2457.05,Cut,100,1948,2457,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2458,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.62-y,NAC,2458.05,1936,2458.04,Initiation of post-disturbance cohort (natural),1936,2458.03,Cut,100,1936,2458,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2459,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.87-y,NAC,2459.03,1911,2459.02,Initiation of post-disturbance cohort (natural),1911,2459.01,Burned,100,1911,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2460,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.18-y,NAC,2460.11,1980,2460.1,Initiation of post-disturbance cohort (natural),1980,2460.09,Cut,100,1980,2460,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2461,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.44-y,NAC,2461.09,1954,2461.08,Initiation of post-disturbance cohort (natural),1954,2461.07,Cut,100,1954,2461,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2462,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.50-y,NAC,2462.07,1948,2462.06,Initiation of post-disturbance cohort (natural),1948,2462.05,Cut,100,1948,2462,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2463,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.62-y,NAC,2463.05,1936,2463.04,Initiation of post-disturbance cohort (natural),1936,2463.03,Cut,100,1936,2463,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2464,University of Michigan Biological Station Populus grandidentata chronosequence,Forest recovery following clear cut and prescribed burn.87-y,NAC,2464.03,1911,2464.02,Initiation of post-disturbance cohort (natural),1911,2464.01,Burned,100,1911,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2465,University of Michigan,UM,NAC,2465.04,NAC,0,NAC,NAC,0,No disturbance,NA,1923,0,0,2465.01,Harvest,NI,1890,2465.02,Burned,<100%,NI,0,0,0,0,0,0,0,extratropical
+2466,US-UMB,NAC,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2467,USA 1,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2468,USA 2,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2469,USA 3,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2470,USA 4,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2471,USA 5,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2472,Valle Azul,Tropical Moist Forest recovery following pasture abandonment,NAC,2472.03,NI,2472.02,Initiation of post-disturbance cohort (natural),NI,2472.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2473,Valles Caldera Mixed Conifer ,subalpine conifer forest,NAC,0,NAC,2473.03,Initiation of post-disturbance cohort (natural),NI,2473.02,Harvest,NI,NI,2473.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2474,Valles Caldera Ponderosa Pine ,ponderosa pine forest,NAC,0,NAC,2474.03,Initiation of post-disturbance cohort (natural),NI,2474.02,Harvest,NI,NI,2474.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2475,Vancouver Island DF49,planted Douglas fir mixed with natural regeneration,NAC,2475.04,1949,2475.03,Planted_and_natural_regeneration,1949,2475.02,Burned,100,1943,2475.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2476,Vancouver Island HDF00,"RD planted 97% Douglas-fir, 3% western red cedar",NAC,2476.02,1999,2476.04,Planted,2000.163934,2476.03,Cut,100,1999.915068,2476.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2477,Vancouver Island HDF88,"RD planted 75% Douglas-fir, 21% western red cedar, and 4% grand fir",NAC,2477.04,1988,2477.05,Planted,1988,2477.03,Burned,100,1987,2477,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,2477.06,0,extratropical
+2478,Vancouver Island unmanaged plantation,planted with 93% Douglas fir and 7% western cedar after clear-cut,NAC,0,NAC,2478.05,Planted,2000.163934,2478.04,Cut,100,1999.915068,0,2478,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2479,Vargas,Premontane Rain Forest recovery following pasture abandonment,NAC,2479.03,NI,2479.02,Initiation of post-disturbance cohort (natural),NI,2479.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2480,Vatia,lowland forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2480.01,Major storm,<100%,1990,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2481,Venezuela: Caimital/Ticoporo,tropical transition moist to dry forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2482,Venezuela: Carbonera,tropical lower montane moist forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2483,Venezuela: Cerro El Coco,tropical dry forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2484,Venezuela: Mucuy,tropical montane wet forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2485,Venezuela: Rio Grande/KM92,tropical moist forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2486,Vielsalm,Mixed age mixed species planted stand with traditional forest management,NAC,0,NAC,2486.01,Planted,1882,0,NAC,NAC,NAC,0,0,2486.09,Cut,<100%,NI,0,NA,NA,NA,0,0,0,0,0,2486,0,extratropical
+2487,Virelles,NI,NAC,2487.01,1884,2487.02,Initiation of post-disturbance cohort (planted or natural),1884,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2488,Virgen Maria,Premontane Rain Forest recovery following pasture abandonment,NAC,2488.03,NI,2488.02,Initiation of post-disturbance cohort (natural),NI,2488.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2489,Virginia Park,pastoral lease; heavily grazed,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2489.01,Grazed,NA,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2490,Volcan,Premontane Rain Forest recovery following pasture abandonment,NAC,2490.03,NI,2490.02,Initiation of post-disturbance cohort (natural),NI,2490.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2491,"WACASC,Mt. Rainier NP 1",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2492,"WACASC,Mt. Rainier NP 2",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2493,"WACASC,Mt. Rainier NP 3",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2494,"WACASC,Mt. Rainier NP 4",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2495,"WACASC,Mt. Rainier NP 5",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2496,"WACASC,Mt. Rainier NP 6",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2497,"WACASC,Mt. Rainier NP 7",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2498,"WACASC,Mt. Rainier NP 8",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2499,"WACASC,Mt. Rainier NP 9",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2500,"WACASC,Wind River",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2501,"WACOAST,Olympic Peninsula 1",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2502,"WACOAST,Olympic Peninsula 2",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2503,"WACOAST,Olympic Peninsula 3",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2504,"WACOAST,Olympic Peninsula 4",Temperate mountain system,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2505,Waldo Lake (cool dry),"Tsuga mertensiana, Pinus contorta, Pinus monticola",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2506,Waldstein 2 Picea abies,chronosequence of 28-140-y-o stands,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2507,Walker Branch (WB) Forest,UM,NAC,0,NAC,2507.03,Initiation of post-disturbance cohort (natural),1940,2507.02,Cultivation,100,NI,2507.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2508,Walker Branch_2,UM,NAC,2508.01,1937,2508.02,Initiation of post-disturbance cohort (natural),1940,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2509,Walker Branch_3,UM,NAC,2509.01,1937,2509.02,Initiation of post-disturbance cohort (natural),1940,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2510,Walker Branch_4,UM,NAC,2510.01,1937,2510.02,Initiation of post-disturbance cohort (natural),1940,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2511,Walker Branch,"UM, agricultural abandonment in 1940",NAC,2511.01,1940,2511.02,Initiation of post-disturbance cohort (natural),1940,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2512,Walter Egler Reserve,Mature terra firma,0.25,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2513,"Wandashan Populus, Betula","Populus, Betula",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2514,Wangtai,Cunninghamia lanceolata,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2515,Warings Woods,RD,NAC,0,NAC,2515.02,Planted_and_natural_regeneration,NAC,2515.01,Cut,100,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2516,Washington 1,"Abies amabilis, Pseudotsuga menziesii",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2517,Washington 2,Pseudotsuga menziesii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2518,Washington Cascades 1 (cool temperate montane),"Abies amabilis, Tsuga heterophylla",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2519,Washington Cascades 2 (cool temperate montane),Abies amabilis,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2520,Washington coast (cool temperate montane),"Tsuga heterophylla, Picea sitchensis",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2521,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.10y,0.01,2521.03,1962,2521.02,Initiation of post-disturbance cohort (natural),NI,2521.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2522,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.13y,0.01,2522.03,1959,2522.02,Initiation of post-disturbance cohort (natural),NI,2522.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2523,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.17y,0.01,2523.03,1955,2523.02,Initiation of post-disturbance cohort (natural),NI,2523.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2524,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.19y,0.01,2524.03,1953,2524.02,Initiation of post-disturbance cohort (natural),NI,2524.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2525,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.24y,0.01,2525.03,1948,2525.02,Initiation of post-disturbance cohort (natural),NI,2525.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2526,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.25y,0.01,2526.03,1947,2526.02,Initiation of post-disturbance cohort (natural),NI,2526.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2527,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.26y,0.01,2527.03,1946,2527.02,Initiation of post-disturbance cohort (natural),NI,2527.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2528,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.28y,0.01,2528.03,1944,2528.02,Initiation of post-disturbance cohort (natural),NI,2528.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2529,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.2y,0.01,2529.03,1970,2529.02,Initiation of post-disturbance cohort (natural),NI,2529.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2530,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.30y,0.01,2530.03,1942,2530.02,Initiation of post-disturbance cohort (natural),NI,2530.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2531,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.33y,0.01,2531.03,1939,2531.02,Initiation of post-disturbance cohort (natural),NI,2531.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2532,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.35y,0.01,2532.03,1937,2532.02,Initiation of post-disturbance cohort (natural),NI,2532.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2533,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.3y,0.01,2533.03,1969,2533.02,Initiation of post-disturbance cohort (natural),NI,2533.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2534,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.40y,0.01,2534.03,1932,2534.02,Initiation of post-disturbance cohort (natural),NI,2534.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2535,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.43y,0.01,2535.03,1929,2535.02,Initiation of post-disturbance cohort (natural),NI,2535.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2536,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.45y,0.01,2536.03,1927,2536.02,Initiation of post-disturbance cohort (natural),NI,2536.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2537,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.49y,0.01,2537.03,1923,2537.02,Initiation of post-disturbance cohort (natural),NI,2537.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2538,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.51y,0.01,2538.03,1921,2538.02,Initiation of post-disturbance cohort (natural),NI,2538.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2539,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.54y,0.01,2539.03,1918,2539.02,Initiation of post-disturbance cohort (natural),NI,2539.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2540,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.56y,0.01,2540.03,1916,2540.02,Initiation of post-disturbance cohort (natural),NI,2540.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2541,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.58y,0.01,2541.03,1914,2541.02,Initiation of post-disturbance cohort (natural),NI,2541.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2542,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.59y,0.01,2542.03,1913,2542.02,Initiation of post-disturbance cohort (natural),NI,2542.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2543,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.5y,0.01,2543.03,1967,2543.02,Initiation of post-disturbance cohort (natural),NI,2543.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2544,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.6y,0.01,2544.03,1966,2544.02,Initiation of post-disturbance cohort (natural),NI,2544.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2545,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.7y,0.01,2545.03,1965,2545.02,Initiation of post-disturbance cohort (natural),NI,2545.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2546,Wayqecha,UM upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2547,Web-FACE ,Ambient CO2,NAC,2547.01,1900,2547.02,Initiation of post-disturbance cohort (planted or natural),1900,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2548,Web-FACE ,Elevated CO2,NAC,2548.01,1900,2548.02,Initiation of post-disturbance cohort (planted or natural),1900,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,2548.03,0,0,0,0,0,extratropical
+2549,Weidong,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2550,Weixi 1,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2551,Weixi 2,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2552,Weixi 3,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2553,Weixi 4,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2554,Weixi 5,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2555,Weixi 8,"Populus, Betula",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2556,West Kalimantan,lowland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2557,Western Ghats 1,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2558,Western Ghats 2,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2559,Western Ghats 3,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2560,Western Ghats 4,tropical wet evergreen forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2561,Wet-114,Managed,NAC,2561.01,1884,2561.02,Initiation of post-disturbance cohort (planted or natural),1884,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2562,Wet-160,Managed,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2563,Wet-33,Managed,NAC,2563.01,1962,2563.02,Initiation of post-disturbance cohort (planted or natural),1962,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2564,Wet-60,Managed,NAC,2564.01,1924,2564.02,Initiation of post-disturbance cohort (planted or natural),1924,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2565,Wet-67,Managed,NAC,2565.01,1927,2565.02,Initiation of post-disturbance cohort (planted or natural),1927,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2566,Wet-6,"Managed, RD",NAC,2566.01,1991,2566.02,Initiation of post-disturbance cohort (planted or natural),1991,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2567,Wet-9,Managed,NAC,2567.01,1985,2567.02,Initiation of post-disturbance cohort (planted or natural),1985,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2568,Wet-T-57,Managed,NAC,2568.01,1955,2568.02,Initiation of post-disturbance cohort (planted or natural),1955,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2569,Wetzstein,managed 50-y.o. Picea abies stand,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2570,Wildfire-regenerating Jack Pine Chronosequence 12,Forest recovery following wildfire,NAC,2570.02,1990,2570.03,Initiation of post-disturbance cohort (natural),1990,2570.01,Burned,100,1990,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2571,Wildfire-regenerating Jack Pine Chronosequence 14,Forest recovery following wildfire,NAC,2571.02,1988,2571.03,Initiation of post-disturbance cohort (natural),1988,2571.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2572,Wildfire-regenerating Jack Pine Chronosequence 1,Forest recovery following wildfire,NAC,2572.02,2001,2572.03,Initiation of post-disturbance cohort (natural),2001,2572.01,Burned,100,2001,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2573,Wildfire-regenerating Jack Pine Chronosequence 22,Forest recovery following wildfire,NAC,2573.02,1980,2573.03,Initiation of post-disturbance cohort (natural),1980,2573.01,Burned,100,1980,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2574,Wildfire-regenerating Jack Pine Chronosequence 27,Forest recovery following wildfire,NAC,2574.02,1975,2574.03,Initiation of post-disturbance cohort (natural),1975,2574.01,Burned,100,1975,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2575,Wildfire-regenerating Jack Pine Chronosequence 2,Forest recovery following wildfire,NAC,2575.02,2000,2575.03,Initiation of post-disturbance cohort (natural),2000,2575.01,Burned,100,2000,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2576,Wildfire-regenerating Jack Pine Chronosequence 36,Forest recovery following wildfire,NAC,2576.02,1966,2576.03,Initiation of post-disturbance cohort (natural),1966,2576.01,Burned,100,1966,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2577,Wildfire-regenerating Jack Pine Chronosequence 4,Forest recovery following wildfire,NAC,2577.02,1998,2577.03,Initiation of post-disturbance cohort (natural),1998,2577.01,Burned,100,1998,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2578,Wildfire-regenerating Jack Pine Chronosequence 52,Forest recovery following wildfire,NAC,2578.02,1950,2578.03,Initiation of post-disturbance cohort (natural),1950,2578.01,Burned,100,1950,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2579,Wildfire-regenerating Jack Pine Chronosequence 72,Forest recovery following wildfire,NAC,2579.02,1930,2579.03,Initiation of post-disturbance cohort (natural),1930,2579.01,Burned,100,1930,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2580,Wildfire-regenerating Jack Pine Chronosequence 7,Forest recovery following wildfire,NAC,2580.02,1995,2580.03,Initiation of post-disturbance cohort (natural),1995,2580.01,Burned,100,1995,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2581,Willow Creek (WC)-Chequamegon National Forest ,RD mature regrowth upland hardwood forest,NAC,2581.02,1933,0,NAC,NAC,0,No disturbance,NA,1970,0,0,2581.01,Harvest,NI,1920,2581.03,Harvest,<100%,1970,0,0,0,0,0,0,0,extratropical
+2582,Willow Creek AE 1,NI,NAC,2582.01,1928,2582.02,Initiation of post-disturbance cohort (planted or natural),1928,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2583,Willow Creek AE 2,NI,NAC,2583.01,1921,2583.02,Initiation of post-disturbance cohort (planted or natural),1921,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2584,Willow Creek AF 1,NI,NAC,2584.01,1939,2584.02,Initiation of post-disturbance cohort (planted or natural),1939,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2585,Willow Creek AF 2,NI,NAC,2585.01,1945,2585.02,Initiation of post-disturbance cohort (planted or natural),1945,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2586,Willow Creek IA 1,NI,NAC,2586.01,1976,2586.02,Initiation of post-disturbance cohort (planted or natural),1976,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2587,Willow Creek IA 2,NI,NAC,2587.01,1973,2587.02,Initiation of post-disturbance cohort (planted or natural),1973,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2588,Willow Creek NH 1,NI,NAC,2588.01,1935,2588.02,Initiation of post-disturbance cohort (planted or natural),1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2589,Willow Creek NH 2,NI,NAC,2589.01,1935,2589.02,Initiation of post-disturbance cohort (planted or natural),1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2590,Willow Creek NH 3,NI,NAC,2590.01,1935,2590.02,Initiation of post-disturbance cohort (planted or natural),1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2591,Willow Creek NH 4,NI,NAC,2591.01,1935,2591.02,Initiation of post-disturbance cohort (planted or natural),1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2592,Willow Creek YA 1,RD,NAC,2592.01,1986,2592.02,Initiation of post-disturbance cohort (planted or natural),1986,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2593,Willow Creek YA 2,RD,NAC,2593.01,1991,2593.02,Initiation of post-disturbance cohort (planted or natural),1991,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2594,Winand,NAC,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2595,Wind River Canopy Crane,old-growth douglas fir and western hemlock,NAC,2595.01,1500,0,NAC,NAC,0,No disturbance,NA,1500,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2596,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.10y,NAC,2596.03,1988,2596.02,Initiation of post-disturbance cohort (natural),1988,2596.01,Cut,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2597,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.11y,NAC,2597.03,1987,2597.02,Initiation of post-disturbance cohort (natural),1987,2597.01,Cut,100,1987,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2598,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.12y,NAC,2598.03,1986,2598.02,Initiation of post-disturbance cohort (natural),1986,2598.01,Cut,100,1986,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2599,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.14y,NAC,2599.03,1984,2599.02,Initiation of post-disturbance cohort (natural),1984,2599.01,Cut,100,1984,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2600,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.15y,NAC,2600.03,1983,2600.02,Initiation of post-disturbance cohort (natural),1983,2600.01,Cut,100,1983,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2601,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.16y,NAC,2601.03,1982,2601.02,Initiation of post-disturbance cohort (natural),1982,2601.01,Cut,100,1982,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2602,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.18y,NAC,2602.03,1980,2602.02,Initiation of post-disturbance cohort (natural),1980,2602.01,Cut,100,1980,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2603,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.21y,NAC,2603.03,1977,2603.02,Initiation of post-disturbance cohort (natural),1977,2603.01,Cut,100,1977,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2604,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.22y,NAC,2604.03,1976,2604.02,Initiation of post-disturbance cohort (natural),1976,2604.01,Cut,100,1976,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2605,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.23y,NAC,2605.03,1975,2605.02,Initiation of post-disturbance cohort (natural),1975,2605.01,Cut,100,1975,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2606,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.25y,NAC,2606.03,1973,2606.02,Initiation of post-disturbance cohort (natural),1973,2606.01,Cut,100,1973,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2607,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.26y,NAC,2607.03,1972,2607.02,Initiation of post-disturbance cohort (natural),1972,2607.01,Cut,100,1972,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2608,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.29y,NAC,2608.03,1969,2608.02,Initiation of post-disturbance cohort (natural),1969,2608.01,Cut,100,1969,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2609,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.30y,NAC,2609.03,1968,2609.02,Initiation of post-disturbance cohort (natural),1968,2609.01,Cut,100,1968,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2610,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.32y,NAC,2610.03,1966,2610.02,Initiation of post-disturbance cohort (natural),1966,2610.01,Cut,100,1966,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2611,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.33y,NAC,2611.03,1965,2611.02,Initiation of post-disturbance cohort (natural),1965,2611.01,Cut,100,1965,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2612,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.34y,NAC,2612.03,1964,2612.02,Initiation of post-disturbance cohort (natural),1964,2612.01,Cut,100,1964,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2613,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.35y,NAC,2613.03,1963,2613.02,Initiation of post-disturbance cohort (natural),1963,2613.01,Cut,100,1963,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2614,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.36y,NAC,2614.03,1962,2614.02,Initiation of post-disturbance cohort (natural),1962,2614.01,Cut,100,1962,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2615,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.38y,NAC,2615.03,1960,2615.02,Initiation of post-disturbance cohort (natural),1960,2615.01,Cut,100,1960,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2616,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.39y,NAC,2616.03,1959,2616.02,Initiation of post-disturbance cohort (natural),1959,2616.01,Cut,100,1959,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2617,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.41y,NAC,2617.03,1957,2617.02,Initiation of post-disturbance cohort (natural),1957,2617.01,Cut,100,1957,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2618,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.43y,NAC,2618.03,1955,2618.02,Initiation of post-disturbance cohort (natural),1955,2618.01,Cut,100,1955,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2619,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.44y,NAC,2619.03,1954,2619.02,Initiation of post-disturbance cohort (natural),1954,2619.01,Cut,100,1954,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2620,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.49y,NAC,2620.03,1949,2620.02,Initiation of post-disturbance cohort (natural),1949,2620.01,Cut,100,1949,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2621,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.4y,NAC,2621.03,1994,2621.02,Initiation of post-disturbance cohort (natural),1994,2621.01,Cut,100,1994,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2622,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.69y,NAC,2622.03,1928,2622.02,Initiation of post-disturbance cohort (natural),1928,2622.01,Cut,100,1928,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2623,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.6y,NAC,2623.03,1992,2623.02,Initiation of post-disturbance cohort (natural),1992,2623.01,Cut,100,1992,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2624,Wind River Ranger District chronosequence: clear-cut,Forest recovery following clear-cutting of mature forest.9y,NAC,2624.03,1989,2624.02,Initiation of post-disturbance cohort (natural),1989,2624.01,Cut,100,1989,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2625,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.148y,NAC,2625.03,1850,2625.02,Initiation of post-disturbance cohort (natural),1850,2625.01,StandClearing,100,1850,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2626,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.150y,NAC,2626.03,1848,2626.02,Initiation of post-disturbance cohort (natural),1848,2626.01,StandClearing,100,1848,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2627,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.154y,NAC,2627.03,1844,2627.02,Initiation of post-disturbance cohort (natural),1844,2627.01,StandClearing,100,1844,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2628,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.155y,NAC,2628.03,1843,2628.02,Initiation of post-disturbance cohort (natural),1843,2628.01,StandClearing,100,1843,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2629,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.70y,NAC,2629.03,1928,2629.02,Initiation of post-disturbance cohort (natural),1928,2629.01,StandClearing,100,1928,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2630,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.71y,NAC,2630.03,1927,2630.02,Initiation of post-disturbance cohort (natural),1927,2630.01,StandClearing,100,1927,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2631,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.87y,NAC,2631.03,1911,2631.02,Initiation of post-disturbance cohort (natural),1911,2631.01,StandClearing,100,1911,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2632,Wind River Ranger District chronosequence: harvested or stand-replacing fire,Forest recovery following harvest or stand-replacing fire.89y,NAC,2632.03,1909,2632.02,Initiation of post-disturbance cohort (natural),1909,2632.01,StandClearing,100,1909,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2633,Wind River Ranger District Chronosequence: Primary Forest,undisturbed forest,NAC,2633.01,1498,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2634,Wisconsin (cool dry),"Tsuga canadensis, Pinus strobus",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2635,WLEF tower in Park Falls Ranger District,Managed for logging,NAC,2635.01,1936,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2635.02,Harvest,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2636,Wolongwan 1,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2637,Wolongwan 2,"Populus, Betula",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2638,Wudaogou,Pinus sylvestris var. mongolica,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2639,Wuyishan.Xianfengling,Castanopsis eyrei community,NAC,2639.01,1941,2639.02,Initiation of post-disturbance cohort (planted or natural),1941,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2640,Wytham Woods,ancient semi-natural woodland,18,0,NAC,0,NAC,NAC,0,No disturbance,NA,1968,0,0,2640.02,Cut,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2641,Xiachayu,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2642,Xianmi,Juniperus przewalskii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2643,Xiaohu CF,plantation,NAC,2643.01,1968,2643.02,Planted,1968,0,NAC,NAC,NAC,0,0,2643.04,Cut,<100%,1980,0,NA,NA,NA,0,0,0,0,2643.03,0,0,extratropical
+2644,Xiaohu CK,plantation,NAC,2644.01,1968,2644.02,Planted,1968,0,NAC,NAC,NAC,0,0,2644.04,Cut,<100%,1980,0,NA,NA,NA,0,0,0,0,2644.03,0,0,extratropical
+2645,Xiaohu NF,UM,NAC,2645.01,1853,2645.02,Initiation of post-disturbance cohort (natural),1853,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2646,Xiaojin 1,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2647,Xiaojin 2,Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2648,Xiaolangdi,mixed plantation,NAC,2648.02,1974,2648.01,Planted,1974,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,2648,0,extratropical
+2649,Xiaomohe,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2650,Xiaoshennongjia,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2651,Xiaoxing'anling,Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2652,Xiaoxinganling Mountains.Wuying Flux Station,secondary forest,NAC,2652.01,1986,2652.02,Initiation of post-disturbance cohort (planted or natural),1986,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2653,Xingdoushan,"Pinus armandii, P. taiwanensis, P. densada",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2654,Xingjiangling,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2655,Xinlong,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2656,Xiping (SP),poplar plantation,NAC,2656.02,2002,2656.01,Planted,2002,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2657,Xishuangbanna,"Castanopsis ferox, Choerospondias axillaris, Elaeocarpus varunua, Pometia tomentosa, Chukrasia tabularia, ",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2658,Xu (1988),Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2659,Xueka,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2660,Xujiaba Research Station.Lithocarpus xylocarpus forest,high density stand,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2661,Xujiaba Research Station.Lithocarpus xylocarpus forest,low density stand,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2662,Y site,natural regeneration of ponderosa pine forest 21 years since clearcut,NAC,2662.03,1984,2662.02,Initiation of post-disturbance cohort (natural),1978,2662.01,Cut,100,1978,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2663,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,2663.03,1982,2663.02,Initiation of post-disturbance cohort (natural),1982,2663.01,Cut,100,1982,0,0,2663.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2664,Yajiang,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2665,Yakutsk - Larix cajanderi,siberian larch forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2666,Yakutsk 1,Larix gmellinii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2667,Yakutsk 2,Larix gmelinii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2668,Yakutsk,UM,NAC,2668.01,1874,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2669,Yamashiro Experimental Forest,mixed forest,NAC,2669.01,1909,2669.02,Initiation of post-disturbance cohort (planted or natural),1909,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2670,Yanamono A,terra firma  YAN-01,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2671,Yanamono B,terra firma  YAN-01,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2672,Yangambi,17-18 years forest fallow,NAC,2672.04,1933,2672.05,Initiation of post-disturbance cohort (natural),1933,2672.03,Cultivation,100,NI,2672,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2673,Yangambi,2 years forest fallow,NAC,2673.04,1949,2673.05,Initiation of post-disturbance cohort (natural),1949,2673.03,Cultivation,100,NI,2673,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2674,Yangambi,5 years forest fallow,NAC,2674.04,1946,2674.05,Initiation of post-disturbance cohort (natural),1946,2674.03,Cultivation,100,NI,2674,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2675,Yangambi,8 years forest fallow,NAC,2675.04,1943,2675.05,Initiation of post-disturbance cohort (natural),1943,2675.03,Cultivation,100,NI,2675,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2676,Yangyu,Juniperus przewalskii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2677,YAP-01b_Yapo IBP,african tropical forest,0.2,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2678,Yapo (Plateau),Mature ,5,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2679,Yatir,maturing Pinus halepensis planted forest,NAC,2679.02,1966,2679.01,Planted,1966,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2680,Yele,"Cupressus, Sabina (Juniperus)",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2681,Yellowstone National Park (YNP),110 yr,NAC,2681.01,1881,2681.02,Initiation of post-disturbance cohort (natural),1881,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2682,Yellowstone National Park (YNP),13 yr high density forest recovery following wildfire,NAC,2682.03,1988,2682.02,Initiation of post-disturbance cohort (natural),1988,2682.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2683,Yellowstone National Park (YNP),13 yr low density forest recovery following wildfire,NAC,2683.03,1988,2683.02,Initiation of post-disturbance cohort (natural),1988,2683.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2684,Yellowstone National Park (YNP),13 yr mod density forest recovery following wildfire,NAC,2684.03,1988,2684.02,Initiation of post-disturbance cohort (natural),1988,2684.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2685,Yenisei 12vu,"moderately burned Pinus sylvestris stand, mosses+Vaccinum understory",NAC,2685.02,1988,2685.03,Initiation of post-disturbance cohort (planted or natural),1988,2685.01,Burned,100,1988,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2686,Yenisei 138lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2686.02,1862,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2686.01,Burned,100,1862,2686.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2687,Yenisei 14lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2687.02,1986,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2687.01,Burned,100,1986,2687.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2688,Yenisei 14lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2688.02,1986,2688.03,Initiation of post-disturbance cohort (planted or natural),1986,2688.01,Burned,100,1986,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2689,Yenisei 200lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2689.02,1800,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2689.01,Burned,100,1800,2689.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2690,Yenisei 204lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2690.02,1796,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2690.01,Burned,100,1796,2690.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2691,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2691.02,1785,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2691.01,Burned,100,1785,2691.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2692,Yenisei 28lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2692.02,1972,2692.03,Initiation of post-disturbance cohort (natural),1972,2692.01,Burned,100,1972,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2693,Yenisei 31lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2693.02,1969,2693.03,Initiation of post-disturbance cohort (natural),1969,2693.01,Burned,100,1969,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2694,Yenisei 32lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2694.01,1968,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2694.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2695,Yenisei 383lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2695.02,1617,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2695.01,Burned,100,1617,2695.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2696,Yenisei 48lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2696.02,1952,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2696.01,Burned,100,1952,2696.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2697,Yenisei 53vm,"moderately burned Pinus sylvestris stand, mosses+Vaccinum understory",NAC,2697.02,1947,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2697.01,Burned,100,1947,2697.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2698,Yenisei 67lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2698.02,1933,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2698.01,Burned,100,1933,2698.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2699,Yenisei 95lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2699.02,1969,2699.03,Initiation of post-disturbance cohort (natural),1969,2699.01,Burned,100,1969,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2700,Yenisei 95vm,"moderately burned Pinus sylvestris stand, mosses+Vaccinum understory",NAC,2700.02,1905,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2700.01,Burned,100,1905,2700.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2701,Yenisei Abies,UM,NAC,2701.02,1800,2701.03,Initiation of post-disturbance cohort (natural),1800,2701.01,Burned,NAC,1800,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2702,Yenisei Betula,UM,NAC,2702.02,1950,2702.03,Initiation of post-disturbance cohort (natural),1950,2702.01,Burned,NAC,1950,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2703,Yenisei Mixed,UM,NAC,2703.01,1750,2703.02,Initiation of post-disturbance cohort (natural),1750,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2704,Yenisei River,"Pinus sylvestris, lichen",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2705,Yenisei River,"Pinus sylvestris, Vaccinium mosses",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2706,Yenisei/Zotino,Managed,NAC,2706.03,1784,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2706.01,Harvest,<100%,NAC,2706.02,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2707,Yonghe,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2708,Yongsheng 1,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2709,Yongsheng 2,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2710,Yucal,"Premontane Wet, Transition to Basal, Pacific Forest recovery following pasture abandonment",NAC,2710.03,NI,2710.02,Initiation of post-disturbance cohort (natural),NI,2710.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2711,"Yunlong Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2712,Yunlong Pinus 1,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2713,Yunlong Pinus 2,"Pinus yunnanensis, P. khasya",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2714,Yusuhara kubotaniyama,UM,NAC,2714.01,1527,2714.02,Initiation of post-disturbance cohort (natural),1527,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2715,Yusuhara takatoriyama,UM,NAC,2715.01,1826,2715.02,Initiation of post-disturbance cohort (natural),1826,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2716,Zafire Altura,old-growth tropical forest.ZAR4,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2717,Zafire flooded,partially flooded tropical forest.ZAR2,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2718,Zafire TF,old-growth tropical forest.ZAR3,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2719,Zafire varrilal,short-statured tropical forest.ZAR1,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2720,Zafire,UM,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2721,"Zhangmu Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2722,Zhangmu Quercus,Quercus,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2723,Zhanwa,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2724,Zhaosu,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2725,"Zhongdian Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2726,Zhongdian Quercus,Quercus,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2727,Zhongtie,Juniperus przewalskii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2728,"Zhuwagen Picea, Abies","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2729,Zhuwagen Quercus,Quercus,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2730,Zotino,Pinus sylvestris,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2731,Zuogong,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
