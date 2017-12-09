@@ -9,6 +9,7 @@ Column,Field,Description,Alphanumeric attributes/ storage type (present data val
 8 / H,requires_depth,Indicates whether covariate depth should (generally) be recorded in association with the measurement. Covariate is defined in this table.,number (binary),0- false; 1- true
 9 / I,associated.covariate_1,Other covariate associated with the variable listed. Parentheses indicate non-required covariate. Order listed here does not necessarily match the order listed in the MEASUREMENTS table). These covariates are also defined in this table.,character (string) ,-
 10 / J,associated.covariate_2,Same as above.,character (string) ,-
-11 / K,min,Minimum value in current version of the database.,numeric (double),-
-12 / L,max,Maximum value in current version of the database.,numeric (double),-
-13 / K,notes,Notes of relevance to interpreting variables. ,character (string) ,-
+11 / K,n_records,Number of records in the database (at the time of most recent update),numeric (double),-
+12 / L,min,Minimum value in current version of the database.,numeric (double),-
+13 / M,max,Maximum value in current version of the database.,numeric (double),-
+14 / N,notes,Notes of relevance to interpreting variables. ,character (string) ,-
