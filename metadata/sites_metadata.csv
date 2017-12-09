@@ -6,7 +6,7 @@ Column,Field,Description,Alphanumeric attributes/ storage type (present data val
 5 / E,country,Country,character (string),-,-,-
 6 / F,lat ,"Latitude, where negative values indicate S hemisphere",numeric (double),-,decimal degrees,##-##
 7 / G,lon ,"Longitude, where negative values indicate W hemisphere",numeric (double),-,decimal degrees,##-##
-8 / H,masl,Elevation ,numeric (double),-,m.a.s.l.,##-##
+8 / H,masl,"Elevation. When a range is given, midpoint is reported.",numeric (double),-,m.a.s.l.,##-##
 9 / I,geography.notes,"Notes pertaining to site name, location, or topography",character (string),-,-,-
 10 / J,mat,Mean annual temperature ,numeric (double),-,C,##-##
 11 / K,min.temp,Mean temperature of the coldest month ,numeric (double),-,C,##-##
@@ -22,6 +22,6 @@ Column,Field,Description,Alphanumeric attributes/ storage type (present data val
 21 / U,area,"Groups sites that are geographically proximate using Matlab (2017a)'s clusterdata function with cutoff=0.75. Note that groupings are subject to change. These differ from those published in Anderson-Teixeira et al. (2016), albiet with roughly similar site groups.",numeric (integer) ,-,-,1-703
 22 / V,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,-
 23 / W,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,-
-24 / X,FAOecozone,"FAO global ecological zones classification, extracted from FAOÍs GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,-
+24 / X,FAOecozone,"FAO global ecological zones classification, extracted from FAOês GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,-
 25 / Y,siteID.v1,"Original siteID, where numbers <=503 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,1-###
 26 / Z,tropical_extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-
