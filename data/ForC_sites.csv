@@ -960,7 +960,7 @@ siteID,sites.sitename,city,state,country,lat,lon,masl,geography.notes,mat,min.te
 1161,Mamiraua Sustainable Development Reserve,Manaus,Amazonas,Brazil,-2.799934,-64.883583,NAC,NA,NAC,NAC,NAC,3000,NA,NAC,NAC,NA,VARZEA FLOODPLAIN,NA,NA,466,Neotropics,Af,Tropical rainforest,93,tropical,,,
 850,Johnson et al 2000_9,NAC,New Brunswick,Canada,47.4,-65.57,NAC,"Original coordinates (48, -66) fell in ocean, obtained approximate coords based on site description from ref",2.9166,NAC,NAC,998,NA,sandy loam,Spodosol,"Well drained, medium to fine texture. ",NA,NA,NA,691,Nearctic,Dfb,Temperate continental forest,NA,extratropical,,,
 1524,Reserva el Tigre,NAC,El Beni,Bolivia,-10.971,-65.715,NAC,NA,NAC,NAC,NAC,1780,NA,NAC,NAC,NA,NAC,NA,NA,429,Neotropics,Aw,Tropical rainforest,1321,tropical,,,
-1143,Luquillo Forest Dynamics Plot,NAC,Puerto Rico,Unites States of America,18.324,-65.818,NAC,NA,NAC,NAC,NAC,3548,NA,NAC,NAC,NA,NAC,NA,NA,80,Neotropics,Am,Tropical rainforest,1366,tropical,,,
+1143,Luquillo Forest Dynamics Plot,NAC,Puerto Rico,United States of America,18.324,-65.818,NAC,NA,NAC,NAC,NAC,3548,NA,NAC,NAC,NA,NAC,NA,NA,80,Neotropics,Am,Tropical rainforest,1366,tropical,,,
 1141,Luquillo 3,NAC,Puerto Rico,United States of America,18.42,-65.92,NAC,NA,19.7,NAC,NAC,1885,NA,NAC,NAC,Prestoea montana,NAC,NA,NA,128,Neotropics,Am,Tropical moist forest,363,tropical,,,
 297,Canada - Atlantic Maritime,NAC,New Brunswick,Canada,46,-66,NAC,NA,5,NAC,NAC,1200,NA,NAC,NAC,NA,NA,NA,NA,691,Nearctic,Dfb,Temperate continental forest,NA,extratropical,,Keith et al. 2009 (in Liu 2014): #613,Maria
 1890,Venezuela: Cerro El Coco,NAC,Miranda,Venezuela,10,-66,NAC,NA,27,NAC,NAC,800,NA,NAC,NAC,NA,NAC,NA,NA,431,Neotropics,Aw,Tropical moist forest,288,tropical,,,
