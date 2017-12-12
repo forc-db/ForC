@@ -105,10 +105,7 @@ secondary,soilC,%,Soil carbon content,NA,NA,NA,NA,NA,NA,#,NAC,NAC,NA
 secondary,N_mineralization,Kg N ha-1 yr-1,Net N mineralization,NA,NA,NA,NA,NA,NA,#,NAC,NAC,NA
 covariates,branch_diameter_max,cm,Maximum branch diameter,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,branch_diameter_min,cm,Minimum branch diameter,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
-covariates,depth,cm,Depth to which measurement was taken,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
-covariates,growing_season_length,days,Growing season length,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,max_diameter,cm,"Maximum diameter of tree part being measured (stem, woody debris)",NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
-covariates,min_dbh,cm,Minimum diameter at breast height ,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,min_diameter,cm,"Minimum diameter of tree part being measured (stem, woody debris)",NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,min_diameter(liana),cm,Minimum diameter of lianas censused,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,min_height,cm,Minimum height,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
@@ -116,8 +113,6 @@ covariates,min_length,cm,Minimum length,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,root_diameter_max,mm,Maximum root diameter,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,root_diameter_min,mm,Minimum root diameter,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,twig_diameter_max,cm,Maximum twig diameter,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
-covariates,soilT,degrees C,Soil temperature (also a secondary variable),NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,u*,m s-1,Friction velocity,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
-covariates,allometric_equation,NA,Allometric equation codes defined in TropForC_allometry.csv,NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,trees(0)_or_stems(1),NA,"Indicates whether the variable is computed at the individual tree (0; i.e., only counts mortality if all stems of a multi-stemmed individual die) or stem (1; i.e., counts stem mortality when the individualt tree remains alive) level.",NA,NA,NA,NA,NA,NA,NA,NAC,NAC,NA
 covariates,include_recruitment,,Indicates whether recruitment is counted as part of ANPP_stem (0-no; 1-yes),NA,NA,NA,NA,NA,NA,NA,NAC,NAC,"Including recrutiment in NPP estimates overestimates contributions of small stems, which have been growing for years before entering a tree census."
