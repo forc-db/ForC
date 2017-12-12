@@ -50,29 +50,31 @@ table(clusters)
 
 
 # Update area column
-SITES$area <- clusters
+cbind(SITES$geographic.area, clusters)
 
+
+SITES$geographic.area <- clusters
 
 # double check some things
 
 
 ## check countries per cluser
-A <- by(SITES$country, SITES$area, function(x) length(unique(x)))  
+A <- by(SITES$country, SITES$geographic.area, function(x) length(unique(x)))  
 names(A[A != 1])
   
 for(i in names(A[A != 1])){
-  x <- SITES[SITES$area == i,]
+  x <- SITES[SITES$geographic.area == i,]
   print(unique(x$country))
 }
 
 
 
 ## check biogeog per cluser
-A <- by(SITES$biogeog, SITES$area, function(x) length(unique(x)))  
+A <- by(SITES$biogeog, SITES$geographic.area, function(x) length(unique(x)))  
 names(A[A != 1])
 
 for(i in names(A[A != 1])){
-  x <- SITES[SITES$area == i,]
+  x <- SITES[SITES$geographic.area == i,]
   print(unique(x$biogeog))
 }
 
