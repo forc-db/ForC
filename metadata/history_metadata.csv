@@ -1,6 +1,6 @@
 Column,Field,Description,Alphanumeric attributes/ storage type (present data values),Variable codes,Units,Range
 1 / A,historyID,Unique numerical identifier for each record in the history table. ,numeric (decimal),-,-,##-##
-2 / B,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES and MEASUREMENTS tables.",character (string),-,-,-
+2 / B,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES, PLOTS and MEASUREMENTS tables.",character (string),-,-,-
 3 / C,plot.name,"Unique plot name, sufficient to identify the plot within the original publication.",character (string),-,-,-
 4 / D,plotarea,Area of plot or combined area of replicate plots.,numeric (double),-,ha,##-##
 5 / E,event.sequence,"Order of event within the sequence of existing records. This allows determination of event order when dates are missing or events have the same date. NOTE: This field was created after original data entry based on order entered and notes, not in consultation with original publications.  ",numeric (integer),-,-,##-##
