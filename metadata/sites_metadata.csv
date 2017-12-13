@@ -19,7 +19,7 @@ Column,Field,Description,Alphanumeric attributes/ storage type (present data val
 18 / R,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,,104,-,-
 19 / S,sitenotes,Site details not included above,character (string),-,-,122,-,-
 20 / T,siteref,"References (in addition to those associated with measurement data) used to obtain site data. When all site data were obtained from references associated with measurement data, this field is populated with ""NA"".",character (string),-,-,809,-,-
-21 / U,area,"Groups sites that are geographically proximate using Matlab (2017a)'s clusterdata function with cutoff=0.75. Note that groupings are subject to change. These differ from those published in Anderson-Teixeira et al. (2016), albiet with roughly similar site groups.",numeric (integer) ,-,-,2070,1,##
+21 / U,geographic.area,"Groups sites that are geographically proximate using Matlab (2017a)'s clusterdata function with cutoff=0.75. Note that groupings are subject to change. These differ from those published in Anderson-Teixeira et al. (2016), albiet with roughly similar site groups.",numeric (integer) ,-,-,2070,1,##
 22 / V,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,2070,-,-
 23 / W,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,#,-,-
 24 / X,FAOecozone,"FAO global ecological zones classification, extracted from FAO?s GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,#,-,-
