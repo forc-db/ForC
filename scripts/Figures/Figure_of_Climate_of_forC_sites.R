@@ -15,6 +15,9 @@ rm(list = ls())
 # Set working directory as ForC main folder ####
 setwd(".")
 
+# Load libaries ####
+library(reshape)
+
 # Load sites table ####
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 
@@ -117,7 +120,7 @@ SITES <- merge(SITES, KOEPPEN_regions, by = "Koeppen", all.x = T)
 
 table.to.plot <- table(SITES$Koeppen, SITES$Climate_zone)
 
-table.to.plot <- head(table.to.plot, -1)
+# table.to.plot <- head(table.to.plot, -1)
 
 colors.to.plot <- c(colorRampPalette(c('dodgerblue4','dodgerblue'))(sum(grepl("A", KOEPPEN_regions$Climate_zone))),
                     colorRampPalette(c('firebrick4','indianred1'))(sum(grepl("B", KOEPPEN_regions$Climate_zone))),
