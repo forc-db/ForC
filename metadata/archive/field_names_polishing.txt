@@ -1,0 +1,119 @@
+Record of old column names and what they were changed into
+
+old_name --> new.name
+
+
+VARIABLES
+
+requires_allometry --> requires.allometry
+requires_min_dbh --> requires.min.dbh
+requires_depth --> requires.depth
+
+METHODOLOGY
+
+method_id --> method.ID
+method_citation --> method.citation
+method_notes --> method.notes
+
+ALLOMETRY
+
+allometric_equation --> allometric.equation
+allometry_citation --> allometry.citation
+allometry_citation.title --> allometry.citation.title
+allometry_notes --> allometry.notes
+
+MEASUREMENTS
+
+measurementID --> measurement.ID
+dominantveg --> dominant.veg
+scientificname --> scientific.name
+dateloc --> date.loc
+start_date --> start.date
+start_dateloc --> start.date.loc
+end_date --> end.date
+end_dateloc --> end.date.loc
+statname --> stat.name
+area_sampled --> area.sampled
+method_id --> method.ID
+allometry --> allometry_1 (to be consistant with covariate_1 and covariate_2)
+allometry2 --> allometry_2
+min_dbh --> min.dbh
+coV1_value --> coV1.value 
+coV2_value --> coV2.value 
+dupcode --> dup.code
+dupnum --> dup.num
+loaded_from --> loaded.from
+source_notes --> source.notes
+tropical_extratropical --> tropical.extratropical
+loaded_by --> loaded.by
+ForC_investigator --> ForC.investigator
+
+
+SITES
+
+siteID --> site.ID
+soilnotes --> soil.notes
+sitenotes --> site.notes
+siteref --> site.ref
+FAOecozone --> FAO.ecozone
+tropical_extratropical --> tropical.extratropical
+? indicates.site.that.lacks.info.direct.from.pub --> ask Krista
+loaded_from --> loaded.from
+loaded_by --> loaded.by
+? X --> ask Krista
+
+!+++ NEED TO UPDATE METATDATA< missing loaded_from and by...
+
+
+HISTORY
+
+historyID --> history.ID
+plotarea --> plot.area
+dateloc --> date.loc
+histcat --> hist.cat
+histtype --> hist.type
+? est.regrowth.assumed.same.year --> ask Krista
+histnotes --> hist.notes
+tropical_extratropical --> tropical.extratropical
+
+PLOTS
+
+plotID --> plot.ID
+plotarea --> plot.area
+regrowth.histtype --> regrowth.hist.type
+distmrs.histtype --> dist.mrs.hist.type
+distmrs.yr --> dist.mrs.yr
+dist1.ID --> dist_1.ID
+dist1.histtype --> dist_1.hist.type
+dist1.mort --> dist_1.mort
+dist1.year --> dist_1.year
+dist2.ID --> dist_2.ID
+dist2.histtype --> dist_2.hist.type
+dist2.mort --> dist_2.mort
+dist2.year --> dist_2.year
+tropical_extratropical -- > tropical.extratropical
+
+HISTTYPE
+histcat --> hist.cat
+histtype --> hist.type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
