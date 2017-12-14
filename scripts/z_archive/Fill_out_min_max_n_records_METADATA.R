@@ -1,6 +1,6 @@
 ######################################################
 # Purpose: In the metadata tables, write code that computes the following for each column: (1) number of records that are not missing data (NA/NAC/NRA/NI), (2) min, if numeric, (3) max, if numeric, (4) mean, if numeric
-# Inputs:  - ForC MEASUREMENTS table
+# Inputs:  - ForC MEASUREMENTS table and metadata
 #          - ForC PLOTS table and metadata
 #          - ForC SITES table and metadata
 #          - ForC SITES table and metadata
@@ -23,9 +23,6 @@ rm(list = ls())
 setwd(".")
 
 # Load tables ####
-na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999")  # various ways "NA" is encoded in ForC
-
-
 
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 PLOTS        <- read.csv("data/ForC_plots.csv", stringsAsFactors = F)
@@ -47,6 +44,10 @@ HISSTYPE_meta      <- read.csv("metadata/histtype_metadata.csv", stringsAsFactor
 VARIABLES_meta     <- read.csv("metadata/variables_metadata.csv", stringsAsFactors = F)
 METHODOLOGY_meta   <- read.csv("metadata/methodology_metadata.csv", stringsAsFactors = F)
 ALLOMETRY_meta     <- read.csv("metadata/allometry_metadata.csv", stringsAsFactors = F)
+
+
+
+na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999")  # various ways "NA" is encoded in ForC
 
 
 # CALCULATE n, Max and Min ####
