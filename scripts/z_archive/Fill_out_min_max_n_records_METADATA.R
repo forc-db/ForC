@@ -6,7 +6,7 @@
 #          - ForC SITES table and metadata
 #          - ForC HISTORY table and metadata
 #          - ForC PFT table and metadata
-#          - ForC HISSTYPE table and metadata
+#          - ForC HISTTYPE table and metadata
 #          - ForC VARIABLES table and metadata
 #          - ForC METHODOLOGY table and metadata
 #          - ForC ALLOMETRY table and metadata
@@ -29,7 +29,7 @@ PLOTS        <- read.csv("data/ForC_plots.csv", stringsAsFactors = F)
 SITES        <- read.csv("data/ForC_sites.csv", na = na_codes, stringsAsFactors = F)
 HISTORY      <- read.csv("data/ForC_history.csv", stringsAsFactors = F)
 PFT          <- read.csv("data/ForC_pft.csv", na = na_codes, stringsAsFactors = F)
-HISSTYPE     <- read.csv("data/ForC_histtype.csv", stringsAsFactors = F)
+HISTTYPE     <- read.csv("data/ForC_histtype.csv", stringsAsFactors = F)
 VARIABLES    <- read.csv("data/ForC_variables.csv", na = na_codes, stringsAsFactors = F)
 METHODOLOGY  <- read.csv("data/ForC_methodology.csv", na = na_codes, stringsAsFactors = F)
 ALLOMETRY    <- read.csv("data/ForC_allometry.csv", na = na_codes, stringsAsFactors = F)
@@ -52,7 +52,7 @@ na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999")  # various ways "NA" is en
 
 # CALCULATE n, Max and Min ####
 
-for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISSTYPE", "VARIABLES", "METHODOLOGY","ALLOMETRY")){
+for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "VARIABLES", "METHODOLOGY","ALLOMETRY")){
   
   print(Table)
   
@@ -103,7 +103,7 @@ MEASUREMENTS_meta[MEASUREMENTS_meta$Field == "dupcode", c("Min", "Max")] <- "-"
 # Remove range column
 
 
-for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISSTYPE", "VARIABLES", "METHODOLOGY","ALLOMETRY")){
+for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "VARIABLES", "METHODOLOGY","ALLOMETRY")){
   
   print(Table)
   
