@@ -1,5 +1,5 @@
 ######################################################
-# Purpose: Filling out the min and max of VARIABLES Table + add a column with number of records per variable
+# Purpose: Filling out the Min and Max of VARIABLES Table + add a column with number of records per variable
 # Inputs: - ForC VARIABLES table
 #         - ForC MEASUREMENTS table
 # outputs: updated ForC_variables.csvg
@@ -20,13 +20,13 @@ VARIABLES <- read.csv("data/ForC_variables.csv", stringsAsFactors = F)
 
 
 
-NA.forms <- c("NI", "NRA", "NaN", "NAC", "999")
+na_codes <- c("NI", "NRA", "NaN", "NAC", "999")
 
 
-# Calculate min and max for each variable + add count of records for each
+# Calculate Min and Max for each variable + add count of records for each
 
-VARIABLES$min
-VARIABLES$max
+VARIABLES$Min
+VARIABLES$Max
 VARIABLES$n_records
 VARIABLES$units
 
@@ -41,12 +41,12 @@ for(i in 1:nrow(VARIABLES)){
   if(!VARIABLES$variables.type[i] %in% "covariates"){
     
     x <- MEASUREMENTS[MEASUREMENTS$variables.name %in% v, ]$mean
-    x <- na.omit(ifelse(x %in% NA.forms, NA, x))
+    x <- na.omit(ifelse(x %in% na_codes, NA, x))
  
     print(head(x))
     
-    VARIABLES[i, "min"] <- min(x)
-    VARIABLES[i, "max"] <- max(x)
+    VARIABLES[i, "Min"] <- min(x)
+    VARIABLES[i, "Max"] <- max(x)
     
     
     VARIABLES[i, "n_records"] <- sum(!is.na(x))
@@ -55,12 +55,12 @@ for(i in 1:nrow(VARIABLES)){
   if(VARIABLES$variables.type[i] %in% "covariates"){
     
     x <- c(MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v, ]$coV1_value, MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v, ]$coV2_value)
-    x <- na.omit(ifelse(x %in% NA.forms, NA, x))
+    x <- na.omit(as.numeric(ifelse(x %in% na_codes, NA, x)))
     
-    print(head(x))
+   
     
-    VARIABLES[i, "min"] <- min(x)
-    VARIABLES[i, "max"] <- max(x)
+    VARIABLES[i, "Min"] <- min(x)
+    VARIABLES[i, "Max"] <- max(x)
     
     
     VARIABLES[i, "n_records"] <- sum(!is.na(x))
@@ -69,15 +69,15 @@ for(i in 1:nrow(VARIABLES)){
 }
 
 
-VARIABLES[, c("variables.type", "variables.name", "units", "min", "max", "n_records")]
+VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n_records")]
 
 # REplace Inf by NA
 
 
-VARIABLES$min <- ifelse(VARIABLES$min == "Inf", "-", VARIABLES$min)
-VARIABLES$max <- ifelse(VARIABLES$max == "-Inf", "-", VARIABLES$max)
+VARIABLES$Min <- ifelse(VARIABLES$Min == "Inf", "-", VARIABLES$Min)
+VARIABLES$Max <- ifelse(VARIABLES$Max == "-Inf", "-", VARIABLES$Max)
 
-VARIABLES[, c("variables.type", "variables.name", "units", "min", "max", "n_records")]
+VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n_records")]
 
 
 
