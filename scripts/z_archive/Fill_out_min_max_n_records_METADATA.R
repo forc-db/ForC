@@ -24,6 +24,10 @@ setwd(".")
 
 # Load tables ####
 
+
+na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999")  # various ways "NA" is encoded in ForC
+
+
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 PLOTS        <- read.csv("data/ForC_plots.csv", stringsAsFactors = F)
 SITES        <- read.csv("data/ForC_sites.csv", na = na_codes, stringsAsFactors = F)
@@ -40,14 +44,10 @@ PLOTS_meta         <- read.csv("metadata/plots_metadata.csv", stringsAsFactors =
 SITES_meta         <- read.csv("metadata/sites_metadata.csv", stringsAsFactors = F)
 HISTORY_meta       <- read.csv("metadata/history_metadata.csv", stringsAsFactors = F)
 PFT_meta           <- read.csv("metadata/pft_metadata.csv", stringsAsFactors = F)
-HISSTYPE_meta      <- read.csv("metadata/histtype_metadata.csv", stringsAsFactors = F)
+HISTTYPE_meta      <- read.csv("metadata/histtype_metadata.csv", stringsAsFactors = F)
 VARIABLES_meta     <- read.csv("metadata/variables_metadata.csv", stringsAsFactors = F)
 METHODOLOGY_meta   <- read.csv("metadata/methodology_metadata.csv", stringsAsFactors = F)
 ALLOMETRY_meta     <- read.csv("metadata/allometry_metadata.csv", stringsAsFactors = F)
-
-
-
-na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999")  # various ways "NA" is encoded in ForC
 
 
 # CALCULATE n, Max and Min ####
@@ -125,7 +125,7 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
 # write.csv(SITES_meta, "metadata/sites_metadata.csv", row.names = F)
 # write.csv(HISTORY_meta, "metadata/history_metadata.csv", row.names = F)
 # write.csv(PFT_meta, "metadata/pft_metadata.csv", row.names = F)
-# write.csv(HISSTYPE_meta, "metadata/histtype_metadata.csv", row.names = F)
+# write.csv(HISTTYPE_meta, "metadata/histtype_metadata.csv", row.names = F)
 # write.csv(VARIABLES_meta, "metadata/variables_metadata.csv", row.names = F)
 # write.csv(METHODOLOGY_meta, "metadata/methodology_metadata.csv", row.names = F)
 # write.csv(ALLOMETRY_meta, "metadata/allometry_metadata.csv", row.names = F)

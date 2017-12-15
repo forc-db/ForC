@@ -74,8 +74,8 @@ VARIABLES[, c("variables.type", "variables.name", "units", "min", "max", "n_reco
 # REplace Inf by NA
 
 
-VARIABLES$min <- ifelse(VARIABLES$min == "Inf", NA, VARIABLES$min)
-VARIABLES$max <- ifelse(VARIABLES$max == "-Inf", NA, VARIABLES$max)
+VARIABLES$min <- ifelse(VARIABLES$min == "Inf", "-", VARIABLES$min)
+VARIABLES$max <- ifelse(VARIABLES$max == "-Inf", "-", VARIABLES$max)
 
 VARIABLES[, c("variables.type", "variables.name", "units", "min", "max", "n_records")]
 
