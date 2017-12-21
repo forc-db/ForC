@@ -71,20 +71,20 @@ length(unique(SITES[is.na(SITES$site.ID.v1), ]$geographic.area)) # 508 new
 length(unique(SITES[!is.na(SITES$site.ID.v1), ]$geographic.area)) # 248 previously
 
 
-## for the vast majority of records in ForC-db (##%), the dominant lifeform (dominant.lifeform; MEASUREMENTS table) is woody vegetation ####
+## for the vast majority of records in ForC-db (##%), the dominant.life.form (dominant.life.form; MEASUREMENTS table) is woody vegetation ####
 
-sum(MEASUREMENTS$dominant.lifeform %in% "woody") *100 / nrow(MEASUREMENTS) # 99.1%
+sum(MEASUREMENTS$dominant.life.form %in% "woody") *100 / nrow(MEASUREMENTS) # 99.1%
 
 ## but there are some records for savannas (mix of woody vegetation and grasses; n=## records from ## sites)  ####
-sum(MEASUREMENTS$dominant.lifeform %in% "woody+grass") # 150 records
-unique(MEASUREMENTS[MEASUREMENTS$dominant.lifeform %in% "woody+grass", ]$sites.sitename)
-length(unique(MEASUREMENTS[MEASUREMENTS$dominant.lifeform %in% "woody+grass", ]$sites.sitename)) # 18 sites
+sum(MEASUREMENTS$dominant.life.form %in% "woody+grass") # 150 records
+unique(MEASUREMENTS[MEASUREMENTS$dominant.life.form %in% "woody+grass", ]$sites.sitename)
+length(unique(MEASUREMENTS[MEASUREMENTS$dominant.life.form %in% "woody+grass", ]$sites.sitename)) # 18 sites
 
 
 ## or early seral grassland (n=## records from # sites)  ####
-sum(MEASUREMENTS$dominant.lifeform %in% "grass") # 2 records
-unique(MEASUREMENTS[MEASUREMENTS$dominant.lifeform %in% "grass", ]$sites.sitename)
-length(unique(MEASUREMENTS[MEASUREMENTS$dominant.lifeform %in% "grass", ]$sites.sitename)) # 1 site
+sum(MEASUREMENTS$dominant.life.form %in% "grass") # 2 records
+unique(MEASUREMENTS[MEASUREMENTS$dominant.life.form %in% "grass", ]$sites.sitename)
+length(unique(MEASUREMENTS[MEASUREMENTS$dominant.life.form %in% "grass", ]$sites.sitename)) # 1 site
 
 
 ## The largest number of records (##) comes from sites dominated by evergreen needleleaf trees, followed by broadleaf deciduous (##) and broadleaf evergreen (##) trees, with <## records each for mixes of broadleaf – and needleleaf trees, needleleaf deciduous trees, or other/ unclassified trees  ####
