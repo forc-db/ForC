@@ -327,10 +327,10 @@ for(i in 1:nrow(VARIABLES)){
   
   min.v <- as.numeric(VARIABLES$Min[i])
   max.v <- as.numeric(VARIABLES$Max[i])
-  n_records.v <- as.numeric(VARIABLES$n_records[i])
+  n.records.v <- as.numeric(VARIABLES$n.records[i])
   
 
-    if(n_records.v == 0 & nrow(MEASUREMENTS[MEASUREMENTS$variables.name %in% v, ]) > 0){
+    if(n.records.v == 0 & nrow(MEASUREMENTS[MEASUREMENTS$variables.name %in% v, ]) > 0){
       Value.for.variables.without.range <- rbind(Value.for.variables.without.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variables.name %in% v, c("measurement.ID", "sites.sitename", "variables.name", "mean")]))
     }
   

@@ -27,7 +27,7 @@ na_codes <- c("NI", "NRA", "NaN", "NAC", "999")
 
 VARIABLES$Min
 VARIABLES$Max
-VARIABLES$n_records
+VARIABLES$n.records
 VARIABLES$units
 
 VARIABLES$units <- ifelse(VARIABLES$units %in% "", NA, VARIABLES$units) # Replace "" of units by NA
@@ -49,7 +49,7 @@ for(i in 1:nrow(VARIABLES)){
     VARIABLES[i, "Max"] <- max(x)
     
     
-    VARIABLES[i, "n_records"] <- sum(!is.na(x))
+    VARIABLES[i, "n.records"] <- sum(!is.na(x))
   }
   
   if(VARIABLES$variables.type[i] %in% "covariates"){
@@ -63,13 +63,13 @@ for(i in 1:nrow(VARIABLES)){
     VARIABLES[i, "Max"] <- max(x)
     
     
-    VARIABLES[i, "n_records"] <- sum(!is.na(x))
+    VARIABLES[i, "n.records"] <- sum(!is.na(x))
   }
  
 }
 
 
-VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n_records")]
+VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n.records")]
 
 # REplace Inf by NA
 
@@ -77,7 +77,7 @@ VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n_reco
 VARIABLES$Min <- ifelse(VARIABLES$Min == "Inf", "-", VARIABLES$Min)
 VARIABLES$Max <- ifelse(VARIABLES$Max == "-Inf", "-", VARIABLES$Max)
 
-VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n_records")]
+VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n.records")]
 
 
 
