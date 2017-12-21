@@ -11,6 +11,7 @@ VARIABLES
 requires_allometry --> requires.allometry
 requires_min_dbh --> requires.min.dbh
 requires_depth --> requires.depth
+n_records --> n.records
 
 METHODOLOGY
 
@@ -28,6 +29,7 @@ allometry_notes --> allometry.notes
 MEASUREMENTS
 
 measurementID --> measurement.ID
+dominant.lifeform --> dominant.life.form
 dominantveg --> dominant.veg
 scientificname --> scientific.name
 dateloc --> date.loc
