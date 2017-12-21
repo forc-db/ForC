@@ -3,6 +3,7 @@
 .Rhistory
 .RData
 .Ruserdata
+figures/desktop.ini
 
 # OS files
 .DS_Store
