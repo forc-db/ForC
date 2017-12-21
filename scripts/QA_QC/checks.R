@@ -59,7 +59,7 @@ ALLOMETRY_meta     <- read.csv("metadata/allometry_metadata.csv", stringsAsFacto
 # For each site-plot combination in MEASUREMENTS, there is a corresponding site-plot record in PLOTS
 MEASUREMENTS %>%
   anti_join(PLOTS, by = c("sites.sitename", "plot.name")) %>%
-  distinct(measurementID, sites.sitename, plot.name) ->
+  distinct(measurement.ID, sites.sitename, plot.name) ->
   m_no_p
 cat("There are", nrow(m_no_p), "measurements with no corresponding plot record\n")
 if(nrow(m_no_p)) message("See `m_no_p`")
@@ -68,7 +68,7 @@ if(nrow(m_no_p)) message("See `m_no_p`")
 # For each site in MEASUREMENTS, there is a corresponding site record in SITES
 MEASUREMENTS %>%
   anti_join(SITES, by = c("sites.sitename")) %>%
-  distinct(measurementID, sites.sitename) ->
+  distinct(measurement.ID, sites.sitename) ->
   m_no_s
 cat("There are", nrow(m_no_s), "measurements with no corresponding site in SITES record\n")
 if(nrow(m_no_s)) message("See `m_no_s`")
@@ -76,10 +76,10 @@ if(nrow(m_no_s)) message("See `m_no_s`")
 
 # All measurement PFTs should be defined
 MEASUREMENTS %>%
-  filter(!dominantveg %in% na_codes) %>% 
-  filter(!is.na(dominantveg)) %>%
-  anti_join(PFT, by = c("dominantveg" = "pftcode")) %>%
-  distinct(measurementID, dominantveg) ->
+  filter(!dominant.veg %in% na_codes) %>% 
+  filter(!is.na(dominant.veg)) %>%
+  anti_join(PFT, by = c("dominant.veg" = "pftcode")) %>%
+  distinct(measurement.ID, dominant.veg) ->
   m_no_pft
 cat("There are", nrow(m_no_pft), "measurement records with undefined PFTs\n")
 if(nrow(m_no_pft)) message("See `m_no_pft`")
@@ -99,17 +99,17 @@ if(!all(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in
 if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variables.name] %in% na_codes))stop("There are covariate_2 in measurements that are not defined in VARIABLES")
 
 
-# For each allometry and allometry2 in MEASUREMENTS, there is an allometric equation in ALLOMETRIE
-if(!all(unique(na.omit(MEASUREMENTS$allometry)) [!unique(na.omit(MEASUREMENTS$allometry)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) stop("There are coV1_value in measurements that are not defined in ALLOMETRY")
+# For each allometry_1 and allometry_2 in MEASUREMENTS, there is an allometric equation in ALLOMETRIE
+if(!all(unique(na.omit(MEASUREMENTS$allometry_1)) [!unique(na.omit(MEASUREMENTS$allometry_1)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) stop("There are coV_1.value in measurements that are not defined in ALLOMETRY")
 
-if(!all(na.omit(MEASUREMENTS$allometry2) [!na.omit(MEASUREMENTS$allometry2) %in% ALLOMETRY$allometric.equation] %in% na_codes)) stop("There are coV2_value in measurements that are not defined in ALLOMETRY")
+if(!all(na.omit(MEASUREMENTS$allometry_2) [!na.omit(MEASUREMENTS$allometry_2) %in% ALLOMETRY$allometric.equation] %in% na_codes)) stop("There are coV_2.value in measurements that are not defined in ALLOMETRY")
 
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
 MEASUREMENTS %>% 
   filter(!method.ID %in% na_codes) %>% 
   anti_join(METHODOLOGY, by = c("method.ID")) %>% 
-  distinct(measurementID, method.ID) ->
+  distinct(measurement.ID, method.ID) ->
   m_no_m
 cat("There are", nrow(m_no_m), "measurement records with no corresponding methodology record\n")
 if(nrow(m_no_m)) message("See `m_no_m`")
@@ -261,9 +261,9 @@ if(any(duplicated(PFT$pftcode))) {
   message("There are duplicated PFT codes in the PFT table!")  
 }
 # All pftcode are present in MEASUREMENTS table
-if(!all(PFT$pftcode %in% MEASUREMENTS$dominantveg)) stop("There are pftcode in PFT that don't exist in Measurements. See PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominantveg]
+if(!all(PFT$pftcode %in% MEASUREMENTS$dominant.veg)) stop("There are pftcode in PFT that don't exist in Measurements. See PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg]
 ")
-PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominantveg] # Leave "2VW"   "2GW"   "2FORB" "2LTR"  "2RF"   "2RB"
+PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg] # Leave "2VW"   "2GW"   "2FORB" "2LTR"  "2RF"   "2RB"
 
 
 # ===== METHODOLOGY checks ==== ####
@@ -292,17 +292,17 @@ unique(VARIABLES$variables.name)[!unique(VARIABLES$variables.name)%in% c(MEASURE
 
 # ===== ALLOMETRIES checks ==== ####
 
-# All allometric.equation in ALLOMETRY exist in MEASUREMENTS allometry and allometry2
-if(any(!ALLOMETRY$allometric.equation %in% c(MEASUREMENTS$allometry, MEASUREMENTS$allometry2))) {
+# All allometric.equation in ALLOMETRY exist in MEASUREMENTS allometry_1 and allometry_2
+if(any(!ALLOMETRY$allometric.equation %in% c(MEASUREMENTS$allometry_1, MEASUREMENTS$allometry_2))) {
   message("There allometric.equation not used in MEASUREMENTS")
   message("Check 
-          ALLOMETRY$allometric.equation[!ALLOMETRY$variables.name %in% c(MEASUREMENTS$coV1_value, MEASUREMENTS$coV2_value)]")
+          ALLOMETRY$allometric.equation[!ALLOMETRY$variables.name %in% c(MEASUREMENTS$coV_1.value, MEASUREMENTS$coV_2.value)]")
 }
 
-unique(ALLOMETRY$allometric.equation)[!unique(ALLOMETRY$allometric.equation) %in% c(MEASUREMENTS$allometry, MEASUREMENTS$allometry2)] # Keep all
+unique(ALLOMETRY$allometric.equation)[!unique(ALLOMETRY$allometric.equation) %in% c(MEASUREMENTS$allometry_1, MEASUREMENTS$allometry_2)] # Keep all
 
 
-sort(unique(c(MEASUREMENTS$allometry, MEASUREMENTS$allometry2)))
+sort(unique(c(MEASUREMENTS$allometry_1, MEASUREMENTS$allometry_2)))
 
 
 
@@ -331,7 +331,7 @@ for(i in 1:nrow(VARIABLES)){
   
 
     if(n_records.v == 0 & nrow(MEASUREMENTS[MEASUREMENTS$variables.name %in% v, ]) > 0){
-      Value.for.variables.without.range <- rbind(Value.for.variables.without.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variables.name %in% v, c("measurementID", "sites.sitename", "variables.name", "mean")]))
+      Value.for.variables.without.range <- rbind(Value.for.variables.without.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variables.name %in% v, c("measurement.ID", "sites.sitename", "variables.name", "mean")]))
     }
   
   
@@ -348,17 +348,17 @@ for(i in 1:nrow(VARIABLES)){
       
       flagged.value <- c(x[x < min.v], x[x > max.v])
       
-      if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variables.name %in% v & MEASUREMENTS$mean %in% flagged.value, c("measurementID", "sites.sitename", "variables.name", "mean")]))
+      if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variables.name %in% v & MEASUREMENTS$mean %in% flagged.value, c("measurement.ID", "sites.sitename", "variables.name", "mean")]))
       
       
     }
     
     if(VARIABLES$variables.type[i] %in% "covariates"){
       
-      x_1 <- MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v, ]$coV1_value
+      x_1 <- MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v, ]$coV_1.value
       x_1 <- na.omit(as.numeric(ifelse(x_1 %in% na_codes, NA, x_1)))
       
-      x_2 <- MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v, ]$coV2_value
+      x_2 <- MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v, ]$coV_2.value
       x_2 <- na.omit(as.numeric(ifelse(x_2 %in% na_codes, NA, x_2)))
       
       value_1.too.small <- any(x_1 < min.v)
@@ -369,9 +369,9 @@ for(i in 1:nrow(VARIABLES)){
       
       flagged.value <- c(x_1[x_1 < min.v], x_1[x_1 > max.v], x_2[x_2 < min.v], x_2[x_2 > max.v])
       
-      if(any(value_1.too.small, value_1.too.big)) covariate_1.not.within.range <- rbind(covariate_1.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v & MEASUREMENTS$coV1_value %in% flagged.value, c("measurementID", "sites.sitename", "covariate_1", "coV1_value")]))
+      if(any(value_1.too.small, value_1.too.big)) covariate_1.not.within.range <- rbind(covariate_1.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v & MEASUREMENTS$coV_1.value %in% flagged.value, c("measurement.ID", "sites.sitename", "covariate_1", "coV_1.value")]))
       
-      if(any(value_2.too.small, value_2.too.big))  covariate_2.not.within.range <- rbind(covariate_2.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v & MEASUREMENTS$coV2_value %in% flagged.value, c("measurementID", "sites.sitename", "covariate_2", "coV2_value")]))
+      if(any(value_2.too.small, value_2.too.big))  covariate_2.not.within.range <- rbind(covariate_2.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v & MEASUREMENTS$coV_2.value %in% flagged.value, c("measurement.ID", "sites.sitename", "covariate_2", "coV_2.value")]))
       
     }
   }

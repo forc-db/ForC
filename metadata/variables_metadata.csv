@@ -5,7 +5,7 @@
 "4 / D","description","Definition and notes about the variable.","character (string) ","-",117,"-","-"
 "5 / E","equations","Equations describing relationships among variables. Parentheses indicate variables that are not included in the current database version.","character (string) ","-",55,"-","-"
 "6 / F","requires.allometry","Indicates whether covariate allometric.equation should (generally) be recorded in association with the measurement. Covariate is defined in this table. ","number (binary)","0- false; 1- true",89,"0","1"
-"7 / G","requires.min.dbh","Indicates whether covariate min_dbh should (generally) be recorded in association with the measurement. Covariate is defined in this table.","number (binary)","0- false; 1- true",89,"0","1"
+"7 / G","requires.min.dbh","Indicates whether covariate min.dbh should (generally) be recorded in association with the measurement. Covariate is defined in this table.","number (binary)","0- false; 1- true",89,"0","1"
 "8 / H","requires.depth","Indicates whether covariate depth should (generally) be recorded in association with the measurement. Covariate is defined in this table.","number (binary)","0- false; 1- true",89,"0","1"
 "9 / I","associated.covariate_1","Other covariate associated with the variable listed. Parentheses indicate non-required covariate. Order listed here does not necessarily match the order listed in the MEASUREMENTS table). These covariates are also defined in this table.","character (string) ","-",52,"-","-"
 "10 / J","associated.covariate_2","Same as above.","character (string) ","-",10,"-","-"

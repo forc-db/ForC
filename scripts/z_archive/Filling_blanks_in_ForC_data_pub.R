@@ -88,13 +88,13 @@ length(unique(MEASUREMENTS[MEASUREMENTS$dominant.lifeform %in% "grass", ]$sites.
 
 
 ## The largest number of records (##) comes from sites dominated by evergreen needleleaf trees, followed by broadleaf deciduous (##) and broadleaf evergreen (##) trees, with <## records each for mixes of broadleaf – and needleleaf trees, needleleaf deciduous trees, or other/ unclassified trees  ####
-unique(MEASUREMENTS$dominantveg)
-sum(MEASUREMENTS$dominantveg %in% "2TEN") # 7236 evergreen needleleaf
-sum(MEASUREMENTS$dominantveg %in% "2TDB") # 4582 broadleaf deciduous
-sum(MEASUREMENTS$dominantveg %in% "2TEB") # 4299 broadleaf evergreen
+unique(MEASUREMENTS$dominant.veg)
+sum(MEASUREMENTS$dominant.veg %in% "2TEN") # 7236 evergreen needleleaf
+sum(MEASUREMENTS$dominant.veg %in% "2TDB") # 4582 broadleaf deciduous
+sum(MEASUREMENTS$dominant.veg %in% "2TEB") # 4299 broadleaf evergreen
 
-sum(! MEASUREMENTS$dominantveg %in% c("2TEN", "2TDB", "2TEB")) # 1421 others records
-max(table(MEASUREMENTS$dominantveg[!MEASUREMENTS$dominantveg %in% c("2TEN", "2TDB", "2TEB")]))# < 398 records each other
+sum(! MEASUREMENTS$dominant.veg %in% c("2TEN", "2TDB", "2TEB")) # 1421 others records
+max(table(MEASUREMENTS$dominant.veg[!MEASUREMENTS$dominant.veg %in% c("2TEN", "2TDB", "2TEB")]))# < 398 records each other
 
 
 

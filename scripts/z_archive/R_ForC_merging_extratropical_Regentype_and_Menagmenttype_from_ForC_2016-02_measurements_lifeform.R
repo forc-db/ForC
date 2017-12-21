@@ -28,7 +28,7 @@ dim(unique(db[, c("sites.sitename", "plot.name")]))
 
 db$ID <-  paste(db$sites.sitename, db$plot.name)
 # removing tropical sites and extratropicals that already have managementtype and regentype
-db_extratropical <- db[db$tropical_extratropical == "extratropical",]
+db_extratropical <- db[db$tropical.extratropical == "extratropical",]
 db_extratropical <- db_extratropical[db_extratropical$Managementtype == "NAC" & db_extratropical$Regentype == "NAC",]
 
 

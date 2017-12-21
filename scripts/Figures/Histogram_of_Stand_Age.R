@@ -33,13 +33,13 @@ MEASUREMENTS$age.round <- round(as.numeric(as.character(MEASUREMENTS$stand.age))
 
 
 ## known age <= max.age
-table.to.plot.known <- with(MEASUREMENTS[MEASUREMENTS$ageclass == "known <= max.age",], table(tropical_extratropical, age.round))
+table.to.plot.known <- with(MEASUREMENTS[MEASUREMENTS$ageclass == "known <= max.age",], table(tropical.extratropical, age.round))
 
 ## known age > max.age
-table.to.plot.older.mas.age <- with(droplevels(MEASUREMENTS[MEASUREMENTS$ageclass == "known > max.age",]), table(tropical_extratropical, ageclass))
+table.to.plot.older.mas.age <- with(droplevels(MEASUREMENTS[MEASUREMENTS$ageclass == "known > max.age",]), table(tropical.extratropical, ageclass))
 
 ## old.growth or undisturbed stands
-table.to.plot.old.growth <- with(droplevels(MEASUREMENTS[MEASUREMENTS$ageclass == "old-growth/undisturbed stand",]), table(tropical_extratropical, ageclass))
+table.to.plot.old.growth <- with(droplevels(MEASUREMENTS[MEASUREMENTS$ageclass == "old-growth/undisturbed stand",]), table(tropical.extratropical, ageclass))
 
 
 ## Combine all

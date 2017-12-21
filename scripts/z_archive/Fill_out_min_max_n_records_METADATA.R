@@ -98,7 +98,7 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
 # Fix a few issues
 
 HISTORY_meta[HISTORY_meta$Field == "level", c("Min", "Max")] <- "-"
-MEASUREMENTS_meta[MEASUREMENTS_meta$Field == "dupcode", c("Min", "Max")] <- "-"
+MEASUREMENTS_meta[MEASUREMENTS_meta$Field == "dup.code", c("Min", "Max")] <- "-"
 
 # Remove range column
 

@@ -1,4 +1,4 @@
-"historyID","sites.sitename","plot.name","plotarea","event.sequence","date","dateloc","histcat","histtype","est.regrowth.assumed.same.year","level","units","percent.mortality","histnotes","plothistoryID.v1","tropical_extratropical"
+"historyID","sites.sitename","plot.name","plotarea","event.sequence","date","date.loc","histcat","histtype","est.regrowth.assumed.same.year","level","units","percent.mortality","histnotes","plothistoryID.v1","tropical.extratropical"
 1.01,"4 Rios","Tropical Wet Forest recovery following pasture abandonment","NAC",1,"NI",9,"Disturbance","Grazed",NA,NA,NA,"100","history event derived from plot.name",NA,"tropical"
 1.02,"4 Rios","Tropical Wet Forest recovery following pasture abandonment","NAC",2,"NI",9,"Regrowth","Initiation of post-disturbance cohort (natural)",1,NA,NA,NA,"history event derived from plot.name",NA,"tropical"
 1.03,"4 Rios","Tropical Wet Forest recovery following pasture abandonment","NAC",3,"NI",9,"Establishment","Establishment of oldest trees",1,NA,NA,NA,NA,NA,"tropical"

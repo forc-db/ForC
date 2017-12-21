@@ -21,7 +21,7 @@ MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 # Prepare data to plot ####
 
 
-category <-ifelse(MEASUREMENTS$dominant.lifeform %in% "woody+grass", "savanna", MEASUREMENTS$dominantveg)
+category <-ifelse(MEASUREMENTS$dominant.lifeform %in% "woody+grass", "savanna", MEASUREMENTS$dominant.veg)
 
 category <-ifelse(category %in% "2TB", "2TDB",
                   ifelse(category %in% "2TN", "2TDN",

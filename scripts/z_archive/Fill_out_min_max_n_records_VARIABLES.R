@@ -54,7 +54,7 @@ for(i in 1:nrow(VARIABLES)){
   
   if(VARIABLES$variables.type[i] %in% "covariates"){
     
-    x <- c(MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v, ]$coV1_value, MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v, ]$coV2_value)
+    x <- c(MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v, ]$coV_1.value, MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v, ]$coV_2.value)
     x <- na.omit(as.numeric(ifelse(x %in% na_codes, NA, x)))
     
    

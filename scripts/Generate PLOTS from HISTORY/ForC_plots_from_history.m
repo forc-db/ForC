@@ -40,8 +40,8 @@ plotarea=raw(2:end,4);
 event_sequence=num(:,5); %sequence of events
 date_=(raw(2:end,6)); %date (decimal year)
     date_num=num(:,6);
-dateloc=raw(2:end,7);
-    dateloc_num=num(:,7);
+date.loc=raw(2:end,7);
+    date.loc_num=num(:,7);
 dist_cat=raw(2:end,8);
 dist_type=raw(2:end,9);
 est_regrowth_assumed_same_year=raw(2:end,10);
@@ -136,7 +136,7 @@ for n=1:n_plots
     if length(i_est)==1
         EST_RN(n,1)={histID(i_est)};
         EST_DATE(n,1)=date_(i_est);
-        EST_DATE_LOC(n,1)=dateloc(i_est);
+        EST_DATE_LOC(n,1)=date.loc(i_est);
         EST_DATE_INFERRED(n,1)=est_regrowth_assumed_same_year(i_est);  
         if isempty (i2)==1
             EST_TYPE(n,1)={'trees'};
@@ -174,7 +174,7 @@ for n=1:n_plots
     if length(i_reg)==1
         REGROWTH_RN(n,1)={histID(i_reg)};
         REGROWTH_DATE(n,1)=date_(i_reg);
-        REGROWTH_DATE_LOC(n,1)=dateloc(i_reg);
+        REGROWTH_DATE_LOC(n,1)=date.loc(i_reg);
         EST_DATE_INFERRED(n,1)=est_regrowth_assumed_same_year(i_reg);  
         if isempty(i1)==0
             REGROWTH_TYPE(n,1)={'Initiation of post-disturbance cohort (natural)'}; 

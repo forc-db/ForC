@@ -21,7 +21,7 @@ MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 # Prepare data to plot ####
 
 
-dates.collection <- as.numeric(substr(MEASUREMENTS$end_date, 1,4))
+dates.collection <- as.numeric(substr(MEASUREMENTS$end.date, 1,4))
 dates.collection <- ifelse(is.na(dates.collection), as.numeric(substr(MEASUREMENTS$date, 1,4)), dates.collection)
 
 citations.DOI.to.exclude <- c("10.1111/j.1365-2486.2007.01420.x", "10.1111/j.1365-2486.2007.01439.x", "10.1071/BT07151", "10.1111/geb.12113", "10.1073/pnas.1317065111") # DOI corresponding to Litton et al. 2007, Luyssaert et al. 2007, Baldocchi 2008, Liu et al. 2014, Yu et al. 2014.
