@@ -83,4 +83,5 @@ VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n_reco
 
 # SAVE ####
 write.csv(VARIABLES, "data/ForC_variables.csv", row.names = F)
+
   
