@@ -20,7 +20,7 @@
 "19 / S","stat","Value of reported statistic.","numeric (double)","-","VARIABLES table",2246,"0","72"
 "20 / T","area_sampled","Area sampled for measurement of the particular variable. If the measurement includes multiple components with different sampling area (e.g., large trees sampled in the entire plot, small trees sampled in subplots), the largest area is reported. This may be less than plotarea (PLOTS table). As this field was added after most of the data had been entered, it is coded as ""NAC"" for most records.","numeric (double)","-","ha",241,"0","48"
 "21 / U","notes","Additional information about the record, including notes on methodology and notes on any known anomalies.  Potentially problematic values have notes prefaced with asterisks. ","character (string)","-","-",3971,"-","-"
-"22 / V","method_id","Code number for methodology. ","numeric (integer)","Given in METHODOLOGY table","-",6513,"1","448"
+"22 / V","method.ID","Code number for methodology. ","numeric (integer)","Given in METHODOLOGY table","-",6513,"1","448"
 "23 / W","allometry","Code number for allometry (when it is a required covariate).","numeric (integer)","Given in ALLOMETRY table","-",1130,"1","35"
 "24 / X","allometry2","Code number for allometry (when it is a required covariate).","numeric (integer)","Given in ALLOMETRY table","-",177,"3","34"
 "25 / Y","min_dbh","Minimum diameter (typically DBH, diameter at breast height) of tree stems included in the measurement. ""0"" indicates that all stems were included.","numeric (integer)","","cm",2343,"0","40"

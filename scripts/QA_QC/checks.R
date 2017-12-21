@@ -107,9 +107,9 @@ if(!all(na.omit(MEASUREMENTS$allometry2) [!na.omit(MEASUREMENTS$allometry2) %in%
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
 MEASUREMENTS %>% 
-  filter(!method_id %in% na_codes) %>% 
-  anti_join(METHODOLOGY, by = c("method_id")) %>% 
-  distinct(measurementID, method_id) ->
+  filter(!method.ID %in% na_codes) %>% 
+  anti_join(METHODOLOGY, by = c("method.ID")) %>% 
+  distinct(measurementID, method.ID) ->
   m_no_m
 cat("There are", nrow(m_no_m), "measurement records with no corresponding methodology record\n")
 if(nrow(m_no_m)) message("See `m_no_m`")
@@ -270,7 +270,7 @@ PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominantveg] # Leave "2VW"   "2GW"   
 
 
 # There should be no records in METHODOLOGY that lack corresponding records in MEASUREMENTS
-if(!all(METHODOLOGY$method_id %in% MEASUREMENTS$method_id)) stop("There are method_id in METHODOLOGY that don't exist in Measurements. See METHODOLOGY$method_id[!METHODOLOGY$method_id %in% MEASUREMENTS$method_id]")
+if(!all(METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID)) stop("There are method.ID in METHODOLOGY that don't exist in Measurements. See METHODOLOGY$method.ID[!METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID]")
 
 
 # All variables in METHODOLOGY exist in VARIABLES --> not checking as names may change

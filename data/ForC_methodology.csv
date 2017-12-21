@@ -1,4 +1,4 @@
-method_id,method_citation,variables.name,method_notes
+method.ID,method.citation,variables.name,method.notes
 382,Lugo et al 1992,ANPP,ANPP was calculated by adding tree biomass increment and litterfall during the period of measurement. Aboveground tree biomass was estimated allometrically using tree inventory data and biomass-diameter relation
 383,Lugo et al 1992,ANPP,"ANPP was calculated by adding tree biomass increment and litterfall during the period of measurement. Pine, mahogany, and roble (Tabebuia heterophylla (DC.) Britton) trees were harvested to supplement available biomass information on these species. Least squares regression analysis was used to develop bio- mass-diameter relation"
 408,Uhl and Jordan 1984,ANPP,litter collection
