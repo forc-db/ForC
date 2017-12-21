@@ -207,7 +207,7 @@ if(nrow(h_no_p)) message("See `h_no_p`")
 # No records in PLOTS that lack corresponding records in MEASUREMENTS
 PLOTS %>%
   anti_join(MEASUREMENTS, by = c("sites.sitename", "plot.name")) %>% 
-  distinct(plotID, sites.sitename, plot.name) ->
+  distinct(plot.ID, sites.sitename, plot.name) ->
   p_no_m
 cat("There are", nrow(p_no_m), "plots with no corresponding measurement record\n")
 if(nrow(p_no_m)) message("See `p_no_m`")
@@ -216,7 +216,7 @@ if(nrow(p_no_m)) message("See `p_no_m`")
 # For each site-plot combination in PLOTS, there should be at least one corresponding record in HISTORY
 PLOTS %>% 
   anti_join(HISTORY, by = c("sites.sitename", "plot.name")) %>% 
-  distinct(plotID, sites.sitename, plot.name) ->
+  distinct(plot.ID, sites.sitename, plot.name) ->
   p_no_h
 cat("There are", nrow(p_no_h), "plots with no corresponding history record\n")
 if(nrow(p_no_h)) message("See `p_no_h`")
@@ -225,7 +225,7 @@ if(nrow(p_no_h)) message("See `p_no_h`")
 # For each site in PLOTS, there should be a corresponding record in SITES
 PLOTS %>%
   anti_join(SITES, by = c("sites.sitename")) %>% 
-  distinct(plotID, sites.sitename) ->
+  distinct(plot.ID, sites.sitename) ->
   p_no_s
 cat("There are", nrow(p_no_s), "plots with no corresponding site record\n")
 if(nrow(p_no_s)) message("See `p_no_s`")
@@ -249,9 +249,9 @@ if(!all(HISTTYPE$hist.type2 %in% HISTORY$hist.type))  stop("There are hist.type 
 HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type] # Leave Precipitation Diversion
 
 # All hist.type exist in PLOTS
-if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$distmrs.hist.type, PLOTS$dist1.hist.type, PLOTS$dist2.hist.type)))) stop("There are hist.cat in HISTTYPE that don't exist in PLOTS. SEE")
+if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$dist.mrs.hist.type, PLOTS$dist_1.hist.type, PLOTS$dist_2.hist.type)))) stop("There are hist.cat in HISTTYPE that don't exist in PLOTS. SEE")
 
-  HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$distmrs.hist.type, PLOTS$dist1.hist.type, PLOTS$dist2.hist.type))] # keep for furture records
+  HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$dist.mrs.hist.type, PLOTS$dist_1.hist.type, PLOTS$dist_2.hist.type))] # keep for furture records
 
 
   
