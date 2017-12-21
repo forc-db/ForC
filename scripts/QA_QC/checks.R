@@ -100,9 +100,9 @@ if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in
 
 
 # For each allometry and allometry2 in MEASUREMENTS, there is an allometric equation in ALLOMETRIE
-if(!all(unique(na.omit(MEASUREMENTS$allometry)) [!unique(na.omit(MEASUREMENTS$allometry)) %in% ALLOMETRY$allometric_equation] %in% na_codes)) stop("There are coV1_value in measurements that are not defined in ALLOMETRY")
+if(!all(unique(na.omit(MEASUREMENTS$allometry)) [!unique(na.omit(MEASUREMENTS$allometry)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) stop("There are coV1_value in measurements that are not defined in ALLOMETRY")
 
-if(!all(na.omit(MEASUREMENTS$allometry2) [!na.omit(MEASUREMENTS$allometry2) %in% ALLOMETRY$allometric_equation] %in% na_codes)) stop("There are coV2_value in measurements that are not defined in ALLOMETRY")
+if(!all(na.omit(MEASUREMENTS$allometry2) [!na.omit(MEASUREMENTS$allometry2) %in% ALLOMETRY$allometric.equation] %in% na_codes)) stop("There are coV2_value in measurements that are not defined in ALLOMETRY")
 
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
@@ -292,14 +292,14 @@ unique(VARIABLES$variables.name)[!unique(VARIABLES$variables.name)%in% c(MEASURE
 
 # ===== ALLOMETRIES checks ==== ####
 
-# All allometric_equation in ALLOMETRY exist in MEASUREMENTS allometry and allometry2
-if(any(!ALLOMETRY$allometric_equation %in% c(MEASUREMENTS$allometry, MEASUREMENTS$allometry2))) {
-  message("There allometric_equation not used in MEASUREMENTS")
+# All allometric.equation in ALLOMETRY exist in MEASUREMENTS allometry and allometry2
+if(any(!ALLOMETRY$allometric.equation %in% c(MEASUREMENTS$allometry, MEASUREMENTS$allometry2))) {
+  message("There allometric.equation not used in MEASUREMENTS")
   message("Check 
-          ALLOMETRY$allometric_equation[!ALLOMETRY$variables.name %in% c(MEASUREMENTS$coV1_value, MEASUREMENTS$coV2_value)]")
+          ALLOMETRY$allometric.equation[!ALLOMETRY$variables.name %in% c(MEASUREMENTS$coV1_value, MEASUREMENTS$coV2_value)]")
 }
 
-unique(ALLOMETRY$allometric_equation)[!unique(ALLOMETRY$allometric_equation) %in% c(MEASUREMENTS$allometry, MEASUREMENTS$allometry2)] # Keep all
+unique(ALLOMETRY$allometric.equation)[!unique(ALLOMETRY$allometric.equation) %in% c(MEASUREMENTS$allometry, MEASUREMENTS$allometry2)] # Keep all
 
 
 sort(unique(c(MEASUREMENTS$allometry, MEASUREMENTS$allometry2)))
