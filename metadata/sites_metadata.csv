@@ -1,4 +1,4 @@
-"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","Units","n","Min","Max"
+"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","Units","n","min","max"
 "1 / A","site.ID","Unique numerical identifier for each record in the SITES table.","numeric (integer)","-","-",2069,"1","2070"
 "2 / B","sites.sitename","Site identifier, sufficient to uniquely identify the site within the paper. Links to MEASUREMENTS, PLOTS, and HISTORY tables.","character (string)","-","-",2070,"-","-"
 "3 / C","city","Nearest city, when identified in original publication.","character (string)","-","-",494,"-","-"

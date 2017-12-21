@@ -50,7 +50,7 @@ METHODOLOGY_meta   <- read.csv("metadata/methodology_metadata.csv", stringsAsFac
 ALLOMETRY_meta     <- read.csv("metadata/allometry_metadata.csv", stringsAsFactors = F)
 
 
-# CALCULATE n, Max and Min ####
+# CALCULATE n, max and min ####
 
 for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "VARIABLES", "METHODOLOGY","ALLOMETRY")){
   
@@ -63,8 +63,8 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
   head(DF_meta)
   
   DF_meta$n <- NA
-  DF_meta$Min <- NA
-  DF_meta$Max <- NA
+  DF_meta$min <- NA
+  DF_meta$max <- NA
   
   
   for(i in 1:nrow(DF_meta)){
@@ -83,8 +83,8 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
     min.x <- round(min(x))
     max.x <- round(max(x))
     
-    DF_meta$Min[i] <- ifelse(min.x %in% "Inf", "-", min.x)
-    DF_meta$Max[i] <- ifelse(max.x %in% "-Inf", "-", max.x)
+    DF_meta$min[i] <- ifelse(min.x %in% "Inf", "-", min.x)
+    DF_meta$max[i] <- ifelse(max.x %in% "-Inf", "-", max.x)
   }
   
   print(head(DF_meta))
@@ -97,8 +97,8 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
 
 # Fix a few issues
 
-HISTORY_meta[HISTORY_meta$Field == "level", c("Min", "Max")] <- "-"
-MEASUREMENTS_meta[MEASUREMENTS_meta$Field == "dup.code", c("Min", "Max")] <- "-"
+HISTORY_meta[HISTORY_meta$Field == "level", c("min", "max")] <- "-"
+MEASUREMENTS_meta[MEASUREMENTS_meta$Field == "dup.code", c("min", "max")] <- "-"
 
 # Remove range column
 

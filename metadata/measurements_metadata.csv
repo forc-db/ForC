@@ -1,4 +1,4 @@
-"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","Units","n","Min","Max"
+"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","Units","n","min","max"
 "1 / A","measurement.ID","Unique identifier for each record in the measurements table.","numeric (integer)","-","-",17504,"1","17505"
 "2 / B","sites.sitename","Unique site identifier name for the site at which the measurement was made. Links to SITES, PLOTS and HISTORY tables. ","character (string)","-","-",17505,"-","-"
 "3 / C","plot.name","Unique plot identifier name for the plot in which the measurement was made. Links to HISTORY and PLOTS table.","character (string)","-","-",16847,"-","-"

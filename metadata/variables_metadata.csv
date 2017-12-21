@@ -1,4 +1,4 @@
-"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","n","Min","Max"
+"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","n","min","max"
 "1 / A","variables.type","Variable type ","character (string) ","primary - a C cycle variable; secondary - a variable recorded because it can influence C cycle variables;  covariate - a variable required to interpret C cycle variables.",117,"-","-"
 "2 / B","variables.name","Code name for variable sampled. Used in MEASUREMENTS table.","character (string) ","-",117,"-","-"
 "3 / C","units","Units of the variable.","character (string) ","-",115,"-","-"

@@ -1,4 +1,4 @@
-"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","Units","n","Min","Max"
+"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","Units","n","min","max"
 "1 / A","plot.ID","Unique numerical identifier for each record in the plots table.","numeric (integer)","-","-",2730,"1","2731"
 "2 / B","sites.sitename","Unique site identifier, sufficient to identify the site within the original publication. Links to SITES and MEASUREMENTS tables.","character (string)","-","-",2731,"-","-"
 "3 / C","plot.name","Unique plot name, sufficient to identify the plot within the original publication.","character (string)","-","-",2630,"-","-"

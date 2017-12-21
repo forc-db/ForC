@@ -1,5 +1,5 @@
 ######################################################
-# Purpose: Filling out the Min and Max of VARIABLES Table + add a column with number of records per variable
+# Purpose: Filling out the min and max of VARIABLES Table + add a column with number of records per variable
 # Inputs: - ForC VARIABLES table
 #         - ForC MEASUREMENTS table
 # outputs: updated ForC_variables.csvg
@@ -23,10 +23,10 @@ VARIABLES <- read.csv("data/ForC_variables.csv", stringsAsFactors = F)
 na_codes <- c("NI", "NRA", "NaN", "NAC", "999")
 
 
-# Calculate Min and Max for each variable + add count of records for each
+# Calculate min and max for each variable + add count of records for each
 
-VARIABLES$Min
-VARIABLES$Max
+VARIABLES$min
+VARIABLES$max
 VARIABLES$n.records
 VARIABLES$units
 
@@ -45,8 +45,8 @@ for(i in 1:nrow(VARIABLES)){
  
     print(head(x))
     
-    VARIABLES[i, "Min"] <- min(x)
-    VARIABLES[i, "Max"] <- max(x)
+    VARIABLES[i, "min"] <- min(x)
+    VARIABLES[i, "max"] <- max(x)
     
     
     VARIABLES[i, "n.records"] <- sum(!is.na(x))
@@ -59,8 +59,8 @@ for(i in 1:nrow(VARIABLES)){
     
    
     
-    VARIABLES[i, "Min"] <- min(x)
-    VARIABLES[i, "Max"] <- max(x)
+    VARIABLES[i, "min"] <- min(x)
+    VARIABLES[i, "max"] <- max(x)
     
     
     VARIABLES[i, "n.records"] <- sum(!is.na(x))
@@ -69,15 +69,15 @@ for(i in 1:nrow(VARIABLES)){
 }
 
 
-VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n.records")]
+VARIABLES[, c("variables.type", "variables.name", "units", "min", "max", "n.records")]
 
 # REplace Inf by NA
 
 
-VARIABLES$Min <- ifelse(VARIABLES$Min == "Inf", "-", VARIABLES$Min)
-VARIABLES$Max <- ifelse(VARIABLES$Max == "-Inf", "-", VARIABLES$Max)
+VARIABLES$min <- ifelse(VARIABLES$min == "Inf", "-", VARIABLES$min)
+VARIABLES$max <- ifelse(VARIABLES$max == "-Inf", "-", VARIABLES$max)
 
-VARIABLES[, c("variables.type", "variables.name", "units", "Min", "Max", "n.records")]
+VARIABLES[, c("variables.type", "variables.name", "units", "min", "max", "n.records")]
 
 
 

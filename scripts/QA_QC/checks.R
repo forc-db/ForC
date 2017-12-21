@@ -325,8 +325,8 @@ for(i in 1:nrow(VARIABLES)){
   v <- VARIABLES$variables.name[i]
   print(v)
   
-  min.v <- as.numeric(VARIABLES$Min[i])
-  max.v <- as.numeric(VARIABLES$Max[i])
+  min.v <- as.numeric(VARIABLES$min[i])
+  max.v <- as.numeric(VARIABLES$max[i])
   n.records.v <- as.numeric(VARIABLES$n.records[i])
   
 
@@ -408,19 +408,19 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
     f <- DF_meta$Field[i]
     print(f)
     
-    DF_meta.Min <- as.numeric(DF_meta$Min[i])
-    DF_meta.Max <- as.numeric(DF_meta$Max[i])
+    DF_meta.min <- as.numeric(DF_meta$min[i])
+    DF_meta.max <- as.numeric(DF_meta$max[i])
     
     
-    if(all(!is.na(c(DF_meta.Min, DF_meta.Max)))){
+    if(all(!is.na(c(DF_meta.min, DF_meta.max)))){
     
       x <- DF[, f]
       x <- round(na.omit(as.numeric(ifelse(x %in% na_codes, NA, x))))
       
-      value.too.small <- any(x < DF_meta.Min)
-      value.too.big <- any(x > DF_meta.Max)
+      value.too.small <- any(x < DF_meta.min)
+      value.too.big <- any(x > DF_meta.max)
       
-      flagged.value <- c(x[x < DF_meta.Min], x[x > DF_meta.Max])
+      flagged.value <- c(x[x < DF_meta.min], x[x > DF_meta.max])
       
       if(any(value.too.small, value.too.big)) variable.not.within.range[[Table]][[f]] <- rbind(variable.not.within.range[[Table]][[f]],  as.data.frame(DF[DF[, f] %in% flagged.value, c(1,2,3, which(names(DF) %in% f))]))
     }
