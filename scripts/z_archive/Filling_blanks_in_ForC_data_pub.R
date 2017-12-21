@@ -60,15 +60,15 @@ nrow(PLOTS) #2,731 plots
 # 84548 previously
 
 nrow(SITES)
-nrow(SITES[is.na(SITES$siteID.v1), ]) # 1,345 new
-nrow(SITES[!is.na(SITES$siteID.v1), ]) # 725 previsouly
+nrow(SITES[is.na(SITES$site.ID.v1), ]) # 1,345 new
+nrow(SITES[!is.na(SITES$site.ID.v1), ]) # 725 previsouly
 
 ## representing 827 distinct geographic.areas (## new/ 178 previously  published). 
 
 length(unique(SITES$geographic.area)) #827
 
-length(unique(SITES[is.na(SITES$siteID.v1), ]$geographic.area)) # 508 new
-length(unique(SITES[!is.na(SITES$siteID.v1), ]$geographic.area)) # 248 previously
+length(unique(SITES[is.na(SITES$site.ID.v1), ]$geographic.area)) # 508 new
+length(unique(SITES[!is.na(SITES$site.ID.v1), ]$geographic.area)) # 248 previously
 
 
 ## for the vast majority of records in ForC-db (##%), the dominant lifeform (dominant.lifeform; MEASUREMENTS table) is woody vegetation ####
@@ -99,15 +99,15 @@ max(table(MEASUREMENTS$dominant.veg[!MEASUREMENTS$dominant.veg %in% c("2TEN", "2
 
 
 ## Soil records exist for ##% of sites (##% of sites new to this version). ####
-sum(apply(SITES[, c("soil.classification", "soil.texture", "soilnotes")], 1, function(x) any(!x %in% NA.forms))) *100 / nrow(SITES) # 97% records
+sum(apply(SITES[, c("soil.classification", "soil.texture", "soil.notes")], 1, function(x) any(!x %in% NA.forms))) *100 / nrow(SITES) # 97% records
 
-sum(apply(SITES[!is.na(SITES$siteID.v1), c("soil.classification", "soil.texture", "soilnotes")], 1, function(x) any(!x %in% NA.forms))) *100 / nrow(SITES[!is.na(SITES$siteID.v1),]) # 100% new version
+sum(apply(SITES[!is.na(SITES$site.ID.v1), c("soil.classification", "soil.texture", "soil.notes")], 1, function(x) any(!x %in% NA.forms))) *100 / nrow(SITES[!is.na(SITES$site.ID.v1),]) # 100% new version
 
 
 ## Elevation (masl; SITES table) is recorded for ##% of sites (## % of new sites). Site elevation ranged from ## - ##, with ##% at elevations ≤500 m.a.s.l. (Fig. 4).  ####
 sum(!SITES$masl %in% NA.forms & !is.na(SITES$masl)) *100 / nrow(SITES) # 59 %
 
-sum(!SITES[!is.na(SITES$siteID.v1), "masl"] %in% NA.forms & !is.na(SITES[!is.na(SITES$siteID.v1), "masl"]))  *100 / nrow(SITES[!is.na(SITES$siteID.v1),]) # 69.0%
+sum(!SITES[!is.na(SITES$site.ID.v1), "masl"] %in% NA.forms & !is.na(SITES[!is.na(SITES$site.ID.v1), "masl"]))  *100 / nrow(SITES[!is.na(SITES$site.ID.v1),]) # 69.0%
 
 x <- SITES$masl
 x <- ifelse(x%in% NA.forms, NA, x)

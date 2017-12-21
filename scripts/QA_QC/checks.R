@@ -121,7 +121,7 @@ if(nrow(m_no_m)) message("See `m_no_m`")
 # There are no sites in SITES that lack records in PLOTS
 SITES %>% 
   anti_join(PLOTS, by = c("sites.sitename")) %>% 
-  distinct(siteID, sites.sitename) ->
+  distinct(site.ID, sites.sitename) ->
   s_no_p
 cat("There are", nrow(s_no_p), "sites with no corresponding plot record\n")
 if(nrow(s_no_p)) message("See `s_no_p`")
@@ -129,7 +129,7 @@ if(nrow(s_no_p)) message("See `s_no_p`")
 # There are no sites in SITES that lack records in History
 SITES %>% 
   anti_join(HISTORY, by = c("sites.sitename")) %>% 
-  distinct(siteID, sites.sitename) ->
+  distinct(site.ID, sites.sitename) ->
   s_no_h
 cat("There are", nrow(s_no_h), "sites with no corresponding hystory record\n")
 if(nrow(s_no_h)) message("See `s_no_h`")
@@ -137,7 +137,7 @@ if(nrow(s_no_h)) message("See `s_no_h`")
 # There are no sites in SITES that lack records in MEASUREMENTS
 SITES %>% 
   anti_join(MEASUREMENTS, by = c("sites.sitename")) %>% 
-  distinct(siteID, sites.sitename) ->
+  distinct(site.ID, sites.sitename) ->
   s_no_m
 cat("There are", nrow(s_no_m), "sites with no corresponding measurements record\n")
 if(nrow(s_no_m)) message("See `s_no_m`")
@@ -146,7 +146,7 @@ if(nrow(s_no_m)) message("See `s_no_m`")
 if(any(duplicated(SITES$sites.sitename))) {
   message("There are duplicated variable names in the VARIABLES table!")  
 }
-if(any(duplicated(SITES$siteID))) {
+if(any(duplicated(SITES$site.ID))) {
   message("There are duplicated variable names in the VARIABLES table!")  
 }
 

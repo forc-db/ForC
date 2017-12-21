@@ -46,13 +46,13 @@ proj4string(SITES.xy) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +
 
 new.FAO <- over(SITES.xy, FAO)$gez_name
 
-new.FAO[SITES$FAOecozone == "NAC"]
+new.FAO[SITES$FAO.ecozone == "NAC"]
 
 
-cbind(SITES$sites.sitename, SITES$FAOecozone, new.FAO)[!apply(cbind(SITES$FAOecozone, new.FAO), 1, function(x) x[1]== x[2]),]
+cbind(SITES$sites.sitename, SITES$FAO.ecozone, new.FAO)[!apply(cbind(SITES$FAO.ecozone, new.FAO), 1, function(x) x[1]== x[2]),]
 
 
-A <- cbind(SITES$sites.sitename, SITES$FAOecozone, new.FAO)[!apply(cbind(SITES$FAOecozone, new.FAO), 1, function(x) x[1]== x[2]),]
+A <- cbind(SITES$sites.sitename, SITES$FAO.ecozone, new.FAO)[!apply(cbind(SITES$FAO.ecozone, new.FAO), 1, function(x) x[1]== x[2]),]
 A
 A <- A[-c(6:62),]
 A
@@ -60,17 +60,17 @@ A <- A[-c(1, 5, 7, 9, 11),]
 A
 
 # Ignor water and keep what was there before
-new.FAO[new.FAO %in% "Water"] <- SITES$FAOecozone[new.FAO %in% "Water"]
+new.FAO[new.FAO %in% "Water"] <- SITES$FAO.ecozone[new.FAO %in% "Water"]
 
 # Double check othere differences
-A <- cbind(SITES$sites.sitename, SITES$FAOecozone, new.FAO)[!apply(cbind(SITES$FAOecozone, new.FAO), 1, function(x) x[1]== x[2]),]
+A <- cbind(SITES$sites.sitename, SITES$FAO.ecozone, new.FAO)[!apply(cbind(SITES$FAO.ecozone, new.FAO), 1, function(x) x[1]== x[2]),]
 A
 A <-  A[-c(3:59),]
 A
 A <- A[-c(1, 2, 4, 6, 8),]
 A
 
-SITES$FAOecozone <- new.FAO
+SITES$FAO.ecozone <- new.FAO
 
 
 
@@ -87,7 +87,7 @@ new.KOEPPEN[SITES$Koeppen == "NAC",] # if all Csb is ok, in our case
 
 new.KOEPPEN <- new.KOEPPEN$Koeppen
 
-identical(SITES.xy$siteID, SITES$siteID)
+identical(SITES.xy$site.ID, SITES$site.ID)
 
 A <- cbind(SITES$sites.sitename, SITES$Koeppen, new.KOEPPEN)[!apply(cbind(SITES$Koeppen, new.KOEPPEN), 1, function(x) x[1]== x[2]),]
 
