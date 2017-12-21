@@ -1,7 +1,10 @@
-Record of old column names and what they were changed into
+Record of old column names and what they were changed into. 
+See scripts/z_archive/Changing_column_names_in_data_metadata_and_scripts.R for an automation to change in data, metadata and scripts.
+
 
 old_name --> new.name
 
+commit message template: change collumn names associated to XXX table
 
 VARIABLES
 
@@ -12,8 +15,8 @@ requires_depth --> requires.depth
 METHODOLOGY
 
 method_id --> method.ID
-method_citation --> method.citation
-method_notes --> method.notes
+method_citation--> method.citation
+method_notes--> method.notes
 
 ALLOMETRY
 
@@ -35,11 +38,14 @@ end_dateloc --> end.date.loc
 statname --> stat.name
 area_sampled --> area.sampled
 method_id --> method.ID
+
 allometry --> allometry_1 (to be consistant with covariate_1 and covariate_2)
-allometry2 --> allometry_2
+allometry2 --> allometry_2 (in fact, look for allometry_12 because of previous replacement)
+ATTENTION : remove changes in tables, metadata, Check.R where it was not relevent and from notes and citation.title of measurements
+
 min_dbh --> min.dbh
-coV1_value --> coV1.value 
-coV2_value --> coV2.value 
+coV1_value --> coV_1.value
+coV2_value --> coV_2.value
 dupcode --> dup.code
 dupnum --> dup.num
 loaded_from --> loaded.from
@@ -60,7 +66,6 @@ tropical_extratropical --> tropical.extratropical
 ? indicates.site.that.lacks.info.direct.from.pub --> ask Krista
 loaded_from --> loaded.from
 loaded_by --> loaded.by
-? X --> ask Krista
 
 !+++ NEED TO UPDATE METATDATA< missing loaded_from and by...
 
@@ -71,7 +76,7 @@ historyID --> history.ID
 plotarea --> plot.area
 dateloc --> date.loc
 histcat --> hist.cat
-histtype --> hist.type
+histtype --> hist.type # DO NOT CHANGE IN SCRIPT WITHIN READ.CSV() 
 ? est.regrowth.assumed.same.year --> ask Krista
 histnotes --> hist.notes
 tropical_extratropical --> tropical.extratropical
@@ -80,22 +85,22 @@ PLOTS
 
 plotID --> plot.ID
 plotarea --> plot.area
-regrowth.histtype --> regrowth.hist.type
-distmrs.histtype --> dist.mrs.hist.type
+regrowth.histtype --> regrowth.hist.type # ACTUALLY LOOK FOR regrowth.hist.type because of previous changes
+distmrs.histtype --> dist.mrs.hist.type # ACTUALLY LOOK FOR distmrs.hist.type because of previous changes
 distmrs.yr --> dist.mrs.yr
 dist1.ID --> dist_1.ID
-dist1.histtype --> dist_1.hist.type
+dist1.histtype --> dist_1.hist.type # ACTUALLY LOOK FOR dist1.hist.type because of previous changes
 dist1.mort --> dist_1.mort
 dist1.year --> dist_1.year
 dist2.ID --> dist_2.ID
-dist2.histtype --> dist_2.hist.type
+dist2.histtype --> dist_2.hist.type # ACTUALLY LOOK FOR dist2.hist.type because of previous changes
 dist2.mort --> dist_2.mort
 dist2.year --> dist_2.year
 tropical_extratropical -- > tropical.extratropical
 
 HISTTYPE
 histcat --> hist.cat
-histtype --> hist.type
+histtype --> hist.type # DO NOT CHANGE IN SCRIPT WITHIN READ.CSV() 
 
 
 
