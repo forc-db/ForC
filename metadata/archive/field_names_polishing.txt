@@ -16,8 +16,8 @@ n_records --> n.records
 METHODOLOGY
 
 method_id --> method.ID
-method_citation--> method.citation
-method_notes--> method.notes
+method_citation --> method.citation
+method_notes --> method.notes
 
 ALLOMETRY
 
