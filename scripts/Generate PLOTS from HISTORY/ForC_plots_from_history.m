@@ -17,7 +17,7 @@
 %histID.mat--Matlab matrix (double). This is optional output, which is
     %produced by  setting "renumber_history=1" (below).
     %To renumber/ reorder records, histID.mat must be pasted into
-    %ForC_history.csv (historyID field), and then the file sorted by that
+    %ForC_history.csv (history.ID field), and then the file sorted by that
     %field. If "renumber_history=1" is selected, ForC_plots must also be renumbered to match. 
 
 %~~~~~~~~~~~~~~~~~~~~~~~
@@ -31,12 +31,12 @@ renumber_history=0;  %CAUTION: ONLY SET TO 1 IF RENUMBERING HISTORYID!!!!
 [num text raw] = xlsread(strcat(pwd,'/ForC_history')); 
 
 %read in all data fields
-historyID=raw(2:end, 1);
+history.ID=raw(2:end, 1);
 site=raw(2:end, 2);
     site_upper=upper(raw(2:end, 2)); %sites, transformed to all caps
 plot=(raw(2:end, 3)); %plots,
     plot_upper=upper(raw(2:end, 3)); %plots, transformed to all caps 
-plotarea=raw(2:end,4);
+plot.area=raw(2:end,4);
 event_sequence=num(:,5); %sequence of events
 date_=(raw(2:end,6)); %date (decimal year)
     date_num=num(:,6);
@@ -115,11 +115,11 @@ for n=1:n_plots
         
     %fill in fields that are the same for all records in the original version
     index1=min(index); %index for just the first record for the plot 
-    PLOTID(n,1)={floor(cell2mat(historyID(index1)))};
+    PLOTID(n,1)={floor(cell2mat(history.ID(index1)))};
     TROP_EXTRATROP(n,1)=trop_extratrop(index1);
     SITE(n,1)=site(index1);
     PLOT(n,1)=plot(index1);
-    PLOTAREA(n,1)=plotarea(index1);
+    PLOTAREA(n,1)=plot.area(index1);
     
     %Indeces for HISTTYPE = no.info or no.disturbance. These will be used multiple times
     i_ni=find(strcmp(site_plot, plots_list(n))==1 & (strcmp(dist_cat,'No.info')==1));
@@ -412,8 +412,8 @@ elseif renumber_history==1
     N=num2cell(linspace(1,n_plots, n_plots)');
     ForC_plots=[N SITE PLOT PLOTAREA OUT_ESTABLISHMENT OUT_REGROWTH OUT_DIST_PREV PRIOR_RN OUT_DIST OUT_MAN TROP_EXTRATROP];
     save ForC_plots histID
-    disp('Updated ForC_plots matrix (ForC_plots.mat) and renumbered historyID field (histID.mat) have been produced based on ForC_history.xlsx (this folder).')
-    disp('WARNING! historyID and corresponding ForC_plots entries have been renumbered! DO NOT update ForC_plots (ForC_plots.mat) without also updating the HistoryID field in ForC_history (histID.mat).')
+    disp('Updated ForC_plots matrix (ForC_plots.mat) and renumbered history.ID field (histID.mat) have been produced based on ForC_history.xlsx (this folder).')
+    disp('WARNING! history.ID and corresponding ForC_plots entries have been renumbered! DO NOT update ForC_plots (ForC_plots.mat) without also updating the HistoryID field in ForC_history (histID.mat).')
     disp('WARNING! Ensure that ForC_history.xlsx is up to date (i.e., saved from current master ForC_history.csv) before using ForC_plots.mat to update ForC_plots.csv.' )
 end
 

@@ -155,7 +155,7 @@ if(any(duplicated(SITES$site.ID))) {
 # There are no sites in History that lack records in MEASUREMENTS
 HISTORY %>% 
   anti_join(MEASUREMENTS, by = c("sites.sitename")) %>% 
-  distinct(historyID, sites.sitename) ->
+  distinct(history.ID, sites.sitename) ->
   h_no_m
 cat("There are", nrow(h_no_m), "history records with no corresponding measurements record\n")
 if(nrow(h_no_m)) message("See `h_no_m`")
@@ -164,7 +164,7 @@ if(nrow(h_no_m)) message("See `h_no_m`")
 # There are no sites in History that lack records in SITES
 HISTORY %>% 
   anti_join(SITES, by = c("sites.sitename")) %>% 
-  distinct(historyID, sites.sitename) ->
+  distinct(history.ID, sites.sitename) ->
   h_no_s
 cat("There are", nrow(h_no_s), "history records with no corresponding sites record\n")
 if(nrow(h_no_s)) message("See `h_no_s`")
@@ -175,28 +175,28 @@ if(nrow(h_no_s)) message("See `h_no_s`")
 
 # All disturbance categories and types in HISTORY should be defined
 
-# We need to do some work to ensure that the `histcat` and `histtype` fields are correctly matched
+# We need to do some work to ensure that the `hist.cat` and `hist.type` fields are correctly matched
 # See https://github.com/forc-db/ForC/issues/23#issuecomment-324903771
 pattern1 <- "[(]?_prior[)]?$"  # remove optional "_prior" and "(_prior)"
-HISTORY$histcat2 <- gsub(pattern1, "", HISTORY$histcat)
-HISTTYPE$histcat2 <- gsub(pattern1, "", HISTTYPE$histcat)
+HISTORY$hist.cat2 <- gsub(pattern1, "", HISTORY$hist.cat)
+HISTTYPE$hist.cat2 <- gsub(pattern1, "", HISTTYPE$hist.cat)
 pattern2 <- "Fertilization_[A-Za-z]*$"  # remove _N, _Mg, etc.
-HISTORY$histtype2 <- gsub(pattern2, "Fertilization", HISTORY$histtype)
-HISTTYPE$histtype2 <- gsub(pattern2, "Fertilization", HISTTYPE$histtype)
+HISTORY$hist.type2 <- gsub(pattern2, "Fertilization", HISTORY$hist.type)
+HISTTYPE$hist.type2 <- gsub(pattern2, "Fertilization", HISTTYPE$hist.type)
 HISTORY %>%
-  anti_join(HISTTYPE, by = c("histcat2", "histtype2")) %>%
-  distinct(historyID, histcat, histtype) ->
+  anti_join(HISTTYPE, by = c("hist.cat2", "hist.type2")) %>%
+  distinct(history.ID, hist.cat, hist.type) ->
   h_no_dist
 cat("There are", nrow(h_no_dist), "history records with undefined disturbance category/type combinations\n")
 if(nrow(h_no_dist)) message("See `h_no_dist`")
 
 
 # There are no records in HISTORY that lack corresponding records in PLOTS
-# (these can be identified based on whether the site-plot combination and the historyID 
-# show up in PLOTS. see metadata to understand how historyID works in PLOTS)
+# (these can be identified based on whether the site-plot combination and the history.ID 
+# show up in PLOTS. see metadata to understand how history.ID works in PLOTS)
 HISTORY %>% 
   anti_join(PLOTS, by = c("sites.sitename", "plot.name")) %>% 
-  distinct(historyID, sites.sitename, plot.name) ->
+  distinct(history.ID, sites.sitename, plot.name) ->
   h_no_p
 cat("There are", nrow(h_no_p), "history records with no corresponding plot record\n")
 if(nrow(h_no_p)) message("See `h_no_p`")
@@ -234,24 +234,24 @@ if(nrow(p_no_s)) message("See `p_no_s`")
 # ===== HISTTYPE checks ==== ####
 
 # Disturbance types should only be defined once
-if(any(duplicated(paste(HISTTYPE$histcat, HISTTYPE$histtype)))) {
+if(any(duplicated(paste(HISTTYPE$hist.cat, HISTTYPE$hist.type)))) {
   message("There are duplicated history category/types in the HISTTYPE table!")  
 }
 
-# All histcat exist in HISTORY
-if(!all(gsub("\\(_prior\\)", "", HISTTYPE$histcat) %in% HISTORY$histcat)) stop("There are histcat in HISTTYPE that don't exist in History")
+# All hist.cat exist in HISTORY
+if(!all(gsub("\\(_prior\\)", "", HISTTYPE$hist.cat) %in% HISTORY$hist.cat)) stop("There are hist.cat in HISTTYPE that don't exist in History")
 
 
-# All histtype exist in HISTORY
+# All hist.type exist in HISTORY
 
-if(!all(HISTTYPE$histtype2 %in% HISTORY$histtype))  stop("There are histtype in HISTTYPE that don't exist in History. See HISTTYPE$histtype2[!HISTTYPE$histtype2 %in% HISTORY$histtype]
+if(!all(HISTTYPE$hist.type2 %in% HISTORY$hist.type))  stop("There are hist.type in HISTTYPE that don't exist in History. See HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type]
 ")
-HISTTYPE$histtype2[!HISTTYPE$histtype2 %in% HISTORY$histtype] # Leave Precipitation Diversion
+HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type] # Leave Precipitation Diversion
 
-# All histtype exist in PLOTS
-if(!all(HISTTYPE$histtype %in% unique(c(PLOTS$regrowth.histtype, PLOTS$distmrs.histtype, PLOTS$dist1.histtype, PLOTS$dist2.histtype)))) stop("There are histcat in HISTTYPE that don't exist in PLOTS. SEE")
+# All hist.type exist in PLOTS
+if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$distmrs.hist.type, PLOTS$dist1.hist.type, PLOTS$dist2.hist.type)))) stop("There are hist.cat in HISTTYPE that don't exist in PLOTS. SEE")
 
-  HISTTYPE$histtype[!HISTTYPE$histtype %in% unique(c(PLOTS$regrowth.histtype, PLOTS$distmrs.histtype, PLOTS$dist1.histtype, PLOTS$dist2.histtype))] # keep for furture records
+  HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$distmrs.hist.type, PLOTS$dist1.hist.type, PLOTS$dist2.hist.type))] # keep for furture records
 
 
   

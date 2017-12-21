@@ -172,9 +172,9 @@ min(c (sum(x == "B"), sum(x == "E"))) # <23 ForC sites
 
 ###  Within Figure_of_Climate_of_forC.R script and then, run sum(apply(cbind(WorldClim.missing.map.mat$map, WorldClim.missing.map.mat$mat), 1, function(x) all(!is.na(x)))) # 407
 
-## Plot area (plotarea) is recorded in the PLOTS table for ##% of records.  ##
+## Plot area (plot.area) is recorded in the PLOTS table for ##% of records.  ##
 
-sum(!PLOTS$plotarea %in% NA.forms & !is.na(PLOTS$plotarea)) * 100 / nrow(PLOTS) # 28 %
+sum(!PLOTS$plot.area %in% NA.forms & !is.na(PLOTS$plot.area)) * 100 / nrow(PLOTS) # 28 %
 
 
 ## ForC-db contains ## variables (VARIABLES table). ####
