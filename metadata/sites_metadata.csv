@@ -1,4 +1,4 @@
-Column,Field,Description,Alphanumeric.attributes..storage.type..present.data.values.,Variable.codes,Units,n,min,max
+Column,Field,Description,Storage Type,Variable Codes,Units,n,Min ,Max
 1 / A,site.ID,Unique numerical identifier for each record in the SITES table.,numeric (integer),-,-,2069,1,2070
 2 / B,sites.sitename,"Site identifier, sufficient to uniquely identify the site within the paper. Links to MEASUREMENTS, PLOTS, and HISTORY tables.",character (string),-,-,2070,-,-
 3 / C,city,"Nearest city, when identified in original publication.",character (string),-,-,494,-,-
@@ -6,7 +6,7 @@ Column,Field,Description,Alphanumeric.attributes..storage.type..present.data.val
 5 / E,country,Country,character (string),-,-,2070,-,-
 6 / F,lat,"Latitude, where negative values indicate S hemisphere",numeric (double),-,decimal degrees,2070,-43,73
 7 / G,lon,"Longitude, where negative values indicate W hemisphere",numeric (double),-,decimal degrees,2070,-171,175
-8 / H,masl,"Elevation. When a range is given, midpoint is reported.",numeric (double),-,m.a.s.l.,1211,1,3900
+8 / H,masl,"Elevation in meters above sea level. When a range is given, midpoint is reported.",numeric (double),-,m ,1211,1,3900
 9 / I,geography.notes,"Notes pertaining to site name, location, or topography",character (string),-,-,155,-,-
 10 / J,mat,Mean annual temperature ,numeric (double),-,C,1621,-17,30
 11 / K,min.temp,Mean temperature of the coldest month ,numeric (double),-,C,146,-43,23
@@ -19,12 +19,12 @@ Column,Field,Description,Alphanumeric.attributes..storage.type..present.data.val
 18 / R,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,,104,-,-
 19 / S,site.notes,Site details not included above,character (string),-,-,122,-,-
 20 / T,site.ref,"References (in addition to those associated with measurement data) used to obtain site data. When all site data were obtained from references associated with measurement data, this field is populated with ""NA"".",character (string),-,-,809,-,-
-21 / U,geographic.area,"Groups sites that are geographically proximate using Matlab (2017a)'s clusterdata function with cutoff=0.75. Note that groupings are subject to change. These differ from those published in Anderson-Teixeira et al. (2016), albiet with roughly similar site groups.",numeric (integer) ,-,-,2070,1,827
+21 / U,geographic.area,"Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github “scripts” folder).",numeric (integer) ,-,-,2070,1,827
 22 / V,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,2070,-,-
 23 / W,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,2070,-,-
-24 / X,FAO.ecozone,"FAO global ecological zones classification, extracted from FAO?s GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,2065,-,-
+24 / X,FAO.ecozone,"FAO global ecological zones classification, extracted from FAO's GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,2065,-,-
 25 / Y,site.ID.v1,"Original site.ID, where numbers <=503 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,725,1,1425
 26 / Z,tropical.extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,2070,-,-
-27 / AA,lacks.info.from.ori.pub,Indicates studies that were flagged because they lack information obtained directly from the original study. A missing value code ('NA') does not necessarily guarentee that information was obtained from an original publication. ,numeric (integer),1- lacks info from original pub,-,425,1,1
+27 / AA,lacks.info.from.ori.pub,Indicates studies that were flagged because they lack information obtained directly from the original study. A missing value code ('NA') does not necessarily guarantee that information was obtained from an original publication. ,numeric (integer),1- lacks info from original pub,-,425,1,1
 28 / AB,loaded.from,"Reference to data compilations from which data were obtained, if applicable. ",character (string),-,-,1145,-,-
 29 / AC,loaded.by,Name of individual who created the record,character (string),-,-,1189,-,-

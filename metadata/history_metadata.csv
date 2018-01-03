@@ -1,17 +1,17 @@
-"Column","Field","Description","Alphanumeric.attributes..storage.type..present.data.values.","Variable.codes","Units","n","min","max"
-"1 / A","history.ID","Unique numerical identifier for each record in the history table. ","numeric (decimal)","-","-",6159,"1","2731"
-"2 / B","sites.sitename","Unique site identifier, sufficient to identify the site within the original publication. Links to SITES, PLOTS and MEASUREMENTS tables.","character (string)","-","-",6159,"-","-"
-"3 / C","plot.name","Unique plot name, sufficient to identify the plot within the original publication.","character (string)","-","-",5993,"-","-"
-"4 / D","plot.area","Area of plot or combined area of replicate plots.","numeric (double)","-","ha",2131,"0","50"
-"5 / E","event.sequence","Order of event within the sequence of existing records. This allows determination of event order when dates are missing or events have the same date. NOTE: This field was created after original data entry based on order entered and notes, not in consultation with original publications.  ","numeric (integer)","-","-",6159,"1","39"
-"6 / F","date","Date of plot history event.","character (string)","-","decimal years",4052,"1013","2011"
-"7 / G","date.loc","Level of confidence in date.","numeric (double)","Given in Table #","-",6159,"5","9"
-"8 / H","hist.cat","Plot history event categories.","string (mixed upper and lower case letters, numbers, and special characters)","Given in HISTTYPE metadata table","-",6159,"-","-"
-"9 / I","hist.type","Plot history event types. ","string (mixed upper and lower case letters, numbers, and special characters)","Given in HISTTYPE metadata table","-",5376,"-","-"
-"10 / J","est.regrowth.assumed.same.year","Indicates whether it is assumed that establishment of the oldest trees and regrowth (e.g., initiation of post-disturbance cohort, planting) occurred in the same year. These may differ if there was a lag in tree establishment following a severe/stand clearing disturbance or if some trees survived the most recent severe/stand clearing disturbance. ","numeric (integer)","0- false; 1- true","-",2682,"0","1"
-"11 / K","level","Intensity/frequency/amount applied of history event type, if available.","character (string)","-","-",996,"-","-"
-"12 / L","units","Level units.","character (string)","-","-",955,"-","-"
-"13 / M","percent.mortality","Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.","numeric (double)","-","-",1595,"4","100"
-"14 / N","hist.notes","History event details not included above.","character (string)","-","-",3596,"-","-"
-"15 / N","plothistory.ID.v1","Original plothistory.ID, where numbers _2441 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)","numeric (integer)","-","-",2477,"1","5722"
-"16 / O ","tropical.extratropical","Indicates whether data is from tropical or extratropical regions.","character (string)","tropical, extratropical","-",6159,"-","-"
+Column,Field,Description,Storage Type,Variable Codes,Units,n,Min ,Max
+1 / A,history.ID,Unique numerical identifier for each record in the history table. ,numeric (decimal),-,-,6159,1,2731
+2 / B,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES, PLOTS and MEASUREMENTS tables.",character (string),-,-,6159,-,-
+3 / C,plot.name,"Unique plot name, sufficient to identify the plot within the original publication.",character (string),-,-,5993,-,-
+4 / D,plot.area,Area of plot or combined area of replicate plots.,numeric (double),-,ha,2131,0,50
+5 / E,event.sequence,"Order of event within the sequence of existing records. This allows determination of event order when dates are missing or events have the same date. NOTE: This field was created after original data entry based on order entered and notes, not in consultation with original publications.  ",numeric (integer),-,-,6159,1,39
+6 / F,date,Date of plot history event.,character (string),-,decimal years,4052,1013,2011
+7 / G,date.loc,Level of confidence in date.,numeric (double),Given in dateLOC table,-,6159,5,9
+8 / H,hist.cat,Plot history event categories.,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,6159,-,-
+9 / I,hist.type,Plot history event types. ,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,5376,-,-
+10 / J,est.regrowth.assumed.same.year,"Indicates whether it is assumed that establishment of the oldest trees and regrowth (e.g., initiation of post-disturbance cohort, planting) occurred in the same year. These may differ if there was a lag in tree establishment following a severe/stand clearing disturbance or if some trees survived the most recent severe/stand clearing disturbance. ",numeric (integer),0- false; 1- true,-,2682,0,1
+11 / K,level,"Intensity/frequency/amount applied of history event type, if available.",character (string),-,-,996,-,-
+12 / L,units,Level units.,character (string),-,-,955,-,-
+13 / M,percent.mortality,Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.,numeric (double),-,-,1595,4,100
+14 / N,hist.notes,History event details not included above.,character (string),-,-,3596,-,-
+15 / N,plothistory.ID.v1,"Original plothistory.ID, where numbers _2441 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)",numeric (integer),-,-,2477,1,5722
+16 / O ,tropical.extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,6159,-,-
