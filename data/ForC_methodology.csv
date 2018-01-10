@@ -46,8 +46,8 @@ method.ID,method.citation,variables.name,method.notes
 413,Lugo et al 1992,Biomass_root_total,Soil cores
 418,Egunjobi et al 1979,Biomass_root_total,Root weight was estimated by proportion from the rela- tionship in the two destructively sampled trees
 429,Uhl et al 1987,Biomass_root_total,root harvesting in plots/pits
-392,Delaney ey al. 1997,Biomass_total,"See 385, 391"
-410,Egunjobi et al 1979; Saldarriaga et al 1988; Uhl and Jordan 1984; Uhl et al 1987,Biomass_total,Summation of biomass components
+392,Delaney ey al. 1997,biomass_OM,"See 385, 391"
+410,Egunjobi et al 1979; Saldarriaga et al 1988; Uhl and Jordan 1984; Uhl et al 1987,biomass_OM,Summation of biomass components
 78,Hanson et al 2003,BNPP_coarse root,20% of aboveground wood increment
 90,Ehman et al 2002,BNPP_coarse root,Soil cores
 102,Law et al 2001,BNPP_coarse root,25% above ground wood C
