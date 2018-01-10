@@ -72,7 +72,7 @@ id,variables.type,variable.name,units,description,equations,requires.allometry,r
 71,stock,biomass_ag_woody_C,Mg C ha-1,Total carbon in aboveground structural (stem + branch) biomass,NA,1,1,0,NA,NA,251,0,640.35,NA
 72,stock,biomass_ag_foliage_OM,Mg ha-1,Total foliage biomass,NA,1,1,0,NA,NA,300,0.009,35,NA
 73,stock,biomass_ag_foliage_C,Mg C ha-1,Total carbon in foliage biomass,NA,1,1,0,NA,NA,239,0,19.23,NA
-74,stock,biomass_root_OM,Mg ha-1,Total root biomass,biomass_root_OM = Biomass_root_coarse + Biomass_root_fine,1,1,1,root_diameter_min,NA,398,0.098,151,NA
+74,stock,biomass_root_OM,Mg ha-1,Total root biomass,biomass_root_OM = biomass_root_coarse_OM + Biomass_root_fine,1,1,1,root_diameter_min,NA,398,0.098,151,NA
 75,stock,biomass_root_C,Mg C ha-1,Total carbon in root biomass,biomass_root_C = C_root_coarse + C_root_fine,1,1,1,root_diameter_min,NA,642,0,181.63,NA
 76,stock,biomass_root_coarse_OM,Mg ha-1,"Total coarse root biomass. Typical size cutoff (root_diameter_min) is 1-2 mm diameter, with preference given to root_diameter_min = 1 mm when there is an option.",NA,1,1,0,root_diameter_min,NA,152,0.03,135.9944444,NA
 77,stock,biomass_root_coarse_C,Mg C ha-1,"Total carbon in coarse root biomass. Typical size cutoff (root_diameter_min) is 1-2 mm diameter, with preference given to root_diameter_min = 1 mm when there is an option.",NA,1,1,0,root_diameter_min,NA,183,0,208.78,NA
