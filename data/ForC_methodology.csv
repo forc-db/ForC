@@ -6,8 +6,8 @@ method.ID,method.citation,variables.name,method.notes
 434,Kadeba 1991,ANPP_0_OM,ANPP_0_OM is mean periodic aboveground production plus mean annual litterfall
 435,Uhl et al 1987,ANPP_0_OM,ANPP_0_OM was calculated by combining litter (leaf+branch) and growth data (allometric relations based on height and diameter).
 397,Malhi et al 2014,ANPP_woody_branch_OM,"Harvest (branches > 2 cm diameter), larger branches measured diameter at 3 points, assigned wood density value"
-398,Malhi et al 2014,ANPP_foliage,"Litter traps, separated into components, oven dried and weighed"
-430,Uhl and Jordan 1984,ANPP_foliage,litter collection
+398,Malhi et al 2014,ANPP_foliage_OM,"Litter traps, separated into components, oven dried and weighed"
+430,Uhl and Jordan 1984,ANPP_foliage_OM,litter collection
 218,Pers. Commun. Bonal,ANPP_foliage_C,"includes foliage, repro production as detailed in methodology source."
 399,Malhi et al 2014; Araujo-Murakami 2014; da Costa et al. 2014; del-Aguila-Pasquel et al. 2014; Doughty et al. 2014; Rocha et al. 2014,ANPP_folivory,Leaves collected in litterfall traps photographed before drying. Leaves scanned to calculate leaf area lost to herbivory. The fractional herbivory (H) for each leaf was calculated (see Table 3)
 437,Kira 1978 in Clark 2013,ANPP_folivory,"from caterpillar frass in littertraps, and assuming 13% efficiency; this = 4.4% of leaf prod."
