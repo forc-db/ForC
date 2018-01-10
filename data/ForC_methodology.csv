@@ -35,9 +35,9 @@ method.ID,method.citation,variables.name,method.notes
 414,Egunjobi et al 1979,biomass_ag_woody_OM,Harvesting
 419,Montagnini et al 2000,biomass_ag_woody_OM,Harvest (thinning)
 443,Saldarriaga 1988; Uhl and Jordan 1984,biomass_ag_woody_OM,"Harvest, allometric relations"
-415,Egunjobi et al 1979; Gehring et al 1999,Biomass_foliage,Harvesting
-420,Montagnini et al 2000,Biomass_foliage,Harvest (thinning)
-422,Saldarriaga 1988; Uhl and Jordan 1984; Uhl 1987,Biomass_foliage,"Harvest, allometric relations"
+415,Egunjobi et al 1979; Gehring et al 1999,biomass_ag_foliage_OM,Harvesting
+420,Montagnini et al 2000,biomass_ag_foliage_OM,Harvest (thinning)
+422,Saldarriaga 1988; Uhl and Jordan 1984; Uhl 1987,biomass_ag_foliage_OM,"Harvest, allometric relations"
 407,Uhl and Jordan 1984,Biomass_root_coarse,root harvesting in plots/pits
 423,Sierra et al 2007; Sierra et al 2012,Biomass_root_coarse,"Harvest, allometric relations"
 412,Lugo et al 1992; Sierra et al 2012; Sierra et al 2007,Biomass_root_fine,Soil cores
