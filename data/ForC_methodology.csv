@@ -275,7 +275,7 @@ method.ID,method.citation,variables.name,method.notes
 372,Griffis et al 2004,R_auto_C,bole chamber + model
 375,Fenn et al submitted,R_auto_C,Chamber measurements + micromesh bags
 402,Malhi et al 2014,R_auto_C,Ra = Rleaf + Rstem + Rrhizosphere + Rcoarse root
-403,Malhi et al 2014,R_foliage_annual,Leaf gas exchange measurements of Rdark were performed using infra-red gas analysers
+403,Malhi et al 2014,R_auto_foliage_C,Leaf gas exchange measurements of Rdark were performed using infra-red gas analysers
 253,Williams et al 2005,R_het_annual,Manual system for root contributions to Rs (Law et
 256,Lloyd et al 2002,R_het_annual,Shibistova et al. 2002
 259,Arneth et al 1998,R_het_annual,NPP - NEP
