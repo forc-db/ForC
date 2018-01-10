@@ -1,1 +1,10 @@
-﻿Date LOC,Definition9,nodata8.5,"approximate year (e.g., decade)"8,year7.5,range of seasons within a year7,season6.5,range of months within a season6,month5.5,range of days within a month5,day
+﻿Date LOC,Definition
+9,nodata
+8.5,"approximate year (e.g., decade)"
+8,year
+7.5,range of seasons within a year
+7,season
+6.5,range of months within a season
+6,month
+5.5,range of days within a month
+5,day
