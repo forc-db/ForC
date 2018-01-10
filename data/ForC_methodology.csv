@@ -276,53 +276,53 @@ method.ID,method.citation,variables.name,method.notes
 375,Fenn et al submitted,R_auto_C,Chamber measurements + micromesh bags
 402,Malhi et al 2014,R_auto_C,Ra = Rleaf + Rstem + Rrhizosphere + Rcoarse root
 403,Malhi et al 2014,R_auto_foliage_C,Leaf gas exchange measurements of Rdark were performed using infra-red gas analysers
-253,Williams et al 2005,R_het_annual,Manual system for root contributions to Rs (Law et
-256,Lloyd et al 2002,R_het_annual,Shibistova et al. 2002
-259,Arneth et al 1998,R_het_annual,NPP - NEP
-261,Kimball et al 1997,R_het_annual,BIOME-BGC
-262,Black et al 2005,R_het_annual,Trenching
-264,Mission et al 2005,R_het_annual,Trench plot (root exclusion plot)
-269,Hamilton et al 2002,R_het_annual,Model
-272,Schulze 2000,R_het_annual,Trenched/clearcuts
-275,Kutsch 2001,R_het_annual,litter + fine root turnover (C-balance)
-277,Tang and Bolstad; 2006,R_het_annual,Use in-growth cores and sequential coring to estim
-280,Yan et al 2006,R_het_annual,Rs-Ra_roots
-284,Ito et al 2005,R_het_annual,Sim-CYCLE
-286,Roupsard et al 2006,R_het_annual,Trenched
-288,Epron et al 2006,R_het_annual,measured in gap (clearcut)
-290,Maier and Kress 2000,R_het_annual,Root excised
-292,Bhupinderpal-Singh et al 2003,R_het_annual,Girdling
-294,O'Connell et al 2003,R_het_annual,Trenching
-297,Maier et al 2004,R_het_annual,Model
-300,Malhi et al 1999,R_het_annual,NPP - NEP
-302,Li et al 2004,R_het_annual,Trenching
-304,Xu et al 2001,R_het_annual,root regression model
-306,Andrews et al 1999,R_het_annual,Isotopes
-308,Eliason et al 2005,R_het_annual,Model
-310,Nakane 1983,R_het_annual,Gap (Clearcut)
-312,Moncrieff and Fang 1999,R_het_annual,Model
-314,Buchmann 2000,R_het_annual,Mass balance
-316,Hayes & Gower 1995,R_het_annual,Trenching
-318,Cronan 2003,R_het_annual,Mass balance
-320,Nakane 1995,R_het_annual,Model
-322,Dorr and Munnich 1987,R_het_annual,radiocarbon
-324,Behera et al 1990,R_het_annual,root regression model
-328,Ehman et al 2002,R_het_annual,litter + fine root turnover (C-balance)
-331,Law et al 2001,R_het_annual,Root excised
-333,pers. commun. Bonal,R_het_annual,Trenching
-336,Sierra et al 2007,R_het_annual,Trenching
-339,Pers. Commun. Goulden,R_het_annual,Rs-Ra_roots
-342,Pers. Commun. Malhi,R_het_annual,Rs-Ra_roots
-344,Wang & Yang 2006,R_het_annual,Trenching
-348,Cook et al 2004,R_het_annual,Rs-Ra_roots
-358,Campbell et al 2004,R_het_annual,Rs-Ra_roots
-361,Harmon et al 2004,R_het_annual,(detritus+soil)*decay
-362,Dannenmann et al 2007,R_het_annual,Barometric Process Separation
-364,Gough et al 2007,R_het_annual,Component integration (Hanson et al 2000)
-367,Gaudinski et al 2000,R_het_annual,Isotopic signature
-370,Yang et al 2007,R_het_annual,Gap (Dirt plots stratified design)
-373,Griffis et al 2004,R_het_annual,Trenching?
-376,Fenn et al submitted,R_het_annual,Micromesh bags
+253,Williams et al 2005,R_soil_het_C,Manual system for root contributions to Rs (Law et
+256,Lloyd et al 2002,R_soil_het_C,Shibistova et al. 2002
+259,Arneth et al 1998,R_soil_het_C,NPP - NEP
+261,Kimball et al 1997,R_soil_het_C,BIOME-BGC
+262,Black et al 2005,R_soil_het_C,Trenching
+264,Mission et al 2005,R_soil_het_C,Trench plot (root exclusion plot)
+269,Hamilton et al 2002,R_soil_het_C,Model
+272,Schulze 2000,R_soil_het_C,Trenched/clearcuts
+275,Kutsch 2001,R_soil_het_C,litter + fine root turnover (C-balance)
+277,Tang and Bolstad; 2006,R_soil_het_C,Use in-growth cores and sequential coring to estim
+280,Yan et al 2006,R_soil_het_C,Rs-Ra_roots
+284,Ito et al 2005,R_soil_het_C,Sim-CYCLE
+286,Roupsard et al 2006,R_soil_het_C,Trenched
+288,Epron et al 2006,R_soil_het_C,measured in gap (clearcut)
+290,Maier and Kress 2000,R_soil_het_C,Root excised
+292,Bhupinderpal-Singh et al 2003,R_soil_het_C,Girdling
+294,O'Connell et al 2003,R_soil_het_C,Trenching
+297,Maier et al 2004,R_soil_het_C,Model
+300,Malhi et al 1999,R_soil_het_C,NPP - NEP
+302,Li et al 2004,R_soil_het_C,Trenching
+304,Xu et al 2001,R_soil_het_C,root regression model
+306,Andrews et al 1999,R_soil_het_C,Isotopes
+308,Eliason et al 2005,R_soil_het_C,Model
+310,Nakane 1983,R_soil_het_C,Gap (Clearcut)
+312,Moncrieff and Fang 1999,R_soil_het_C,Model
+314,Buchmann 2000,R_soil_het_C,Mass balance
+316,Hayes & Gower 1995,R_soil_het_C,Trenching
+318,Cronan 2003,R_soil_het_C,Mass balance
+320,Nakane 1995,R_soil_het_C,Model
+322,Dorr and Munnich 1987,R_soil_het_C,radiocarbon
+324,Behera et al 1990,R_soil_het_C,root regression model
+328,Ehman et al 2002,R_soil_het_C,litter + fine root turnover (C-balance)
+331,Law et al 2001,R_soil_het_C,Root excised
+333,pers. commun. Bonal,R_soil_het_C,Trenching
+336,Sierra et al 2007,R_soil_het_C,Trenching
+339,Pers. Commun. Goulden,R_soil_het_C,Rs-Ra_roots
+342,Pers. Commun. Malhi,R_soil_het_C,Rs-Ra_roots
+344,Wang & Yang 2006,R_soil_het_C,Trenching
+348,Cook et al 2004,R_soil_het_C,Rs-Ra_roots
+358,Campbell et al 2004,R_soil_het_C,Rs-Ra_roots
+361,Harmon et al 2004,R_soil_het_C,(detritus+soil)*decay
+362,Dannenmann et al 2007,R_soil_het_C,Barometric Process Separation
+364,Gough et al 2007,R_soil_het_C,Component integration (Hanson et al 2000)
+367,Gaudinski et al 2000,R_soil_het_C,Isotopic signature
+370,Yang et al 2007,R_soil_het_C,Gap (Dirt plots stratified design)
+373,Griffis et al 2004,R_soil_het_C,Trenching?
+376,Fenn et al submitted,R_soil_het_C,Micromesh bags
 404,Malhi et al 2014,R_auto_wood_C,"Bole respiration was measured using a closed dynamic chamber method with an IRGA (EGM-4) and soil respiration chamber (SRC-1) connected to a permanent collar, sealed to the tree bole surface"
 3,Valentini et al 2000,Reco,Ecosystem respiration based on nighttime respiration vs soil or air temperature relationship
 6,Arneth et al 1998,Reco,Model without name
