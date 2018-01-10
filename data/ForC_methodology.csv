@@ -127,11 +127,11 @@ method.ID,method.citation,variables.name,method.notes
 250,Moser et al 2011,BNPP_fine root,Minirhizotrons
 431,Malhi et al 2014,BNPP_fine root,ingrowth cores
 445,Meakem et al. 2017,biomass_ag_C,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries. Estimated C as 47% of biomass."
-389,Delaney ey al. 1997,Deadwood,down dead wood sampled using line intersect method (Brown 1974); standing dead wood using allometric relations subtracting 10%
-416,Gehring et al 1999,Deadwood,Harvesting
-424,Saldarriaga 1988,Deadwood,"Harvest, allometric relations"
-426,Uhl 1988,Deadwood,"Measured DBH, height; Allometric relations"
-432,Hughes et al 1999,Deadwood,Measured DBH; Allometric relations
+389,Delaney ey al. 1997,deadwood_OM,down dead wood sampled using line intersect method (Brown 1974); standing dead wood using allometric relations subtracting 10%
+416,Gehring et al 1999,deadwood_OM,Harvesting
+424,Saldarriaga 1988,deadwood_OM,"Harvest, allometric relations"
+426,Uhl 1988,deadwood_OM,"Measured DBH, height; Allometric relations"
+432,Hughes et al 1999,deadwood_OM,Measured DBH; Allometric relations
 393,Delaney ey al. 1997,Ecosystem_2,"See 385, 388-391"
 1,Valentini et al 2000,GPP,NEP + estimated Re
 4,Arneth et al 1998,GPP,Model no name given
