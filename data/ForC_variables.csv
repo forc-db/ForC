@@ -19,9 +19,9 @@ id,variables.type,variable.name,units,description,equations,requires.allometry,r
 18,flux,NPP_woody_C,Mg C ha-1 yr-1,"Woody NPP: annual increments in live woody biomass C (branch, stem, coarse root) estimated using allometric equations.",NPP_woody_C = ANPP_woody_C + BNPP_coarse root_C,1,1,1,include_recruitment,NA,137,0.08,19.06,NA
 19,flux,NPP_understory_OM,Mg ha-1 yr-1,Total understory NPP. Components included may vary.,NA,0,0,0,NA,NA,0,-,-,NA
 20,flux,NPP_understory_C,Mg C ha-1 yr-1,Total understory NPP. Components included may vary.,NA,0,0,0,NA,NA,199,0,6.65,NA
-21,flux,ANPP_0_OM,Mg ha-1 yr-1,"Annual aboveground NPP, where components included are unknown/do not fit the definition of ANPP_1 / ANPP_2",NA,1,1,0,include_recruitment,NA,38,0.263981,103.7,NA
-22,flux,ANPP_0_C,Mg C ha-1 yr-1,"Annual aboveground NPP, where components included are unknown/do not fit the definition of ANPP_1 / ANPP_2",NA,1,1,0,include_recruitment,NA,35,0.1191,52.18,NA
-23,flux,ANPP_1_OM,Mg ha-1 yr-1,"Annual aboveground NPP, including foliage and stem growth",ANPP_1 = ANPP_stem + ANPP_foliage,1,1,0,include_recruitment,NA,9,1.33,19.1,NA
+21,flux,ANPP_0_OM,Mg ha-1 yr-1,"Annual aboveground NPP, where components included are unknown/do not fit the definition of ANPP_1_OM / ANPP_2",NA,1,1,0,include_recruitment,NA,38,0.263981,103.7,NA
+22,flux,ANPP_0_C,Mg C ha-1 yr-1,"Annual aboveground NPP, where components included are unknown/do not fit the definition of ANPP_1_OM / ANPP_2",NA,1,1,0,include_recruitment,NA,35,0.1191,52.18,NA
+23,flux,ANPP_1_OM,Mg ha-1 yr-1,"Annual aboveground NPP, including foliage and stem growth",ANPP_1_OM = ANPP_stem + ANPP_foliage,1,1,0,include_recruitment,NA,9,1.33,19.1,NA
 24,flux,ANPP_1_C,Mg C ha-1 yr-1,"Annual aboveground NPP, including foliage and stem growth",ANPP_1_C = ANPP_stem_C + ANPP_foliage_C,1,1,0,include_recruitment,NA,217,0.01,22.42,NA
 25,flux,ANPP_2_OM,Mg ha-1 yr-1,"Annual aboveground NPP, including foliage, stem growth, and branch turnover",(1) ANPP_2 = ANPP_foliage + ANPP_stem + ANPP_branch; (2) ANPP_2 = ANPP_foliage + ANPP_woody,1,1,0,include_recruitment,NA,26,0.94,39.1,NA
 26,flux,ANPP_2_C,Mg C ha-1 yr-1,"Annual aboveground NPP, including foliage, stem growth, and branch turnover",(1) ANPP_2_C = ANPP_foliage_C + ANPP_stem_C + ANPP_branch_C; (2) ANPP_2_C = ANPP_foliage_C + ANPP_woody_C,1,1,0,include_recruitment,NA,397,0,17.81,NA
