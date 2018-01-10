@@ -188,7 +188,7 @@ method.ID,method.citation,variables.name,method.notes
 67,Harmon et al 2004,NEP,NPP-Rh
 69,Gough et al 2007,NEP,Biometric
 70,Yang et al 2007,NEP,NPP-Rh
-446,Meakem et al. 2017,net_change_agb_C,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
+446,Meakem et al. 2017,delta.agb_C,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
 80,Hanson et al 2003,NPP,"includes foliage, stem, coarse root, fine root, branch, understory, herbivory, repro production as detailed in methodology source."
 83,Williams et al 1997; Schuur et al 2005,NPP,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
 86,Ryan et al 1996,NPP,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
