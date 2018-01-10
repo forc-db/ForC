@@ -258,23 +258,23 @@ method.ID,method.citation,variables.name,method.notes
 386,Lugo et al 1992,Organic_layer,multiplying the concentration of organic matter at the center of each soil horizon in the 1 x 1 x 1 m pit by the thickness of the horizon and its bulk density
 388,Delaney et al 1997,Organic_layer,Litter sampled and weighed
 417,Egunjobi et al 1979; Hughes et al 1999,Organic_layer,Harvesting
-252,Williams et al 2005,R_auto_annual,foliage and stem respiration (Law et al 1999)
-255,Lloyd et al 2002,R_auto_annual,Shibistova et al. 2002
-258,Arneth et al 1998,R_auto_annual,C-balance
-266,Kutsch et al 2005,R_auto_annual,C-balance
-274,Kutsch 2001,R_auto_annual,foliage and stem respiration + decomposition
-283,Ito et al 2005,R_auto_annual,Sim-CYCLE
-296,Maier et al 2004,R_auto_annual,Model
-299,Malhi et al 1999,R_auto_annual,C-balance
-338,Pers. Commun. Goulden,R_auto_annual,NPP_roots
-341,Pers. Commun. Malhi,R_auto_annual,foliage and wood respiration
-355,Navarro et al 2008,R_auto_annual,GPP-NPP
-356,Ryan et al 1997,R_auto_annual,Chamber measurements of the components
-357,Campbell et al 2004,R_auto_annual,Ra_roots+Ra_foliage+Ra_wood
-360,Harmon et al 2004,R_auto_annual,"biomass, temperature function adjusted by Ra_folia"
-372,Griffis et al 2004,R_auto_annual,bole chamber + model
-375,Fenn et al submitted,R_auto_annual,Chamber measurements + micromesh bags
-402,Malhi et al 2014,R_auto_annual,Ra = Rleaf + Rstem + Rrhizosphere + Rcoarse root
+252,Williams et al 2005,R_auto_C,foliage and stem respiration (Law et al 1999)
+255,Lloyd et al 2002,R_auto_C,Shibistova et al. 2002
+258,Arneth et al 1998,R_auto_C,C-balance
+266,Kutsch et al 2005,R_auto_C,C-balance
+274,Kutsch 2001,R_auto_C,foliage and stem respiration + decomposition
+283,Ito et al 2005,R_auto_C,Sim-CYCLE
+296,Maier et al 2004,R_auto_C,Model
+299,Malhi et al 1999,R_auto_C,C-balance
+338,Pers. Commun. Goulden,R_auto_C,NPP_roots
+341,Pers. Commun. Malhi,R_auto_C,foliage and wood respiration
+355,Navarro et al 2008,R_auto_C,GPP-NPP
+356,Ryan et al 1997,R_auto_C,Chamber measurements of the components
+357,Campbell et al 2004,R_auto_C,Ra_roots+Ra_foliage+Ra_wood
+360,Harmon et al 2004,R_auto_C,"biomass, temperature function adjusted by Ra_folia"
+372,Griffis et al 2004,R_auto_C,bole chamber + model
+375,Fenn et al submitted,R_auto_C,Chamber measurements + micromesh bags
+402,Malhi et al 2014,R_auto_C,Ra = Rleaf + Rstem + Rrhizosphere + Rcoarse root
 403,Malhi et al 2014,R_foliage_annual,Leaf gas exchange measurements of Rdark were performed using infra-red gas analysers
 253,Williams et al 2005,R_het_annual,Manual system for root contributions to Rs (Law et
 256,Lloyd et al 2002,R_het_annual,Shibistova et al. 2002
