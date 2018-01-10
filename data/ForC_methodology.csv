@@ -323,7 +323,7 @@ method.ID,method.citation,variables.name,method.notes
 370,Yang et al 2007,R_het_annual,Gap (Dirt plots stratified design)
 373,Griffis et al 2004,R_het_annual,Trenching?
 376,Fenn et al submitted,R_het_annual,Micromesh bags
-404,Malhi et al 2014,R_wood_annual,"Bole respiration was measured using a closed dynamic chamber method with an IRGA (EGM-4) and soil respiration chamber (SRC-1) connected to a permanent collar, sealed to the tree bole surface"
+404,Malhi et al 2014,R_auto_wood_C,"Bole respiration was measured using a closed dynamic chamber method with an IRGA (EGM-4) and soil respiration chamber (SRC-1) connected to a permanent collar, sealed to the tree bole surface"
 3,Valentini et al 2000,Reco,Ecosystem respiration based on nighttime respiration vs soil or air temperature relationship
 6,Arneth et al 1998,Reco,Model without name
 9,Chambers et al 2004,Reco,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
