@@ -22,16 +22,16 @@ method.ID,method.citation,variables.name,method.notes
 425,Alves et al 1997; Malhi et al 2014,ANPP_stem,"Measured DBH, height; Allometric relations"
 384,Malhi et al 2004,ANPP_woody_stem_C,"Where the individual tree data (including taxonomy) are available, we use allometric equation (Baker et al. 2004) to directly estimate the above-ground biomass at every census."
 447,Meakem et al. 2017,ANPP_woody_stem_C,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody productivity as summed changes in biomass of individual stems divided by census inverval"
-378,Egunjobi et al 1979; Gehring et al 1999,Biomass_ag,Harvesting
-379,Montagnini et al 2000,Biomass_ag,Harvest (thinning)
-380,Aide et al 1995; Chan et al 2013; Saldarriaga 1988; Sierra 2007; Sierra 2012; Uhl and Jordan 1984; Uhl et al 1987,Biomass_ag,"Harvest, allometric relations"
-381,Lewis et al 2009,Biomass_ag,"measure the diameter of all trees that are_100_mm in diameter in a given area (mean 2.1_ha) at least twice (mean interval 9.4_years), and apply allometric equations to convert tree-diameter measurements to carbon content"
-382.1,Lugo et al 1992,Biomass_ag,Aboveground tree biomass was estimated allometrically using tree inventory data and biomass-diameter relation
-383.1,Lugo et al 1992,Biomass_ag,"Pine, mahogany, and roble (Tabebuia heterophylla (DC.) Britton) trees were harvested to supplement available biomass information on these species. Least squares regression analysis was used to develop biomass-diameter relation"
-385,Hughes et al 1999; Zarin et al 2001; Gehring et al 2005; Letcher et al 2009; Becknell et al 2014; Delaney et al 1997; Baker et al 2004; ,Biomass_ag,Measured DBH; Allometric relations
-387,Broadbent et al 2014,Biomass_ag,"Measured DBH, height, crown exposure; allometric relations"
-444,Tepley et al 2017,Biomass_ag,"Measured dbh, total height, and crown base height for tree species > 1.5 cm dbh; measured total height and crown diameter for shrub species and tree species < 1.5 cm dbh; entered into allometric equations"
-396,Alves et al 1997; Malhi 2014; Steininger 2000; Uhl 1988,Biomass_ag/C_ag,"Measured DBH, height; Allometric relations"
+378,Egunjobi et al 1979; Gehring et al 1999,biomass_ag_OM,Harvesting
+379,Montagnini et al 2000,biomass_ag_OM,Harvest (thinning)
+380,Aide et al 1995; Chan et al 2013; Saldarriaga 1988; Sierra 2007; Sierra 2012; Uhl and Jordan 1984; Uhl et al 1987,biomass_ag_OM,"Harvest, allometric relations"
+381,Lewis et al 2009,biomass_ag_OM,"measure the diameter of all trees that are_100_mm in diameter in a given area (mean 2.1_ha) at least twice (mean interval 9.4_years), and apply allometric equations to convert tree-diameter measurements to carbon content"
+382.1,Lugo et al 1992,biomass_ag_OM,Aboveground tree biomass was estimated allometrically using tree inventory data and biomass-diameter relation
+383.1,Lugo et al 1992,biomass_ag_OM,"Pine, mahogany, and roble (Tabebuia heterophylla (DC.) Britton) trees were harvested to supplement available biomass information on these species. Least squares regression analysis was used to develop biomass-diameter relation"
+385,Hughes et al 1999; Zarin et al 2001; Gehring et al 2005; Letcher et al 2009; Becknell et al 2014; Delaney et al 1997; Baker et al 2004; ,biomass_ag_OM,Measured DBH; Allometric relations
+387,Broadbent et al 2014,biomass_ag_OM,"Measured DBH, height, crown exposure; allometric relations"
+444,Tepley et al 2017,biomass_ag_OM,"Measured dbh, total height, and crown base height for tree species > 1.5 cm dbh; measured total height and crown diameter for shrub species and tree species < 1.5 cm dbh; entered into allometric equations"
+396,Alves et al 1997; Malhi 2014; Steininger 2000; Uhl 1988,biomass_ag_OM/C_ag,"Measured DBH, height; Allometric relations"
 414,Egunjobi et al 1979,Biomass_ags,Harvesting
 419,Montagnini et al 2000,Biomass_ags,Harvest (thinning)
 443,Saldarriaga 1988; Uhl and Jordan 1984,Biomass_ags,"Harvest, allometric relations"
