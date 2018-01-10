@@ -32,9 +32,9 @@ method.ID,method.citation,variables.name,method.notes
 387,Broadbent et al 2014,biomass_ag_OM,"Measured DBH, height, crown exposure; allometric relations"
 444,Tepley et al 2017,biomass_ag_OM,"Measured dbh, total height, and crown base height for tree species > 1.5 cm dbh; measured total height and crown diameter for shrub species and tree species < 1.5 cm dbh; entered into allometric equations"
 396,Alves et al 1997; Malhi 2014; Steininger 2000; Uhl 1988,biomass_ag_OM/biomass_ag_C,"Measured DBH, height; Allometric relations"
-414,Egunjobi et al 1979,Biomass_ags,Harvesting
-419,Montagnini et al 2000,Biomass_ags,Harvest (thinning)
-443,Saldarriaga 1988; Uhl and Jordan 1984,Biomass_ags,"Harvest, allometric relations"
+414,Egunjobi et al 1979,biomass_ag_woody_OM,Harvesting
+419,Montagnini et al 2000,biomass_ag_woody_OM,Harvest (thinning)
+443,Saldarriaga 1988; Uhl and Jordan 1984,biomass_ag_woody_OM,"Harvest, allometric relations"
 415,Egunjobi et al 1979; Gehring et al 1999,Biomass_foliage,Harvesting
 420,Montagnini et al 2000,Biomass_foliage,Harvest (thinning)
 422,Saldarriaga 1988; Uhl and Jordan 1984; Uhl 1987,Biomass_foliage,"Harvest, allometric relations"
