@@ -41,11 +41,11 @@ method.ID,method.citation,variables.name,method.notes
 407,Uhl and Jordan 1984,Biomass_root_coarse,root harvesting in plots/pits
 423,Sierra et al 2007; Sierra et al 2012,Biomass_root_coarse,"Harvest, allometric relations"
 412,Lugo et al 1992; Sierra et al 2012; Sierra et al 2007,Biomass_root_fine,Soil cores
-391,Delaney ey al. 1997,Biomass_root_total,"root biomass from root-to-shoot ratios (0.48 dry forests, 0.22 montane moist, 0.16 lowland moist; Sanford and Cuevas 1996)"
-406,Saldarriaga 1988,Biomass_root_total,Root biomass sampled from pits and used to develop regression equations
-413,Lugo et al 1992,Biomass_root_total,Soil cores
-418,Egunjobi et al 1979,Biomass_root_total,Root weight was estimated by proportion from the rela- tionship in the two destructively sampled trees
-429,Uhl et al 1987,Biomass_root_total,root harvesting in plots/pits
+391,Delaney ey al. 1997,biomass_root_OM,"root biomass from root-to-shoot ratios (0.48 dry forests, 0.22 montane moist, 0.16 lowland moist; Sanford and Cuevas 1996)"
+406,Saldarriaga 1988,biomass_root_OM,Root biomass sampled from pits and used to develop regression equations
+413,Lugo et al 1992,biomass_root_OM,Soil cores
+418,Egunjobi et al 1979,biomass_root_OM,Root weight was estimated by proportion from the rela- tionship in the two destructively sampled trees
+429,Uhl et al 1987,biomass_root_OM,root harvesting in plots/pits
 392,Delaney ey al. 1997,biomass_OM,"See 385, 391"
 410,Egunjobi et al 1979; Saldarriaga et al 1988; Uhl and Jordan 1984; Uhl et al 1987,biomass_OM,Summation of biomass components
 78,Hanson et al 2003,BNPP_coarse root,20% of aboveground wood increment
