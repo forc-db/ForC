@@ -9,13 +9,13 @@ method.ID,method.citation,variables.name,method.notes
 398,Malhi et al 2014,ANPP_foliage_OM,"Litter traps, separated into components, oven dried and weighed"
 430,Uhl and Jordan 1984,ANPP_foliage_OM,litter collection
 218,Pers. Commun. Bonal,ANPP_foliage_C,"includes foliage, repro production as detailed in methodology source."
-399,Malhi et al 2014; Araujo-Murakami 2014; da Costa et al. 2014; del-Aguila-Pasquel et al. 2014; Doughty et al. 2014; Rocha et al. 2014,ANPP_folivory,Leaves collected in litterfall traps photographed before drying. Leaves scanned to calculate leaf area lost to herbivory. The fractional herbivory (H) for each leaf was calculated (see Table 3)
-437,Kira 1978 in Clark 2013,ANPP_folivory,"from caterpillar frass in littertraps, and assuming 13% efficiency; this = 4.4% of leaf prod."
-438,Martinez-Yrizar et al. 1996; Martinez-Yrizar et al. 1992 in Clark 2013,ANPP_folivory,Comes out to about 9% of ANPP_0_OM; tracked leaf studies. 
-439,Weaver and Murphy 1990 in Clark 2013,ANPP_folivory,"Followed herbivory of tagged leaves over 3 mo., to 12 m ht. maximum, got 1% herbivory in 90 days, extrapolated to 4% over a year;converted to /ha with LAI values based on plumb bob data and standing leaf biomass from mass/area relation. "
-440,Sierra et al. 2007b,ANPP_folivory,"estimated annual herbivory rates by ants in the area as 16% of leaf standing biomass (based on J. C. Giraldo and R. A. Bedoya, unpublished entomological data)."
-441,Kira et al. 1998 (ORNL),ANPP_folivory,"Leaf herbivory rate (grazing by caterpillars, assuming efficiency of assimilation at 13%)"
-442,Maass & Martinez-Yrizar et al. 2001 (ORNL),ANPP_folivory,"See Filip et al. 1995. Loss of leaf mass to herbivores was determined from repeated measurements of damage on individually labeled leaves; percent leaf area also measured using discrete measurements over a 3-year period (1983-1985); For the long-term measurements, percent leaf area eaten measured by leaf tracing."
+399,Malhi et al 2014; Araujo-Murakami 2014; da Costa et al. 2014; del-Aguila-Pasquel et al. 2014; Doughty et al. 2014; Rocha et al. 2014,ANPP_folivory_OM,Leaves collected in litterfall traps photographed before drying. Leaves scanned to calculate leaf area lost to herbivory. The fractional herbivory (H) for each leaf was calculated (see Table 3)
+437,Kira 1978 in Clark 2013,ANPP_folivory_OM,"from caterpillar frass in littertraps, and assuming 13% efficiency; this = 4.4% of leaf prod."
+438,Martinez-Yrizar et al. 1996; Martinez-Yrizar et al. 1992 in Clark 2013,ANPP_folivory_OM,Comes out to about 9% of ANPP_0_OM; tracked leaf studies. 
+439,Weaver and Murphy 1990 in Clark 2013,ANPP_folivory_OM,"Followed herbivory of tagged leaves over 3 mo., to 12 m ht. maximum, got 1% herbivory in 90 days, extrapolated to 4% over a year;converted to /ha with LAI values based on plumb bob data and standing leaf biomass from mass/area relation. "
+440,Sierra et al. 2007b,ANPP_folivory_OM,"estimated annual herbivory rates by ants in the area as 16% of leaf standing biomass (based on J. C. Giraldo and R. A. Bedoya, unpublished entomological data)."
+441,Kira et al. 1998 (ORNL),ANPP_folivory_OM,"Leaf herbivory rate (grazing by caterpillars, assuming efficiency of assimilation at 13%)"
+442,Maass & Martinez-Yrizar et al. 2001 (ORNL),ANPP_folivory_OM,"See Filip et al. 1995. Loss of leaf mass to herbivores was determined from repeated measurements of damage on individually labeled leaves; percent leaf area also measured using discrete measurements over a 3-year period (1983-1985); For the long-term measurements, percent leaf area eaten measured by leaf tracing."
 428,Malhi et al 2014,ANPP_repro_OM,"Litter traps, separated into components, oven dried and weighed"
 218.1,Pers. Commun. Bonal,ANPP_repro_C,"includes foliage, repro production as detailed in methodology source."
 143,Clark et al 2001,ANPP_stem,See methodology source.
