@@ -348,63 +348,63 @@ method.ID,method.citation,variables.name,method.notes
 68,Harmon et al 2004,Reco,Ra+Rh
 73,Ma et al 2008,Reco,Not mentioned
 77,Hamilton et al 2008,Reco,"sum of C losses by total soil CO2 efflux, DIC, canopy respiration, woody respiration  and herbivory"
-257,Lloyd et al 2002,Rsoil_annual,Ground level eddy covariance
-260,Arneth et al 1998,Rsoil_annual,Chamber
-263,Black et al 2005,Rsoil_annual,Chamber
-265,Mission et al 2005,Rsoil_annual,Chamber
-267,Wilson & Baldochhi 2001,Rsoil_annual,Ground level eddy covariance
-270,Hamilton et al 2002,Rsoil_annual,Chamber
-271,Davidson et al 2002,Rsoil_annual,Chamber
-273,Schulze 2000,Rsoil_annual,Chamber + ground level eddy covariance
-276,Kutsch 2001,Rsoil_annual,Chamber
-278,Tang and Bolstad; 2006,Rsoil_annual,Chamber
-281,Yan et al 2006,Rsoil_annual,Chamber
-282,Kolari pers commun,Rsoil_annual,Chamber measurement + soil temperature + wintertim
-285,Lee et al 2005,Rsoil_annual,Chamber
-287,Roupsard et al 2006,Rsoil_annual,Chamber
-289,Epron et al 2006,Rsoil_annual,Chamber
-291,Maier and Kress 2000,Rsoil_annual,Chamber
-293,Bhupinderpal-Singh et al 2003,Rsoil_annual,Chamber
-295,O'Connell et al 2003,Rsoil_annual,Chamber
-298,Maier et al 2004,Rsoil_annual,Model
-301,Malhi et al 1999,Rsoil_annual,C-balance
-303,Li et al 2004,Rsoil_annual,Alkali trapping
-305,Xu et al 2001,Rsoil_annual,Chamber
-307,Andrews et al 1999,Rsoil_annual,Chamber
-309,Eliason et al 2005,Rsoil_annual,Model
-311,Nakane 1983,Rsoil_annual,Alkali trapping
-313,Moncrieff and Fang 1999,Rsoil_annual,Chamber
-315,Buchmann 2000,Rsoil_annual,Chamber
-317,Hayes & Gower 1995,Rsoil_annual,Chamber
-319,Cronan 2003,Rsoil_annual,Alkali trapping
-321,Nakane 1995,Rsoil_annual,Alkali absorption
-323,Dorr and Munnich 1987,Rsoil_annual,Soil probes
-325,Behera et al 1990,Rsoil_annual,Alkali
-326,Pers commun Migliavacca,Rsoil_annual,Chamber
-327,Davidson et al 2006,Rsoil_annual,Chamber
-329,Ehman et al 2002,Rsoil_annual,Chamber
-332,Law et al 2001,Rsoil_annual,Chamber
-334,pers. commun. Bonal,Rsoil_annual,Chamber
-335,Pereira et al 2003,Rsoil_annual,Chamber
-340,Pers. Commun. Goulden,Rsoil_annual,Chamber
-343,Malhi et al 2014,Rsoil_annual,closed dynamic chamber method with an infra-red gas analyser and soil respiration chamber
-345,Wang & Yang 2006,Rsoil_annual,Chamber
-346,Martin & Bolstad 2005,Rsoil_annual,Chamber
-347,Tagesson & Lindroth 2007,Rsoil_annual,Chamber
-349,Khomik et al 2006,Rsoil_annual,Chamber
-350,Gaumont-Guay et al 2006,Rsoil_annual,Chamber
-351,Jiabingb et al 2006,Rsoil_annual,Chamber
-352,Zha et al 2007,Rsoil_annual,Chamber
-353,Asensio et al 2007,Rsoil_annual,Chamber
-354,Cleveland & Townsend 2006,Rsoil_annual,Chamber
-359,Campbell et al 2004,Rsoil_annual,Chamber
-365,Gough et al 2007,Rsoil_annual,Chamber
-366,Jassal et al 2007,Rsoil_annual,Chamber
-368,Gaudinski et al 2000,Rsoil_annual,Chamber
-369,Adachi et al 2006,Rsoil_annual,Chamber
-371,Yang et al 2007,Rsoil_annual,Alkali absorption
-374,Griffis et al 2004,Rsoil_annual,Chamber
-377,Fenn et al submitted,Rsoil_annual,Chamber
+257,Lloyd et al 2002,R_soil_C,Ground level eddy covariance
+260,Arneth et al 1998,R_soil_C,Chamber
+263,Black et al 2005,R_soil_C,Chamber
+265,Mission et al 2005,R_soil_C,Chamber
+267,Wilson & Baldochhi 2001,R_soil_C,Ground level eddy covariance
+270,Hamilton et al 2002,R_soil_C,Chamber
+271,Davidson et al 2002,R_soil_C,Chamber
+273,Schulze 2000,R_soil_C,Chamber + ground level eddy covariance
+276,Kutsch 2001,R_soil_C,Chamber
+278,Tang and Bolstad; 2006,R_soil_C,Chamber
+281,Yan et al 2006,R_soil_C,Chamber
+282,Kolari pers commun,R_soil_C,Chamber measurement + soil temperature + wintertim
+285,Lee et al 2005,R_soil_C,Chamber
+287,Roupsard et al 2006,R_soil_C,Chamber
+289,Epron et al 2006,R_soil_C,Chamber
+291,Maier and Kress 2000,R_soil_C,Chamber
+293,Bhupinderpal-Singh et al 2003,R_soil_C,Chamber
+295,O'Connell et al 2003,R_soil_C,Chamber
+298,Maier et al 2004,R_soil_C,Model
+301,Malhi et al 1999,R_soil_C,C-balance
+303,Li et al 2004,R_soil_C,Alkali trapping
+305,Xu et al 2001,R_soil_C,Chamber
+307,Andrews et al 1999,R_soil_C,Chamber
+309,Eliason et al 2005,R_soil_C,Model
+311,Nakane 1983,R_soil_C,Alkali trapping
+313,Moncrieff and Fang 1999,R_soil_C,Chamber
+315,Buchmann 2000,R_soil_C,Chamber
+317,Hayes & Gower 1995,R_soil_C,Chamber
+319,Cronan 2003,R_soil_C,Alkali trapping
+321,Nakane 1995,R_soil_C,Alkali absorption
+323,Dorr and Munnich 1987,R_soil_C,Soil probes
+325,Behera et al 1990,R_soil_C,Alkali
+326,Pers commun Migliavacca,R_soil_C,Chamber
+327,Davidson et al 2006,R_soil_C,Chamber
+329,Ehman et al 2002,R_soil_C,Chamber
+332,Law et al 2001,R_soil_C,Chamber
+334,pers. commun. Bonal,R_soil_C,Chamber
+335,Pereira et al 2003,R_soil_C,Chamber
+340,Pers. Commun. Goulden,R_soil_C,Chamber
+343,Malhi et al 2014,R_soil_C,closed dynamic chamber method with an infra-red gas analyser and soil respiration chamber
+345,Wang & Yang 2006,R_soil_C,Chamber
+346,Martin & Bolstad 2005,R_soil_C,Chamber
+347,Tagesson & Lindroth 2007,R_soil_C,Chamber
+349,Khomik et al 2006,R_soil_C,Chamber
+350,Gaumont-Guay et al 2006,R_soil_C,Chamber
+351,Jiabingb et al 2006,R_soil_C,Chamber
+352,Zha et al 2007,R_soil_C,Chamber
+353,Asensio et al 2007,R_soil_C,Chamber
+354,Cleveland & Townsend 2006,R_soil_C,Chamber
+359,Campbell et al 2004,R_soil_C,Chamber
+365,Gough et al 2007,R_soil_C,Chamber
+366,Jassal et al 2007,R_soil_C,Chamber
+368,Gaudinski et al 2000,R_soil_C,Chamber
+369,Adachi et al 2006,R_soil_C,Chamber
+371,Yang et al 2007,R_soil_C,Alkali absorption
+374,Griffis et al 2004,R_soil_C,Chamber
+377,Fenn et al submitted,R_soil_C,Chamber
 401,Malhi et al 2014,Rsoil_het_annual,Partitioning experiment
 390,Delaney ey al. 1997,SOC,soil pit and cores
 394,Broadbent et al 2014,SOC,soil cores
