@@ -734,7 +734,7 @@ site.ID,sites.sitename,city,state,country,lat,lon,masl,geography.notes,mat,min.t
 733,"Heihe Picea, Abies 5",Nanping,Sichuan/Gansu?,China,33.68,104.03,NAC,NA,3.6,NAC,NAC,846,NA,NAC,NAC,NA,NA,NA,NA,54,Palearctic,Dwb,Temperate mountain system,NA,extratropical,NA,Liu 2014: #388,Maria
 734,"Heihe Picea, Abies 6",Nanping,Sichuan/Gansu?,China,33.6,104.41,NAC,NA,3.6,NAC,NAC,896,NA,NAC,NAC,NA,NA,NA,NA,198,Palearctic,Dwb,Temperate mountain system,NA,extratropical,NA,Liu 2014: #389,Maria
 735,"Heihe Picea, Abies 7",Nanping,Sichuan,China,33.63,104.05,NAC,NA,3.7,NAC,NAC,850,NA,NAC,NAC,NA,NA,NA,NA,54,Palearctic,Dwb,Temperate mountain system,NA,extratropical,NA,Liu 2014: #390,Maria
-736,Heishiding,NAC,Guangdong,China,23.45,111.88,380,"ori coords (23.45, 111.32) are in a different district",19.6,NAC,NAC,1744,NA,NAC,NAC,red soil; SOC=2.66%,NAC,NA,NA,313,IndoMalay,Cfa,Subtropical humid forest,423,tropical,NA,NA,NA
+736,Heishiding,NAC,Guangdong,China,23.45,111.88,380,"ori coords (23.45, 111.32) are in a different district",19.6,NAC,NAC,1744,NA,NAC,NAC,red soil; soil_C=2.66%,NAC,NA,NA,313,IndoMalay,Cfa,Subtropical humid forest,423,tropical,NA,NA,NA
 737,Heishui,NAC,Sichuan,China,32,102.9,NAC,NA,3.8,NAC,NAC,784,NA,NAC,NAC,NA,NA,NA,NA,314,Palearctic,Dwb,Subtropical mountain system,NA,extratropical,NA,Liu 2014: #356,Maria
 738,Hellion Rapids 1,NAC,Oregon,United States of America,44.399,-123.7799,449,NA,NAC,NAC,NAC,NAC,NA,loam,NAC,NA,NA,NA,"Sun et al 2004,",315,Nearctic,Csb,Temperate mountain system,NA,extratropical,1,Luyssaert2007,Maria
 739,Hellion Rapids 2,NAC,Oregon,United States of America,44.4465,-123.8595,549,NA,NAC,NAC,NAC,NAC,NA,loam,NAC,NA,NA,NA,"Sun et al 2004,",315,Nearctic,Csb,Temperate mountain system,NA,extratropical,1,Luyssaert2007,Maria
@@ -830,8 +830,8 @@ site.ID,sites.sitename,city,state,country,lat,lon,masl,geography.notes,mat,min.t
 829,Jiande Forest Farm Shuangjiang Branch,Jiande,Zhejiang,China,29.4,119.516667,70,NA,16.9,-9.5,NAC,1502,NA,NAC,NAC,red soil and part mountainous yellow soil,NA,NA,NA,350,Palearctic,Cfa,Subtropical humid forest,NA,extratropical,NA,NA,Maria
 830,Jianfengling,NAC,Hainan,China,18.61,108.84,890,NA,19.8,14.8,NAC,2348.75,NA,clay,NAC,lateritic yellow soil,NAC,NA,NA,351,IndoMalay,Aw,Tropical moist forest,400,tropical,NA,NA,NA
 831,Jianfengling 2,NAC,Hainan,China,18.71,108.83,875,"ori coords show up in Laos, new coords from gmaps",22.6,NAC,NAC,2206,NA,NAC,NAC,NA,NAC,NA,NA,351,IndoMalay,Aw,Tropical moist forest,399,tropical,NA,NA,NA
-832,Jianfengling.Wufenqu.P8302,NAC,Hainan,China,18.728889,108.893611,867,NA,19.8,14.8,NAC,2449,NA,clay,NAC,lateritic yellow soil; SOC=1.10%,NAC,NA,NA,351,IndoMalay,Aw,Tropical moist forest,401,tropical,NA,NA,NA
-833,Jianfengling.Wufenqu.P9201,NAC,Hainan,China,18.729722,108.889722,893,NA,19.8,14.8,NAC,2449,NA,clay,NAC,lateritic yellow soil; SOC=2.40%,NAC,NA,NA,351,IndoMalay,Aw,Tropical moist forest,402,tropical,NA,NA,NA
+832,Jianfengling.Wufenqu.P8302,NAC,Hainan,China,18.728889,108.893611,867,NA,19.8,14.8,NAC,2449,NA,clay,NAC,lateritic yellow soil; soil_C=1.10%,NAC,NA,NA,351,IndoMalay,Aw,Tropical moist forest,401,tropical,NA,NA,NA
+833,Jianfengling.Wufenqu.P9201,NAC,Hainan,China,18.729722,108.889722,893,NA,19.8,14.8,NAC,2449,NA,clay,NAC,lateritic yellow soil; soil_C=2.40%,NAC,NA,NA,351,IndoMalay,Aw,Tropical moist forest,402,tropical,NA,NA,NA
 834,Jiangda 1,Changdu,Tibet,China,31.5,98.2,NAC,NA,1.5,NAC,NAC,593,NA,NAC,NAC,NA,NA,NA,NA,352,Palearctic,ET,Subtropical mountain system,NA,extratropical,NA,Liu 2014: #432,Maria
 835,Jiangda 2,Changdu,Tibet,China,31.4,94.3,NAC,NA,2.7,NAC,NAC,486,NA,NAC,NAC,NA,NA,NA,NA,353,Palearctic,ET,Temperate mountain system,NA,extratropical,NA,Liu 2014: #433,Maria
 836,"Jilong Cupressus, Sabina",Rikaze,Tibet,China,28.9,85.2,NAC,NA,7,NAC,NAC,370,NA,NAC,NAC,NA,NA,NA,NA,354,Palearctic,ET,Subtropical mountain system,NA,extratropical,NA,Liu 2014: #543,Maria
