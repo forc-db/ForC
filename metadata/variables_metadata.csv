@@ -1,5 +1,5 @@
 Column,Field,Description,Storage Type,Variable Codes,n,Min ,Max
-1 / A,variable.ID,Unique numerical identifier for each variable in the variables table.,numeric (integer),-,117,1,117
+1 / A,variable.ID,Unique numerical identifier for each variable in the variables table. ,numeric (integer),-,117,1,117
 2 / B,variable.type,Variable type ,character (string) ,flux - a C flux variable; stock - a C stock variable; secondary - a variable recorded because it can influence C cycle variables;  covariate - a variable required to interpret C cycle variables.,117,-,-
 3 / C,variable.name,Code name for variable sampled. Used in MEASUREMENTS table.,character (string) ,-,117,-,-
 4 / D,units,Units of the variable.,character (string) ,-,115,-,-
