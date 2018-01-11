@@ -11,8 +11,8 @@
 rm(list = ls())
 
 # what column names are we chaning and to what ?
-old.variable.name <- "histtype"
-new.variable.name <- "hist.type"
+old.variable.name <- "\\bNEE_annual\\b"
+new.variable.name <- "NEE_C"
 
 
 
