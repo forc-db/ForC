@@ -92,7 +92,7 @@ id,variables.type,variable.name,units,description,equations,requires.allometry,r
 91,secondary,leaf_pC,%,Leaf Percent C,NA,NA,NA,NA,NA,NA,13,44.8,51.3,NA
 92,secondary,leaf_C2N,ratio,C:N ratio in leaves,NA,NA,NA,NA,NA,NA,44,19.6,59.19,NA
 93,secondary,leaf_pN,%,Leaf Percent Nitrogen,NA,NA,NA,NA,NA,NA,29,0.85,4.09,NA
-94,secondary,folieage_pN,Mg ha-1,Accumulation of foliage N of stand,NA,NA,NA,NA,NA,NA,22,0.0148,0.068,NA
+94,secondary,foliage_pN,Mg ha-1,Accumulation of foliage N of stand,NA,NA,NA,NA,NA,NA,22,0.0148,0.068,NA
 95,secondary,leaf_pCa,%,Foliar calcium concentration,NA,NA,NA,NA,NA,NA,13,0.34,1.01,NA
 96,secondary,leaf_pK,%,Foliar K concentration,NA,NA,NA,NA,NA,NA,13,0.35,1.34,NA
 97,secondary,leaf_pMg,%,Foliar magnesium concentration,NA,NA,NA,NA,NA,NA,13,0.09,0.49,NA
