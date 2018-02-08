@@ -3,7 +3,7 @@
 
 ## Database overview
 
-For an overview of the database, please see the [ForC database website](https://github.com/forc-db/forc-db.github.io).
+For an overview of the database, please see the [ForC database website](https://forc-db.github.io/).
 
 ## Database structure
 
