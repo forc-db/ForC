@@ -112,7 +112,6 @@ method.ID,method.citation,variables.name,method.notes
 198,Linder and Agren 1998,BNPP_fine root,Not clear from text
 201,Forcast,BNPP_fine root,"Fine root biomass, turnover 1 year"
 205,Schulze 2000,BNPP_fine root,Average from method 31
-209,Ollinger et al 2005,BNPP_fine root,"PnET Ecosystem Model, using Raich and Nadelhoffer"
 212,Sierra et al 2007,BNPP_fine root,In-growth core
 216,Pers. Commun. Malhi,BNPP_fine root,Sequential coring
 220,Law et al 2004,BNPP_fine root,"Fine root biomass, turnover"
@@ -134,31 +133,27 @@ method.ID,method.citation,variables.name,method.notes
 432,Hughes et al 1999,deadwood_OM,Measured DBH; Allometric relations
 393,Delaney ey al. 1997,Ecosystem_2,"See 385, 388-391"
 1,Valentini et al 2000,GPP,NEP + estimated Re
-4,Arneth et al 1998,GPP,Model no name given
 7,Chambers et al 2004,GPP,NPP + direct measurements of Ra
 10,Giardina et al 2003,GPP,ANPP_0_OM + BNPP (Raich & Nadelhoffer) + direct measurements of Ra
-11,Gielen et al 2005,GPP,Model no name given
 14,Hanson et al 2003,GPP,NEP + estimated Re
 17,Ito et al 2002,GPP,Sim-Cycle
 20,Running & Gower 1991,GPP,Biome-BGC
 23,Kowalski et al 2004,GPP,NEP + estimated Re
-26,Kutsch et al 2001,GPP,Model no name given
 29,Lai et al 2002,GPP,NEP + estimated Re
 32,Law et al 1999,GPP,ANPP_0_OM + BNPP (Raich & Nadelhoffer) + direct measurements of Ra
 37,Law et al 2001,GPP,NEP + estimated Re
 40,Lloyd et al 2002,GPP,Maximum net rate of carbon assimilation by the canopy foliage
-43,Maier et al 2004,GPP,Model no name given
+43,Maier et al 2004,GPP,calculated as NPP + R_auto
 44,Malhi et al 1999,GPP,CANOAK
 47,Ryan et al 1991,GPP,Biome-BGC
 48,Ryan et al 1996,GPP,NPP + direct measurements of Ra
-49,Wang et al 2004,GPP,Model no name given
+49,Wang et al 2004,GPP,"modeled based on continuous eddy flux measurements, with leaf photosynthesis described according to the model of Farquhar and von Caemmerer (1982) "
 52,Williams et al 1997,GPP,MBL/SPA
 53,Williams et al 2005,GPP,NEP + estimated Re
 60,Law et al 2000,GPP,NPP+Ra
-63,Zha et al 2007,GPP,Model no name given
+63,Zha et al 2007,GPP,scaling branch chamber measurements
 66,Harmon et al 2004,GPP,NPP+Ra
 71,Ma et al 2008,GPP,Not mentioned
-74,Ma et al 2008,GPP,BGC-model
 75,Hamilton et al 2008,GPP,NEP + estimated Re + DOC
 405,Malhi et al 2004,GPP,"GPP = NPPtotal + Ra = plant carbon expenditure PCE, Metcalfe et al. 2010"
 409,Uhl et al 1987,LAI,Yearly LAI was calculated by multiplying the average leaf area/mass value for each life form by the estimated leaf biomass in each life form and then summing over life forms.
@@ -171,7 +166,6 @@ method.ID,method.citation,variables.name,method.notes
 54,Williams et al 2005,NEE,Eddy covariance + ACM data assimilation
 72,Ma et al 2008,NEE,Eddy covariance
 76,Hamilton et al 2008,NEE,"wood, foliage and fine root NPP + forest floor accumulation"
-5,Arneth et al 1998,NEP,Model without name
 8,Chambers et al 2004,NEP,NPP - direct measurements of Rh
 12,Gielen et al 2005,NEP,NPP - direct measurements of Rh
 15,Hanson et al 2003,NEP,NPP - direct measurements of Rh
@@ -225,7 +219,7 @@ method.ID,method.citation,variables.name,method.notes
 171,Bond-Lamberty et al 2004,NPP,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
 174,Roupsard et al 2006,NPP,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
 177,Ruess et al 2003,NPP,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
-178,Maier et al 2004,NPP,"Model. includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source"
+178,Maier et al 2004,NPP,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source"
 181,Bascietto et al 2003,NPP,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
 183,Bascietto et al 2003,NPP,"includes foliage, stem, coarse root, branch production as detailed in methodology source."
 186,Grimm & Fassbender 1999,NPP,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
@@ -264,7 +258,7 @@ method.ID,method.citation,variables.name,method.notes
 266,Kutsch et al 2005,R_auto_C,C-balance
 274,Kutsch 2001,R_auto_C,foliage and stem respiration + decomposition
 283,Ito et al 2005,R_auto_C,Sim-CYCLE
-296,Maier et al 2004,R_auto_C,Model
+296,Maier et al 2004,R_auto_C,calculated based on specific tissue biomass and respiration response functions  
 299,Malhi et al 1999,R_auto_C,C-balance
 338,Pers. Commun. Goulden,R_auto_C,NPP_roots
 341,Pers. Commun. Malhi,R_auto_C,foliage and wood respiration
@@ -272,7 +266,7 @@ method.ID,method.citation,variables.name,method.notes
 356,Ryan et al 1997,R_auto_C,Chamber measurements of the components
 357,Campbell et al 2004,R_auto_C,Ra_roots+Ra_foliage+Ra_wood
 360,Harmon et al 2004,R_auto_C,"biomass, temperature function adjusted by Ra_folia"
-372,Griffis et al 2004,R_auto_C,bole chamber + model
+372,Griffis et al 2004,R_auto_C,scaled bole chamber measurements
 375,Fenn et al submitted,R_auto_C,Chamber measurements + micromesh bags
 402,Malhi et al 2014,R_auto_C,Ra = Rleaf + Rstem + Rrhizosphere + Rcoarse root
 403,Malhi et al 2014,R_auto_foliage_C,Leaf gas exchange measurements of Rdark were performed using infra-red gas analysers
@@ -282,7 +276,7 @@ method.ID,method.citation,variables.name,method.notes
 261,Kimball et al 1997,R_soil_het_C,BIOME-BGC
 262,Black et al 2005,R_soil_het_C,Trenching
 264,Mission et al 2005,R_soil_het_C,Trench plot (root exclusion plot)
-269,Hamilton et al 2002,R_soil_het_C,Model
+269,Hamilton et al 2002,R_soil_het_C,calculated as total soil CO2 efflux minus fine and coarse root respiration plus the  proportion  of  DIC  attributed  to  microbes. 
 272,Schulze 2000,R_soil_het_C,Trenched/clearcuts
 275,Kutsch 2001,R_soil_het_C,litter + fine root turnover (C-balance)
 277,Tang and Bolstad; 2006,R_soil_het_C,Use in-growth cores and sequential coring to estim
@@ -293,18 +287,14 @@ method.ID,method.citation,variables.name,method.notes
 290,Maier and Kress 2000,R_soil_het_C,Root excised
 292,Bhupinderpal-Singh et al 2003,R_soil_het_C,Girdling
 294,O'Connell et al 2003,R_soil_het_C,Trenching
-297,Maier et al 2004,R_soil_het_C,Model
 300,Malhi et al 1999,R_soil_het_C,NPP - NEP
 302,Li et al 2004,R_soil_het_C,Trenching
 304,Xu et al 2001,R_soil_het_C,root regression model
 306,Andrews et al 1999,R_soil_het_C,Isotopes
-308,Eliason et al 2005,R_soil_het_C,Model
 310,Nakane 1983,R_soil_het_C,Gap (Clearcut)
-312,Moncrieff and Fang 1999,R_soil_het_C,Model
 314,Buchmann 2000,R_soil_het_C,Mass balance
 316,Hayes & Gower 1995,R_soil_het_C,Trenching
 318,Cronan 2003,R_soil_het_C,Mass balance
-320,Nakane 1995,R_soil_het_C,Model
 322,Dorr and Munnich 1987,R_soil_het_C,radiocarbon
 324,Behera et al 1990,R_soil_het_C,root regression model
 328,Ehman et al 2002,R_soil_het_C,litter + fine root turnover (C-balance)
@@ -325,7 +315,6 @@ method.ID,method.citation,variables.name,method.notes
 376,Fenn et al submitted,R_soil_het_C,Micromesh bags
 404,Malhi et al 2014,R_auto_wood_C,"Bole respiration was measured using a closed dynamic chamber method with an IRGA (EGM-4) and soil respiration chamber (SRC-1) connected to a permanent collar, sealed to the tree bole surface"
 3,Valentini et al 2000,Reco,Ecosystem respiration based on nighttime respiration vs soil or air temperature relationship
-6,Arneth et al 1998,Reco,Model without name
 9,Chambers et al 2004,Reco,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
 13,Gielen et al 2005,Reco,GPP-NEP
 16,Hanson et al 2003,Reco,GPP-NEP
@@ -338,7 +327,7 @@ method.ID,method.citation,variables.name,method.notes
 39,Law et al 2001,Reco,Direct measurement of the components of Reco with chambers
 42,Lloyd et al 2002,Reco,GPP-NEP
 46,Malhi et al 1999,Reco,CANOAK
-51,Wang et al 2004,Reco,Model no name given
+51,Wang et al 2004,Reco,modeled based on continuous eddy flux measurements and site-specific functions for respiratory components
 55,Williams et al 2005,Reco,Direct measurement of the components of Reco with chambers + ACM data assimilation
 56,Kutsch et al 2001,Reco,Direct measurement of the components of Reco with chambers
 57,Schulze 2000,Reco,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
@@ -366,12 +355,10 @@ method.ID,method.citation,variables.name,method.notes
 291,Maier and Kress 2000,R_soil_C,Chamber
 293,Bhupinderpal-Singh et al 2003,R_soil_C,Chamber
 295,O'Connell et al 2003,R_soil_C,Chamber
-298,Maier et al 2004,R_soil_C,Model
 301,Malhi et al 1999,R_soil_C,C-balance
 303,Li et al 2004,R_soil_C,Alkali trapping
 305,Xu et al 2001,R_soil_C,Chamber
 307,Andrews et al 1999,R_soil_C,Chamber
-309,Eliason et al 2005,R_soil_C,Model
 311,Nakane 1983,R_soil_C,Alkali trapping
 313,Moncrieff and Fang 1999,R_soil_C,Chamber
 315,Buchmann 2000,R_soil_C,Chamber
