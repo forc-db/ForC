@@ -25,7 +25,7 @@ setwd(".")
 # Load tables ####
 
 
-na_codes <- c("NA", "NI", "NRA", "NaN", "NAC")  # various ways "NA" is encoded in ForC
+na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999")  # various ways "NA" is encoded in ForC
 
 
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
@@ -99,6 +99,10 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
 
 HISTORY_meta[HISTORY_meta$Field == "level", c("Min", "Max")] <- "-"
 MEASUREMENTS_meta[MEASUREMENTS_meta$Field == "dup.code", c("Min", "Max")] <- "-"
+
+MEASUREMENTS_meta$n[MEASUREMENTS_meta$Field %in% "measurement.ID"] <- length(MEASUREMENTS$measurement.ID) # because 999 is not counted
+PLOTS_meta$n[PLOTS_meta$Field %in% "prior.history.ID"] <- length(PLOTS$prior.history.ID) # because 999 is not counted
+
 
 # Remove range column
 
