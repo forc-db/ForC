@@ -102,6 +102,7 @@ MEASUREMENTS_meta[MEASUREMENTS_meta$Field == "dup.code", c("Min", "Max")] <- "-"
 
 MEASUREMENTS_meta$n[MEASUREMENTS_meta$Field %in% "measurement.ID"] <- length(MEASUREMENTS$measurement.ID) # because 999 is not counted
 PLOTS_meta$n[PLOTS_meta$Field %in% "prior.history.ID"] <- length(PLOTS$prior.history.ID) # because 999 is not counted
+SITES_meta$n[SITES_meta$Field %in% "site.ID"] <- length(SITES$site.ID) # because 999 is not counted
 
 
 # Remove range column

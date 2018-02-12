@@ -1,5 +1,5 @@
 "Column","Field","Description","Storage.Type","Variable.Codes","Units","n","Min","Max"
-"1 / A","site.ID","Unique numerical identifier for each record in the SITES table.","numeric (integer)","-","-",2069,"1","2070"
+"1 / A","site.ID","Unique numerical identifier for each record in the SITES table.","numeric (integer)","-","-",2070,"1","2070"
 "2 / B","sites.sitename","Site identifier, sufficient to uniquely identify the site within the paper. Links to MEASUREMENTS, PLOTS, and HISTORY tables.","character (string)","-","-",2070,"-","-"
 "3 / C","city","Nearest city, when identified in original publication.","character (string)","-","-",494,"-","-"
 "4 / D","state","State","character (string)","-","-",2065,"-","-"
