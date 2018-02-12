@@ -30,7 +30,7 @@ NA.forms <- c("NI", "NRA", "NaN", "NAC", "999")
 
 ## now including ## records (previously 3568) ###
 
-nrow(MEASUREMENTS) # 17,505
+nrow(MEASUREMENTS) # 17,367
 
 ## representing ### plots (previously 845) ####
 nrow(PLOTS) # 2,731
@@ -39,10 +39,10 @@ nrow(PLOTS) # 2,731
 length(unique(SITES$geographic.area)) #827
 
 ## includes ## C cycle variables collected between 1943 and 2015 ####
-VARIABLES <- VARIABLES[order(VARIABLES$variables.name),]
+VARIABLES <- VARIABLES[order(VARIABLES$variable.name),]
 VARIABLES[, c(1,3)]
 
-sort(unique(gsub("C", "",  VARIABLES$variables.name, ignore.case = F))) # 93
+sort(unique(gsub("C", "",  VARIABLES$variable.name, ignore.case = F))) # 93
 unique(gsub("C", "",  VARIABLES[VARIABLES$variables.type == "primary",]$variables.name, ignore.case = F))
 length(unique(gsub("C", "",  VARIABLES[VARIABLES$variables.type == "primary",]$variables.name, ignore.case = F))) # 65
 length(unique(gsub("_C", "",  VARIABLES[VARIABLES$variables.type != "covariates",]$variables.name))) # 80
@@ -127,7 +127,7 @@ sum(!SITES$hydrology.notes %in% NA.forms & !is.na(SITES$hydrology.notes)) *100 /
 
 ## Stand age estimates are available for ##% of the measurement records, with an additional ##% known to be old-growth / undisturbed (Fig. 5).  ####
 sum(!MEASUREMENTS$stand.age %in% NA.forms & !is.na(MEASUREMENTS$stand.age)) * 100 / nrow(MEASUREMENTS) # 83.5%
-sum(MEASUREMENTS$stand.age == 999) * 100 / nrow(MEASUREMENTS) # 11.6%
+sum(MEASUREMENTS$stand.age %in% 999) * 100 / nrow(MEASUREMENTS) # 11.6%
 
 ## Of the 2,737 plot records, 1,207 (#%) contain records of dates of establishment of the oldest cohort of trees,####
 
@@ -178,7 +178,7 @@ sum(!PLOTS$plot.area %in% NA.forms & !is.na(PLOTS$plot.area)) * 100 / nrow(PLOTS
 
 
 ## ForC-db contains ## variables (VARIABLES table). ####
-length(unique(gsub("_C", "",  VARIABLES[VARIABLES$variables.type == "primary",]$variables.name))) # 65
-length(unique(VARIABLES[VARIABLES$variables.type == "primary",]$variables.name)) # 65
+length(unique(gsub("_C", "",  VARIABLES[VARIABLES$variable.type == "flux",]$variable.name))) # 65
+length(unique(VARIABLES[VARIABLES$variable.type == "primary",]$variables.name)) # 65
 
 
