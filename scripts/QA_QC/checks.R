@@ -85,18 +85,18 @@ cat("There are", nrow(m_no_pft), "measurement records with undefined PFTs\n")
 if(nrow(m_no_pft)) message("See `m_no_pft`")
 
 # All variables in MEASUREMENTS should be ID-ed in VARIABLES
-if(any(!unique(MEASUREMENTS$variables.name) %in% VARIABLES$variables.name)) {
+if(any(!unique(MEASUREMENTS$variables.name) %in% VARIABLES$variable.name)) {
   message("There variables not defined")
-  message("Check unique(MEASUREMENTS$variables.name)[!unique(MEASUREMENTS$variables.name)%in% VARIABLES$variables.name]")
+  message("Check unique(MEASUREMENTS$variables.name)[!unique(MEASUREMENTS$variables.name)%in% VARIABLES$variable.name]")
 }
 
 
 
 
 # For each covariate_# in MEASUREMENTS, there is a definition in VARIABLES
-if(!all(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variables.name] %in% na_codes)) stop("There are covariate_1 in measurements that are not defined in VARIABLES")
+if(!all(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variable.name] %in% na_codes)) stop("There are covariate_1 in measurements that are not defined in VARIABLES")
 
-if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variables.name] %in% na_codes))stop("There are covariate_2 in measurements that are not defined in VARIABLES")
+if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variable.name] %in% na_codes))stop("There are covariate_2 in measurements that are not defined in VARIABLES")
 
 
 # For each allometry_1 and allometry_2 in MEASUREMENTS, there is an allometric equation in ALLOMETRIE
@@ -279,13 +279,13 @@ if(!all(METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID)) stop("There are meth
 # ===== VARIABLES checks ==== ####
 
 # All variables in VARIABLES should exist in MEASUREMENTS in either variables.name or covariate_#
-if(any(!VARIABLES$variables.name %in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2))) {
+if(any(!VARIABLES$variable.name %in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2))) {
   message("There variables not used in MEASUREMENTS")
   message("Check 
-          unique(VARIABLES$variables.name)[!unique(VARIABLES$variables.name)%in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)]")
+          unique(VARIABLES$variable.name)[!unique(VARIABLES$variable.name)%in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)]")
 }
 
-unique(VARIABLES$variables.name)[!unique(VARIABLES$variables.name)%in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)] # Leave "NPP_4", "NPP_5", "NPP_understory", "NPP_woody", "ANPP_litterfall_2_C", "ANPP_litterfall_3_C"
+unique(VARIABLES$variable.name)[!unique(VARIABLES$variable.name)%in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)] # Leave "NPP_4", "NPP_5", "NPP_understory", "NPP_woody", "ANPP_litterfall_2_C", "ANPP_litterfall_3_C"
 
 # All variables in VARIABLES should exist in METHODOLOGY --> not checking as names may change
 
@@ -322,7 +322,7 @@ Value.for.variables.without.range <-  data.frame()
 for(i in 1:nrow(VARIABLES)){
   
   
-  v <- VARIABLES$variables.name[i]
+  v <- VARIABLES$variable.name[i]
   print(v)
   
   min.v <- as.numeric(VARIABLES$min[i])
@@ -338,7 +338,7 @@ for(i in 1:nrow(VARIABLES)){
   
   if(all(!is.na(c(min.v, max.v)))){
     
-    if(!VARIABLES$variables.type[i] %in% "covariates"){
+    if(!VARIABLES$variable.type[i] %in% "covariates"){
       
       x <- MEASUREMENTS[MEASUREMENTS$variables.name %in% v, ]$mean
       x <- na.omit(as.numeric(ifelse(x %in% na_codes, NA, x)))
@@ -353,7 +353,7 @@ for(i in 1:nrow(VARIABLES)){
       
     }
     
-    if(VARIABLES$variables.type[i] %in% "covariates"){
+    if(VARIABLES$variable.type[i] %in% "covariates"){
       
       x_1 <- MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v, ]$coV_1.value
       x_1 <- na.omit(as.numeric(ifelse(x_1 %in% na_codes, NA, x_1)))
