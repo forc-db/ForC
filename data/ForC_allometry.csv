@@ -1,66 +1,66 @@
-allometric.equation,allometry.citation,allometry.citation.title,allometry.notes
-1.1,Baker et al. 2004a,Increasing biomass in Amazonian forest plots,"modified version of Chambers et al. 2001, incorporating a simple multiplication factor to account for variation in wood specific gravity between species (Baker et al. 2004a, p. 355). "
-1.2,Baker et al. 2004b,Variation in wood density determines spatial patterns in Amazonian forest biomass,"modified version of Chambers et al. 2001, incorporating a simple multiplication factor to account for variation in wood density."
-2,Chave et al. 2005,Tree allometry and improved estimation of carbon stocks and balance in tropical forests,
-2.2,Chave et al. 2005,Tree allometry and improved estimation of carbon stocks and balance in tropical forests,allometric equation for tropical moist forests
-3,Feldpausch et al. 2011,Height-diameter allometry of tropical forest trees.,
-4,van Breugel et al. 2011,Estimating carbon stock in secondary forests: decisions and uncertainties associated with allometric biomass models,allometric equation designed for secondary forests in Panama (with wood density or without)
-5,Chan et al. 2013,"Establishment of allometric models and estimation of biomass recovery of swidden cultivation fallows in mixed deciduous forests of the Bago Mountains, Myanmar",Results of destructive sampling used to establish allometric equations for trees and bamboo
-6.1,Brown et al. 1989,Biomass estimation methods for tropical forests with applications to forest inventory data.,dry
-6.2,Brown et al. 1989,Biomass estimation methods for tropical forests with applications to forest inventory data.,moist
-6.3,Brown et al. 1989,Biomass estimation methods for tropical forests with applications to forest inventory data.,wet
-7.1,Brown 1997,Estimating biomass and biomass change of tropical forests: a primer.,dry
-7.2,Brown 1997,Estimating biomass and biomass change of tropical forests: a primer.,moist
-7.3,Brown 1997,Estimating biomass and biomass change of tropical forests: a primer.,wet
-8,Saldarriaga et al. 1988,Long-Term Chronosequence of Forest Succession in the Upper Rio Negro of Colombia and Venezuela,"Regression equations for estimating biomass were developed from data from 126 cut and weighed trees, with wood specific gravity and size categories"
-9,Sierra et al. 2007,"Total carbon stocks in a tropical forest landscape of the Porce region, Colombia",Local biomass equations for AGB and coarse root
-10,Uhl and Jordan 1984,Succession and Nutrient Dynamics Following Forest Cutting and Burning in Amazonia,"Equations used to estimate leaf and stem biomass following the cutting and burning of a mixed-species forest plot near San Carlos de Rio Negro, Venezuela (Table 1)."
-10.1,Uhl and Jordan 1984,Succession and Nutrient Dynamics Following Forest Cutting and Burning in Amazonia,"Palms, mixed species, height range 2-7m."
-10.2,Uhl and Jordan 1984,Succession and Nutrient Dynamics Following Forest Cutting and Burning in Amazonia,Cecropia spp. Stem biomass
-10.3,Uhl and Jordan 1984,Succession and Nutrient Dynamics Following Forest Cutting and Burning in Amazonia,Cecropia spp. Leaf biomass
-10.4,Uhl and Jordan 1984,Succession and Nutrient Dynamics Following Forest Cutting and Burning in Amazonia,"Trees, mixed species, stem biomass"
-10.5,Uhl and Jordan 1984,Succession and Nutrient Dynamics Following Forest Cutting and Burning in Amazonia,"Trees, mixed species, leaf biomass"
-10.6,Uhl and Jordan 1984,Succession and Nutrient Dynamics Following Forest Cutting and Burning in Amazonia,Combine 10.3 and 10.5 for leaf biomass
-10.7,Uhl and Jordan 1984,Succession and Nutrient Dynamics Following Forest Cutting and Burning in Amazonia,"Combine 10.1, 10.2, 10.4 for stem biomass"
-11,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,"Equations used to estimate leaf and stem biomass for trees (,>2 m in height) following farm plot abandonment near San Carlos de Rio Negro, Venezuela (Table 1)"
-11.1,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,"Trees, mixed species, stem biomass (Year 1)"
-11.2,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,"Trees, mixed species, leaf biomass (Year 2)"
-11.3,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,"Palms, mixed species, height range 2-7m. (Years 2-5)"
-11.4,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,Cecropia spp. Stem biomass (Years 2-5)
-11.5,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,Cecropia spp. Leaf biomass (Years 2-5)
-11.6,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,"Trees, mixed species, stem biomass (Years 2-5)"
-11.7,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,"Trees, mixed species, leaf biomass (Years 2-5)"
-11.8,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,"Combine 11.2,11.5,11.7 for leaf biomass"
-11.9,Uhl et al. 1987,Factors Controlling Succession Following Slash-and-Burn Agriculture in Amazonia,"Combine 11.1,11.3,11.4,11.6 for stem biomass"
-12.1,Uhl et al. 1988,Abandoned Pastures in Eastern Amazonia. I. Patterns of Plant Succession,"Leaf and wood biomass equations for trees >= 2m height on abandoned pastures in Paragominas, Para, Brazil (Table 2)"
-12.2,Uhl et al. 1988,Abandoned Pastures in Eastern Amazonia. I. Patterns of Plant Succession,"Height and biomass equation for forest stands in Paragominas, Para, Brazil"
-13,Zarin et al. 2001,Potential Biomass Accumulation in Amazonian Regrowth Forests,"AGB data are average of values derived from the equations of Saldarriaga et al. 1988 (8), Brown et al. 1989 (6), Overman et al. 1994 (16), and Honzak et al. 1996 (30)."
-14,Weaver and Gillespie 1992,"Tree biomass equations for the forests of the Luquillo Mountains, Puerto Rico.",AGB for woody vegetation
-16,Overman et al. 1994,Evaluation of regression modes for above-ground biomass determination in Amazon rainforest,"diameter-based mixed-species or species-specific loglinear allometric equations, established for mature forest trees in Colombian Amazonia"
-17,Nelson et al. 1999,Allometric regressions for improved estimate of secondary forest biomass in the central Amazon,secondary forest trees of central Amazonia
-18,Gehring et al. 2004,Liana allometric biomass equations for Amazonian primary and secondary forest,lianas of our study area
-22,Steininger 2000,Secondary forest structure and biomass following short and extended land-use in central and southern Amazonia,"This citation combines allometric equations Uhl et al. 1987 (11), Scatena et al. 1993 (20), Saldarriaga et al. 1988 (8), Folster et al. 1976 (21), to estimate AGB"
-23.01,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico",Tree height > 10cm dbh
-23.02,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico",Biomass: standing dead trees > 10cm dbh
-23.03,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico",Biomass: trees < 10 cm dbh
-23.04,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico",Biomass; dead trees < 10 cm dbh
-23.05,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico",Biomass; palms
-23.06,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico",Biomass; dead palms
-23.07,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico",Biomass; sapling wood
-23.08,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico",Biomass; sapling leaves
-23.1,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico","Compiled 23.01, 23.03, 23.05, 23.07, 23.08, 6.2, 12.1, 24, 25 to estimate AGB"
-23.2,Hughes et al. 1999,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico","Compiled 23.02, 23.04, 23.06, 26.1, 26.2 to estimate deadwood"
-27.1,Lugo et al. 1992,Comparison of Tropical Tree Plantations with Secondary Forests of Similar Age,Tabebuia heterophylla leaf biomass
-27.2,Lugo et al. 1992,Comparison of Tropical Tree Plantations with Secondary Forests of Similar Age,Tabebuia heterophylla stem biomass
-27.3,Lugo et al. 1992,Comparison of Tropical Tree Plantations with Secondary Forests of Similar Age,Swietenia macrophylla leaf biomass
-27.4,Lugo et al. 1992,Comparison of Tropical Tree Plantations with Secondary Forests of Similar Age,Swietenia macrophylla stem biomass
-27.5,Lugo et al. 1992,Comparison of Tropical Tree Plantations with Secondary Forests of Similar Age,Pinus caribaea total mass
-27.6,Lugo et al. 1992,Comparison of Tropical Tree Plantations with Secondary Forests of Similar Age,Pinus caribaea woody biomass
-28,Ovington and Olson 1970,Biomass and chemical content of El Verde lower montane rain forest plants,aboveground tree biomass-diameter relations for dicotyledonous trees
-29,Frangi and Lugo 1985,Ecosystem dynamics of a subtropical floodplain fores,aboveground tree biomass-diameter relations for palms
-30,Cairns et al. 1997,NAC,NAC
-31,Gonzalez-Akre et al. 2016,Patterns of tree mortality in a temperate deciduous forest derived from a large forest dynamics plot,"Stem biomass was estimated using local and species-specific biomass allometries, when possible (Appendix S1: Table S2). Allometric equations were obtained from existing compilations for North America (Jenkins et al. 2004, Chojnacky et al. 2014). For each species, we selected among available allometries in the following order of priority: (1) species-specific allometries > genus-specific allometries > family-specific allometries; (2) proximity to site > regional allometries. When no biomass regressions were found for a particular species (n = 11) at any taxonomical level, we used the generalized equation for í±mixed woodsí¬ in Jenkins et al. (2004).  "
-32,Tepley et al. 2017,Vulnerability to forest loss through altered postfire recovery dynamics in a warming climate in the Klamath Mountains,See Appendix S2 for a compilation of allometric equations by species and the citations to the original publications
-33,Chave et al. 2014,Improved allometric models to estimate the aboveground biomass of tropical trees,"Equation 7. Based on DBH and an environmental stress parameter (E), which is a function of climatic water deficit, temperature seasonality, and precipitation seasonality"
-34,Goodman et al. 2013,Amazon palm biomass and allometry. ,"Palm trees (Arecaceae), based on DBH"
-35,Crow 1980,"A Rainforest Chronicle : A 30-Year Record of Change in Structure and Composition at El Verde , Puerto Rico","functions were derived from weight-dimensional data listed by Ovington and Olson (1970), but with sample trees less than 4.0 cm dbh eliminated"
+allometric.equation,allometry.citation,allometry.notes
+1.1,Baker_2004_ibia,"modified version of Chambers et al. 2001, incorporating a simple multiplication factor to account for variation in wood specific gravity between species (Baker et al. 2004a, p. 355). "
+1.2,Baker_2004_viwd,"modified version of Chambers et al. 2001, incorporating a simple multiplication factor to account for variation in wood density."
+2,Chave_2005_taai,NAC
+2.2,Chave_2005_taai,allometric equation for tropical moist forests
+3,Feldpausch_2011_haot,NAC
+4,van Breugel_2011_ecsi,allometric equation designed for secondary forests in Panama (with wood density or without)
+5,Chan_2013_eoam,Results of destructive sampling used to establish allometric equations for trees and bamboo
+6.1,Brown_1989_bemf,dry
+6.2,Brown_1989_bemf,moist
+6.3,Brown_1989_bemf,wet
+7.1,Brown_1997_ebab,dry
+7.2,Brown_1997_ebab,moist
+7.3,Brown_1997_ebab,wet
+8,Saldarriaga_1988_lcof,"Regression equations for estimating biomass were developed from data from 126 cut and weighed trees, with wood specific gravity and size categories"
+9,Sierra_2007_tcsi,Local biomass equations for AGB and coarse root
+10,Uhl_1984_sand,"Equations used to estimate leaf and stem biomass following the cutting and burning of a mixed-species forest plot near San Carlos de Rio Negro, Venezuela (Table 1)."
+10.1,Uhl_1984_sand,"Palms, mixed species, height range 2-7m."
+10.2,Uhl_1984_sand,Cecropia spp. Stem biomass
+10.3,Uhl_1984_sand,Cecropia spp. Leaf biomass
+10.4,Uhl_1984_sand,"Trees, mixed species, stem biomass"
+10.5,Uhl_1984_sand,"Trees, mixed species, leaf biomass"
+10.6,Uhl_1984_sand,Combine 10.3 and 10.5 for leaf biomass
+10.7,Uhl_1984_sand,"Combine 10.1, 10.2, 10.4 for stem biomass"
+11,Uhl_1987_fcsf,"Equations used to estimate leaf and stem biomass for trees (,>2 m in height) following farm plot abandonment near San Carlos de Rio Negro, Venezuela (Table 1)"
+11.1,Uhl_1987_fcsf,"Trees, mixed species, stem biomass (Year 1)"
+11.2,Uhl_1987_fcsf,"Trees, mixed species, leaf biomass (Year 2)"
+11.3,Uhl_1987_fcsf,"Palms, mixed species, height range 2-7m. (Years 2-5)"
+11.4,Uhl_1987_fcsf,Cecropia spp. Stem biomass (Years 2-5)
+11.5,Uhl_1987_fcsf,Cecropia spp. Leaf biomass (Years 2-5)
+11.6,Uhl_1987_fcsf,"Trees, mixed species, stem biomass (Years 2-5)"
+11.7,Uhl_1987_fcsf,"Trees, mixed species, leaf biomass (Years 2-5)"
+11.8,Uhl_1987_fcsf,"Combine 11.2,11.5,11.7 for leaf biomass"
+11.9,Uhl_1987_fcsf,"Combine 11.1,11.3,11.4,11.6 for stem biomass"
+12.1,Uhl_1988_apie,"Leaf and wood biomass equations for trees >= 2m height on abandoned pastures in Paragominas, Para, Brazil (Table 2)"
+12.2,Uhl_1988_apie,"Height and biomass equation for forest stands in Paragominas, Para, Brazil"
+13,Zarin_2001_pbai,"AGB data are average of values derived from the equations of Saldarriaga et al. 1988 (8), Brown et al. 1989 (6), Overman et al. 1994 (16), and Honzak et al. 1996 (30)."
+14,Weaver_1992_tbef,AGB for woody vegetation
+16,Overman_1994_eorm,"diameter-based mixed-species or species-specific loglinear allometric equations, established for mature forest trees in Colombian Amazonia"
+17,Nelson_1999_arfi,secondary forest trees of central Amazonia
+18,Gehring_2004_labe,lianas of our study area
+22,Steininger_2000_sfsa,"This citation combines allometric equations Uhl et al. 1987 (11), Scatena et al. 1993 (20), Saldarriaga et al. 1988 (8), Folster et al. 1976 (21), to estimate AGB"
+23.01,Hughes_1999_bcan,Tree height > 10cm dbh
+23.02,Hughes_1999_bcan,Biomass: standing dead trees > 10cm dbh
+23.03,Hughes_1999_bcan,Biomass: trees < 10 cm dbh
+23.04,Hughes_1999_bcan,Biomass; dead trees < 10 cm dbh
+23.05,Hughes_1999_bcan,Biomass; palms
+23.06,Hughes_1999_bcan,Biomass; dead palms
+23.07,Hughes_1999_bcan,Biomass; sapling wood
+23.08,Hughes_1999_bcan,Biomass; sapling leaves
+23.1,Hughes_1999_bcan,"Compiled 23.01, 23.03, 23.05, 23.07, 23.08, 6.2, 12.1, 24, 25 to estimate AGB"
+23.2,Hughes_1999_bcan,"Compiled 23.02, 23.04, 23.06, 26.1, 26.2 to estimate deadwood"
+27.1,Lugo_1992_cott,Tabebuia heterophylla leaf biomass
+27.2,Lugo_1992_cott,Tabebuia heterophylla stem biomass
+27.3,Lugo_1992_cott,Swietenia macrophylla leaf biomass
+27.4,Lugo_1992_cott,Swietenia macrophylla stem biomass
+27.5,Lugo_1992_cott,Pinus caribaea total mass
+27.6,Lugo_1992_cott,Pinus caribaea woody biomass
+28,Ovington_1970_bacc,aboveground tree biomass-diameter relations for dicotyledonous trees
+29,Frangi_1985_edoa,aboveground tree biomass-diameter relations for palms
+30,Cairns_1997_rbai,NAC
+31,Gonzalez-Akre_2016_potm,"Stem biomass was estimated using local and species-specific biomass allometries, when possible (Appendix S1: Table S2). Allometric equations were obtained from existing compilations for North America (Jenkins et al. 2004, Chojnacky et al. 2014). For each species, we selected among available allometries in the following order of priority: (1) species-specific allometries > genus-specific allometries > family-specific allometries; (2) proximity to site > regional allometries. When no biomass regressions were found for a particular species (n = 11) at any taxonomical level, we used the generalized equation for ’±mixed woods’Â in Jenkins et al. (2004).  "
+32,Tepley_2017_vtfl,See Appendix S2 for a compilation of allometric equations by species and the citations to the original publications
+33,Chave_2014_iamt,"Equation 7. Based on DBH and an environmental stress parameter (E), which is a function of climatic water deficit, temperature seasonality, and precipitation seasonality"
+34,Goodman_2013_apba,"Palm trees (Arecaceae), based on DBH"
+35,Crow_1980_arca,"functions were derived from weight-dimensional data listed by Ovington and Olson (1970), but with sample trees less than 4.0 cm dbh eliminated"
