@@ -1,6 +1,6 @@
-Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
-1 / A,citation.ID,"Citation ID in the form [last name of first author]_[year]_[first letter of first four words of title, when applicable]. ",character (string),-,-,634,-,-
-2 / B,citation.doi,Citation DOI,character (string),-,-,530,-,-
-3 / C,citation.author,Last name of first author of citation,character (string),-,-,634,-,-
-4 / D,citation.year,Year of publication,numeric (double),-,years,634,1953,2017
-5 / E,citation.title,Title of publication.,character (string),-,-,616,-,-
+Column,Field,Description,Storage.Type,Variable.Codes,n,Min,Max
+1 / A,citation.ID,"Citation ID in the form [last name of first author]_[year]_[first letter of first four words of title, when applicable]. ",character (string),-,634,-,-
+2 / B,citation.doi,Citation DOI,character (string),-,530,-,-
+3 / C,citation.author,Last name of first author of citation,character (string),-,634,-,-
+4 / D,citation.year,Year of publication,numeric (double),-,634,1953,2017
+5 / E,citation.title,Title of publication.,character (string),-,616,-,-
