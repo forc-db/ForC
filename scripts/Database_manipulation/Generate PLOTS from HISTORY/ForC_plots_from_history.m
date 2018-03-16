@@ -36,7 +36,7 @@ site=raw(2:end, 2);
     site_upper=upper(raw(2:end, 2)); %sites, transformed to all caps
 plot=(raw(2:end, 3)); %plots,
     plot_upper=upper(raw(2:end, 3)); %plots, transformed to all caps 
-plot.area=raw(2:end,4);
+plot_area=raw(2:end,4);
 event_sequence=num(:,5); %sequence of events
 date_=(raw(2:end,6)); %date (decimal year)
     date_num=num(:,6);
@@ -119,7 +119,7 @@ for n=1:n_plots
     TROP_EXTRATROP(n,1)=trop_extratrop(index1);
     SITE(n,1)=site(index1);
     PLOT(n,1)=plot(index1);
-    PLOTAREA(n,1)=plot.area(index1);
+    PLOTAREA(n,1)=plot_area(index1);
     
     %Indeces for HISTTYPE = no.info or no.disturbance. These will be used multiple times
     i_ni=find(strcmp(site_plot, plots_list(n))==1 & (strcmp(dist_cat,'No.info')==1));
