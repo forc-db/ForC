@@ -258,7 +258,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 257,Bionte T4 B2 SB1,terra firma BNT-05,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 258,Bionte T4 B4 SB4,terra firma BNT-07,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 259,Bisley,Secondary tabonuco forest,0.16,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-260,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,260.03,1982,260.02,Initiation of post-disturbance cohort (natural),1982,260.01,Cut,100,1982,0,0,260.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+260,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,260.03,1982,260.02,Initiation of post-disturbance cohort (natural),1982,260.01,Cut,100,1982,0,0,260.04,Grazed,NI,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 261,Bitagron,mature 'old growth' forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 262,BKK-01a_Boukoko,african tropical forest,8,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 263,Black Rock Forest Chronosequence,Forest recovery following clear cut.135 y,NAC,263.03,1871,263.02,Initiation of post-disturbance cohort (natural),NI,263.01,Cut,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -895,8 +895,8 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 894,Gongbujiangda,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 895,Gonghe,Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 896,Gongliu,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-897,Gonse G10,Tree and bush savanna recovery after clear-cut,1,897.03,1982,897.02,Initiation of post-disturbance cohort (natural),1982,897.01,Cut,100,1982,0,0,897.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-898,Gonse G5,Tree and bush savanna recovery after clear-cut,1,898.03,1982,898.02,Initiation of post-disturbance cohort (natural),1982,898.01,Cut,100,1982,0,0,898.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+897,Gonse G10,Tree and bush savanna recovery after clear-cut,1,897.03,1982,897.02,Initiation of post-disturbance cohort (natural),1982,897.01,Cut,100,1982,0,0,897.04,Grazed,NI,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+898,Gonse G5,Tree and bush savanna recovery after clear-cut,1,898.03,1982,898.02,Initiation of post-disturbance cohort (natural),1982,898.01,Cut,100,1982,0,0,898.04,Grazed,NI,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 899,Gorakhpur_S_14,RD plantation forest,NAC,899.01,1958,899.02,Planted,1958,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 900,Gorakhpur_S_26,Managed plantation forest,NAC,900.01,1946,900.02,Planted,1946,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 901,Gorakhpur_S_30,Managed plantation forest,NAC,901.01,1942,901.02,Planted,1942,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -2050,7 +2050,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2049,S26,Forest recovery following shifting cultivation,NAC,2049.04,1983,2049.03,Initiation of post-disturbance cohort (natural),1983,2049.02,Shifting cultivation,100,1978,2049.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2050,S5,Forest recovery following shifting cultivation,NAC,2050.04,2004,2050.03,Initiation of post-disturbance cohort (natural),2004,2050.02,Shifting cultivation,100,1999,2050.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2051,S7,Forest recovery following shifting cultivation,NAC,2051.04,2002,2051.03,Initiation of post-disturbance cohort (natural),2002,2051.02,Shifting cultivation,100,1997,2051.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2052,Sa S14,Tree and bush savanna recovery after clear-cut,1,2052.03,1982,2052.02,Initiation of post-disturbance cohort (natural),1982,2052.01,Cut,100,1982,0,0,2052.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2052,Sa S14,Tree and bush savanna recovery after clear-cut,1,2052.03,1982,2052.02,Initiation of post-disturbance cohort (natural),1982,2052.01,Cut,100,1982,0,0,2052.04,Grazed,NI,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2053,Sabalo,"Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment",NAC,2053.03,NI,2053.02,Initiation of post-disturbance cohort (natural),NI,2053.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2054,Sabana mahogany plantation,Stand development of unmanaged plantation,0.2,2054.02,1963,2054.03,Planted,1963,2054.01,Cultivation,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2055,Sabana secondary forest,young secondary,0.2,2055.01,1950,2055.02,Initiation of post-disturbance cohort (natural),1950,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -2388,7 +2388,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2387,Tianchi,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2388,Tianshan,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2389,Tiantong Fangyang Hill,human and typhoon disturbed Schima superba-Castanopsis carlesii forest,NAC,2389.01,1951,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2389.02,Major storm,<100%,NI,2389.03,Harvest,<100%,NI,0,0,0,0,0,0,0,extratropical
-2390,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,2390.03,1982,2390.02,Initiation of post-disturbance cohort (natural),1982,2390.01,Cut,100,1982,0,0,2390.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2390,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,2390.03,1982,2390.02,Initiation of post-disturbance cohort (natural),1982,2390.01,Cut,100,1982,0,0,2390.04,Grazed,NI,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2391,Tiputini 2,terra firma TIP-02,0.8,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2392,Tiputini 3,seasonally flooded TIP-03,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2393,Tirimbina,Tropical Wet Forest recovery following pasture abandonment,NAC,2393.03,NI,2393.02,Initiation of post-disturbance cohort (natural),NI,2393.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -2661,7 +2661,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2660,Xujiaba Research Station.Lithocarpus xylocarpus forest,high density stand,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2661,Xujiaba Research Station.Lithocarpus xylocarpus forest,low density stand,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2662,Y site,natural regeneration of ponderosa pine forest 21 years since clearcut,NAC,2662.03,1984,2662.02,Initiation of post-disturbance cohort (natural),1978,2662.01,Cut,100,1978,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2663,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,2663.03,1982,2663.02,Initiation of post-disturbance cohort (natural),1982,2663.01,Cut,100,1982,0,0,2663.04,Grazed,100,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2663,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,2663.03,1982,2663.02,Initiation of post-disturbance cohort (natural),1982,2663.01,Cut,100,1982,0,0,2663.04,Grazed,NI,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2664,Yajiang,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2665,Yakutsk - Larix cajanderi,siberian larch forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2666,Yakutsk 1,Larix gmellinii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -2689,7 +2689,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2688,Yenisei 14lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2688.02,1986,2688.03,Initiation of post-disturbance cohort (planted or natural),1986,2688.01,Burned,100,1986,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2689,Yenisei 200lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2689.02,1800,2689.03,Initiation of post-disturbance cohort (planted or natural),1800,2689.01,Burned,100,1800,0,0,2689.04,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2690,Yenisei 204lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,2690.02,1796,2690.03,Initiation of post-disturbance cohort (planted or natural),1796,2690.01,Burned,100,1796,0,0,2690.04,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2691,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2691.02,1785,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2691.01,Burned,100,1785,2691.03,Burned,<100%,NAC,0,0,0,0,0,0,0,extratropical
+2691,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2691.02,1785,2691.03,Initiation of post-disturbance cohort (planted or natural),1785,2691.01,Burned,100,1785,0,0,2691.04,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2692,Yenisei 28lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2692.02,1972,2692.03,Initiation of post-disturbance cohort (natural),1972,2692.01,Burned,100,1972,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2693,Yenisei 31lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2693.02,1969,2693.03,Initiation of post-disturbance cohort (natural),1969,2693.01,Burned,100,1969,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2694,Yenisei 32lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2694.01,1968,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2694.02,Burned,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical

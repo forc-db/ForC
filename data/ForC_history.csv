@@ -610,7 +610,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 260.01,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,1,1982,8,Disturbance,Cut,NA,100,%,100,NA,2023,tropical
 260.02,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,2,1982,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,2029,tropical
 260.03,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,3,1982,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,2232,tropical
-260.04,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,100,NA,2017,tropical
+260.04,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,NI,NA,2017,tropical
 261.01,Bitagron,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
 262.01,BKK-01a_Boukoko,african tropical forest,8,1,NAC,9,No.info,NAC,NA,NA,NA,NA,Lewis Ref [47]-Favrichon 1997,2100,tropical
 263.01,Black Rock Forest Chronosequence,Forest recovery following clear cut.135 y,NAC,1,NI,9,Disturbance,Cut,NA,100,%,100,NA,NA,extratropical
@@ -1908,11 +1908,11 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 897.01,Gonse G10,Tree and bush savanna recovery after clear-cut,1,1,1982,8,Disturbance,Cut,NA,100,%,100,NA,2020,tropical
 897.02,Gonse G10,Tree and bush savanna recovery after clear-cut,1,2,1982,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,2026,tropical
 897.03,Gonse G10,Tree and bush savanna recovery after clear-cut,1,3,1982,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,2234,tropical
-897.04,Gonse G10,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,100,NA,2014,tropical
+897.04,Gonse G10,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,NI,NA,2014,tropical
 898.01,Gonse G5,Tree and bush savanna recovery after clear-cut,1,1,1982,8,Disturbance,Cut,NA,100,%,100,NA,2021,tropical
 898.02,Gonse G5,Tree and bush savanna recovery after clear-cut,1,2,1982,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,2027,tropical
 898.03,Gonse G5,Tree and bush savanna recovery after clear-cut,1,3,1982,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,2235,tropical
-898.04,Gonse G5,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,100,NA,2015,tropical
+898.04,Gonse G5,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,NI,NA,2015,tropical
 899.01,Gorakhpur_S_14,RD plantation forest,NAC,1,1958,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation forest,NA,extratropical
 899.02,Gorakhpur_S_14,RD plantation forest,NAC,2,1958,8,Regrowth,Planted,1,NA,NA,NA,Plantation forest,NA,extratropical
 900.01,Gorakhpur_S_26,Managed plantation forest,NAC,1,1946,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation forest,NA,extratropical
@@ -4496,7 +4496,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2052.01,Sa S14,Tree and bush savanna recovery after clear-cut,1,1,1982,8,Disturbance,Cut,NA,100,%,100,NA,2022,tropical
 2052.02,Sa S14,Tree and bush savanna recovery after clear-cut,1,2,1982,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,2028,tropical
 2052.03,Sa S14,Tree and bush savanna recovery after clear-cut,1,3,1982,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,2236,tropical
-2052.04,Sa S14,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,100,NA,2016,tropical
+2052.04,Sa S14,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,NI,NA,2016,tropical
 2053.01,Sabalo,"Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment",NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA,tropical
 2053.02,Sabalo,"Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment",NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA,tropical
 2053.03,Sabalo,"Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment",NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA,tropical
@@ -5323,7 +5323,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2390.01,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,1,1982,8,Disturbance,Cut,NA,100,%,100,Fencing and fire protection for about 10 y made initial stand history equal. ,2019,tropical
 2390.02,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,2,1982,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,2025,tropical
 2390.03,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,3,1982,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,2237,tropical
-2390.04,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,100,"Except for grazing, agricultural activities had not been undertaken for at least 50y at any site",2013,tropical
+2390.04,Tiogo T13,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,NI,"Except for grazing, agricultural activities had not been undertaken for at least 50y at any site",2013,tropical
 2391.01,Tiputini 2,terra firma TIP-02,0.8,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2439,tropical
 2392.01,Tiputini 3,seasonally flooded TIP-03,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2440,tropical
 2393.01,Tirimbina,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA,tropical
@@ -6021,7 +6021,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2663.01,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,1,1982,8,Disturbance,Cut,NA,100,%,100,NA,2024,tropical
 2663.02,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,2,1982,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,2030,tropical
 2663.03,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,3,1982,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,2238,tropical
-2663.04,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,100,NA,2018,tropical
+2663.04,Yabo Y13,Tree and bush savanna recovery after clear-cut,1,4,NI,9,Disturbance,Grazed,NA,NA,NA,NI,NA,2018,tropical
 2664.01,Yajiang,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2665.01,Yakutsk - Larix cajanderi,siberian larch forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2666.01,Yakutsk 1,Larix gmellinii,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
@@ -6093,7 +6093,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2690.04,Yenisei 204lm,"moderately burned Pinus sylvestris stand, lichen understory",NAC,4,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"lichens understory, moderately burned- surface fires, frequency +/-43 year",NA,extratropical
 2691.01,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,1,1785,8,Disturbance,Burned,NA,NA,NA,100,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
 2691.02,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,2,1785,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
-2691.03,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,3,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
+2691.03,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,3,1785,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"open woodland, lichen understory, heavily burned, frequency 25 years",NA,extratropical
+2691.04,Yenisei 215lh,"heavily burned Pinus sylvestris stand, lichen understory",NAC,4,NAC,9,Disturbance,Burned,NA,NA,NA,<100%,"open woodland, lichen understory, heavily burned- surface fires, frequency 25 years",NA,extratropical
 2692.01,Yenisei 28lu,"unburned Pinus sylvestris stand, lichen understory",NAC,1,1972,8,Disturbance,Burned,NA,NA,NA,100,"lichen understory, unburned",NA,extratropical
 2692.02,Yenisei 28lu,"unburned Pinus sylvestris stand, lichen understory",NAC,2,1972,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
 2692.03,Yenisei 28lu,"unburned Pinus sylvestris stand, lichen understory",NAC,3,1972,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"lichen understory, unburned",NA,extratropical
