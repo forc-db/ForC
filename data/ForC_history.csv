@@ -881,9 +881,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 388.01,Cambronero,Premontane Rain Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA,tropical
 388.02,Cambronero,Premontane Rain Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA,tropical
 388.03,Cambronero,Premontane Rain Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA,tropical
-389.01,Camp Borden,natural regeneration on abandoned farmland,NAC,1,NI,9,Disturbance,Cultivation,NA,NA,NA,100,NA,NA,extratropical
-389.02,Camp Borden,natural regeneration on abandoned farmland,NAC,2,1900,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
-389.03,Camp Borden,natural regeneration on abandoned farmland,NAC,3,1900,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
+389.01,Camp Borden,natural regeneration on abandoned farmland,NAC,1,NI,9,Disturbance,Cultivation,NA,NA,NA,100,"farmland abandoned around turn of the century (Neumann et al. 1989, cited in Lee_1999_loot)",NA,extratropical
+389.02,Camp Borden,natural regeneration on abandoned farmland,NAC,2,1900,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"farmland abandoned around turn of the century (Neumann et al. 1989, cited in Lee_1999_loot)",NA,extratropical
+389.03,Camp Borden,natural regeneration on abandoned farmland,NAC,3,1900,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,"farmland abandoned around turn of the century (Neumann et al. 1989, cited in Lee_1999_loot)",NA,extratropical
 390.01,Canada - Atlantic Maritime,boreal moist forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 391.01,Canada - Boreal Plains,boreal dry forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 392.01,Canada - Eastern Boreal Shield,boreal moist forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
