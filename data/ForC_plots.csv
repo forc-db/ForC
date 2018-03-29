@@ -834,8 +834,9 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 833,FLONA Tapajos Km 67,primary forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 834,FLONA Tapajos Km 83,primary forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 835,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.10 y,NAC,835.02,1965,835.01,Planted,1965,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-836,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,836.02,1969,836.01,Planted,1965,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-837,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,837.02,1967,837.01,Planted,1965,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2732,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.9 y,NAC,835.02,1966,835.01,Planted,1966,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+836,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,836.02,1969,836.01,Planted,1969,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+837,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,837.02,1967,837.01,Planted,1967,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 838,Fort Dix Army Base Pine/Oak stand,gypsy moth defoliation,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 839,Fortuna,upland tropical forest,NAC,0,NAC,0,NI,NAC,0,NI,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 840,France,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical

@@ -1832,9 +1832,11 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 834.01,FLONA Tapajos Km 83,primary forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,*Selective logging after measurements were made,718,tropical
 835.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.10 y,NAC,1,1965,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,719,tropical
 835.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.10 y,NAC,2,1965,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,722,tropical
-836.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,1,1965,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,720,tropical
+2732.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.9 y,NAC,1,1966,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,719,tropical
+2732.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.9 y,NAC,2,1966,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,722,tropical
+836.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,1,1969,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,720,tropical
 836.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,2,1969,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,723,tropical
-837.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,1,1965,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,721,tropical
+837.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,1,1967,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,721,tropical
 837.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,2,1967,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,724,tropical
 838.01,Fort Dix Army Base Pine/Oak stand,gypsy moth defoliation,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 839.01,Fortuna,upland tropical forest,NAC,1,NAC,9,No.info,NI,NA,NA,NA,NA,NA,5616,tropical
