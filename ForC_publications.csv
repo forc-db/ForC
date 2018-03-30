@@ -1,3 +1,4 @@
 n,Author (last name of first author),Year,Title,Journal,DOI,type, notes
-1,Anderson-Teixeira,2016,Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db),Global Change Biology,10.1111/gcb.13226,journal article, original database publication (tropical data only) 
+1,Anderson-Teixeira,2016,Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db),Global Change Biology,10.1111/gcb.13226,journal article,original database publication (tropical data only) 
 2,Anderson-Teixeira,2016,Data from: Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db),Dryad Digital Repository,10.5061/dryad.t516f,data,"data accompanying Anderson-Teixeira et al. 2016, GCB"
+3,Anderson-Teixeira,2018,ForC: a global database of forest carbon stocks and fluxes,Ecology,,data,publication of full ForC database (ForC v2.0)
