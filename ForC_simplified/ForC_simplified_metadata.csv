@@ -1,0 +1,31 @@
+Column,From Table,Field,Description,Storage.Type,Variable.Codes,Units
+1 / A,MEASUREMENTS,measurement.ID,Unique identifier for each record in the measurements table.,numeric (integer),-,-
+2 / B,MEASUREMENTS,sites.sitename,"Unique site identifier name for the site at which the measurement was made. Links to SITES, PLOTS and HISTORY tables. ",character (string),-,-
+3 / C,MEASUREMENTS,plot.name,Unique plot identifier name for the plot in which the measurement was made. Links to HISTORY and PLOTS table.,character (string),-,-
+4 / D,MEASUREMENTS,stand.age,"Age of stand at time of measurement as reported in the original publication or calculated based on the date of initiation of forest regrowth. When the publication reports a range of ages, the mean is recorded. For stands that were reported as primary/old-growth/mature/ intact stands, the stand.age is recorded as ""999"". WARNING: The ""999"" designation may include some older secondary stands that were designated ""mature"" or some partially disturbed primary stands (e.g., partially logged).",numeric (double),see description,years
+5 / E,MEASUREMENTS,dominant.life.form,"Dominant life form at time of measurement, with categories including ""woody"" (trees, seedlings, or shrubs), ""grass"", and ""woody+grass"" (i.e., savanna). ",character (string),see description,-
+6 / F,MEASUREMENTS,dominant.veg,"Code used to identify plant functional type of dominant vegetation at time of measurement. For trees, groupings are based on leaf type (broadleaf /needleleaf/ mixed) and phenology (deciduous/ evergreen/ mixed), and dominance is defined based on an 80% threshold (if given). If vegetation is a mix of trees and other vegetation, codes refer to the functional type of trees. For vegetation with no significant tree species component, groupings are by life form, if any. ",character (string),Given in PFT table,-
+9 / I,MEASUREMENTS,variable.name,Code name for variable sampled. ,character (string),Given in VARIABLES table,-
+10 / J,MEASUREMENTS,date,"Date on which measurement was made. Usually found as the year of measurement in the methods section, or, when unavailable, approximated as the year before publication. ",numeric (double),-,decimal years
+12 / L,MEASUREMENTS,start.date,Date on which measurements were started.,numeric (double),,decimal years
+14 / N,MEASUREMENTS,end.date,Date on which measurements ended.,numeric (double),,decimal years
+16 / P,MEASUREMENTS,mean,Mean value of measurement recorded. Units dependent on variable.name. ,numeric (double) ,-,Given in VARIABLES table
+20 / T,MEASUREMENTS,area.sampled,"Area sampled for measurement of the particular variable. If the measurement includes multiple components with different sampling area (e.g., large trees sampled in the entire plot, small trees sampled in subplots), the largest area is reported. This may be less than plot.area (PLOTS table). As this field was added after most of the data had been entered, it is coded as ""NAC"" for most records.",numeric (double),-,ha
+25 / Y,MEASUREMENTS,min.dbh,"Minimum diameter (typically DBH, diameter at breast height) of tree stems included in the measurement. ""0"" indicates that all stems were included.",numeric (integer),,cm
+26 / Z,MEASUREMENTS,depth,Depth of measurement if belowground or including belowground components,numeric (integer),-,cm
+27 / AA,MEASUREMENTS,covariate_1,Code name for covariate associated with the variable being measured. Codes defined in VARIABLES table.,character (string),-,-
+28 / AB,MEASUREMENTS,coV_1.value,Value of reported covariate.,character (string),-,VARIABLES table
+29 / AC,MEASUREMENTS,covariate_2,Code name for covariate associated with the variable being measured. Codes defined in VARIABLES table.,character (string),-,-
+30 / AD,MEASUREMENTS,coV_2.value,Value of reported covariate.,numeric (double) ,-,VARIABLES table
+40 / AN,MEASUREMENTS,citation.ID,Citation ID for publication from which measurements were obtained. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.,character (string) ,-,-
+6 / F,SITES,lat,"Latitude, where negative values indicate S hemisphere",numeric (double),-,decimal degrees
+7 / G,SITES,lon,"Longitude, where negative values indicate W hemisphere",numeric (double),-,decimal degrees
+8 / H,SITES,masl,"Elevation in meters above sea level. When a range is given, midpoint is reported.",numeric (double),-,m 
+10 / J,SITES,mat,Mean annual temperature ,numeric (double),-,C
+11 / K,SITES,min.temp,Mean temperature of the coldest month ,numeric (double),-,C
+12 / L,SITES,max.temp,Mean temperature of the warmest month,numeric (double),-,C
+13 / M,SITES,map,Mean annual precipitation ,numeric (double),-,mm
+20 / T,SITES,geographic.area,"Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github –scripts” folder).",numeric (integer) ,-,-
+21 / U,SITES,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-
+22 / V,SITES,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-
+23 / W,SITES,FAO.ecozone,"FAO global ecological zones classification, extracted from FAO's GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-
