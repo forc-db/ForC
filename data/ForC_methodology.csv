@@ -252,7 +252,7 @@ method.ID,method.citation,variable.name,method.notes
 299,Maier_2004_rcua,R_auto_C,C-balance
 338,Pers. Commun. Goulden,R_auto_C,NPP_roots
 341,Pers. Commun. Malhi,R_auto_C,foliage and wood respiration
-355,Navarro_2008,R_auto_C,GPP-NPP
+355,Navarro_2008_fdng,R_auto_C,GPP-NPP
 356,Ryan_1997_acco,R_auto_C,Chamber measurements of the components
 357,Campbell_2004,R_auto_C,Ra_roots+Ra_foliage+Ra_wood
 360,Harmon_2004_prao,R_auto_C,"biomass, temperature function adjusted by Ra_folia"
