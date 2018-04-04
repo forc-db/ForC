@@ -5,7 +5,7 @@ ForC-simplified is a single-spreadsheet version of ForC that is intended to faci
 
 ForC-simplified is automatically generated from ForC using [this R script](https://github.com/forc-db/ForC/blob/master/scripts/Database_manipulation/Create_ForC_simplified.R). It should never be manually edited; any changes must be made in [ForC/data](https://github.com/forc-db/ForC/tree/master/data), [ForC/metadata](https://github.com/forc-db/ForC/tree/master/metadata), or the [R script](https://github.com/forc-db/ForC/blob/master/scripts/Database_manipulation/Create_ForC_simplified.R). 
 
-The fields currently included in ForC-simplified are listed in [`ForC_simplified_metadata.csv`](https://github.com/forc-db/ForC/blob/master/ForC_simplified/ForC_simplified_metadata.csv). These can easily be modified by changing the R script. Alternatively, an issue may be submitted requesting the addition of a field.
+The fields currently included in ForC-simplified are listed in [`ForC_simplified_metadata.csv`](https://github.com/forc-db/ForC/blob/master/ForC_simplified/ForC_simplified_metadata.csv). These can easily be modified by changing the [R script](https://github.com/forc-db/ForC/blob/master/scripts/Database_manipulation/Create_ForC_simplified.R). Alternatively, an issue may be submitted requesting the addition of a field.
 
 ForC-simplified is simply a rearrangement of the ForC database and should be cited in the same manner as the full database.
 
