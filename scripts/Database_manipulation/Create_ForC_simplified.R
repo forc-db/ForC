@@ -99,3 +99,7 @@ SITES_PLOTS_MEASUREMENTS <- SITES_PLOTS_MEASUREMENTS[, ForC_simplified_meta$Fiel
 # Save ForC-simplified ####
 
 write.csv(SITES_PLOTS, file = "ForC_simplified/ForC_simplified.csv", row.names = F)
+
+
+# put back options to default
+options(warn = 0)
