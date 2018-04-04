@@ -15,3 +15,5 @@ The following simplifications are made in the creation of ForC-simplified:
 - Many fields are dropped, including fields with <50% data present, notes, and fields documenting the database assembly process. 
 - All measurements converted to units of C using the IPCC default of C = 0.48 * biomass. Variables expressed in C and OM merged (e.g., `biomass_ag_C` and `biomass_ag_OM` become `biomass_ag`).
 - Duplicate measurements are removed, giving precedence to more recently published studies and preferred methodologies, as determined by database investigators. We also remove records that subsume others (e.g., multi-year averages when annual estimates exist, records with missing dates that potentially conflict with others).
+- NEE_cum_C, GPP_cum_C, and R_eco_cum_C ignored.
+- Secondary variables ignored. 
