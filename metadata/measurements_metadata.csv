@@ -14,7 +14,7 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 13 / M,start.date.loc,Level of confidence in date. ,numeric (double),Given in dateLOC table,-,17261,5,9
 14 / N,end.date,Date on which measurements ended.,numeric (double),,decimal years,3512,1964,2016
 15 / O,end.date.loc,Level of confidence in date. ,numeric (double),Given in dateLOC table,-,17258,5,9
-16 / P,mean,Mean value of measurement recorded. Units dependent on variable.name. ,numeric (double) ,-,Given in VARIABLES table,17367,-25,1533
+16 / P,mean,Mean value of measurement recorded. Units dependent on units depend on the variable and can be found in the VARIABLES table. ,numeric (double) ,-,Given in VARIABLES table,17367,-25,1533
 17 / Q,n,Number of experimental replicates used to estimate mean and statistical summary.,numeric (integer) ,-,-,7599,1,4810
 18 / R,stat.name,Name of reported statistic (SE- standard error; SD- standard deviation; 95%CI- 95% confidence interval). ,character (string),see description,-,2224,-,-
 19 / S,stat,Value of reported statistic.,numeric (double),-,VARIABLES table,2246,0,72
