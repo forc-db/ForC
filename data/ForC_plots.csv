@@ -959,7 +959,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 957,Hanjiayuan,Pinus sylvestris var. mongolica,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 958,Hartheim,planted scots pine forest in 1963,NAC,0,NAC,958.01,Planted,1963,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 959,Harvard 2,UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-960,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1) ,NAC,960.01,1895,960.04,Initiation of post-disturbance cohort (natural),1938,960.03,Harvest,<100%,1938,960.02,0,960.05,Burned,<100%,1957,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+960,Harvard Forest - Little Prospect Hill,EMS Tower (HFR1),NAC,960.01,1895,960.04,Initiation of post-disturbance cohort (natural),1938,960.03,Harvest,<100%,1938,960.02,0,960.05,Burned,<100%,1957,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 961,Harvard Forest Hemlock / US-Ha2,UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,961.01,Harvest,<100%,1800,961.02,Harvest,<100%,1900,0,0,0,0,0,0,0,extratropical
 962,Harvard Forest Soil Warming Experiment- Barre Woods,Control UM,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,962,962.03,Major storm,<100%,1938,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 963,Harvard Forest Soil Warming Experiment- Barre Woods,"Warming_soil, soil disturbance",NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,963,963.03,Major storm,<100%,1938,0,NA,NA,NA,0,0,963.05,0,0,0,963.04,extratropical
