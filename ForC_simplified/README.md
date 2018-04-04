@@ -3,7 +3,7 @@
 ## About
 ForC-simplified is a single-spreadsheet version of ForC that is intended to facilitate many types of analysis, including including inquiry-based learning exercises for students.
 
-ForC-simplified is automatically generated from ForC using an R script and should never be manually edited. 
+ForC-simplified is automatically generated from ForC using [this R script](https://github.com/forc-db/ForC/blob/master/scripts/Database_manipulation/Create_ForC_simplified.R) and should never be manually edited. 
 
 The fields currently included in ForC-simplified are listed in [`ForC_simplified_metadata.csv`](https://github.com/forc-db/ForC/blob/master/ForC_simplified/ForC_simplified_metadata.csv). These can easily be modified by changing the R script. Alternatively, an issue may be submitted requesting the addition of a field.
 
