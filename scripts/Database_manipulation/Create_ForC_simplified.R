@@ -7,7 +7,7 @@
 # - ForC_simplified_metadata.csv
 # - R code that resolves duplicatd records "scripts/Database_manipulation/Reconcile_duplicated_records.R"
 # - 
-# outputs: - MEASUREMENTS table with updated duplicate system coding
+# outputs: - ForC-simplified table
 # Developped by: Valentine Herrmann - HerrmannV@si.edu
 # R version 3.4.2 (2018-03-29)
 ######################################################
