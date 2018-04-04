@@ -7,3 +7,5 @@ figures/desktop.ini
 
 # OS files
 .DS_Store
+.DS_Store
+scripts/.DS_Store
