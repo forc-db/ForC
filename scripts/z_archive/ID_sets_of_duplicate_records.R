@@ -38,29 +38,8 @@ MEASUREMENTS$my.date <- as.Date(date_decimal(as.numeric(MEASUREMENTS$date)))
 MEASUREMENTS$my.start.date <- as.Date(date_decimal(as.numeric(MEASUREMENTS$start.date)))
 MEASUREMENTS$my.end.date <- as.Date(date_decimal(as.numeric(MEASUREMENTS$end.date)))
 
-### calculate span between start and end
-
-range.span <- difftime(MEASUREMENTS$my.end.date, MEASUREMENTS$my.start.date, units = "days")
-table(range.span)
-MEASUREMENTS[which(range.span < 0), ]
-
-### if spans less than a year (and a day), put start date in date and remove range dates
-A <- MEASUREMENTS[which(range.span <= 367 & !is.na(MEASUREMENTS$my.date)), ]
-A <- A[difftime(A$my.date, A$my.start.date, units = "days") != 0,]
-A <- A[, c("measurement.ID", "stand.age", "date", "start.date", "end.date", "my.date", "my.start.date", "my.end.date")] 
-
-MEASUREMENTS[which(range.span <= 367), ]$my.date <- MEASUREMENTS[which(range.span <= 367), ]$my.start.date
-MEASUREMENTS[which(range.span <= 367), ]$my.start.date <- NA
-MEASUREMENTS[which(range.span <= 367), ]$my.end.date <- NA
-
-warning(paste(nrow(A), "dates were different than start.date"), immediate. = T)
-
-### if spans more than a year (and a day) keep range dates and put NA to dates (in case there is any)
-A <- MEASUREMENTS[which(range.span > 367 & !is.na(MEASUREMENTS$my.date)), ]
-
-MEASUREMENTS[which(range.span > 367), ]$my.date <- NA
-warning(paste(nrow(A), "record had both range and dates pecified"), immediate. = T)
-
+MEASUREMENTS$my.date <- ifelse(!is.na(MEASUREMENTS$my.start.date) & !is.na(MEASUREMENTS$my.end.date), NA,  MEASUREMENTS$my.date)
+class(MEASUREMENTS$my.date) <- "Date"
 
 ### take floor of all dates
 MEASUREMENTS$my.date <- year(MEASUREMENTS$my.date)
@@ -99,7 +78,7 @@ for(i in 1:length(MEASUREMENTS.split)){
   X <- MEASUREMENTS.split[[i]]
   
   any.duplicated.dates <- any(duplicated(na.omit(X$my.date)))
-  any.duplicated.start.dates <- any(duplicated(na.omit(X$my.start.date)))
+  # any.duplicated.start.dates <- any(duplicated(na.omit(X$my.start.date)))
   any.duplicated.stand.age <- any(duplicated(my_na.omit(X$stand.age)))
   
   all.types.dates.NA <- all(is.na(c(X$my.date, X$my.start.date)))
@@ -122,51 +101,59 @@ for(i in 1:length(MEASUREMENTS.split)){
   
   sum.of.range.records <- sum(!is.na(X$my.start.date))
   
-  if(nrow(X) == 1) X$conflicts <- paste(X$conflicts, "I", sep = ",") # if only one record for that plot and that variable --> independant record
+  if (nrow(X) == 1) X$conflicts <- paste(X$conflicts, "I", sep = ",") # if only one record for that plot and that variable --> independant record
   
-  if(nrow(X) > 1) { # if more than one record...  
+  if (nrow(X) > 1) { # if more than one record...  
     
     ## If any duplicated dates or start.date (excluding NA) OR, if all dates are missing, if any duplicated stand.gae (excluding NA)
-    if(any.duplicated.dates | any.duplicated.start.dates | (all.types.dates.NA & any.duplicated.stand.age)) { # if any duplicated dates or start.date or stand.gae (if missing all dates),  (excluding NA)
+    if (any.duplicated.dates | (all.types.dates.NA & any.duplicated.stand.age)) { # if any duplicated dates or start.date or stand.gae (if missing all dates),  (excluding NA)
 
-      if(any.duplicated.dates)  date.to.look.at <- "my.date"
-      if(any.duplicated.start.dates)  date.to.look.at <- "my.start.date"
-      if(all.types.dates.NA & any.duplicated.stand.age) date.to.look.at <- "stand.age"
+      if (any.duplicated.dates)  date.to.look.at <- "my.date"
+      # if (any.duplicated.start.dates)  date.to.look.at <- "my.start.date"; n.loop = 1
+      if (all.types.dates.NA & any.duplicated.stand.age) date.to.look.at <- "stand.age"
     
-      if(any.duplicated.dates & any.duplicated.start.dates) {
-        print(X)
-        warning("need to improve code for that case...", immediate. = T)
-        readline("press [enter]")
-      }
+      # if (any.duplicated.dates & any.duplicated.start.dates) date.to.look.at <- "my.date"; n.loop = 2
+      #   {
+      #   print(X)
+      #   warning("need to improve code for that case...", immediate. = T)
+      #   readline("press [enter]")
+      # }
       
-      X.split <- split(X, addNA(X[, date.to.look.at])) # split by date
+      # for(l in 1:n.loop) { # loop if there is both duplicated dates and duplicated start.dates
+      #   
+      #   if (l == 1) date.to.look.at <- date.to.look.at
+      #   if (l == 2) date.to.look.at <- "my.start.date"
         
-      for(s in 1:length(X.split)){ # look into each date subset
+        X.split <- split(X, addNA(X[, date.to.look.at])) # split by date
+        
+        for(s in 1:length(X.split)){ # look into each date subset
         
         x <- X.split[[s]]
         
-        if(!is.na(names((X.split))[s])){ # if date is not NA, care about. otherwise, don't do anything, it will be taken car of in another case
-          if(nrow(x) == 1) x$conflicts = paste(x$conflicts, "I", sep = "," ) # if only one record per date --> independant record
+        if (!is.na(names((X.split))[s])){ # if date is not NA, care about. otherwise, don't do anything, it will be taken car of in another case
+          if (nrow(x) == 1) x$conflicts = paste(x$conflicts, "I", sep = "," ) # if only one record per date --> independant record
         
-          if(nrow(x) > 1 ){ # if more than one record, need to look more into it...
+          if (nrow(x) > 1 ){ # if more than one record, need to look more into it...
           
-            if(length(unique(x$stand.age)) != length(unique(x[, ifelse(date.to.look.at == "my.date", "date", "start.date")]))) { # if one stand.age is not associated to one date
-            # print(X)
-            warning(paste("Problem of stand.age and date for i =", i))
-            # readline("press[enter]")
-          } # if one stand.age is not associated to one date
+          #   if (length(unique(x$stand.age)) != length(unique(x[, ifelse(date.to.look.at == "my.date", "my.date", "start.date")]))) { # if one stand.age is not associated to one date
+          #   print(x)
+          #   warning(paste("Problem of stand.age and date for i =", i))
+          #   readline("press[enter]")
+          # } # if one stand.age is not associated to one date
           
-            all.same.study <- length(unique(x$citation.ID)) == 1 # are all record the from the same study ?
+            all.same.citation <- length(unique(x$citation.ID)) == 1 # are all record the from the same study ?
             all.same.method <- length(unique(x$method.ID)) == 1  # are all record the from the same method ?
             all.same.notes <-  length(unique(x$notes)) == 1 # have all record the same note ?
             all.same.C.units <- length(unique(x$variable.name)) == 1 # have all record the same carbon units ?
             all.same.depth <- length(unique(x$depth)) == 1 # have all record the same depth ?
-          
-            all.same.start.date <- ifelse(any.duplicated.start.dates, length(unique(x$start.date)) == 1, TRUE) # have all range record the exact same start date ?
-            all.same.end.date <- ifelse(any.duplicated.start.dates, length(unique(x$end.date)) == 1, TRUE) # have all range record the exact same end date ?
+            all.same.dbh <- length(unique(x$min.dbh)) == 1# have all record the same min.dbh ?
+            
+            # all.same.start.date <- ifelse(any.duplicated.start.dates, length(unique(x$start.date)) == 1, TRUE) # have all range record the exact same start date ?
+            # all.same.end.date <- ifelse(any.duplicated.start.dates, length(unique(x$end.date)) == 1, TRUE) # have all range record the exact same end date ?
           
           # only replicates (all same study & all same method & all same notes & all same carbon units)
-            if(all.same.study & all.same.method & all.same.notes & all.same.C.units & all.same.start.date & all.same.end.date & all.same.depth) { # if only replicates
+            # if (all.same.citation & all.same.method & all.same.notes & all.same.C.units & all.same.start.date & all.same.end.date & all.same.depth)
+            if (all.same.citation & all.same.method & all.same.notes & all.same.C.units & all.same.depth & all.same.dbh) { # if only replicates
               
               R.group.ID <- R.group.ID +1
               
@@ -175,7 +162,8 @@ for(i in 1:length(MEASUREMENTS.split)){
             }  # if only replicates
           
           # Not only replicates (and maybe not at all)...
-            if(any(!all.same.study, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.start.date, !all.same.end.date, !all.same.depth)) { # if not only replicates
+            # if (any(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.start.date, !all.same.end.date, !all.same.depth))
+            if (any(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, !all.same.dbh)) { # if not only replicates
               
               D.group.ID <- D.group.ID +1
             
@@ -185,7 +173,8 @@ for(i in 1:length(MEASUREMENTS.split)){
               
               ## ID sub groups of replicates, if any
               
-              all.fields.to.look.at.pasted <- paste(x$variable.name, x$notes, x$method.ID, x$citation.ID, x$depth, ifelse(any.duplicated.start.dates, paste(x$start.date, x$end.date), ""))
+              all.fields.to.look.at.pasted <- paste(x$variable.name, x$notes, x$method.ID, x$citation.ID, x$depth)
+              # all.fields.to.look.at.pasted <- paste(x$variable.name, x$notes, x$method.ID, x$citation.ID, x$depth, ifelse(any.duplicated.start.dates, paste(x$start.date, x$end.date), ""))
               
               unique.all.fields.to.look.at.combinations <- as.data.frame(table(all.fields.to.look.at.pasted), stringsAsFactors = F)
               
@@ -193,7 +182,7 @@ for(i in 1:length(MEASUREMENTS.split)){
               
               idx.replicates.amongs.duplicates <- all.fields.to.look.at.pasted %in% replicates.all.fields.to.look.at.combinations # identify those records that are not alone to have the method and citation combinations
               
-              if(any(idx.replicates.amongs.duplicates)) { # if there are replicates in the group of duplicates
+              if (any(idx.replicates.amongs.duplicates)) { # if there are replicates in the group of duplicates
                 
                 R.group.ID <- R.group.ID +1
                 
@@ -204,7 +193,8 @@ for(i in 1:length(MEASUREMENTS.split)){
               
               ## Add conflict.type (same for all in group of duplicates, depends on what is not unique)
               
-              conflict.types <- unique(c("M", "M", "M", "C", "M", "T", "T") [c(!all.same.study, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth,  !all.same.start.date, !all.same.end.date)])
+              # conflict.types <- unique(c("M", "M", "M", "C", "M", "T", "T") [c(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth,  !all.same.start.date, !all.same.end.date)])
+              conflict.types <- unique(c("M", "M", "M", "C", "M", "M") [c(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, !all.same.dbh)])
               x$conflict.type <- paste(x$conflict.types, paste(conflict.types, collapse = ",") , sep = "," )
               
             } # if not only replicates
@@ -216,14 +206,21 @@ for(i in 1:length(MEASUREMENTS.split)){
       } # look into each date subset
         
         X <- do.call(rbind, X.split)
+      # } # loop if there is both duplicated dates and duplicated start.dates
+
         
-      } # if any duplicated dates or start.date or stand.gae (if missing all dates),  (excluding NA)
+    } # if any duplicated dates or start.date or stand.gae (if missing all dates),  (excluding NA)
     
     ## if any range record
-    if(any.range){ # if dates and ranges together
+    if (any.range){ # if dates and ranges together
       
       ### first look at if some ranges are in conflict
+      
       idx.range.date <- which(!is.na(X$my.start.date))
+      
+      #### order by start date then end date.
+      order.range.date <- order(X[idx.range.date,]$my.start.date, X[idx.range.date,]$my.end.date)
+      idx.range.date <- idx.range.date[order.range.date]
       
       while(length(idx.range.date > 1)) { # look at one range at time and find overlaps, then ignore it. Do this until no other range to look at
         
@@ -235,40 +232,64 @@ for(i in 1:length(MEASUREMENTS.split)){
         
         overlap <- !(x$my.start.date +1 > y$my.end.date  | y$my.start.date +1 > x$my.end.date)
         
-        if(any(overlap)) { # if there is any overlap
+        if (any(overlap)) { # if there is any overlap
           
           overlap.idx <- idx.range.date[-1][overlap]
           
           overlap.already.found <- any(table(as.numeric(unlist(sapply(as.character(X[c(idx.x, overlap.idx), "D.group"]), strsplit, ",")))) > 1)
           
-          if(!overlap.already.found) { # if the overlap was not already found in previous rounds
+          if (!overlap.already.found) { # if the overlap was not already found in previous rounds
             
-            ## give D conflict value and D.group ID
             
-            D.group.ID <- D.group.ID +1
+            ## get this case index
             
             this.case.idx <- c(idx.x, overlap.idx)
             
-            X[this.case.idx, "D.group"] <- paste( X[this.case.idx, "D.group"], D.group.ID, sep = "," )
-            X[this.case.idx, "conflicts"] <- paste( X[this.case.idx, "conflicts"], "D", sep = "," )
+            ## get what type of conflict we have 
             
-            ## give the conflict.type values T (besides others)
             
-            all.same.study <- length(unique(X[this.case.idx, ]$citation.ID)) == 1 # are all record the from the same study ?
+            all.same.citation <- length(unique(X[this.case.idx, ]$citation.ID)) == 1 # are all record the from the same study ?
             all.same.method <- length(unique(X[this.case.idx, ]$method.ID)) == 1  # are all record the from the same method ?
             all.same.notes <-  length(unique(X[this.case.idx, ]$notes)) == 1 # have all record the same note ?
             all.same.C.units <- length(unique(X[this.case.idx,]$variable.name)) == 1 # have all record the same carbon units ?
             all.same.depth <- length(unique(X[this.case.idx,]$depth)) == 1 # have all record the same depth ?
+            all.same.dbh <- length(unique(X[this.case.idx,]$min.dbh)) == 1# have all record the same min.dbh ?
             
+            all.same.start.date <- length(unique(X[this.case.idx,]$my.start.date)) == 1
+            all.same.end.date <- length(unique(X[this.case.idx,]$my.end.date)) == 1
+            exact.overlap <- all.same.start.date & all.same.end.date
             
-            conflict.types <- unique(c("M", "M", "M", "C", "M", "T") [c(!all.same.study, !all.same.method, !all.same.notes, !all.same.C.units, all.same.depth, TRUE)])
-            X[this.case.idx, ]$conflict.type <- paste(X[this.case.idx, ]$conflict.types, paste(conflict.types, collapse = ",") , sep = "," )
+            conflict.types <- unique(c("M", "M", "M", "C", "M", "M", "T") [c(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, !all.same.dbh, !exact.overlap)])
+            
+            ## If everything is the same, it is a replicate
+            if(length(conflict.types) == 0) { # if it is a replicate
+              
+              R.group.ID <- R.group.ID +1
+              
+              
+              X[this.case.idx, "R.group"] <- paste( X[this.case.idx, "R.group"], D.group.ID, sep = "," )
+              X[this.case.idx, "conflicts"] <- paste( X[this.case.idx, "conflicts"], "R", sep = "," )
+              
+            } # if it is a replicate
+              
+            
+            ## If NOT everything is the same, it is a duplicate
+            if(length(conflict.types) > 0) { # if it is a duplicate
+              
+              D.group.ID <- D.group.ID +1
+              
+              
+              X[this.case.idx, "D.group"] <- paste( X[this.case.idx, "D.group"], D.group.ID, sep = "," )
+              X[this.case.idx, "conflicts"] <- paste( X[this.case.idx, "conflicts"], "D", sep = "," )
+              X[this.case.idx, "conflict.type"]<- paste(X[this.case.idx, "conflict.type"], paste(conflict.types, collapse = ",") , sep = "," )
+              
+              
+            } # if it is a duplicate
             
             
           } # if the overlap was not already found in previous rounds
           
         } # if there is any overlap
-        
         
         idx.range.date <- idx.range.date[-1] # remove range of focus so that we don't look at it again
         
@@ -281,8 +302,8 @@ for(i in 1:length(MEASUREMENTS.split)){
         
         idx.y <- idx.range.date[-r]
         
-        if(length(idx.range.date) == 1) x <- X
-        if(length(idx.range.date) > 1) x <- X[-idx.y, ]
+        if (length(idx.range.date) == 1) x <- X
+        if (length(idx.range.date) > 1) x <- X[-idx.y, ]
         
         ### get the range of dates
         the.one.start.date <- na.omit(unique(x$my.start.date))
@@ -302,11 +323,11 @@ for(i in 1:length(MEASUREMENTS.split)){
         one.to.one.conflict <- length(idx.range.date.subset) == 1 & sum(dates.within.range) == 1
         one.to.many.conflict <- length(idx.range.date.subset) == 1 & sum(dates.within.range) > 1 
           
-        if(length(idx.range.date.subset) != 1) stop("Error: problem in coding, length(idx.range.date.subset) should be 1")
+        if (length(idx.range.date.subset) != 1) stop("Error: problem in coding, length(idx.range.date.subset) should be 1")
         
-        if(no.conflict)  x$conflicts <- paste(x$conflicts, "I", sep = "," )
+        if (no.conflict)  x$conflicts <- paste(x$conflicts, "I", sep = "," )
         
-        if(one.to.one.conflict) { # if 1-to-1 conflict
+        if (one.to.one.conflict) { # if 1-to-1 conflict
           
           ## give D conflict value and D.group ID to all non-NA
           
@@ -318,17 +339,18 @@ for(i in 1:length(MEASUREMENTS.split)){
           x$conflicts[this.case.idx] <-  paste(x$conflicts[this.case.idx], "D", sep = "," ) # give a conflict value (beside existing one)
           ## give the conflict.type values T (besides others)
           
-          all.same.study <- length(unique(x[this.case.idx, ]$citation.ID)) == 1 # are all record the from the same study ?
+          all.same.citation <- length(unique(x[this.case.idx, ]$citation.ID)) == 1 # are all record the from the same study ?
           all.same.method <- length(unique(x[this.case.idx, ]$method.ID)) == 1  # are all record the from the same method ?
           all.same.notes <-  length(unique(x[this.case.idx, ]$notes)) == 1 # have all record the same note ?
           all.same.C.units <- length(unique(x[this.case.idx,]$variable.name)) == 1 # have all record the same carbon units ?
           all.same.depth <- length(unique(X[this.case.idx,]$depth)) == 1 # have all record the same depth ?
+          all.same.dbh <- length(unique(X[this.case.idx,]$min.dbh)) == 1# have all record the same min.dbh ?
           
-          conflict.types <- unique(c("M", "M", "M", "C", "M", "T") [c(!all.same.study, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, TRUE)])
+          conflict.types <- unique(c("M", "M", "M", "C", "M", "M", "T") [c(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, !all.same.dbh, TRUE)])
           x[this.case.idx, ]$conflict.type <- paste(x[this.case.idx, ]$conflict.types, paste(conflict.types, collapse = ",") , sep = "," )
           
         } # if 1-to-1 conflict
-        if(one.to.many.conflict) { # if 1-to-many conflict
+        if (one.to.many.conflict) { # if 1-to-many conflict
           
           S.group.ID <- S.group.ID +1
           
@@ -342,20 +364,21 @@ for(i in 1:length(MEASUREMENTS.split)){
           ## give the conflict.type values T (besides others)
           this.case.idx <- c(idx.range.date.subset, idx.non.range.dates[dates.within.range]) # look at range record and non-range record
           
-          all.same.study <- length(unique(x[this.case.idx, ]$citation.ID)) == 1 # are all record the from the same study ?
+          all.same.citation <- length(unique(x[this.case.idx, ]$citation.ID)) == 1 # are all record the from the same study ?
           all.same.method <- length(unique(x[this.case.idx, ]$method.ID)) == 1  # are all record the from the same method ?
           all.same.notes <-  length(unique(x[this.case.idx, ]$notes)) == 1 # have all record the same note ?
           all.same.C.units <- length(unique(x[this.case.idx, ]$variable.name)) == 1 # have all record the same carbon units ?
           all.same.depth <- length(unique(X[this.case.idx,]$depth)) == 1 # have all record the same depth ?
+          all.same.dbh <- length(unique(X[this.case.idx,]$min.dbh)) == 1# have all record the same min.dbh ?
           
-          conflict.types <- unique(c("M", "M", "M", "C", "M", "T") [c(!all.same.study, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, TRUE)])
+          conflict.types <- unique(c("M", "M", "M", "C", "M", "M", "T") [c(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, !all.same.dbh, TRUE)])
           x[this.case.idx, ]$conflict.type <- paste(x[this.case.idx, ]$conflict.types, paste(conflict.types, collapse = ",") , sep = "," )
         } # if 1-to-many conflict
         
         ### put back in X
         
-        if(length(idx.range.date) == 1) X <- x
-        if(length(idx.range.date) > 1) X[-idx.y, ] <- x
+        if (length(idx.range.date) == 1) X <- x
+        if (length(idx.range.date) > 1) X[-idx.y, ] <- x
        
       }
       
@@ -363,10 +386,10 @@ for(i in 1:length(MEASUREMENTS.split)){
     
     
     ## missing dates amongst other records with dates
-    if((!all.types.dates.NA & any.all.types.dates.NA) | (all.types.dates.NA & any.stand.age.NA)) { # if any missing dates, give s category
+    if ((!all.types.dates.NA & any.all.types.dates.NA) | (all.types.dates.NA & any.stand.age.NA)) { # if any missing dates, give s category
       
-      if(!all.types.dates.NA & any.all.types.dates.NA) idx.NA <- which(paste0(X$my.date, X$my.start.date) %in% "NANA")
-      if(all.types.dates.NA & any.stand.age.NA) idx.NA <- which(my_is.na(X$stand.age))
+      if (!all.types.dates.NA & any.all.types.dates.NA) idx.NA <- which(paste0(X$my.date, X$my.start.date) %in% "NANA")
+      if (all.types.dates.NA & any.stand.age.NA) idx.NA <- which(my_is.na(X$stand.age))
       
       ## give S code to the dates that are NA
       X$conflicts[idx.NA] <- paste(X$conflicts[idx.NA], "S", sep = "," )
@@ -384,13 +407,14 @@ for(i in 1:length(MEASUREMENTS.split)){
       
       ## give the conflict.type values T (besides others)
       
-      all.same.study <- length(unique(X$citation.ID)) == 1 # are all record the from the same study ?
+      all.same.citation <- length(unique(X$citation.ID)) == 1 # are all record the from the same study ?
       all.same.method <- length(unique(X$method.ID)) == 1  # are all record the from the same method ?
       all.same.notes <-  length(unique(X$notes)) == 1 # have all record the same note ?
       all.same.C.units <- length(unique(X$variable.name)) == 1 # have all record the same carbon units ?
       all.same.depth <- length(unique(X$depth)) == 1 # have all record the same depth ?
+      all.same.dbh <- length(unique(X$min.dbh)) == 1# have all record the same min.dbh ?
       
-      conflict.types <- unique(c("M", "M", "M", "C", "M", "T") [c(!all.same.study, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, TRUE)])
+      conflict.types <- unique(c("M", "M", "M", "C", "M", "M", "T") [c(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, !all.same.dbh, TRUE)])
       
       X$conflict.type <- paste(X$conflict.types, paste(conflict.types, collapse = ",") , sep = "," )
       
@@ -435,14 +459,453 @@ for(i in 1:length(MEASUREMENTS.split)){
   
  
   
+  
+  
+  ### Add prevalence ####
+  # Prevalence is added following this list (We keep going down the list if D.precedence is still NA or if multiple "1" were assigned) :
+  # 0. Never give precedence to a record with a capital S in the conflict field 
+  # 1. Take biggest depth (deepest record)
+  # 2. Take smallest min.dbh
+  # 3. Take most inclusive looking at notes within a same study
+  # 4. Take longer study when length_longer_record = 1.75 * length_of_its_duplicates
+  # 5. Take OM over C
+  # 6. If a record was checked against original publication, give it precedence over others
+  # 7. Take later study over older
+  # 8. If still not been able to pin point precedence (including records that only differ in method.ID.), give NAC to all precedence for future manual ratin + append "manual D.precendence rating to the notes
+
+  idx.D.group <- which(grepl("D", X$conflicts))
+  
+  if (length(idx.D.group) > 0) { # if there is any duplicates
+    
+    unique.D.groups <- unique(unlist(sapply(X[idx.D.group, ]$D.group, strsplit, ",")))
+    
+    collecting.x <- NULL # This is an object that will hold the outputs of the loop below, in case some records belong to multiple groups of duplicates 
+    
+    for (d in unique.D.groups) { # loop through each D.group
+      x <- X[grepl(d, X$D.group),]
+      
+      # get what the records are the same for ####
+      all.same.citation <- length(unique(x$citation.ID)) == 1 # are all record the from the same study ?
+      all.same.method <- length(unique(x$method.ID)) == 1  # are all record the from the same method ?
+      all.same.notes <-  length(unique(x$notes)) == 1 # have all record the same note ?
+      all.same.C.units <- length(unique(x$variable.name)) == 1 # have all record the same carbon units ?
+      all.same.depth <- length(unique(x$depth)) == 1 # have all record the same depth ?
+      all.same.dbh <- length(unique(x$min.dbh)) == 1# have all record the same min.dbh ?
+      all.same.record.duration <- !any(grepl("T", x$conflict.type)) | all(grepl("T", x$conflict.type) & grepl("(s)|(S)", x$conflicts))
+      
+      any.checked.original.pub <- any(x$checked.ori.pub == 1)
+      any.capital.S.in.conflicts <- any(grepl("S", x$conflicts, ignore.case = F))
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      # remove D.precedence to start from scratch (if there is any no NA in D.precedence at this points that means that the record belongs to several D.groups, this will be taken care of at the end (look for collecting.x)) ####
+      
+      
+      if(!(still.more.than.one.1 | still.only.NAs)) {
+        
+        x$D.precedence <- NA
+        print(i)
+        print(x)
+        warning("This is a case where we erased  D.precedenceat the begining", immediate. = T)
+        readline("press [enter]")
+      }
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      
+      # 0. Never give precedence to a record with a capital S in the conflict field ####
+      
+      if((still.more.than.one.1 | still.only.NAs) & any.capital.S.in.conflicts) {
+        
+        
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+        
+        idx.cap.S.in.conflicts <- grep("S", x[idx.to.look.at, ]$conflicts, ignore.case = F)
+        
+        if(length(idx.checked.original.pub) > 0){
+          x[idx.to.look.at, ][idx.cap.S.in.conflicts, ]$D.precedence <- 0
+         
+        }
+        
+      }
+      
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      # 1. If records differ in depth, the one with greatest depth gets precedence. ####
+      # records.differ.only.in.depth <- c(all.same.citation & all.same.method & all.same.notes & all.same.C.units & !all.same.depth & all.same.dbh)
+      
+      if((still.more.than.one.1 | still.only.NAs) & !all.same.depth) {
+        
+        
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+        
+        idx.max.depth <- which(x[idx.to.look.at,]$depth == max(x[idx.to.look.at,]$depth, na.rm = T) | my_is.na(x[idx.to.look.at,]$depth))
+          
+        if(length(idx.max.depth) < nrow(x[idx.to.look.at,])) {
+            x[idx.to.look.at,][idx.max.depth, ]$D.precedence <- 1 ; x[idx.to.look.at,][-idx.max.depth, ]$D.precedence <- 0 
+          }
+        
+        
+      }
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      # 2. If records differ in min.dbh, the one with smallest min.dbh gets precedence. ####
+      
+      if((still.more.than.one.1 | still.only.NAs) & !all.same.dbh) { # if still need to go down the list
+        
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+        
+        idx.min.min.dbh <- which(x[idx.to.look.at,]$min.dbh == min(x[idx.to.look.at,]$min.dbh, na.rm = T) | my_is.na(x[idx.to.look.at,]$min.dbh))
+          
+        if(length(idx.min.min.dbh) < nrow(x[idx.to.look.at,])) {
+          x[idx.to.look.at,][idx.min.min.dbh, ]$D.precedence <- 1
+          x[idx.to.look.at,][-idx.min.min.dbh, ]$D.precedence <- 0 
+        }
+          
+          
+      } # if still need to go down the list
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      
+      # 3. Take the most inclusive looking at notes within a same study ####
+      
+      if((still.more.than.one.1 | still.only.NAs) & !all.same.notes){
+        
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+        
+        same.study <- length(unique(x[idx.to.look.at, ]$citation.ID)) == 1
+        
+        idx.more.inclusive <- grep("(\\+)|(\\ball)|(includes)|(including)", x[idx.to.look.at,]$notes, ignore.case = T, perl = T) # (\\ball) is to get "all" and not "small" that we don't necessaryly want to pick up
+        idx.less.inclusive <- grep("(only)", x[idx.to.look.at,]$notes, ignore.case = T, perl = T)
+        
+        
+        clear.cut <- ifelse(any(my_is.na(x[idx.to.look.at,]$notes)), FALSE, all(sort(c(idx.more.inclusive, idx.less.inclusive)) == 1:nrow(x[idx.to.look.at,])))
+        
+        if(clear.cut & same.study) {
+          x[idx.to.look.at,][idx.more.inclusive, ]$D.precedence <- 1
+          x[idx.to.look.at,][idx.less.inclusive, ]$D.precedence <- 0 
+        }
+        
+        if(!clear.cut | !same.study){
+          print(i)
+          print(x$notes)
+          print(x)
+          warning("not a clear cut in notes (may be because not same study)", immediate. = T)
+          # readline("press[enter]")
+        }
+        
+      }
+      
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      
+      # 4. If records differ in length. Give precedence to multiple-year measurement periods-- If one record measurement period is >1.75 x the length of its duplicate, go with that one. ####
+      
+      if ((still.more.than.one.1 | still.only.NAs) & !all.same.record.duration) { # if still need to go down the list and durations are different
+        
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+        
+        record.duration <- difftime(x[idx.to.look.at,]$my.end.date, x[idx.to.look.at,]$my.start.date)
+        record.duration <- ifelse(is.na(record.duration), 1, record.duration) # consider a record with only "date" to be 1 yaer long
+        
+        idx.max.record.duration <- which(record.duration == max(record.duration))
+        
+        if(length(idx.max.record.duration) < nrow(x[idx.to.look.at,])) {
+          one.record.is.1.75.times.longer.than.all.the.others <- record.duration[idx.max.record.duration] > 1.75 * record.duration[-idx.max.record.duration]
+          
+          if (one.record.is.1.75.times.longer.than.all.the.others) {
+            x[idx.to.look.at,][idx.max.record.duration, ]$D.precedence <- 1
+            x[idx.to.look.at,][-idx.max.record.duration, ]$D.precedence <- 0
+          }
+        }
+        
+        # if(! one.record.is.1.75.times.longer.than.all.the.others) {
+        #   print(i)
+        #   print(x)
+        #   warning("records differ in duration but not 1.75 x more", immediate. = T)
+        #   readline("press [enter]")
+        # }
+          
+          
+          
+        
+      } # if still need to go down the list and durations are different
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      
+      # 5. If records differ only in units (C or OM) and C = 0.45 to 0.55 * OM, give precedence to OM. The logic there is that researchers use slightly varying conversion factors, so when there's a choice its best to do the conversion ourselves. ####
+
+      if ((still.more.than.one.1 | still.only.NAs) & !all.same.C.units) { # if still need to go down the list
+        
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+        
+        idx.C <- grep("_C", x[idx.to.look.at,]$variable.name)
+        idx.OM <- grep("_OM", x[idx.to.look.at,]$variable.name)
+      
+      if(length(idx.OM) > 1 & length(idx.C) > 1) {
+        print(i)
+        print(x)
+        warning("work in unit stuff when more than one record in both units", immediate. = T)
+        readline("press [enter]")
+      }
+        
+        C.within.0.45.to.0.55.times.OM <- x[idx.to.look.at,][idx.C, ]$mean >= 0.45 * x[idx.to.look.at,][idx.OM, ]$mean & x[idx.to.look.at,][idx.C, ]$mean <= 0.55 * x[idx.to.look.at,][idx.OM, ]$mean
+        
+        if(any(C.within.0.45.to.0.55.times.OM)){
+          
+          if(length(idx.OM) == 1) {
+            x[idx.to.look.at,][idx.OM, ]$D.precedence <- 1 # give one to the one OM
+            x[idx.to.look.at,][idx.C, ]$D.precedence[C.within.0.45.to.0.55.times.OM] <- 0 # give 0 to the C that is within 0.45 to 0.55 times the OM
+            x[idx.to.look.at,][idx.C, ]$D.precedence[!C.within.0.45.to.0.55.times.OM] <- 1 # give 1 to the C that is NOT within 0.45 to 0.55 times the OM
+          }
+          
+          if(length(idx.C) == 1) {
+            x[idx.to.look.at,][idx.OM, ]$D.precedence <- 1 # give one to all the OM records
+            x[idx.to.look.at,][idx.C, ]$D.precedence <- 0 # give 0 to the one C that is within 0.45 to 0.55 times the OM
+          }
+          
+        }
+        
+        # if(!C.within.0.45.to.0.55.times.OM) {
+        #   print(i)
+        #   print(x)
+        #   warning("work in unit stuff, C is not within 0.45 to 0.55 times OM", immediate. = T)
+        #   readline("press [enter]")
+        # }
+       
+      
+      
+      } # if still need to go down the list
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      
+      # 6. Give precedence to records that were checked against original pub ####
+      
+      if ((still.more.than.one.1 | still.only.NAs) & any.checked.original.pub) {
+       
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+      
+        idx.checked.original.pub <- which(x[idx.to.look.at, ]$checked.ori.pub == 1)
+        
+        if(length(idx.checked.original.pub) < nrow(x[idx.to.look.at, ])){
+          x[idx.to.look.at, ][idx.checked.original.pub, ]$D.precedence <- 1
+          x[idx.to.look.at, ][-idx.checked.original.pub, ]$D.precedence <- 0
+        }
+        
+        print(i)
+        print(x)
+        warning("This is a case of 'checked against original pub'", immediate. = T)
+        
+        
+      }
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      
+      # 7.After resolving all of the above, if duplicates are from different studies, the later study gets precedence. [NOTE: This isn't always ideal, as it may give precedence to an intermediary review over an original publication. However, it works as a start. Precedence can always be edited upon consultation of original pub.] ####
+      
+      if ((still.more.than.one.1 | still.only.NAs) & !all.same.citation) { # if still need to go down the list
+        
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+        
+        x.year <- gsub("(.*)([0-9]{4})(.*)",'\\2', x[idx.to.look.at,]$citation.ID, perl = T)
+        
+        idx.max.citation.year <- which(x.year == max(x.year))
+        
+        if(length(idx.max.citation.year) < nrow(x[idx.to.look.at,])){ # if not all published same year
+        
+          x[idx.to.look.at,][idx.max.citation.year, ]$D.precedence <- 1
+          x[idx.to.look.at,][-idx.max.citation.year, ]$D.precedence <- 0 
+        }
+        
+      } # if still need to go down the list
+       
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+     
+      
+      # 8. If still need to be pinned down, look at dup.num and use it , but add something about it in the notes field ####
+      
+      if ((still.more.than.one.1 | still.only.NAs)) {
+        
+        if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
+        if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
+        
+        idx.max.dup.num <- which(x[idx.to.look.at, ]$dup.num %in% max(x[idx.to.look.at, ]$dup.num))
+        
+        if(length(idx.max.dup.num) == 1) {
+          x[idx.to.look.at, ][idx.max.dup.num, ]$D.precedence <- 1
+          x[idx.to.look.at, ][-idx.max.dup.num, ]$D.precedence <- 0
+          x[idx.to.look.at, ]$notes <- ifelse(is.na(x[idx.to.look.at, ]$notes), "D.precedence based on previously dup.num column.", paste(x[idx.to.look.at, ]$notes, "D.precedence based on previously dup.num column.", sep = ". "))
+        }
+        
+      }
+      
+      still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
+      still.only.NAs <- all(is.na(x$D.precedence))
+      still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(is.na(x$D.precedence))
+      
+      if(still.some.NAs) {
+        print(i)
+        print(x)
+        warning("some NA left in D.precedence", immediate. = T)
+        readline("press [enter]")
+      }
+      
+      # 9. As a last resort, put NAC in D.predence for Krista to do it manually ####
+      
+      if ((still.more.than.one.1 | still.only.NAs)) {
+        
+          x$D.precedence <- "NAC"
+          x$notes <- ifelse(is.na(x$notes), "D.precedence given manually.", paste(x$notes, "D.precedence given manually.", sep = ". "))
+        
+        
+        print(i)
+        print(x)
+        warning("D.precedence given manually.", immediate. = T)
+        # readline("press [enter]")
+      
+      }
+      
+      # rbind into collecting.x
+      
+      collecting.x <- rbind(collecting.x, x)
+    
+    } # loop through each D.group
+    
+    # deal with records that belong to 2 groups
+    
+    if(any(duplicated(collecting.x$measurement.ID))) {
+      
+      duplicated.measurement.ID <- unique(collecting.x$measurement.ID[duplicated(collecting.x$measurement.ID)])
+      
+      idx.to.look.at <- which(collecting.x$measurement.ID %in% duplicated.measurement.ID)
+      
+      all.same.precedence <- length(unique(collecting.x[idx.to.look.at, ]$D.precedence)) == 1
+      
+      if(all.same.precedence)     collecting.x <- collecting.x[!duplicated(collecting.x$measurement.ID), ]
+      
+      if(!all.same.precedence){
+        
+        collecting.x[idx.to.look.at, ]$D.precedence <- "NAC"
+        collecting.x[idx.to.look.at, ]$notes <- ifelse(is.na(collecting.x[idx.to.look.at, ]$notes), "D.precedence given manually.", paste(collecting.x[idx.to.look.at, ]$notes, "D.precedence given manually.", sep = ". "))
+        
+        collecting.x <- collecting.x[!duplicated(collecting.x$measurement.ID), ]
+        
+        print(i)
+        print(collecting.x)
+        warning("not an easy fix for records that belong to multiple D.groups...", immediate. = T)
+        readline("press [enter]")
+      }
+      
+    }
+    
+    # put back into X ####
+    
+    if(!all(X[idx.D.group, ]$measurement.ID %in% collecting.x$measurement.ID)) stop("make sure we've got all records") # this is to make sure we are putting records back in the main flow correctly
+    
+    X[idx.D.group, ] <- collecting.x
+    
+ 
+    } # if there is any duplicates
+  
   # save output into final object####
   MEASUREMENTS.final[[i]] <- X
 }
 
+# re-formate output ####
 MEASUREMENTS.final.split <- MEASUREMENTS.final
 MEASUREMENTS.final <- do.call(rbind, MEASUREMENTS.final)
 
-# remove columns we don't want to keep ####
+## remove columns we don't want to keep
 names(MEASUREMENTS.final)[!names(MEASUREMENTS.final) %in% sets.of.columns.to.keep.at.the.end]
 
 MEASUREMENTS.final <- MEASUREMENTS.final[, sets.of.columns.to.keep.at.the.end]
