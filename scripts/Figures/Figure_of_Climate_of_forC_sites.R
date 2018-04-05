@@ -93,7 +93,7 @@ text(x = -28, y = 7000, labels = expression("Global Climate space (x 1000 km"^2~
      
 points(SITES$map ~ SITES$mat, pch = 16)
 points(WorldClim.missing.map.mat$map ~ WorldClim.missing.map.mat$mat, pch = 1)
-legend("topleft", pch = c(16, 1), c("Forc_db", "WorldClim"), bty = "n")
+legend("topleft", pch = c(16, 1), c("ForC", "WorldClim"), bty = "n")
 
 mtext("a)", side = 3, line = 1, adj = 0.01)
 
