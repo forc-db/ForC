@@ -824,7 +824,7 @@ for(i in 1:length(MEASUREMENTS.split)){
         if(length(idx.max.dup.num) == 1) {
           x[idx.to.look.at, ][idx.max.dup.num, ]$D.precedence <- 1
           x[idx.to.look.at, ][-idx.max.dup.num, ]$D.precedence <- 0
-          x[idx.to.look.at, ]$notes <- ifelse(is.na(x[idx.to.look.at, ]$notes), "D.precedence based on previously dup.num column.", paste(x[idx.to.look.at, ]$notes, "D.precedence based on previously dup.num column.", sep = ". "))
+          x[idx.to.look.at, ]$conflicts.note <- ifelse(is.na(x[idx.to.look.at, ]$conflicts.note), "D.precedence based on previously dup.num column.", paste(x[idx.to.look.at, ]$conflicts.note, "D.precedence based on previously dup.num column.", sep = ". "))
         }
         
       }
@@ -845,7 +845,7 @@ for(i in 1:length(MEASUREMENTS.split)){
       if ((still.more.than.one.1 | still.only.NAs)) {
         
           x$D.precedence <- "NAC"
-          x$notes <- ifelse(is.na(x$notes), "D.precedence given manually.", paste(x$notes, "D.precedence given manually.", sep = ". "))
+          x$conflicts.note <- ifelse(is.na(x$conflicts.note), "D.precedence given manually.", paste(x$conflicts.note, "D.precedence given manually.", sep = ". "))
         
         
         print(i)
@@ -876,7 +876,7 @@ for(i in 1:length(MEASUREMENTS.split)){
       if(!all.same.precedence){
         
         collecting.x[idx.to.look.at, ]$D.precedence <- "NAC"
-        collecting.x[idx.to.look.at, ]$notes <- ifelse(is.na(collecting.x[idx.to.look.at, ]$notes), "D.precedence given manually.", paste(collecting.x[idx.to.look.at, ]$notes, "D.precedence given manually.", sep = ". "))
+        collecting.x[idx.to.look.at, ]$conflicts.notes <- ifelse(is.na(collecting.x[idx.to.look.at, ]$conflicts.notes), "D.precedence given manually.", paste(collecting.x[idx.to.look.at, ]$conflicts.notes, "D.precedence given manually.", sep = ". "))
         
         collecting.x <- collecting.x[!duplicated(collecting.x$measurement.ID), ]
         
