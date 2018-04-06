@@ -1,10 +1,10 @@
 ######################################################
-# Purpose: fill in the conflicts, R.group, S.group, D.group and conflict.type fields of MEASUREMENTS table to make it easier to ID the duplicates sets that we should look at to reconcile duplicates records. Krista then goes through and gives a precedence ID to individual records within D.group
+# Purpose: fill in the conflicts, R.group, S.group, D.group, D.precedence, conflict.type and conflict.notes fields of MEASUREMENTS table to make it easier to ID the duplicates sets that we should look at to reconcile duplicates records. D.precedence is given but some records are left to Krista to assign manually
 # Inputs:
 # - MEASUREMENTS table
 # outputs: - MEASUREMENTS table with updated duplicate system coding
-# Developped by: Valentine Herrmann - HerrmannV@si.edu
-# R version 3.4.2 (2018-03-29)
+# Developped by: Valentine Herrmann - HerrmannV@si.edu in April 2018
+# R version 3.4.4 (2018-03-15)
 ######################################################
 
 
