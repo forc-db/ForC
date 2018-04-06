@@ -432,6 +432,7 @@ for(i in 1:length(MEASUREMENTS.split)){
   x <- sapply(strsplit(x, ""), function(a) paste(sort(a), collapse = ",")) # order letters and paste them with comma inbetween
   x <- gsub("(,I)|(I,)", "", x)
   x <- ifelse(x %in% "", NA, x)
+  x <- ifelse(is.na(x), "I", x) # to get all the records that were not ID-ed as duplicates
   X$conflicts <- x
   
   #### conflict.type 
