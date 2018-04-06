@@ -1,5 +1,5 @@
 ######################################################
-# Purpose: Creates ForC_simplified as described here: https://github.com/forc-db/ForC/tree/master/ForC_simplified
+# Purpose:  Creates ForC_simplified as described here: https://github.com/forc-db/ForC/tree/master/ForC_simplified
 # Inputs:
 # - SITES table
 # - PLOTS table
