@@ -1,15 +1,14 @@
 ######################################################
-# Purpose: Creates ForC-simplified as described here: https://github.com/forc-db/ForC/tree/master/ForC_simplified
+# Purpose: Creates ForC_simplified as described here: https://github.com/forc-db/ForC/tree/master/ForC_simplified
 # Inputs:
 # - SITES table
 # - PLOTS table
 # - MEASUREMENTS table
-# - ForC_simplified_metadata.csv
-# - R code that resolves duplicatd records "scripts/Database_manipulation/Reconcile_duplicated_records.R"
-# - 
-# outputs: - ForC-simplified table
-# Developped by: Valentine Herrmann - HerrmannV@si.edu
-# R version 3.4.2 (2018-03-29)
+# - R code that resolves duplicate records "scripts/Database_manipulation/Reconcile_duplicated_records.R"
+# Outputs:
+# - ForC_simplified table
+# Developped by: Valentine Herrmann - HerrmannV@si.edu in Arpil 2018
+#  R version 3.4.4 (2018-03-15)
 ######################################################
 
 
@@ -28,7 +27,6 @@ options("warn" = 2)
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 PLOTS <- read.csv("data/ForC_plots.csv", stringsAsFactors = F)
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
-ForC_simplified_meta <- read.csv("ForC_simplified/ForC_simplified_metadata.csv", stringsAsFactors = F)
 
 na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999") 
 my_is.na <- function(x) { is.na(x) | x %in% na_codes}
@@ -38,7 +36,8 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 
 ## SITES ####
 
-sites.columns.to.keep <- c("sites.sitename", ForC_simplified_meta[ForC_simplified_meta$Source.Table == "SITES", "Field"])
+sites.columns.to.keep <- c("sites.sitename", "country", "lat", "lon", "masl", "mat", "map", 
+                           "geographic.area", "biogeog", "Koeppen", "FAO.ecozone")
 names(SITES)
 
 SITES <- SITES[, sites.columns.to.keep]
@@ -60,7 +59,9 @@ SITES$map <- as.numeric(SITES$map) ## If you get an error here, that means that 
 
 ## PLOTS ####
 
-plots.columns.to.keep <- c("sites.sitename", "plot.name", ForC_simplified_meta[ForC_simplified_meta$Source.Table == "PLOTS", "Field"])
+plots.columns.to.keep <- c("sites.sitename", "plot.name", "plot.area", "year.establishment.oldest.trees", 
+                           "regrowth.hist.type", "regrowth.year", "dist.mrs.hist.type", 
+                           "dist.mrs.yr")
 names(PLOTS)
 
 PLOTS <- PLOTS[, plots.columns.to.keep]
@@ -74,7 +75,9 @@ str(PLOTS)
 ####~~~~~~~~~~ STILL NEEDS TO BE WRITTEN ~~~~~~~~~ ####
 
 ### formate ####
-measurements.columns.to.keep <- ForC_simplified_meta[ForC_simplified_meta$Source.Table == "MEASUREMENTS", "Field"]
+measurements.columns.to.keep <- c("measurement.ID", "sites.sitename", "plot.name", "stand.age", 
+                                  "dominant.life.form", "dominant.veg", "variable.name", "date", 
+                                  "start.date", "end.date", "mean", "min.dbh", "citation.ID")
 names(MEASUREMENTS)
 
 MEASUREMENTS <- MEASUREMENTS[, measurements.columns.to.keep]
@@ -93,7 +96,15 @@ SITES_PLOTS <- merge(SITES, PLOTS, by = "sites.sitename", all.y = T)
 SITES_PLOTS_MEASUREMENTS <- merge(SITES_PLOTS, MEASUREMENTS, by = c("sites.sitename", "plot.name"))
 
 # Order columns like in the metadata ####
-SITES_PLOTS_MEASUREMENTS <- SITES_PLOTS_MEASUREMENTS[, ForC_simplified_meta$Field]
+ordered.field <- c("country", "lat", "lon", "masl", "mat", "map", "geographic.area", 
+                  "biogeog", "Koeppen", "FAO.ecozone", "plot.area", "year.establishment.oldest.trees", 
+                  "regrowth.hist.type", "regrowth.year", "dist.mrs.hist.type", 
+                  "dist.mrs.yr", "measurement.ID", "sites.sitename", "plot.name", 
+                  "stand.age", "dominant.life.form", "dominant.veg", "variable.name", 
+                  "date", "start.date", "end.date", "mean", "min.dbh", "citation.ID"
+)
+
+SITES_PLOTS_MEASUREMENTS <- SITES_PLOTS_MEASUREMENTS[, ordered.field]
 
 
 # Save ForC-simplified ####
