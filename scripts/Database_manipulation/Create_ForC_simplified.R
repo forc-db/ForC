@@ -20,9 +20,6 @@ setwd(".")
 
 # Load libaries ####
 
-# set warnings as erros ####
-options("warn" = 2)
-
 # Load data ####
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 PLOTS <- read.csv("data/ForC_plots.csv", stringsAsFactors = F)
@@ -72,28 +69,28 @@ str(PLOTS)
 
 ### RESOLVE DUPLICATES #####
 
-####~~~~~~~~~~ STILL NEEDS TO BE WRITTEN ~~~~~~~~~ ####
+source("scripts/Database_manipulation/Reconcile_duplicated_records.R")
 
 ### formate ####
 measurements.columns.to.keep <- c("measurement.ID", "sites.sitename", "plot.name", "stand.age", 
                                   "dominant.life.form", "dominant.veg", "variable.name", "date", 
                                   "start.date", "end.date", "mean", "min.dbh", "citation.ID")
-names(MEASUREMENTS)
+names(MEASUREMENTS_no_duplicates)
 
-MEASUREMENTS <- MEASUREMENTS[, measurements.columns.to.keep]
-str(MEASUREMENTS)
+MEASUREMENTS_no_duplicates <- MEASUREMENTS_no_duplicates[, measurements.columns.to.keep]
+str(MEASUREMENTS_no_duplicates)
 
 ### Convert all measurements to units of C (use IPCC default C=0.47*biomass) + rename variables ####
-units <- sapply(strsplit(MEASUREMENTS$variable.name, "_"), tail, 1)
+units <- sapply(strsplit(MEASUREMENTS_no_duplicates$variable.name, "_"), tail, 1)
 
-MEASUREMENTS$mean <- ifelse(units %in% "OM", 0.47*MEASUREMENTS$mean, MEASUREMENTS$mean)
-MEASUREMENTS$variable.name <- gsub("(\\w*)(_C$|_OM$)", "\\1", MEASUREMENTS$variable, perl = T)
+MEASUREMENTS_no_duplicates$mean <- ifelse(units %in% "OM", 0.47*MEASUREMENTS_no_duplicates$mean, MEASUREMENTS_no_duplicates$mean)
+MEASUREMENTS_no_duplicates$variable.name <- gsub("(\\w*)(_C$|_OM$)", "\\1", MEASUREMENTS_no_duplicates$variable, perl = T)
 
 
 # MERGE ALL TABLES ####
 
 SITES_PLOTS <- merge(SITES, PLOTS, by = "sites.sitename", all.y = T)
-SITES_PLOTS_MEASUREMENTS <- merge(SITES_PLOTS, MEASUREMENTS, by = c("sites.sitename", "plot.name"))
+SITES_PLOTS_MEASUREMENTS <- merge(SITES_PLOTS, MEASUREMENTS_no_duplicates, by = c("sites.sitename", "plot.name"))
 
 # Order columns like in the metadata ####
 ordered.field <- c("country", "lat", "lon", "masl", "mat", "map", "geographic.area", 
@@ -111,6 +108,3 @@ SITES_PLOTS_MEASUREMENTS <- SITES_PLOTS_MEASUREMENTS[, ordered.field]
 
 write.csv(SITES_PLOTS_MEASUREMENTS, file = "ForC_simplified/ForC_simplified.csv", row.names = F)
 
-
-# put back options to default
-options(warn = 0)
