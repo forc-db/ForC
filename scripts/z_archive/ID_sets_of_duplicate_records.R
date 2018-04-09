@@ -3,6 +3,7 @@
 # Inputs:
 # - MEASUREMENTS table
 # outputs: - MEASUREMENTS table with updated duplicate system coding
+# IMPORTANT NOTE: - THE OUTPUT WAS EDITED BY HAND BY KRISTINA ANDERSON-TEIXEIRA, "I've finished assigning D.precedence. I edited some records by hand (and added conflict.notes). There were a couple instances where I changed fields other than D.precedence.". SO WHEN RUNNING THIS CODE AGAIN, OUTPUT SHOULD BE COMPARED TO ORIGINAL AND DECISIONS NEED TO BE MADE ON THE CASE BY CASE BASIS FOR CONFLICTS.
 # Developped by: Valentine Herrmann - HerrmannV@si.edu in April 2018
 # R version 3.4.4 (2018-03-15)
 ######################################################
