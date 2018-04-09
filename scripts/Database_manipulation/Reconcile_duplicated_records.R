@@ -1,8 +1,8 @@
 ######################################################
-# Purpose: Select records of ForC among duplicates.Following these rulues:
+# Purpose: Select records of ForC among duplicates.
 #           - Replicate measurements (‘R’ code) should be averaged.
-#           - For duplicate records reported by different studies (D, DC, or P codes), priority should be given to the most recently published estimate (i.e., highest number in dup.num field).
-#           - For duplicates that differ only in methodology (M code), code should select records with the highest value. 
+#           - For duplicate records we take only those that have D.precendence = 1
+#           - For subdubed, take only the one that have a small s (not capital S)
 # Inputs:
 # - MEASUREMENTS table (NOTE: we are not actually loading this table in this script because this script is meant to be sourced from the Create_ForC_simplified.R script which is where the table is loaded )
 # outputs:
