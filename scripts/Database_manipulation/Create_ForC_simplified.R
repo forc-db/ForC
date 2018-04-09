@@ -5,6 +5,7 @@
 # - PLOTS table
 # - MEASUREMENTS table
 # - R code that resolves duplicate records "scripts/Database_manipulation/Reconcile_duplicated_records.R"
+# - VARIABLES table (to know what variables are secondary and remove those)
 # Outputs:
 # - ForC_simplified table
 # Developped by: Valentine Herrmann - HerrmannV@si.edu in Arpil 2018
@@ -24,6 +25,7 @@ setwd(".")
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 PLOTS <- read.csv("data/ForC_plots.csv", stringsAsFactors = F)
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
+VARIABLES <- read.csv("data/ForC_variables.csv", stringsAsFactors = F)
 
 na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999") 
 my_is.na <- function(x) { is.na(x) | x %in% na_codes}
@@ -71,7 +73,16 @@ str(PLOTS)
 
 source("scripts/Database_manipulation/Reconcile_duplicated_records.R")
 
-### formate ####
+
+### Ignore secondary variables ####
+secondary.variables <- VARIABLES[VARIABLES$variable.type %in% "secondary",]$variable.name
+MEASUREMENTS_no_duplicates <- MEASUREMENTS_no_duplicates[!MEASUREMENTS_no_duplicates$variable.name %in% secondary.variables, ]
+
+### Ignore NEE_cum_C, GPP_cum_C, and R_eco_cum_C ignored.####
+MEASUREMENTS_no_duplicates <- MEASUREMENTS_no_duplicates[!MEASUREMENTS_no_duplicates$variable.name %in% c("NEE_cum_C", "GPP_cum_C", "R_eco_cum_C"), ]
+
+
+### Re-organize table ####
 measurements.columns.to.keep <- c("measurement.ID", "sites.sitename", "plot.name", "stand.age", 
                                   "dominant.life.form", "dominant.veg", "variable.name", "date", 
                                   "start.date", "end.date", "mean", "min.dbh", "citation.ID")
