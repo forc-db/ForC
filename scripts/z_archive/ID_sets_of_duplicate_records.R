@@ -264,11 +264,11 @@ for(i in 1:length(MEASUREMENTS.split)){
             
             ## If everything is the same, it is a replicate
             if(length(conflict.types) == 0) { # if it is a replicate
-              
+
               R.group.ID <- R.group.ID +1
               
               
-              X[this.case.idx, "R.group"] <- paste( X[this.case.idx, "R.group"], D.group.ID, sep = "," )
+              X[this.case.idx, "R.group"] <- paste( X[this.case.idx, "R.group"], R.group.ID, sep = "," )
               X[this.case.idx, "conflicts"] <- paste( X[this.case.idx, "conflicts"], "R", sep = "," )
               
             } # if it is a replicate
@@ -510,8 +510,8 @@ for(i in 1:length(MEASUREMENTS.split)){
         x$D.precedence <- NA
         print(i)
         print(x)
-        warning("This is a case where we erased  D.precedenceat the begining", immediate. = T)
-        readline("press [enter]")
+        warning("This is a case where we erased  D.precedence at the begining", immediate. = T)
+        # readline("press [enter]")
       }
       
       still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
@@ -622,7 +622,7 @@ for(i in 1:length(MEASUREMENTS.split)){
         idx.less.inclusive <- grep("(only)", x[idx.to.look.at,]$notes, ignore.case = T, perl = T)
         
         
-        clear.cut <- ifelse(any(my_is.na(x[idx.to.look.at,]$notes)), FALSE, all(sort(c(idx.more.inclusive, idx.less.inclusive)) == 1:nrow(x[idx.to.look.at,])))
+        clear.cut <- ifelse(any(my_is.na(x[idx.to.look.at,]$notes)) | length(idx.more.inclusive) == 0 | length(idx.less.inclusive) == 0, FALSE, all(sort(c(idx.more.inclusive, idx.less.inclusive)) == 1:nrow(x[idx.to.look.at,])))
         
         if(clear.cut & same.study) {
           x[idx.to.look.at,][idx.more.inclusive, ]$D.precedence <- 1
@@ -823,10 +823,10 @@ for(i in 1:length(MEASUREMENTS.split)){
         
         idx.max.dup.num <- which(x[idx.to.look.at, ]$dup.num %in% max(x[idx.to.look.at, ]$dup.num))
         
-        if(length(idx.max.dup.num) == 1) {
+        if(length(idx.max.dup.num) %in% 1) {
           x[idx.to.look.at, ][idx.max.dup.num, ]$D.precedence <- 1
           x[idx.to.look.at, ][-idx.max.dup.num, ]$D.precedence <- 0
-          x[idx.to.look.at, ]$conflicts.note <- ifelse(is.na(x[idx.to.look.at, ]$conflicts.note), "D.precedence based on previously dup.num column.", paste(x[idx.to.look.at, ]$conflicts.note, "D.precedence based on previously dup.num column.", sep = ". "))
+          x[idx.to.look.at, ]$conflicts.notes <- ifelse(is.na(x[idx.to.look.at, ]$conflicts.notes), "D.precedence based on previously dup.num column.", paste(x[idx.to.look.at, ]$conflicts.notes, "D.precedence based on previously dup.num column.", sep = ". "))
         }
         
       }
@@ -847,7 +847,7 @@ for(i in 1:length(MEASUREMENTS.split)){
       if ((still.more.than.one.1 | still.only.NAs)) {
         
           x$D.precedence <- "NAC"
-          x$conflicts.note <- ifelse(is.na(x$conflicts.note), "D.precedence given manually.", paste(x$conflicts.note, "D.precedence given manually.", sep = ". "))
+          x$conflicts.notes <- ifelse(is.na(x$conflicts.notes), "D.precedence given manually.", paste(x$conflicts.notes, "D.precedence given manually.", sep = ". "))
         
         
         print(i)
