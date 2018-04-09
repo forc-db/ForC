@@ -21,7 +21,7 @@ library(lubridate)
 # Load data ####
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 
-na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999") 
+na_codes <- c("NA", "NI", "NRA", "NaN", "NAC") 
 my_is.na <- function(x) { is.na(x) | x %in% na_codes}
 my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 
