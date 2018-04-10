@@ -84,7 +84,7 @@ variable.ID,variable.type,variable.diagram,variable.name,units,conversion.factor
 83,stock,deadwood_standing,deadwood_standing_C,Mg C ha-1,1,Total carbon in aboveground standing dead wood (snags),NA,NA,NA
 84,stock,deadwood_down,deadwood_down_OM,Mg ha-1,0.47,Total mass of downed dead wood (coarse woody debris),NA,NA,NA
 85,stock,deadwood_down,deadwood_down_C,Mg C ha-1,1,Total carbon in downed dead wood (coarse woody debris),NA,NA,NA
-86,stock,organic layer,organic.layer_OM,Mg ha-1,0.47,Mass of litter/ organic layer/ forest floor,NA,NA,NA
-87,stock,organic layer,organic.layer_C,Mg C ha-1,1,Carbon in litter/ organic layer/ forest floor,NA,NA,NA
+86,stock,organic.layer,organic.layer_OM,Mg ha-1,0.47,Mass of litter/ organic layer/ forest floor,NA,NA,NA
+87,stock,organic.layer,organic.layer_C,Mg C ha-1,1,Carbon in litter/ organic layer/ forest floor,NA,NA,NA
 88,stock,NA,soil_OM,Mg ha-1,NAC,Soil organic matter to specified depth in mineral soil,NA,NA,not mapped - requires depth standardization to be meaningful
 89,stock,NA,soil_C,Mg C ha-1,1,Soil organic carbon to specified depth in mineral soil,NA,NA,not mapped - requires depth standardization to be meaningful
