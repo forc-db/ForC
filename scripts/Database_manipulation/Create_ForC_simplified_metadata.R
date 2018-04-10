@@ -2,9 +2,9 @@
 # Purpose: Creates ForC_simplified_metadata
 # Inputs:
 # - ForC_simplified table
+# - MEASUREMENTS metadata
 # - SITES metadata
 # - PLOTS metadata
-# - MEASUREMENTS metadata
 # Outputs:
 # - ForC_simplified_metadata table and metadata tables
 # Developped by: Valentine Herrmann - HerrmannV@si.edu in Arpil 2018
@@ -23,16 +23,61 @@ setwd(".")
 # Load data ####
 ForC_simplified <- read.csv("ForC_simplified/ForC_simplified.csv", stringsAsFactors = F)
 
+MEASUREMENTS_meta <- read.csv("metadata/measurements_metadata.csv", stringsAsFactors = F)
 SITES_meta <- read.csv("metadata/sites_metadata.csv", stringsAsFactors = F)
 PLOTS_meta <- read.csv("metadata/plots_metadata.csv", stringsAsFactors = F)
-MEASUREMENTS_meta <- read.csv("metadata/measurements_metadata.csv", stringsAsFactors = F)
 
-na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999") 
+na_codes <- c("NA", "NI", "NRA", "NaN", "NAC") 
 my_is.na <- function(x) { is.na(x) | x %in% na_codes}
 my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 
 
 # Prepare metadata ####
+## MEASUREMENTS ####
+### get the rows we need
+MEASUREMENTS_ForC_simplified_meta <- MEASUREMENTS_meta[MEASUREMENTS_meta$Field %in% names(ForC_simplified),]
+
+### change n, min and max values
+
+DF <- ForC_simplified
+DF_meta <- MEASUREMENTS_ForC_simplified_meta
+
+DF_meta$n <- NA
+DF_meta$Min <- NA
+DF_meta$Max <- NA
+
+
+for(i in 1:nrow(DF_meta)){
+  
+  
+  
+  f <- DF_meta$Field[i]
+  print(f)
+  
+  x <- DF[, f]
+  x <- my_na.omit(x)
+  
+  DF_meta$n[i] <- length(x)
+  
+  x <- my_na.omit(as.numeric(x))
+  min.x <- round(min(x))
+  max.x <- round(max(x))
+  
+  DF_meta$Min[i] <- ifelse(min.x %in% "Inf", "-", min.x)
+  DF_meta$Max[i] <- ifelse(max.x %in% "-Inf", "-", max.x)
+}
+
+
+DF_meta[, c("Field", "n", "Min", "Max")]
+MEASUREMENTS_ForC_simplified_meta[, c("Field", "n", "Min", "Max")]
+
+
+### Add source.Table field
+DF_meta$Source.Table <- "MEASUREMENTS"
+
+
+MEASUREMENTS_ForC_simplified_meta <- DF_meta
+
 
 ## SITES ####
 
@@ -123,63 +168,12 @@ PLOTS_ForC_simplified_meta[, c("Field", "n", "Min", "Max")]
 ### Add source.Table field
 DF_meta$Source.Table <- "PLOTS"
 
-
 PLOTS_ForC_simplified_meta <- DF_meta
 
-## MEASUREMENTS ####
-### get the rows we need
-MEASUREMENTS_ForC_simplified_meta <- MEASUREMENTS_meta[MEASUREMENTS_meta$Field %in% names(ForC_simplified),]
-
-### change n, min and max values
-
-DF <- ForC_simplified
-DF_meta <- MEASUREMENTS_ForC_simplified_meta
-
-DF_meta$n <- NA
-DF_meta$Min <- NA
-DF_meta$Max <- NA
-
-
-for(i in 1:nrow(DF_meta)){
-  
-  
-  
-  f <- DF_meta$Field[i]
-  print(f)
-  
-  x <- DF[, f]
-  x <- my_na.omit(x)
-  
-  DF_meta$n[i] <- length(x)
-  
-  x <- my_na.omit(as.numeric(x))
-  min.x <- round(min(x))
-  max.x <- round(max(x))
-  
-  DF_meta$Min[i] <- ifelse(min.x %in% "Inf", "-", min.x)
-  DF_meta$Max[i] <- ifelse(max.x %in% "-Inf", "-", max.x)
-}
-
-
-DF_meta[, c("Field", "n", "Min", "Max")]
-MEASUREMENTS_ForC_simplified_meta[, c("Field", "n", "Min", "Max")]
-
-
-### Add source.Table field
-DF_meta$Source.Table <- "MEASUREMENTS"
-
-
-MEASUREMENTS_ForC_simplified_meta <- DF_meta
-
-# Fix n for measurement.ID (because 999 is not counted)
-MEASUREMENTS_ForC_simplified_meta$n[MEASUREMENTS_ForC_simplified_meta$Field %in% "measurement.ID"] <- length(ForC_simplified$measurement.ID) # because 999 is not counted
-
-
-
-# MERGE ALL META TABLES  + formate####
+# MERGE ALL META TABLES + organize ####
 
 ## Merge
-ForC_simplified_meta <- rbind(SITES_ForC_simplified_meta, PLOTS_ForC_simplified_meta, MEASUREMENTS_ForC_simplified_meta)
+ForC_simplified_meta <- rbind(MEASUREMENTS_ForC_simplified_meta, SITES_ForC_simplified_meta, PLOTS_ForC_simplified_meta)
 
 ## Replace the units cell for mean with Mg C ha-1 (stocks) or Mg C ha-1 yr-1 (fluxes)."Mg C ha-1 (stocks) or Mg C ha-1 yr-1 (fluxes). Variables are identified as stocks of fluxes in the VARIABLES table. Records originally expressed in units of organic matter (OM) were converted to C assuming C =0.48*OM."
 
@@ -205,6 +199,7 @@ colomns.ForC_simp <- c("Column", "Source.Table", "Field", "Description", "Storag
   "Variable.Codes", "Units", "n", "Min", "Max")
 
 ForC_simplified_meta <- ForC_simplified_meta[, colomns.ForC_simp]
+
 # Save ForC_simplified_metadata ####
 
 write.csv(ForC_simplified_meta, file = "ForC_simplified/ForC_simplified_metadata.csv", row.names = F)
