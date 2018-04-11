@@ -61,7 +61,7 @@ variable.ID,variable.type,variable.diagram,variable.name,units,conversion.factor
 60,flux,NA,R_auto_foliage_C,Mg C ha-1 yr-1,1,Annual foliar respiration,NA,NA,NA
 61,flux,R_root,R_auto_root_C,Mg C ha-1 yr-1,1,Annual root respiration (all size classes). Note methodology: root gas exchange/ root exclusion/ isotopes,R_soil_C = R_soil_het_C + R_auto_root_C,NA,NA
 62,flux,R_soil_het,R_soil_het_C,Mg C ha-1 yr-1,1,Annual soil heterotrophic respiration,R_soil_C = R_soil_het_C + R_auto_root_C,NA,NA
-63,flux,R_soil ,R_soil_C,Mg C ha-1 yr-1,1,Annual soil respiration,R_soil_C = R_soil_het_C + R_auto_root_C,NA,NA
+63,flux,R_soil,R_soil_C,Mg C ha-1 yr-1,1,Annual soil respiration,R_soil_C = R_soil_het_C + R_auto_root_C,NA,NA
 64,stock,NA,total.ecosystem_C,Mg C ha-1,1,"Includes total biomass, deadwood, organic layer, and soil organic C",total.ecosystem_C = biomass_C + deadwood_C + organic.layer_C + soil_C,NA,not mapped- few records
 65,stock,NA,total.ecosystem_2_C,Mg C ha-1,1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",total.ecosystem_2_C = biomass_C + deadwood_C + organic.layer_C ,NA,not mapped- few records
 66,stock,biomass,biomass_OM,Mg ha-1,0.47,Total live biomass.,biomass_OM = biomass_ag_OM + biomass_root_OM,Exclude min.dbh >10.  (Do not exclude min.dbh NAC.) ,"Biomass must include trees 10cm DBH+. May include trees <10cm DBH, understory, and lianas."
