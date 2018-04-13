@@ -47,6 +47,7 @@ fertilized.sites.sitename <- new.sites.sitename[grepl("(\\bF\\b)(?=$)|(\\bF\\b)(
 
 new.sites.sitename <- ifelse(new.sites.sitename %in% fertilized.sites.sitename, gsub("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", "fertilized", new.sites.sitename, perl = T), new.sites.sitename)
 
+
 ## Keep a table of change ####
 compare.sites.name <- data.frame(old.sites.sitename, new.sites.sitename, stringsAsFactors = F)
 sites.name.change <- compare.sites.name[apply(compare.sites.name, 1, function(x) !x[1] %in% x[2]),]
@@ -120,29 +121,29 @@ m <- match(PLOTS$plot.name, plot.name.change$old.plot.name)
 old.plot.name <- PLOTS$plot.name
 PLOTS$plot.name <- ifelse(is.na(m), PLOTS$plot.name, plot.name.change$new.plot.name[m])
 ### verify
-compare.sites.name <- data.frame(old.plot.name, PLOTS$plot.name)
-compare.sites.name[apply(compare.sites.name, 1, function(x) !x[1] %in% x[2]),]
+compare.plot.name <- data.frame(old.plot.name, PLOTS$plot.name)
+compare.plot.name[apply(compare.plot.name, 1, function(x) !x[1] %in% x[2]),]
 
 ### HISTORY ####
 m <- match(HISTORY$plot.name, plot.name.change$old.plot.name)
 old.plot.name <- HISTORY$plot.name
 HISTORY$plot.name <- ifelse(is.na(m), HISTORY$plot.name, plot.name.change$new.plot.name[m])
 ### verify
-compare.sites.name <- data.frame(old.plot.name, HISTORY$plot.name)
-compare.sites.name[apply(compare.sites.name, 1, function(x) !x[1] %in% x[2]),]
+compare.plot.name <- data.frame(old.plot.name, HISTORY$plot.name)
+compare.plot.name[apply(compare.plot.name, 1, function(x) !x[1] %in% x[2]),]
 
 ### MEASUREMENTS ####
 m <- match(MEASUREMENTS$plot.name, plot.name.change$old.plot.name)
 old.plot.name <- MEASUREMENTS$plot.name
 MEASUREMENTS$plot.name <- ifelse(is.na(m), MEASUREMENTS$plot.name, plot.name.change$new.plot.name[m])
 ### verify
-compare.sites.name <- data.frame(old.plot.name, MEASUREMENTS$plot.name)
-compare.sites.name[apply(compare.sites.name, 1, function(x) !x[1] %in% x[2]),]
+compare.plot.name <- data.frame(old.plot.name, MEASUREMENTS$plot.name)
+compare.plot.name[apply(compare.plot.name, 1, function(x) !x[1] %in% x[2]),]
 
 
 # SAVE ####
-SITES <- write.csv("data/ForC_sites.csv", row.names = F)
-PLOTS <- write.csv("data/ForC_plots.csv", row.names = F)
-MEASUREMENTS <- write.csv("data/ForC_measurements.csv", row.names = F)
-HISTORY <- write.csv("data/ForC_history.csv", row.names = F)
+SITES <- write.csv(SITES, "data/ForC_sites.csv", row.names = F)
+PLOTS <- write.csv(PLOTS, "data/ForC_plots.csv", row.names = F)
+MEASUREMENTS <- write.csv(MEASUREMENTS, "data/ForC_measurements.csv", row.names = F)
+HISTORY <- write.csv(HISTORY, "data/ForC_history.csv", row.names = F)
 
