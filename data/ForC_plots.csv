@@ -1307,7 +1307,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 1305,LAT-01a_La Tene,african tropical forest,40,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1306,Laupahoehoe,UM Mature Metrosideros polymorpha.20000-y,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1307,Laurimburg C,RD,NAC,1307.01,1985,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1307.02,Cut,<100%,NAC,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-1308,Laurimburg F+I,FI,NAC,1308.01,1985,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1308.02,Cut,<100%,NAC,0,NA,NA,NA,0,0,0,1308.04,1308.03,0,0,extratropical
+1308,Laurimburg I + F,I + F,NAC,1308.01,1985,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1308.02,Cut,<100%,NAC,0,NA,NA,NA,0,0,0,1308.04,1308.03,0,0,extratropical
 1309,Laurimburg F,FI,NAC,1309.01,1985,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1309.02,Cut,<100%,NAC,0,NA,NA,NA,0,0,0,0,1309.03,0,0,extratropical
 1310,Laurimburg I,FI,NAC,1310.01,1985,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1310.02,Cut,<100%,NAC,0,NA,NA,NA,0,0,0,1310.03,0,0,0,extratropical
 1311,Lavarone,Managed,NAC,1311.01,1881,1311.02,Initiation of post-disturbance cohort (planted or natural),1881,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -2242,7 +2242,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2240,Southeast Tree Research and Education Site (SETRES),12 yr C,NAC,2240.03,1985,2240.02,Planted,1985,2240.01,Harvest,100,1985,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2241,Southeast Tree Research and Education Site (SETRES),12 yr F,NAC,2241.03,1985,2241.02,Planted,1985,2241.01,Harvest,100,1985,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,2241,0,0,extratropical
 2242,Southeast Tree Research and Education Site (SETRES),12 yr I,NAC,2242.03,1985,2242.02,Planted,1985,2242.01,Harvest,100,1985,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,2242.04,0,0,0,extratropical
-2243,Southeast Tree Research and Education Site (SETRES),12 yr IF,NAC,2243.03,1985,2243.02,Planted,1985,2243.01,Harvest,100,1985,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,2243.11,2243,0,0,extratropical
+2243,Southeast Tree Research and Education Site (SETRES),12 yr I + F,NAC,2243.03,1985,2243.02,Planted,1985,2243.01,Harvest,100,1985,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,2243.11,2243,0,0,extratropical
 2244,Southeastern Puerto Rico chronosequence,Forest recovery following pasture abandonment ,NAC,0,NAC,2244.02,Initiation of post-disturbance cohort (natural),1936,2244.01,Grazed,100,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2245,Southern Appalachians,cove forests,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2246,Southern Finland,Pinus sylvestris,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
