@@ -92,12 +92,13 @@ ForC_simplified$end.date <- as.Date(date_decimal(as.numeric(ForC_simplified$end.
 
 # Prepare output ####
 ForC_biome_averages <- NULL
+
 # Make calculations ####
 
 for(b in Biomes.of.interest){
   print(b)
   
-  B <- ForC_simplified[Biome %in% b,]
+  B <- ForC_simplified[Biome %in% b & ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0,] # remove managed and disturbed sites
   
   young <- grepl("YOUNG" , b)
  

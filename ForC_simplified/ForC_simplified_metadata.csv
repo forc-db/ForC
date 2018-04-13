@@ -28,3 +28,5 @@
 "27/AA","PLOTS","regrowth.year","Year of forest (re)growth following the most recent severe disturbance, if known. Refers to the record in HISTORY that is indexed in regrowth.ID.","numeric (double)","","decimal years",8397,"1206","2008"
 "28/AB","PLOTS","dist.mrs.hist.type","Type of the most recent severe/ stand clearing disturbance or event in a disturbance sequence, if any. Refers to event indexed in dist.mrs.ID.","character (string)","Given in HISTTYPE metadata table","-",6564,"-","-"
 "29/AC","PLOTS","dist.mrs.yr","Year of the most recent severe/ stand clearing disturbance or event in a disturbance sequence. For a multi-year disturbance (e.g., agricultural use), the starting year is given. Refers to event indexed in dist.mrs.ID.","numeric (double)","0-no record; nonzero number- history.ID","decimal years",3940,"1013","2008"
+"30/AD","None","managed","0-false, 1- true","character (string)","-","-",14345,"0","1"
+"31/AE","None","disturbed","0-false, 1- true","character (string)","-","-",14345,"0","1"
