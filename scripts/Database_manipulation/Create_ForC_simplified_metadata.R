@@ -186,9 +186,23 @@ ForC_simplified_meta <- ForC_simplified_meta[!duplicated(ForC_simplified_meta$Fi
 
 ForC_simplified_meta[ForC_simplified_meta$Field %in% duplicated.fields,]
 
-## Edit sites.sitename units
+## Edit sites.sitename Description
 ForC_simplified_meta[ForC_simplified_meta$Field %in% "sites.sitename", ]$Description <- "Site identifier, sufficient to uniquely identify the site within the paper."
 
+## Add managed and disturbed metadata
+
+managed.disturbed_meta <- data.frame(Column = nrow(ForC_simplified)+c(1:2),
+                      Field = c("managed", "disturbed"),
+                      Description = c('Indicates whether plot has been managed. Plots are counted as managed if they have any management records in HISTORY (as summarized in PLOTS) or if their site or plot name contained the word "plantation", "planted", "managed", "irrigated" or "fertilized.', 'Indicates whether plot has undergone significant disturbance since the establishment of the oldest cohort. We removed stands that had undergone anthropogenic thinning or partial harvest ("Cut" or "Harvest" codes) unless this was very minor (mortality <<100%). Retains sites that were grazed or had undergone low severity natural disturbances (<10% mortality) including droughts, major storms, fires, and floods.'),
+                      Storage.Type = "character (string)",
+                      Variable.Codes = "-",
+                      Units = "-",
+                      n = nrow(ForC_simplified),
+                      Min = 0,
+                      Max = 1,
+                      Source.Table = "None")
+
+ForC_simplified_meta <- rbind(ForC_simplified_meta, managed.disturbed_meta)
 
 ## Edit Column ID
 LETTERS702 <- c(LETTERS, sapply(LETTERS, function(x) paste0(x, LETTERS)))
