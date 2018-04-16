@@ -157,7 +157,7 @@ for (v.diag in unique(Variables_mapping$variable.diagram)) { # for each variable
       intercept.se <- round(summary.mod["(Intercept)", "Std. Error" ], 2)
       slope <- round(summary.mod["stand.age", "Estimate" ], 2)
       slope.se <- round(summary.mod["stand.age", "Std. Error" ], 2)
-      equation <- paste0(format(intercept, nsmall = 2), "\u00b1", format(intercept.se, nsmall = 2), ifelse(sign(slope) == -1, "-age\u00D7", "+age\u00D7"), format(slope, nsmall = 2), "\u00b1", format(slope.se, nsmall = 2))
+      equation <- paste0(format(intercept, nsmall = 2), "\u00b1", format(intercept.se, nsmall = 2), ifelse(sign(slope) == -1, "-age\u00D7", "+age\u00D7"), format(abs(slope), nsmall = 2), "\u00b1", format(slope.se, nsmall = 2))
     }
     
     if(!significant) equation = NA
