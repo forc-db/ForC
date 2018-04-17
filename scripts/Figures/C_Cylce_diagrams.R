@@ -342,7 +342,7 @@ for(b in unique(ForC_biome_averages$Biome)){
     
     # GET VARIABLE INFO
     
-    X <- ForC_biome_averages[ForC_biome_averages$variable.diagram %in% v & ForC_biome_averages$Biome %in%b,]
+    X <- ForC_biome_averages[ForC_biome_averages$variable.diagram %in% v & ForC_biome_averages$Biome %in% b,]
     X.draw <- variables[[v]]
     
     if(nrow(X) == 0) {
