@@ -2,7 +2,7 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 1 / A,site.ID,Unique numerical identifier for each record in the SITES table.,numeric (integer),-,-,2070,1,2070
 2 / B,sites.sitename,"Site identifier, sufficient to uniquely identify the site within the paper. Links to MEASUREMENTS, PLOTS, and HISTORY tables.",character (string),-,-,2070,-,-
 3 / C,city,"Nearest city, when identified in original publication.",character (string),-,-,494,-,-
-4 / D,state,State,character (string),-,-,2065,-,-
+4 / D,state,State / province/ region,character (string),-,-,2065,-,-
 5 / E,country,Country,character (string),-,-,2070,-,-
 6 / F,lat,"Latitude, where negative values indicate S hemisphere",numeric (double),-,decimal degrees,2070,-43,73
 7 / G,lon,"Longitude, where negative values indicate W hemisphere",numeric (double),-,decimal degrees,2070,-171,175
@@ -18,7 +18,7 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 17 / Q,soil.notes,Soil details not included above,character (string),-,-,411,-,-
 18 / R,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,,104,-,-
 19 / S,site.notes,Site details not included above,character (string),-,-,122,-,-
-20 / T,geographic.area,"Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github ñscriptsî folder).",numeric (integer) ,-,-,2070,1,827
+20 / T,geographic.area,"Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github scripts folder).",numeric (integer) ,-,-,2070,1,827
 21 / U,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,2070,-,-
 22 / V,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,2070,-,-
 23 / W,FAO.ecozone,"FAO global ecological zones classification, extracted from FAO's GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,2065,-,-
@@ -29,4 +29,3 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 28 / AB,lacks.info.from.ori.pub,Indicates studies that were flagged because they lack information obtained directly from the original study. A missing value code ('NA') does not necessarily guarantee that information was obtained from an original publication. ,numeric (integer),1- lacks info from original pub,-,425,1,1
 29 / AC,loaded.from,"Citation ID(s) of data compilations from which data were obtained, if applicable. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.",character (string),-,-,1084,-,-
 30 / AD,loaded.by,Name of individual who created the record,character (string),-,-,1189,-,-
-,,,,,,,,
