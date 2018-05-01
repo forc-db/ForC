@@ -87,23 +87,23 @@ variables <- list(NEE = list(variable.type = "flux", #####
                              need.semi.transparent.box = FALSE),
                   BNPP = list(variable.type = "flux",
                               variable.name  = expression(bold("BNPP")),
-                              coordinates = list(x0 = 0.4, y0 = 7.8, x1 = 0.6, y1 = 1.2),
-                              y.adjust = 2,
-                              x.adjust = -1,
+                              coordinates = list(x0 = 0.4, y0 = 7.8, x1 = 0.2, y1 = 4.5),
+                              y.adjust = 0,
+                              x.adjust = -0.8,
                               move.text.box = "null",
                               need.semi.transparent.box = FALSE),
-                  BNPP_coarse = list(variable.type = "flux_text_only",
+                  BNPP_coarse = list(variable.type = "flux",
                                      variable.name  = expression(bold("BNPP"[coarse])),
-                                     coordinates = list(x0 = 0.2, y0 = 4, x1 = -0.4, y1 = 4),
-                                     y.adjust = 0,
-                                     x.adjust = 0,
+                                     coordinates = list(x0 = 0.3, y0 = 4.4, x1 = 1.2, y1 = 1.3),
+                                     y.adjust = -0.5,
+                                     x.adjust = 0.5,
                                      move.text.box = "null",
                                      need.semi.transparent.box = TRUE),
-                  BNPP_fine = list(variable.type = "flux_text_only",
+                  BNPP_fine = list(variable.type = "flux",
                                    variable.name  = expression(bold("BNPP"[fine])),
-                                   coordinates = list(x0 = 0.3, y0 = 3, x1 = -0.5, y1 = 3),
+                                   coordinates = list(x0 = 0.1, y0 = 4.4, x1 = 0, y1 = 1.2),
                                    y.adjust = 0,
-                                   x.adjust = 0,
+                                   x.adjust = -0.8,
                                    move.text.box = "null",
                                    need.semi.transparent.box = TRUE),
                   ANPP = list(variable.type = "flux",
@@ -123,6 +123,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                   R_ag_het = list(variable.type = "flux",
                                   variable.name  = expression(bold("R"[ag-het])),
                                   mean = NA,
+                                  n.areas = NA,
                                   coordinates = list(x0 = 4.2, y0 = 8.2, x1 = 6.8, y1 = 8.3),
                                   y.adjust = 0.2,
                                   x.adjust = -0.8,
@@ -138,6 +139,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                   ANPP_repro_first_arrow = list(variable.type = "flux_arrow_only",
                                     variable.name = "",
                                     mean = "ForC_biome_averages[ForC_biome_averages$Biome %in% b & ForC_biome_averages$variable.diag %in% 'ANPP_repro' ,]$mean",
+                                    n.areas = "ForC_biome_averages[ForC_biome_averages$Biome %in% b & ForC_biome_averages$variable.diag %in% 'ANPP_repro' ,]$n.areas",
                                     equation = NA,
                                     coordinates = list(x0 = 1.9, y0 = 7.3, x1 = 3.8, y1 = 7.1),
                                     y.adjust = 0,
@@ -211,6 +213,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                   R_cwd = list(variable.type = "flux",
                                variable.name  = expression(bold("R"[cwd])),
                                mean = NA,
+                               n.areas = NA,
                                coordinates = list(x0 = 7.3, y0 = 2, x1 = 7.3, y1 = 7.9),
                                y.adjust = -2,
                                x.adjust = 0.3,
@@ -219,6 +222,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                   R_het = list(variable.type = "flux",
                                variable.name  = expression(bold("R"[het])),
                                mean = NA,
+                               n.areas = NA,
                                coordinates = list(x0 = 7.1, y0 = 8.2, x1 = 7.1, y1 = 8.8),
                                y.adjust = 0,
                                x.adjust = 0.2,
@@ -348,6 +352,7 @@ for(b in unique(ForC_biome_averages$Biome)){
     if(nrow(X) == 0) {
       X <- X.draw
       X$mean <- eval(parse(text = X.draw$mean))
+      X$n.areas <- eval(parse(text = X.draw$n.areas))
     }
     
     if(all(is.na(X))) {
@@ -358,7 +363,7 @@ for(b in unique(ForC_biome_averages$Biome)){
     variable.type <- X$variable.type
     
     if(is.na(X$mean)) variable.type <- paste0(variable.type, "_no_estimate")
-    if(v %in% c("BNPP_coarse", "BNPP_fine")) variable.type <- "flux_text_only"
+    # if(v %in% c("BNPP_coarse", "BNPP_fine")) variable.type <- "flux_text_only"
     
     # For young forest, when the flux is a function of age, replace X$mean by the predicted value for forests at age 50.
     
@@ -512,13 +517,11 @@ for(b in unique(ForC_biome_averages$Biome)){
       # }
     }
     
-  
-    
   }
   
   # add equations if any
   if(length(equations.to.right.at.the.bottom > 0)) {
-      mtext(side = 1, text = paste0("eq (", 1:length(equations.to.right.at.the.bottom), "): ", equations.to.right.at.the.bottom), line = - (0.5 + c(length(equations.to.right.at.the.bottom):1) * 0.5), adj = 0.03, cex = 0.5)
+      mtext(side = 1, text = paste0("eq (", 1:length(equations.to.right.at.the.bottom), "): ", equations.to.right.at.the.bottom), line = - (c(length(equations.to.right.at.the.bottom):1) * 0.5), adj = 0.03, cex = 0.5)
   }
   
   # add legend
