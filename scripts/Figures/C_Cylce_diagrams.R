@@ -308,11 +308,11 @@ variables <- list(NEE = list(variable.type = "flux", #####
 
 # Plot the picture ####
 
-b = "Temperate conifer YOUNG"
+b = "Tropical broadleaf YOUNG"
 for(b in unique(ForC_biome_averages$Biome)){
   print(b)
   
-  equation.nb <- 0
+  equations.to.right.at.the.bottom <- NULL # equation.nb <- 0
   
   tiff(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".tiff"), width =  2625, height = 2250, units = "px", res = 300)
   
@@ -360,10 +360,24 @@ for(b in unique(ForC_biome_averages$Biome)){
     if(is.na(X$mean)) variable.type <- paste0(variable.type, "_no_estimate")
     if(v %in% c("BNPP_coarse", "BNPP_fine")) variable.type <- "flux_text_only"
     
+    # For young forest, when the flux is a function of age, replace X$mean by the predicted value for forests at age 50.
+    
+    if(!is.null(X$equation)) {
+      if(!is.na(X$equation)) {
+        equation.to.use <- X$equation
+        equation.to.use <- gsub("(?<=\u00B1)(.*)(\\+)", "", equation.to.use, perl = T)
+        equation.to.use <-  gsub("\u00B1([^\u00B1]*)$", "", equation.to.use, perl = T)
+        equation.to.use <- gsub("\u00B1", "+", equation.to.use)
+        equation.to.use <- gsub("\u00D7", "\\*", equation.to.use)
+        equation.to.use <- gsub("age", "50", equation.to.use)
+        
+        X$mean <- eval(parse(text = equation.to.use))
+      }
+    }
     
     # DRAW ARROWS AND SOTCK RECTANGLES
     
-    if(variable.type %in% c("flux", "flux_arrow_only")) my.arrows(X.draw$coordinates, arr.width = sqrt(abs(X$mean))/5)
+    if(variable.type %in% c("flux", "flux_arrow_only")) my.arrows(X.draw$coordinates, arr.width = sqrt(abs(X$mean))/5, lty = ifelse(X$n.areas >= 10, 1 , 2))
     
     if(variable.type %in% c("flux_no_estimate", "flux_arrow_only_no_estimate")) Arrows(x0 = X.draw$coordinates$x0, y0 = X.draw$coordinates$y0, x1 = X.draw$coordinates$x1, y1 = X.draw$coordinates$y1, col = "black", lty = 2, arr.lwd = 1, lwd = 1, arr.type = "triangle", arr.length = 0.2, arr.width = 0.2)
     
@@ -421,7 +435,7 @@ for(b in unique(ForC_biome_averages$Biome)){
         
         if(need.to.adjust & !is.na(X$equation)){
           need.to.remove.equation <- TRUE
-          equation.nb <- equation.nb +1
+          equations.to.right.at.the.bottom <- c(equations.to.right.at.the.bottom, X$equation) # equation.nb <- equation.nb +1
           
           need.to.adjust <- ifelse((horizontal.arrow & (y.height > arr.width)) |  (!horizontal.arrow & (x.width - 0.2 > arr.width)), TRUE, FALSE)
         }
@@ -447,7 +461,7 @@ for(b in unique(ForC_biome_averages$Biome)){
         
         need.to.remove.equation <- ifelse((horizontal.arrow & (y.height > arr.width)) |  (!horizontal.arrow & (x.width > arr.width)), TRUE, FALSE)
         
-        if(need.to.remove.equation) equation.nb <- equation.nb +1 
+        if(need.to.remove.equation) equations.to.right.at.the.bottom <- c(equations.to.right.at.the.bottom, X$equation) #equation.nb <- equation.nb +1 
       }
       
       if(need.to.adjust) {
@@ -469,12 +483,13 @@ for(b in unique(ForC_biome_averages$Biome)){
       
       if(is.na(X$equation)){
         text.main <- c(paste(X$mean, X$std, sep = "\u00b1"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
+        if(is.na(X$mean)) text.main <- ""
       }
       
       if(!is.na(X$equation)){
         if(need.to.remove.equation) {
-          text.main <- c(paste0("eq (", equation.nb, ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
-          mtext.text <-  paste0("eq (", equation.nb, "): ", X$equation)
+          text.main <- c(paste0("eq (", length(equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
+          mtext.text <-  paste0("eq (", length(equations.to.right.at.the.bottom), "): ", X$equation)
         }
         
         if(!need.to.remove.equation) {
@@ -490,15 +505,21 @@ for(b in unique(ForC_biome_averages$Biome)){
         rect(xleft, ytop,  xright, ybottom, col = rgb(1,1,1,0.5), border = NA)
       }
       
-      text(x = x.center, y = c(y.center, y.center + 0.2, y.center - 0.2)[1:length(c(text.title, text.main))], labels = c(text.main[1], text.title, text.main[2]), cex = 0.5)
+      text(x = x.center, y = c(y.center, y.center + 0.2, y.center - 0.2)[1:length(c(text.title, text.main))], labels = c(text.main[1], text.title, ifelse(length(text.main) > 1, text.main[2], "")), cex = 0.5)
       
-      if(need.to.remove.equation){
-        mtext(side = 1, text = mtext.text, line = - (0.5 + equation.nb * 0.5), adj = 0.03, cex = 0.5)
-      }
+      # if(need.to.remove.equation){
+      #   mtext(side = 1, text = mtext.text, line = - (0.5 + equation.nb * 0.5), adj = 0.03, cex = 0.5)
+      # }
     }
     
+  
     
-}
+  }
+  
+  # add equations if any
+  if(length(equations.to.right.at.the.bottom > 0)) {
+      mtext(side = 1, text = paste0("eq (", 1:length(equations.to.right.at.the.bottom), "): ", equations.to.right.at.the.bottom), line = - (0.5 + c(length(equations.to.right.at.the.bottom):1) * 0.5), adj = 0.03, cex = 0.5)
+  }
   
   # add legend
   if(grepl("YOUNG", b)) legend.txt <-  c("mean\u00b1std OR intercept\u00b1se + age \u00D7 slope\u00b1se",  paste("n records", "n plots", "n areas", sep = "/"))

@@ -1,4 +1,4 @@
-my.arrows <- function(arrow.coordinates, arr.width = 1, arr.point.length, arr.fill = "grey", arr.border = "black"){
+my.arrows <- function(arrow.coordinates, arr.width = 1, arr.point.length, arr.fill = "grey", arr.border = "black", lty = 1){
   
   
   list2env(arrow.coordinates, envir = .GlobalEnv)
@@ -99,6 +99,6 @@ my.arrows <- function(arrow.coordinates, arr.width = 1, arr.point.length, arr.fi
   
   
   # plot(OE.coordinates,  xlim = c(0, 10), ylim = c(0, 10), type = "n")
-  polygon(x = all.coordinates[,1], y = all.coordinates[,2], col = arr.fill, border = arr.border)
+  polygon(x = all.coordinates[,1], y = all.coordinates[,2], col = arr.fill, border = arr.border, lty = lty)
   
 }
