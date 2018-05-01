@@ -29,7 +29,7 @@ source("scripts/Figures/my.arrows.R")
 
 
 # Load picture table ####
-img <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/Mature_Forest_TropForC_review.png")
+img <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/Temperate_conifer_young.png")
 
 
 
@@ -139,7 +139,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                                     variable.name = "",
                                     mean = "ForC_biome_averages[ForC_biome_averages$Biome %in% b & ForC_biome_averages$variable.diag %in% 'ANPP_repro' ,]$mean",
                                     equation = NA,
-                                    coordinates = list(x0 = 2.7, y0 = 6.3, x1 = 3.8, y1 = 7.1),
+                                    coordinates = list(x0 = 1.9, y0 = 7.3, x1 = 3.8, y1 = 7.1),
                                     y.adjust = 0,
                                     x.adjust = 0,
                                     move.text.box = "null",
@@ -167,9 +167,9 @@ variables <- list(NEE = list(variable.type = "flux", #####
                                    need.semi.transparent.box = TRUE),
                   woody.mortality = list(variable.type = "flux",
                                          variable.name  = expression(bold("woody mortality")),
-                                         coordinates = list(x0 = 3.8, y0 = 5, x1 = 5.5, y1 = 2),
-                                         y.adjust = 0,
-                                         x.adjust = 0,
+                                         coordinates = list(x0 = 3.8, y0 = 5, x1 = 6.8, y1 = 1.8),
+                                         y.adjust = 0.5,
+                                         x.adjust = -1,
                                          move.text.box = "null",
                                          need.semi.transparent.box = TRUE),
                   ANPP_branch = list(variable.type = "flux",
@@ -319,8 +319,8 @@ for(b in unique(ForC_biome_averages$Biome)){
   op <- par(mar = c(1,1,1,1), pin = c(15.3 * 0.53, 11 * 0.53)) #  pty = "s") # 
   # par(xaxs='i', yaxs='i')
   plot(c(-0.8, 14.5), c(0, 11), type = "n", axes = F, xlab = "", ylab = "", main = b)
-  rasterImage(img, 14, 0, 6, 11)
-  rasterImage(img, 0, 0, 8, 11)
+  # rasterImage(img, 14, 0, 6, 11)
+  rasterImage(img, 0, 0, 14, 11)
   # plot the C cylce values ####
   
   ## Put segments that link stocks (need to do first so that it is in the back) ####

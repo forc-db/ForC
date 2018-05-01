@@ -53,7 +53,7 @@ table(Leaf_Trait)
 unique(ForC_simplified$dominant.veg[Leaf_Trait %in% "Other"])
 
 ## Age ####
-Age <- as.numeric(my_na.omit(ForC_simplified$stand.age))
+Age <- as.numeric(ForC_simplified$stand.age)
 Age <- ifelse(Age >= 100, "MATURE", "YOUNG")
 
 
@@ -98,6 +98,7 @@ ForC_biome_averages <- NULL
 for(b in Biomes.of.interest){
   print(b)
   
+  # get the data from the biome + except sites that were managed or disturbed
   B <- ForC_simplified[Biome %in% b & ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0,] # remove managed and disturbed sites
   
   young <- grepl("YOUNG" , b)
@@ -137,7 +138,7 @@ for (v.diag in unique(Variables_mapping$variable.diagram)) { # for each variable
   if(young & nrow(X.for.model)>10) { # young + more than 10 n.records
    
     if(length(unique(X.for.model$geographic.area)) >= 3) { # mixed.model
-            mod.null <- lmer(mean ~ 1 + (1|geographic.area), data = X.for.model)
+      mod.null <- lmer(mean ~ 1 + (1|geographic.area), data = X.for.model)
       mod <- lmer(mean ~ stand.age + (1|geographic.area), data =  X.for.model)
       anova.mod <- anova(mod.null, mod)
       significant <- anova.mod$'Pr(>Chisq)'[2] < 0.05 &  rownames(anova.mod)[2] %in% "mod"
