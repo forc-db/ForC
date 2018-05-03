@@ -18,7 +18,7 @@
 "17/Q","SITES","masl","Elevation in meters above sea level. When a range is given, midpoint is reported.","numeric (double)","-","m ",9958,"1","3900"
 "18/R","SITES","mat","Mean annual temperature ","numeric (double)","-","C",11430,"-17","30"
 "19/S","SITES","map","Mean annual precipitation ","numeric (double)","-","mm",12158,"56","7670"
-"20/T","SITES","geographic.area","Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github ñscriptsî folder).","numeric (integer) ","-","-",14181,"1","827"
+"20/T","SITES","geographic.area","Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github scripts folder).","numeric (integer) ","-","-",14181,"1","827"
 "21/U","SITES","biogeog","Biogeographical region, extracted from map of (Olson et al. 2001)","character (string)","-","-",14181,"-","-"
 "22/V","SITES","Koeppen","Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).","character (string)","Given in Table 1 of Peel et al. (2007)","-",14181,"-","-"
 "23/W","SITES","FAO.ecozone","FAO global ecological zones classification, extracted from FAO's GeoNetwork (http://www.fao.org:80/geonetwork).","character (string)","-","-",14150,"-","-"

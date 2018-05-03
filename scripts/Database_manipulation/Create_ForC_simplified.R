@@ -109,11 +109,12 @@ MEASUREMENTS_SITES_PLOTS <- merge(MEASUREMENTS_SITES, PLOTS_simplified, by = c("
 ForC_simplified <- MEASUREMENTS_SITES_PLOTS
 
 # Add managed and disturbed columns ####
+
 ## Managed ####
 
 # 1. Find plots with management record (recorded in HISTORY but as summarized in PLOTS) -- i.e., anything with management.[XXX].ID not equal to zero
 
-plots.management.columns <- names(PLOTS)[grepl("management", names(PLOTS))]
+plots.management.columns <- names(PLOTS)[grepl("management", names(PLOTS)) & !names(PLOTS) %in% "management.other.ID"]
 managed <- PLOTS[, c("sites.sitename", "plot.name"),][apply(PLOTS[, plots.management.columns], 1, function(x) any(x!=0)),]
 unmanaged.for.now <- PLOTS[, c("sites.sitename", "plot.name"),][apply(PLOTS[, plots.management.columns], 1, function(x) all(x==0)),] # calling "for now because ste 2below is done on those to further filter out)
 
