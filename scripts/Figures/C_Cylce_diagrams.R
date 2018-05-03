@@ -313,6 +313,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
 # Plot the picture ####
 
 b = "Tropical broadleaf YOUNG"
+minimum.number.areas.for.solid.line <- 7
 for(b in unique(ForC_biome_averages$Biome)){
   print(b)
   
@@ -382,11 +383,11 @@ for(b in unique(ForC_biome_averages$Biome)){
     
     # DRAW ARROWS AND SOTCK RECTANGLES
     
-    if(variable.type %in% c("flux", "flux_arrow_only")) my.arrows(X.draw$coordinates, arr.width = sqrt(abs(X$mean))/5, lty = ifelse(X$n.areas >= 10, 1 , 2))
+    if(variable.type %in% c("flux", "flux_arrow_only")) my.arrows(X.draw$coordinates, arr.width = sqrt(abs(X$mean))/5, lty = ifelse(X$n.areas >= minimum.number.areas.for.solid.line, 1 , 2))
     
     if(variable.type %in% c("flux_no_estimate", "flux_arrow_only_no_estimate")) Arrows(x0 = X.draw$coordinates$x0, y0 = X.draw$coordinates$y0, x1 = X.draw$coordinates$x1, y1 = X.draw$coordinates$y1, col = "black", lty = 2, arr.lwd = 1, lwd = 1, arr.type = "triangle", arr.length = 0.2, arr.width = 0.2)
     
-    if(variable.type %in% c("stock", "stock_no_estimate")) rect(xleft = X.draw$coordinates$x0, ybottom = X.draw$coordinates$y0, xright = X.draw$coordinates$x1, ytop = X.draw$coordinates$y1, col = "grey95", border = X.draw$arr.border)
+    if(variable.type %in% c("stock", "stock_no_estimate")) rect(xleft = X.draw$coordinates$x0, ybottom = X.draw$coordinates$y0, xright = X.draw$coordinates$x1, ytop = X.draw$coordinates$y1, col = "grey95", border = X.draw$arr.border, lty = ifelse(X$n.areas >= minimum.number.areas.for.solid.line, 1 , 2))
     
     
     # DRAW TEXT
