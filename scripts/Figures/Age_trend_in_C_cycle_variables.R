@@ -81,6 +81,9 @@ ForC_simplified <- droplevels(ForC_simplified[!is.na(ForC_simplified$stand.age),
 levels(ForC_simplified$Biome)
 color.biome <- c("cyan2", "green", "blue", "red")
 
+## prepare regrouth column
+# ForC_simplified$regrowth.year <- 
+
 ## prepare map
 Continents <- crop(Continents, extent(-180, 180, -43, 73))
 
@@ -110,10 +113,12 @@ for(response.v in response.variables) {
   ylim = range(df$mean)
   
   ### model
-  mod <- lmer(mean ~ log10(stand.age) + Biome + (1|geographic.area/plot.name), data = df.young)
-  drop1.result <- drop1(mod, k = log(nrow(df.young)))
+  mod <- lmer(mean ~ log10(stand.age) * Biome + (1|geographic.area/plot.name), data = df.young)
+  # drop1.result <- drop1(mod, k = log(nrow(df.young)))
+  # age.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
   
-  age.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
+  mod.without.age <- lmer(mean ~ Biome + (1|geographic.area/plot.name), data = df.young)
+  age.significant <- anova(mod.without.age, mod)$"Pr(>Chisq)"[2] < 0.05
   
   newDat <- expand.grid(stand.age = seq(min(df.young$stand.age)+0.01, max(df.young$stand.age), length.out = 100), Biome = levels(df.young$Biome))
   
@@ -128,14 +133,19 @@ for(response.v in response.variables) {
   
   ### MAP plot all sites ? (even mature?)
   par(mar = c(0,0,0,0))
-  sites <- df[, c("lat", "lon", "Biome")]
-  coordinates(sites) <- c("lon", "lat")
   plot(Continents, col = "grey", border = "grey")
-  points(sites, col = color.biome[df$Biome], pch = 4)
+  
+  sites <- df.young[, c("lat", "lon", "Biome")]
+  coordinates(sites) <- c("lon", "lat")
+  points(sites, col = color.biome[df.young$Biome], pch = 4)
+  
+  sites <- df.mature[, c("lat", "lon", "Biome")]
+  coordinates(sites) <- c("lon", "lat")
+  points(sites, col = color.biome[df.mature$Biome], pch = 1)
   
   ### Plot young 
   par(mar = c(5.1,4.1,0,0))
-  plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = bquote(.(response.v) ~ "(Mg C " ~ ha^{-1}~")"), log = "x", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L")
+  plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = bquote(.(response.v) ~ " (Mg C " ~ ha^{-1}~")"), log = "x", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L")
   
   for(b in levels(df$Biome)){
     y <- fit[newDat$Biome %in% b]
@@ -146,7 +156,7 @@ for(response.v in response.variables) {
   
   ## boxplot mature
   par(mar = c(5.1,0,0,0))
-  boxplot(df.mature$mean,ylim = ylim, axes = F, xlab = "Mature Forest")
+  boxplot(mean ~ Biome, data = df.mature,ylim = ylim, axes = F, xlab = "Mature Forest", col = color.biome[as.factor(unique(df.mature$Biome))], outcol =color.biome[as.factor(unique(df.mature$Biome))])
 
   
   dev.off()
