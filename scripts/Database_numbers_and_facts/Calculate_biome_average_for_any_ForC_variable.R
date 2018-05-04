@@ -133,32 +133,32 @@ for (v.diag in unique(Variables_mapping$variable.diagram)) { # for each variable
 
   # if yound forest, compute a mixed effects model with stand.age as a fixed effect and plot as a random effect nested within geographic.area. When the effect of stand.age was significant at p≤0.05, summary statistics were reported as function of age. When there was no significant effect of stand.age, records were averaged as in the preceding two steps for mature stands. For mature stands and young stands with no significant age effects, we computed an unweighted average across geographic.areas.
   
-  X.for.model <-  X[!is.na(X$stand.age), ]
+  X.for.model <-  X[!is.na(X$stand.age) & ! X$stand.age %in% 0, ] # removing 0 because we are using log10
   
-  if(young & nrow(X.for.model)>10) { # young + more than 10 n.records
+  if(young & nrow(X.for.model)>10 & length(unique(X.for.model[, c("geographic.area")])) >= 3) { # young + more than 10 n.records + at least 3 different geographic.area
    
-    if(length(unique(X.for.model$geographic.area)) >= 3) { # mixed.model
+    # if(length(unique(X.for.model$geographic.area)) >= 3) { # mixed.model
       mod.null <- lmer(mean ~ 1 + (1|geographic.area), data = X.for.model)
-      mod <- lmer(mean ~ stand.age + (1|geographic.area), data =  X.for.model)
+      mod <- lmer(mean ~ log10(stand.age) + (1|geographic.area), data =  X.for.model)
       anova.mod <- anova(mod.null, mod)
       significant <- anova.mod$'Pr(>Chisq)'[2] < 0.05 &  rownames(anova.mod)[2] %in% "mod"
       
-    } # mixed.model
+    # } # mixed.model
     
-    if(length(unique(X.for.model$geographic.area)) < 3) { # linear model
-      mod.null <- lm(mean ~ 1, data = X.for.model)
-      mod <- lm(mean ~ stand.age, data =  X.for.model)
-      anova.mod <- anova(mod.null, mod)
-      significant <- anova.mod$'Pr(>F)'[2] < 0.05
-    } # linear model
+    # if(length(unique(X.for.model$geographic.area)) < 3) { # linear model
+    #   mod.null <- lm(mean ~ 1, data = X.for.model)
+    #   mod <- lm(mean ~ log10(stand.age), data =  X.for.model)
+    #   anova.mod <- anova(mod.null, mod)
+    #   significant <- anova.mod$'Pr(>F)'[2] < 0.05
+    # } # linear model
     
     if(significant){
       summary.mod <- summary(mod)$coefficients
       intercept <- round(summary.mod["(Intercept)", "Estimate" ], 2)
       intercept.se <- round(summary.mod["(Intercept)", "Std. Error" ], 2)
-      slope <- round(summary.mod["stand.age", "Estimate" ], 2)
-      slope.se <- round(summary.mod["stand.age", "Std. Error" ], 2)
-      equation <- paste0(format(intercept, nsmall = 2), "\u00b1", format(intercept.se, nsmall = 2), ifelse(sign(slope) == -1, "-age\u00D7", "+age\u00D7"), format(abs(slope), nsmall = 2), "\u00b1", format(slope.se, nsmall = 2))
+      slope <- round(summary.mod["log10(stand.age)", "Estimate" ], 2)
+      slope.se <- round(summary.mod["log10(stand.age)", "Std. Error" ], 2)
+      equation <- paste0(format(intercept, nsmall = 2), "\u00b1", format(intercept.se, nsmall = 2), ifelse(sign(slope) == -1, "-log10(age)\u00D7", "+log10(age)\u00D7"), format(abs(slope), nsmall = 2), "\u00b1", format(slope.se, nsmall = 2))
     }
     
     if(!significant) equation = NA
