@@ -110,12 +110,16 @@ for(response.v in response.variables) {
   ylim = range(df$mean)
   
   ### model
-  mod <- lmer(mean ~ log10(stand.age) * Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
-  # drop1.result <- drop1(mod, k = log(nrow(df.young)))
-  # age.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
   
-  mod.without.age <- lmer(mean ~ Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
-  age.significant <- anova(mod.without.age, mod)$"Pr(>Chisq)"[2] < 0.05
+  mod <- lmer(mean ~ log10(stand.age) + Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
+  drop1.result <- drop1(mod, k = log(nrow(df.young)))
+  age.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
+  
+  at.least.10.different.ages.in.each.Biome <- all(tapply(droplevels(df.young)$stand.age, droplevels(df.young)$Biome, function(x) length(x)>=10))
+  if(age.significant & at.least.10.different.ages.in.each.Biome)   mod <- lmer(mean ~ log10(stand.age) * Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
+
+  # mod.without.age <- lmer(mean ~ Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
+  # age.significant <- anova(mod.without.age, mod)$"Pr(>Chisq)"[2] < 0.05
   
   newDat <- expand.grid(stand.age = seq(min(df.young$stand.age)+0.01, max(df.young$stand.age), length.out = 100), Biome = levels(droplevels(df.young$Biome)))
   
