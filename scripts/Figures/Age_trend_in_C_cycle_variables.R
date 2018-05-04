@@ -95,6 +95,7 @@ ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$variable.name <- 
 
 ## Prepare list of variables to use (those that have at least 30 records in young forest)
 response.variables <- names(which(table(ForC_simplified[ForC_simplified$stand.age < 100 & ForC_simplified$stand.age !=0, ]$variable.name)>= 30))
+response.variables <- response.variables[!response.variables %in% c("NPP_understory", "total.ecosystem")]
 
 # Run analysis + plot####
 
