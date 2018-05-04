@@ -132,7 +132,7 @@ all.managed.sites.plot.name <- c(managed.1, managed.2)
 ForC_simplified$managed <- ifelse(paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name) %in% all.managed.sites.plot.name, 1, 0)
 
 # 4. double check we got all
-if(any(!c( paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name)[grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name), perl = T)]) %in% all.managed.sites.plot.name)) { stop("Didn't get all managed sites")}# double check we got all either in managed.1 or managed.2... 
+if(any(!c( paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name)[grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name), perl = T, ignore.case = T)]) %in% all.managed.sites.plot.name)) { stop("Didn't get all managed sites")}# double check we got all either in managed.1 or managed.2... 
 
 
 ## disturbed ####
@@ -211,8 +211,23 @@ ordered.field <- c("measurement.ID", "sites.sitename", "plot.name",
 
 ForC_simplified <- ForC_simplified[, ordered.field]
 
+# order records ####
 
+ForC_simplified <- ForC_simplified[order(ForC_simplified$measurement.ID),]
 # Save ForC-simplified ####
 
 write.csv(ForC_simplified, file = "ForC_simplified/ForC_simplified.csv", row.names = F)
 
+# A <- read.csv("ForC_simplified/ForC_simplified.csv", stringsAsFactors = F)
+# B <- ForC_simplified
+# 
+# for(i in 1:nrow(A)){
+#  print(i)
+#   if(!sum(A[i,] %in% B[i,]) >= ncol(A) -1) stop("problem" )
+#   if(!A[i,]$mean - B[i,]$mean < 0.0001) stop("problem" )
+# }
+# 
+# A[1,]$mean - B[1,]$mean
+# identical(A[1,], B[1,],  num.eq = F, single.NA = F, attrib.as.set = F,
+#           ignore.bytecode = F, ignore.environment = F,
+#           ignore.srcref = F)
