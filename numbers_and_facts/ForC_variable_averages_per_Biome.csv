@@ -7,10 +7,10 @@
 "Tropical broadleaf MATURE","flux","NPP_understory",0.11,NA,NA,NA,NA,0.11,0.11,NA,1,1,1
 "Tropical broadleaf MATURE","flux","ANPP",6.58,2.27,0.21,6.18,6.98,2.63,9.84,NA,28,21,11
 "Tropical broadleaf MATURE","flux","ANPP_woody",3.19,1.16,0.13,2.93,3.44,1.1,4.85,NA,16,14,9
-"Tropical broadleaf MATURE","flux","ANPP_stem",2.88,1.05,0.02,2.84,2.93,0.341666666666667,6,NA,170,164,50
-"Tropical broadleaf MATURE","flux","ANPP_branch",1.1,1.18,0.11,0.89,1.31,0.08,4.512,NA,23,23,11
+"Tropical broadleaf MATURE","flux","ANPP_stem",5.63,19.41,0.39,4.87,6.39,0.341666666666667,139.966,NA,172,164,50
+"Tropical broadleaf MATURE","flux","ANPP_branch",0.75,0.35,0.04,0.69,0.82,0.08,1.215,NA,22,22,10
 "Tropical broadleaf MATURE","flux","ANPP_foliage",2.97,0.79,0.02,2.92,3.01,1.53,5.06,NA,75,73,35
-"Tropical broadleaf MATURE","flux","ANPP_litterfall",3.72,1.1,0.02,3.68,3.76,1.6168,6.486,NA,122,121,51
+"Tropical broadleaf MATURE","flux","ANPP_litterfall",3.66,1.04,0.02,3.62,3.71,1.6168,5.7904,NA,121,120,50
 "Tropical broadleaf MATURE","flux","ANPP_repro",0.33,0.16,0.01,0.31,0.34,0.11186,0.5452,NA,45,45,20
 "Tropical broadleaf MATURE","flux","ANPP_folivory",0.54,0.42,0.05,0.44,0.64,0.165,1.44,NA,14,13,8
 "Tropical broadleaf MATURE","flux","woody.mortality",2.39,0.91,0.08,2.23,2.55,1.222,3.713,NA,30,30,11
@@ -29,10 +29,10 @@
 "Tropical broadleaf MATURE","stock","total.ecosystem",397.6,79.49,15.9,366.44,428.76,302,488,NA,5,5,5
 "Tropical broadleaf MATURE","stock","total.ecosystem_2",257.5,96.62,16.1,225.94,289.06,161,399,NA,6,6,6
 "Tropical broadleaf MATURE","stock","biomass",165.05,65.69,4.69,155.85,174.24,49.491,286.43,NA,30,19,14
-"Tropical broadleaf MATURE","stock","biomass_ag",162.7,65.16,0.52,161.68,163.72,21.15,366.929,NA,367,298,125
+"Tropical broadleaf MATURE","stock","biomass_ag",162.56,64.92,0.52,161.55,163.57,21.15,366.929,NA,370,299,126
 "Tropical broadleaf MATURE","stock","biomass_ag_woody",138.24,41.34,8.27,122.04,154.45,106.428888894633,191.1336,NA,16,12,5
-"Tropical broadleaf MATURE","stock","biomass_foliage",3.58,1.29,0.32,2.95,4.22,1.927,4.62574,NA,12,8,4
-"Tropical broadleaf MATURE","stock","biomass_root",21.55,12.72,0.51,20.55,22.54,3.76,47.745,NA,38,38,25
+"Tropical broadleaf MATURE","stock","biomass_foliage",3.65,1.13,0.23,3.21,4.1,1.927,4.62574,NA,15,9,5
+"Tropical broadleaf MATURE","stock","biomass_root",21.52,12.73,0.51,20.53,22.52,3.76,47.745,NA,40,38,25
 "Tropical broadleaf MATURE","stock","biomass_root_coarse",28.77,3.92,1.96,24.93,32.61,26,31.537,NA,2,2,2
 "Tropical broadleaf MATURE","stock","biomass_root_fine",7.85,11.85,1.32,5.27,10.43,0.22,38,NA,12,11,9
 "Tropical broadleaf MATURE","stock","deadwood",15.53,11.57,0.58,14.4,16.66,2.256,47,NA,34,34,20
