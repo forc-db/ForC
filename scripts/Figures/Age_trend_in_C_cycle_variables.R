@@ -20,6 +20,7 @@ setwd(".")
 library(lme4)
 library(multcomp)
 library(lsmeans)
+library(moments)
 library(sp)
 library(rgdal)
 library(raster)
@@ -106,10 +107,14 @@ response.variables <- response.variables[!response.variables %in% c("NPP_underst
 for(response.v in response.variables) {
   print(response.v)
   
+  # right.skewed.response <- response.v %in% right.skewed_response.variables
+  
   ### data
   df <- ForC_simplified[ForC_simplified$variable.name %in% response.v, ]
   df.mature <- df[df$stand.age >= 100, ]
   df.young <- df[df$stand.age < 100 & df$stand.age != 0,]  # removing 0 because we are taking the log. Removes 28 recorsd
+  
+  right.skewed.response <- skewness(df.young$mean) > 2 & all(df.young$mean > 0)
   
   ### ylim
   ylim = range(df$mean)
@@ -127,7 +132,8 @@ for(response.v in response.variables) {
   # mod.without.age <- lmer(mean ~ Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
   # age.significant <- anova(mod.without.age, mod)$"Pr(>Chisq)"[2] < 0.05
   
-  newDat <- expand.grid(stand.age = seq(min(df.young$stand.age)+0.01, max(df.young$stand.age), length.out = 100), Biome = levels(droplevels(df.young$Biome)))
+  newDat <- expand.grid(stand.age = 10^seq(min(log10(df.young$stand.age))+0.01, max(log10(df.young$stand.age)), length.out = 100), Biome = levels(droplevels(df.young$Biome)))
+
   
   fit <- predict(mod.young, newDat, re.form =  NA)
   
@@ -144,8 +150,6 @@ for(response.v in response.variables) {
       pairwise.comp.letter.grouping <- cld(pairwise.comp) 
     }
   }
-  
-  
   
   ### plot
   
@@ -168,7 +172,7 @@ for(response.v in response.variables) {
   
   ### Plot young 
   par(mar = c(5.1,4.1,0,0))
-  plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = bquote(.(response.v) ~ " (Mg C " ~ ha^{-1}~")"), log = "x", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L")
+  plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = bquote(.(response.v) ~ " (Mg C " ~ ha^{-1}~")"), log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L")
   
   for(b in levels(df$Biome)){
     y <- fit[newDat$Biome %in% b]
@@ -179,12 +183,11 @@ for(response.v in response.variables) {
   
   ## boxplot mature
   par(mar = c(5.1,0,0,0))
-  boxplot(mean ~ Biome, data = droplevels(df.mature), ylim = ylim, axes = F, xlab = "Mature Forest", col = color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], outcol =color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome])
+  boxplot(mean ~ Biome, data = droplevels(df.mature), ylim = ylim, axes = F, xlab = "Mature Forest", col = color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], outcol =color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], log = ifelse(right.skewed.response, "y", ""))
 
   if(biome.significant & !class(mod.mature) %in% "try-error") { # do pairwise comparison
     text(x = c(1:length(unique(droplevels(df.mature)$Biome))), y = max(df.mature$mean) + diff(ylim)/50, pairwise.comp.letter.grouping$mcletters$Letters)
   }
-  
   
   dev.off()
 }
