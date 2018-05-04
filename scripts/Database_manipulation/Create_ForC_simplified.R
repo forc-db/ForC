@@ -125,7 +125,7 @@ unmanaged.for.now <- paste(unmanaged.for.now[,1], unmanaged.for.now[,2]) # calli
 
 # 2. Find any site.name or plot.name containing "plantation", "planted", "managed", "irrigated" or "fertilied"
 
-managed.2 <- unmanaged.for.now[grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", unmanaged.for.now, perl = T)]
+managed.2 <- unmanaged.for.now[grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", unmanaged.for.now, perl = T, ignore.case = T)]
 
 # 3. Give a 1 to all managed plots found in 1. and 2. 
 all.managed.sites.plot.name <- c(managed.1, managed.2)
