@@ -81,9 +81,6 @@ ForC_simplified <- droplevels(ForC_simplified[!is.na(ForC_simplified$stand.age),
 levels(ForC_simplified$Biome)
 color.biome <- c("cyan2", "green", "blue", "red")
 
-## prepare regrouth column
-# ForC_simplified$regrowth.year <- 
-
 ## prepare map
 Continents <- crop(Continents, extent(-180, 180, -43, 73))
 
@@ -105,22 +102,22 @@ for(response.v in response.variables) {
   print(response.v)
   
   ### data
-  df <- droplevels(ForC_simplified[ForC_simplified$variable.name %in% response.v, ])
-  df.mature <- droplevels(df[df$stand.age >= 100, ])
-  df.young <- droplevels(df[df$stand.age < 100 & df$stand.age != 0,])  # removing 0 because we are taking the log. Removes 28 recorsd
+  df <- ForC_simplified[ForC_simplified$variable.name %in% response.v, ]
+  df.mature <- df[df$stand.age >= 100, ]
+  df.young <- df[df$stand.age < 100 & df$stand.age != 0,]  # removing 0 because we are taking the log. Removes 28 recorsd
   
   ### ylim
   ylim = range(df$mean)
   
   ### model
-  mod <- lmer(mean ~ log10(stand.age) * Biome + (1|geographic.area/plot.name), data = df.young)
+  mod <- lmer(mean ~ log10(stand.age) * Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
   # drop1.result <- drop1(mod, k = log(nrow(df.young)))
   # age.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
   
-  mod.without.age <- lmer(mean ~ Biome + (1|geographic.area/plot.name), data = df.young)
+  mod.without.age <- lmer(mean ~ Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
   age.significant <- anova(mod.without.age, mod)$"Pr(>Chisq)"[2] < 0.05
   
-  newDat <- expand.grid(stand.age = seq(min(df.young$stand.age)+0.01, max(df.young$stand.age), length.out = 100), Biome = levels(df.young$Biome))
+  newDat <- expand.grid(stand.age = seq(min(df.young$stand.age)+0.01, max(df.young$stand.age), length.out = 100), Biome = levels(droplevels(df.young$Biome)))
   
   fit <- predict(mod, newDat, re.form =  NA)
   
@@ -156,7 +153,7 @@ for(response.v in response.variables) {
   
   ## boxplot mature
   par(mar = c(5.1,0,0,0))
-  boxplot(mean ~ Biome, data = df.mature,ylim = ylim, axes = F, xlab = "Mature Forest", col = color.biome[as.factor(unique(df.mature$Biome))], outcol =color.biome[as.factor(unique(df.mature$Biome))])
+  boxplot(mean ~ Biome, data = droplevels(df.mature), ylim = ylim, axes = F, xlab = "Mature Forest", col = color.biome[as.factor(levels(droplevels(df.mature$Biome)))], outcol =color.biome[as.factor(levels(droplevels(df.mature$Biome)))])
 
   
   dev.off()
