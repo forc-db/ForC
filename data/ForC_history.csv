@@ -3490,7 +3490,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1649.02,Naranjo,Tropical Dry Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA,tropical
 1649.03,Naranjo,Tropical Dry Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA,tropical
 1650.01,Nassau,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
-1651.01,Natural Pinus sylvestris stand,Forest recovery following natural disturbance,NAC,1,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 1652.01,Nelson,Nothofagus truncata,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 1653.01,Netherlands Douglas fir,Douglas fir plantation,NAC,1,NAC,9,Regrowth,Planted,1,NA,NA,NA,NA,NA,extratropical
 1654.01,New South Wales south coast 1,"E. fastigata, E. sieberi, Corymbia maculata",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
@@ -3891,7 +3890,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1846.03,Pifo Polylepis Forest,Forest recovery following pasture abandonment ,NAC,3,1983,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,1102,tropical
 1847.01,Pifo Polylepis Forest,old-growth forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,1103,tropical
 1848.01,Ping Kong,monsoon forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2191,tropical
-1849.01,Pinus sylvestris plantation,Stand development of an unmanaged plantation,NAC,1,1953,8,Regrowth,Planted_and_natural_regeneration,1,NA,NA,NA,NA,NA,extratropical
 1850.01,Piro,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA,tropical
 1850.02,Piro,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA,tropical
 1850.03,Piro,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA,tropical

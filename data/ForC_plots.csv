@@ -1650,7 +1650,6 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 1648,Nanwonghe,Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1649,Naranjo,Tropical Dry Forest recovery following pasture abandonment,NAC,1649.03,NI,1649.02,Initiation of post-disturbance cohort (natural),NI,1649.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1650,Nassau,mature 'old growth' forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1651,Natural Pinus sylvestris stand,Forest recovery following natural disturbance,NAC,0,NAC,1651.01,Initiation of post-disturbance cohort (natural),NI,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1652,Nelson,Nothofagus truncata,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1653,Netherlands Douglas fir,Douglas fir plantation,NAC,0,NAC,1653.01,Planted,NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1654,New South Wales south coast 1,"E. fastigata, E. sieberi, Corymbia maculata",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -1848,7 +1847,6 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 1846,Pifo Polylepis Forest,Forest recovery following pasture abandonment ,NAC,1846.03,1983,1846.02,Initiation of post-disturbance cohort (natural),1983,1846.01,Grazed,100,1981,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1847,Pifo Polylepis Forest,old-growth forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1848,Ping Kong,monsoon forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1849,Pinus sylvestris plantation,Stand development of an unmanaged plantation,NAC,0,NAC,1849.01,Planted_and_natural_regeneration,1953,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1850,Piro,Tropical Wet Forest recovery following pasture abandonment,NAC,1850.03,NI,1850.02,Initiation of post-disturbance cohort (natural),NI,1850.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1851,Piste de Saint-Elie (ECEREX),Mature ,1,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1852,Piste de Saint-Elie (ECEREX),old-growth tropical forest.PSE,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
