@@ -757,10 +757,12 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 346.02,Bradford county 1,Managed,NAC,2,1978,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Managed,NA,extratropical
 347.01,Bradford county 2,Managed,NAC,1,1868,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Managed,NA,extratropical
 347.02,Bradford county 2,Managed,NAC,2,1868,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Managed,NA,extratropical
-348.01,Brasschaat Oak,Managed,NAC,1,1927,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Thinned, pest control for rhododendron sp.",NA,extratropical
-348.02,Brasschaat Oak,Managed,NAC,2,NAC,9,Disturbance,Cut,NA,NA,NA,<100%,"Thinned, pest control for rhododendron sp.",NA,extratropical
-349.01,Brasschaat Pine,Managed,NAC,1,1927,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Thinned, pest control for rhododendron sp.",NA,extratropical
-349.02,Brasschaat Pine,Managed,NAC,2,NAC,9,Disturbance,Cut,NA,NA,NA,<100%,"Thinned, pest control for rhododendron sp.",NA,extratropical
+348.01,Brasschaat Oak,Managed,NAC,1,1936,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Oaks planted in 1936,NA,extratropical
+348.02,Brasschaat Oak,Managed,NAC,2,1936,9,Regrowth,Planted,NA,NA,NA,NA,Oaks planted in 1936,NA,extratropical
+348.03,Brasschaat Oak,Managed,NAC,2,NAC,9,Disturbance,Cut,NA,NA,NA,<100%,"Thinned, pest control for rhododendron sp.",NA,extratropical
+349.01,Brasschaat Pine,Managed,NAC,1,1929,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Pines planted in 1929,NA,extratropical
+349.02,Brasschaat Pine,Managed,NAC,2,1929,9,Regrowth,Planted,NA,NA,NA,NA,Pines planted in 1929,NA,extratropical
+349.03,Brasschaat Pine,Managed,NAC,2,NAC,9,Disturbance,Cut,NA,NA,NA,<100%,"Thinned, pest control for rhododendron sp.",NA,extratropical
 350.01,Brasschaat young,RD,NAC,1,1995,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Thinned, pest control for rhododendron sp.",NA,extratropical
 350.02,Brasschaat young,RD,NAC,2,NAC,9,Disturbance,Cut,NA,NA,NA,<100%,"Thinned, pest control for rhododendron sp.",NA,extratropical
 351.01,Brasschaat,Managed,NAC,1,1927,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Thinned, pest control for rhododendron sp.",NA,extratropical
