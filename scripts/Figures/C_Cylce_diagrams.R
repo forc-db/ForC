@@ -29,9 +29,14 @@ source("scripts/Figures/my.arrows.R")
 
 
 # Load picture table ####
-img <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/Temperate_conifer_young.png")
-
-
+img.Tropical_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/tropical_broadleaf_mature.png")
+img.Tropical_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/tropical_broadleaf_young.png")
+img.Temperate_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_mature.png")
+img.Temperate_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_mature.png")
+img.Temperate_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_conifer_mature.png")
+img.Temperate_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/Temperate_conifer_young.png")
+img.Boreal_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/boreal_mature.png")
+img.Boreal_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/boreal_young.png")
 
 
 # Prepare list of variables and their relevant attributes ####
@@ -170,7 +175,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                   woody.mortality = list(variable.type = "flux",
                                          variable.name  = expression(bold("woody mortality")),
                                          coordinates = list(x0 = 3.8, y0 = 5, x1 = 6.8, y1 = 1.8),
-                                         y.adjust = 0.5,
+                                         y.adjust = 0,
                                          x.adjust = -1,
                                          move.text.box = "null",
                                          need.semi.transparent.box = TRUE),
@@ -184,8 +189,8 @@ variables <- list(NEE = list(variable.type = "flux", #####
                   ANPP_litterfall = list(variable.type = "flux",
                                          variable.name  = expression(bold("ANPP"[litterfall])),
                                          coordinates = list(x0 = 2.2, y0 = 2.8, x1 = 2.2, y1 = 1),
-                                         y.adjust = -1.3,
-                                         x.adjust = 0,
+                                         y.adjust = -0.8,
+                                         x.adjust = 0.8,
                                          move.text.box = "null",
                                          need.semi.transparent.box = FALSE),
                   R_soil = list(variable.type = "flux",
@@ -317,7 +322,10 @@ minimum.number.areas.for.solid.line <- 7
 for(b in unique(ForC_biome_averages$Biome)){
   print(b)
   
-  equations.to.right.at.the.bottom <- NULL # equation.nb <- 0
+  img <- get(paste0("img.", gsub(" ", "_", b)))
+  
+  flux.equations.to.right.at.the.bottom <- NULL # equation.nb <- 0
+  stock.equations.to.right.at.the.bottom <- NULL
   
   tiff(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".tiff"), width =  2625, height = 2250, units = "px", res = 300)
   
@@ -441,7 +449,7 @@ for(b in unique(ForC_biome_averages$Biome)){
         
         if(need.to.adjust & !is.na(X$equation)){
           need.to.remove.equation <- TRUE
-          equations.to.right.at.the.bottom <- c(equations.to.right.at.the.bottom, X$equation) # equation.nb <- equation.nb +1
+          flux.equations.to.right.at.the.bottom <- c(flux.equations.to.right.at.the.bottom, X$equation) # equation.nb <- equation.nb +1
           
           need.to.adjust <- ifelse((horizontal.arrow & (y.height > arr.width)) |  (!horizontal.arrow & (x.width - 0.2 > arr.width)), TRUE, FALSE)
         }
@@ -467,8 +475,15 @@ for(b in unique(ForC_biome_averages$Biome)){
         
         need.to.remove.equation <- ifelse((horizontal.arrow & (y.height > arr.width)) |  (!horizontal.arrow & (x.width > arr.width)), TRUE, FALSE)
         
-        if(need.to.remove.equation) equations.to.right.at.the.bottom <- c(equations.to.right.at.the.bottom, X$equation) #equation.nb <- equation.nb +1 
+        if(need.to.remove.equation) flux.equations.to.right.at.the.bottom <- c(flux.equations.to.right.at.the.bottom, X$equation) #equation.nb <- equation.nb +1 
       }
+      
+      if(!is.na(X$equation) & variable.type %in% "stock") {
+        
+        need.to.remove.equation <- TRUE
+        stock.equations.to.right.at.the.bottom <- c(stock.equations.to.right.at.the.bottom, X$equation)
+      }
+      
       
       if(need.to.adjust) {
         
@@ -494,8 +509,8 @@ for(b in unique(ForC_biome_averages$Biome)){
       
       if(!is.na(X$equation)){
         if(need.to.remove.equation) {
-          text.main <- c(paste0("eq (", length(equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
-          mtext.text <-  paste0("eq (", length(equations.to.right.at.the.bottom), "): ", X$equation)
+          text.main <- c(paste0("eq (", length(flux.equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
+          mtext.text <-  paste0("eq (", length(flux.equations.to.right.at.the.bottom), "): ", X$equation)
         }
         
         if(!need.to.remove.equation) {
@@ -521,9 +536,15 @@ for(b in unique(ForC_biome_averages$Biome)){
   }
   
   # add equations if any
-  if(length(equations.to.right.at.the.bottom > 0)) {
-      mtext(side = 1, text = paste0("eq (", 1:length(equations.to.right.at.the.bottom), "): ", equations.to.right.at.the.bottom), line = - (c(length(equations.to.right.at.the.bottom):1) * 0.5), adj = 0.03, cex = 0.5)
+  if(length(flux.equations.to.right.at.the.bottom > 0)) {
+      mtext(side = 1, text = paste0("eq (", 1:length(flux.equations.to.right.at.the.bottom), "): ", flux.equations.to.right.at.the.bottom), line = - (c(length(flux.equations.to.right.at.the.bottom):1)-1) * 0.5, adj = 0.03, cex = 0.5)
   }
+  
+  if(length(stock.equations.to.right.at.the.bottom > 0)) {
+    mtext(side = 1, text = paste0("eq (", 1:length(stock.equations.to.right.at.the.bottom), "): ", stock.equations.to.right.at.the.bottom), line = - (c(length(stock.equations.to.right.at.the.bottom):1)-1) * 0.5, adj = 0.97, cex = 0.5)
+  }
+  
+  
   
   # add legend
   if(grepl("YOUNG", b)) legend.txt <-  c("mean\u00b1std OR intercept\u00b1se + age \u00D7 slope\u00b1se",  paste("n records", "n plots", "n areas", sep = "/"))
