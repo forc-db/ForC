@@ -219,7 +219,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                                variable.name  = expression(bold("R"[cwd])),
                                mean = NA,
                                n.areas = NA,
-                               coordinates = list(x0 = 7.3, y0 = 2, x1 = 7.3, y1 = 7.9),
+                               coordinates = list(x0 = 7, y0 = 2, x1 = 7.3, y1 = 7.9),
                                y.adjust = -1.5,
                                x.adjust = 0.3,
                                move.text.box = "null",
