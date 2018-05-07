@@ -37,6 +37,10 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 
 ## MEASUREMENTS ####
 
+
+### remove measurements that we don't trust
+
+MEASUREMENTS <- MEASUREMENTS[MEASUREMENTS$flag.suspicious %in% 0, ] # keep only non-suspicious records
 ### Resolve duplicates #####
 
 source("scripts/Database_manipulation/Reconcile_duplicated_records.R")
@@ -64,6 +68,7 @@ units <- sapply(strsplit(MEASUREMENTS_no_duplicates$variable.name, "_"), tail, 1
 
 MEASUREMENTS_no_duplicates$mean <- ifelse(units %in% "OM", 0.47*MEASUREMENTS_no_duplicates$mean, MEASUREMENTS_no_duplicates$mean)
 MEASUREMENTS_no_duplicates$variable.name <- gsub("(\\w*)(_C$|_OM$)", "\\1", MEASUREMENTS_no_duplicates$variable, perl = T)
+
 
 
 

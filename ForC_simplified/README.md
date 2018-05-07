@@ -17,3 +17,4 @@ The following simplifications are made in the creation of ForC-simplified:
 - Duplicate measurements are removed, giving precedence to more recently published studies and preferred methodologies, as determined by database investigators. We also remove records that subsume others (e.g., multi-year averages when annual estimates exist, records with missing dates that potentially conflict with others).
 - `NEE_cum_C`, `GPP_cum_C`, and `R_eco_cum_C` ignored.
 - Secondary variables ignored. 
+- Remove any measurement records that are considered supicious (flag.suspicious field in MEASUREMENTS)
