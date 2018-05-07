@@ -509,8 +509,16 @@ for(b in unique(ForC_biome_averages$Biome)){
       
       if(!is.na(X$equation)){
         if(need.to.remove.equation) {
-          text.main <- c(paste0("eq (", length(flux.equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
+          if(grepl("flux", variable.type)) {
+            text.main <- c(paste0("eq (", length(flux.equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
           mtext.text <-  paste0("eq (", length(flux.equations.to.right.at.the.bottom), "): ", X$equation)
+          }
+          
+          if(grepl("stock", variable.type)) {
+            text.main <- c(paste0("eq (", length(stock.equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
+            mtext.text <-  paste0("eq (", length(stock.equations.to.right.at.the.bottom), "): ", X$equation)
+          }
+          
         }
         
         if(!need.to.remove.equation) {
