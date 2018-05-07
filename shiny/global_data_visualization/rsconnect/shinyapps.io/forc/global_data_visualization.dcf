@@ -1,0 +1,13 @@
+name: global_data_visualization
+title: global_data_visualization
+username:
+account: forc
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 338573
+bundleId: 1360045
+url: https://forc.shinyapps.io/global_data_visualization/
+when: 1525698803.16715
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data/ForC/ForC_measurements_201804.rds|data/ForC/ForC_simplified_201804.rds|data/ForC/ForC_simplified_metadata_201804.rds|data/ForC/ForC_variables_201804.rds

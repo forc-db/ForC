@@ -20,115 +20,47 @@ function( input, output, session ) {
   ## Interactive Map ###########
   
   # Create the map
-  map <-  renderLeaflet({
-      leaflet() %>%
-      # addTiles(urlTemplate = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
-     addProviderTiles( providers$CartoDB.Positron) %>% #CartoDB.Positron #OpenMapSurfer.Grayscale
+  output$map <- renderLeaflet({
+    leaflet() %>%
+      addProviderTiles( providers$CartoDB.Positron ) %>%  #OpenMapSurfer.Grayscale
       setView( lng = 0, lat = 0, zoom = 3 ) %>%
-      setMaxBounds( lng1 = -240, lat1 = -90, lng2 = 240, lat2 = 90)
+      setMaxBounds( lng1 = -240, lat1 = -90, lng2 = 240, lat2 = 90 )
   })
-    
-  output$map <- map
-  # output$map <- renderLeaflet({
-  #   leaflet() %>%
-  #     addTiles( providers$OpenMapSurfer.Grayscale ) %>% #CartoDB.Positron #OpenMapSurfer.Grayscale
-  #     setView( lng = 0, lat = 0, zoom = 3 ) %>%
-  #     setMaxBounds( lng1 = -240, lat1 = -90, lng2 = 240, lat2 = 90 )
-  # })
   
-  # Subset the data
-  
-  data <- reactive({
-    
-    ## subset for the variable of interest
-    ddk <- dd[dd$variable.name %in% input$color,]
-
-    ## exclude managed or disturbed, or not
-    if(length(input$ExcludRec) == 1) {
-      if ("managed" %in% input$ExcludRec) {
-        ddk <- subset( ddk, managed %in% 0)
-      }
-      if ("disturbed" %in% input$ExcludRec) {
-        ddk <- subset( ddk, disturbed %in% 0)
-      }
-    }
-    
-    if(length(input$ExcludRec) == 2) {
-      if (all(c("managed", "disturbed") %in% input$ExcludRec)) {
-       ddk <- subset( ddk, managed %in% 0 & disturbed %in% 0)
-      }
-    }
-    
-    ## select stand age
-    
-    ### make a numeric vector of age 
-    num.age <- as.numeric(as.character(ddk$stand.age))
-    
-    ### select between min and max of the input, depending on how to treat missing values
-    
-    if(length(input$ageInclude) == 0) {
-      ddk <- ddk[(num.age >= input$age[1] & num.age <= input$age[2]) & !is.na(num.age) & num.age != 999,]
-    }
-    
-    if(length(input$ageInclude) == 1) {
-      
-      if(grepl("999", input$ageInclude)) {
-        ddk <- ddk[(num.age >= input$age[1] & num.age <= input$age[2]) & !is.na(num.age),] #  | num.age == 999
-      }
-      
-      if(grepl("unknown", input$ageInclude)) {
-        ddk <- ddk[((num.age >= input$age[1] & num.age <= input$age[2]) | is.na(num.age)) & num.age != 999,]
-      }
-      
-    }
-    
-    if(length(input$ageInclude) == 2) {
-      ddk <- ddk[(num.age >= input$age[1] & num.age <= input$age[2]) | is.na(num.age) | num.age == 999,]
-    }
-    
-    # 
-    # sliderInput("age", label = h4("Select a range of stand age"), min = 0, max = 4000, value = c(0, 4000)),
-    # checkboxGroupInput( inputId = "ageInclude", label = h5( "Include:" ),
-    #                     choices = list( "Mature stands of unknown age (999)" = "999",
-    #                                     "Unknown age (NAC, NI, NRA)" = "unknown"),
-    #                     selected = c("999", "unknown")),
-    
-    
-    return(ddk)
-  })
   
   # subset by stand age
   # dd <- subset( dd, stand.age >= input$dates[ 1 ] & stand.age <= input$dates[ 2 ] )
-   
-  # Histogram
-
-    output$histCentile <- renderPlot({
-      hist( data()$meanvar,
-      main = '',
-      xlab = input$color,
-      col =  '#66CC00', # '#00DD00',
-      border = 'white')
-      })
   
-    
-  # Number of records
- 
-  output$nbrec <- renderText({paste("Number of records =", nrow(data()))})
-
+  
+  # Histogram
+  output$histCentile <- renderPlot({
+    assign( 'x', eval( parse( text = paste( 'subset( dd, variable.name == \'', input$color, '\' )$meanvar', sep = '' ) ) ) )
+    if ( length( na.omit( x ) ) > 0 )
+    {
+      hist( x,
+          main = '',
+          xlab = input$color,
+          col =  '#66CC00', # '#00DD00',
+          border = 'white')
+    } else
+    {
+      return()
+    }
+  })
+  
   
   # color varies depending on the variable selected
   observe({
     output$color <- renderUI( selectInput(  inputId = "color", label = h4( "Variable" ), 
-                                            selectize = TRUE, choices = varLst[[ input$varType ]], 
-                                            # selectize = TRUE, choices = varLst[[ input$varType ]][[ input$measType ]],
+                                            selectize = TRUE, choices = varLst[[ input$varType ]][[ input$measType ]], 
                                             selected = 'GPP_C' ) )
   })
   
   
-  # point size and color vary according to user input
+  # point sioze and color vary according to user input
   observe({
- 
-    ddk <- data()
+    eval( parse( text = paste( 'ddk <- subset( dd, variable.name == \'', input$color, '\' )', sep = '' ) ) )
+    
     colorData <- ddk$meanvar
     if ( length( colorData ) > 0 )
     {

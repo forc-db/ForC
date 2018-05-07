@@ -26,7 +26,6 @@
 
 library( plyr )
 library( reshape2 )
-# library( yaml)
 # library( RCurl )
 
 # Connect to ForC to create a local copy of the data or just load it if a local copy is available
@@ -103,20 +102,13 @@ if ( usingSimplified )
 
 
 
-if (usingSimplified) {
-  dd <-  forc[ c( 'lon', 'lat', 'sites.sitename', 'stand.age', 'variable.name',  'mean', 'managed', 'disturbed') ]
-  names( dd ) <-  c( 'lon', 'lat', 'site', 'stand.age', 'variable.name',  'meanvar', 'managed', 'disturbed' )
-} 
+dd <-  forc[ c( 'lon', 'lat', 'sites.sitename', 'stand.age', 'variable.name',  'mean' ) ]
+names( dd ) <-  c( 'lon', 'lat', 'site', 'stand.age', 'variable.name',  'mean' )
 
+# take the mean when several measurements are available at the same location
+dd <-  ddply( dd, .( lon, lat, site, variable.name ), summarize, meanvar = mean( mean )) # without stand age 
+# dd <-  ddply( dd, .( lon, lat, site, stand.age, variable.name ), summarize, meanvar = mean( mean )) # including stand age
 
-if (!usingSimplified) {
-  dd <-  forc[ c( 'lon', 'lat', 'sites.sitename', 'stand.age', 'variable.name',  'mean') ]
-  names( dd ) <-  c( 'lon', 'lat', 'site', 'stand.age', 'variable.name',  'mean' )
-
-  # take the mean when several measurements are available at the same location
-  dd <-  ddply( dd, .( lon, lat, site, variable.name ), summarize, meanvar = mean( mean )) # without stand age 
-  # dd <-  ddply( dd, .( lon, lat, site, stand.age, variable.name ), summarize, meanvar = mean( mean )) # including stand age
-} 
 
 # extract variable names for different variable types
 varNames <- as.list( as.character( forc.variables$variable.name ) )
