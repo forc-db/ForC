@@ -191,11 +191,11 @@ ForC_simplified_meta[ForC_simplified_meta$Field %in% "sites.sitename", ]$Descrip
 
 ## Add managed and disturbed metadata
 
-managed.disturbed_meta <- data.frame(Column = nrow(ForC_simplified)+c(1:2),
+managed.disturbed_meta <- data.frame(Column = nrow(ForC_simplified_meta)+c(1:2),
                       Field = c("managed", "disturbed"),
                       Description = c('Indicates whether plot has been managed. Plots are counted as managed if they have any records of management actions manipulating CO2, temperature, hydrology, nutrients, or biota (records in HISTORY, summarized in PLOTS) or if their site or plot name contained the word “plantation”, "planted", "managed", "irrigated" or "fertilized"', 'Indicates whether plot has undergone significant disturbance since the establishment of the oldest cohort. We removed stands that had undergone anthropogenic thinning or partial harvest ("Cut" or "Harvest" codes) unless this was very minor (mortality <<100%). Retains sites that were grazed or had undergone low severity natural disturbances (<10% mortality) including droughts, major storms, fires, and floods.'),
-                      Storage.Type = "character (string)",
-                      Variable.Codes = "-",
+                      Storage.Type = "numeric (integer)",
+                      Variable.Codes = "1-true; 0- false",
                       Units = "-",
                       n = nrow(ForC_simplified),
                       Min = 0,
@@ -203,6 +203,22 @@ managed.disturbed_meta <- data.frame(Column = nrow(ForC_simplified)+c(1:2),
                       Source.Table = "None")
 
 ForC_simplified_meta <- rbind(ForC_simplified_meta, managed.disturbed_meta)
+
+
+## Add history.no.info metadata
+
+history.no.info_meta <- data.frame(Column = nrow(ForC_simplified_meta)+1,
+                                     Field = c("history.no.info"),
+                                     Description = c("Indicates whether plot has 1- no info about history ('No.info' in hist.cat field of HISTORY table) or 0- some info about history."),
+                                     Storage.Type = "numeric (integer)",
+                                     Variable.Codes = "1-true; 0- false",
+                                     Units = "-",
+                                     n = nrow(ForC_simplified),
+                                     Min = 0,
+                                     Max = 1,
+                                     Source.Table = "None")
+
+ForC_simplified_meta <- rbind(ForC_simplified_meta, history.no.info_meta)
 
 ## Edit Column ID
 LETTERS702 <- c(LETTERS, sapply(LETTERS, function(x) paste0(x, LETTERS)))

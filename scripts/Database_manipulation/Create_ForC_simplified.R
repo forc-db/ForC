@@ -204,6 +204,16 @@ table(disturbed$dist_2.hist.type, disturbed$dist_2.mort)
 ForC_simplified$disturbed <- ifelse(paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name) %in% paste(disturbed$sites.sitename, disturbed$plot.name), 1, 0)
 
 
+# Add history_info column ####
+
+# Finds plots that have "No.info" in hist.cat
+head(HISTORY)
+no.hist.info <- HISTORY[HISTORY$hist.cat %in% "No.info",]
+ForC_simplified$history.no.info <- ifelse(paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name) %in% paste(no.hist.info$sites.sitename, no.hist.info$plot.name), 1, 0)
+
+
+
+
 # Order columns ####
 ordered.field <- c("measurement.ID", "sites.sitename", "plot.name", 
                   "stand.age", "dominant.life.form", "dominant.veg", "variable.name", 
@@ -212,13 +222,14 @@ ordered.field <- c("measurement.ID", "sites.sitename", "plot.name",
                   "biogeog", "Koeppen", "FAO.ecozone",
                   "plot.area", "year.establishment.oldest.trees", 
                   "regrowth.hist.type", "regrowth.year", "dist.mrs.hist.type", 
-                  "dist.mrs.yr", "managed", "disturbed")
+                  "dist.mrs.yr", "managed", "disturbed", "history.no.info")
 
 ForC_simplified <- ForC_simplified[, ordered.field]
 
 # order records ####
 
 ForC_simplified <- ForC_simplified[order(ForC_simplified$measurement.ID),]
+
 # Save ForC-simplified ####
 
 write.csv(ForC_simplified, file = "ForC_simplified/ForC_simplified.csv", row.names = F)
