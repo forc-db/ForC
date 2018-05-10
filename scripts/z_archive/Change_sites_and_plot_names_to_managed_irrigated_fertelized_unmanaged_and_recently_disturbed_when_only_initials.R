@@ -31,21 +31,24 @@ old.sites.sitename <- SITES$sites.sitename
 new.sites.sitename <- old.sites.sitename
 
 ## find and change ####
-## M for managed
+
+## M for managed ####
 managed.sites.sitename <- new.sites.sitename[grepl("(\\bM\\b)(?=$)|(\\bM\\b)(?= )", new.sites.sitename, perl = T)]
 
 new.sites.sitename <- ifelse(new.sites.sitename %in% managed.sites.sitename, gsub("(\\bM\\b)(?=$)|(\\bM\\b)(?= )", "managed", new.sites.sitename, perl = T), new.sites.sitename)
 
-## I for irrigated (carefull, do not convert when it is class I, chronosequence I, Bosque I, FACTS, Observational)
+## I for irrigated (carefull, do not convert when it is class I, chronosequence I, Bosque I, FACTS, Observational) ####
 irrigated.sites.sitename <- new.sites.sitename[grepl("(\\bI\\b)(?=$)|(\\bI\\b)(?= )|(\\bI\\b)(?=\\+)", new.sites.sitename, perl = T)]
 irrigated.sites.sitename <- irrigated.sites.sitename[!grepl("Class|Bosque|chronosequence|FACTS|Observational", irrigated.sites.sitename)]
 
 new.sites.sitename <- ifelse(new.sites.sitename %in% irrigated.sites.sitename, gsub("(\\bI\\b)(?=$)|(\\bI\\b)(?= )|(\\bI\\b)(?=\\+)", "irrigated", new.sites.sitename, perl = T), new.sites.sitename)
 
-## F for fertilized
+## F for fertilized ####
 fertilized.sites.sitename <- new.sites.sitename[grepl("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", new.sites.sitename, perl = T)]
 
 new.sites.sitename <- ifelse(new.sites.sitename %in% fertilized.sites.sitename, gsub("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", "fertilized", new.sites.sitename, perl = T), new.sites.sitename)
+
+
 
 
 ## Keep a table of change ####
@@ -58,23 +61,36 @@ old.plot.name <- PLOTS$plot.name
 new.plot.name <- old.plot.name
 
 ## find and change ####
-## M for managed
+## M for managed ####
 managed.plot.name <- new.plot.name[grepl("(\\bM\\b)(?=$)|(\\bM\\b)(?= )", new.plot.name, perl = T)]
 
 new.plot.name <- ifelse(new.plot.name %in% managed.plot.name, gsub("(\\bM\\b)(?=$)|(\\bM\\b)(?= )", "managed", new.plot.name, perl = T), new.plot.name)
 
-## I for irrigated (carefull, do not convert when it is class I, chronosequence I, Bosque I, FACTS, Observational)
+## I for irrigated (carefull, do not convert when it is class I, chronosequence I, Bosque I, FACTS, Observational) ####
 irrigated.plot.name <- new.plot.name[grepl("(\\bI\\b)(?=$)|(\\bI\\b)(?= )|(\\bI\\b)(?=\\+)", new.plot.name, perl = T)]
 irrigated.plot.name <- irrigated.plot.name[!grepl("Class|Bosque|chronosequence|FACTS|Observational", irrigated.plot.name)]
 
 new.plot.name <- ifelse(new.plot.name %in% irrigated.plot.name, gsub("(\\bI\\b)(?=$)|(\\bI\\b)(?= )|(\\bI\\b)(?=\\+)", "irrigated", new.plot.name, perl = T), new.plot.name)
 
-## F for fertilized
+## F for fertilized ####
 fertilized.plot.name <- new.plot.name[grepl("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", new.plot.name, perl = T)]
 
 new.plot.name <- ifelse(new.plot.name %in% fertilized.plot.name, gsub("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", "fertilized", new.plot.name, perl = T), new.plot.name)
 
-##  Keep a table of chang ####
+
+## UM for unmanaged ####
+unmanaged.plot.name <- new.plot.name[grepl("(\\bUM\\b)", new.plot.name, perl = T)]
+
+new.plot.name <- ifelse(new.plot.name %in% unmanaged.plot.name, gsub("(\\bUM\\b)", "unmanaged", new.plot.name, perl = T), new.plot.name)
+
+## UM for recently disturbed ####
+recently.disturbed.plot.name <- new.plot.name[grepl("(\\bRD\\b)", new.plot.name, perl = T)]
+
+new.plot.name <- ifelse(new.plot.name %in% recently.disturbed.plot.name, gsub("(\\bRD\\b)", "recently disturbed", new.plot.name, perl = T), new.plot.name)
+
+
+
+##  Keep a table of change ####
 compare.plot.name <- data.frame(old.plot.name, new.plot.name, stringsAsFactors = F)
 plot.name.change <- compare.plot.name[apply(compare.plot.name, 1, function(x) !x[1] %in% x[2]),]
 
@@ -142,8 +158,8 @@ compare.plot.name[apply(compare.plot.name, 1, function(x) !x[1] %in% x[2]),]
 
 
 # SAVE ####
-SITES <- write.csv(SITES, "data/ForC_sites.csv", row.names = F)
-PLOTS <- write.csv(PLOTS, "data/ForC_plots.csv", row.names = F)
-MEASUREMENTS <- write.csv(MEASUREMENTS, "data/ForC_measurements.csv", row.names = F)
-HISTORY <- write.csv(HISTORY, "data/ForC_history.csv", row.names = F)
+write.csv(SITES, "data/ForC_sites.csv", row.names = F)
+write.csv(PLOTS, "data/ForC_plots.csv", row.names = F)
+write.csv(MEASUREMENTS, "data/ForC_measurements.csv", row.names = F)
+write.csv(HISTORY, "data/ForC_history.csv", row.names = F)
 
