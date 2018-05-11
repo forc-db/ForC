@@ -20,7 +20,7 @@ We encourage researchers who develop new code for analyzing ForC to provide us w
 
 ## Documenting ForC version used in analyses
 
-ForC is continuously evolving, sometimes on a daily basis. For the sake of documenting and ensuring reproducibility of their analyses, researchers using ForC should, at a minimum, maintain records of the exact date of download. Ideally, researchers should work with the database PI (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu) to coordinate a new release of ForC corresponding to the version used in their analyses. (This is easy to arrange upon request.)
+ForC is continuously evolving, sometimes on a daily basis. For the sake of documenting and ensuring reproducibility of their analyses, researchers using ForC should, at a minimum, maintain records of the exact date of download. Ideally, researchers should work with the database PI (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu) to coordinate a new release of ForC (archived version with DOI) corresponding to the version used in their analyses. (This is easy to arrange upon request.)
 
 ## Database citations:
 
