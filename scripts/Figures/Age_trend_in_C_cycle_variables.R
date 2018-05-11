@@ -35,7 +35,7 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 
 # Prepare data ####
 
-## Filter out managed and disturbed sites
+## Filter out managed, disturbed and no hisotry info sites
 ForC_simplified <- ForC_simplified[ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0, ]
 
 ## Make stand.age a numeric variable
@@ -181,6 +181,8 @@ for(response.v in response.variables) {
   
   }
   
+  mtext(side = 3, line = -1, adj = 0.03, text = paste("n =", nrow(df.young)), cex = 0.5)
+  
   ## boxplot mature
   par(mar = c(5.1,0,0,0))
   boxplot(mean ~ Biome, data = droplevels(df.mature), ylim = ylim, axes = F, xlab = "Mature Forest", col = color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], outcol =color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], log = ifelse(right.skewed.response, "y", ""))
@@ -188,6 +190,9 @@ for(response.v in response.variables) {
   if(biome.significant & !class(mod.mature) %in% "try-error") { # do pairwise comparison
     text(x = c(1:length(unique(droplevels(df.mature)$Biome))), y = max(df.mature$mean) + diff(ylim)/50, pairwise.comp.letter.grouping$mcletters$Letters)
   }
+  
+  mtext(side = 1, line = -1, adj = 0.03, text = paste("n =", nrow(df.mature)), cex = 0.5)
+  
   
   dev.off()
 }
