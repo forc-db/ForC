@@ -32,7 +32,7 @@ source("scripts/Figures/my.arrows.R")
 img.Tropical_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/tropical_broadleaf_mature.png")
 img.Tropical_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/tropical_broadleaf_young.png")
 img.Temperate_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_mature.png")
-img.Temperate_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_mature.png")
+img.Temperate_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_young.png")
 img.Temperate_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_conifer_mature.png")
 img.Temperate_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/Temperate_conifer_young.png")
 img.Boreal_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/boreal_mature.png")
@@ -167,15 +167,15 @@ variables <- list(NEE = list(variable.type = "flux", #####
                                     need.semi.transparent.box = TRUE),
                   ANPP_stem = list(variable.type = "flux",
                                    variable.name  = expression(bold("ANPP"[stem])),
-                                   coordinates = list(x0 = 2.7, y0 = 6.1, x1 = 3.6, y1 = 5.2),
-                                   y.adjust = -0.3,
-                                   x.adjust = 1,
+                                   coordinates = list(x0 = 2.7, y0 = 6.1, x1 = 4.2, y1 = 4.8),
+                                   y.adjust = 0.1,
+                                   x.adjust = 0.8,
                                    move.text.box = "null",
                                    need.semi.transparent.box = TRUE),
                   woody.mortality = list(variable.type = "flux",
                                          variable.name  = expression(bold("woody mortality")),
-                                         coordinates = list(x0 = 3.8, y0 = 5, x1 = 6.8, y1 = 1.8),
-                                         y.adjust = -0.5,
+                                         coordinates = list(x0 = 4.4, y0 = 4.6, x1 = 6.8, y1 = 1.8),
+                                         y.adjust = -0.2,
                                          x.adjust = -1,
                                          move.text.box = "null",
                                          need.semi.transparent.box = TRUE),
@@ -335,7 +335,9 @@ for(b in unique(ForC_biome_averages$Biome)){
   # rasterImage(img, 14, 0, 6, 11)
   rasterImage(img, 0, 0, 14, 11)
   # plot the C cylce values ####
-  
+  # abline(v = - 0.8)
+  # abline(v = c(0, 14))
+  # abline(h = c(0, 11))
   ## Put segments that link stocks (need to do first so that it is in the back) ####
   
   ### root biomass
