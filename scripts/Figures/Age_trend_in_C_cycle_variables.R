@@ -36,7 +36,7 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 # Prepare data ####
 
 ## Filter out managed, disturbed and no hisotry info sites
-ForC_simplified <- ForC_simplified[ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0, ]
+ForC_simplified <- ForC_simplified[ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0 & ForC_simplified$history.no.info %in%0, ]
 
 ## Make stand.age a numeric variable
 ForC_simplified$stand.age <- as.numeric(ForC_simplified$stand.age)
