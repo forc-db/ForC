@@ -134,7 +134,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 133,Baiyu,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 134,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.0.4-y,0.3,0,NAC,134.02,Initiation of post-disturbance cohort (natural),NI,134.01,Harvest,95,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 135,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.12-y,0.3,0,NAC,135.02,Initiation of post-disturbance cohort (natural),NI,135.01,Harvest,95,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-136,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,0,NAC,136.02,Initiation of post-disturbance cohort (natural),NI,136.01,Harvest,95,NI,0,0,136.03,Cut,<<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+136,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,0,NAC,136.02,Initiation of post-disturbance cohort (natural),NI,136.01,Harvest,95,NI,0,0,136.03,Cut,minor,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 137,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.4-y,0.3,0,NAC,137.02,Initiation of post-disturbance cohort (natural),NI,137.01,Harvest,95,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 138,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.8-y,0.3,0,NAC,138.02,Initiation of post-disturbance cohort (natural),NI,138.01,Harvest,95,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 139,Bajo Calima Concession Chronosequence,primary forest,0.3,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -1145,7 +1145,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 1143,Johnson et al 2000_sandy subtropical_1,Forest recovery following slash and burn agriculture,NAC,0,NAC,1143.04,Initiation of post-disturbance cohort (natural),NI,1143.03,Cultivation,100,NI,1143,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1144,Juniper,recently disturbed,NAC,0,NAC,1144.02,Initiation of post-disturbance cohort (planted or natural),NAC,1144.01,Grazed,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1145,Juruena,Managed.reduced impact logging,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1145.01,Cut,<100%,2003,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1146,Juruena,undisturbed forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,1146.01,Harvest,<<100%,1980,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+1146,Juruena,undisturbed forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,1146.01,Harvest,minor,1980,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1147,Kabaung reserved forest compartment 103,Managed.33 stands in selectively logged natural teak forest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1148,Kade,unmanaged 30-50 yr Semi-deciduous secondary forest,NAC,0,NAC,1148.01,Initiation of post-disturbance cohort (natural),1925,0,No disturbance,NA,1930,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1149,Kagneri,Mature Rain forest,1,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -1249,12 +1249,12 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 1247,Kooraste 2,Forest recovery following agricultural abandonment,NAC,1247.03,1981,1247.02,Initiation of post-disturbance cohort (natural),1981,1247.01,Cultivation,100,NAC,0,0,1247.04,Cut,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1248,Kraven S.A.,Premontane Rain Forest recovery following pasture abandonment,NAC,1248.01,NI,1248.02,Initiation of post-disturbance cohort (natural),NI,1248.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1249,Kukesu,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-1250,Kusumi,Stand development of monoculture plantation.1 y,0.05,1250.06,1999.531507,1250.05,Planted,1999.531507,0,NAC,NAC,NAC,0,0,1250.07,Cut,<<100%,2000.497268,0,NA,NA,NA,0,0,0,1250.01,1250,0,0,tropical
-1251,Kusumi,Stand development of monoculture plantation.2 y,0.05,1251.06,1998.531507,1251.05,Planted,1998.531507,0,NAC,NAC,NAC,0,0,1251.07,Cut,<<100%,1999.49589,0,NA,NA,NA,0,0,0,1251.01,1251,0,0,tropical
-1252,Kusumi,Stand development of monoculture plantation.3 y,0.05,1252.06,1997.531507,1252.05,Planted,1997.531507,0,NAC,NAC,NAC,0,0,1252.07,Cut,<<100%,1998.49589,0,NA,NA,NA,0,0,0,1252.01,1252,0,0,tropical
-1253,Kusumi,Stand development of monoculture plantation.4 y,0.05,1253.06,1996.532787,1253.05,Planted,1996.532787,0,NAC,NAC,NAC,0,0,1253.07,Cut,<<100%,1997.49589,0,NA,NA,NA,0,0,0,1253.01,1253,0,0,tropical
-1254,Kusumi,Stand development of monoculture plantation.5 y,0.05,1254.06,1995.531507,1254.05,Planted,1995.531507,0,NAC,NAC,NAC,0,0,1254.07,Cut,<<100%,1996.497268,0,NA,NA,NA,0,0,0,1254.01,1254,0,0,tropical
-1255,Kusumi,Stand development of monoculture plantation.6 y,0.05,1255.06,1994.531507,1255.05,Planted,1994.531507,0,NAC,NAC,NAC,0,0,1255.07,Cut,<<100%,1995.49589,0,NA,NA,NA,0,0,0,1255.01,1255,0,0,tropical
+1250,Kusumi,Stand development of monoculture plantation.1 y,0.05,1250.06,1999.531507,1250.05,Planted,1999.531507,0,NAC,NAC,NAC,0,0,1250.07,Cut,minor,2000.497268,0,NA,NA,NA,0,0,0,1250.01,1250,0,0,tropical
+1251,Kusumi,Stand development of monoculture plantation.2 y,0.05,1251.06,1998.531507,1251.05,Planted,1998.531507,0,NAC,NAC,NAC,0,0,1251.07,Cut,minor,1999.49589,0,NA,NA,NA,0,0,0,1251.01,1251,0,0,tropical
+1252,Kusumi,Stand development of monoculture plantation.3 y,0.05,1252.06,1997.531507,1252.05,Planted,1997.531507,0,NAC,NAC,NAC,0,0,1252.07,Cut,minor,1998.49589,0,NA,NA,NA,0,0,0,1252.01,1252,0,0,tropical
+1253,Kusumi,Stand development of monoculture plantation.4 y,0.05,1253.06,1996.532787,1253.05,Planted,1996.532787,0,NAC,NAC,NAC,0,0,1253.07,Cut,minor,1997.49589,0,NA,NA,NA,0,0,0,1253.01,1253,0,0,tropical
+1254,Kusumi,Stand development of monoculture plantation.5 y,0.05,1254.06,1995.531507,1254.05,Planted,1995.531507,0,NAC,NAC,NAC,0,0,1254.07,Cut,minor,1996.497268,0,NA,NA,NA,0,0,0,1254.01,1254,0,0,tropical
+1255,Kusumi,Stand development of monoculture plantation.6 y,0.05,1255.06,1994.531507,1255.05,Planted,1994.531507,0,NAC,NAC,NAC,0,0,1255.07,Cut,minor,1995.49589,0,NA,NA,NA,0,0,0,1255.01,1255,0,0,tropical
 1256,Kuusamo,unmanaged,NAC,1256.01,1711,1256.02,Initiation of post-disturbance cohort (natural),1711,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1257,Kyushu,recently disturbed,NAC,1257.01,1986,1257.02,Initiation of post-disturbance cohort (planted or natural),1986,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1258,L'Anguededou Forest,Mature tropical lowland forest,0.16,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical

@@ -339,7 +339,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 135.02,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.12-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,Natural regeneration,5638,tropical
 136.01,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5634,tropical
 136.02,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,Natural regeneration,5639,tropical
-136.03,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,3,NI,9,Disturbance,Cut,NA,NA,NA,<<100%,pole cutting from local people,5640,tropical
+136.03,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.18-y,0.3,3,NI,9,Disturbance,Cut,NA,NA,NA,minor,pole cutting from local people,5640,tropical
 137.01,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.4-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5631,tropical
 137.02,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.4-y,0.3,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,Natural regeneration,5636,tropical
 138.01,Bajo Calima Concession Chronosequence,Forest recovery following clear-cut.8-y,0.3,1,NI,9,Disturbance,Harvest,NA,NA,NA,95,"Almost all trees >13cm dbh felled and trunks removed for timber, branches and bark (palms and some spp) left behind",5632,tropical
@@ -2526,7 +2526,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1144.01,Juniper,recently disturbed,NAC,1,NAC,9,Disturbance,Grazed,NA,NA,NA,NA,Grazing,NA,extratropical
 1144.02,Juniper,recently disturbed,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Grazing,NA,extratropical
 1145.01,Juruena,Managed.reduced impact logging,NAC,1,2003,8,Disturbance,Cut,NA,6.4-15,m3 ha-1,<100%,NA,5659,tropical
-1146.01,Juruena,undisturbed forest,NAC,1,1980,8.5,Disturbance,Harvest,NA,NI,NI,<<100%,it is likely that some mahogany had been harvested in the last 2 decades,5661,tropical
+1146.01,Juruena,undisturbed forest,NAC,1,1980,8.5,Disturbance,Harvest,NA,NI,NI,minor,it is likely that some mahogany had been harvested in the last 2 decades,5661,tropical
 1146.02,Juruena,undisturbed forest,NAC,2,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,5662,tropical
 1147.01,Kabaung reserved forest compartment 103,Managed.33 stands in selectively logged natural teak forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,tropical
 1148.01,Kade,unmanaged 30-50 yr Semi-deciduous secondary forest,NAC,1,1925,8.5,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,Not cultivated for previous 40-50 years,880,tropical
@@ -2799,7 +2799,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1250.04,Kusumi,Stand development of monoculture plantation.1 y,0.05,4,1999.49589,6,Management,Fertilization_P,NA,40,kg ha-1,NA,Preplanting fertilizer,191,tropical
 1250.05,Kusumi,Stand development of monoculture plantation.1 y,0.05,5,1999.531507,5.5,Regrowth,Planted,1,NA,NA,NA,6-mth-old uniform size G. arborea seedlings,188,tropical
 1250.06,Kusumi,Stand development of monoculture plantation.1 y,0.05,6,1999.531507,5.5,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,194,tropical
-1250.07,Kusumi,Stand development of monoculture plantation.1 y,0.05,7,2000.497268,6,Disturbance,Cut,NA,NA,NA,<<100%,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",192,tropical
+1250.07,Kusumi,Stand development of monoculture plantation.1 y,0.05,7,2000.497268,6,Disturbance,Cut,NA,NA,NA,minor,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",192,tropical
 1250.08,Kusumi,Stand development of monoculture plantation.1 y,0.05,8,2000.497268,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,193,tropical
 1251.01,Kusumi,Stand development of monoculture plantation.2 y,0.05,1,1998,8,Management,Irrigation,NA,700,mm yr-1,NA,NA,204,tropical
 1251.02,Kusumi,Stand development of monoculture plantation.2 y,0.05,2,1998.49589,6,Management,Fertilization_K,NA,80,kg ha-1,NA,Preplanting fertilizer,197,tropical
@@ -2807,7 +2807,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1251.04,Kusumi,Stand development of monoculture plantation.2 y,0.05,4,1998.49589,6,Management,Fertilization_P,NA,40,kg ha-1,NA,Preplanting fertilizer,199,tropical
 1251.05,Kusumi,Stand development of monoculture plantation.2 y,0.05,5,1998.531507,5.5,Regrowth,Planted,1,NA,NA,NA,6-mth-old uniform size G. arborea seedlings,196,tropical
 1251.06,Kusumi,Stand development of monoculture plantation.2 y,0.05,6,1998.531507,5.5,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,203,tropical
-1251.07,Kusumi,Stand development of monoculture plantation.2 y,0.05,7,1999.49589,6,Disturbance,Cut,NA,NA,NA,<<100%,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",200,tropical
+1251.07,Kusumi,Stand development of monoculture plantation.2 y,0.05,7,1999.49589,6,Disturbance,Cut,NA,NA,NA,minor,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",200,tropical
 1251.08,Kusumi,Stand development of monoculture plantation.2 y,0.05,8,1999.49589,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,201,tropical
 1251.09,Kusumi,Stand development of monoculture plantation.2 y,0.05,9,2000.163934,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,202,tropical
 1252.01,Kusumi,Stand development of monoculture plantation.3 y,0.05,1,1997,8,Management,Irrigation,NA,700,mm yr-1,NA,NA,213,tropical
@@ -2816,7 +2816,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1252.04,Kusumi,Stand development of monoculture plantation.3 y,0.05,4,1997.49589,6,Management,Fertilization_P,NA,40,kg ha-1,NA,Preplanting fertilizer,208,tropical
 1252.05,Kusumi,Stand development of monoculture plantation.3 y,0.05,5,1997.531507,5.5,Regrowth,Planted,1,NA,NA,NA,6-mth-old uniform size G. arborea seedlings,205,tropical
 1252.06,Kusumi,Stand development of monoculture plantation.3 y,0.05,6,1997.531507,5.5,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,212,tropical
-1252.07,Kusumi,Stand development of monoculture plantation.3 y,0.05,7,1998.49589,6,Disturbance,Cut,NA,NA,NA,<<100%,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",209,tropical
+1252.07,Kusumi,Stand development of monoculture plantation.3 y,0.05,7,1998.49589,6,Disturbance,Cut,NA,NA,NA,minor,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",209,tropical
 1252.08,Kusumi,Stand development of monoculture plantation.3 y,0.05,8,1998.49589,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,210,tropical
 1252.09,Kusumi,Stand development of monoculture plantation.3 y,0.05,9,1999.161644,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,211,tropical
 1253.01,Kusumi,Stand development of monoculture plantation.4 y,0.05,1,1996,8,Management,Irrigation,NA,700,mm yr-1,NA,NA,222,tropical
@@ -2825,7 +2825,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1253.04,Kusumi,Stand development of monoculture plantation.4 y,0.05,4,1996.497268,6,Management,Fertilization_P,NA,40,kg ha-1,NA,Preplanting fertilizer,217,tropical
 1253.05,Kusumi,Stand development of monoculture plantation.4 y,0.05,5,1996.532787,5.5,Regrowth,Planted,1,NA,NA,NA,6-mth-old uniform size G. arborea seedlings,214,tropical
 1253.06,Kusumi,Stand development of monoculture plantation.4 y,0.05,6,1996.532787,5.5,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,221,tropical
-1253.07,Kusumi,Stand development of monoculture plantation.4 y,0.05,7,1997.49589,6,Disturbance,Cut,NA,NA,NA,<<100%,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",218,tropical
+1253.07,Kusumi,Stand development of monoculture plantation.4 y,0.05,7,1997.49589,6,Disturbance,Cut,NA,NA,NA,minor,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",218,tropical
 1253.08,Kusumi,Stand development of monoculture plantation.4 y,0.05,8,1997.49589,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,219,tropical
 1253.09,Kusumi,Stand development of monoculture plantation.4 y,0.05,9,1998.161644,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,220,tropical
 1254.01,Kusumi,Stand development of monoculture plantation.5 y,0.05,1,1995,8,Management,Irrigation,NA,700,mm yr-1,NA,NA,231,tropical
@@ -2834,7 +2834,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1254.04,Kusumi,Stand development of monoculture plantation.5 y,0.05,4,1995.49589,6,Management,Fertilization_P,NA,40,kg ha-1,NA,Preplanting fertilizer,226,tropical
 1254.05,Kusumi,Stand development of monoculture plantation.5 y,0.05,5,1995.531507,5.5,Regrowth,Planted,1,NA,NA,NA,6-mth-old uniform size G. arborea seedlings,223,tropical
 1254.06,Kusumi,Stand development of monoculture plantation.5 y,0.05,6,1995.531507,5.5,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,230,tropical
-1254.07,Kusumi,Stand development of monoculture plantation.5 y,0.05,7,1996.497268,6,Disturbance,Cut,NA,NA,NA,<<100%,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",227,tropical
+1254.07,Kusumi,Stand development of monoculture plantation.5 y,0.05,7,1996.497268,6,Disturbance,Cut,NA,NA,NA,minor,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",227,tropical
 1254.08,Kusumi,Stand development of monoculture plantation.5 y,0.05,8,1996.497268,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,228,tropical
 1254.09,Kusumi,Stand development of monoculture plantation.5 y,0.05,9,1997.161644,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,229,tropical
 1255.01,Kusumi,Stand development of monoculture plantation.6 y,0.05,1,1994,8,Management,Irrigation,NA,700,mm yr-1,NA,NA,240,tropical
@@ -2843,7 +2843,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1255.04,Kusumi,Stand development of monoculture plantation.6 y,0.05,4,1994.49589,6,Management,Fertilization_P,NA,40,kg ha-1,NA,Preplanting fertilizer,235,tropical
 1255.05,Kusumi,Stand development of monoculture plantation.6 y,0.05,5,1994.531507,5.5,Regrowth,Planted,1,NA,NA,NA,6-mth-old uniform size G. arborea seedlings,232,tropical
 1255.06,Kusumi,Stand development of monoculture plantation.6 y,0.05,6,1994.531507,5.5,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,239,tropical
-1255.07,Kusumi,Stand development of monoculture plantation.6 y,0.05,7,1995.49589,6,Disturbance,Cut,NA,NA,NA,<<100%,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",236,tropical
+1255.07,Kusumi,Stand development of monoculture plantation.6 y,0.05,7,1995.49589,6,Disturbance,Cut,NA,NA,NA,minor,"Multiple stemmed plants, if any, were pruned to one stem after 1 year of planting.",236,tropical
 1255.08,Kusumi,Stand development of monoculture plantation.6 y,0.05,8,1995.49589,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,237,tropical
 1255.09,Kusumi,Stand development of monoculture plantation.6 y,0.05,9,1996.163934,6,Management,Fertilization_N,NA,60,kg ha-1,NA,Additional N was applied at 120 kg ha-1 in two split doses (in July and March) in 1-year-old stands,238,tropical
 1256.01,Kuusamo,unmanaged,NAC,1,1711,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Age method: Tree rings. Unmanaged, old growth forest",NA,extratropical

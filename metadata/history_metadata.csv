@@ -11,7 +11,7 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 10 / J,est.regrowth.assumed.same.year,"Indicates whether it is assumed that establishment of the oldest trees and regrowth (e.g., initiation of post-disturbance cohort, planting) occurred in the same year. These may differ if there was a lag in tree establishment following a severe/stand clearing disturbance or if some trees survived the most recent severe/stand clearing disturbance. ",numeric (integer),0- false; 1- true,-,2682,0,1
 11 / K,level,"Intensity/frequency/amount applied of history event type, if available.",character (string),-,-,996,-,-
 12 / L,units,Level units.,character (string),-,-,955,-,-
-13 / M,percent.mortality,Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.,numeric (double),"""<100%"" - non- stand clearing disturbance (% mortality unkonwn/ unspecified); ""<<100%"" - very minor disturbance",-,1595,4,100
+13 / M,percent.mortality,Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.,numeric (double),"""<100%"" - non- stand clearing disturbance (% mortality unkonwn/ unspecified); ""minor"" - very minor disturbance",-,1595,4,100
 14 / N,hist.notes,History event details not included above.,character (string),-,-,3596,-,-
 15 / N,plothistory.ID.v1,"Original plothistory.ID, where numbers <=2441 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)",numeric (integer),-,-,2477,1,5722
 16 / O ,tropical.extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,6159,-,-
