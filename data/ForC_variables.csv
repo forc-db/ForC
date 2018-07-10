@@ -5,6 +5,8 @@ variable.ID,variable.type,variable.name,units,description,equations,requires.all
 4,flux,GPP_C,Mg C ha-1 yr-1,"Annual gross primary production, commonly estimated through flux partitioning of eddy covariance. A.k.a. ""Gross Ecosystem Production"".",(1)* GPP_C = R_eco_C - NEE_C; (2)** GPP_C = NPP_5_C + R_auto_C,0,0,0,u.star ,NA,1034,0.89,55.61,"*Equation 1 assumes minimal vertical advection, respiration-derived dissolved inorganic carbon, and non-repiratory CO2 fluxes (e.g., from fire or ultraviolet oxidation of organic matter); see Chapin et al. 2006. **Equation 2 assumes no net change in non-structural carbohydrate storage."
 5,flux,GPP_cum_C,Mg C ha-1 (timestep)-1,Cumulative GPP over a specified time frame. Sign convention: positive.,NEE_cum_C =  R_eco_cum_C - GPP_cum_C,0,0,0,u.star ,NA,9,2.85,15.69,Applies to timeframes other than one year. Meaninful only in conjunction with start and end date.
 6,flux,TBCF_C,Mg C ha-1 yr-1,Total belowground C flux (through roots),TBCF_C = GPP_C - ANPP_2_C* - R_auto_ag_C,0,0,0,NA,NA,31,0.68,23.53,"*equation applies only if ANPP_2_C is throughly quantified, including all aboveground components"
+,flux,NPP_0_OM,Mg ha-1 yr-1,"NPP, where components included are unknown/do not fit the definition of other NPP variables",NA,1,1,1,include.recruitment,NA,0,-,-,NA
+,flux,NPP_0_C,Mg C ha-1 yr-1,"NPP, where components included are unknown/do not fit the definition of other NPP variables",NA,1,1,1,include.recruitment,NA,0,-,-,NA
 7,flux,NPP_1_OM,Mg ha-1 yr-1,"NPP, including foliage, branch, stem, coarse root, and fine root. ",NPP_1_OM = ANPP_foliage_OM + (ANPP_woody_stem_OM + ANPP_woody_branch_OM) + BNPP_coarse root_OM + BNPP_fine root_OM,1,1,1,include.recruitment,NA,36,4.37,34,NA
 8,flux,NPP_1_C,Mg C ha-1 yr-1,"NPP, including foliage, branch, stem, coarse root, and fine root. ",NPP_1_C = ANPP_foliage_C + (ANPP_woody_stem_C + ANPP_woody_branch_C) + BNPP_coarse root_C + BNPP_fine root_C,1,1,1,include.recruitment,NA,406,0,24.13,NA
 9,flux,NPP_2_OM,Mg ha-1 yr-1,"NPP, including foliage, branch, stem, coarse root, fine root, and understory.  ",NPP_2_OM = NPP_1_OM + NPP_understory_OM,1,1,1,include.recruitment,NA,8,8.61,23.35,NA
@@ -53,15 +55,19 @@ variable.ID,variable.type,variable.name,units,description,equations,requires.all
 52,flux,BNPP_root_coarse_C,Mg C ha-1 yr-1,"Annual coarse root production, typically determined using allometric equations relating root mass to stem diameter.",NA,1,1,0,min.diameter_root,NA,285,0,9.86,NA
 53,flux,BNPP_root_fine_OM,Mg ha-1 yr-1,"Annual fine root production, estimated using a variety of methods including minirhizotrons, repeat coring, and ingrowth cores.",NA,0,0,1,min.diameter_root, max.diameter_root,59,0.03,15.2,NA
 54,flux,BNPP_root_fine_C,Mg C ha-1 yr-1,"Annual fine root production, estimated using a variety of methods including minirhizotrons, repeat coring, and ingrowth cores.",NA,0,0,1,min.diameter_root, max.diameter_root,291,0,6.8,NA
-55,flux,R_eco_C,Mg C ha-1 yr-1,"Annual ecosystem respiration,commonly estimated through flux partitioning of eddy covariance. Sign convention: positive.",(1)* R_eco_C = NEE_C - GPP_C; (2) R_eco_C = R_auto_C + R_soil_het_C,0,0,0,u.star ,NA,941,1.34,40.1,"*Equation 1 assumes minimal vertical advection, respiration-derived dissolved inorganic carbon, and non-repiratory CO2 fluxes (e.g., from fire or ultraviolet oxidation of organic matter); see Chapin et al. 2006"
+55,flux,R_eco_C,Mg C ha-1 yr-1,"Annual ecosystem respiration,commonly estimated through flux partitioning of eddy covariance. Sign convention: positive.",(1)* R_eco_C = NEE_C - GPP_C; (2) R_eco_C = R_auto_C + R_het_soil_C,0,0,0,u.star ,NA,941,1.34,40.1,"*Equation 1 assumes minimal vertical advection, respiration-derived dissolved inorganic carbon, and non-repiratory CO2 fluxes (e.g., from fire or ultraviolet oxidation of organic matter); see Chapin et al. 2006"
 56,flux,R_eco_cum_C,Mg C ha-1 (timestep)-1,Cumulative ecosystem respiration over a specified time frame (measured using eddy-covariance or gas exchange in a closed chamber). Sign convention: positive.,NEE_cum_C =  R_eco_cum_C - GPP_cum_C,0,0,0,u.star ,NA,9,4.49,12.07,Applies to timeframes other than one year. Meaninful only in conjunction with start and end date.
 57,flux,R_auto_C,Mg C ha-1 yr-1,"Annual autotrophic respiration, including above- and belowground components.",R_auto_C =  R_auto_wood_C + R_auto_foliage_C + R_auto_root_C ,0,0,0,NA,NA,104,2.2,27.46,Covariates will depend on methodology. Currently not acquired for any records in the database.
 58,flux,R_auto_ag_C,Mg C ha-1 yr-1,Annual aboveground autotrophic respiration ,R_auto_ag_C = R_auto_foliage_C + R_auto_wood_C ,0,0,0,NA,NA,17,1.27,14.19,Covariates will depend on methodology. Currently not acquired for any records in the database.
 59,flux,R_auto_wood_C,Mg C ha-1 yr-1,Annual aboveground respiration of woody stems ,NA,0,0,0,NA,NA,31,0.03,10.38,NA
 60,flux,R_auto_foliage_C,Mg C ha-1 yr-1,Annual foliar respiration,NA,0,0,0,NA,NA,32,0.6,11.35,NA
-61,flux,R_auto_root_C,Mg C ha-1 yr-1,Annual root respiration (all size classes). Note methodology: root gas exchange/ root exclusion/ isotopes,R_soil_C = R_soil_het_C + R_auto_root_C,0,0,0,NA,NA,49,0.58,24.6,"If estimated through direct measurement of root gas exchange, covariates should include depth; min.diameter_root; max.diameter_root"
-62,flux,R_soil_het_C,Mg C ha-1 yr-1,Annual soil heterotrophic respiration,R_soil_C = R_soil_het_C + R_auto_root_C,0,0,0,NA,NA,289,0.56,15.07,NA
-63,flux,R_soil_C,Mg C ha-1 yr-1,Annual soil respiration,R_soil_C = R_soil_het_C + R_auto_root_C,0,0,0,NA,NA,399,0.85,24.14,NA
+61,flux,R_auto_root_C,Mg C ha-1 yr-1,Annual root respiration (all size classes). Note methodology: root gas exchange/ root exclusion/ isotopes,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,49,0.58,24.6,"If estimated through direct measurement of root gas exchange, covariates should include depth; min.diameter_root; max.diameter_root"
+63,flux,R_soil_C,Mg C ha-1 yr-1,Annual soil respiration,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,399,0.85,24.14,NA
+62,flux,R_het_soil_C,Mg C ha-1 yr-1,Annual soil heterotrophic respiration,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,289,0.56,15.07,NA
+,flux,R_het_litter_C,Mg C ha-1 yr-1,Annual respiration from litter decomposition,NA,0,0,0, max.diameter_root,NA,0,-,-,NA
+,flux,R_het_deadwood,Mg C ha-1 yr-1,Annual respiration from deadwood decomposition,NA,0,0,0,min.diameter_root,NA,0,-,-,NA
+,flux,R_het_ag_C,Mg C ha-1 yr-1,Annual aboveground heterotrophic respiration ,NA,0,0,0,NA,NA,0,-,-,NA
+,flux,R_het_C,Mg C ha-1 yr-1,Annual heterotrophic respiration ,R_het_C = R_het_soil_C + R_het_litter_C + R_het_ag_C _,0,0,0,NA,NA,0,-,-,NA
 64,stock,total.ecosystem_C,Mg C ha-1,"Includes total biomass, deadwood, organic layer, and soil organic C",total.ecosystem_C = biomass_C + deadwood_C + organic.layer_C + soil_C,1,1,1,NA,NA,63,20.6,488,NA
 65,stock,total.ecosystem_2_C,Mg C ha-1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",total.ecosystem_2_C = biomass_C + deadwood_C + organic.layer_C ,1,1,1,NA,NA,8,52.9,399,NA
 66,stock,biomass_OM,Mg ha-1,Total live biomass.,biomass_OM = biomass_ag_OM + biomass_root_OM,1,1,1,NA,NA,236,0.683068,568.172,NA
@@ -88,20 +94,21 @@ variable.ID,variable.type,variable.name,units,description,equations,requires.all
 87,stock,organic.layer_C,Mg C ha-1,Carbon in litter/ organic layer/ forest floor,NA,0,0,0,NA,NA,81,0,72.5,NA
 88,stock,soil_OM,Mg ha-1,Soil organic matter to specified depth in mineral soil,NA,0,0,1,NA,NA,17,2.6,170,depth refers to depth in mineral soil.
 89,stock,soil_C,Mg C ha-1,Soil organic carbon to specified depth in mineral soil,NA,0,0,1,NA,NA,464,0.4,370,depth refers to depth in mineral soil.
-90,secondary,LAI,m2 leaf m-2 ground,LAI: leaf area index (m2/m2),NA,NA,NA,NA,NA,NA,138,0.075566751,27.8025,NA
-91,secondary,leaf_pC,%,Leaf Percent C,NA,NA,NA,NA,NA,NA,13,44.8,51.3,NA
-92,secondary,leaf_C2N,ratio,C:N ratio in leaves,NA,NA,NA,NA,NA,NA,44,19.6,59.19,NA
-93,secondary,leaf_pN,%,Leaf Percent Nitrogen,NA,NA,NA,NA,NA,NA,29,0.85,4.09,NA
-94,secondary,foliage_pN,Mg ha-1,Accumulation of foliage N of stand,NA,NA,NA,NA,NA,NA,22,0.0148,0.068,NA
-95,secondary,leaf_pCa,%,Foliar calcium concentration,NA,NA,NA,NA,NA,NA,13,0.34,1.01,NA
-96,secondary,leaf_pK,%,Foliar K concentration,NA,NA,NA,NA,NA,NA,13,0.35,1.34,NA
-97,secondary,leaf_pMg,%,Foliar magnesium concentration,NA,NA,NA,NA,NA,NA,13,0.09,0.49,NA
-98,secondary,leaf_pP,%,Foliar P concentration,NA,NA,NA,NA,NA,NA,13,0.14,4.09,NA
-99,secondary,stem_pC,%,C concentration in stems,NA,NA,NA,NA,NA,NA,9,47.8,51.3,NA
-100,secondary,stem_pN,%,Nitrogen in stem,NA,NA,NA,NA,NA,NA,22,0.12,1.26,NA
-101,secondary,root_pN,%,Percent N in belowground live tissue,NA,NA,NA,NA,NA,NA,12,0.24,1.08,NA
-102,secondary,root_pC,%,Percent C in belowground live tissue,NA,NA,NA,NA,NA,NA,9,37.8,47.5,NA
-103,secondary,soil_pC,%,Percent soil carbon content,NA,NA,NA,NA,NA,NA,6,0.65,7.4,NA
+90,secondary,LAI,m2 leaf m-2 ground,LAI: leaf area index (m2/m2),NA,0,0,0,NA,NA,138,0.075566751,27.8025,NA
+91,secondary,leaf_pC,%,Leaf Percent C,NA,0,0,0,NA,NA,13,44.8,51.3,NA
+92,secondary,leaf_C2N,ratio,C:N ratio in leaves,NA,0,0,0,NA,NA,44,19.6,59.19,NA
+93,secondary,leaf_pN,%,Leaf Percent Nitrogen,NA,0,0,0,NA,NA,29,0.85,4.09,NA
+94,secondary,foliage_pN,Mg ha-1,Accumulation of foliage N of stand,NA,0,0,0,NA,NA,22,0.0148,0.068,NA
+95,secondary,leaf_pCa,%,Foliar calcium concentration,NA,0,0,0,NA,NA,13,0.34,1.01,NA
+96,secondary,leaf_pK,%,Foliar K concentration,NA,0,0,0,NA,NA,13,0.35,1.34,NA
+97,secondary,leaf_pMg,%,Foliar magnesium concentration,NA,0,0,0,NA,NA,13,0.09,0.49,NA
+98,secondary,leaf_pP,%,Foliar P concentration,NA,0,0,0,NA,NA,13,0.14,4.09,NA
+99,secondary,stem_pC,%,C concentration in stems,NA,0,0,0,NA,NA,9,47.8,51.3,NA
+100,secondary,stem_pN,%,Nitrogen in stem,NA,0,0,0,NA,NA,22,0.12,1.26,NA
+101,secondary,root_pN,%,Percent N in belowground live tissue,NA,0,0,0,NA,NA,12,0.24,1.08,NA
+102,secondary,root_pC,%,Percent C in belowground live tissue,NA,0,0,0,NA,NA,9,37.8,47.5,NA
+103,secondary,soil_pC,%,Percent soil carbon content,NA,0,0,1,NA,NA,6,0.65,7.4,NA
+,secondary,soil_C2N,ratio,C:N ratio in soil,NA,0,0,1,NA,NA,0,-,-,NA
 104,secondary,N.mineralization,Kg N ha-1 yr-1,Net N mineralization,NA,NA,NA,NA,NA,NA,43,0.67,142.36,NA
 105,covariates,max.diameter,cm,"Maximum diameter of tree part being measured (stem, woody debris)",NA,NA,NA,NA,NA,NA,26,2.5,10,NA
 106,covariates,min.diameter,cm,"Minimum diameter of tree part being measured (stem, woody debris)",NA,NA,NA,NA,NA,NA,65,0,10,NA
