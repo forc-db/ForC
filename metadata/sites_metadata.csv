@@ -13,7 +13,7 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 12 / L,max.temp,Mean temperature of the warmest month,numeric (double),-,C,139,12,42
 13 / M,map,Mean annual precipitation ,numeric (double),-,mm,1808,56,7670
 14 / N,climate.notes,Climate details not included above,character (string),-,-,296,-,-
-15 / O,soil.texture,"Soil texture, based on % sand-silt-clay. When original publication reports % sand-silt-clay, classification follows USDA soil classification. ",character (string),-,-,721,-,-
+15 / O,soil.texture,"Soil texture, based on % sand-silt-clay. Reported as ratio [sand:silt:clay] or catergorical classiffication, which follows USDA classification when derived based on % sand-silt-clay reported in original study. ",character (string),-,-,721,-,-
 16 / P,soil.classification,Soil classification (USDA soil taxonomy or FAO soil classification),character (string),-,-,574,-,-
 17 / Q,soil.notes,Soil details not included above,character (string),-,-,411,-,-
 18 / R,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,,104,-,-
