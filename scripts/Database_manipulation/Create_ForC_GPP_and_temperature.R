@@ -31,13 +31,18 @@ ForC_HighSchool <- ForC_HighSchool[!is.na(age) & age >= 100, ]
 
 ## keep only unmanaged, undisturbed ####
 ForC_HighSchool <- ForC_HighSchool[ForC_HighSchool$managed %in% 0 & ForC_HighSchool$disturbed %in% 0, ]
+
 # Please include the following fields:####
     # measurement.ID
     # mat (rename "mean annual temperature")
     # mean (remame "GPP") 
 
 ForC_HighSchool <- ForC_HighSchool[, c("measurement.ID", "mat", "mean")]
-names(ForC_HighSchool) <- c("measurement.ID", "mean_annual_temperature", "GPP")
+names(ForC_HighSchool) <- c("measurement.ID", "mean_annual_temperature_F", "GPP")
+
+
+# Convert to Fahrenheit ####
+ForC_HighSchool$mean_annual_temperature_F <- (9/5) * ForC_HighSchool$mean_annual_temperature_F + 32
 
 # Save ForC-simplified ####
 
