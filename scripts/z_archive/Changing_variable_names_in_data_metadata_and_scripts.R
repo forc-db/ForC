@@ -11,8 +11,8 @@
 rm(list = ls())
 
 # what column names are we chaning and to what ?
-old.variable.name <- "\\bNEE_annual\\b"
-new.variable.name <- "NEE_C"
+old.variable.name <- "\\bANPP_litterfall_3\\b"
+new.variable.name <- "ANPP_litterfall_0"
 
 
 
@@ -31,11 +31,12 @@ all.scripts <- c(list.files("scripts/Figures/", pattern = "\\.R$|\\.m$", full.na
 # MAKE CHANGES AND SAVE 
 
   for( f in c(tables_filenames, metadata_filenames,all.scripts) ){
-    
+    print(f)
     x <- readLines(f)
-    y <- gsub(old.variable.name, new.variable.name, x)
-    cat(y, file=f, sep="\n")
-    
+    if(any(grepl(old.variable.name,x))) stop()
+    # y <- gsub(old.variable.name, new.variable.name, x)
+    # cat(y, file=f, sep="\n")
+     
   }
 
 print(old.variable.name)
