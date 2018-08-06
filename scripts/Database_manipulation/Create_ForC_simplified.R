@@ -153,8 +153,8 @@ disturbed <- rbind(disturbed, PLOTS[!PLOTS$additional.dist.ID %in% 0,])
 
 # 2. From the plots found in 1., remove the following:
 # hist.type = Cut or Harvest - mort level "<<100%"
-disturbed <- disturbed[!((grepl("Cut|Harvest", disturbed$dist_1.hist.type, perl = T) & grepl("<<100%", disturbed$dist_1.mort)) |
-                           (grepl("Cut|Harvest", disturbed$dist_2.hist.type, perl = T) & grepl("<<100%", disturbed$dist_2.mort))), ]
+disturbed <- disturbed[!((grepl("Cut|Harvest", disturbed$dist_1.hist.type, perl = T) & grepl("minor", disturbed$dist_1.mort)) |
+                           (grepl("Cut|Harvest", disturbed$dist_2.hist.type, perl = T) & grepl("minor", disturbed$dist_2.mort))), ]
 
 # hist.type = Burned- mort level <= 10%
 dist_1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_1.mort))
