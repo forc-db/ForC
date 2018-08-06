@@ -92,7 +92,7 @@ Continents <- crop(Continents, extent(-180, 180, -43, 73))
 ## prepare variables that need to be grouped
 ForC_simplified[ForC_simplified $variable.name %in% c("NPP_1", "NPP_2", "NPP_3",  "NPP_4", "NPP_5"),]$variable.name <- "NPP"
 ForC_simplified[ForC_simplified $variable.name %in% c("ANPP_0", "ANPP_1", "ANPP_2"),]$variable.name <- "ANPP"
-ForC_simplified[ForC_simplified $variable.name %in% c("ANPP_litterfall_1", "ANPP_litterfall_2", "ANPP_litterfall_3"),]$variable.name <- "ANPP_litterfall"
+ForC_simplified[ForC_simplified $variable.name %in% c("ANPP_litterfall_1", "ANPP_litterfall_2", "ANPP_litterfall_0"),]$variable.name <- "ANPP_litterfall"
 
 #### multiply NEP  by -1 anc consider is as NEE
 ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$mean <- -ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$mean 
