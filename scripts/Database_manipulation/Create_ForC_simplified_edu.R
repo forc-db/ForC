@@ -29,6 +29,10 @@ ForC_HighSchool <- ForC_simplified[!is.na(age) & age >= 100, ]
 ## keep only unmanaged, undisturbed ####
 ForC_HighSchool <- ForC_HighSchool[ForC_HighSchool$managed %in% 0 & ForC_HighSchool$disturbed %in% 0, ]
 
+
+# remove columsn managed	disturbed	history.no.info
+ForC_HighSchool <- ForC_HighSchool[, !names(ForC_HighSchool) %in% c("managed",	"disturbed",	"history.no.info")]
+
 # Save ForC-simplified ####
 
 write.csv(ForC_HighSchool, file = "educational resources/ForC_simplified_edu.csv", row.names = F)
