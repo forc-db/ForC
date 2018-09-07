@@ -49,29 +49,29 @@ variable.ID,variable.type,variable.name,units,description,equations,requires.all
 48,flux,ANPP_folivory_C,Mg C ha-1 yr-1,"Annual leaf consumption by herbivores, defined here as a direct component of ANPP (as opposed to a component of ANPP_foliage_C)*. ",ANPP_folivory_C = (total leaf production_C) - ANPP_foliage_C + (change in biomass_ag_foliage_C),0,0,0,NA,NA,32,0.03,1.44,*We define ANPP_folivory_C as a direct component of ANPP (as opposed to a component of ANPP_foliage_C) because common measurement methods of ANPP_foliage_C do not account for ANPP_folivory_C.
 49,flux,woody.mortality_ag_OM,Mg ha-1 yr-1,"Annual biomass mortality--i.e., total aboveground biomass of tree stems that die. ",delta.agb_OM = ANPP_0_OM -woody.mortality_ag_OM,1,1,0, stem.level ,NA,40,0.6,8.6,NA
 50,flux,woody.mortality_ag_C,Mg C ha-1 yr-1,Total aboveground C of tree stems that die annually.,delta.agb_C = ANPP_0_C - woody.mortality_ag_C,1,1,0, stem.level ,NA,11,1.18,4.86,NA
-51,increment,delta.agb_OM,Mg ha-1 yr-1,Net change in aboveground live biomass ,delta.agb_OM = ANPP_0_OM - woody.mortality_ag_OM,1,1,0,NA,NA,1,2.88,2.88,NA
-52,increment,delta.agb_C,Mg C ha-1 yr-1,Net change in aboveground live biomass C,delta.agb_C = ANPP_0_C - woody.mortality_ag_C,1,1,0,NA,NA,12,-0.908,2.51,NA
-53,flux,BNPP_root_OM,Mg ha-1 yr-1,"Annual root biomass production determined by repeated soil coring, isotopic estimates of fine-root turnover combined with biomass measurements, root ingrowth cores, root ingrowth mesh, upscaled root-length production observed in minirhizotrons or the soil respiration and litterfall constraint formulated by Raich & Nadelhoffer (1989)",BNPP_root_OM = BNPP_root_coarse_OM + BNPP_root_fine_OM,1,1,1,min.diameter_root,NA,36,0.2,16.2,NA
-54,flux,BNPP_root_C,Mg C ha-1 yr-1,"Annual root production determined by repeated soil coring, isotopic estimates of fine-root turnover combined with biomass measurements, root ingrowth cores, root ingrowth mesh, upscaled root-length production observed in minirhizotrons or the soil respiration and litterfall constraint formulated by Raich & Nadelhoffer (1989)",BNPP_root_C = BNPP_root_coarse_C + BNPP_root_fine_C,1,1,1,min.diameter_root,NA,330,0.02,7.4,NA
-55,flux,BNPP_root_coarse_OM,Mg ha-1 yr-1,"Annual coarse root production, typically determined using allometric equations relating root mass to stem diameter.",NA,1,1,0,min.diameter_root,NA,61,0.18,1.818,NA
-56,flux,BNPP_root_coarse_C,Mg C ha-1 yr-1,"Annual coarse root production, typically determined using allometric equations relating root mass to stem diameter.",NA,1,1,0,min.diameter_root,NA,285,0,9.86,NA
-57,flux,BNPP_root_fine_OM,Mg ha-1 yr-1,"Annual fine root production, estimated using a variety of methods including minirhizotrons, repeat coring, and ingrowth cores.",NA,0,0,1,min.diameter_root, max.diameter_root,59,0.03,15.2,NA
-58,flux,BNPP_root_fine_C,Mg C ha-1 yr-1,"Annual fine root production, estimated using a variety of methods including minirhizotrons, repeat coring, and ingrowth cores.",NA,0,0,1,min.diameter_root, max.diameter_root,291,0,6.8,NA
-59,flux,BNPP_root.turnover_fine_OM,Mg ha-1 yr-1,Annual turnover (mortality) of fine roots,NA,0,0,1,min.diameter_root, max.diameter_root,0,-,-,NA
-60,flux,BNPP_root.mortality_fine_C,Mg C ha-1 yr-1,Annual turnover (mortality) of fine roots,NA,0,0,1,min.diameter_root, max.diameter_root,0,-,-,NA
-61,flux,R_eco_C,Mg C ha-1 yr-1,"Annual ecosystem respiration,commonly estimated through flux partitioning of eddy covariance. Sign convention: positive.",(1)* R_eco_C = NEE_C - GPP_C; (2) R_eco_C = R_auto_C + R_het_soil_C,0,0,0,u.star ,NA,941,1.34,40.1,"*Equation 1 assumes minimal vertical advection, respiration-derived dissolved inorganic carbon, and non-repiratory CO2 fluxes (e.g., from fire or ultraviolet oxidation of organic matter); see Chapin et al. 2006"
-62,flux,R_eco_cum_C,Mg C ha-1 (timestep)-1,Cumulative ecosystem respiration over a specified time frame (measured using eddy-covariance or gas exchange in a closed chamber). Sign convention: positive.,NEE_cum_C =  R_eco_cum_C - GPP_cum_C,0,0,0,u.star ,NA,9,4.49,12.07,Applies to timeframes other than one year. Meaninful only in conjunction with start and end date.
-63,flux,R_auto_C,Mg C ha-1 yr-1,"Annual autotrophic respiration, including above- and belowground components.",R_auto_C =  R_auto_wood_C + R_auto_foliage_C + R_auto_root_C ,0,0,0,NA,NA,104,2.2,27.46,Covariates will depend on methodology. Currently not acquired for any records in the database.
-64,flux,R_auto_ag_C,Mg C ha-1 yr-1,Annual aboveground autotrophic respiration ,R_auto_ag_C = R_auto_foliage_C + R_auto_wood_C ,0,0,0,NA,NA,17,1.27,14.19,Covariates will depend on methodology. Currently not acquired for any records in the database.
-65,flux,R_auto_wood_C,Mg C ha-1 yr-1,Annual aboveground respiration of woody stems ,NA,0,0,0,NA,NA,31,0.03,10.38,NA
-66,flux,R_auto_foliage_C,Mg C ha-1 yr-1,Annual foliar respiration,NA,0,0,0,NA,NA,32,0.6,11.35,NA
-67,flux,R_auto_root_C,Mg C ha-1 yr-1,Annual root respiration (all size classes). Note methodology: root gas exchange/ root exclusion/ isotopes,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,49,0.58,24.6,"If estimated through direct measurement of root gas exchange, covariates should include depth; min.diameter_root; max.diameter_root"
-68,flux,R_soil_C,Mg C ha-1 yr-1,Annual soil respiration,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,399,0.85,24.14,NA
-69,flux,R_het_soil_C,Mg C ha-1 yr-1,Annual soil heterotrophic respiration,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,289,0.56,15.07,NA
-70,flux,R_het_litter_C,Mg C ha-1 yr-1,Annual respiration from litter decomposition,NA,0,0,0, max.diameter_root,NA,0,-,-,NA
-71,flux,R_het_deadwood,Mg C ha-1 yr-1,Annual respiration from deadwood decomposition,NA,0,0,0,min.diameter_root,NA,0,-,-,NA
-72,flux,R_het_ag_C,Mg C ha-1 yr-1,Annual aboveground heterotrophic respiration ,NA,0,0,0,NA,NA,0,-,-,NA
-73,flux,R_het_C,Mg C ha-1 yr-1,Annual heterotrophic respiration ,R_het_C = R_het_soil_C + R_het_litter_C + R_het_ag_C _,0,0,0,NA,NA,0,-,-,NA
+51,flux,BNPP_root_OM,Mg ha-1 yr-1,"Annual root biomass production determined by repeated soil coring, isotopic estimates of fine-root turnover combined with biomass measurements, root ingrowth cores, root ingrowth mesh, upscaled root-length production observed in minirhizotrons or the soil respiration and litterfall constraint formulated by Raich & Nadelhoffer (1989)",BNPP_root_OM = BNPP_root_coarse_OM + BNPP_root_fine_OM,1,1,1,min.diameter_root,NA,36,0.2,16.2,NA
+52,flux,BNPP_root_C,Mg C ha-1 yr-1,"Annual root production determined by repeated soil coring, isotopic estimates of fine-root turnover combined with biomass measurements, root ingrowth cores, root ingrowth mesh, upscaled root-length production observed in minirhizotrons or the soil respiration and litterfall constraint formulated by Raich & Nadelhoffer (1989)",BNPP_root_C = BNPP_root_coarse_C + BNPP_root_fine_C,1,1,1,min.diameter_root,NA,330,0.02,7.4,NA
+53,flux,BNPP_root_coarse_OM,Mg ha-1 yr-1,"Annual coarse root production, typically determined using allometric equations relating root mass to stem diameter.",NA,1,1,0,min.diameter_root,NA,61,0.18,1.818,NA
+54,flux,BNPP_root_coarse_C,Mg C ha-1 yr-1,"Annual coarse root production, typically determined using allometric equations relating root mass to stem diameter.",NA,1,1,0,min.diameter_root,NA,285,0,9.86,NA
+55,flux,BNPP_root_fine_OM,Mg ha-1 yr-1,"Annual fine root production, estimated using a variety of methods including minirhizotrons, repeat coring, and ingrowth cores.",NA,0,0,1,min.diameter_root, max.diameter_root,59,0.03,15.2,NA
+56,flux,BNPP_root_fine_C,Mg C ha-1 yr-1,"Annual fine root production, estimated using a variety of methods including minirhizotrons, repeat coring, and ingrowth cores.",NA,0,0,1,min.diameter_root, max.diameter_root,291,0,6.8,NA
+57,flux,BNPP_root.turnover_fine_OM,Mg ha-1 yr-1,Annual turnover (mortality) of fine roots,NA,0,0,1,min.diameter_root, max.diameter_root,0,-,-,NA
+58,flux,BNPP_root.mortality_fine_C,Mg C ha-1 yr-1,Annual turnover (mortality) of fine roots,NA,0,0,1,min.diameter_root, max.diameter_root,0,-,-,NA
+59,flux,R_eco_C,Mg C ha-1 yr-1,"Annual ecosystem respiration,commonly estimated through flux partitioning of eddy covariance. Sign convention: positive.",(1)* R_eco_C = NEE_C - GPP_C; (2) R_eco_C = R_auto_C + R_het_soil_C,0,0,0,u.star ,NA,941,1.34,40.1,"*Equation 1 assumes minimal vertical advection, respiration-derived dissolved inorganic carbon, and non-repiratory CO2 fluxes (e.g., from fire or ultraviolet oxidation of organic matter); see Chapin et al. 2006"
+60,flux,R_eco_cum_C,Mg C ha-1 (timestep)-1,Cumulative ecosystem respiration over a specified time frame (measured using eddy-covariance or gas exchange in a closed chamber). Sign convention: positive.,NEE_cum_C =  R_eco_cum_C - GPP_cum_C,0,0,0,u.star ,NA,9,4.49,12.07,Applies to timeframes other than one year. Meaninful only in conjunction with start and end date.
+61,flux,R_auto_C,Mg C ha-1 yr-1,"Annual autotrophic respiration, including above- and belowground components.",R_auto_C =  R_auto_wood_C + R_auto_foliage_C + R_auto_root_C ,0,0,0,NA,NA,104,2.2,27.46,Covariates will depend on methodology. Currently not acquired for any records in the database.
+62,flux,R_auto_ag_C,Mg C ha-1 yr-1,Annual aboveground autotrophic respiration ,R_auto_ag_C = R_auto_foliage_C + R_auto_wood_C ,0,0,0,NA,NA,17,1.27,14.19,Covariates will depend on methodology. Currently not acquired for any records in the database.
+63,flux,R_auto_wood_C,Mg C ha-1 yr-1,Annual aboveground respiration of woody stems ,NA,0,0,0,NA,NA,31,0.03,10.38,NA
+64,flux,R_auto_foliage_C,Mg C ha-1 yr-1,Annual foliar respiration,NA,0,0,0,NA,NA,32,0.6,11.35,NA
+65,flux,R_auto_root_C,Mg C ha-1 yr-1,Annual root respiration (all size classes). Note methodology: root gas exchange/ root exclusion/ isotopes,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,49,0.58,24.6,"If estimated through direct measurement of root gas exchange, covariates should include depth; min.diameter_root; max.diameter_root"
+66,flux,R_soil_C,Mg C ha-1 yr-1,Annual soil respiration,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,399,0.85,24.14,NA
+67,flux,R_het_soil_C,Mg C ha-1 yr-1,Annual soil heterotrophic respiration,R_soil_C = R_het_soil_C + R_auto_root_C,0,0,0,NA,NA,289,0.56,15.07,NA
+68,flux,R_het_litter_C,Mg C ha-1 yr-1,Annual respiration from litter decomposition,NA,0,0,0,max.diameter_root,NA,0,-,-,NA
+69,flux,R_het_deadwood,Mg C ha-1 yr-1,Annual respiration from deadwood decomposition,NA,0,0,0,min.diameter_root,NA,0,-,-,NA
+70,flux,R_het_ag_C,Mg C ha-1 yr-1,Annual aboveground heterotrophic respiration ,NA,0,0,0,NA,NA,0,-,-,NA
+71,flux,R_het_C,Mg C ha-1 yr-1,Annual heterotrophic respiration ,R_het_C = R_het_soil_C + R_het_litter_C + R_het_ag_C _,0,0,0,NA,NA,0,-,-,NA
+72,increment,delta.agb_OM,Mg ha-1 yr-1,Net change in aboveground live biomass ,delta.agb_OM = ANPP_0_OM - woody.mortality_ag_OM,1,1,0,NA,NA,1,2.88,2.88,NA
+73,increment,delta.agb_C,Mg C ha-1 yr-1,Net change in aboveground live biomass C,delta.agb_C = ANPP_0_C - woody.mortality_ag_C,1,1,0,NA,NA,12,-0.908,2.51,NA
 74,stock,total.ecosystem_C,Mg C ha-1,"Includes total biomass, deadwood, organic layer, and soil organic C",total.ecosystem_C = biomass_C + deadwood_C + organic.layer_C + soil_C,1,1,1,NA,NA,63,20.6,488,NA
 75,stock,total.ecosystem_2_C,Mg C ha-1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",total.ecosystem_2_C = biomass_C + deadwood_C + organic.layer_C ,1,1,1,NA,NA,8,52.9,399,NA
 76,stock,biomass_OM,Mg ha-1,Total live biomass.,biomass_OM = biomass_ag_OM + biomass_root_OM,1,1,1,NA,NA,236,0.683068,568.172,NA
@@ -82,48 +82,50 @@ variable.ID,variable.type,variable.name,units,description,equations,requires.all
 81,stock,biomass_ag_woody_C,Mg C ha-1,Total carbon in aboveground structural (stem + branch) biomass,NA,1,1,0,NA,NA,251,0,640.35,NA
 82,stock,biomass_ag_foliage_OM,Mg ha-1,Total foliage biomass,NA,1,1,0,NA,NA,300,0.009,35,NA
 83,stock,biomass_ag_foliage_C,Mg C ha-1,Total carbon in foliage biomass,NA,1,1,0,NA,NA,239,0,19.23,NA
-84,stock,biomass_root_OM,Mg ha-1,Total root biomass,biomass_root_OM = biomass_root_coarse_OM + biomass_root_fine_OM,1,1,1,min.diameter_root,NA,398,0.098,151,NA
-85,stock,biomass_root_C,Mg C ha-1,Total carbon in root biomass,biomass_root_C = biomass_root_coarse_C + biomass_root_fine_C,1,1,1,min.diameter_root,NA,642,0,181.63,NA
-86,stock,biomass_root_coarse_OM,Mg ha-1,"Total coarse root biomass. Typical size cutoff (min.diameter_root) is 1-2 mm diameter, with preference given to min.diameter_root = 1 mm when there is an option.",NA,1,1,0,min.diameter_root,NA,152,0.03,135.9944444,NA
-87,stock,biomass_root_coarse_C,Mg C ha-1,"Total carbon in coarse root biomass. Typical size cutoff (min.diameter_root) is 1-2 mm diameter, with preference given to min.diameter_root = 1 mm when there is an option.",NA,1,1,0,min.diameter_root,NA,183,0,208.78,NA
-88,stock,biomass_root_fine_OM,Mg ha-1,"Total fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter, with preference given to max.diameter_root = 1 mm when there is an option.",NA,0,0,1,min.diameter_root,max.diameter_root,245,0.005,36,NA
-89,stock,biomass_root_fine_C,Mg C ha-1,"Total carbon in fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter, with preference given to max.diameter_root = 1 mm when there is an option.",NA,0,0,1,min.diameter_root,max.diameter_root,181,0.06,38,NA
-90,stock,deadwood_OM,Mg ha-1,"Total mass of aboveground dead wood, including standing dead wood and coarse woody debris",deadwood_OM = deadwood_down_OM + deadwood_standing_OM,1,1,0,(min.diameter),(min.length),234,0,172.7,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
-91,stock,deadwood_C,Mg C ha-1,"Total carbon in aboveground dead wood, including standing dead wood and coarse woody debris",deadwood_C = deadwood_down_C + deadwood_standing_C,1,1,0,(min.diameter),(min.length),137,0,130.7,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
-92,stock,deadwood_standing_OM,Mg ha-1,Total mass of aboveground standing dead wood (snags),NA,1,1,0,NA,NA,69,0,72,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
-93,stock,deadwood_standing_C,Mg C ha-1,Total carbon in aboveground standing dead wood (snags),NA,1,1,0,NA,NA,3,0.9,34.3,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
-94,stock,deadwood_down_OM,Mg ha-1,Total mass of downed dead wood (coarse woody debris),NA,0,0,0,(min.diameter),(min.length),73,0.39,140,"Covariates depend on methodology. Include min.diameter, min.length."
-95,stock,deadwood_down_C,Mg C ha-1,Total carbon in downed dead wood (coarse woody debris),NA,0,0,0,(min.diameter),(min.length),2,9.142,151.7,"Covariates depend on methodology. Include min.diameter, min.length."
-96,stock,organic.layer_OM,Mg ha-1,Mass of litter/ organic layer/ forest floor,NA,0,0,0,NA,NA,126,0.26,74.7,NA
-97,stock,organic.layer_C,Mg C ha-1,Carbon in litter/ organic layer/ forest floor,NA,0,0,0,NA,NA,81,0,72.5,NA
-98,stock,soil_OM,Mg ha-1,Soil organic matter to specified depth in mineral soil,NA,0,0,1,NA,NA,17,2.6,170,depth refers to depth in mineral soil.
-99,stock,soil_C,Mg C ha-1,Soil organic carbon to specified depth in mineral soil,NA,0,0,1,NA,NA,464,0.4,370,depth refers to depth in mineral soil.
-100,secondary,LAI,m2 leaf m-2 ground,LAI: leaf area index (m2/m2),NA,0,0,0,NA,NA,138,0.075566751,27.8025,NA
-101,secondary,leaf_pC,%,Leaf Percent C,NA,0,0,0,NA,NA,13,44.8,51.3,NA
-102,secondary,leaf_C2N,ratio,C:N ratio in leaves,NA,0,0,0,NA,NA,44,19.6,59.19,NA
-103,secondary,leaf_pN,%,Leaf Percent Nitrogen,NA,0,0,0,NA,NA,29,0.85,4.09,NA
-104,secondary,foliage_pN,Mg ha-1,Accumulation of foliage N of stand,NA,0,0,0,NA,NA,22,0.0148,0.068,NA
-105,secondary,leaf_pCa,%,Foliar calcium concentration,NA,0,0,0,NA,NA,13,0.34,1.01,NA
-106,secondary,leaf_pK,%,Foliar K concentration,NA,0,0,0,NA,NA,13,0.35,1.34,NA
-107,secondary,leaf_pMg,%,Foliar magnesium concentration,NA,0,0,0,NA,NA,13,0.09,0.49,NA
-108,secondary,leaf_pP,%,Foliar P concentration,NA,0,0,0,NA,NA,13,0.14,4.09,NA
-109,secondary,stem_pC,%,C concentration in stems,NA,0,0,0,NA,NA,9,47.8,51.3,NA
-110,secondary,stem_pN,%,Nitrogen in stem,NA,0,0,0,NA,NA,22,0.12,1.26,NA
-111,secondary,root_pN,%,Percent N in belowground live tissue,NA,0,0,0,NA,NA,12,0.24,1.08,NA
-112,secondary,root_pC,%,Percent C in belowground live tissue,NA,0,0,0,NA,NA,9,37.8,47.5,NA
-113,secondary,soil_pC,%,Percent soil carbon content,NA,0,0,1,NA,NA,6,0.65,7.4,NA
-114,secondary,soil_C2N,ratio,C:N ratio in soil,NA,0,0,1,NA,NA,0,-,-,NA
-115,secondary,N.mineralization,Kg N ha-1 yr-1,Net N mineralization,NA,NA,NA,NA,NA,NA,43,0.67,142.36,NA
-116,covariates,max.diameter,cm,"Maximum diameter of tree part being measured (stem, woody debris)",NA,NA,NA,NA,NA,NA,26,2.5,10,NA
-117,covariates,min.diameter,cm,"Minimum diameter of tree part being measured (stem, woody debris)",NA,NA,NA,NA,NA,NA,65,0,10,NA
-118,covariates,max.diameter_branch,cm,Maximum branch diameter,NA,NA,NA,NA,NA,NA,6,10,10,NA
-119,covariates,min.diameter_branch,cm,Minimum branch diameter,NA,NA,NA,NA,NA,NA,2,1,2,NA
-120,covariates,max.diameter_twig,cm,Maximum twig diameter,NA,NA,NA,NA,NA,NA,33,0.5,3.5,NA
-121,covariates,max.diameter_root,mm,Maximum root diameter,NA,NA,NA,NA,NA,NA,171,1,30,NA
-122,covariates,min.diameter_root,mm,Minimum root diameter,NA,NA,NA,NA,NA,NA,227,0,10,NA
-123,covariates,min.diameter_liana,cm,Minimum diameter of lianas censused,NA,NA,NA,NA,NA,NA,25,1,10,NA
-124,covariates,min.height,cm,Minimum height,NA,NA,NA,NA,NA,NA,70,0,130,NA
-125,covariates,min.length,cm,Minimum length,NA,NA,NA,NA,NA,NA,43,0,100,NA
-126,covariates,u.star,m s-1,Friction velocity,NA,NA,NA,NA,NA,NA,290,0,0.5,NA
-127,covariates,stem.level,NA,"Indicates whether the variable is computed at the individual tree (0; e.g., only counts mortality if all stems of a multi-stemmed individual die) or stem (1; e.g., counts stem mortality when the individual tree remains alive) level.",NA,NA,NA,NA,NA,NA,0,-,-,NA
-128,covariates,include.recruitment,NA,Indicates whether recruitment is counted as part of ANPP_woody_stem (0-no; 1-yes),NA,NA,NA,NA,NA,NA,13,0,1,"Including recruitment in NPP estimates overestimates contributions of small stems, which have been growing for years before entering a tree census."
+84,stock,biomass_ag_understory_OM,Mg ha-1,"Total understory biomass, where understory is most commonly defined as trees shorter than breast height.",,0,0,0,max.height  ,max.diameter,0,-,-,NA
+85,stock,biomass_ag_understory_C,Mg C ha-1,"Total carbon in understory biomass, where understory is most commonly defined as trees shorter than breast height.",,0,0,0,max.height  ,max.diameter,0,-,-,NA
+86,stock,biomass_root_OM,Mg ha-1,Total root biomass,biomass_root_OM = biomass_root_coarse_OM + biomass_root_fine_OM,1,1,1,min.diameter_root,NA,398,0.098,151,NA
+87,stock,biomass_root_C,Mg C ha-1,Total carbon in root biomass,biomass_root_C = biomass_root_coarse_C + biomass_root_fine_C,1,1,1,min.diameter_root,NA,642,0,181.63,NA
+88,stock,biomass_root_coarse_OM,Mg ha-1,"Total coarse root biomass. Typical size cutoff (min.diameter_root) is 1-2 mm diameter, with preference given to min.diameter_root = 1 mm when there is an option.",NA,1,1,0,min.diameter_root,NA,152,0.03,135.9944444,NA
+89,stock,biomass_root_coarse_C,Mg C ha-1,"Total carbon in coarse root biomass. Typical size cutoff (min.diameter_root) is 1-2 mm diameter, with preference given to min.diameter_root = 1 mm when there is an option.",NA,1,1,0,min.diameter_root,NA,183,0,208.78,NA
+90,stock,biomass_root_fine_OM,Mg ha-1,"Total fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter, with preference given to max.diameter_root = 1 mm when there is an option.",NA,0,0,1,min.diameter_root,max.diameter_root,245,0.005,36,NA
+91,stock,biomass_root_fine_C,Mg C ha-1,"Total carbon in fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter, with preference given to max.diameter_root = 1 mm when there is an option.",NA,0,0,1,min.diameter_root,max.diameter_root,181,0.06,38,NA
+92,stock,deadwood_OM,Mg ha-1,"Total mass of aboveground dead wood, including standing dead wood and coarse woody debris",deadwood_OM = deadwood_down_OM + deadwood_standing_OM,1,1,0,(min.diameter),(min.length),234,0,172.7,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
+93,stock,deadwood_C,Mg C ha-1,"Total carbon in aboveground dead wood, including standing dead wood and coarse woody debris",deadwood_C = deadwood_down_C + deadwood_standing_C,1,1,0,(min.diameter),(min.length),137,0,130.7,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
+94,stock,deadwood_standing_OM,Mg ha-1,Total mass of aboveground standing dead wood (snags),NA,1,1,0,NA,NA,69,0,72,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
+95,stock,deadwood_standing_C,Mg C ha-1,Total carbon in aboveground standing dead wood (snags),NA,1,1,0,NA,NA,3,0.9,34.3,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
+96,stock,deadwood_down_OM,Mg ha-1,Total mass of downed dead wood (coarse woody debris),NA,0,0,0,(min.diameter),(min.length),73,0.39,140,"Covariates depend on methodology. Include min.diameter, min.length."
+97,stock,deadwood_down_C,Mg C ha-1,Total carbon in downed dead wood (coarse woody debris),NA,0,0,0,(min.diameter),(min.length),2,9.142,151.7,"Covariates depend on methodology. Include min.diameter, min.length."
+98,stock,organic.layer_OM,Mg ha-1,Mass of litter/ organic layer/ forest floor,NA,0,0,0,NA,NA,126,0.26,74.7,NA
+99,stock,organic.layer_C,Mg C ha-1,Carbon in litter/ organic layer/ forest floor,NA,0,0,0,NA,NA,81,0,72.5,NA
+100,stock,soil_OM,Mg ha-1,Soil organic matter to specified depth in mineral soil,NA,0,0,1,NA,NA,17,2.6,170,depth refers to depth in mineral soil.
+101,stock,soil_C,Mg C ha-1,Soil organic carbon to specified depth in mineral soil,NA,0,0,1,NA,NA,464,0.4,370,depth refers to depth in mineral soil.
+102,secondary,LAI,m2 leaf m-2 ground,LAI: leaf area index (m2/m2),NA,0,0,0,NA,NA,138,0.075566751,27.8025,NA
+103,secondary,leaf_pC,%,Leaf Percent C,NA,0,0,0,NA,NA,13,44.8,51.3,NA
+104,secondary,leaf_C2N,ratio,C:N ratio in leaves,NA,0,0,0,NA,NA,44,19.6,59.19,NA
+105,secondary,leaf_pN,%,Leaf Percent Nitrogen,NA,0,0,0,NA,NA,29,0.85,4.09,NA
+106,secondary,foliage_pN,Mg ha-1,Accumulation of foliage N of stand,NA,0,0,0,NA,NA,22,0.0148,0.068,NA
+107,secondary,leaf_pCa,%,Foliar calcium concentration,NA,0,0,0,NA,NA,13,0.34,1.01,NA
+108,secondary,leaf_pK,%,Foliar K concentration,NA,0,0,0,NA,NA,13,0.35,1.34,NA
+109,secondary,leaf_pMg,%,Foliar magnesium concentration,NA,0,0,0,NA,NA,13,0.09,0.49,NA
+110,secondary,leaf_pP,%,Foliar P concentration,NA,0,0,0,NA,NA,13,0.14,4.09,NA
+111,secondary,stem_pC,%,C concentration in stems,NA,0,0,0,NA,NA,9,47.8,51.3,NA
+112,secondary,stem_pN,%,Nitrogen in stem,NA,0,0,0,NA,NA,22,0.12,1.26,NA
+113,secondary,root_pN,%,Percent N in belowground live tissue,NA,0,0,0,NA,NA,12,0.24,1.08,NA
+114,secondary,root_pC,%,Percent C in belowground live tissue,NA,0,0,0,NA,NA,9,37.8,47.5,NA
+115,secondary,soil_pC,%,Percent soil carbon content,NA,0,0,1,NA,NA,6,0.65,7.4,NA
+116,secondary,soil_C2N,ratio,C:N ratio in soil,NA,0,0,1,NA,NA,0,-,-,NA
+117,secondary,N.mineralization,Kg N ha-1 yr-1,Net N mineralization,NA,NA,NA,NA,NA,NA,43,0.67,142.36,NA
+118,covariates,max.diameter,cm,"Maximum diameter of tree part being measured (stem, woody debris)",NA,NA,NA,NA,NA,NA,26,2.5,10,NA
+119,covariates,min.diameter,cm,"Minimum diameter of tree part being measured (stem, woody debris)",NA,NA,NA,NA,NA,NA,65,0,10,NA
+120,covariates,max.diameter_branch,cm,Maximum branch diameter,NA,NA,NA,NA,NA,NA,6,10,10,NA
+121,covariates,min.diameter_branch,cm,Minimum branch diameter,NA,NA,NA,NA,NA,NA,2,1,2,NA
+122,covariates,max.diameter_twig,cm,Maximum twig diameter,NA,NA,NA,NA,NA,NA,33,0.5,3.5,NA
+123,covariates,max.diameter_root,mm,Maximum root diameter,NA,NA,NA,NA,NA,NA,171,1,30,NA
+124,covariates,min.diameter_root,mm,Minimum root diameter,NA,NA,NA,NA,NA,NA,227,0,10,NA
+125,covariates,min.diameter_liana,cm,Minimum diameter of lianas censused,NA,NA,NA,NA,NA,NA,25,1,10,NA
+126,covariates,min.height,cm,Minimum height,NA,NA,NA,NA,NA,NA,70,0,130,NA
+127,covariates,min.length,cm,Minimum length,NA,NA,NA,NA,NA,NA,43,0,100,NA
+128,covariates,u.star,m s-1,Friction velocity,NA,NA,NA,NA,NA,NA,290,0,0.5,NA
+129,covariates,stem.level,NA,"Indicates whether the variable is computed at the individual tree (0; e.g., only counts mortality if all stems of a multi-stemmed individual die) or stem (1; e.g., counts stem mortality when the individual tree remains alive) level.",NA,NA,NA,NA,NA,NA,0,-,-,NA
+130,covariates,include.recruitment,NA,Indicates whether recruitment is counted as part of ANPP_woody_stem (0-no; 1-yes),NA,NA,NA,NA,NA,NA,13,0,1,"Including recruitment in NPP estimates overestimates contributions of small stems, which have been growing for years before entering a tree census."
