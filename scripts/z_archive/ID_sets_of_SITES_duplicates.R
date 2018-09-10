@@ -98,6 +98,10 @@ for(cluster in clusters_with_potential_duplicates) {
   SITES$potential_duplicate_group[clusters %in% cluster] <- which(clusters_with_potential_duplicates %in% cluster) # create a "cluser ID"
   SITES$potential_duplicate_group_parsed[clusters %in% cluster] <- group.c[,1+ which.max(apply(group.c[,-1], 2, max))] # get the grouping that is the most "informed"
   
+  if(length(SITES$potential_duplicate_group_parsed[clusters %in% cluster]) == length(unique(SITES$potential_duplicate_group_parsed[clusters %in% cluster]))) {
+    SITES$potential_duplicate_group[clusters %in% cluster] <- 0
+    SITES$potential_duplicate_group_parsed[clusters %in% cluster] <- 0
+  }
 }
 
 write.csv(SITES, file = "data/ForC_sites.csv", row.names = F)
