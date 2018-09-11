@@ -706,7 +706,6 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 705,Eastern Canada 2,NI,NAC,705.01,1953,705.02,Initiation of post-disturbance cohort (planted or natural),1953,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 706,Eastern Canada 3,NI,NAC,706.01,1963,706.02,Initiation of post-disturbance cohort (planted or natural),1963,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 707,Eastern Jamaica,montane rainforest,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-708,Eastern Oregon (cool dry),Pinus ponderosa-Pinus contorta,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 709,"Eastern Panama Early Tropical Forests, age 2",Forest recovery following shifting cultivation,NAC,0,NAC,709.02,Initiation of post-disturbance cohort (natural),NI,709.01,Shifting cultivation,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 710,"Eastern Panama Early Tropical Forests, age 4-6",Forest recovery following shifting cultivation,NAC,0,NAC,710.02,Initiation of post-disturbance cohort (natural),NI,710.01,Shifting cultivation,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 711,Eastern Prealps mixed ash and sycamore forest chronosequence,Forest recovery following agricultural abandonment.0 y,NAC,0,NAC,711.02,Initiation of post-disturbance cohort (natural),1957,711.01,Cultivation,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -1763,7 +1762,6 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 1762,Oregon Cascades 1 (cool temperate montane),Pseudotsuga menziesii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1763,Oregon Cascades 2 (cool temperate montane),Pseudotsuga menziesii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1764,Oregon Cascades,Pseudotsuga menziesii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-1765,Oregon coast (cool temperate montane),Tsuga heterophylla-Picea sitchensis,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1766,Oregon coast,Tsuga heterophylla-Picea sitchensis,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1767,Oregon Transect (OTTER) Site 5 Metolius,Managed,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 1768,Oregon,Abies amabilis; Pseudotsuga menziesii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
@@ -2511,9 +2509,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2515,Warings Woods,recently disturbed,NAC,0,NAC,2515.02,Planted_and_natural_regeneration,NAC,2515.01,Cut,100,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2516,Washington 1,"Abies amabilis, Pseudotsuga menziesii",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2517,Washington 2,Pseudotsuga menziesii,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2518,Washington Cascades 1 (cool temperate montane),"Abies amabilis, Tsuga heterophylla",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2519,Washington Cascades 2 (cool temperate montane),Abies amabilis,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2520,Washington coast (cool temperate montane),"Tsuga heterophylla, Picea sitchensis",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2521,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.10y,0.01,2521.03,1962,2521.02,Initiation of post-disturbance cohort (natural),NI,2521.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2522,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.13y,0.01,2522.03,1959,2522.02,Initiation of post-disturbance cohort (natural),NI,2522.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2523,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.17y,0.01,2523.03,1955,2523.02,Initiation of post-disturbance cohort (natural),NI,2523.01,Forest dieback,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
