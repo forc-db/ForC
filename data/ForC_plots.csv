@@ -2232,7 +2232,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2234,Solling project F1,spruce forest plantation,NAC,2234.02,1882,2234.01,Planted,1882,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2235,Solling project F2,spruce forest plantation,NAC,2235.02,1854,2235.01,Planted,1854,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2236,Solling project F3,spruce forest plantation,NAC,2236.02,1935,2236.01,Planted,1935,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2237,Solling,Managed,NAC,2237.01,1887,2237.02,Initiation of post-disturbance cohort (planted or natural),1887,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2237,Solling flux site (DE-Sol),Managed,NAC,2237.01,1887,2237.02,Initiation of post-disturbance cohort (planted or natural),1887,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2238,Songfan,"Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2239,Soroe,Managed,NAC,2239.01,1916,2239.02,Initiation of post-disturbance cohort (planted or natural),1916,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2240,Southeast Tree Research and Education Site (SETRES),12 yr C,NAC,2240.03,1985,2240.02,Planted,1985,2240.01,Harvest,100,1985,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical

@@ -4932,8 +4932,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2235.02,Solling project F2,spruce forest plantation,NAC,2,1854,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
 2236.01,Solling project F3,spruce forest plantation,NAC,1,1935,8,Regrowth,Planted,1,NA,NA,NA,NA,NA,extratropical
 2236.02,Solling project F3,spruce forest plantation,NAC,2,1935,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
-2237.01,Solling,Managed,NAC,1,1887,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
-2237.02,Solling,Managed,NAC,2,1887,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
+2237.01,Solling flux site (DE-Sol),Managed,NAC,1,1887,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
+2237.02,Solling flux site (DE-Sol),Managed,NAC,2,1887,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Age method: Tree rings. Managed,NA,extratropical
 2238.01,Songfan,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2239.01,Soroe,Managed,NAC,1,1916,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Managed. Age from Pilegaard et al. 2001,NA,extratropical
 2239.02,Soroe,Managed,NAC,2,1916,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Managed. Age from Pilegaard et al. 2001,NA,extratropical
