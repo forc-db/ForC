@@ -4838,7 +4838,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2200.01,Siikaneva (NECC),boreal minerotrophic open wetland,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2201.01,Silas Little Experimental Forest Oak/Pine stand,gypsy moth defoliation,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2202.01,Sinop flux station,mature transitional tropical forest,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,1556,tropical
-2203.01,Sinop,old-growth tropical forest.SIN,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
+2203.01,Sinop,Cerrado-Amazon transitional forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
 2204.01,Sipitang,Forest recovery following drought and wildfire.2-y,NAC,1,1983,9,Disturbance,Drought,NA,NA,NA,100,History event derived from plot.name,NA,tropical
 2204.02,Sipitang,Forest recovery following drought and wildfire.2-y,NAC,2,1983,9,Disturbance,Burned,NA,NA,NA,100,History event derived from plot.name,NA,tropical
 2204.03,Sipitang,Forest recovery following drought and wildfire.2-y,NAC,3,1983,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,History event derived from plot.name,NA,tropical

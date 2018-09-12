@@ -2198,7 +2198,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2200,Siikaneva (NECC),boreal minerotrophic open wetland,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2201,Silas Little Experimental Forest Oak/Pine stand,gypsy moth defoliation,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2202,Sinop flux station,mature transitional tropical forest,NAC,0,NI,0,NI,NI,0,NI,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2203,Sinop,old-growth tropical forest.SIN,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+2203,Sinop,Cerrado-Amazon transitional forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2204,Sipitang,Forest recovery following drought and wildfire.2-y,NAC,2204.04,1983,2204.03,Initiation of post-disturbance cohort (natural),1983,2204.02,Burned,100,1983,2204.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2205,"Site region 5E, site class I/high stocking class",Forest recovery following clear cut.20y,NAC,2205.03,1949,2205.02,Initiation of post-disturbance cohort (natural),1949,2205.01,Cut,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2206,"Site region 5E, site class I/high stocking class",Forest recovery following clear cut.30y,NAC,2206.03,1939,2206.02,Initiation of post-disturbance cohort (natural),1939,2206.01,Cut,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
