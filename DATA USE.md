@@ -24,10 +24,10 @@ ForC is continuously evolving, sometimes on a daily basis. For the sake of docum
 
 ## Database citations:
 
-Any publications using ForC data should cite the following: 
+Any publications using ForC data should cite all references included in the required.citations field of any records they are using. This field indicates the ForC database publications first presenting each record (or a substantially modified version thereof) or the publications of partern databases. Current publications contained in this field include:
 
 * Anderson-Teixeira, K.J. *et al.* 2016. Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db). Global Change Biology. DOI: [10.1111/gcb.13226](http://dx.doi.org/10.1111/gcb.13226) 
 
-* Anderson-Teixeira, K. J., M. M. H. Wang, J. C. McGarvey, V. Herrmann, A. J. Tepley, B. P. Bond-Lamberty, and D. S. LeBauer. in press. ForC: a global database of forest carbon stocks and fluxes. Ecology. DOI: [10.1002/ecy.2229](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.2229).
+* Anderson-Teixeira, K. J., M. M. H. Wang, J. C. McGarvey, V. Herrmann, A. J. Tepley, B. P. Bond-Lamberty, and D. S. LeBauer. 2018. ForC: a global database of forest carbon stocks and fluxes. Ecology 99(6), 1507-1507. DOI: [10.1002/ecy.2229](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.2229).
 
 In addition, if data are obtained from this Github repository (as opposed to a static version associated with one of the above publications), this should be referenced as well (DOI representing all versions: [10.5281/zenodo.1135088](https://doi.org/10.5281/zenodo.1187192)). Publications should cite a specific version of ForC, ideally with a DOI associated with that version. Authors may work with ForC managers to generate a release and associated DOI that matches the database version used in their publication.
