@@ -24,7 +24,7 @@ ForC is continuously evolving, sometimes on a daily basis. For the sake of docum
 
 ## Database citations:
 
-Any publications using ForC data should cite all references included in the required.citations field of any records they are using. This field indicates the ForC database publications first presenting each record (or a substantially modified version thereof) or the publications of partern databases. Current publications contained in this field include:
+Any publications using ForC data should cite all references included in the `required.citations` field of any records they are using. This field indicates the ForC database publications first presenting each record (or a substantially modified version thereof) or the publications of partner databases. Current publications contained in this field include:
 
 * Anderson-Teixeira, K.J. *et al.* 2016. Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db). Global Change Biology. DOI: [10.1111/gcb.13226](http://dx.doi.org/10.1111/gcb.13226) 
 
