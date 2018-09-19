@@ -395,7 +395,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 171.02,Barro Colorado Island chronosequence,Undisturbed forest.115y,NAC,2,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,423,tropical
 172.01,Barro Colorado Island chronosequence,Undisturbed forest.400y,NAC,1,1609,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,422,tropical
 172.02,Barro Colorado Island chronosequence,Undisturbed forest.400y,NAC,2,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,424,tropical
-173.01,Barro Colorado Island CTFS-ForestGEO plot,50-ha plot,50,1,1500,9,No.disturbance,No disturbance,NA,NA,NA,NA,"No anthropogenic disutrbance for over 500 years, save for in a 1-2ha patch",2346,tropical
+173.01,Barro Colorado Island CTFS-ForestGEO plot,50-ha plot,50,1,1500,9,No.disturbance,No severe disturbance,NA,NA,NA,NA,"No anthropogenic disutrbance for over 500 years, save for in a 1-2ha patch",2346,tropical
 173.02,Barro Colorado Island CTFS-ForestGEO plot,50-ha plot,50,2,1983,7,Disturbance,Drought,NA,NA,NA,NAC,elevated mortality of large trees,NA,tropical
 173.03,Barro Colorado Island CTFS-ForestGEO plot,50-ha plot,50,3,1998,7,Disturbance,Drought,NA,NA,NA,NAC,no siginficant change in mortality rate (Condit et al. 2004),NA,tropical
 174.01,Barro Colorado Island CTFS-ForestGEO plot,"50-ha plot, excluding 1.9ha secondary forest",48.1,1,1500,9,No.disturbance,No disturbance,NA,NA,NA,NA,No anthropogenic disutrbance for over 500 years,NA,tropical
@@ -4613,8 +4613,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2096.01,"San Carlos de Rio Negro, Veillon RN1-4, SC2",terra firma SCR-02,2,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2426,tropical
 2097.01,San Emilio,mature 'old growth' forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
 2098.01,San Eusebio,"""Primary"" (some selective cutting in the area) Montane",NAC,1,NI,9,Disturbance,Harvest,NA,NA,NA,<100%,Selective cutting,1474,tropical
-2099.01,San Lorenzo CTFS-ForestGEO plot,"6-ha plot, excluding younger secondary forest",4.96,1,NI,9,Disturbance,Harvest,NA,NI,NA,<100%,mature forest that has been subject to some logging or clearing activity during the last 150 yr ,NA,tropical
-2099.02,San Lorenzo CTFS-ForestGEO plot,"6-ha plot, excluding younger secondary forest",4.96,2,1998,7,Disturbance,Drought,NA,NA,NA,4.88,percent mortality refers to stems >=1cm DBH,NA,tropical
+2099.01,San Lorenzo CTFS-ForestGEO plot,"6-ha plot, excluding younger secondary forest",4.96,1,1800,9,No.disturbance,No severe disturbance,NA,NI,NA,NA,"has apparently been free of severe disturbance for 200 y or more, since the largest trees are of slow-growing species (Manilkara bidentata, Brosimum utile)",NA,tropical
+2099.02,San Lorenzo CTFS-ForestGEO plot,"6-ha plot, excluding younger secondary forest",4.96,2,NI,9,Disturbance,Harvest,NA,NI,NA,<100%,mature forest that has been subject to some logging or clearing activity during the last 150 yr ,NA,tropical
+2099.03,San Lorenzo CTFS-ForestGEO plot,"6-ha plot, excluding younger secondary forest",4.96,3,1998,7,Disturbance,Drought,NA,NA,NA,4.88,percent mortality refers to stems >=1cm DBH,NA,tropical
 2100.01,San Pablo de Tregua,Laureliopsis philippiana,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2101.01,San Pablo de Tregua,Nothofagus dombeyi,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2102.01,San Pedro mesquite woodland,velvet mesquite dominated woodland,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,NA,extratropical
@@ -4908,7 +4909,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2227.03,Smithsonian Conservation Biology Institute CTFS-ForestGEO plot,25.6-ha plot,25.6,3,1900,8.5,Establishment,Establishment of oldest trees,0,NA,NA,NA,"Dendrochronological data from 492 tree cores suggested the major canopy trees established circa 1900, but scattered trees of several species existed earlier. ",NA,extratropical
 2227.04,Smithsonian Conservation Biology Institute CTFS-ForestGEO plot,25.6-ha plot,25.6,4,NI,9,Disturbance,Harvest,NA,NA,NA,<100%,"The Posey Field, where the plot is located, was considered the best timber site within the Depot in a 1953 report ",NA,extratropical
 2227.05,Smithsonian Conservation Biology Institute CTFS-ForestGEO plot,25.6-ha plot,25.6,5,1909,8,Disturbance,Grazed,NA,64,yrs,<100%,used as pasture 1909- 1973; previously private farmland,NA,extratropical
-2227.06,Smithsonian Conservation Biology Institute CTFS-ForestGEO plot,25.6-ha plot,25.6,6,1973,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,The cattle station was decommissioned in 1973 and the land was transferred to the Smithsonian Institution in 1975. The Smithsonian discontinued all livestock use of pastures and fields within the Posey Creek drainage upon assuming ownership.,NA,extratropical
+2227.06,Smithsonian Conservation Biology Institute CTFS-ForestGEO plot,25.6-ha plot,25.6,6,1973,8,No.disturbance,No severe disturbance,0,NA,NA,NA,The cattle station was decommissioned in 1973 and the land was transferred to the Smithsonian Institution in 1975. The Smithsonian discontinued all livestock use of pastures and fields within the Posey Creek drainage upon assuming ownership.,NA,extratropical
 2227.07,Smithsonian Conservation Biology Institute CTFS-ForestGEO plot,25.6-ha plot,25.6,7,1980,8,Management,Other,NA,NA,NA,NA,Fence around SCBI property dramatically increased deer populations. ,NA,extratropical
 2227.08,Smithsonian Conservation Biology Institute CTFS-ForestGEO plot,25.6-ha plot,25.6,8,1990,8,Management,Other,NA,NA,NA,NA,4-ha deer exclosure plot within the ForestGEO plot ,NA,extratropical
 2227.09,Smithsonian Conservation Biology Institute CTFS-ForestGEO plot,25.6-ha plot,25.6,9,NA,9,Disturbance,Other,NA,NA,NA,0,Small gravel road through the plot is maintained.,NA,extratropical
@@ -6162,3 +6163,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2729.01,Zhuwagen Quercus,Quercus,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2730.01,Zotino,Pinus sylvestris,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
 2731.01,Zuogong,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,extratropical
+,San Lorenzo CTFS-ForestGEO plot,6-ha plot,5.96,1,1800,9,No.disturbance,No severe disturbance,NA,NI,NA,NA,"has apparently been free of severe disturbance for 200 y or more, since the largest trees are of slow-growing species (Manilkara bidentata, Brosimum utile)",NA,tropical
+,San Lorenzo CTFS-ForestGEO plot,6-ha plot,5.96,2,NI,9,Disturbance,Harvest,NA,NI,NA,<100%,"has been subject to some logging or clearing activity during the last 150 yr, including that the northern hectare of the plot was obviously cleared recently.",NA,tropical
+,San Lorenzo CTFS-ForestGEO plot,6-ha plot,5.96,3,1998,7,Disturbance,Drought,NA,NA,NA,4.88,percent mortality refers to stems >=1cm DBH,NA,tropical

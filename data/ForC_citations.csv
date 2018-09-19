@@ -1,5 +1,6 @@
 citation.ID,citation.doi,citation.author,citation.year,citation.title
 Adachi_2006_disr,10.1016/j.apsoil.2006.01.006,Adachi,2006,Differences in soil respiration between different tropical ecosystems
+Aiba_2009_adaw,10.1111/j.1365-2435.2008.01500.x,Aiba,2009,Architectural differences associated with adult stature and wood density in 30 temperate tree species 
 Aide_1995_fria,10.1016/0378-1127(95)03576-V,Aide,1995,Forest recovery in abandoned tropical pastures in Puerto Rico
 Alban_1992_csil,10.1139/x92-146,Alban,1992,Carbon storage in Lake States aspen ecosystems
 Alberti_2008_feca,10.1093/forestry/cpm026,Alberti,2008,Forest ecosystem carbon accumulation during a secondary succession in the Eastern Prealps of Italy
@@ -11,6 +12,7 @@ Amiro_2006_ceaw,10.1016/j.agrformet.2006.02.014,Amiro,2006,"Carbon, energy and w
 Amiro_2010_eacd,10.1016/j.agrformet.2010.06.007,Amiro,2010,Estimating annual carbon dioxide eddy fluxes using open-path analysers for cold forest sites
 Anderson_2006_toba,10.1111/j.1461-0248.2006.00914.x,Anderson,2006,Temperature-dependence of biomass accumulation rates during secondary succession
 Anderson-Teixeira_2011_drop,10.1111/j.1365-2486.2010.02269.x,Anderson-Teixeira,2011,Differential responses of production and respiration to temperature and moisture drive the carbon balance across a climatic gradient in New Mexico
+Anderson-Teixeira_2015_cawn,10.1111/gcb.12712,Anderson-Teixeira,2015,CTFS_ForestGEO: a worldwide network monitoring forests in an era of global change
 Anderson-Teixeira_2016_cdom,10.1111/gcb.13226,Anderson-Teixeira,2016,Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db)
 Anderson-Teixeira_2018_fagd,10.1002/ecy.2229,Anderson-Teixeira,2018,ForC: a global database of forest carbon stocks and fluxes
 Andrews_1999_sorr,10.2136/sssaj1999.6351429x,Andrews,1999,Separation of root respiration from total soil respiration using carbon-13 labeling during Free-Air Carbon Dioxide Enrichment (FACE)
@@ -96,6 +98,7 @@ Chen_2003_cboa,10.1007/s00442-003-1358-5,Chen,2003,Carbon balance of a tropical 
 Chen_2010_bacd,10.1007/s11427-010-4024-2,Chen ,2010,Biomass and carbon dynamics of a tropical mountain rain forest in China
 Chen_2010_daco,doctoral dissertation,Chen ,2010,"Dynamics and controls of carbon exchange of a tropical montane rain forest at Jianfengling, China"
 China's Forest Editorial Committee_1999_cfvc,NA,China's Forest Editorial Committee,1999,China's Forest (Volume 2): Coniferous Forest. (in Chinese)
+Chojnacky_2013_ugbe,10.1093/forestry/cpt053,Chojnacky ,2013,Updated generalized biomass equations for North American tree species
 Cifuentes-Jara_2008_abae,NA,Cifuentes-Jara,2008,Aboveground biomass and ecosystem carbon pools in tropical secondary forests growing in six life zones of Costa Rica
 Clark_1999_econ,10.2307/2641340,Clark,1999,Environmental controls over net exchanges of carbon dioxide from contrasting Florida ecosystems
 Clark_2000_lvif,10.1016/S0378-1127(99)00327-8,Clark,2000,Landscape-scale variation in forest structure and biomass in a tropical rain forest
@@ -359,6 +362,7 @@ Lukac_2003_ptam,10.1046/j.1365-2486.2003.00582.x,Lukac,2003,"Production, turnove
 Lund_2010_vieo,10.1111/j.1365-2486.2009.02104.x,Lund,2010,Variability in exchange of CO2 across 12 northern peatland and tundra sites
 Luo_1996_ponp,NA,Luo,1996,Patterns of net primary productivity for Chinese major forest types and their mathematical models.
 Luo_2007_msce,10.1111/j.1365-2486.2006.01299.x,Luo,2007,Mature semiarid chaparral ecosystems can be a significant sink for atmospheric carbon dioxide
+Lutz_2018_giol,10.1111/geb.12747,Lutz,2018,Global importance of large_diameter trees
 Luyssaert_2007_cbob,10.1111/j.1365-2486.2007.01439.x,Luyssaert,2007,"CO2 balance of boreal, temperate, and tropical forests derived from a global database"
 Ma_2007_ivic,10.1016/j.agrformet.2007.07.008,Ma,2007,Inter-annual variability in carbon dioxide exchange of an oak/grass savanna and open grassland in California
 Ma_2008_oamo,10.1007/s11430-008-0075-7,Ma,2008,Observation and modeling of NPP for Pinus elliottii plantation in subtropical China
@@ -450,6 +454,7 @@ Onyekwelu_2007_gbya,10.1016/j.biortech.2006.09.023,Onyekwelu,2007,"Growth, bioma
 Oren_2006_etui,10.1111/j.1365-2486.2006.01131.x,Oren,2006,Estimating the uncertainty in annual net ecosystem carbon exchange: spatial variation in turbulent fluxes and sampling errors in eddy-covariance measurements. 
 Orihuela-Belmonte_2013_csaa,10.1016/j.agee.2013.03.012,Orihuela-Belmonte,2013,"Carbon stocks and accumulation rates in tropical secondary forests at the scale of community, landscape and forest type"
 Ostertag_2001_eona,10.1890/0012-9658(2001)082[0485:EONAPA]2.0.CO;2,Ostertag,2001,Effects of nitrogen and phosphorus availability on fine-root fynamics in Hawaiian montane forests
+Ostertag_2014_fsil,oi:10.1371/journal.pone.0103268,Ostertag,2014,Forest Structure in Low-Diversity Tropical Forests: A Study of Hawaiian Wet and Dry Forests
 Overman_1994_eorm,10.1017/S0266467400007859,Overman,1994,Evaluation of regression models for above-ground biomass determination in Amazon rainforest
 Ovington_1959_tgac,10.1007/BF01666212,Ovington,1959,The Growth and Composition of Natural Stands of Birch
 Ovington_1970_bacc,NA,Ovington,1970,Biomass and chemical content of El Verde lower montane rain forest plants
@@ -597,6 +602,7 @@ Wang_2001_tiof,10.1046/j.1354-1013.2001.00441.x,Wang,2001,The influence of fire 
 Wang_2003_cdoa,10.1046/j.1365-2486.2003.00645.x,Wang,2003,Carbon distribution of a well- and poorly-drained black spruce fire chronosequence
 Wang_2004_ccfa,10.1093/treephys/24.1.19,Wang,2004,Component carbon fluxes and their contribution to ecosystem carbon exchange in a pine forest: an assessment based on eddy covariance measurements and an integrated model. 
 Wang_2004_nece,10.1016/j.atmosenv.2004.02.071,Wang,2004,"Net ecosystem CO2 exchange over a larch forest in Hokkaido, Japan"
+Wang_2006_baef,10.1016/j.foreco.2005.10.074,Wang,2006,Biomass allometric equations for 10 co-occurring tree species in Chinese temperate forests 
 Wang_2006_sris,10.1111/j.1365-2486.2006.01234.x,Wang,2006,Soil respiration in six temperate forests in China
 Wang_2007_rahc,10.1111/j.1365-2486.2006.01291.x,Wang,2007,Rhizospheric and heterotrophic components of soil respiration in six Chinese temperate forests. 
 Wang_2008_cfat,10.1007/s11676-008-0001-z,Wang,2008,Carbon fluxes and their response to environmental variables in a Dahurian larch forest ecosystem in northeast China
