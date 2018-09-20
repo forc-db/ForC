@@ -79,7 +79,7 @@ Calfapietra_2003_fcef,10.1093/treephys/23.12.805,Calfapietra,2003,Free-air CO2 e
 Campbell_2004_scos,10.1111/j.1365-2486.2004.00850.x,Campbell,2004,Supply-side controls on soil respiration among Oregon forests
 Cannell_1982_wfba,NA,Cannell,1982,World Forest Biomass and Primary Production Data
 CarboEurope-IP_2006_cd,http://gaia.agraria.unitus.it/cpz/login.asp,CarboEurope-IP,2006,CarboEurope-IP database
-Carmona_2002_cwd,10.1016/S0378-1127(01)00602-8,Carmona,2002,"Coarse woody debris biomass in successional and primary temperate forests in Chilo_ Island, Chile"
+Carmona_2002_cwdb,10.1016/S0378-1127(01)00602-8,Carmona,2002,"Coarse woody debris biomass in successional and primary temperate forests in Chilo_ Island, Chile"
 Carrara_2003_nece,10.1016/S0168-1923(03)00120-5,Carrara,2003,Net ecosystem CO2 exchange of mixed forest in Belgium over 5 years
 Carswell_2002_sica,10.1029/2000JD000284,Carswell,2002,Seasonality in CO2 and H2O flux at an eastern Amazonian rain forest
 Chambers_2000_dacc,10.1007/s004420050044,Chambers,2000,Decomposition and carbon cycling of dead trees in tropical forests of the central Amazon
@@ -289,7 +289,7 @@ Kimball_1997_sfpa,10.1093/treephys/17.8-9.589,Kimball,1997,Simulating forest pro
 King_2004_amso,10.1111/j.1529-8817.2003.00789.x,King,2004,A multiyear synthesis of soil respiration responses to elevated atmospheric CO2 from four forest FACE experiments
 King_2005_tocn,10.1111/j.1469-8137.2005.01557.x,King,2005,"Tropospheric O3 compromises net primary production in young stands of trembling aspen, paper birch and sugar maple in response to elevated atmospheric CO2"
 King_2007_bpir,10.1139/x06-217,King,2007,Biomass partitioning in red pine ( Pinus resinosa ) along a chronosequence in the Upper Peninsula of Michigan
-Kira_1978_cano,NA,Kira,1978,"Community architecture and organic matter dynamics in tropical lowland rain forests of Southeast Asia with special reference to Pasoh Forest, West Malaysia "
+Kira_1978_caao,NA,Kira,1978,"Community architecture and organic matter dynamics in tropical lowland rain forests of Southeast Asia with special reference to Pasoh Forest, West Malaysia "
 Kira_1998_ntfk,http://www.daac.ornl.gov,Kira,1998,"NPP Tropical Forest: Khao Chong, Thailand, 1962-1965."
 Klinge_1975_basi,10.1007/978-3-642-88533-4_9,Klinge,1975,Biomass and structure in a Central Amazonian rain forest
 Klinge_1983_pson,10.1007/BF00043025,Klinge,1983,Phytomass structure of natural plant communities on spodosols in southern Venezuela: The tall Amazon Caatinga forest
@@ -584,7 +584,7 @@ Valentini_1996_sncd,10.1111/j.1365-2486.1996.tb00072.x,Valentini,1996,Seasonal n
 Valentini_2000_ratm,10.1038/35009084,Valentini,2000,Respiration as the main determinant of carbon balance in European forests
 van Breugel_2011_ecsi,10.1016/j.foreco.2011.07.018,van Breugel,2011,Estimating carbon stock in secondary forests: decisions and uncertainties associated with allometric biomass models
 Van Pelt_2004_qavc,10.1016/B978-012457553-0/50007-1,Van Pelt,2004,"Quantifying and visualizing canopy structure in tall forests: Methods and a case study. Forest Canopies, eds Lowman MD, Rinker HB (Elsevier Academic, San Diego), pp 49-72."
-Vann_2002_dac,10.1023/A:1016550027991,Vann,2002,"Distribution and cycling of C, N, Ca, Mg, K and P in three pristine, old-growth forests in the Cordillera de Piuchu_, Chile"
+Vann_2002_daco,10.1023/A:1016550027991,Vann,2002,"Distribution and cycling of C, N, Ca, Mg, K and P in three pristine, old-growth forests in the Cordillera de Piuchu_, Chile"
 Vargas_2008_baca,10.1111/j.1365-2486.2007.01462.x,Vargas,2008,Biomass and carbon accumulation in a fire chronosequence of a seasonally dry tropical forest
 Vasconcelos_2004_lpal,10.1890/03-5093,Vasconcelos,2004,Litter production and litter nutrient concentrations in a fragmented Amazonian landscape
 Veenendal_2004_svie,10.1111/j.1365-2486.2003.00699.x,Veenendal,2004,Seasonal variation in energy fluxes and carbon dioxide exchange for a broad-leaved semi-arid savanna (Mopane woodland) in Southern Africa
