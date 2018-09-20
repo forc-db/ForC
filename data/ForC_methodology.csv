@@ -383,3 +383,4 @@ method.ID,method.citation,variable.name,method.category,method.notes
 394,Broadbent_2014_isas,soil_C,,soil cores
 395,Hughes_1999_bcan,soil_C,,Soil samples at 5 depths and surface soils and mineral soils
 448,Meakem_2017_rots,woody.mortality_ag_C,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody mortality as summed biomass of all stems that died divided by census interval"
+450,Johnson_2018_csss,woody.mortality_ag_OM,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries of main stems, calculated woody mortality as summed biomass of all trees that died divided by census interval"

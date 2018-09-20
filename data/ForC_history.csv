@@ -6167,7 +6167,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 ,San Lorenzo CTFS-ForestGEO plot,6-ha plot,5.96,2,NI,9,Disturbance,Harvest,NA,NI,NA,<100%,"has been subject to some logging or clearing activity during the last 150 yr, including that the northern hectare of the plot was obviously cleared recently.",NA,tropical
 ,San Lorenzo CTFS-ForestGEO plot,6-ha plot,5.96,3,1998,7,Disturbance,Drought,NA,NA,NA,4.88,percent mortality refers to stems >=1cm DBH,NA,tropical
 ,Amacayacu CTFS-ForestGEO plot,25-ha plot,25,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,in Amacayacu National Natural Park in the Colombian Amazon ,NA,
-,Bukit Timah CTFS-ForestGEO plots,2-ha primary forest plot,2,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
+,Bukit Timah CTFS-ForestGEO plots,2-ha primary forest plot,2,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,Severely fragmented; core primary forest area ca. 50 ha in good condition; fauna dramatically altered; ,NA,
+,Bukit Timah CTFS-ForestGEO plots,2-ha secondary forest plot,2,1,NAC,9,No.info,NAC,NA,NA,NA,NA,Severely fragmented; core primary forest area ca. 50 ha in good condition; fauna dramatically altered; ,NA,
 ,Cedar Breaks CTFS-ForestGEO plot,13.64-ha plot,13.64,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 ,Changbaishan CTFS-ForestGEO plot,25-ha plot,25,1,1829,8.5,Disturbance,Harvest,NA,NA,NA,NAC,"logging in the area stopped about 180 years ago; the reserve is well protected, but is still affected NTFP collection; ",NA,
 ,Changbaishan CTFS-ForestGEO plot,25-ha plot,25,2,1830,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,"logging in the area stopped about 180 years ago; the reserve is well protected, but is still affected NTFP collection; ",NA,
@@ -6193,7 +6194,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 ,Laupahoehoe CTFS-ForestGEO plot,4-ha plot,4,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 ,Lienhuachih CTFS-ForestGEO plot,25-ha plot,25,1,NAC,9,No.info,NAC,NA,NA,NA,NA,There is a history of aboriginal hunting which was stopped in 19xx??,NA,
 ,Lilly Dickey Woods CTFS-ForestGEO plot,25-ha plot,25,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
-,Luquillo CTFS-ForestGEO plot,16-ha plot,16,1,NAC,9,No.info,NAC,NA,NA,NA,NA,"LFDP has been covered by forest since the 1930ëês; Before then, 1.16 ha of the 16-ha plot was farmed; 9.6 ha was variably clearcut, then allowed to regrow but planted in places with coffee or fruit trees; and 5.24 ha has always been in forest but was selectively logged; a small area (320 m2) was clearcut in the 1960ëês as part of an experiment; the introduction of the black rat and mongoose to the forest is an indirect form of human disturbance.",NA,
+,Luquillo CTFS-ForestGEO plot,16-ha plot,16,1,NAC,9,No.info,NAC,NA,NA,NA,NA,"LFDP has been covered by forest since the 1930‘ês; Before then, 1.16 ha of the 16-ha plot was farmed; 9.6 ha was variably clearcut, then allowed to regrow but planted in places with coffee or fruit trees; and 5.24 ha has always been in forest but was selectively logged; a small area (320 m2) was clearcut in the 1960‘ês as part of an experiment; the introduction of the black rat and mongoose to the forest is an indirect form of human disturbance.",NA,
 ,Manaus CTFS-ForestGEO plot,25-ha plot,25,1,NAC,9,No.info,NAC,NA,NA,NA,NA,the plot sits in one of the primary forest patches of the Biological Dynamics of Forest Fragments Project; hunting pressure due to network of unpaved roads;,NA,
 ,Michigan Big Woods CTFS-ForestGEO plot,20-ha of 23-ha plot,20,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 ,Mpala CTFS-ForestGEO plot,120-ha plot,120,1,NAC,9,No.info,NAC,NA,NA,NA,NA,mixed cattle ranching and wildlife reserve; invasive plant species; ,NA,
@@ -6205,6 +6206,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 ,Rabi CTFS-ForestGEO plot,25-ha plot,25,1,NAC,9,No.info,NAC,NA,NA,NA,NA,Selective logging in the 1920's; seismic exploration in 1980's; well protected inside Shell concession,NA,
 ,Santa Cruz CTFS-ForestGEO plot,6-ha plot (original plot),5.96,1,NAC,9,No.info,NAC,NA,NA,NA,NA,recreation as current local disturbance,NA,
 ,Scotty Creek CTFS-ForestGEO plot,9.6 ha of 21-ha plot,9.6,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
+,Sinharaja CTFS-ForestGEO plot,25-ha plot,25,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,"the Reserve has been impacted by selective logging in the 1970's, but not in the plot; extraction of NTFPs occurs on the margins of the forest",NA,
 ,Smithsonian Environmental Research Center CTFS-ForestGEO plot,16-ha plot,16,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 ,Tyson Research Center CTFS-ForestGEO plot,20.16-ha plot,20.16,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 ,Wabikon CTFS-ForestGEO plot,25.2-ha plot,25.2,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
@@ -6217,4 +6219,4 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 ,Yasuni CTFS-ForestGEO plot,25-ha plot (western half of 50-ha plot),25,3,1990,8,No.disturbance,No disturbance,NA,NA,NA,NA,"In 1995, an archeological survey was carried out on a hilltop near the northwest corner of the study plot; there were ceramic shards just 50 cm below the forest floor, estimated to be roughly 500 to 1000 years old; artifacts may belong to the nomadic Huaorani indian group, who formerly opened small clearings or used natural gaps for plantations of manioc and temporary homesites; a 1-ha area in the southwestern corner of the plot was a heliport used for oil exploration before 1990; the exotic plant Muntingia calabura (Elaeocarpaceae) grows inside the plot; Huaorani and Quichua settlements have appeared near the station resulting in an increase in hunting pressure;",NA,
 ,Yasuni CTFS-ForestGEO plot,25-ha plot (western half of 50-ha plot),25,4,2010,8.5,Management,Other,NA,NA,NA,NA,Huaorani and Quichua settlements have appeared near the station resulting in an increase in hunting pressure;,NA,
 ,Yosemite National Park CTFS-ForestGEO plot,25.6-ha plot,25.6,1,NAC,9,No.info,NAC,NA,NA,NA,NA,see Lutz et al. 2012,NA,
-,Zofin CTFS-ForestGEO plot,25-ha plot,25,,1838,8,,,,,,,under strict protection since 1838,NA,
+,Zofin CTFS-ForestGEO plot,25-ha plot,25,1,1838,8,No.disturbance,No disturbance,NA,NA,NA,NA,under strict protection since 1838,NA,
