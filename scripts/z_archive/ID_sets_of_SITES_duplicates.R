@@ -18,6 +18,7 @@ library(fields)
 
 # Load data ####
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
+MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 
 na_codes <- c("NA", "NI", "NRA", "NaN", "NAC") 
 my_is.na <- function(x) { is.na(x) | x %in% na_codes}
@@ -102,6 +103,12 @@ for(cluster in clusters_with_potential_duplicates) {
     SITES$potential_duplicate_group[clusters %in% cluster] <- 0
     SITES$potential_duplicate_group_parsed[clusters %in% cluster] <- 0
   }
+}
+
+# Add measurement.refs ####
+for(i in 1:nrow(SITES)) {
+  sites.sitename <- SITES$sites.sitename[i]
+  SITES$measurement.refs[i] <- paste(unique(MEASUREMENTS[MEASUREMENTS$sites.sitename %in% sites.sitename, "citation.ID"]), collapse = "; ")
 }
 
 write.csv(SITES, file = "data/ForC_sites.csv", row.names = F)
