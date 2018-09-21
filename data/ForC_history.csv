@@ -5447,9 +5447,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2430.01,Trocha Union 8,unmanaged upland tropical forest,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,2281,tropical
 2431.01,Trounson Forest Reserve,Agathis australis mature forest,0.36,1,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,extratropical
 2432.01,Tucuri,old-growth tropical forest.TUC,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,tropical
-2433.01,Tumbara,NI,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,No information,NA,extratropical
-2434.01,Tumbarumba flux station,mature managed forest,NAC,1,1911,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
-2434.02,Tumbarumba flux station,mature managed forest,NAC,2,NI,9,Disturbance,Harvest,NA,NA,NA,<100%,Over a period of 100 years forest managed for wood production,NA,extratropical
+2434.01,Tumbarumba flux station (AU-Tum),mature managed forest,NAC,1,1911,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,extratropical
+2434.02,Tumbarumba flux station (AU-Tum),mature managed forest,NAC,2,NI,9,Disturbance,Harvest,NA,NA,NA,<100%,Over a period of 100 years forest managed for wood production,NA,extratropical
 2435.01,"Tura, right bank of Kochechum River",Larix gmelinii dominated mixed-age forest,0.1,1,1715,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,1995 minus 280 years,NA,extratropical
 2435.02,"Tura, right bank of Kochechum River",Larix gmelinii dominated mixed-age forest,0.1,2,NI,9,Disturbance,Burned,NA,NA,NA,NAC,age range appears to be caused by differences in past fire regimes (Abaimov et al. 1997),NA,extratropical
 2435.03,"Tura, right bank of Kochechum River",Larix gmelinii dominated mixed-age forest,0.1,3,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,"Ages of these larch trees ranged from 100 to 280 years, indicating no major fire disturbances causing extensive tree recruitment during the last 100 years (Kajimoto unpublished data).",NA,extratropical
@@ -6194,7 +6193,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 ,Laupahoehoe CTFS-ForestGEO plot,4-ha plot,4,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 ,Lienhuachih CTFS-ForestGEO plot,25-ha plot,25,1,NAC,9,No.info,NAC,NA,NA,NA,NA,There is a history of aboriginal hunting which was stopped in 19xx??,NA,
 ,Lilly Dickey Woods CTFS-ForestGEO plot,25-ha plot,25,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
-,Luquillo CTFS-ForestGEO plot,16-ha plot,16,1,NAC,9,No.info,NAC,NA,NA,NA,NA,"LFDP has been covered by forest since the 1930Ôs; Before then, 1.16 ha of the 16-ha plot was farmed; 9.6 ha was variably clearcut, then allowed to regrow but planted in places with coffee or fruit trees; and 5.24 ha has always been in forest but was selectively logged; a small area (320 m2) was clearcut in the 1960Ôs as part of an experiment; the introduction of the black rat and mongoose to the forest is an indirect form of human disturbance.",NA,
+,Luquillo CTFS-ForestGEO plot,16-ha plot,16,1,NAC,9,No.info,NAC,NA,NA,NA,NA,"LFDP has been covered by forest since the 1930ïs; Before then, 1.16 ha of the 16-ha plot was farmed; 9.6 ha was variably clearcut, then allowed to regrow but planted in places with coffee or fruit trees; and 5.24 ha has always been in forest but was selectively logged; a small area (320 m2) was clearcut in the 1960ïs as part of an experiment; the introduction of the black rat and mongoose to the forest is an indirect form of human disturbance.",NA,
 ,Manaus CTFS-ForestGEO plot,25-ha plot,25,1,NAC,9,No.info,NAC,NA,NA,NA,NA,the plot sits in one of the primary forest patches of the Biological Dynamics of Forest Fragments Project; hunting pressure due to network of unpaved roads;,NA,
 ,Michigan Big Woods CTFS-ForestGEO plot,20-ha of 23-ha plot,20,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 ,Mpala CTFS-ForestGEO plot,120-ha plot,120,1,NAC,9,No.info,NAC,NA,NA,NA,NA,mixed cattle ranching and wildlife reserve; invasive plant species; ,NA,
@@ -6203,7 +6202,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 ,Palamanui CTFS-ForestGEO plot,4-ha plot,4,1,NAC,9,No.info,NAC,NA,NA,NA,NA,near pristine condition (has probably never seen a major disturbance),NA,
 ,Palanan CTFS-ForestGEO plot,16-ha plot,16,1,NAC,9,No.info,NAC,NA,NA,NA,NA,"the forest has never been logged, but human impacts include some hunting, some rattan collection, and a few high-value trees have been cut in the area of the plot",NA,
 ,Pasoh CTFS-ForestGEO plot,50-ha plot,50,1,NAC,9,No.info,NAC,NA,NA,NA,NA,the Reserve is surrounded by logging concessions and oil palm plantations; hunting and NTFP extraction at low intensity,NA,
-,Rabi CTFS-ForestGEO plot,25-ha plot,25,1,NAC,9,No.info,NAC,NA,NA,NA,NA,Selective logging in the 1920's; seismic exploration in 1980's; well protected inside Shell concession,NA,
+,Rabi CTFS-ForestGEO plot,25-ha plot,25,1,1925,8.5,Disturbance,Harvest,NA,NA,NA,<100%,Selective logging in the 1920's; seismic exploration in 1980's; well protected inside Shell concession,NA,
+,Rabi CTFS-ForestGEO plot,25-ha plot,25,2,1930,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,Selective logging in the 1920's; seismic exploration in 1980's; well protected inside Shell concession,NA,
 ,Santa Cruz CTFS-ForestGEO plot,6-ha plot (original plot),5.96,1,NAC,9,No.info,NAC,NA,NA,NA,NA,recreation as current local disturbance,NA,
 ,Scotty Creek CTFS-ForestGEO plot,9.6 ha of 21-ha plot,9.6,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
 ,Sinharaja CTFS-ForestGEO plot,25-ha plot,25,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,"the Reserve has been impacted by selective logging in the 1970's, but not in the plot; extraction of NTFPs occurs on the margins of the forest",NA,

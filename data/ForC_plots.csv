@@ -2424,8 +2424,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 2430,Trocha Union 8,unmanaged upland tropical forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 2431,Trounson Forest Reserve,Agathis australis mature forest,0.36,0,NAC,2431.01,Initiation of post-disturbance cohort (natural),NI,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2432,Tucuri,old-growth tropical forest.TUC,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-2433,Tumbara,NI,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
-2434,Tumbarumba flux station,mature managed forest,NAC,2434.01,1911,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2434.02,Harvest,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
+2434,Tumbarumba flux station (AU-Tum),mature managed forest,NAC,2434.01,1911,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2434.02,Harvest,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2435,"Tura, right bank of Kochechum River",Larix gmelinii dominated mixed-age forest,0.1,2435.01,1715,0,NAC,NAC,0,No disturbance,NA,NI,0,0,2435.02,Burned,NAC,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2436,Tura,natural regeneration after fire.Larix gmelinii forest,NAC,2436.03,1899,2436.02,Initiation of post-disturbance cohort (natural),1899,2436.01,Burned,100,1899,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
 2437,Tura,natural regeneration after fire.Larix gmelinii forest C1,NAC,2437.01,1717,0,NAC,NAC,0,NAC,NAC,NAC,0,0,2437.02,Burned,<100%,NI,0,NA,NA,NA,0,0,0,0,0,0,0,extratropical
