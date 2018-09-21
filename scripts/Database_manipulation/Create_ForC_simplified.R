@@ -57,7 +57,8 @@ MEASUREMENTS_no_duplicates <- MEASUREMENTS_no_duplicates[!MEASUREMENTS_no_duplic
 ### Re-organize table ####
 measurements.columns.to.keep <- c("measurement.ID", "sites.sitename", "plot.name", "stand.age", 
                                   "dominant.life.form", "dominant.veg", "variable.name", "date", 
-                                  "start.date", "end.date", "mean", "min.dbh", "citation.ID")
+                                  "start.date", "end.date", "mean", "min.dbh", "citation.ID",
+                                  "required.citations", "ForC.investigator")
 names(MEASUREMENTS_no_duplicates)
 
 MEASUREMENTS_no_duplicates <- MEASUREMENTS_no_duplicates[, measurements.columns.to.keep]
@@ -217,7 +218,7 @@ ForC_simplified$history.no.info <- ifelse(paste(ForC_simplified$sites.sitename, 
 # Order columns ####
 ordered.field <- c("measurement.ID", "sites.sitename", "plot.name", 
                   "stand.age", "dominant.life.form", "dominant.veg", "variable.name", 
-                  "date", "start.date", "end.date", "mean", "min.dbh", "citation.ID",
+                  "date", "start.date", "end.date", "mean", "min.dbh", "citation.ID", "required.citations", "ForC.investigator",
                   "country", "lat", "lon", "masl", "mat", "map", "geographic.area", 
                   "biogeog", "Koeppen", "FAO.ecozone",
                   "plot.area", "year.establishment.oldest.trees", 
