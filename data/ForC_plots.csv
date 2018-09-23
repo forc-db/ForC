@@ -257,7 +257,7 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 256,Bionte T4 B1 SB3,terra firma BNT-06,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 257,Bionte T4 B2 SB1,terra firma BNT-05,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 258,Bionte T4 B4 SB4,terra firma BNT-07,1,0,NAC,0,NAC,NAC,0,No disturbance,NA,1904,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-259,Bisley,Secondary tabonuco forest,0.16,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
+259,Luquillo Experimental Forest: Bisley watersheds 1 and 2 ,Secondary tabonuco forest,0.16,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 260,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,260.03,1982,260.02,Initiation of post-disturbance cohort (natural),1982,260.01,Cut,100,1982,0,0,260.04,Grazed,NI,NI,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 261,Bitagron,mature 'old growth' forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 262,BKK-01a_Boukoko,african tropical forest,8,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
@@ -1460,7 +1460,6 @@ plot.ID,sites.sitename,plot.name,plot.area,establishment.ID,year.establishment.o
 1459,Luquillo 2,unmanaged secondary forest on abandoned cropland,NAC,0,NAC,1459.02,Initiation of post-disturbance cohort (natural),1976,1459.01,Cultivation,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1460,Luquillo 3,"Prestoea montana, tropical palm forest",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1461,Luquillo Experimental Forest,1932 hurricane recovery,NAC,0,NAC,0,NAC,NAC,0,NAC,NAC,NAC,0,0,1461.01,Major storm,<100%,1932,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
-1462,Luquillo Forest Dynamics Plot,mature 'old growth' forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1463,Luquillo,unmanaged,NAC,1463.01,NA,1463.02,Initiation of post-disturbance cohort (natural),1930,0,No disturbance,NA,1930,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1464,LWW-01_Lope West Woods,african tropical forest,1,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
 1465,Madeira River 1,mature 'old growth' forest,NAC,0,NAC,0,NAC,NAC,0,No disturbance,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0,tropical
