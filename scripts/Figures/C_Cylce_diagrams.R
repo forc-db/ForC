@@ -338,7 +338,7 @@ for(b in unique(ForC_biome_averages$Biome)){
   # par(xaxs='i', yaxs='i')
   plot(c(-0.8, 14.5), c(0, 11), type = "n", axes = F, xlab = "", ylab = "", main = b)
   # rasterImage(img, 14, 0, 6, 11)
-  rasterImage(img, -1, 0, 16, 12.8)
+  rasterImage(img, -1, -0.5, 16, 12.3)
   # plot the C cylce values ####
   # abline(v = - 0.8)
   # abline(v = c(0, 14))
