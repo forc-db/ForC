@@ -53,15 +53,15 @@ variable.ID,variable.type,variable.diagram,variable.name,units,conversion.factor
 52,flux,BNPP_coarse,BNPP_root_coarse_C,Mg C ha-1 yr-1,1,"Annual coarse root production, typically determined using allometric equations relating root mass to stem diameter.",NA,Exclude min.dbh >10.  (Do not exclude min.dbh NAC.) ,NA
 53,flux,BNPP_fine,BNPP_root_fine_OM,Mg ha-1 yr-1,0.47,"Annual fine root production, estimated using a variety of methods including minirhizotrons, repeat coring, and ingrowth cores.",NA,NA,NA
 54,flux,BNPP_fine,BNPP_root_fine_C,Mg C ha-1 yr-1,1,"Annual fine root production, estimated using a variety of methods including minirhizotrons, repeat coring, and ingrowth cores.",NA,NA,NA
-55,flux,R_eco,R_eco_C,Mg C ha-1 yr-1,1,"Annual ecosystem respiration,commonly estimated through flux partitioning of eddy covariance. Sign convention: positive.",(1)* R_eco_C = NEE_C - GPP_C; (2) R_eco_C = R_auto_C + R_soil_het_C,NA,NA
+55,flux,R_eco,R_eco_C,Mg C ha-1 yr-1,1,"Annual ecosystem respiration,commonly estimated through flux partitioning of eddy covariance. Sign convention: positive.",(1)* R_eco_C = NEE_C - GPP_C; (2) R_eco_C = R_auto_C + R_het_soil_C,NA,NA
 56,flux,R_eco,R_eco_cum_C,Mg C ha-1 (timestep)-1,1/(timestep),Cumulative ecosystem respiration over a specified time frame (measured using eddy-covariance or gas exchange in a closed chamber). Sign convention: positive.,NEE_cum_C =  R_eco_cum_C - GPP_cum_C,"monitoring period is within 10% of a complete year; i.e., 0.9< [timestep - timestep.rounded.to.nearest.interger] <1.1",NA
 57,flux,R_auto,R_auto_C,Mg C ha-1 yr-1,1,"Annual autotrophic respiration, including above- and belowground components.",R_auto_C =  R_auto_wood_C + R_auto_foliage_C + R_auto_root_C ,NA,NA
 58,flux,NA,R_auto_ag_C,Mg C ha-1 yr-1,1,Annual aboveground autotrophic respiration ,R_auto_ag_C = R_auto_foliage_C + R_auto_wood_C ,NA,NA
 59,flux,NA,R_auto_wood_C,Mg C ha-1 yr-1,1,Annual aboveground respiration of woody stems ,NA,NA,NA
 60,flux,NA,R_auto_foliage_C,Mg C ha-1 yr-1,1,Annual foliar respiration,NA,NA,NA
-61,flux,R_root,R_auto_root_C,Mg C ha-1 yr-1,1,Annual root respiration (all size classes). Note methodology: root gas exchange/ root exclusion/ isotopes,R_soil_C = R_soil_het_C + R_auto_root_C,NA,NA
-62,flux,R_soil_het,R_soil_het_C,Mg C ha-1 yr-1,1,Annual soil heterotrophic respiration,R_soil_C = R_soil_het_C + R_auto_root_C,NA,NA
-63,flux,R_soil,R_soil_C,Mg C ha-1 yr-1,1,Annual soil respiration,R_soil_C = R_soil_het_C + R_auto_root_C,NA,NA
+61,flux,R_root,R_auto_root_C,Mg C ha-1 yr-1,1,Annual root respiration (all size classes). Note methodology: root gas exchange/ root exclusion/ isotopes,R_soil_C = R_het_soil_C + R_auto_root_C,NA,NA
+62,flux,R_het_soil,R_het_soil_C,Mg C ha-1 yr-1,1,Annual soil heterotrophic respiration,R_soil_C = R_het_soil_C + R_auto_root_C,NA,NA
+63,flux,R_soil,R_soil_C,Mg C ha-1 yr-1,1,Annual soil respiration,R_soil_C = R_het_soil_C + R_auto_root_C,NA,NA
 64,stock,NA,total.ecosystem_C,Mg C ha-1,1,"Includes total biomass, deadwood, organic layer, and soil organic C",total.ecosystem_C = biomass_C + deadwood_C + organic.layer_C + soil_C,NA,not mapped- few records
 65,stock,NA,total.ecosystem_2_C,Mg C ha-1,1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",total.ecosystem_2_C = biomass_C + deadwood_C + organic.layer_C ,NA,not mapped- few records
 66,stock,biomass,biomass_OM,Mg ha-1,0.47,Total live biomass.,biomass_OM = biomass_ag_OM + biomass_root_OM,Exclude min.dbh >10.  (Do not exclude min.dbh NAC.) ,"Biomass must include trees 10cm DBH+. May include trees <10cm DBH, understory, and lianas."
