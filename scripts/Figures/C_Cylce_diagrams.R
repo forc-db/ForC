@@ -19,6 +19,9 @@ setwd(".")
 library(png)
 library(shape)
 
+# set some parameters ####
+save.plot <- TRUE
+
 # Load data ####
 ForC_biome_averages <- read.csv("numbers_and_facts/ForC_variable_averages_per_Biome.csv", stringsAsFactors = F)
 # ForC_biome_averages$Biome <- gsub("=", "\u2265",ForC_biome_averages$Biome)
@@ -29,14 +32,14 @@ source("scripts/Figures/my.arrows.R")
 
 
 # Load picture table ####
-img.Tropical_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/tropical_broadleaf_mature.png")
-img.Tropical_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/tropical_broadleaf_young.png")
-img.Temperate_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_mature.png")
-img.Temperate_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_young.png")
-img.Temperate_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_conifer_mature.png")
-img.Temperate_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/Temperate_conifer_young.png")
-img.Boreal_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/boreal_mature.png")
-img.Boreal_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/boreal_young.png")
+img.Tropical_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/tropical_broadleaf_mature.png")
+img.Tropical_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/tropical_broadleaf_young.png")
+img.Temperate_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/temperate_broadleaf_mature.png")
+img.Temperate_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/temperate_broadleaf_young.png")
+img.Temperate_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/temperate_conifer_mature.png")
+img.Temperate_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/temperate_conifer_young.png")
+img.Boreal_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/boreal_mature.png")
+img.Boreal_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/boreal_young.png")
 
 
 # Prepare list of variables and their relevant attributes ####
@@ -125,8 +128,8 @@ variables <- list(NEE = list(variable.type = "flux", #####
                                        x.adjust = 1.2,
                                        move.text.box = "null",
                                        need.semi.transparent.box = TRUE),
-                  R_ag_het = list(variable.type = "flux",
-                                  variable.name  = expression(bold("R"[ag-het])),
+                  R_het_ag = list(variable.type = "flux",
+                                  variable.name  = expression(bold("R"[het_ag])),
                                   mean = NA,
                                   n.areas = NA,
                                   coordinates = list(x0 = 4.2, y0 = 8.2, x1 = 6.8, y1 = 8.3),
@@ -215,15 +218,15 @@ variables <- list(NEE = list(variable.type = "flux", #####
                                     x.adjust = 0,
                                     move.text.box = "null",
                                     need.semi.transparent.box = TRUE),
-                  R_cwd = list(variable.type = "flux",
-                               variable.name  = expression(bold("R"[cwd])),
-                               mean = NA,
-                               n.areas = NA,
-                               coordinates = list(x0 = 7, y0 = 2, x1 = 7.3, y1 = 7.9),
-                               y.adjust = -1.5,
-                               x.adjust = 0.3,
-                               move.text.box = "null",
-                               need.semi.transparent.box = TRUE),
+                  # R_cwd = list(variable.type = "flux",
+                  #              variable.name  = expression(bold("R"[cwd])),
+                  #              mean = NA,
+                  #              n.areas = NA,
+                  #              coordinates = list(x0 = 7, y0 = 2, x1 = 7.3, y1 = 7.9),
+                  #              y.adjust = -1.5,
+                  #              x.adjust = 0.3,
+                  #              move.text.box = "null",
+                  #              need.semi.transparent.box = TRUE),
                   R_het = list(variable.type = "flux",
                                variable.name  = expression(bold("R"[het])),
                                mean = NA,
@@ -327,13 +330,15 @@ for(b in unique(ForC_biome_averages$Biome)){
   flux.equations.to.right.at.the.bottom <- NULL # equation.nb <- 0
   stock.equations.to.right.at.the.bottom <- NULL
   
-  tiff(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".tiff"), width =  2625, height = 2250, units = "px", res = 300)
+  if(save.plot) {
+    tiff(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".tiff"), width =  2625, height = 2250, units = "px", res = 300)
+    op <- par(mar = c(1,1,1,1), pin = c(15.3 * 0.53, 11 * 0.53)) #  pty = "s") # 
+  }
   
-  op <- par(mar = c(1,1,1,1), pin = c(15.3 * 0.53, 11 * 0.53)) #  pty = "s") # 
   # par(xaxs='i', yaxs='i')
   plot(c(-0.8, 14.5), c(0, 11), type = "n", axes = F, xlab = "", ylab = "", main = b)
   # rasterImage(img, 14, 0, 6, 11)
-  rasterImage(img, 0, 0, 14, 11)
+  rasterImage(img, -1, 0, 16, 12.8)
   # plot the C cylce values ####
   # abline(v = - 0.8)
   # abline(v = c(0, 14))
@@ -353,7 +358,7 @@ for(b in unique(ForC_biome_averages$Biome)){
   segments(x0 = c(11.4, 11.9, 11.9), y0 = c(6.4, 6.4, 9.25), x1 = c(11.9, 11.9, 11.4) , y1 = c(6.4, 9.25, 9.25), col = "black")
   
   ## Draw and fill in the stock and flux variables ####
-  for(v in names(variables)){
+  for(v in names(variables)) {
     
     # GET VARIABLE INFO
     
@@ -512,13 +517,13 @@ for(b in unique(ForC_biome_averages$Biome)){
       if(!is.na(X$equation)){
         if(need.to.remove.equation) {
           if(grepl("flux", variable.type)) {
-            text.main <- c(paste0("eq (", length(flux.equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
-          mtext.text <-  paste0("eq (", length(flux.equations.to.right.at.the.bottom), "): ", X$equation)
+            text.main <- c(paste0("eq (F", length(flux.equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
+          mtext.text <-  paste0("eq (F", length(flux.equations.to.right.at.the.bottom), "): ", X$equation)
           }
           
           if(grepl("stock", variable.type)) {
-            text.main <- c(paste0("eq (", length(stock.equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
-            mtext.text <-  paste0("eq (", length(stock.equations.to.right.at.the.bottom), "): ", X$equation)
+            text.main <- c(paste0("eq (S", length(stock.equations.to.right.at.the.bottom), ")"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
+            mtext.text <-  paste0("eq (S", length(stock.equations.to.right.at.the.bottom), "): ", X$equation)
           }
           
         }
@@ -543,15 +548,16 @@ for(b in unique(ForC_biome_averages$Biome)){
       # }
     }
     
-  }
+    # readline(paste(v, "- press [enter]"))
+  } #  for(v in names(variables))
   
   # add equations if any
   if(length(flux.equations.to.right.at.the.bottom > 0)) {
-      mtext(side = 1, text = paste0("eq (", 1:length(flux.equations.to.right.at.the.bottom), "): ", flux.equations.to.right.at.the.bottom), line = - (c(length(flux.equations.to.right.at.the.bottom):1)-1) * 0.5, adj = 0.03, cex = 0.5)
+      mtext(side = 1, text = paste0("eq (F", 1:length(flux.equations.to.right.at.the.bottom), "): ", flux.equations.to.right.at.the.bottom), line = - (c(length(flux.equations.to.right.at.the.bottom):1)-1) * 0.5, adj = 0.03, cex = 0.7)
   }
   
   if(length(stock.equations.to.right.at.the.bottom > 0)) {
-    mtext(side = 1, text = paste0("eq (", 1:length(stock.equations.to.right.at.the.bottom), "): ", stock.equations.to.right.at.the.bottom), line = - (c(length(stock.equations.to.right.at.the.bottom):1)-1) * 0.5, adj = 0.97, cex = 0.5)
+    mtext(side = 1, text = paste0("eq (S", 1:length(stock.equations.to.right.at.the.bottom), "): ", stock.equations.to.right.at.the.bottom), line = - (c(length(stock.equations.to.right.at.the.bottom):1)-1) * 0.5, adj = 0.97, cex = 0.7)
   }
   
   
@@ -562,9 +568,12 @@ for(b in unique(ForC_biome_averages$Biome)){
   
   legend(x = 13, y = 10.5, title = expression(bold("Variable name")), legend = legend.txt, cex = 0.5,  xjust = 0.5, yjust = 0.3)
   
-  par(op)
   
-  dev.off()
+  
+  if(save.plot){
+    par(op)
+    dev.off()
+  } 
   
 }
 
