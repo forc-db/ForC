@@ -202,37 +202,19 @@ for(response.v in response.variables) {
 for( fig in c("Figure6", "Figure7")) {
   
 
+  tiff(file = paste0("figures/age_trends/for_manuscript/", fig, ".tiff"), height = 1000, width = 1000, units = "px", res = 150)
   
   ### layout figure
+  nf <- layout(matrix(c(1,1,4,4,
+                        2,3,5,6,
+                        7,7,10,10,
+                        8,9,11,12,
+                        13,13,16,16,
+                        14,15,17,18), ncol = 4, byrow = T), heights = rep(c(1,2),3), widths = rep(c(4,1),2))
   
-  # if (fig %in% "Figure6") {
-    
-    tiff(file = paste0("figures/age_trends/for_manuscript/", fig, ".tiff"), height = 1000, width = 1000, units = "px", res = 150)
-    
-    
-    nf <- layout(matrix(c(1,1,4,4,
-                          2,3,5,6,
-                          7,7,10,10,
-                          8,9,11,12,
-                          13,13,16,16,
-                          14,15,17,18), ncol = 4, byrow = T), heights = rep(c(1,2),3), widths = rep(c(4,1),2))
-    
-    if (fig %in% "Figure6") variables.of.interest <- c("GPP", "NPP", "ANPP", "R_soil", "R_eco", "NEE")
-    if (fig %in% "Figure7")  variables.of.interest <- c("biomass_ag", "biomass_ag_foliage", "biomass_root_fine", "deadwood")
-
-  # }
-  # if(fig %in% "Figure7") {
-  #   
-  # tiff(file = paste0("figures/age_trends/for_manuscript/", fig, ".tiff"), height = 800, width = 1000, units = "px", res = 150)
-  #   
-  #   nf <- layout(matrix(c(1,1,4,4,
-  #                         2,3,5,6,
-  #                         7,7,10,10,
-  #                         8,9,11,12), ncol = 4, byrow = T), heights = rep(c(1,2),2), widths = rep(c(4,1),2))
-  # variables.of.interest <- c("biomass_ag", "biomass_ag_foliage", "biomass_root_fine", "deadwood")
-  # }
-  
-  
+  if (fig %in% "Figure6") variables.of.interest <- c("GPP", "NPP", "ANPP", "R_soil", "R_eco", "NEE")
+  if (fig %in% "Figure7")  variables.of.interest <- c("biomass_ag", "biomass_ag_foliage", "biomass_root_fine", "deadwood")
+ 
   
   for(response.v in variables.of.interest) {
     print(response.v)
@@ -303,7 +285,11 @@ for( fig in c("Figure6", "Figure7")) {
     
     ### Plot young 
     par(mar = c(5.1,4.1,0,0))
-    plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = "", log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
+    plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = "", log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1, yaxt = "n")
+    
+    if(!right.skewed.response) axis(2, las = 1)
+    if(right.skewed.response) axis(2, at = c(0.1, 1, 10, 100, 1000), labels =  c("0.1", "1", "10", expression(10^{2}), expression(10^{3})), las = 1) # dput(paste0("expression(10^{", seq(-1, 3), "})"))
+    
     
     for(b in levels(df$Biome)){
       y <- fit[newDat$Biome %in% b]
@@ -334,7 +320,3 @@ for( fig in c("Figure6", "Figure7")) {
   
 } # for( fig in c("Figure6", "Figure7"))
      
-
-
-
-
