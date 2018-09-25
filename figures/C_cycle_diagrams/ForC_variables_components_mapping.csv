@@ -20,7 +20,7 @@ R_auto,NA
 R_auto_ag,NA
 R_root,NA
 R_het_soil,NA
-R_soil,R_auto + R_het_soil
+R_soil,R_root + R_het_soil
 biomass,biomass_ag + biomass_root
 biomass_ag,biomass_foliage + biomass_ag_woody
 biomass_ag_woody,NA

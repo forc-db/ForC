@@ -1,4 +1,4 @@
-"Biome","variable.diagram","mean","std","equation","possible.components","sum.of.components","test","lack.of.closure"
+"Biome","variable.diagram","mean","std","equation","components.with.sufficient.data","sum.of.components","test","lack.of.closure"
 "Tropical broadleaf MATURE","NEE",-0.91,1.9,"R_eco - GPP","R_eco; GPP",-1.71,"equal",0
 "Tropical broadleaf MATURE","GPP",31.47,5.56,"NPP + R_auto_ag","NPP",10.26,"smaller",0
 "Tropical broadleaf MATURE","NPP",10.26,2.58,"ANPP + BNPP","ANPP; BNPP",10.25,"equal",0
@@ -20,7 +20,7 @@
 "Tropical broadleaf MATURE","R_auto_ag",20.58,3.27,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","R_root",20.58,3.27,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","R_het_soil",8.85,2.22,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","R_soil",13.92,4.3,"R_auto + R_het_soil","R_auto; R_het_soil",29.43,"greater",1
+"Tropical broadleaf MATURE","R_soil",13.92,4.3,"R_root + R_het_soil","R_het_soil",8.85,"smaller",0
 "Tropical broadleaf MATURE","biomass",165.05,65.69,"biomass_ag + biomass_root","biomass_ag; biomass_root",184.06,"equal",0
 "Tropical broadleaf MATURE","biomass_ag",162.54,64.93,"biomass_foliage + biomass_ag_woody","",0,"smaller",0
 "Tropical broadleaf MATURE","biomass_ag_woody",162.54,64.93,NA,"",NA,NA,NA
@@ -53,7 +53,7 @@
 "Tropical broadleaf YOUNG","R_auto_ag",5.08,6.67,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","R_root",5.08,6.67,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","R_het_soil",5.08,6.67,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","R_soil",5.08,6.67,"R_auto + R_het_soil","",NA,NA,NA
+"Tropical broadleaf YOUNG","R_soil",5.08,6.67,"R_root + R_het_soil","",NA,NA,NA
 "Tropical broadleaf YOUNG","biomass",66.93,72.85,"biomass_ag + biomass_root","biomass_ag; biomass_root",56.47,"equal",0
 "Tropical broadleaf YOUNG","biomass_ag",44.29,38.86,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",55.17,"equal",0
 "Tropical broadleaf YOUNG","biomass_ag_woody",51.36,23.92,NA,"",NA,NA,NA
@@ -86,7 +86,7 @@
 "Temperate broadleaf MATURE","R_auto_ag",1.7,1.27,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","R_root",1.7,1.27,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","R_het_soil",1.7,1.27,NA,"",NA,NA,NA
-"Temperate broadleaf MATURE","R_soil",1.7,1.27,"R_auto + R_het_soil","",NA,NA,NA
+"Temperate broadleaf MATURE","R_soil",1.7,1.27,"R_root + R_het_soil","",NA,NA,NA
 "Temperate broadleaf MATURE","biomass",137.87,57.04,"biomass_ag + biomass_root","biomass_ag; biomass_root",162.47,"equal",0
 "Temperate broadleaf MATURE","biomass_ag",135.28,122.45,"biomass_foliage + biomass_ag_woody","",0,"smaller",0
 "Temperate broadleaf MATURE","biomass_ag_woody",135.28,122.45,NA,"",NA,NA,NA
@@ -119,7 +119,7 @@
 "Temperate broadleaf YOUNG","R_auto_ag",12.02,3.65,NA,"",NA,NA,NA
 "Temperate broadleaf YOUNG","R_root",12.02,3.65,NA,"",NA,NA,NA
 "Temperate broadleaf YOUNG","R_het_soil",12.02,3.65,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","R_soil",9.13,3.13,"R_auto + R_het_soil","",0,"smaller",0
+"Temperate broadleaf YOUNG","R_soil",9.13,3.13,"R_root + R_het_soil","",0,"smaller",0
 "Temperate broadleaf YOUNG","biomass",114.85,58.15,"biomass_ag + biomass_root","biomass_ag; biomass_root",99.44,"equal",0
 "Temperate broadleaf YOUNG","biomass_ag",75.49,49.08,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",62.92,"equal",0
 "Temperate broadleaf YOUNG","biomass_ag_woody",60.99,44.36,NA,"",NA,NA,NA
@@ -152,7 +152,7 @@
 "Temperate conifer MATURE","R_auto_ag",0.85,0.47,NA,"",NA,NA,NA
 "Temperate conifer MATURE","R_root",0.85,0.47,NA,"",NA,NA,NA
 "Temperate conifer MATURE","R_het_soil",0.85,0.47,NA,"",NA,NA,NA
-"Temperate conifer MATURE","R_soil",0.85,0.47,"R_auto + R_het_soil","",NA,NA,NA
+"Temperate conifer MATURE","R_soil",0.85,0.47,"R_root + R_het_soil","",NA,NA,NA
 "Temperate conifer MATURE","biomass",148,93.89,"biomass_ag + biomass_root","biomass_ag; biomass_root",175.78,"equal",0
 "Temperate conifer MATURE","biomass_ag",149.86,129.84,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",378.48,"greater",1
 "Temperate conifer MATURE","biomass_ag_woody",369.91,152.09,NA,"",NA,NA,NA
@@ -185,7 +185,7 @@
 "Temperate conifer YOUNG","R_auto_ag",10.72,3.57,NA,"",NA,NA,NA
 "Temperate conifer YOUNG","R_root",10.72,3.57,NA,"",NA,NA,NA
 "Temperate conifer YOUNG","R_het_soil",3.89,1.06,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","R_soil",10.64,5.61,"R_auto + R_het_soil","R_het_soil",3.89,"smaller",0
+"Temperate conifer YOUNG","R_soil",10.64,5.61,"R_root + R_het_soil","R_het_soil",3.89,"smaller",0
 "Temperate conifer YOUNG","biomass",92.01,68.44,"biomass_ag + biomass_root","biomass_ag; biomass_root",94.58,"equal",0
 "Temperate conifer YOUNG","biomass_ag",77.11,76.04,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",82.11,"equal",0
 "Temperate conifer YOUNG","biomass_ag_woody",77.27,122.79,NA,"",NA,NA,NA
@@ -218,7 +218,7 @@
 "Boreal conifer MATURE","R_auto_ag",0.84,0.61,NA,"",NA,NA,NA
 "Boreal conifer MATURE","R_root",0.84,0.61,NA,"",NA,NA,NA
 "Boreal conifer MATURE","R_het_soil",0.84,0.61,NA,"",NA,NA,NA
-"Boreal conifer MATURE","R_soil",0.84,0.61,"R_auto + R_het_soil","",NA,NA,NA
+"Boreal conifer MATURE","R_soil",0.84,0.61,"R_root + R_het_soil","",NA,NA,NA
 "Boreal conifer MATURE","biomass",100.36,59.88,"biomass_ag + biomass_root","biomass_ag; biomass_root",88.4,"equal",0
 "Boreal conifer MATURE","biomass_ag",70.14,58.58,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",54.81,"equal",0
 "Boreal conifer MATURE","biomass_ag_woody",51.66,28.99,NA,"",NA,NA,NA
@@ -251,7 +251,7 @@
 "Boreal conifer YOUNG","R_auto_ag",5.98,1.84,NA,"",NA,NA,NA
 "Boreal conifer YOUNG","R_root",5.98,1.84,NA,"",NA,NA,NA
 "Boreal conifer YOUNG","R_het_soil",5.98,1.84,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","R_soil",5.98,1.84,"R_auto + R_het_soil","",NA,NA,NA
+"Boreal conifer YOUNG","R_soil",5.98,1.84,"R_root + R_het_soil","",NA,NA,NA
 "Boreal conifer YOUNG","biomass",59.9,34.42,"biomass_ag + biomass_root","biomass_ag; biomass_root",66.9,"equal",0
 "Boreal conifer YOUNG","biomass_ag",53.67,24.96,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",38.28,"equal",0
 "Boreal conifer YOUNG","biomass_ag_woody",35.98,34.32,NA,"",NA,NA,NA

@@ -83,7 +83,7 @@ for(b in unique(ForC_biome_averages$Biome)) {
         std = y$std,
         equation = eq_th,
         # theoritical.components = paste(eq_comp_th, collapse = "; "),
-        possible.components = paste(eq_comp, collapse = "; "),
+        components.with.sufficient.data = paste(eq_comp, collapse = "; "),
         sum.of.components,
         test,
         lack.of.closure
