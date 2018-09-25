@@ -1,0 +1,34 @@
+variable.name,theoritical.components.equation
+NEE,R_eco - GPP
+GPP,NPP + R_auto_ag
+NPP,ANPP + BNPP
+ANPP,ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory
+ANPP_woody,ANPP_branch + ANPP_stem
+ANPP_stem,woody.mortality
+ANPP_branch,NA
+ANPP_foliage,NA
+ANPP_litterfall,ANPP_foliage + ANPP_branch + ANPP_repro
+ANPP_repro,NA
+ANPP_folivory,NA
+woody.mortality,NA
+delta.agb,NA
+BNPP,BNPP_coarse + BNPP_fine
+BNPP_coarse,NA
+BNPP_fine,NA
+R_eco,NA
+R_auto,NA
+R_auto_ag,NA
+R_root,NA
+R_het_soil,NA
+R_soil,R_auto + R_het_soil
+biomass,biomass_ag + biomass_root
+biomass_ag,biomass_foliage + biomass_ag_woody
+biomass_ag_woody,NA
+biomass_foliage,NA
+biomass_root,biomass_root_coarse + biomass_root_fine
+biomass_root_coarse,NA
+biomass_root_fine,NA
+deadwood,deadwood_standing + deadwood_down
+deadwood_standing,NA
+deadwood_down,NA
+organic.layer,NA
