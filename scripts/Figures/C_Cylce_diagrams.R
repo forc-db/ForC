@@ -32,14 +32,14 @@ source("scripts/Figures/my.arrows.R")
 
 
 # Load picture table ####
-img.Tropical_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/tropical_broadleaf_mature.png")
-img.Tropical_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/tropical_broadleaf_young.png")
-img.Temperate_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/temperate_broadleaf_mature.png")
-img.Temperate_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/temperate_broadleaf_young.png")
-img.Temperate_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/temperate_conifer_mature.png")
-img.Temperate_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/temperate_conifer_young.png")
-img.Boreal_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/boreal_mature.png")
-img.Boreal_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/backup/boreal_young.png")
+img.Tropical_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/tropical_broadleaf_mature.png")
+img.Tropical_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/tropical_broadleaf_young.png")
+img.Temperate_broadleaf_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_mature.png")
+img.Temperate_broadleaf_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_broadleaf_young.png")
+img.Temperate_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_conifer_mature.png")
+img.Temperate_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/temperate_conifer_young.png")
+img.Boreal_conifer_MATURE <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/boreal_mature.png")
+img.Boreal_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest paintings/boreal_young.png")
 
 
 # Prepare list of variables and their relevant attributes ####
@@ -338,10 +338,10 @@ for(b in unique(ForC_biome_averages$Biome)){
   # par(xaxs='i', yaxs='i')
   plot(c(-0.8, 14.5), c(0, 11), type = "n", axes = F, xlab = "", ylab = "", main = b)
   # rasterImage(img, 14, 0, 6, 11)
-  rasterImage(img, -1, -0.5, 16, 12.3)
+  rasterImage(img, -1, 0, 15, 11)
   # plot the C cylce values ####
-  # abline(v = - 0.8)
-  # abline(v = c(0, 14))
+  # abline(v = - 1)
+  # abline(v = 15)
   # abline(h = c(0, 11))
   ## Put segments that link stocks (need to do first so that it is in the back) ####
   
