@@ -312,7 +312,7 @@ for( fig in c("Figure6", "Figure7")) {
       
     }
     
-    # mtext(side = 2, bquote(.(response.v) ~ " (Mg C " ~ ha^{-1}~")"), cex = 0.65, line = 2)
+    mtext(side = 2, bquote(.(response.v) ~ " (Mg C " ~ ha^{-1}~")"), cex = 0.65, line = 2)
     mtext(side = 3, line = -1, adj = 0.03, text = paste("n =", nrow(df.young)), cex = 0.5)
     
     ## boxplot mature
