@@ -62,7 +62,7 @@ for(b in unique(ForC_biome_averages$Biome)) {
                      ifelse(sum.of.components < (y$mean - y$std), "smaller", "equal")
                      )
       
-      lack.of.closure <- ifelse((!all(eq_comp_th %in% eq_comp) & !test %in% "smaller") | (all(eq_comp_th %in% eq_comp) & !test %in% "equal"), 1, 0)
+      lack.of.closure <- ifelse((!all(eq_comp_th %in% eq_comp) & test %in% "greater") | (all(eq_comp_th %in% eq_comp) & !test %in% "equal"), 1, 0)
       lack.of.closure <- ifelse(is.na(test), NA, lack.of.closure)
       
     } #  if(X[X$variable.diagram %in% v, ]$n.areas >= 7) 

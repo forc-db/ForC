@@ -90,9 +90,9 @@ color.biome <- c( "red", "green", "blue", "cyan2")
 Continents <- crop(Continents, extent(-180, 180, -43, 73))
 
 ## prepare variables that need to be grouped
-ForC_simplified[ForC_simplified $variable.name %in% c("NPP_1", "NPP_2", "NPP_3",  "NPP_4", "NPP_5"),]$variable.name <- "NPP"
-ForC_simplified[ForC_simplified $variable.name %in% c("ANPP_0", "ANPP_1", "ANPP_2"),]$variable.name <- "ANPP"
-ForC_simplified[ForC_simplified $variable.name %in% c("ANPP_litterfall_1", "ANPP_litterfall_2", "ANPP_litterfall_0"),]$variable.name <- "ANPP_litterfall"
+ForC_simplified[ForC_simplified$variable.name %in% c("NPP_1", "NPP_2", "NPP_3",  "NPP_4", "NPP_5"),]$variable.name <- "NPP"
+ForC_simplified[ForC_simplified$variable.name %in% c("ANPP_0", "ANPP_1", "ANPP_2"),]$variable.name <- "ANPP"
+ForC_simplified[ForC_simplified$variable.name %in% c("ANPP_litterfall_1", "ANPP_litterfall_2", "ANPP_litterfall_0"),]$variable.name <- "ANPP_litterfall"
 
 #### multiply NEP  by -1 anc consider is as NEE
 ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$mean <- -ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$mean 
@@ -172,7 +172,7 @@ for(response.v in response.variables) {
   
   ### Plot young 
   par(mar = c(5.1,4.1,0,0))
-  plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = bquote(.(response.v) ~ " (Mg C " ~ ha^{-1}~")"), log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L")
+  plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = bquote(.(response.v) ~ " (Mg C " ~ ha^{-1}~")"), log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
   
   for(b in levels(df$Biome)){
     y <- fit[newDat$Biome %in% b]
@@ -197,179 +197,110 @@ for(response.v in response.variables) {
   dev.off()
 }
 
+# Figure 6 ####
+tiff(file = paste0("figures/age_trends/For_manuscript/Figure6.tiff"), height = 800, width = 1000, units = "px", res = 150)
+
+### layout figure
+nf <- layout(matrix(c(1,1,4,4,
+                2,3,5,6,
+                7,7,10,10,
+                8,9,11,12,
+                13,13,16,16,
+                14,15,17,18), ncol = 4, byrow = T), heights = rep(c(1,2),3), widths = rep(c(5,1),2))
+
+layout.show(nf)
 
 
-### ~~~~~~~~~~~~~~~~~ OTHER STUFF FROM BEFORE ~~~~ ##############
+for(response.v in c("GPP", "NPP", "ANPP", "R_soil", "R_eco", "NEE")) {
+  print(response.v)
+  
+  # right.skewed.response <- response.v %in% right.skewed_response.variables
+  
+  ### data
+  df <- ForC_simplified[ForC_simplified$variable.name %in% response.v, ]
+  df.mature <- df[df$stand.age >= 100, ]
+  df.young <- df[df$stand.age < 100 & df$stand.age != 0,]  # removing 0 because we are taking the log. Removes 28 recorsd
+  
+  right.skewed.response <- skewness(df.young$mean) > 2 & all(df.young$mean > 0)
+  
+  ### ylim
+  ylim = range(df$mean)
+  
+  ### model young
+  
+  mod.young <- lmer(mean ~ log10(stand.age) + Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
+  drop1.result <- drop1(mod.young, k = log(nrow(df.young)))
+  age.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
+  
+  at.least.10.different.ages.in.each.Biome <- all(tapply(droplevels(df.young)$stand.age, droplevels(df.young)$Biome, function(x) length(x)>=10))
+  
+  if(age.significant & at.least.10.different.ages.in.each.Biome)   mod.young <- lmer(mean ~ log10(stand.age) * Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
+  
+  # mod.without.age <- lmer(mean ~ Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
+  # age.significant <- anova(mod.without.age, mod)$"Pr(>Chisq)"[2] < 0.05
+  
+  newDat <- expand.grid(stand.age = 10^seq(min(log10(df.young$stand.age))+0.01, max(log10(df.young$stand.age)), length.out = 100), Biome = levels(droplevels(df.young$Biome)))
+  
+  
+  fit <- predict(mod.young, newDat, re.form =  NA)
+  
+  ### model mature
+  
+  mod.mature <- try(lmer(mean ~ Biome + (1|geographic.area/plot.name), data = droplevels(df.mature)), silent = T)
+  
+  if(!class(mod.mature) %in% "try-error"){
+    drop1.result <- drop1(mod.mature, k = log(nrow(df.mature)))
+    biome.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
+    
+    if(biome.significant) { # do pairwise comparison
+      pairwise.comp <- glht(mod.mature, linfct = mcp(Biome = "Tukey"))
+      pairwise.comp.letter.grouping <- cld(pairwise.comp) 
+    }
+  }
+  
+  ### plot
+ 
+  ### layout figure
+  # layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,2), widths = c(5,1))
+  
+  ### MAP plot all sites ? (even mature?)
+  par(mar = c(0,0,0,0))
+  plot(Continents, col = "grey", border = "grey")
+  
+  sites <- df.young[, c("lat", "lon", "Biome")]
+  coordinates(sites) <- c("lon", "lat")
+  points(sites, col = color.biome[df.young$Biome], pch = 4)
+  
+  sites <- df.mature[, c("lat", "lon", "Biome")]
+  coordinates(sites) <- c("lon", "lat")
+  points(sites, col = color.biome[df.mature$Biome], pch = 1)
+  
+  ### Plot young 
+  par(mar = c(5.1,4.1,0,0))
+  plot(mean ~ stand.age, data = df.young, col = color.biome[df.young$Biome], xlab = "Age (years - log scaled)", ylab = bquote(.(response.v) ~ " (Mg C " ~ ha^{-1}~")"), log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
+  
+  for(b in levels(df$Biome)){
+    y <- fit[newDat$Biome %in% b]
+    x <- newDat[newDat$Biome %in% b, ]$stand.age
+    lines(y ~ x, col = color.biome[levels(df$Biome) %in% b], lty = ifelse(age.significant, 1, 2))
+    
+  }
+  
+  mtext(side = 3, line = -1, adj = 0.03, text = paste("n =", nrow(df.young)), cex = 0.5)
+  
+  ## boxplot mature
+  par(mar = c(5.1,0,0,0))
+  boxplot(mean ~ Biome, data = droplevels(df.mature), ylim = ylim, axes = F, xlab = "Mature Forest", col = color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], outcol =color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], log = ifelse(right.skewed.response, "y", ""))
+  
+  if(biome.significant & !class(mod.mature) %in% "try-error") { # do pairwise comparison
+    text(x = c(1:length(unique(droplevels(df.mature)$Biome))), y = max(df.mature$mean) + diff(ylim)/50, pairwise.comp.letter.grouping$mcletters$Letters)
+  }
+  
+  mtext(side = 1, line = -1, adj = 0.03, text = paste("n =", nrow(df.mature)), cex = 0.5)
+  
+  Sys.sleep(time = 1) # this is to avoid a problem when NEE is launch while R_eco has not been plotted yet. The NEE was tkaing R_eco's place
 
-# ## NPP - Age not significant####
-# 
-# ### data
-# df <- droplevels(ForC_simplified[ForC_simplified$variable.name %in% c("NPP_1", "NPP_2", "NPP_3" ,"NPP_4", "NPP_5" ), ])
-# 
-# ### model
-# mod <- lmer(mean ~ stand.age + Biome + (1|geographic.area/plot.name), data = df)
-# drop1(mod, k = log(nrow(df)))
-# 
-# newDat <- expand.grid(stand.age = seq(min(df$stand.age)+0.01, max(df$stand.age), length.out = 100), Biome = levels(df$Biome))
-# 
-# fit <- predict(mod, newDat, re.form =  NA)
-# 
-# ### layout figure
-# layout(matrix(c(1,2), ncol = 1), heights = c(1,2))
-# 
-# ### MAP
-# par(mar = c(0,0,0,0))
-# sites <- df[, c("lat", "lon", "Biome")]
-# coordinates(sites) <- c("lon", "lat")
-# plot(Continents, col = "grey", border = "grey")
-# points(sites, col = color.biome[df$Biome], pch = 4)
-# 
-# ### Plot
-# par(mar = c(5.1,4.1,0,2.1))
-# plot(mean ~ stand.age, data = df, col = color.biome[df$Biome], xlab = "Age (years - log scaled)", ylab = expression("NPP (Mg C " ~ ha^{-1}~")"), log = "x", ylim = ylim)
-# 
-# for(b in levels(df$Biome)){
-#   y <- fit[newDat$Biome %in% b]
-#   x <- newDat[newDat$Biome %in% b, ]$stand.age
-#   lines(y ~ x, col = color.biome[levels(df$Biome) %in% b])
-#   
-# }
-# 
-# ## ANPP - Age and Biome not significant####
-# 
-# ### data
-# df <- droplevels(ForC_simplified[ForC_simplified$variable.name %in% c("ANPP_0" ,"ANPP_1", "ANPP_2"), ])
-# 
-# ### model
-# mod <- lmer(mean ~ stand.age + Biome + (1|geographic.area/plot.name), data = df)
-# drop1(mod, k = log(nrow(df)))
-# 
-# newDat <- expand.grid(stand.age = seq(min(df$stand.age)+0.01, max(df$stand.age), length.out = 100), Biome = levels(df$Biome))
-# 
-# fit <- predict(mod, newDat, re.form =  NA)
-# 
-# ### layout figure
-# layout(matrix(c(1,2), ncol = 1), heights = c(1,2))
-# 
-# ### MAP
-# par(mar = c(0,0,0,0))
-# sites <- df[, c("lat", "lon", "Biome")]
-# coordinates(sites) <- c("lon", "lat")
-# plot(Continents, col = "grey", border = "grey")
-# points(sites, col = color.biome[df$Biome], pch = 4)
-# 
-# ### Plot
-# par(mar = c(5.1,4.1,0,2.1))
-# plot(mean ~ stand.age, data = df, col = color.biome[df$Biome], xlab = "Age (years - log scaled)", ylab = expression("ANPP (Mg C " ~ ha^{-1}~")"), log = "x")
-# 
-# for(b in levels(df$Biome)){
-#   y <- fit[newDat$Biome %in% b]
-#   x <- newDat[newDat$Biome %in% b, ]$stand.age
-#   lines(y ~ x, col = color.biome[levels(df$Biome) %in% b])
-#   
-# }
-# 
-# ## NEE - Age and Biome not significant ####
-# 
-# ### data
-# df <- droplevels(ForC_simplified[ForC_simplified$variable.name %in% "NEE", ])
-# 
-# ### model
-# mod <- lmer(mean ~ stand.age + Biome + (1|geographic.area/plot.name), data = df)
-# drop1(mod, k = log(nrow(df)))
-# 
-# newDat <- expand.grid(stand.age = seq(min(df$stand.age)+0.01, max(df$stand.age), length.out = 100), Biome = levels(df$Biome))
-# 
-# fit <- predict(mod, newDat, re.form =  NA)
-# 
-# ### layout figure
-# layout(matrix(c(1,2), ncol = 1), heights = c(1,2))
-# 
-# ### MAP
-# par(mar = c(0,0,0,0))
-# sites <- df[, c("lat", "lon", "Biome")]
-# coordinates(sites) <- c("lon", "lat")
-# plot(Continents, col = "grey", border = "grey")
-# points(sites, col = color.biome[df$Biome], pch = 4)
-# 
-# ### Plot
-# par(mar = c(5.1,4.1,0,2.1))
-# plot(mean ~ stand.age, data = df, col = color.biome[df$Biome], xlab = "Age (years - log scaled)", ylab = expression("NEE (Mg C " ~ ha^{-1}~")"), log = "x")
-# 
-# for(b in levels(df$Biome)){
-#   y <- fit[newDat$Biome %in% b]
-#   x <- newDat[newDat$Biome %in% b, ]$stand.age
-#   lines(y ~ x, col = color.biome[levels(df$Biome) %in% b])
-#   
-# }
-# 
-# 
-# 
-# ## biomass_ag - interaction Biome Age Siignificant####
-# 
-# ### data
-# df <- droplevels(ForC_simplified[ForC_simplified$variable.name %in% "biomass_ag", ])
-# 
-# ### model
-# mod <- lmer(mean ~ stand.age * Biome + (1|geographic.area/plot.name), data = df)
-# drop1(mod, k = log(nrow(df)))
-# 
-# newDat <- expand.grid(stand.age = seq(min(df$stand.age)+0.01, max(df$stand.age), length.out = 100), Biome = levels(df$Biome))
-# 
-# fit <- predict(mod, newDat, re.form =  NA)
-# 
-# ### layout figure
-# layout(matrix(c(1,2), ncol = 1), heights = c(1,2))
-# 
-# ### MAP
-# par(mar = c(0,0,0,0))
-# sites <- df[, c("lat", "lon", "Biome")]
-# coordinates(sites) <- c("lon", "lat")
-# plot(Continents, col = "grey", border = "grey")
-# points(sites, col = color.biome[df$Biome], pch = 4)
-# 
-# ### Plot
-# par(mar = c(5.1,4.1,0,2.1))
-# plot(mean ~ stand.age, data = df, col = color.biome[df$Biome], xlab = "Age (years - log scaled)", ylab = expression("biomass_ag (Mg C " ~ ha^{-1}~")"), log = "x")
-# 
-# for(b in levels(df$Biome)){
-#   y <- fit[newDat$Biome %in% b]
-#   x <- newDat[newDat$Biome %in% b, ]$stand.age
-#   lines(y ~ x, col = color.biome[levels(df$Biome) %in% b])
-#   
-# }
-# 
-# 
-# ## deadwood - Age not significant ####
-# 
-# ### data
-# df <- droplevels(ForC_simplified[ForC_simplified$variable.name %in% "deadwood", ])
-# 
-# ### model
-# mod <- lmer(mean ~ stand.age + Biome + (1|geographic.area/plot.name), data = df)
-# drop1(mod, k = log(nrow(df)))
-# 
-# newDat <- expand.grid(stand.age = seq(min(df$stand.age)+0.01, max(df$stand.age), length.out = 100), Biome = levels(df$Biome))
-# 
-# fit <- predict(mod, newDat, re.form =  NA)
-# 
-# ### layout figure
-# layout(matrix(c(1,2), ncol = 1), heights = c(1,2))
-# 
-# ### MAP
-# par(mar = c(0,0,0,0))
-# sites <- df[, c("lat", "lon", "Biome")]
-# coordinates(sites) <- c("lon", "lat")
-# plot(Continents, col = "grey", border = "grey")
-# points(sites, col = color.biome[df$Biome], pch = 4)
-# 
-# ### Plot
-# par(mar = c(5.1,4.1,0,2.1))
-# plot(mean ~ stand.age, data = df, col = color.biome[df$Biome], xlab = "Age (years - log scaled)", ylab = expression("deadwood (Mg C " ~ ha^{-1}~")"), log = "x")
-# 
-# for(b in levels(df$Biome)){
-#   y <- fit[newDat$Biome %in% b]
-#   x <- newDat[newDat$Biome %in% b, ]$stand.age
-#   lines(y ~ x, col = color.biome[levels(df$Biome) %in% b])
-#   
-# }
+} # for(response.v in c("GPP", "NPP", "ANPP", "R_soil", "R_eco", "NEE"))
+
+dev.off()
+
