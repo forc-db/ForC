@@ -202,7 +202,7 @@ for(response.v in response.variables) {
 for( fig in c("Figure6", "Figure7")) {
   
 
-  tiff(file = paste0("figures/age_trends/for_manuscript/", fig, ".tiff"), height = 1000, width = 1000, units = "px", res = 150)
+  tiff(file = paste0("figures/age_trends/for_ERL_review/", fig, ".tiff"), height = 1000, width = 1000, units = "px", res = 150)
   
   ### layout figure
   nf <- layout(matrix(c(1,1,4,4,
