@@ -25,7 +25,7 @@
 clear all; clf; close all;
 
 %Here, select whether to renumber history (0-no; 1-yes)
-renumber_history=0;  %CAUTION: ONLY SET TO 1 IF RENUMBERING HISTORYID!!!!
+renumber_history=0;  %CAUTION: ONLY SET TO 1 IF RENUMBERING HISTORYID!!!! Following ForC data publication, history should never be renumbered.
 
 %input current master
 [num text raw] = xlsread(strcat(pwd,'/ForC_history')); 
@@ -49,7 +49,6 @@ level=raw(2:end,11);
 units=raw(2:end,12);
 permort=raw(2:end,13);
 distnotes=raw(2:end,14);
-trop_extratrop=raw(2:end,16);
 
 %create sequence variable
 seq=event_sequence;
@@ -63,7 +62,6 @@ n_plots=length(plots_list)
 
 %define new variables/fields (caps):
     PLOTID=cell(n_plots,1);
-    TROP_EXTRATROP=cell(n_plots,1);
     SITE=cell(n_plots,1);
     PLOT=cell(n_plots,1);
     PLOTAREA=cell(n_plots,1);    
@@ -116,7 +114,6 @@ for n=1:n_plots
     %fill in fields that are the same for all records in the original version
     index1=min(index); %index for just the first record for the plot 
     PLOTID(n,1)={floor(cell2mat(history.ID(index1)))};
-    TROP_EXTRATROP(n,1)=trop_extratrop(index1);
     SITE(n,1)=site(index1);
     PLOT(n,1)=plot(index1);
     PLOTAREA(n,1)=plot_area(index1);
@@ -404,13 +401,13 @@ OUT_DIST=[DIST_RN(:,1) DIST_TYPE(:,1) MORT(:,1) DIST_DATE(:,1) DIST_RN(:,2) DIST
 OUT_MAN=[CO2 TEMPERATURE HYDRO NUTRIENTS BIOTA OTHER]; %management
 
 if renumber_history==0
-    ForC_plots=[PLOTID SITE PLOT PLOTAREA OUT_ESTABLISHMENT OUT_REGROWTH OUT_DIST_PREV PRIOR_RN OUT_DIST OUT_MAN TROP_EXTRATROP];
+    ForC_plots=[PLOTID SITE PLOT PLOTAREA OUT_ESTABLISHMENT OUT_REGROWTH OUT_DIST_PREV PRIOR_RN OUT_DIST OUT_MAN];
     save ForC_plots
     disp('Updated ForC_plots matrix (ForC_plots.mat) has been produced based on ForC_history.xlsx (this folder).')
     disp('WARNING! Ensure that ForC_history.xlsx is up to date (i.e., saved from current master ForC_history.csv) before using ForC_plots.mat to update ForC_plots.csv.' )
 elseif renumber_history==1
     N=num2cell(linspace(1,n_plots, n_plots)');
-    ForC_plots=[N SITE PLOT PLOTAREA OUT_ESTABLISHMENT OUT_REGROWTH OUT_DIST_PREV PRIOR_RN OUT_DIST OUT_MAN TROP_EXTRATROP];
+    ForC_plots=[N SITE PLOT PLOTAREA OUT_ESTABLISHMENT OUT_REGROWTH OUT_DIST_PREV PRIOR_RN OUT_DIST OUT_MAN];
     save ForC_plots histID
     disp('Updated ForC_plots matrix (ForC_plots.mat) and renumbered history.ID field (histID.mat) have been produced based on ForC_history.xlsx (this folder).')
     disp('WARNING! history.ID and corresponding ForC_plots entries have been renumbered! DO NOT update ForC_plots (ForC_plots.mat) without also updating the HistoryID field in ForC_history (histID.mat).')
