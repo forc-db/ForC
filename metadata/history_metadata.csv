@@ -14,4 +14,3 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 13 / M,percent.mortality,Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.,numeric (double),"""<100%"" - non- stand clearing disturbance (% mortality unkonwn/ unspecified); ""minor"" - very minor disturbance",-,1595,4,100
 14 / N,hist.notes,History event details not included above.,character (string),-,-,3596,-,-
 15 / N,plothistory.ID.v1,"Original plothistory.ID, where numbers <=2441 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)",numeric (integer),-,-,2477,1,5722
-16 / O ,tropical.extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,6159,-,-
