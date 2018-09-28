@@ -1,5 +1,5 @@
 %ForC database
-%code to generate ForC_plots from ForC_history and, optionally, re-number ForC_history (alphabetically by site, then plot).
+%code to generate ForC_plots from ForC_history 
 %author: Kristina Anderson-Teixeira
 %first published in Github public repository: Aug. 2017
 
@@ -14,20 +14,12 @@
 %ForC_plots.mat--Matlab cell matrix. This must be pasted into
     %ForC_plots.xlsx for transformation to .csv format (see notes in that
     %file).
-%histID.mat--Matlab matrix (double). This is optional output, which is
-    %produced by  setting "renumber_history=1" (below).
-    %To renumber/ reorder records, histID.mat must be pasted into
-    %ForC_history.csv (history.ID field), and then the file sorted by that
-    %field. If "renumber_history=1" is selected, ForC_plots must also be renumbered to match. 
-
+    
 %~~~~~~~~~~~~~~~~~~~~~~~
 
 clear all; clf; close all;
 
-%Here, select whether to renumber history (0-no; 1-yes)
-renumber_history=0;  %CAUTION: ONLY SET TO 1 IF RENUMBERING HISTORYID!!!! Following ForC data publication, history should never be renumbered.
-
-%input current master
+%input current master ForC_history
 [num text raw] = xlsread(strcat(pwd,'/ForC_history')); 
 
 %read in all data fields
@@ -104,12 +96,7 @@ for n=1:n_plots
     %index records for the plot
     index=find(strcmp(site_plot, plots_list(n))==1); %index for all records for the plot
         maxrecords=max(length(index),maxrecords); % set new maxrecords 
-        if length(index)>10
-            %disp(plots_list(n))
-        end
-    %seq(index)=linspace(1,length(index),length(index)); %assign sequence number according to current order listed
-    plotN(index)=n;
-    histID=plotN+seq./100;
+
         
     %fill in fields that are the same for all records in the original version
     index1=min(index); %index for just the first record for the plot 
@@ -117,6 +104,9 @@ for n=1:n_plots
     SITE(n,1)=site(index1);
     PLOT(n,1)=plot(index1);
     PLOTAREA(n,1)=plot_area(index1);
+    
+    plotN(index)=floor(cell2mat(history.ID(index1)));
+    histID=plotN+seq./100;
     
     %Indeces for HISTTYPE = no.info or no.disturbance. These will be used multiple times
     i_ni=find(strcmp(site_plot, plots_list(n))==1 & (strcmp(dist_cat,'No.info')==1));
@@ -400,18 +390,11 @@ OUT_DIST_PREV=[DIST_MRS_RN DIST_MRS_TYPE MORT_MRS DIST_MRS_DATE DIST_MRS_ADD_RN]
 OUT_DIST=[DIST_RN(:,1) DIST_TYPE(:,1) MORT(:,1) DIST_DATE(:,1) DIST_RN(:,2) DIST_TYPE(:,2) MORT(:,2) DIST_DATE(:,2) DIST_RN(:,3) ];  %disturbance after regrowth
 OUT_MAN=[CO2 TEMPERATURE HYDRO NUTRIENTS BIOTA OTHER]; %management
 
-if renumber_history==0
-    ForC_plots=[PLOTID SITE PLOT PLOTAREA OUT_ESTABLISHMENT OUT_REGROWTH OUT_DIST_PREV PRIOR_RN OUT_DIST OUT_MAN];
-    save ForC_plots
-    disp('Updated ForC_plots matrix (ForC_plots.mat) has been produced based on ForC_history.xlsx (this folder).')
-    disp('WARNING! Ensure that ForC_history.xlsx is up to date (i.e., saved from current master ForC_history.csv) before using ForC_plots.mat to update ForC_plots.csv.' )
-elseif renumber_history==1
-    N=num2cell(linspace(1,n_plots, n_plots)');
-    ForC_plots=[N SITE PLOT PLOTAREA OUT_ESTABLISHMENT OUT_REGROWTH OUT_DIST_PREV PRIOR_RN OUT_DIST OUT_MAN];
-    save ForC_plots histID
-    disp('Updated ForC_plots matrix (ForC_plots.mat) and renumbered history.ID field (histID.mat) have been produced based on ForC_history.xlsx (this folder).')
-    disp('WARNING! history.ID and corresponding ForC_plots entries have been renumbered! DO NOT update ForC_plots (ForC_plots.mat) without also updating the HistoryID field in ForC_history (histID.mat).')
-    disp('WARNING! Ensure that ForC_history.xlsx is up to date (i.e., saved from current master ForC_history.csv) before using ForC_plots.mat to update ForC_plots.csv.' )
-end
+
+ForC_plots=[PLOTID SITE PLOT PLOTAREA OUT_ESTABLISHMENT OUT_REGROWTH OUT_DIST_PREV PRIOR_RN OUT_DIST OUT_MAN];
+save ForC_plots
+disp('Updated ForC_plots matrix (ForC_plots.mat) has been produced based on ForC_history.xlsx (this folder).')
+disp('WARNING! Ensure that ForC_history.xlsx is up to date (i.e., saved from current master ForC_history.csv) before using ForC_plots.mat to update ForC_plots.csv.' )
+
 
 disp('DONE!')
