@@ -1,7 +1,7 @@
 Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 1 / A,plot.ID,Unique numerical identifier for each record in the plots table.,numeric (integer),-,-,2731,1,2731
-2 / B,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES and MEASUREMENTS tables.",character (string),-,-,2731,-,-
-3 / C,plot.name,"Unique plot name, sufficient to identify the plot within the original publication.",character (string),-,-,2630,-,-
+2 / B,sites.sitename,"Unique site identifier, descriptive enough to differentiate from other sites and sufficient to identify the site within the original publication. When an offficial/conventional name exists for a site, this should be used. Links to SITES, PLOTS, HISTORY, and MEASUREMENTS tables.",character (string),-,-,2731,-,-
+3 / C,plot.name,"Plot name, unique within the associated site and sufficient to identify the plot within the original publication.",character (string),-,-,2630,-,-
 4 / D,plot.area,"Area of plot or combined area of replicate plots. For forest monitoring plots that change in area, this should be the most recent area. Note that area.sampled is recorded separately in the measurements table.",numeric (double),-,ha,760,0,50
 5 / E,establishment.ID,HistoryID (if any) detailing the establishment of oldest trees or of a keystone/ dominant tree taxa.,numeric (double),0-no record; nonzero number- history.ID,-,2731,0,2715
 6 / F,year.establishment.oldest.trees,Year of establishment of the oldest trees or of a keystone/ dominant tree taxa. Refers to the record in HISTORY that is indexed in etablishment.ID.,numeric (double),,-,1206,1013,2010

@@ -1,7 +1,7 @@
 Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 1 / A,history.ID,Unique numerical identifier for each record in the history table. ,numeric (decimal),-,-,6159,1,2731
-2 / B,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES, PLOTS and MEASUREMENTS tables.",character (string),-,-,6159,-,-
-3 / C,plot.name,"Unique plot name, sufficient to identify the plot within the original publication.",character (string),-,-,5993,-,-
+2 / B,sites.sitename,"Unique site identifier, descriptive enough to differentiate from other sites and sufficient to identify the site within the original publication. When an offficial/conventional name exists for a site, this should be used. Links to SITES, PLOTS, HISTORY, and MEASUREMENTS tables.",character (string),-,-,6159,-,-
+3 / C,plot.name,"Plot name, unique within the associated site and sufficient to identify the plot within the original publication.",character (string),-,-,5993,-,-
 4 / D,plot.area,Area of plot or combined area of replicate plots.,numeric (double),-,ha,2131,0,50
 5 / E,event.sequence,"Order of event within the sequence of existing records. This allows determination of event order when dates are missing or events have the same date. NOTE: This field was created after original data entry based on order entered and notes, not in consultation with original publications.  ",numeric (integer),-,-,6159,1,39
 6 / F,date,Date of plot history event.,character (string),-,decimal years,4052,1013,2011

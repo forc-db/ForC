@@ -1,6 +1,6 @@
 Column,Field,Description,Storage.Type,Variable.Codes,Units,n,Min,Max
 1 / A,site.ID,Unique numerical identifier for each record in the SITES table.,numeric (integer),-,-,2070,1,2070
-2 / B,sites.sitename,"Site identifier, sufficient to uniquely identify the site within the paper. Links to MEASUREMENTS, PLOTS, and HISTORY tables.",character (string),-,-,2070,-,-
+2 / B,sites.sitename,"Unique site identifier, descriptive enough to differentiate from other sites and sufficient to identify the site within the original publication. When an offficial/conventional name exists for a site, this should be used. Links to SITES, PLOTS, HISTORY, and MEASUREMENTS tables.",character (string),-,-,2070,-,-
 3 / C,alt.names,Alternative site names or commonly used abbreviations,character (string),-,-,0,,
 4 / D,super.site,"Name of research site containing >1 distinct sites associated with multiple original studies. At least two of the sites within a super.site are nested, overlapping, or of unknown relationship. ",character (string),-,-,0,,
 5 / E,network,"Research network(s) in which the site is included, if applicable.",character (string),-,-,0,-,-
