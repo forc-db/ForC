@@ -1,13 +1,13 @@
 pftcode,description,notes
 2TEB,"Tree, evergreen, broadleaf",NA
-2TDB,"Tree, deciduous, broadleaf",Includes semi-deciduous and drought-deciduous species
+2TDB,"Tree, deciduous, broadleaf",Includes deciduous and semi-deciduous species. May be drought or cold deciduous. 
 2TEN,"Tree, evergreen, needleleaf",NA
-2TDN,"Tree, deciduous, needleleaf",Includes semi-deciduous and drought-deciduous species
-2TD,"Tree, deciduous",Includes semi-deciduous and drought-deciduous species. Dominant species are a mix of broadleaf and needleleaf species.
-2TE,"Tree, evergreen",Dominant species are a mix of broadleaf and needleleaf species.
-2TN,"Tree, needleleaf (coniferous)",Includes semi-deciduous and drought-deciduous species. Dominant species are a mix of deciduous and evergreen species.
-2TB,"Tree, broadleaf",Includes semi-deciduous and drought-deciduous species. Dominant species are a mix of deciduous and evergreen species.
-2TM,"Tree, mixed broadleaf deciduous and needleleaf evergreen",
+2TDN,"Tree, deciduous, needleleaf",Includes deciduous and semi-deciduous species.
+2TD,"Tree, deciduous","Includes deciduous and semi-deciduous species. May be drought or cold deciduous. Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
+2TE,"Tree, evergreen","Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
+2TN,"Tree, needleleaf (coniferous)","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
+2TB,"Tree, broadleaf","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
+2TM,"Tree, mixed broadleaf deciduous and needleleaf evergreen",NA
 2TREE,Tree of any leaf type/phenology,"Leaf type/phenology unknown. This code was originally used to refer to the 2TM category, and some records coded as '2TREE' may be identifiable as '2TM' based on information in the original publication."
 2SHRUB,Shrub,NA
 2VW,"Vine, woody",NA
