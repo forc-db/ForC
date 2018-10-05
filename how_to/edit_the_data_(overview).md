@@ -49,7 +49,7 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         vi.	The remaining .csv files (variables, histtype, pft) require updates only when new variables, disturbance type, and plant functional type, respectively, are introduced. In other words, these should rarely be updated.
         vii. The .csv file Plots is automatically generated from the history file.
     b.	To add data, either add new rows to the bottom of each file or replace old files with your updated ones.
-    c.	Every cell should have a value. For missing data, please use [missing value codes](https://github.com/forc-db/ForC/blob/master/metadata/missing value codes.csv) to indicate reason for missing values. 
+    c.	Every cell should have a value. For missing data, please use [missing_value_codes](https://github.com/forc-db/ForC/blob/master/metadata/missing%20value%20codes.csv) to indicate reason for missing values. 
     d.	Some papers have data for multiple sites. Please be sure to add a separate entry in the measurements.csv file for each site.
 10.	Once data entry is complete (all tables from 9.a. above), commit changes to your personal branch. This is done via Github desktop.
     a.	Navigate to “Current Repository” and choose the “ForC” repository from the dropdown menu.
