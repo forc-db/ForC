@@ -9,7 +9,7 @@
     
     b.	A window will open showing a list of your repositories. Select one of the three mentioned above, and specify where on your computer you want the local path to be.
     
-        i. *Local dropbox destinations can be a good place to store these.*
+        i. Local DropBox destinations can be a good place to store these.
         
     c.	Select clone, and wait for the repository to be downloaded.
     
@@ -19,7 +19,7 @@
     
         i. Navigate in Github Desktop to the ForC repository (under “Current repository” in upper left).
         
-        ii.	“Current branch” should say “master.”
+        ii.“Current branch” should say “master.”
         
         iii. Click “Fetch origin” to download the most recent data from Github.
         
@@ -79,7 +79,7 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         
         v. Measurements
         
-        vi.	The remaining .csv files (variables, histtype, pft) require updates only when new variables, disturbance type, and plant functional type, respectively, are introduced. In other words, these should rarely be updated.
+        vi.The remaining .csv files (variables, histtype, pft) require updates only when new variables, disturbance type, and plant functional type, respectively, are introduced. In other words, these should rarely be updated.
         
         vii. The .csv file Plots is automatically generated from the history file.
         
