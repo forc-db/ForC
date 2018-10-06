@@ -92,7 +92,7 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
     
     c.	On the left, you should see a log of your changed files. Write a summary in the box along with a description of what you’ve updated, then select “Commit to (yourbranchname).” 
     
-11.	Once data entry is complete (all tables from 9.a. above), open a Pull request, also on Github desktop. This will compare the data you’ve entered with the data in the master branch.
+11.	Once data entry is complete (all tables from 9.a. above, with "NAC" codes acceptable), open a Pull request, also on Github desktop. This will compare the data you’ve entered with the data in the master branch.
 
     a.	Select “Branch” on top menu, then select “Create pull request.”
     
