@@ -77,7 +77,7 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         
         iv. ALLOMETRY   
         
-        vi. The remaining .csv files (VARIABLES, HISTTYPE, PFT) require updates only when new variables, disturbance type, and plant functional type, respectively, are introduced. In other words, these should rarely be updated.
+      The remaining .csv files (VARIABLES, HISTTYPE, PFT) require updates only when new variables, disturbance type, and plant functional type, respectively, are introduced. In other words, these should rarely be updated.
         
     b.	To add data, either add new rows to the bottom of each file or replace old files with your updated ones.
     
