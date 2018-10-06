@@ -81,7 +81,7 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         
     b.	To add data, either add new rows to the bottom of each file or replace old files with your updated ones.
     
-    c.	Every cell should have a value. For missing data, please use [missing_value_codes](https://github.com/forc-db/ForC/blob/master/metadata/missing%20value%20codes.csv) to indicate reason for missing values. 
+    c.	Every cell should have a value. For missing data, please use [missing_value_codes](https://github.com/forc-db/ForC/blob/master/metadata/missing%20value%20codes.csv) to indicate reason for missing values. The code "NAC" may be used to (temporarily) fill in fields for which data may be available but cannot readily be entered. Thus, difficulty filling out all fields should not be a barrier to adding data. 
     
     
 10.	As you progress with data entry, commit changes to your personal branch (we recommend relatively frequent commits, which save traceable / recoverable history of your work). This is done via GitHub desktop.
