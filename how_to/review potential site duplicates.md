@@ -4,7 +4,7 @@ As of Oct. 2018, ForC has some sites that are likely duplicates of others (liste
 ## Set up
 1. Set up to edit the database following [these instructions](https://github.com/forc-db/ForC/blob/master/how_to/edit_the_data_(overview).md), and open the `SITES` table. 
 
-2. You'll be reviewing records where [`potential_duplicate_group`= a non-zero number] and [`confirmed.unique` = "NAC" or "0"].
+2. You'll be reviewing records where [`potential_duplicate_group`= a non-zero number] and [`confirmed.unique` = "NAC" or "0"]. If records are part of the same `super.site`, they are lower priority for review. (This designation indicates that there are >1 distinct sites of nested, overlapping, or of unknown relationship.)
 
 ## Determining whether sites are unique
 
