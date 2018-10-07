@@ -14,15 +14,15 @@ As of Oct. 2018, ForC has some sites that are likely duplicates of others (liste
 
 5. Review the data entered in `SITES` and `MEASUREMENTS` original publications to determine whether sites are unique. *Note that  a single group of potential duplicates may have some unique and some non-unique sites. It also may constitute a "super-site", which we define as a research site containing >1 distinct sites associated with multiple original studies. At least two of the sites within a super.site are nested, overlapping, or of unknown relationship.* 
 
-  a. If sites are unique, mark `confirmed.unique` = "1" and proceed to the next potential conflict.
+    a. If sites are unique, mark `confirmed.unique` = "1" and proceed to the next potential conflict.
  
-  b. If sites are the same, mark `confirmed.unique` = "0" and proceed to instructions for merging duplicate sites.
+    b. If sites are the same, mark `confirmed.unique` = "0" and proceed to instructions for merging duplicate sites.
  
-  c. If there is no way to tell whether sites are unique, mark `confirmed.unique` = "NI" and proceed to the next potential conflict. 
+    c. If there is no way to tell whether sites are unique, mark `confirmed.unique` = "NI" and proceed to the next potential conflict. 
  
-  d. If the sites meet the definition of a "super-site", add the broad site name (e.g., "Barro Colorado Island", "Harvard Forest") to the `super.site` field for all records. 
+    d. If the sites meet the definition of a "super-site", add the broad site name (e.g., "Barro Colorado Island", "Harvard Forest") to the `super.site` field for all records. 
  
-  e. fill in the `notes` field with any information that may be helpful to other researchers trying to understand the relationship between two sites.
+    e. fill in the `notes` field with any information that may be helpful to other researchers trying to understand the relationship between two sites.
  
  ## Merging duplicate sites
  (Instructions yet to be added.)
