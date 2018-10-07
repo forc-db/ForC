@@ -15,7 +15,9 @@ We strongly reccommentd that you discuss any substantive changes with the databa
         iii. Click “Fetch origin” to download the most recent data from Github.
 
 3.  If you will be adding a lot of data/ working extensively with the database, request access to and clone the [References](https://github.com/forc-db/References) and [ForC_private](https://github.com/forc-db/ForC_private) repositories. 
+    
     a. References is private because it contains documents with copyright restrictions. Access will be granted upon request to @teixeirak.
+   
     b. ForC_private contains intermediary data sheets and other materials documenting the history of transferring data from original studies to ForC. Access may be requested from @teixeirak.
 
  
