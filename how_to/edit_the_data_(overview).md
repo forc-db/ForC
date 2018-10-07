@@ -97,4 +97,4 @@ Before editing, make sure you have the current version of the data (see step 2a)
     
     c.	Select “Create pull request.”
     
-    d.	Database moderators will approve the pull request and merge the changes. If anything needs to be checked or corrected, moderators will alert you for next steps.
+10.	Database moderators will approve the pull request and merge the changes. If anything needs to be checked or corrected, moderators will alert you for next steps.
