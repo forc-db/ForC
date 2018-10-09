@@ -17,7 +17,6 @@ setwd(".")
 
 # Load libaries ####
 library(png)
-library(shape)
 
 # set some parameters ####
 save.plot <- TRUE
