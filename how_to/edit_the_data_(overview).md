@@ -89,12 +89,15 @@ Before editing, make sure you have the current version of the data (see step 2a)
   
 ## Saving your branch to the master
 
-9.	Once data entry is complete (all tables from 9.a. above, with "NAC" codes acceptable), open a Pull request, also on Github desktop. This will compare the data you’ve entered with the data in the master branch.
+9. We recommend saving your personal branch to the master either when the data entry is complete or you have finished entering data for the time being. If you need to come back and finish entering values, we advise (as per Step 7 above) creating an issue in Github stating "Finish entering XXX data," for example, or if you already have an issue, you can add a comment on it to indicate your updates.
+    a. We also advise creating an issue for each study or set of studies you are working on.
+
+10.	Once data entry is complete (all tables from 9.a. above, with "NAC" codes acceptable), open a Pull request, also on Github desktop. This will compare the data you’ve entered with the data in the master branch.
 
     a.	Select “Branch” on top menu, then select “Create pull request.”
     
     b.	This will take you to the Github website and shows the Summary of your commit. Make sure data updates are clear and any questions noted.
     
-    c.	Select “Create pull request.”
-    
-10.	Database moderators will approve the pull request and merge the changes. If anything needs to be checked or corrected, moderators will alert you for next steps.
+    c.	Select “Create pull request.” 
+
+11.	Database moderators will approve the pull request and merge the changes. If anything needs to be checked or corrected, moderators will alert you for next steps.
