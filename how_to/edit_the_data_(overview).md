@@ -78,6 +78,8 @@ Before editing, make sure you have the current version of the data (see step 2a)
     
     c.	Every cell should have a value. For missing data, please use [missing_value_codes](https://github.com/forc-db/ForC/blob/master/metadata/missing%20value%20codes.csv) to indicate reason for missing values. The code "NAC" may be used to (temporarily) fill in fields for which data may be available but cannot readily be entered. Thus, difficulty filling out all fields should not be a barrier to adding data. 
     
+    d. If you are working with a database that references different sites (that are not already in ForC), please populate the SITES.csv with as much information as your paper gives. The most important entry is having a relevant *sites.sitename* (be specific).
+    
    
 8.	As you progress with data entry, commit changes to your personal branch (we recommend relatively frequent commits, which save traceable / recoverable history of your work). This is done via GitHub desktop.
 
