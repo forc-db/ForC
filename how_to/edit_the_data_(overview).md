@@ -24,7 +24,7 @@ We strongly reccommentd that you discuss any substantive changes with the databa
 *Github links are provided in this guide, but once these repositories are downloaded, the files can be opened straight from the local file sources.*
 
 ## Preparing for data entry
-We recommend having this guide and the [metadata](https://github.com/forc-db/ForC/tree/master/metadata) for each .csv file open for easy reference. Alternatively, the metadata can be viewed as a continuous pdf [here](https://esajournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fecy.2229&file=ecy2229-sup-0002-MetadataS1.pdf).
+We recommend having this guide and the [metadata](https://github.com/forc-db/ForC/tree/master/metadata) for each .csv file open for easy reference. Note that some fields of metadata tables are cut off from view when viewed online (need to scroll across table to see all). Alternatively, the metadata can be viewed as a continuous pdf [here](https://esajournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fecy.2229&file=ecy2229-sup-0002-MetadataS1.pdf).
 
 
 4.	Acquire the original data publication and supplement if available. Save in [References](https://github.com/forc-db/References) repository. 
