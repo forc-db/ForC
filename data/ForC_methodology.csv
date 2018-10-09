@@ -21,7 +21,8 @@ method.ID,method.citation,variable.name,method.category,method.notes
 425,Alves_1997_bopa; Malhi_2014_tpma,ANPP_stem,,"Measured DBH, height; Allometric relations"
 397,Malhi_2014_tpma,ANPP_woody_branch_OM,,"Harvest (branches > 2 cm diameter), larger branches measured diameter at 3 points, assigned wood density value"
 384,Maier_2004_rcua,ANPP_woody_stem_C,,"Where the individual tree data (including taxonomy) are available, we use allometric equation (Baker et al. 2004) to directly estimate the above-ground biomass at every census."
-447,Meakem_2017_rots,ANPP_woody_stem_C,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody productivity as summed changes in biomass of individual stems divided by census inverval"
+447,Condit_1998_tfcp;  Meakem_2017_rots,ANPP_woody_stem_C,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody productivity as summed changes in biomass of individual stems divided by census inverval"
+451,Condit_1998_tfcp; Chave_2008_aefa,ANPP_woody_stem_OM,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody productivity as summed changes in biomass of individual stems divided by census inverval"
 445,Meakem_2017_rots,biomass_ag_C,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries. Estimated C as 47% of biomass."
 415,Egunjobi_1979_band; Gehring_1999_rosv,biomass_ag_foliage_OM,,Harvesting
 420,Montagnini_2000_aiab,biomass_ag_foliage_OM,,Harvest (thinning)
@@ -35,7 +36,7 @@ method.ID,method.citation,variable.name,method.category,method.notes
 385,Hughes_1999_bcan; Zarin_2001_pbai; Gehring_2005_rosf; Letcher_2009_rrob; Becknell_2014_saas; Delaney_1997_tdoo; Baker_2004_ibia,biomass_ag_OM,,Measured DBH; Allometric relations
 387,Broadbent_2014_isas,biomass_ag_OM,,"Measured DBH, height, crown exposure; allometric relations"
 444,Tepley_2017_vtfl,biomass_ag_OM,,"Measured dbh, total height, and crown base height for tree species > 1.5 cm dbh; measured total height and crown diameter for shrub species and tree species < 1.5 cm dbh; entered into allometric equations"
-449,Lutz_2018_giol,biomass_ag_OM,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries. "
+449,Condit_1998_tfcp; Chave_2008_aefa; Lutz_2018_giol,biomass_ag_OM,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries. "
 396,Alves_1997_bopa; Malhi_2014_tpma; Steininger_2000_sfsa; Uhl_1988_apie,biomass_ag_OM/biomass_ag_C,,"Measured DBH, height; Allometric relations"
 414,Egunjobi_1979_band,biomass_ag_woody_OM,,Harvesting
 419,Montagnini_2000_aiab,biomass_ag_woody_OM,,Harvest (thinning)
@@ -131,7 +132,8 @@ method.ID,method.citation,variable.name,method.category,method.notes
 424,Saldarriaga_1988_lcof,deadwood_OM,,"Harvest, allometric relations"
 426,Uhl_1988_apie,deadwood_OM,,"Measured DBH, height; Allometric relations"
 432,Hughes_1999_bcan,deadwood_OM,,Measured DBH; Allometric relations
-446,Meakem_2017_rots,delta.agb_C,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
+446,Condit_1998_tfcp;  Meakem_2017_rots,delta.agb_C,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
+452,Condit_1998_tfcp; Chave_2008_aefa,delta.agb_OM,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
 393,Delaney_1997_tdoo,Ecosystem_2,,"See 385, 388-391"
 1,Valentini_2000_ratm,GPP,,NEP + estimated Re
 7,Chambers_2004_rfat,GPP,,NPP + direct measurements of Ra
@@ -383,4 +385,4 @@ method.ID,method.citation,variable.name,method.category,method.notes
 394,Broadbent_2014_isas,soil_C,,soil cores
 395,Hughes_1999_bcan,soil_C,,Soil samples at 5 depths and surface soils and mineral soils
 448,Meakem_2017_rots,woody.mortality_ag_C,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody mortality as summed biomass of all stems that died divided by census interval"
-450,Johnson_2018_csss,woody.mortality_ag_OM,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries of main stems, calculated woody mortality as summed biomass of all trees that died divided by census interval"
+450,Condit_1998_tfcp; Chave_2008_aefa; Johnson_2018_csss,woody.mortality_ag_OM,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries of main stems, calculated woody mortality as summed biomass of all trees that died divided by census interval"
