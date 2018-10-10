@@ -96,6 +96,7 @@ Before editing, make sure you have the current version of the data (see step 2a)
 ## Saving your branch to the master
 
 9. We recommend saving your personal branch to the master either when the data entry is complete or you have finished entering data for the time being. If you need to come back and finish entering values, we advise creating an issue in Github stating "Finish entering XXX data," for example, or if you already have an issue, you can add a comment on it to indicate your updates.
+    
     a. We also advise creating an issue for each study or set of studies you are working on.
 
 10.	Once data entry is complete (all tables from 9.a. above, with "NAC" codes acceptable), and you have committed your changes *plus* pushed to Github, open a Pull request, also on Github desktop. This will compare the data you’ve entered with the data in the master branch.
@@ -107,3 +108,5 @@ Before editing, make sure you have the current version of the data (see step 2a)
     c.	Select “Create pull request.” 
 
 11.	Database moderators will approve the pull request and merge the changes. If anything needs to be checked or corrected, moderators will alert you for next steps.
+
+12. Once the pull request is submitted, please close the issue you created (if you created one as in Step 9 above). Navigate to your [issue](https://github.com/forc-db/ForC/issues/), comment "Data entry complete", and select "Close and Comment."
