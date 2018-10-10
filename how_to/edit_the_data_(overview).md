@@ -90,13 +90,15 @@ Before editing, make sure you have the current version of the data (see step 2a)
     b.	Important. Then, navigate to “Current branch” and select your branch. 
     
     c.	On the left, you should see a log of your changed files. Write a summary in the box along with a description of what you’ve updated, then select “Commit to (yourbranchname).” 
+    
+    d. The header bar should now read "Push origin" on the right. Navigate and select to make sure your commit goes to the Github site.
   
 ## Saving your branch to the master
 
 9. We recommend saving your personal branch to the master either when the data entry is complete or you have finished entering data for the time being. If you need to come back and finish entering values, we advise creating an issue in Github stating "Finish entering XXX data," for example, or if you already have an issue, you can add a comment on it to indicate your updates.
     a. We also advise creating an issue for each study or set of studies you are working on.
 
-10.	Once data entry is complete (all tables from 9.a. above, with "NAC" codes acceptable), open a Pull request, also on Github desktop. This will compare the data you’ve entered with the data in the master branch.
+10.	Once data entry is complete (all tables from 9.a. above, with "NAC" codes acceptable), and you have committed your changes *plus* pushed to Github, open a Pull request, also on Github desktop. This will compare the data you’ve entered with the data in the master branch.
 
     a.	Select “Branch” on top menu, then select “Create pull request.”
     
