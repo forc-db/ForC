@@ -1,5 +1,5 @@
 # How to edit ForC Data (Basic instructions)
-We strongly reccommentd that you discuss any substantive changes with the database PI (@teixeirak) before proceeding. Also, if  you are planning to make a contribution that will take more than a few days to complete, we recommend creation of an issue in Github to alert database owners about the changes intended to be made. This will avoid potential duplication of efforts and allow database owners to provide any necessary guidance.
+We strongly recommend that you discuss any substantive changes with the database PI (@teixeirak) before proceeding. Also, if  you are planning to make a contribution that will take more than a few hours to complete, we recommend creation of an issue in Github to alert database owners about the changes intended to be made. This will avoid potential duplication of efforts / conflicted versions and allow database owners to provide any necessary guidance.
 
 ## Setting up to edit ForC on your desktop
 
