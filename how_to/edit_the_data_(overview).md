@@ -53,9 +53,9 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
     
     b. Next, save the publication the [References](https://github.com/forc-db/References) repository. 
 
-        i.	Change file name to be citationID.
+        i. 	Change file name to be citationID.
     
-        ii.	If adding supplements as separate documents, change the file name so it is clearly appended to citationID. For example, table S3 of Chave et al 2008 becomes Chave_2008_aefa.tableS3.
+        ii.	If adding supplements as separate documents, create a folder labeled with the publication's citation.ID. Change the supplements' file names so they are clearly appended to citationID. For example, table S3 of Chave et al 2008 becomes Chave_2008_aefa.tableS3.
 
 
 
