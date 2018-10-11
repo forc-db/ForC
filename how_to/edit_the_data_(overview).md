@@ -6,6 +6,7 @@ We strongly reccommentd that you discuss any substantive changes with the databa
 1.	Create a new branch in Github in the [ForC](https://github.com/forc-db/ForC/tree/master/data) repository with your username as the branch name. This allows you to edit the data on your own, and then when you’re finished, a moderator will review the changes you’ve made before they are merged with the data in the master branch.
 
 2.	Clone the ForC repository to your desktop (e.g., using GitHub Desktop application). Instructions on cloning repositories are [here](https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop/). This gives you local copies of the folders and associated files.  
+    
     a.	Before looking at any data on your local file, you should make sure you have the current version, as this data can be revised simultaneously.
     
         i. Navigate in Github Desktop to the ForC repository (under “Current repository” in upper left).
@@ -26,15 +27,7 @@ We strongly reccommentd that you discuss any substantive changes with the databa
 ## Preparing for data entry
 We recommend having this guide and the [metadata](https://github.com/forc-db/ForC/tree/master/metadata) for each .csv file open for easy reference. Note that some fields of metadata tables are cut off from view when viewed online (need to scroll across table to see all). Alternatively, the metadata can be viewed as a continuous pdf [here](https://esajournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fecy.2229&file=ecy2229-sup-0002-MetadataS1.pdf).
 
-
-4.	Acquire the original data publication and supplement if available. Save in [References](https://github.com/forc-db/References) repository. 
-
-    a.	Change file name to be citationID.
-    
-    b.	If adding supplements as separate documents, make clear it is appended to original paper.
-
-
-5.	Before proceeding with data entry, we need to check if the data / site has already been entered in the database to avoid duplicate entries and contrasting site records for the same site.
+4.	Before proceeding with data entry, we need to check if the data / site has already been entered in the database to avoid duplicate entries and contrasting site records for the same site.
     
     a.	Navigate to your local copy of the data csv files (ForC\data).
 
@@ -52,7 +45,18 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         
         iii. masl (Column K)
         
-6.	If the site already exists in the database and site-related data matches, use the same sites.sitename.
+5.	If the site already exists in the database and site-related data matches, use the same sites.sitename.
+
+6.	If the site does not already exist in the database, acquire the original data publication and supplement if available. 
+
+    a. First, populate the [ForC_citations.csv](https://github.com/forc-db/ForC/blob/master/data/ForC_citations.csv) with the information from the publication. Descriptions of the headers can be found in the [metadata](https://github.com/forc-db/ForC/blob/master/metadata/citations_metadata.csv).
+    
+    b. Next, save the publication the [References](https://github.com/forc-db/References) repository. 
+
+        i.	Change file name to be citationID.
+    
+        ii.	If adding supplements as separate documents, make clear it is appended to original paper.
+
 
 
 ## Entering Data
