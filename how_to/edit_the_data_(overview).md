@@ -45,9 +45,9 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         
         iii. masl (Column K)
         
-5.	If the site already exists in the database and site-related data matches, use the same sites.sitename.
+5.	If the site already exists in the database and site-related data matches, use the same sites.sitename. Check plots associated with that site and select the appropriate one, or, if not already present, you'll need to add a new one (and add appropriate records ffor it to `HISTORY`). 
 
-6.	If the site does not already exist in the database, acquire the original data publication and supplement if available. 
+6.	If the data has not already been entered in the database, acquire the original data publication and supplement if available. 
 
     a. First, populate the [ForC_citations.csv](https://github.com/forc-db/ForC/blob/master/data/ForC_citations.csv) with the information from the publication. Descriptions of the headers can be found in the [metadata](https://github.com/forc-db/ForC/blob/master/metadata/citations_metadata.csv).
     
@@ -71,6 +71,9 @@ Before editing, make sure you have the current version of the data (see step 2a)
         ii. HISTORY (used to automatically generate PLOTS)
         
         iii. MEASUREMENTS
+                -NOTE: If records already exist for the plot, you can typically base your entry for 
+                Columns D-H (vegetation descriptors) on what’s already been entered, unless this has 
+                changed (via a major disturbance or succession).
         
         iii. METHODOLOGY
         
