@@ -10,9 +10,11 @@ As of Oct. 2018, ForC has some sites that are likely duplicates of others (liste
 
 3. Look at records with the same `potential_duplicate_group` number. Start with an example with a small number of records (2-3). It can be informative to view the `MEASUREMENTS` records associated with the site.
 
-4. Retrieve (from References repository or the web) the original publications. If the .pdf is not yet in references, please add it, using citation.ID as the file name.
+4. Retrieve (from [References repository](https://github.com/forc-db/References) or the web) the original publications. If the .pdf is not yet in references, please add it, using citation.ID as the file name. Please see the [CITATIONS](https://github.com/forc-db/ForC/blob/master/data/ForC_citations.csv) table for the doi and title of the article.
 
-5. Review the data entered in `SITES` and `MEASUREMENTS` original publications to determine whether sites are unique. *Note that  a single group of potential duplicates may have some unique and some non-unique sites. It also may constitute a "super-site", which we define as a research site containing >1 distinct sites associated with multiple original studies. At least two of the sites within a super.site are nested, overlapping, or of unknown relationship.* 
+5. Review the data entered in `SITES` and `MEASUREMENTS` original publications to determine whether sites are unique. Changes to 'confirmed.unique' (below) are made in the `SITES` table.
+
+*Note that a single group of potential duplicates may have some unique and some non-unique sites. It also may constitute a "super-site", which we define as a research site containing >1 distinct sites associated with multiple original studies. At least two of the sites within a super.site are nested, overlapping, or of unknown relationship.* 
 
     a. If sites are unique, mark `confirmed.unique` = "1" and proceed to the next potential conflict.
  
