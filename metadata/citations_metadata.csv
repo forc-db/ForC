@@ -1,5 +1,5 @@
 Column,Field,Description,Storage.Type,Variable.Codes,n,Min,Max
-1 / A,citation.ID,"Citation ID in the form [last name of first author]_[year]_[first letter of first four words of title, when applicable]. ",character (string),-,634,-,-
+1 / A,citation.ID,"Citation ID in the form [last name of first author]_[year]_[first letter of first four words of title, when applicable].  Note: all words are counted in creating the abbreviation. Hyphenated words are counted as a single word. ",character (string),-,634,-,-
 2 / B,citation.doi,Citation DOI,character (string),-,530,-,-
 3 / C,citation.author,Last name of first author of citation,character (string),-,634,-,-
 4 / D,citation.year,Year of publication,numeric (double),-,634,1953,2017
