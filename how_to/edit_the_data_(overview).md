@@ -24,7 +24,7 @@ We strongly recommend that you discuss any substantive changes with the database
     b. ForC_private contains intermediary data sheets and other materials documenting the history of transferring data from original studies to ForC. Access may be requested from @teixeirak.
 
  
-*Github links are provided in this guide, but once these repositories are downloaded, the files can be opened straight from the local file sources.*
+*Github links are provided in this guide, but once these repositories are downloaded, the files can be opened straight from the local file sources and pushed to Github via the desktop application.*
 
 ## Preparing for data entry
 We recommend having this guide and the [metadata](https://github.com/forc-db/ForC/tree/master/metadata) for each .csv file open for easy reference. Note that some fields of metadata tables are cut off from view when viewed online (need to scroll across table to see all). Alternatively, the metadata can be viewed as a continuous pdf [here](https://esajournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fecy.2229&file=ecy2229-sup-0002-MetadataS1.pdf).
