@@ -3,7 +3,9 @@ We strongly recommend that you discuss any substantive changes with the database
 
 ## Setting up to edit ForC on your desktop
 
-1.	Create a new branch in Github in the [ForC](https://github.com/forc-db/ForC/tree/master/data) repository with your username as the branch name. This allows you to edit the data on your own, and then when you’re finished, a moderator will review the changes you’ve made before they are merged with the data in the master branch.
+1.	Download the [Github desktop application](https://desktop.github.com/) and create a new branch in Github in the [ForC](https://github.com/forc-db/ForC/tree/master/data) repository with your username as the branch name. This allows you to edit the data on your own, and then when you’re finished, a moderator will review the changes you’ve made before they are merged with the data in the master branch.
+    
+    a. Navigate to the "Current branch" dropdown menu in the desktop app and select "New branch." Enter in your username and select "Publish branch."
 
 2.	Clone the ForC repository to your desktop (e.g., using GitHub Desktop application). Instructions on cloning repositories are [here](https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop/). This gives you local copies of the folders and associated files.  
     
