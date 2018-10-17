@@ -1,6 +1,8 @@
 # How to edit ForC Data (Basic instructions)
 We strongly recommend that you discuss any substantive changes with the database PI (@teixeirak) before proceeding. Also, if  you are planning to make a contribution that will take more than a few hours to complete, we recommend creation of an issue in Github to alert database owners about the changes intended to be made. This will avoid potential duplication of efforts / conflicted versions and allow database owners to provide any necessary guidance.
 
+**We advise you read through this guide in full _before_ entering data. Please direct any questions to database moderators.**
+
 ## Setting up to edit ForC on your desktop
 
 1.	Download the [Github desktop application](https://desktop.github.com/) and create a new branch in Github in the [ForC](https://github.com/forc-db/ForC/tree/master/data) repository with your username as the branch name. This allows you to edit the data on your own, and then when you’re finished, a moderator will review the changes you’ve made before they are merged with the data in the master branch.
@@ -94,7 +96,13 @@ Before editing, make sure you have the current version of the data (see step 2a)
     e. In the [ForC_measurements.csv](https://github.com/forc-db/ForC/blob/master/data/ForC_measurements.csv), the method.ID code can vary per variable per study. Please make sure you are entering the correct code (taken from the [ForC_methodology.csv](https://github.com/forc-db/ForC/blob/master/data/ForC_methodology.csv)).
     
    
-8.	As you progress with data entry, commit changes to your personal branch (we recommend relatively frequent commits, which save traceable / recoverable history of your work). This is done via GitHub desktop.
+
+  
+## Pushing to Github and Saving your branch to the Master
+
+**Merging branches can create unforeseen challenges. It is strongly advisable you consult with database moderators *before* you begin editing the data (see top of this guide).**
+
+8. As you progress with data entry, commit changes to your personal branch (we recommend relatively frequent commits, which save traceable / recoverable history of your work). This is done via GitHub desktop.
 
     a.	Navigate to “Current Repository” and choose the “ForC” repository from the dropdown menu.
     
@@ -103,10 +111,8 @@ Before editing, make sure you have the current version of the data (see step 2a)
     c.	On the left, you should see a log of your changed files. Write a summary in the box along with a description of what you’ve updated, then select “Commit to (yourbranchname).” 
     
     d. The header bar should now read "Push origin" on the right. Navigate and select to make sure your commit goes to the Github site.
-  
-## Saving your branch to the master
 
-9. We recommend saving your personal branch to the master either when the data entry is complete or you have finished entering data for the time being. If you need to come back and finish entering values, we advise creating an issue in Github stating "Finish entering XXX data," for example, or if you already have an issue, you can add a comment on it to indicate your updates.
+9. **Please see above Step 8.** We recommend saving your personal branch to the master either when the data entry is complete or you have finished entering data for the time being. If you need to come back and finish entering values, we advise creating an issue in Github stating "Finish entering XXX data," for example, or if you already have an issue, you can add a comment on it to indicate your updates.
     
     a. We also advise creating an issue for each study or set of studies you are working on.
 
