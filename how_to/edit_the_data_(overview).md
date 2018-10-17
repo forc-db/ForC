@@ -44,14 +44,16 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         ii. lat (Column I) & lon (Column J)
         
         iii. masl (Column K)
+    
+    d. In the main ForC repo, check "ForC_sites_map.html" to see an interactive world map of recorded sites in the database.
         
-5.	If the site already exists in the database and site-related data matches, use the same sites.sitename. Check plots associated with that site and select the appropriate one, or, if not already present, you'll need to add a new one (and add appropriate records ffor it to `HISTORY`). 
+5.	If the site already exists in the database and site-related data matches, use the same sites.sitename. Check plots associated with that site and select the appropriate one or, if not already present, you'll need to add a new one (and add appropriate records for it to `HISTORY`). 
 
 6.	If the data has not already been entered in the database, acquire the original data publication and supplement if available. 
 
     a. First, populate the [ForC_citations.csv](https://github.com/forc-db/ForC/blob/master/data/ForC_citations.csv) with the information from the publication. Descriptions of the headers can be found in the [metadata](https://github.com/forc-db/ForC/blob/master/metadata/citations_metadata.csv).
     
-    b. Next, save the publication the [References](https://github.com/forc-db/References) repository. 
+    b. Next, save the publication in the [References](https://github.com/forc-db/References) repository. 
 
         i. 	Change file name to be citationID.
     
