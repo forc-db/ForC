@@ -64,7 +64,10 @@ allometric.equation,allometry.citation,allometry.notes
 33,Chave_2014_iamt,"Equation 7. Based on DBH and an environmental stress parameter (E), which is a function of climatic water deficit, temperature seasonality, and precipitation seasonality"
 34,Goodman_2013_apba,"Palm trees (Arecaceae), based on DBH"
 35,Crow_1980_arca,"functions were derived from weight-dimensional data listed by Ovington and Olson (1970), but with sample trees less than 4.0 cm dbh eliminated"
-36,Chojnacky_2013_ugbe,composite taxa-specific equations 
-37,Ostertag_2014_fsil,NA 
-38,Aiba_2009_adaw,NA 
-39,Wang_2006_baef,NA 
+36,Chojnacky_2013_ugbe,composite taxa-specific equations
+37,Ostertag_2014_fsil,NA
+38,Aiba_2009_adaw,NA
+39,Wang_2006_baef,NA
+40.1,Niiyama_2010_eorb,equation to estimate coarse root biomass
+40.2,Niiyama_2010_eorb,equation to estimate fine root biomass
+40.3,Niiyama_2010_eorb,equation to estimate AGB
