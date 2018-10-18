@@ -16,7 +16,7 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,Populated.by,n,Min,Ma
 15 / O,end.date.loc,Level of confidence in date. ,numeric (double),Given in dateLOC table,-,manual entry,17258,5,9
 16 / P,mean,Mean value of measurement recorded. Units depend on the variable and can be found in the VARIABLES table. ,numeric (double) ,-,Given in VARIABLES table,manual entry,17367,-25,1533
 17 / Q,n,Number of experimental replicates used to estimate mean and statistical summary.,numeric (integer) ,-,-,manual entry,7599,1,4810
-18 / R,stat.name,Name of reported statistic: SE- standard error; SD- standard deviation; 95%CI- 95% confidence interval (upper bound - mean). ,character (string),see description,-,manual entry,2224,-,-
+18 / R,stat.name,Name of reported statistic: SE- standard error; SD- standard deviation; 95%CI- 95% confidence interval (upper bound - mean). Put full range in notes,character (string),see description,-,manual entry,2224,-,-
 19 / S,stat,Value of reported statistic. ,numeric (double),-,VARIABLES table,manual entry,2246,0,72
 20 / T,area.sampled,"Area sampled for measurement of the particular variable. If the measurement includes multiple components with different sampling area (e.g., large trees sampled in the entire plot, small trees sampled in subplots), the largest area is reported. This may be less than plot.area (PLOTS table). As this field was added after most of the data had been entered, it is coded as ""NAC"" for most records.",numeric (double),-,ha,manual entry,240,0,48
 21 / U,notes,"Additional information about the record, including notes on methodology and notes on any known anomalies.  Potentially problematic values have notes prefaced with asterisks. ",character (string),-,-,manual entry,3970,-,-
