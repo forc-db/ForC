@@ -6250,9 +6250,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2781.01,Zofin CTFS-ForestGEO plot,25-ha forest dynamics plot,25,1,1838,8,No.disturbance,No disturbance,NA,NA,NA,NA,under strict protection since 1838,NA
 2782.01,Yasuni CTFS-ForestGEO plot,25-ha forest dynamics plot (western half of 50-ha forest dynamics plot),25,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,"In 1995, an archeological survey was carried out on a hilltop near the northwest corner of the study plot; there were ceramic shards just 50 cm below the forest floor, estimated to be roughly 500 to 1000 years old; artifacts may belong to the nomadic Huaorani indian group, who formerly opened small clearings or used natural gaps for plantations of manioc and temporary homesites; a 1-ha area in the southwestern corner of the plot was a heliport used for oil exploration before 1990 is excluded from this subset of the plot; the exotic plant Muntingia calabura (Elaeocarpaceae) grows inside the plot; Huaorani and Quichua settlements have appeared near the station resulting in an increase in hunting pressure;",NA
 2782.04,Yasuni CTFS-ForestGEO plot,25-ha forest dynamics plot (western half of 50-ha forest dynamics plot),25,3,2010,8.5,Management,Other,NA,NA,NA,NA,Huaorani and Quichua settlements have appeared near the station resulting in an increase in hunting pressure;,NA
-2783.01,Gorakhpur_S_10,Sal Plantation Forest,NAC,,1972,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2784.01,Gorakhpur_S_16,Sal Plantation Forest,NAC,,1972,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2785.01,Gorakhpur_S_22,Sal Plantation Forest,NAC,,1972,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2786.01,Gorakhpur_S_28,Sal Plantation Forest,NAC,,1972,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2787.01,Gorakhpur_S_35,Sal Plantation Forest,NAC,,1972,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2788.01,Gorakhpur_S_38,Sal Plantation Forest,NAC,,1972,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2783.01,Gorakhpur_S_10,Sal Plantation Forest,NAC,,1962,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2784.01,Gorakhpur_S_16,Sal Plantation Forest,NAC,,1956,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2785.01,Gorakhpur_S_22,Sal Plantation Forest,NAC,,1950,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2786.01,Gorakhpur_S_28,Sal Plantation Forest,NAC,,1944,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2787.01,Gorakhpur_S_35,Sal Plantation Forest,NAC,,1937,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2788.01,Gorakhpur_S_38,Sal Plantation Forest,NAC,,1934,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
