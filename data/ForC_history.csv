@@ -6282,3 +6282,23 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2797.02,Ontario site region 5,Site 3,NAC,,1758,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
 2798.01,Ontario site region 5,Site 4,NAC,,1840,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
 2798.02,Ontario site region 5,Site 4,NAC,,1840,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2799.01,Bab,Bab,NAC,,1910,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2799.02,Bab,Bab,NAC,,1910,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2800.01,Fontainebleu,Fontainebleu,NAC,,NAC,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2800.02,Fontainebleu,Fontainebleu,NAC,,NAC,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2801.01,Rouquet,Rouquet,NAC,,1820,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2801.02,Rouquet,Rouquet,NAC,,1820,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2802.01,Sikfokut,Sikfokut,NAC,,1905,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2802.02,Sikfokut,Sikfokut,NAC,,1905,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2803.01,Okinawa,Okinawa,NAC,,1918,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2803.02,Okinawa,Okinawa,NAC,,1918,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2804.01,JPTF-Okita,Okita,NAC,,NI,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2804.02,JPTF-Okita,Okita,NAC,,NI,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2805.01,Meerdink,Meerdink,NAC,,1830,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2805.02,Meerdink,Meerdink,NAC,,1830,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2806.01,Sinaia,Site 2,NAC,,1860,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2806.02,Sinaia,Site 2,NAC,,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2807.01,San Juan,San Juan,NAC,,1882,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2807.02,San Juan,San Juan,NAC,,1882,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2808.01,Andersby Angsbackar,Site 3,NAC,,1850,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2808.02,Andersby Angsbackar,Site 3,NAC,,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
