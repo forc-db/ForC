@@ -6251,18 +6251,34 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2782.01,Yasuni CTFS-ForestGEO plot,25-ha forest dynamics plot (western half of 50-ha forest dynamics plot),25,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,"In 1995, an archeological survey was carried out on a hilltop near the northwest corner of the study plot; there were ceramic shards just 50 cm below the forest floor, estimated to be roughly 500 to 1000 years old; artifacts may belong to the nomadic Huaorani indian group, who formerly opened small clearings or used natural gaps for plantations of manioc and temporary homesites; a 1-ha area in the southwestern corner of the plot was a heliport used for oil exploration before 1990 is excluded from this subset of the plot; the exotic plant Muntingia calabura (Elaeocarpaceae) grows inside the plot; Huaorani and Quichua settlements have appeared near the station resulting in an increase in hunting pressure;",NA
 2782.04,Yasuni CTFS-ForestGEO plot,25-ha forest dynamics plot (western half of 50-ha forest dynamics plot),25,3,2010,8.5,Management,Other,NA,NA,NA,NA,Huaorani and Quichua settlements have appeared near the station resulting in an increase in hunting pressure;,NA
 2783.01,Gorakhpur_S_10,Sal Plantation Forest,NAC,,1962,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2783.02,Gorakhpur_S_10,Sal Plantation Forest,NAC,,1962,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2784.01,Gorakhpur_S_16,Sal Plantation Forest,NAC,,1956,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2784.02,Gorakhpur_S_16,Sal Plantation Forest,NAC,,1956,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2785.01,Gorakhpur_S_22,Sal Plantation Forest,NAC,,1950,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2785.02,Gorakhpur_S_22,Sal Plantation Forest,NAC,,1950,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2786.01,Gorakhpur_S_28,Sal Plantation Forest,NAC,,1944,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2786.02,Gorakhpur_S_28,Sal Plantation Forest,NAC,,1944,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2787.01,Gorakhpur_S_35,Sal Plantation Forest,NAC,,1937,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2787.02,Gorakhpur_S_35,Sal Plantation Forest,NAC,,1937,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2788.01,Gorakhpur_S_38,Sal Plantation Forest,NAC,,1934,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2788.02,Gorakhpur_S_38,Sal Plantation Forest,NAC,,1934,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2789.01,Tallish Ironwood_1,Site 1,NAC,,1942,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2789.02,Tallish Ironwood_1,Site 1,NAC,,1942,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2790.01,Tallish Ironwood_2,Site 2,NAC,,1952,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2790.02,Tallish Ironwood_2,Site 2,NAC,,1952,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2791.01,Tallish Ironwood_3,Site 3,NAC,,NI,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2791.02,Tallish Ironwood_3,Site 3,NAC,,NI,9,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2792.01,Tallish Ironwood_4,Site 4,NAC,,1933,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2792.02,Tallish Ironwood_4,Site 4,NAC,,1933,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2793.01,Tallish Oak_1,Site 1,NAC,,NI,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2793.02,Tallish Oak_1,Site 1,NAC,,NI,9,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2794.01,Talllish Oak_2,Site 2,NAC,,1912,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2794.02,Talllish Oak_2,Site 2,NAC,,1912,8.5,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2795.01,Ontario site region 5,Site 1,NAC,,1886,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2795.02,Ontario site region 5,Site 1,NAC,,1886,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
 2796.01,Ontario site region 5,Site 2,NAC,,1724,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2796.02,Ontario site region 5,Site 2,NAC,,1724,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
 2797.01,Ontario site region 5,Site 3,NAC,,1758,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2797.02,Ontario site region 5,Site 3,NAC,,1758,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
 2798.01,Ontario site region 5,Site 4,NAC,,1840,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2798.02,Ontario site region 5,Site 4,NAC,,1840,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
