@@ -6272,8 +6272,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2792.02,Tallish Ironwood_4,Site 4,NAC,,1933,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2793.01,Tallish Oak_1,Site 1,NAC,,NI,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
 2793.02,Tallish Oak_1,Site 1,NAC,,NI,9,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2794.01,Talllish Oak_2,Site 2,NAC,,1912,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2794.02,Talllish Oak_2,Site 2,NAC,,1912,8.5,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
+2794.01,Tallish Oak_2,Site 2,NAC,,1912,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2794.02,Tallish Oak_2,Site 2,NAC,,1912,8.5,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2795.01,Ontario site region 5,Site 1,NAC,,1886,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
 2795.02,Ontario site region 5,Site 1,NAC,,1886,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
 2796.01,Ontario site region 5,Site 2,NAC,,1724,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
@@ -6302,3 +6302,13 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2807.02,San Juan,San Juan,NAC,,1882,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
 2808.01,Andersby Angsbackar,Site 3,NAC,,1850,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
 2808.02,Andersby Angsbackar,Site 3,NAC,,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2809.01,Caucasus Birch_1,Site 1,NAC,,1954,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2809.02,Caucasus Birch_1,Site 1,NAC,,1954,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2810.01,Caucasus Birch_2,Site 2,NAC,,1944,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2810.02,Caucasus Birch_2,Site 2,NAC,,1944,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2811.01,Les Na Vorskle_7,Site 7,NAC,,1890,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2811.02,Les Na Vorskle_7,Site 7,NAC,,1890,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2812.01,Les Na Vorskle_8,Site 8,NAC,,1720,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2812.02,Les Na Vorskle_8,Site 8,NAC,,1720,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
+2813.01,Central Forest Reserve,Central Forest Reserve,NAC,,1860,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
+2813.02,Central Forest Reserve,Central Forest Reserve,NAC,,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
