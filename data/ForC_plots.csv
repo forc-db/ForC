@@ -2763,9 +2763,10 @@
 2772,"Wind River CTFS-ForestGEO plot","25.6 ha of 27.2-ha forest dynamics plot","25.6",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2773,"Wytham Woods CTFS-ForestGEO plot","18-ha forest dynamics plot","18",2773.01,"NI",2773.04,"Planted_and_natural_regeneration","NI",2773.03,"Harvest","NI","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2778,"Xishuangbanna CTFS-ForestGEO plot","20-ha forest dynamics plot","20",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2779,"Yasuni CTFS-ForestGEO plot","25-ha forest dynamics plot (western half of 50-ha forest dynamics plot)","25",0,"NAC",0,"NAC","NAC",0,"No major disturbance",NA,"NI",0,0,2779.02,"Other","4","1980",0,NA,NA,NA,0,0,0,0,0,0,2779
+2779,"Yasuni CTFS-ForestGEO plot","25-ha forest dynamics plot (western half of 50-ha forest dynamics plot)","25",0,"NAC",0,"NAC","NAC",0,"No major disturbance",NA,"NI",0,0,2779.02,"Other","4","1980",0,NA,NA,NA,0,0,0,0,0,0,2779.04
 2780,"Yosemite National Park CTFS-ForestGEO plot","25.6-ha forest dynamics plot","25.6",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2781,"Zofin CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1838",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2782,"Yasuni CTFS-ForestGEO plot","25-ha forest dynamics plot (western half of 50-ha forest dynamics plot), excluding disturbed 1ha","24",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,2782.02
 2783,"Gorakhpur_S_10","Sal Plantation Forest","NAC",2783.01,"1962",2783.02,"Planted","1962",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2784,"Gorakhpur_S_16","Sal Plantation Forest","NAC",2784.01,"1956",2784.02,"Planted","1956",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2785,"Gorakhpur_S_22","Sal Plantation Forest","NAC",2785.01,"1950",2785.02,"Planted","1950",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
