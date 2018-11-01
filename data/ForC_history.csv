@@ -6272,8 +6272,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2792.02,Tallish Ironwood_4,Site 4,NAC,,1933,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2793.01,Tallish Oak_1,Site 1,NAC,,NI,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
 2793.02,Tallish Oak_1,Site 1,NAC,,NI,9,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2794.01,Talllish Oak_2,Site 2,NAC,,1912,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2794.02,Talllish Oak_2,Site 2,NAC,,1912,8.5,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
+2794.01,Tallish Oak_2,Site 2,NAC,,1912,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2794.02,Tallish Oak_2,Site 2,NAC,,1912,8.5,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
 2795.01,Ontario site region 5,Site 1,NAC,,1886,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
 2795.02,Ontario site region 5,Site 1,NAC,,1886,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,,NA
 2796.01,Ontario site region 5,Site 2,NAC,,1724,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,,NA
