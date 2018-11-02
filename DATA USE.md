@@ -6,7 +6,7 @@ The following are guidelines for using ForC for scientific research purposes:
 
 ## Communication/ collaboration with ForC researchers
 
-We encourage researchers planning to use ForC to contact the principle investigator (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu) along with any additional investigators associated with specific data used (ForC.investigator field in MEASUREMENTS table) to inform them of intended use of the data and to discuss potential collaboration. 
+We encourage researchers planning to use ForC to contact the principle investigator (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu) along with any additional investigators associated with specific data used (`ForC.investigator` field in MEASUREMENTS table) to inform them of intended use of the data and to discuss potential collaboration. 
 
 ## Crediting original researchers
 
