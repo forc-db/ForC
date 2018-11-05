@@ -6,6 +6,8 @@ As of Oct. 2018, ForC has some sites that are likely duplicates of others (liste
 
 2. You'll be reviewing records where [`potential_duplicate_group`= a non-zero number] and [`confirmed.unique` = "NAC" or "0"]. If records are part of the same `super.site`, they are lower priority for review. (This designation indicates that there are >1 distinct sites of nested, overlapping, or of unknown relationship.)
 
+3. It will be useful to refer to "[ForC_sites_map.html](https://github.com/forc-db/ForC/blob/master/ForC_sites_map.html)", whichh is an interactive world map of recorded sites in the database. (Download file, open from your computer.)
+
 ## Determining whether sites are unique
 
 3. Look at records with the same `potential_duplicate_group` number. Start with an example with a small number of records (2-3). It can be informative to view the `MEASUREMENTS` records associated with the site.
