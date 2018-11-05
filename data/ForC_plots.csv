@@ -696,7 +696,7 @@
 695,"Dubya","Tropical Moist Forest recovery following pasture abandonment","NAC",695.03,"NI",695.02,"Initiation of post-disturbance cohort (natural)","NI",695.01,"Grazed","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 696,"Duke Forest Loblolly Pine","Ambient","NAC",0,"NAC",696.03,"Seeded_trees","1983",696.02,"Burned","100","1983",696.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 697,"Duke Forest Loblolly Pine","Elevated CO2","NAC",0,"NAC",697.03,"Seeded_trees","1983",697.02,"Burned","100","1983",697.01,0,0,NA,NA,NA,0,NA,NA,NA,0,697.04,0,0,0,0,0
-698,"Duke Forest Loblolly Pine","Managed loblolly pine plantation","NAC",698.01,"1983",698.04,"Seeded_trees","1983",698.03,"Burned","100","1983",698.02,0,698.05,"Drought","NAC","2001.246575",698.06,"Major storm","<100%","2002.915068",698.07,0,0,0,0,0,0
+698,"Duke Forest Loblolly Pine","Managed loblolly pine plantation","NAC",0,"NAC",698.04,"Seeded_trees","1983",698.03,"Burned","100","1983",698.02,0,698.05,"Drought","NAC","2001.246575",698.06,"Major storm","<100%","2002.915068",698.07,0,0,0,0,0,0
 699,"Duke Forest-Hardwoods","unmanaged post-agricultural succession 80-100-y-o oak-hickory forest","NAC",699.02,"1905",699.01,"Initiation of post-disturbance cohort (natural)","1905",0,"NAC","NAC","NAC",0,0,699.03,"Drought","NAC","2001.246575",699.04,"Major storm","<100%","2002.915068",699.05,0,0,0,0,0,0
 700,"DukeFACE","ambient","NAC",0,"NAC",700.01,"Planted","1983",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 701,"DukeFACE","ambient FACTS-I","NAC",0,"NAC",701.01,"Planted","1983",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2833,3 +2833,13 @@
 2846,"Marihan","Site 1","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2847,"Marihan","Site 2","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2848,"Marihan","Site 3","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2849,"Manaus","Manaus","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2850,"Kampinos National Park","Kampinos","NAC",2850.01,"1890",2850.02,"Initiation of post-disturbance cohort (planted or natural)","1890",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2851,"Babadag","Site 1","NAC",2851.01,"1928",2851.02,"Initiation of post-disturbance cohort (planted or natural)","1928",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2852,"Babadag","Site 2","NAC",2852.01,"1928",2852.02,"Initiation of post-disturbance cohort (planted or natural)","1928",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2853,"Tigrovaya","Tigrovaya floodplain","NAC",2853.01,"1945",2853.02,"Initiation of post-disturbance cohort (planted or natural)","1945",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2854,"Coweeta Watershed 1","Watershed 1","NAC",2854.01,"1955",2854.02,"Initiation of post-disturbance cohort (planted or natural)","1955",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2855,"Coweeta Watershed 18","Watershed 18","NAC",2855.01,"1910",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2857,"Nakoma Urban Forest","Nakoma Urban Forest","NAC",2857.01,"1840",2857.02,"Initiation of post-disturbance cohort (planted or natural)","1840",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2858,"Eglharting","Eglharting","NAC",2858.01,"1890",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2859,"Lubumbashi","Lubumbashi","NAC",2859.01,"1850",2859.02,"Initiation of post-disturbance cohort (planted or natural)","1850",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
