@@ -41,7 +41,7 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         
         ii. sites.sitename (Column B)
         
-    c.	In ForC_sites.csv, check
+    c.	In ForC_sites.csv, check:
     
         i. sites.sitename (Column B)
         
@@ -49,7 +49,7 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
         
         iii. masl (Column K)
     
-    d. In the main ForC repo, check "ForC_sites_map.html" to see an interactive world map of recorded sites in the database.
+    d. In the main ForC repo, check "[ForC_sites_map.html](https://github.com/forc-db/ForC/blob/master/ForC_sites_map.html)" to see an interactive world map of recorded sites in the database.
         
 5.	If the site already exists in the database and site-related data matches, use the same sites.sitename. Check plots associated with that site and select the appropriate one or, if not already present, you'll need to add a new one (and add appropriate records for it to `HISTORY`). 
 

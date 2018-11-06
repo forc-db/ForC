@@ -6250,103 +6250,103 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2781.01,Zofin CTFS-ForestGEO plot,25-ha forest dynamics plot,25,1,1838,8,No.disturbance,No disturbance,NA,NA,NA,NA,under strict protection since 1838,NA
 2782.01,Yasuni CTFS-ForestGEO plot,"25-ha forest dynamics plot (western half of 50-ha forest dynamics plot), excluding disturbed 1ha",24,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,"In 1995, an archeological survey was carried out on a hilltop near the northwest corner of the study plot; there were ceramic shards just 50 cm below the forest floor, estimated to be roughly 500 to 1000 years old; artifacts may belong to the nomadic Huaorani indian group, who formerly opened small clearings or used natural gaps for plantations of manioc and temporary homesites; a 1-ha area in the southwestern corner of the plot was a heliport used for oil exploration before 1990 is excluded from this subset of the plot; the exotic plant Muntingia calabura (Elaeocarpaceae) grows inside the plot; Huaorani and Quichua settlements have appeared near the station resulting in an increase in hunting pressure;",NA
 2782.02,Yasuni CTFS-ForestGEO plot,"25-ha forest dynamics plot (western half of 50-ha forest dynamics plot), excluding disturbed 1ha",24,2,2010,8.5,Management,Other,NA,NA,NA,NA,Huaorani and Quichua settlements have appeared near the station resulting in an increase in hunting pressure;,NA
-2783.01,Gorakhpur_S_10,Sal Plantation Forest,NAC,,1962,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2783.02,Gorakhpur_S_10,Sal Plantation Forest,NAC,,1962,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2784.01,Gorakhpur_S_16,Sal Plantation Forest,NAC,,1956,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2784.02,Gorakhpur_S_16,Sal Plantation Forest,NAC,,1956,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2785.01,Gorakhpur_S_22,Sal Plantation Forest,NAC,,1950,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2785.02,Gorakhpur_S_22,Sal Plantation Forest,NAC,,1950,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2786.01,Gorakhpur_S_28,Sal Plantation Forest,NAC,,1944,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2786.02,Gorakhpur_S_28,Sal Plantation Forest,NAC,,1944,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2787.01,Gorakhpur_S_35,Sal Plantation Forest,NAC,,1937,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2787.02,Gorakhpur_S_35,Sal Plantation Forest,NAC,,1937,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2788.01,Gorakhpur_S_38,Sal Plantation Forest,NAC,,1934,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2788.02,Gorakhpur_S_38,Sal Plantation Forest,NAC,,1934,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2789.01,Tallish Ironwood_1,Site 1,NAC,,1942,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2789.02,Tallish Ironwood_1,Site 1,NAC,,1942,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2790.01,Tallish Ironwood_2,Site 2,NAC,,1952,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2790.02,Tallish Ironwood_2,Site 2,NAC,,1952,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2791.01,Tallish Ironwood_3,Site 3,NAC,,NI,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2791.02,Tallish Ironwood_3,Site 3,NAC,,NI,9,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2792.01,Tallish Ironwood_4,Site 4,NAC,,1933,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2792.02,Tallish Ironwood_4,Site 4,NAC,,1933,8,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2793.01,Tallish Oak_1,Site 1,NAC,,NI,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2793.02,Tallish Oak_1,Site 1,NAC,,NI,9,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2794.01,Tallish Oak_2,Site 2,NAC,,1912,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2794.02,Tallish Oak_2,Site 2,NAC,,1912,8.5,Regrowth,Planted,NAC,NAC,NA,NA,Plantation,NA
-2795.01,Ontario site region 5,Site 1,NAC,,1886,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2795.02,Ontario site region 5,Site 1,NAC,,1886,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2796.01,Ontario site region 5,Site 2,NAC,,1724,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2796.02,Ontario site region 5,Site 2,NAC,,1724,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2797.01,Ontario site region 5,Site 3,NAC,,1758,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2797.02,Ontario site region 5,Site 3,NAC,,1758,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2798.01,Ontario site region 5,Site 4,NAC,,1840,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2798.02,Ontario site region 5,Site 4,NAC,,1840,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2799.01,Bab,Bab,NAC,,1910,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2799.02,Bab,Bab,NAC,,1910,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2800.01,Fontainebleu,Fontainebleu,NAC,,NAC,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2800.02,Fontainebleu,Fontainebleu,NAC,,NAC,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2801.01,Rouquet,Rouquet,NAC,,1820,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2801.02,Rouquet,Rouquet,NAC,,1820,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2802.01,Sikfokut,Sikfokut,NAC,,1905,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2802.02,Sikfokut,Sikfokut,NAC,,1905,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2803.01,Okinawa,Okinawa,NAC,,1918,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2803.02,Okinawa,Okinawa,NAC,,1918,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2804.01,JPTF-Okita,Okita,NAC,,NI,9,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2804.02,JPTF-Okita,Okita,NAC,,NI,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2805.01,Meerdink,Meerdink,NAC,,1830,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2805.02,Meerdink,Meerdink,NAC,,1830,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2806.01,Sinaia,Site 2,NAC,,1860,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2806.02,Sinaia,Site 2,NAC,,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2807.01,San Juan,San Juan,NAC,,1882,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2807.02,San Juan,San Juan,NAC,,1882,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2808.01,Andersby Angsbackar,Site 3,NAC,,1850,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2808.02,Andersby Angsbackar,Site 3,NAC,,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2809.01,Caucasus Birch_1,Site 1,NAC,,1954,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2809.02,Caucasus Birch_1,Site 1,NAC,,1954,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2810.01,Caucasus Birch_2,Site 2,NAC,,1944,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2810.02,Caucasus Birch_2,Site 2,NAC,,1944,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2811.01,Les Na Vorskle_7,Site 7,NAC,,1890,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2811.02,Les Na Vorskle_7,Site 7,NAC,,1890,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2812.01,Les Na Vorskle_8,Site 8,NAC,,1720,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2812.02,Les Na Vorskle_8,Site 8,NAC,,1720,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2813.01,Central Forest Reserve,Central Forest Reserve,NAC,,1860,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2813.02,Central Forest Reserve,Central Forest Reserve,NAC,,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2814.01,Wooroonooran National Park,Basalt,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2815.01,Wooroonooran National Park,Schist,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2816.01,Serra do Mar Restinga,Restinga,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2817.01,Serra do Mar Lowland,Lowland,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2818.01,Serra do Mar Submontane,Submontane,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2819.01,Caxiuana 3,CAX-03,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2820.01,Caxiuana 5,CAX-05,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2821.01,Caxiuana 4,CAX-06,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2822.01,Paragominas,Paragominas,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2823.01,Baka,MNR2,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2824.01,Salero,PPIB,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2825.01,Tropenstation La Gamba,Ridge,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2826.01,Tropenstation La Gamba,Gorge,NAC,,NAC,9,No.disturbance,No disturbance,NAC,NAC,NA,NA,NAC,NA
-2827.01,Podocarpus National Park 4,montane tropical forest.PNP4,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2828.01,Podocarpus National Park 5,montane tropical forest.PNP5,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2829.01,Paracou B,PAR-01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2830.01,Chhindwara,Site I,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2831.01,Chhindwara,Site II,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2832.01,Chhindwara,Site III,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2833.01,Chhindwara,Site IV,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2834.01,Kalimantan,Barito Ulu,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2835.01,Barisian Mountains,Pinang Pinang,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2836.01,"Mt. Kinabalu, Q lower",upland tropical forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2837.01,"Mt. Kinabalu, T lower",upland tropical forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2838.01,Chamela hill,Hill,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2839.01,Chamela valley,Valley,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2840.01,Cinnamon Bay,Cinnamon Bay,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2841.01,Mauna Loa Young flow 1,Young flow 1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2842.01,Mauna Loa Young flow 2,Young flow 2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2843.01,Mauna Loa Young flow 3,Young flow 3,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2844.01,Mauna Loa Old flow 2,Old flow 2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2845.01,El Verde,El Verde Dwarf,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2846.01,Marihan,Site 1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2847.01,Marihan,Site 2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2848.01,Marihan,Site 3,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2783.01,Gorakhpur_S_10,Sal Plantation Forest,NAC,1,1962,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2783.02,Gorakhpur_S_10,Sal Plantation Forest,NAC,2,1962,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2784.01,Gorakhpur_S_16,Sal Plantation Forest,NAC,1,1956,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2784.02,Gorakhpur_S_16,Sal Plantation Forest,NAC,2,1956,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2785.01,Gorakhpur_S_22,Sal Plantation Forest,NAC,1,1950,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2785.02,Gorakhpur_S_22,Sal Plantation Forest,NAC,2,1950,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2786.01,Gorakhpur_S_28,Sal Plantation Forest,NAC,1,1944,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2786.02,Gorakhpur_S_28,Sal Plantation Forest,NAC,2,1944,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2787.01,Gorakhpur_S_35,Sal Plantation Forest,NAC,1,1937,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2787.02,Gorakhpur_S_35,Sal Plantation Forest,NAC,2,1937,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2788.01,Gorakhpur_S_38,Sal Plantation Forest,NAC,1,1934,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2788.02,Gorakhpur_S_38,Sal Plantation Forest,NAC,2,1934,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2789.01,Tallish Ironwood_1,Site 1,NAC,1,1942,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2789.02,Tallish Ironwood_1,Site 1,NAC,2,1942,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2790.01,Tallish Ironwood_2,Site 2,NAC,1,1952,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2790.02,Tallish Ironwood_2,Site 2,NAC,2,1952,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2791.01,Tallish Ironwood_3,Site 3,NAC,1,NI,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2791.02,Tallish Ironwood_3,Site 3,NAC,2,NI,9,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2792.01,Tallish Ironwood_4,Site 4,NAC,1,1933,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2792.02,Tallish Ironwood_4,Site 4,NAC,2,1933,8,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2793.01,Tallish Oak_1,Site 1,NAC,1,NI,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2793.02,Tallish Oak_1,Site 1,NAC,2,NI,9,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2794.01,Tallish Oak_2,Site 2,NAC,1,1912,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,Plantation,NA
+2794.02,Tallish Oak_2,Site 2,NAC,2,1912,8.5,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+2795.01,Ontario site region 5,Site 1,NAC,1,1886,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2795.02,Ontario site region 5,Site 1,NAC,2,1886,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2796.01,Ontario site region 5,Site 2,NAC,1,1724,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2796.02,Ontario site region 5,Site 2,NAC,2,1724,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2797.01,Ontario site region 5,Site 3,NAC,1,1758,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2797.02,Ontario site region 5,Site 3,NAC,2,1758,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2798.01,Ontario site region 5,Site 4,NAC,1,1840,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2798.02,Ontario site region 5,Site 4,NAC,2,1840,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2799.01,Bab,Bab,NAC,1,1910,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2799.02,Bab,Bab,NAC,2,1910,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2800.01,Fontainebleu,Fontainebleu,NAC,1,NAC,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2800.02,Fontainebleu,Fontainebleu,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2801.01,Rouquet,Rouquet,NAC,1,1820,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2801.02,Rouquet,Rouquet,NAC,2,1820,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2802.01,Sikfokut,Sikfokut,NAC,1,1905,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2802.02,Sikfokut,Sikfokut,NAC,2,1905,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2803.01,Okinawa,Okinawa,NAC,1,1918,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2803.02,Okinawa,Okinawa,NAC,2,1918,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2804.01,JPTF-Okita,Okita,NAC,1,NI,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2804.02,JPTF-Okita,Okita,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2805.01,Meerdink,Meerdink,NAC,1,1830,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2805.02,Meerdink,Meerdink,NAC,2,1830,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2806.01,Sinaia,Site 2,NAC,1,1860,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2806.02,Sinaia,Site 2,NAC,2,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2807.01,San Juan,San Juan,NAC,1,1882,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2807.02,San Juan,San Juan,NAC,2,1882,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2808.01,Andersby Angsbackar,Site 3,NAC,1,1850,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2808.02,Andersby Angsbackar,Site 3,NAC,2,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2809.01,Caucasus Birch_1,Site 1,NAC,1,1954,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2809.02,Caucasus Birch_1,Site 1,NAC,2,1954,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2810.01,Caucasus Birch_2,Site 2,NAC,1,1944,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2810.02,Caucasus Birch_2,Site 2,NAC,2,1944,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2811.01,Les Na Vorskle_7,Site 7,NAC,1,1890,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2811.02,Les Na Vorskle_7,Site 7,NAC,2,1890,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2812.01,Les Na Vorskle_8,Site 8,NAC,1,1720,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2812.02,Les Na Vorskle_8,Site 8,NAC,2,1720,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2813.01,Central Forest Reserve,Central Forest Reserve,NAC,1,1860,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2813.02,Central Forest Reserve,Central Forest Reserve,NAC,2,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2814.01,Wooroonooran National Park,Basalt,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2815.01,Wooroonooran National Park,Schist,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2816.01,Serra do Mar Restinga,Restinga,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2817.01,Serra do Mar Lowland,Lowland,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2818.01,Serra do Mar Submontane,Submontane,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2819.01,Caxiuana 3,CAX-03,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2820.01,Caxiuana 5,CAX-05,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2821.01,Caxiuana 4,CAX-06,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2822.01,Paragominas,Paragominas,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2823.01,Baka,MNR2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2824.01,Salero,PPIB,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2825.01,Tropenstation La Gamba,Ridge,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2826.01,Tropenstation La Gamba,Gorge,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2827.01,Podocarpus National Park 4,montane tropical forest.PNP4,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2828.01,Podocarpus National Park 5,montane tropical forest.PNP5,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2829.01,Paracou B,PAR-01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2830.01,Chhindwara,Site I,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2831.01,Chhindwara,Site II,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2832.01,Chhindwara,Site III,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2833.01,Chhindwara,Site IV,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2834.01,Kalimantan,Barito Ulu,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2835.01,Barisian Mountains,Pinang Pinang,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2836.01,"Mt. Kinabalu, Q lower",upland tropical forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2837.01,"Mt. Kinabalu, T lower",upland tropical forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2838.01,Chamela hill,Hill,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2839.01,Chamela valley,Valley,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2840.01,Cinnamon Bay,Cinnamon Bay,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2841.01,Mauna Loa Young flow 1,Young flow 1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2842.01,Mauna Loa Young flow 2,Young flow 2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2843.01,Mauna Loa Young flow 3,Young flow 3,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2844.01,Mauna Loa Old flow 2,Old flow 2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2845.01,El Verde,El Verde Dwarf,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2846.01,Marihan,Site 1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2847.01,Marihan,Site 2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+2848.01,Marihan,Site 3,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 2849.01,Manaus,Manaus,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
 2850.01,Kampinos National Park,Kampinos,NAC,,1890,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
 2850.02,Kampinos National Park,Kampinos,NAC,,1890,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
