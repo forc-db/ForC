@@ -6347,39 +6347,39 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2846.01,Marihan,Site 1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 2847.01,Marihan,Site 2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 2848.01,Marihan,Site 3,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
-2849.01,Manaus,Manaus,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2850.01,Kampinos National Park,Kampinos,NAC,,1890,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2850.02,Kampinos National Park,Kampinos,NAC,,1890,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2851.01,Babadag,Site 1,NAC,,1928,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2851.02,Babadag,Site 1,NAC,,1928,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2852.01,Babadag,Site 2,NAC,,1928,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2852.02,Babadag,Site 2,NAC,,1928,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2853.01,Tigrovaya,Tigrovaya floodplain,NAC,,1945,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2853.02,Tigrovaya,Tigrovaya floodplain,NAC,,1945,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2854.01,Coweeta Watershed 1,Watershed 1,NAC,,1955,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2854.02,Coweeta Watershed 1,Watershed 1,NAC,,1955,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,Plantation,NA
-2855.01,Coweeta Watershed 18,Watershed 18,NAC,,1910,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2855.02,Coweeta Watershed 18,Watershed 18,NAC,,1910,8.5,Regrowth,Initiation of post-disturbance cohort (planted),NAC,NAC,NA,NA,Plantation,NA
-2856.01,Duke Forest Loblolly Pine,Managed loblolly pine plantation,NAC,,1952,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2856.02,Duke Forest Loblolly Pine,Managed loblolly pine plantation,NAC,,1952,8.5,Regrowth,Initiation of post-disturbance cohort (planted),NAC,NAC,NA,NA,Plantation,NA
-2857.01,Nakoma Urban Forest,Nakoma Urban Forest,NAC,,1840,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2857.02,Nakoma Urban Forest,Nakoma Urban Forest,NAC,,1840,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2858.01,Eglharting,Eglharting,NAC,,1890,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
-2858.02,Eglharting,Eglharting,NAC,,1890,8.5,Regrowth,Initiation of post-disturbance cohort (planted),NAC,NAC,NA,NA,Plantation,NA
-2859.01,Lubumbashi,Lubumbashi,NAC,,1850,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-2859.02,Lubumbashi,Lubumbashi,NAC,,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-2860.01,Palanga Raya,Heath forest,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2861.01,Jatun Sacha,Jatun Sacha,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2862.01,Selva Viva,Selva Viva,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2863.01,Hakuna Matata,Hakuna Matata,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2864.01,Rio Hollin,Rio Hollin,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2865.01,Galeras 1000m,Galeras 1000m,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2866.01,Galeras 1500m,Galeras 1500m,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2867.01,Cocodrilos,Cocodrilos,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2868.01,Sumaco 1500m,Sumaco 1500m,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2869.01,Sumaco 2000m,Sumaco 2000m,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2870.01,C. Guacamayos,C. Guacamayos,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2871.01,Yanayacu,Yanayacu,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2872.01,Tapajos km 67,TAP67,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2873.01,Tapajos km 72,TAP72,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-2874.01,Tapajos km 117,TAP117,NAC,,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2849.01,Manaus,Manaus,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2850.01,Kampinos National Park,Kampinos,NAC,1,1890,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+2850.02,Kampinos National Park,Kampinos,NAC,1,1890,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
+2851.01,Babadag,Site 1,NAC,1,1928,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+2851.02,Babadag,Site 1,NAC,1,1928,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
+2852.01,Babadag,Site 2,NAC,1,1928,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+2852.02,Babadag,Site 2,NAC,1,1928,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
+2853.01,Tigrovaya,Tigrovaya floodplain,NAC,1,1945,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+2853.02,Tigrovaya,Tigrovaya floodplain,NAC,1,1945,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
+2854.01,Coweeta Watershed 1,Watershed 1,NAC,1,1955,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2854.02,Coweeta Watershed 1,Watershed 1,NAC,1,1955,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,Plantation,NA
+2855.01,Coweeta Watershed 18,Watershed 18,NAC,1,1910,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2855.02,Coweeta Watershed 18,Watershed 18,NAC,1,1910,8.5,Regrowth,Initiation of post-disturbance cohort (planted),NAC,NAC,NA,NA,Plantation,NA
+2856.01,Duke Forest Loblolly Pine,Managed loblolly pine plantation,NAC,1,1952,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2856.02,Duke Forest Loblolly Pine,Managed loblolly pine plantation,NAC,1,1952,8.5,Regrowth,Initiation of post-disturbance cohort (planted),NAC,NAC,NA,NA,Plantation,NA
+2857.01,Nakoma Urban Forest,Nakoma Urban Forest,NAC,1,1840,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+2857.02,Nakoma Urban Forest,Nakoma Urban Forest,NAC,1,1840,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
+2858.01,Eglharting,Eglharting,NAC,1,1890,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,Plantation,NA
+2858.02,Eglharting,Eglharting,NAC,1,1890,8.5,Regrowth,Initiation of post-disturbance cohort (planted),NAC,NAC,NA,NA,Plantation,NA
+2859.01,Lubumbashi,Lubumbashi,NAC,1,1850,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+2859.02,Lubumbashi,Lubumbashi,NAC,1,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
+2860.01,Palanga Raya,Heath forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2861.01,Jatun Sacha,Jatun Sacha,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2862.01,Selva Viva,Selva Viva,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2863.01,Hakuna Matata,Hakuna Matata,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2864.01,Rio Hollin,Rio Hollin,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2865.01,Galeras 1000m,Galeras 1000m,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2866.01,Galeras 1500m,Galeras 1500m,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2867.01,Cocodrilos,Cocodrilos,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2868.01,Sumaco 1500m,Sumaco 1500m,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2869.01,Sumaco 2000m,Sumaco 2000m,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2870.01,C. Guacamayos,C. Guacamayos,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2871.01,Yanayacu,Yanayacu,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2872.01,Tapajos km 67,TAP67,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2873.01,Tapajos km 72,TAP72,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
+2874.01,Tapajos km 117,TAP117,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
