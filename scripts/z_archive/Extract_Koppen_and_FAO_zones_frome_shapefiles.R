@@ -23,10 +23,10 @@ SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 
 # Load shapefiles and legends ####
 
-FAO <- readOGR("R:/Global Maps Data/Shapefiles/FAO global eco_zone/gez_2010_wgs84.shp", layer = "gez_2010_wgs84", stringsAsFactors = F)
+FAO <- readOGR("S:/Global Maps Data/Shapefiles/FAO global eco_zone/gez_2010_wgs84.shp", layer = "gez_2010_wgs84", stringsAsFactors = F)
 
-KOEPPEN <- readOGR("R:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/koeppen_dissolved.shp", layer = "koeppen_dissolved", stringsAsFactors = F)
-categoriesKOEPPEN <- read.table("R:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/Legend.txt", stringsAsFactors = F)
+KOEPPEN <- readOGR("S:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/koeppen_dissolved.shp", layer = "koeppen_dissolved", stringsAsFactors = F)
+categoriesKOEPPEN <- read.table("S:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/Legend.txt", stringsAsFactors = F)
 categoriesKOEPPEN <- categoriesKOEPPEN[, c(1,3)]
 colnames(categoriesKOEPPEN) <- c("GRIDCODE", "Koeppen")
 
