@@ -967,7 +967,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 438.01,Caxiuana Terra Preta CAX-08,unmanaged Late successional forest,1,1,1960,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,well preserved late successional forest growing on  very fertile Terra Preta soil formed by human activities from ancient inhabitants during 720-300 years BP. Covered by forest that has remained largely undisturbed for at least 40 years since the creation of Caxiuana National Forest reserve.,2271
 439.01,Caxiuana Tower CAX-06,tall primary forest near flux tower site,1,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,2290
 440.01,Caxiuana,unmanaged,NAC,1,1970,8,No.disturbance,No disturbance,NA,NA,NA,NA,"largely undisturbed, having been a reserve since 1970",564
-441.01,Cedar Bridge fire tower Pine/Scrub Oak stand,gypsy moth defoliation,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
+441.01,Cedar Bridge fire tower Pine/Scrub Oak stand,gypsy moth defoliation,NAC,1,1923,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+441.02,Cedar Bridge fire tower Pine/Scrub Oak stand,gypsy moth defoliation,NAC,1,1923,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 442.01,Cedar River Watershed Douglas Fir Chronosequence,Natural regeneration following logging and fires.22 y,NAC,1,NAC,9,Disturbance,Harvest,NA,NA,NA,NAC,NA,NA
 442.02,Cedar River Watershed Douglas Fir Chronosequence,Natural regeneration following logging and fires.22 y,NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,NAC,NA,NA
 442.03,Cedar River Watershed Douglas Fir Chronosequence,Natural regeneration following logging and fires.22 y,NAC,3,NAC,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
@@ -1841,7 +1842,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 836.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,2,1969,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,723
 837.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,1,1967,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,721
 837.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,2,1967,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,724
-838.01,Fort Dix Army Base Pine/Oak stand,gypsy moth defoliation,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
+838.01,Fort Dix Army Base Pine/Oak stand,gypsy moth defoliation,NAC,1,1932,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+838.02,Fort Dix Army Base Pine/Oak stand,gypsy moth defoliation,NAC,1,1932,,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
 839.01,Fortuna,upland tropical forest,NAC,1,NAC,9,No.info,NI,NA,NA,NA,NA,NA,5616
 840.01,France,NI,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,No information available,NA
 841.01,Frazer old,unmanaged,NAC,1,1740,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. Unmanaged,NA
@@ -4838,7 +4840,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2198.01,Sierra Nevada 2.Chiquito,unmanaged,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,Unmanaged,NA
 2199.01,Sierra Nevada 3.Fallbrook,unmanaged,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,Unmanaged,NA
 2200.01,Siikaneva (NECC),boreal minerotrophic open wetland,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-2201.01,Silas Little Experimental Forest Oak/Pine stand,gypsy moth defoliation,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
+2201.01,Silas Little Experimental Forest Oak/Pine stand,gypsy moth defoliation,NAC,1,1914,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
+2201.02,Silas Little Experimental Forest Oak/Pine stand,gypsy moth defoliation,NAC,1,1914,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 2202.01,Sinop flux station,mature transitional tropical forest,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,1556
 2203.01,Sinop,Cerrado-Amazon transitional forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
 2204.01,Sipitang,Forest recovery following drought and wildfire.2-y,NAC,1,1983,9,Disturbance,Drought,NA,NA,NA,100,History event derived from plot.name,NA
