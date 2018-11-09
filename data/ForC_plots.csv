@@ -418,7 +418,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 417,Cascada,"Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment",NAC,417.03,NI,417.02,Initiation of post-disturbance cohort (natural),NI,417.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 418,Cascade Head (1),unmanaged,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 419,Cascade Head (1A),FI,NAC,0,NAC,419.02,Initiation of post-disturbance cohort (planted or natural),NAC,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,419.01,0,0
-420,Cascade Head 1 ,recently disturbed,NAC,420.01,1989,420.02,Initiation of post-disturbance cohort (planted or natural),1989,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+420,Cascade Head 1,recently disturbed,NAC,420.01,1989,420.02,Initiation of post-disturbance cohort (planted or natural),1989,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 421,Cascade Head 10,unmanaged,NAC,421.01,1816,421.02,Initiation of post-disturbance cohort (natural),1816,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 422,Cascade Head 11,unmanaged,NAC,422.01,1833,422.02,Initiation of post-disturbance cohort (natural),1833,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 423,Cascade Head 12,unmanaged,NAC,423.01,1823,423.02,Initiation of post-disturbance cohort (natural),1823,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -639,7 +639,7 @@ plotID,sites.sitename,plot.name,plotarea,establishment.ID,year.establishment.old
 638,Daxing'anling 7,Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 639,Daxinganling,NI,NAC,639.01,1960,639.02,Initiation of post-disturbance cohort (planted or natural),1960,0,NAC,NAC,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 640,Deep Throat,Tropical Dry Forest recovery following pasture abandonment,NAC,640.03,NI,640.02,Initiation of post-disturbance cohort (natural),NI,640.01,Grazed,100,NI,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-641,Deer Canyon Preserve Pinyon Juniper Woodland ,pinyon juniper woodland,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+641,Deer Canyon Preserve Pinyon Juniper Woodland,pinyon juniper woodland,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 642,Deqin Larix,Larix,NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 643,"Deqin Picea, Abies 1","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 644,"Deqin Picea, Abies 2","Picea, Abies",NAC,0,NAC,0,NAC,NAC,0,NAC,NA,NAC,0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
