@@ -25,6 +25,7 @@ setwd(".")
 
 # Load libraries ####
 library(reshape)
+library(DT)
 
 # Load tables ####
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
@@ -98,5 +99,6 @@ A <- datatable(A.cast, options = list(pageLength = 50))
 
 setwd("numbers_and_facts")
 saveWidget(A, "Sample_size_per_variable_and_forest_biome_combination.html")
+write.csv(A.cast, "Sample_size_per_variable_and_forest_biome_combination.csv")
 
 setwd(dirname(getwd()))
