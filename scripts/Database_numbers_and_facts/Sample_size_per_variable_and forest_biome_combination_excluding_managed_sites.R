@@ -25,7 +25,7 @@
 rm(list = ls())
 
 # Set working directory as ForC main folder ####
-setwd("C:/Users/banburymorganr/Dropbox (Smithsonian)/GitHub/ForC")
+setwd(".")
 
 # Load libraries ####
 library(reshape)
