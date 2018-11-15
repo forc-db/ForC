@@ -83,6 +83,7 @@ Burghouts_1992_llld,10.1098/rstb.1992.0032,Burghouts,1992,"Litterfall, leaf litt
 Burton_2004_scnd,10.1111/j.1365-2486.2004.00737.x,Burton,2004,Simulated chronic NO3- deposition reduces soil respiration in northern hardwood forests.
 Busing_1993_bapo,10.1139/x93-100,Busing,1993,Biomass and production of southern Appalachian cove forests re-examined
 Busing_1998_csad,10.1139/x93-100,Busing,1998,"Composition, structure and diversity of cove forest stands in the Great Smokey Mountains: A patch dynamics perspective"
+Busing_2013_ntfg,10.3334/ORNLDAAC/804,Busing,2013,"NPP Temperate Forest: Great Smoky Mountains, Tennessee, USA, 1968-1992, R1"
 Cairns_1997_rbai,10.1007/s004420050201,Cairns,1997,Root biomass allocation in the world's upland forests
 Calfapietra_2003_fcef,10.1093/treephys/23.12.805,Calfapietra,2003,Free-air CO2 enrichment (FACE) enhances biomass production in a short-rotation poplar plantation
 Campbell_2004_scos,10.1111/j.1365-2486.2004.00850.x,Campbell,2004,Supply-side controls on soil respiration among Oregon forests
@@ -121,6 +122,7 @@ Clark_2004_cdaa,10.1890/02-5391,Clark,2004,Carbon dynamics along a chronosequenc
 Clark_2010_iiif,10.1111/j.1365-2486.2009.01983.x,Clark,2010,Invasive insects impact forest carbon dynamics
 Clark_2013_ntfc,10.3334/ORNLDAAC/616,Clark,2013,"NPP Tropical Forest: Consistent Worldwide Site Estimates, 1967-1999, R1. Dataset."
 Clark_2013_ntfl,10.3334/ORNLDAAC/218,Clark,2013,"NPP Tropical Forest: La Selva, Costa Rica, 1975-1994, R1. Data set."
+Clebsch_1989_ssgd,10.2307/1940223,Clebsch,1989,"Secondary succession, gap dynamics and community structure in a Southern Appalachian Cove Forest"
 Cleveland_2006_nata,10.1073/pnas.0600989103,Cleveland,2006,Nutrient additions to a tropical rain forest drive substantial soil carbon dioxide losses to the atmosphere
 Coles_2004_lbca,10.1080/01490450490505419,Coles,2004,"Linking belowground carbon allocation to anaerobic CH4 and CO2 production in a forested peatland, New York state"
 Comeau_1999_nbfc,doi:10.3334/ORNLDAAC/465,Comeau,1999,"NPP Boreal Forest: Canal Flats, Canada, 1984."
@@ -168,6 +170,7 @@ Du_1987_eaat,http://www.cnki.com.cn/Article/CJFDTotal-ZJLK198705001.htm,Du,1987,
 Dunn_2007_alro,10.1111/j.1365-2486.2006.01221.x,Dunn,2007,"A long-term record of carbon exchange in a boreal black spruce forest: means, responses to interannual variability, and decadal trends"
 Edwards_1977_ccia,10.2307/1935618,Edwards,1977,Carbon cycling in a mixed deciduous forest floor
 Edwards_1977_somc,10.2307/2259387,Edwards,1977,Studies of mineral cycling in amontane rain forest in New Guinea: 1 The distribution of organic matter in the vegetation and soil
+Edwards_2013_ntfm,10.3334/ORNLDAAC/478,Edwards,2013,"NPP Tropical Forest: Marafunga, Papua New Guinea, 1970 - 1971, R1"
 Egunjobi_1979_band,10.2307/2387790,Egunjobi,1979,Biomass and Nutrient Distribution in Stands of Pinus caribea L. in the Dry Forest Zone of Nigeria
 Ehman_2002_aiio,10.1046/j.1365-2486.2002.00492.x,Ehman,2002,An initial intercomparison of micrometeorological and ecological inventory estimates of carbon exchange in a mid-latitude deciduous forest
 Epron_1999_scei,10.1051/forest:19990304,Epron,1999,Soil CO2 efflux in a beech forest: dependence on soil temperature and soil water content
@@ -220,6 +223,7 @@ Girardin_2010_nppa,10.1111/j.1365-2486.2010.02235.x,Girardin,2010,Net primary pr
 Gleason_2010_ssad,10.1007/s00442-009-1527-2,Gleason,2010,"Species-soil associations, disturbance, and nutrient cycling in an Australian tropical rainforest"
 Golley_1973_iosm,NA,Golley,1973,Impact of small mammals on primary production
 Golley_1975_mcia,NA,Golley,1975,Mineral cycling in a tropical moist forest ecosystem
+Golley_2013_ntfd,10.3334/ORNLDAAC/215,Golley,2013,"NPP Tropical Forest: Darien, Panama, 1967 - 1968, R1"
 Goma-Tchimbakala_2006_cold,10.1016/j.foreco.2006.04.009,Goma-Tchimbakala,2006,"Comparison of litter dynamics in three plantations of an indigenous timber-tree species (Terminalia superba) and a natural tropical forest in Mayombe, Congo"
 Gonzalez-Akre_2016_potm,10.1002/ecs2.1595,Gonzalez-Akre,2016,Patterns of tree mortality in a temperate deciduous forest derived from a large forest dynamics plot
 Goodman_2013_apba,10.1016/j.foreco.2013.09.045,Goodman,2013,Amazon palm biomass and allometry.
@@ -249,6 +253,8 @@ Guimaraes_1993_ldce,"http://philip.inpa.gov.br/publ_livres/Teses e dissertacoes 
 Haase_1999_lanr,10.1016/S0378-1127(98)00477-0,Haase,1999,"Litterfall and nutrient return in seasonally flooded and non-flooded forest of the Pantanal, Mato Grosso, Brazil"
 Hadley_2002_ceoa,10.1093/treephys/22.15-16.1079,Hadley,2002,Carbon exchange of an old-growth eastern hemlock (Tsuga canadensis) forest in central New England.
 Hafkenscheid_2000_habo,NAC,Hafkenscheid,2000,"Hydrology and biogeochemistry of tropical montane rain forests of contrasting stature in the Blue Mountains, Jamaica"
+Hall_1992_bmco,NAC,Hall,1992,"Biophysical, morphological, canopy optical property, and productivity data from the Superior National Forest"
+Hall_2013_nbfs,10.3334/ORNLDAAC/190,Hall,2013,"NPP Boreal Forest: Superior National Forest, USA, 1983-1984, R1"
 Hamilton_2002_fcbu,10.1007/s00442-002-0884-x,Hamilton,2002,Forest carbon balance under elevated CO2
 Hanson_2003_etnp,10.1007/978-1-4613-0021-2_22,Hanson,2003,Estimating the net primary and net ecosystem production of a southeastern upland Quercus forest from an 8-year biometric record
 Harmand_2004_aabb,10.1016/j.foreco.2003.07.026,Harmand,2004,"Aboveground and belowground biomass, productivity and nutrient accumulation in tree improved fallows in the dry tropics of Cameroon"
@@ -302,6 +308,7 @@ Jokela_2000_eooa,10.1139/x00-082,Jokela,2000,"Effects of ontogeny and soil nutri
 Jordan_1981_trfa,NA,Jordan,1981,Tropical Rain Forests: Are Nutrients Really Critical?
 Jordan_1982_tnbo,10.2307/1936784,Jordan,1982,The Nutrient Balance of an Amazonian Rain Forest
 Jordan_1999_ntfs,http://www.daac.ornl.gov,Jordan,1999,"NPP Tropical Forest: San Carlos de Rio Negro, Venezuela, 1975-1984."
+Jordan_2013_ntfs,10.3334/ORNLDAAC/479,Jordan,2013,"NPP Tropical Forest: San Carlos de Rio Negro, Venezuela, 1975-1984, R1"
 Juang_2006_mner,10.1029/2005JD005976,Juang,2006,Modeling nighttime ecosystem respiration from measured CO2 concentration and air temperature profiles using inverse methods
 Kadeba_1991_abpa,10.1016/0378-1127(91)90106-6,Kadeba,1991,Above-ground biomass production and nutrient accumulation in an age sequence of Pinus caribaea stands
 Kajimoto_1999_aabb,10.1093/treephys/19.12.815,Kajimoto,1999,"Above- and belowground biomass and net primary productivity of a Larix gmelinii stand near Tura, central Siberia"
@@ -312,6 +319,7 @@ Kamei_2009_ivil,10.1139/X09-104,Kamei,2009,"Interspecific variation in leaf litt
 Karjalainen_1996_tcsp,10.1016/0961-9534(95)00123-9,Karjalainen,1996,The carbon sequestration potential of unmanaged forest stands in Finland under changing climatic conditions
 Kato_2008_svam,10.1111/j.1365-2486.2008.01646.x,Kato,2008,Spatial variability and major controlling factors of CO2 sink strength in Asian terrestrial ecosystems: evidence from eddy covariance data
 Kauffman_1988_fitv,10.2307/3566059,Kauffman,1988,Fire in the Venezuelan Amazon 1: Fuel Biomass and Fire Chemistry in the Evergreen Rainforest of Venezuela
+Kazimirov_1997_eoea,NA,Kazimirov,1977,Exchange of elements and energy in pine forests of European North (in Russian)
 Keeton_2010_scaa,10.1080/11263500903560512,Keeton,2010,"Structural characteristics and aboveground biomass of old-growth spruce-fir stands in the eastern Carpathian mountains, Ukraine."
 Keith_1997_aoci,10.1023/A:1004286030345,Keith,1997,Allocation of carbon in a mature eucalypt forest and some effects of soil phosphorus availability
 Keith_2009_mmce,10.1016/j.agrformet.2004.12.004,Keith,2009,Multiple measurements constrain estimates of net carbon exchange by a Eucalyptus forest
@@ -328,6 +336,7 @@ King_2005_tocn,10.1111/j.1469-8137.2005.01557.x,King,2005,"Tropospheric O3 compr
 King_2007_bpir,10.1139/x06-217,King,2007,Biomass partitioning in red pine ( Pinus resinosa ) along a chronosequence in the Upper Peninsula of Michigan
 Kira_1978_caao,NA,Kira,1978,"Community architecture and organic matter dynamics in tropical lowland rain forests of Southeast Asia with special reference to Pasoh Forest, West Malaysia "
 Kira_1998_ntfk,http://www.daac.ornl.gov,Kira,1998,"NPP Tropical Forest: Khao Chong, Thailand, 1962-1965."
+Kira_2013_ntfk,10.3334/ORNLDAAC/217,Kira,2013,"NPP Tropical Forest: Khao Chong, Thailand, 1962-1965, R1"
 Kitayama_2002_esap,10.1046/j.0022-0477.2001.00634.x,Kitayama,2002,"Ecosystem structure and productivity of tropical rain forests along altitudinal gradients with contrasting soil phosphorus pools on Mount Kinabalu, Borneo"
 Klinge_1975_basi,10.1007/978-3-642-88533-4_9,Klinge,1975,Biomass and structure in a Central Amazonian rain forest
 Klinge_1977_flpa,NAC,Klinge,1977,Fine litter production and nutrient return to the soil in three natural forest stands of eastern Amazonia
@@ -391,6 +400,7 @@ Lips_1996_flit,10.1007/bf00333225 ,Lips,1996,Fine litter input to terrestrial hu
 Lisanework_1994_lanr,10.1016/0378-1127(94)90166-X,Lisanework,1994,Litterfall and nutrient release by decomposition in three plantations compared with a natural forest in the Ethiopian highland
 Litton_2004_eotd,10.1890/02-5291,Litton,2004,Effects of tree density and stand age on carbon allocation patterns in postfire lodgepole pine
 Litton_2007_caif,10.1111/j.1365-2486.2007.01420.x,Litton,2007,Carbon allocation in forest ecosystems
+Liu_1994_soba,NA,Liu,1994,Study on biomass and productivity of natural Larix gmelini forests (in Chinese)
 Liu_1998_banp,http://www.cjae.net/EN/Y1998/V9/I6/569,Liu,1998,Biomass and net productivity of Quercus variabilis forest in Baotianman Natural Reserve
 Liu_2001_soba,NA,Liu,2001,Studies on biomass and net production of Quercus acutidentata forest in Baotianman Nature Reserve
 Liu_2002_bana,NA,Liu,2002,"Biomass and nutrient accumulation in montane evergreen broad-leaved forest (Lithocarpus xylocarpus type) in Ailao Moutains, SW China"
@@ -415,6 +425,7 @@ Ma_2007_ivic,10.1016/j.agrformet.2007.07.008,Ma,2007,Inter-annual variability in
 Ma_2008_oamo,10.1007/s11430-008-0075-7,Ma,2008,Observation and modeling of NPP for Pinus elliottii plantation in subtropical China
 Ma_2012_rdri,10.1073/pnas.1111576109,Ma,2012,Regional drought-induced reduction in the biomass carbon sink of Canada's boreal forests.
 Maass_2001_ntfc,http://www.daac.ornl.gov,Maass,2001,"NPP Tropical Forest: Chamela, Mexico, 1982-1995."
+Maass_2013_ntfc,10.3334/ORNLDAAC/578,Maass,2013,"NPP Tropical Forest: Chamela, Mexico, 1982-1995, R1"
 Mackowski_1987_what,NA,Mackowski,1987,"Wildlife hollows and timber management in Blackbutt forest. Masters Thesis (University of New England, Armidale, Australia)."
 MacLean_1976_bojp,10.1139/x76-059,MacLean,1976,Biomass of jack pine and mixed hardwood stands in northeastern New Brunswick
 Maier_2000_scea,10.1139/x99-218,Maier,2000,Soil CO2 evolution and root respiration in 11 year-old loblolly pine (Pinus taeda) plantations as affected by moisture and nutrient availability
@@ -444,6 +455,7 @@ McDowell_2001_bcao,10.1139/x01-067,McDowell,2001,Belowground carbon allocation o
 McGarvey_2015_csio,10.1890/14-1154.1,McGarvey,2015,Carbon storage in old-growth forests of the MidAtlantic: toward better understanding the eastern forest carbon sink
 Meakem_2017_rots,10.1111/nph.14633,Meakem,2017,Role of tree size in moist tropical forest carbon cycling and water deficit responses
 Means_1992_banc,10.1139/x92-204,Means,1992,"Biomass and nutrient content of Douglas-fir logs and other detrital pools in an old-growth forest, Oregon, USA"
+Medina_1989_pona,NA,Medina,1989,Patterns of nutrient accumulation and release in Amazonian forests of the upper Rio Negro basin
 Medlyn_2005_cboc,10.1016/j.agrformet.2005.05.004,Medlyn,2005,Carbon balance of coniferous forests growing in contrasting climates: Model-based analysis.
 Melillo_2002_swac,10.1126/science.1074153,Melillo,2002,Soil warming and carbon-cycle feedbacks to the climate system.
 Melillo_2011_swci,10.1073/pnas.1018189108,Melillo,2011,"Soil warming, carbon-nitrogen interactions, and forest carbon budgets"
@@ -762,18 +774,6 @@ Zhou_2002_eban,10.1016/S0378-1127(02)00305-5,Zhou,2002,Estimating biomass and ne
 Zhou_2007_lpas,10.1007/s11258-006-9149-9,Zhou,2007,"Litterfall production along successional and altitudinal gradients of subtropical monsoon evergreen broadleaved forests in Guangdong, China"
 Zhou_2013_roec,10.1016/j.foreco.2013.01.007,Zhou,2013,Response of ecosystem carbon fluxes to drought events in a poplar plantation in Northern China
 Zhu_2005_dops,NA,Zhu,2005,Decline of Pinus sylvestris var. mongolica Plantations on Sandy Land. (in Chinese)
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
 ,,,,
 ,,,,
 ,,,,
