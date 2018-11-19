@@ -3043,3 +3043,26 @@
 3057,"Daxing'anling 34yrs","34yrs","NAC",3057.02,"1967",3057.01,"Initiation of post-disturbance cohort (planted or natural)","1967",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3058,"Minnesota","71yrs","NAC",3058.02,"1930",3058.01,"Initiation of post-disturbance cohort (planted or natural)","1930",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3059,"Minnesota","106yrs","NAC",3059.02,"1895",3059.01,"Initiation of post-disturbance cohort (planted or natural)","1895",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3060,"Harvard Forest","Hardwood Site","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3061,"Harvard Forest","Mixed Forest Site","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3062,"Taita Experimental Station","Taita Experimental Station","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3063,"Guanica State Forest","Guanica State Forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3064,"Ducke Forest","Ducke Forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3065,"New Brunswick, FNP","A1","0.04",3065.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3066,"New Brunswick, FNP","A2","0.04",3066.01,"1942",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3067,"New Brunswick, FNP","A3","0.04",3067.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3068,"New Brunswick, FNP","M1","0.04",3068.01,"1892",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3069,"New Brunswick, FNP","C1","0.04",3069.01,"1922",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3070,"New Brunswick, FNP","C2","0.04",3070.01,"1902",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3071,"New Brunswick, FNP","C3","0.04",3071.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3072,"New Brunswick, FNP","S21","0.01",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3072.04,0
+3073,"New Brunswick, FNP","S15","0.01",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3073.04,0
+3074,"New Brunswick, FNP","S13","0.01",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3074.03,0
+3075,"New Brunswick, FNP","S8","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3075.04,0
+3076,"New Brunswick, FNP","S7A","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3076.04,0
+3077,"New Brunswick, FNP","S7B","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3077.04,0
+3078,"New Brunswick, FNP","L6","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3078.04,0
+3079,"New Brunswick, FNP","S5A","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3079.04,0
+3080,"New Brunswick, FNP","S4","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3080.04,0
+3081,"New Brunswick, FNP","S3A","0.002",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3081.04,0
+3082,"New Brunswick, FNP","S3B","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3082.04,0
