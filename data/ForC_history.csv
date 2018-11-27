@@ -1836,6 +1836,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 832.06,Flakaliden irrigated + fertilized,FI,NAC,6,1987,8.5,Management,Fertilization,NA,NA,NA,NA,Irrigated and Fertilized since 1987,NA,
 833.01,Tapajos km 67,TAP67,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,717,
 834.01,FLONA Tapajos Km 83,primary forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,*Selective logging after measurements were made,718,
+834.02,FLONA Tapajos Km 83,primary forest,NAC,2,2001,8,Disturbance,Harvest,NI,NAC,NA,NI,Selective logging in August + Sept 2001,,
 835.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.10 y,NAC,1,1965,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,719,
 835.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.10 y,NAC,2,1965,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,722,
 2732.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.9 y,NAC,1,1966,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,719,
@@ -6647,3 +6648,4 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3072.02,"New Brunswick, FNP",S3B,0.0025,2,NI,9,Disturbance(_prior),Harvest,1,NI,NA,100,NA,NA,
 3072.03,"New Brunswick, FNP",S3B,0.0025,3,NI,9,Regrowth(_prior),Seeded_trees,1,NI,NA,NA,NA,NA,
 3072.04,"New Brunswick, FNP",S3B,0.0025,4,NI,9,Management,Herbicide,1,NI,NA,NA,NA,NA,
+,Adelaide River,Adelaide River,NI,NA,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
