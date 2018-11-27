@@ -1,388 +1,390 @@
 method.ID,method.citation,variable.name,method.category,method.notes
-382,Lugo_1992_cott,ANPP,,ANPP was calculated by adding tree biomass increment and litterfall during the period of measurement. Aboveground tree biomass was estimated allometrically using tree inventory data and biomass-diameter relation
-383,Lugo_1992_cott,ANPP,,"ANPP was calculated by adding tree biomass increment and litterfall during the period of measurement. Pine, mahogany, and roble (Tabebuia heterophylla (DC.) Britton) trees were harvested to supplement available biomass information on these species. Least squares regression analysis was used to develop bio- mass-diameter relation"
-408,Uhl_1984_sand,ANPP,,litter collection
-433,Weaver_2001_ntfc,ANPP,,ANPP was estimated by summing annual litterfall accumulation (897 g/m2/year) plus biomass change due to delayed mortality (142 g/m2/year) plus estimated herbivory (25 g/m2/year)
-434,Kadeba_1991_abpa,ANPP,,ANPP is mean periodic aboveground production plus mean annual litterfall
-435,Uhl_1987_fcsf,ANPP,,ANPP was calculated by combining litter (leaf+branch) and growth data (allometric relations based on height and diameter).
-218,Pers. Commun. Bonal,ANPP_foliage_C,,"includes foliage, repro production as detailed in methodology source."
-398,Malhi_2014_tpma,ANPP_foliage_OM,,"Litter traps, separated into components, oven dried and weighed"
-430,Uhl_1984_sand,ANPP_foliage_OM,,litter collection
-399,Malhi_2014_tpma; Araujo-Murakami_2014_tpaa; da Costa_2014_eran; del Aguila-Pasquel_2014_tsco; Doughty_2014_tpaa; Rocha_2014_epac,ANPP_folivory_OM,,Leaves collected in litterfall traps photographed before drying. Leaves scanned to calculate leaf area lost to herbivory. The fractional herbivory (H) for each leaf was calculated (see Table 3)
-437,Kira_1978_cano ,ANPP_folivory_OM,,"from caterpillar frass in littertraps, and assuming 13% efficiency; this = 4.4% of leaf prod."
-438,Martinez-Yrizar_1996_nppo; Martinez-Yrizar_1992_agpo,ANPP_folivory_OM,,Comes out to about 9% of ANPP; tracked leaf studies. 
-439,Weaver_1990_fsap,ANPP_folivory_OM,,"Followed herbivory of tagged leaves over 3 mo., to 12 m ht. maximum, got 1% herbivory in 90 days, extrapolated to 4% over a year;converted to /ha with LAI values based on plumb bob data and standing leaf biomass from mass/area relation. "
-440,Sierra_2007_satv,ANPP_folivory_OM,,"estimated annual herbivory rates by ants in the area as 16% of leaf standing biomass (based on J. C. Giraldo and R. A. Bedoya, unpublished entomological data)."
-441,Kira_1998_ntfk,ANPP_folivory_OM,,"Leaf herbivory rate (grazing by caterpillars, assuming efficiency of assimilation at 13%)"
-442,Maass_2001_ntfc,ANPP_folivory_OM,,"See Filip et al. 1995. Loss of leaf mass to herbivores was determined from repeated measurements of damage on individually labeled leaves; percent leaf area also measured using discrete measurements over a 3-year period (1983-1985); For the long-term measurements, percent leaf area eaten measured by leaf tracing."
-218.1,Pers. Commun. Bonal,ANPP_repro_C,,"includes foliage, repro production as detailed in methodology source."
-428,Malhi_2014_tpma,ANPP_repro_OM,,"Litter traps, separated into components, oven dried and weighed"
-143,Clark_2001_nppi,ANPP_stem,,See methodology source.
-425,Alves_1997_bopa; Malhi_2014_tpma,ANPP_stem,,"Measured DBH, height; Allometric relations"
-397,Malhi_2014_tpma,ANPP_woody_branch_OM,,"Harvest (branches > 2 cm diameter), larger branches measured diameter at 3 points, assigned wood density value"
-384,Maier_2004_rcua,ANPP_woody_stem_C,,"Where the individual tree data (including taxonomy) are available, we use allometric equation (Baker et al. 2004) to directly estimate the above-ground biomass at every census."
-447,Condit_1998_tfcp;  Meakem_2017_rots,ANPP_woody_stem_C,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody productivity as summed changes in biomass of individual stems divided by census inverval"
-451,Condit_1998_tfcp; Chave_2008_aefa,ANPP_woody_stem_OM,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody productivity as summed changes in biomass of individual stems divided by census inverval"
-445,Condit_1998_tfcp;  Meakem_2017_rots,biomass_ag_C,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries. Estimated C as 47% of biomass."
-415,Egunjobi_1979_band; Gehring_1999_rosv,biomass_ag_foliage_OM,,Harvesting
-420,Montagnini_2000_aiab,biomass_ag_foliage_OM,,Harvest (thinning)
-422,Saldarriaga_1988_lcof; Uhl_1984_sand; Uhl_1987_fcsf,biomass_ag_foliage_OM,,"Harvest, allometric relations"
-378,Egunjobi_1979_band; Gehring_1999_rosv,biomass_ag_OM,,Harvesting
-379,Montagnini_2000_aiab,biomass_ag_OM,,Harvest (thinning)
-380,Aide_1995_fria; Chan_2013_eoam; Saldarriaga_1988_lcof; Sierra_2007_satv; Sierra_2012_tcai; Uhl_1984_sand; Uhl_1987_fcsf,biomass_ag_OM,,"Harvest, allometric relations"
-381,Lewis_2009_icsi,biomass_ag_OM,,"measure the diameter of all trees that are_100_mm in diameter in a given area (mean 2.1_ha) at least twice (mean interval 9.4_years), and apply allometric equations to convert tree-diameter measurements to carbon content"
-382.1,Lugo_1992_cott,biomass_ag_OM,,Aboveground tree biomass was estimated allometrically using tree inventory data and biomass-diameter relation
-383.1,Lugo_1992_cott,biomass_ag_OM,,"Pine, mahogany, and roble (Tabebuia heterophylla (DC.) Britton) trees were harvested to supplement available biomass information on these species. Least squares regression analysis was used to develop biomass-diameter relation"
-385,Hughes_1999_bcan; Zarin_2001_pbai; Gehring_2005_rosf; Letcher_2009_rrob; Becknell_2014_saas; Delaney_1997_tdoo; Baker_2004_ibia,biomass_ag_OM,,Measured DBH; Allometric relations
-387,Broadbent_2014_isas,biomass_ag_OM,,"Measured DBH, height, crown exposure; allometric relations"
-444,Tepley_2017_vtfl,biomass_ag_OM,,"Measured dbh, total height, and crown base height for tree species > 1.5 cm dbh; measured total height and crown diameter for shrub species and tree species < 1.5 cm dbh; entered into allometric equations"
-449,Condit_1998_tfcp; Chave_2008_aefa; Lutz_2018_giol,biomass_ag_OM,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries. "
-396,Alves_1997_bopa; Malhi_2014_tpma; Steininger_2000_sfsa; Uhl_1988_apie,biomass_ag_OM/biomass_ag_C,,"Measured DBH, height; Allometric relations"
-414,Egunjobi_1979_band,biomass_ag_woody_OM,,Harvesting
-419,Montagnini_2000_aiab,biomass_ag_woody_OM,,Harvest (thinning)
-443,Saldarriaga_1988_lcof; Uhl_1984_sand,biomass_ag_woody_OM,,"Harvest, allometric relations"
-392,Delaney_1997_tdoo,biomass_OM,,"See 385, 391"
-410,Egunjobi_1979_band; Saldarriaga_1988_lcof; Uhl_1984_sand; Uhl_1987_fcsf,biomass_OM,,Summation of biomass components
-407,Uhl_1984_sand,biomass_root_coarse_OM,,root harvesting in plots/pits
-423,Sierra_2007_satv; Sierra_2012_tcai,biomass_root_coarse_OM,,"Harvest, allometric relations"
-412,Lugo_1992_cott; Sierra_2012_tcai; Sierra_2007_tcsi,biomass_root_fine_OM,,Soil cores
-391,Delaney_1997_tdoo,biomass_root_OM,,"root biomass from root-to-shoot ratios (0.48 dry forests, 0.22 montane moist, 0.16 lowland moist; Sanford and Cuevas 1996)"
-406,Saldarriaga_1988_lcof,biomass_root_OM,,Root biomass sampled from pits and used to develop regression equations
-413,Lugo_1992_cott,biomass_root_OM,,Soil cores
-418,Egunjobi_1979_band,biomass_root_OM,,Root weight was estimated by proportion from the rela- tionship in the two destructively sampled trees
-429,Uhl_1987_fcsf,biomass_root_OM,,root harvesting in plots/pits
-78,Hanson_2003_etnp,BNPP_coarse root,,20% of aboveground wood increment
-90,Ehman_2002_aiio,BNPP_coarse root,,Soil cores
-102,Law_2001_satv,BNPP_coarse root,,25% above ground wood C
-111,Lloyd_2002_saav,BNPP_coarse root,,Soil cores
-121,Maass_2001_ntfc,BNPP_coarse root,,Soil cores
-124,Gower_2001_nppa,BNPP_coarse root,,Allometric relations
-130,Norby_2002_nppo,BNPP_coarse root,,Allometric relations
-136,Yuste_2005_cnpp,BNPP_coarse root,,Allometric relations
-139,Kutsch_2005_shoe,BNPP_coarse root,,Allometric relations
-144,Gielen_2005_ncsi,BNPP_coarse root,,"Soil cores, in-growth"
-147,Schulze_2000_tcan,BNPP_coarse root,,"Repeated soil cores, root windows"
-150,Schulze_2000_tcan,BNPP_coarse root,,Average from method 31
-153,Kutsch_2001_tcco,BNPP_coarse root,,Harvesting
-157,Tang_2006_sfct,BNPP_coarse root,,Allometric relations
-160,Forcast,BNPP_coarse root,,Allometric relations
-164,Ohtsuka_2005_bbeo,BNPP_coarse root,,Harvesting
-166,Wirth_2002_babc,BNPP_coarse root,,Allometric relations
-169,Bond-Lamberty_2004_corr,BNPP_coarse root,,Allometric relations
-172,Roupsard_2006_poea,BNPP_coarse root,,Soil cores
-179,Bascietto_2003_dots,BNPP_coarse root,,Allometric relations
-182,Bascietto_2003_dots,BNPP_coarse root,,Allometric relations
-191,Gower_2001_nppa,BNPP_coarse root,,Allometric relations
-194,Gower_2001_nppa,BNPP_coarse root,,Allometric relations
-197,Linder_1998_nbff,BNPP_coarse root,,Not clear from text
-200,Forcast,BNPP_coarse root,,Allometric relations
-204,Schulze_2000_tcan,BNPP_coarse root,,Average from method 31
-215,Pers. Commun. Malhi,BNPP_coarse root,,ingrowth cores
-219,Law_2004,BNPP_coarse root,,Allometric relations
-225,Harmon_2004_prao,BNPP_coarse root,,Allometric relations
-228,Gough_2007_tloh,BNPP_coarse root,,Allometric relations
-234,Yang_2007_srac,BNPP_coarse root,,Allometric relations
-237,Aragao_2009_aabn,BNPP_coarse root,,0.21*NPPstem (Malhi et al 2009)
-240,Fenn et al submitted (BGD),BNPP_coarse root,,20% of aboveground wood increment
-249,Moser_2011_eeot,BNPP_coarse root,,Dendrometer tapes
-79,Hanson_2003_etnp,BNPP_fine root,,"Soil cores, minirhizotrons"
-85,Ryan_1996_ffwa,BNPP_fine root,,"Fine root biomass, turnover"
-91,Ehman_2002_aiio,BNPP_fine root,,"Soil cores, fine root turnover rate (Aber et al 1985) as function of N availability"
-103,Law_2001_satv,BNPP_fine root,,"Soil cores, minirhizitrons"
-106,DeLucia_1999_nppo,BNPP_fine root,,"Soil cores, turnover Persson 1979"
-112,Lloyd_2002_saav,BNPP_fine root,,Soil cores
-122,Maass_2001_ntfc,BNPP_fine root,,Soil cores
-125,Gower_2001_nppa,BNPP_fine root,,"Soil cores, minirhizitrons"
-131,Norby_2002_nppo,BNPP_fine root,,"Soil cores, minirhizitrons"
-137,Yuste_2005_cnpp,BNPP_fine root,,Soil cores
-140,Kutsch_2005_shoe,BNPP_fine root,,Literature data
-145,Gielen_2005_ncsi,BNPP_fine root,,"Soil cores, in-growth"
-148,Schulze_2000_tcan,BNPP_fine root,,"Repeated soil cores, root windows"
-151,Schulze_2000_tcan,BNPP_fine root,,Average from method 31
-154,Kutsch_2001_tcco,BNPP_fine root,,Mesh bag
-158,Tang_2006_sfct,BNPP_fine root,,"Sequential coring, in-growth cores, minirhizotrons, Raich and Nadelhoffer approximation (1989)"
-161,Forcast,BNPP_fine root,,"Fine root biomass, turnover 1 year"
-167,Wirth_2002_babc,BNPP_fine root,,"Fine root biomass, turnover (Finnish values)"
-170,Bond-Lamberty_2004_corr,BNPP_fine root,,"Soil cores, min/max method"
-173,Roupsard_2006_poea,BNPP_fine root,,"Sequential coring, in-growth cores, minirhizotrons"
-176,Ruess_2003_cfrd,BNPP_fine root,,"Soil cores, minirhizotrons"
-180,Bascietto_2003_dots,BNPP_fine root,,"Fine root biomass, turnover 1 year"
-185,Grimm_1999_ntfs,BNPP_fine root,,"Soil cores, fine root biomass, turnover"
-188,Hamilton_2002_fcbu,BNPP_fine root,,Soil cores
-192,Gower_2001_nppa,BNPP_fine root,,"Soil cores, longevity"
-195,Gower_2001_nppa,BNPP_fine root,,Sequential coring
-198,Linder_1998_nbff,BNPP_fine root,,Not clear from text
-201,Forcast,BNPP_fine root,,"Fine root biomass, turnover 1 year"
-205,Schulze_2000_tcan,BNPP_fine root,,Average from method 31
-212,Sierra_2007_satv,BNPP_fine root,,In-growth core
-216,Pers. Commun. Malhi,BNPP_fine root,,Sequential coring
-220,Law_2004,BNPP_fine root,,"Fine root biomass, turnover"
-226,Harmon_2004_prao,BNPP_fine root,,"Soil cores, fine root biomass, turnover"
-229,Gough_2007_tloh,BNPP_fine root,,Soil cores + empirical relationship Aber et al 1985
-232,Ohtsuka_2005_bbeo; Ohtsuka_2009_olmb,BNPP_fine root,,"Soil cores, minirhizitrons"
-235,Yang_2007_srac,BNPP_fine root,,"Soil cores, turn over by decomposition in root litter bags and mortality"
-238,Aragao_2009_aabn,BNPP_fine root,,In-growth core
-241,Fenn et al submitted (BGD),BNPP_fine root,,Mass balance
-244,Ma_2008_oamo,BNPP_fine root,,Harvesting
-247,Kajimoto_2009,BNPP_fine root,,In-growth core
-250,Moser_2011_eeot,BNPP_fine root,,Minirhizotrons
-431,Malhi_2014_tpma,BNPP_fine root,,ingrowth cores
-389,Delaney_1997_tdoo,deadwood_OM,,down dead wood sampled using line intersect method (Brown 1974); standing dead wood using allometric relations subtracting 10%
-416,Gehring_1999_rosv,deadwood_OM,,Harvesting
-424,Saldarriaga_1988_lcof,deadwood_OM,,"Harvest, allometric relations"
-426,Uhl_1988_apie,deadwood_OM,,"Measured DBH, height; Allometric relations"
-432,Hughes_1999_bcan,deadwood_OM,,Measured DBH; Allometric relations
-446,Condit_1998_tfcp;  Meakem_2017_rots,delta.agb_C,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
-452,Condit_1998_tfcp; Chave_2008_aefa,delta.agb_OM,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
-393,Delaney_1997_tdoo,Ecosystem_2,,"See 385, 388-391"
 1,Valentini_2000_ratm,GPP,eddy flux partitioning,NEP + estimated Re
+2,Valentini_2000_ratm,NEE,eddy covariance,Eddy covariance
+3,Valentini_2000_ratm,Reco,,Ecosystem respiration based on nighttime respiration vs soil or air temperature relationship
 7,Chambers_2004_rfat,GPP,NPP + Ra,NPP + direct measurements of Ra
+8,Chambers_2004_rfat,NEP,,NPP - direct measurements of Rh
+9,Chambers_2004_rfat,Reco,,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
 10,Giardina_2003_ppac,GPP,NPP + Ra,ANPP + BNPP (Raich & Nadelhoffer) + direct measurements of Ra
+12,Gielen_2005_ncsi,NEP,,NPP - direct measurements of Rh
+13,Gielen_2005_ncsi,Reco,,GPP-NEP
 14,Hanson_2003_etnp,GPP,eddy flux partitioning,NEP + estimated Re
+15,Hanson_2003_etnp,NEP,,NPP - direct measurements of Rh
+16,Hanson_2003_etnp,Reco,,GPP-NEP
 23,Kowalski_2004_pcoc,GPP,eddy flux partitioning,NEP + estimated Re
+24,Kowalski_2004_pcoc,NEE,eddy covariance,Eddy covariance
+25,Kowalski_2004_pcoc,Reco,,Ecosystem respiration based on nighttime respiration vs SWC and soil temperature relationship
+27,Kutsch_2001_tcco,NEP,,GPP - Re
+28,Kutsch_2001_tcco,Reco,,Direct measurement of the components of Reco with chambers
 29,Lai_2002_mnte,GPP,eddy flux partitioning,NEP + estimated Re
+30,Lai_2002_mnte,NEE,eddy covariance,Eddy covariance
+31,Lai_2002_mnte,Reco,,Constrained source optimization
 32,Law_1999_saar,GPP,NPP + Ra,ANPP + BNPP (Raich & Nadelhoffer) + direct measurements of Ra
+33,Law_1999_saar,NEP,,GPP - Re
+34,Law_1999_saar,Reco,,Direct measurement of of the components of Reco with chambers compared with Reco from eddy covariance
+35,Aubinet_2001_ltcd,NEE,eddy covariance,Eddy covariance
+36,Forcast,NEP,,NPP - direct measurements of Rh
 37,Law_2001_satv,GPP,eddy flux partitioning,NEP + estimated Re
+38,Law_2001_satv,NEP,,NPP - direct measurements of Rh
+39,Law_2001_satv,Reco,,Direct measurement of the components of Reco with chambers
 40,Lloyd_2002_saav,GPP,,Maximum net rate of carbon assimilation by the canopy foliage
+41,Lloyd_2002_saav,NEE,eddy covariance,Eddy covariance
+42,Lloyd_2002_saav,Reco,,GPP-NEP
 43,Maier_2004_rcua,GPP,NPP + Ra,NPP + R_auto
 48,Ryan_1996_ffwa,GPP,NPP + Ra,NPP + direct measurements of Ra
 49,Wang_2004_ccfa,GPP,,"modeled based on continuous eddy flux measurements, with leaf photosynthesis described according to the model of Farquhar and von Caemmerer (1982) "
-53,Williams_2005_aiao,GPP,eddy flux partitioning,NEP + estimated Re
-60,Law_2000_moga,GPP,NPP + Ra,NPP+Ra
-63,Zha_2007_tacc,GPP,scaling photosynthesis measurements,scaling branch chamber measurements
-66,Harmon_2004_prao,GPP,NPP + Ra,NPP+Ra
-71,Ma_2008_oamo,GPP,,No information.
-75,Hamilton_2002_fcbu,GPP,eddy flux partitioning,NEP + estimated Re + DOC
-405,Maier_2004_rcua,GPP,NPP + Ra,"GPP = NPPtotal + Ra = plant carbon expenditure PCE, Metcalfe et al. 2010"
-409,Uhl_1987_fcsf,LAI,,Yearly LAI was calculated by multiplying the average leaf area/mass value for each life form by the estimated leaf biomass in each life form and then summing over life forms.
-2,Valentini_2000_ratm,NEE,eddy covariance,Eddy covariance
-24,Kowalski_2004_pcoc,NEE,eddy covariance,Eddy covariance
-30,Lai_2002_mnte,NEE,eddy covariance,Eddy covariance
-35,Aubinet_2001_ltcd,NEE,eddy covariance,Eddy covariance
-41,Lloyd_2002_saav,NEE,eddy covariance,Eddy covariance
 50,Wang_2004_ccfa,NEE,eddy covariance,Eddy covariance
+51,Wang_2004_ccfa,Reco,,modeled based on continuous eddy flux measurements and site-specific functions for respiratory components
+53,Williams_2005_aiao,GPP,eddy flux partitioning,NEP + estimated Re
 54,Williams_2005_aiao,NEE,eddy covariance,Eddy covariance + ACM data assimilation
-72,Ma_2008_oamo,NEE,eddy covariance,Eddy covariance
-76,Hamilton_2002_fcbu,NEE,,"wood, foliage and fine root NPP + forest floor accumulation"
-8,Chambers_2004_rfat,NEP,,NPP - direct measurements of Rh
-12,Gielen_2005_ncsi,NEP,,NPP - direct measurements of Rh
-15,Hanson_2003_etnp,NEP,,NPP - direct measurements of Rh
-27,Kutsch_2001_tcco,NEP,,GPP - Re
-33,Law_1999_saar,NEP,,GPP - Re
-36,Forcast,NEP,,NPP - direct measurements of Rh
-38,Law_2001_satv,NEP,,NPP - direct measurements of Rh
+55,Williams_2005_aiao,Reco,,Direct measurement of the components of Reco with chambers + ACM data assimilation
+56,Kutsch_2001_tcco,Reco,,Direct measurement of the components of Reco with chambers
+57,Schulze_2000_tcan,Reco,,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
+58,Clark_2004_cdaa,Reco,,Direct measurement of the components of Reco with chambers
 59,Sierra_2007_satv,NEP,,NPP - direct measurements of Rh
+60,Law_2000_moga,GPP,NPP + Ra,NPP+Ra
 61,Law_2000_moga,NEP,,NPP - direct measurements of Rh
+62,Bolstad_2004_cawr,Reco,,Direct measurement of the components of Reco with chambers
+63,Zha_2007_tacc,GPP,scaling photosynthesis measurements,scaling branch chamber measurements
 64,Zha_2007_tacc,NEP,,GPP-Re
+65,Zha_2007_tacc,Reco,,Direct measurement of the components of Reco with chambers
+66,Harmon_2004_prao,GPP,NPP + Ra,NPP+Ra
 67,Harmon_2004_prao,NEP,,NPP-Rh
+68,Harmon_2004_prao,Reco,,Ra+Rh
 69,Gough_2007_tloh,NEP,,Biometric
 70,Yang_2007_srac,NEP,,NPP-Rh
+71,Ma_2008_oamo,GPP,,No information.
+72,Ma_2008_oamo,NEE,eddy covariance,Eddy covariance
+73,Ma_2008_oamo,Reco,,Not mentioned
+75,Hamilton_2002_fcbu,GPP,eddy flux partitioning,NEP + estimated Re + DOC
+76,Hamilton_2002_fcbu,NEE,,"wood, foliage and fine root NPP + forest floor accumulation"
+77,Hamilton_2002_fcbu,Reco,,"sum of C losses by total soil CO2 efflux, DIC, canopy respiration, woody respiration  and herbivory"
+78,Hanson_2003_etnp,BNPP_coarse root,,20% of aboveground wood increment
+79,Hanson_2003_etnp,BNPP_fine root,,"Soil cores, minirhizotrons"
 80,Hanson_2003_etnp,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory, herbivory, repro production as detailed in methodology source."
 83,Williams_1997_pgpp; Schuur_2005_ntfm,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+85,Ryan_1996_ffwa,BNPP_fine root,,"Fine root biomass, turnover"
 86,Ryan_1996_ffwa,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
 89,Mutry et al 1996,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+90,Ehman_2002_aiio,BNPP_coarse root,,Soil cores
+91,Ehman_2002_aiio,BNPP_fine root,,"Soil cores, fine root turnover rate (Aber et al 1985) as function of N availability"
 92,Ehman_2002_aiio,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory, herbivory, repro production as detailed in methodology source."
 95,Giardina_2003_ppac,NPP,,"includes foliage, stem, coarse root, fine root, branch, voc, repro production as detailed in methodology source."
 98,Law_1999_saar,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
 101,Gower_1997_cdaa; Steele_1997_rmnp,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
+102,Law_2001_satv,BNPP_coarse root,,25% above ground wood C
+103,Law_2001_satv,BNPP_fine root,,"Soil cores, minirhizitrons"
 104,Law_2001_satv,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
+106,DeLucia_1999_nppo,BNPP_fine root,,"Soil cores, turnover Persson 1979"
 107,DeLucia_1999_nppo,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
 110,Curtis_2002_baeb,NPP,,"includes foliage, stem, coarse root, fine root, branch, herbivory, repro production as detailed in methodology source."
+111,Lloyd_2002_saav,BNPP_coarse root,,Soil cores
+112,Lloyd_2002_saav,BNPP_fine root,,Soil cores
 113,Lloyd_2002_saav,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
 114,Ruess_1996_cofr,NPP,,"includes foliage, stem, fine root, branch production as detailed in methodology source."
 117,Williams_2005_aiao,NPP,,"plus ACM data assimilation. includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source"
 120,Linder_1998_nbff; IBP database,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+121,Maass_2001_ntfc,BNPP_coarse root,,Soil cores
+122,Maass_2001_ntfc,BNPP_fine root,,Soil cores
 123,Maass_2001_ntfc,NPP,,"includes foliage, stem, coarse root, fine root, branch, herbivory production as detailed in methodology source."
+124,Gower_2001_nppa,BNPP_coarse root,,Allometric relations
+125,Gower_2001_nppa,BNPP_fine root,,"Soil cores, minirhizitrons"
 126,Gower_2001_nppa,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
 129,Gower_2001_nppa,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+130,Norby_2002_nppo,BNPP_coarse root,,Allometric relations
+131,Norby_2002_nppo,BNPP_fine root,,"Soil cores, minirhizitrons"
 132,Norby_2002_nppo,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
 135,Black_2005,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+136,Yuste_2005_cnpp,BNPP_coarse root,,Allometric relations
+137,Yuste_2005_cnpp,BNPP_fine root,,Soil cores
 138,Yuste_2005_cnpp,NPP,,"includes foliage, stem, coarse root, fine root, branch, repro production as detailed in methodology source."
+139,Kutsch_2005_shoe,BNPP_coarse root,,Allometric relations
+140,Kutsch_2005_shoe,BNPP_fine root,,Literature data
 141,Kutsch_2005_shoe,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory, repro production as detailed in methodology source."
 142,Griffis_2004_svap,NPP,,"GPP-Ra. includes foliage, stem, coarse root, fine root, branch, understory, herbivory, voc, repro, leaching production as detailed in methodology source"
+143,Clark_2001_nppi,ANPP_stem,,See methodology source.
+144,Gielen_2005_ncsi,BNPP_coarse root,,"Soil cores, in-growth"
+145,Gielen_2005_ncsi,BNPP_fine root,,"Soil cores, in-growth"
 146,Gielen_2005_ncsi,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+147,Schulze_2000_tcan,BNPP_coarse root,,"Repeated soil cores, root windows"
+148,Schulze_2000_tcan,BNPP_fine root,,"Repeated soil cores, root windows"
 149,Schulze_2000_tcan,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+150,Schulze_2000_tcan,BNPP_coarse root,,Average from method 31
+151,Schulze_2000_tcan,BNPP_fine root,,Average from method 31
 152,Schulze_2000_tcan,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+153,Kutsch_2001_tcco,BNPP_coarse root,,Harvesting
+154,Kutsch_2001_tcco,BNPP_fine root,,Mesh bag
 155,Kutsch_2001_tcco,NPP,,"includes foliage, stem, coarse root, fine root production as detailed in methodology source."
 156,Chambers_2004_rfat,NPP,,"includes foliage, stem, fine root, branch production as detailed in methodology source."
+157,Tang_2006_sfct,BNPP_coarse root,,Allometric relations
+158,Tang_2006_sfct,BNPP_fine root,,"Sequential coring, in-growth cores, minirhizotrons, Raich and Nadelhoffer approximation (1989)"
 159,Tang_2006_sfct,NPP,,"includes foliage, stem, coarse root, fine root production as detailed in methodology source."
+160,Forcast,BNPP_coarse root,,Allometric relations
+161,Forcast,BNPP_fine root,,"Fine root biomass, turnover 1 year"
 162,Forcast,NPP,,"includes foliage, stem, coarse root, fine root, understory production as detailed in methodology source."
 163,Mund_2002_gacs,NPP,,"includes foliage, stem, branch production as detailed in methodology source."
+164,Ohtsuka_2005_bbeo,BNPP_coarse root,,Harvesting
 165,Ohtsuka_2005_bbeo,NPP,,"includes foliage, stem, coarse root, branch, understory production as detailed in methodology source."
+166,Wirth_2002_babc,BNPP_coarse root,,Allometric relations
+167,Wirth_2002_babc,BNPP_fine root,,"Fine root biomass, turnover (Finnish values)"
 168,Wirth_2002_babc,NPP,,"includes foliage, stem, coarse root, branch production as detailed in methodology source."
+169,Bond-Lamberty_2004_corr,BNPP_coarse root,,Allometric relations
+170,Bond-Lamberty_2004_corr,BNPP_fine root,,"Soil cores, min/max method"
 171,Bond-Lamberty_2004_corr,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
+172,Roupsard_2006_poea,BNPP_coarse root,,Soil cores
+173,Roupsard_2006_poea,BNPP_fine root,,"Sequential coring, in-growth cores, minirhizotrons"
 174,Roupsard_2006_poea,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
+176,Ruess_2003_cfrd,BNPP_fine root,,"Soil cores, minirhizotrons"
 177,Ruess_2003_cfrd,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
 178,Maier_2004_rcua,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source"
+179,Bascietto_2003_dots,BNPP_coarse root,,Allometric relations
+180,Bascietto_2003_dots,BNPP_fine root,,"Fine root biomass, turnover 1 year"
 181,Bascietto_2003_dots,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+182,Bascietto_2003_dots,BNPP_coarse root,,Allometric relations
 183,Bascietto_2003_dots,NPP,,"includes foliage, stem, coarse root, branch production as detailed in methodology source."
+185,Grimm_1999_ntfs,BNPP_fine root,,"Soil cores, fine root biomass, turnover"
 186,Grimm_1999_ntfs,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
+188,Hamilton_2002_fcbu,BNPP_fine root,,Soil cores
 189,Hamilton_2002_fcbu,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory, herbivory production as detailed in methodology source."
 190,Krankina_1999_nbfs;  Gower_2001_nppa,NPP,,"includes foliage, stem, branch, understory production as detailed in methodology source."
+191,Gower_2001_nppa,BNPP_coarse root,,Allometric relations
+192,Gower_2001_nppa,BNPP_fine root,,"Soil cores, longevity"
 193,Gower_2001_nppa,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+194,Gower_2001_nppa,BNPP_coarse root,,Allometric relations
+195,Gower_2001_nppa,BNPP_fine root,,Sequential coring
 196,Gower_2001_nppa,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+197,Linder_1998_nbff,BNPP_coarse root,,Not clear from text
+198,Linder_1998_nbff,BNPP_fine root,,Not clear from text
 199,Linder_1998_nbff,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
+200,Forcast,BNPP_coarse root,,Allometric relations
+201,Forcast,BNPP_fine root,,"Fine root biomass, turnover 1 year"
 202,Forcast,NPP,,"includes foliage, stem, coarse root, fine root, understory production as detailed in methodology source."
 203,Pers. Commun Nikinmaa,NPP,,"includes foliage, stem, branch production as detailed in methodology source."
+204,Schulze_2000_tcan,BNPP_coarse root,,Average from method 31
+205,Schulze_2000_tcan,BNPP_fine root,,Average from method 31
 206,Schulze_2000_tcan,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
 207,Lagergren_2005_nppa,NPP,,"NEE+Rh. includes foliage, stem, coarse root, fine root, branch, understory, herbivory, voc, repro, leaching production as detailed in methodology source"
 210,Ollinger_2005_nppa,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+212,Sierra_2007_satv,BNPP_fine root,,In-growth core
 213,Sierra_2007_satv,NPP,,"includes foliage, stem, coarse root, fine root, branch, repro production as detailed in methodology source."
 214,Pers. Commun. Goulden,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+215,Pers. Commun. Malhi,BNPP_coarse root,,ingrowth cores
+216,Pers. Commun. Malhi,BNPP_fine root,,Sequential coring
 217,Pers. Commun. Malhi,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+218,Pers. Commun. Bonal,ANPP_foliage_C,,"includes foliage, repro production as detailed in methodology source."
+218.1,Pers. Commun. Bonal,ANPP_repro_C,,"includes foliage, repro production as detailed in methodology source."
+219,Law_2004,BNPP_coarse root,,Allometric relations
+220,Law_2004,BNPP_fine root,,"Fine root biomass, turnover"
 221,Law_2004,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
 222,Martin_2005_asri,NPP,,"includes foliage, stem production as detailed in methodology source."
 223,Powell_2006_econ,NPP,,"includes foliage, stem, branch, understory production as detailed in methodology source."
+225,Harmon_2004_prao,BNPP_coarse root,,Allometric relations
+226,Harmon_2004_prao,BNPP_fine root,,"Soil cores, fine root biomass, turnover"
 227,Harmon_2004_prao,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory, herbivory, repro production as detailed in methodology source."
+228,Gough_2007_tloh,BNPP_coarse root,,Allometric relations
+229,Gough_2007_tloh,BNPP_fine root,,Soil cores + empirical relationship Aber et al 1985
 230,Gough_2007_tloh,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory, herbivory production as detailed in methodology source."
+232,Ohtsuka_2005_bbeo; Ohtsuka_2009_olmb,BNPP_fine root,,"Soil cores, minirhizitrons"
 233,Ohtsuka_2005_bbeo; Ohtsuka_2009_olmb,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
+234,Yang_2007_srac,BNPP_coarse root,,Allometric relations
+235,Yang_2007_srac,BNPP_fine root,,"Soil cores, turn over by decomposition in root litter bags and mortality"
 236,Yang_2007_srac,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source."
+237,Aragao_2009_aabn,BNPP_coarse root,,0.21*NPPstem (Malhi et al 2009)
+238,Aragao_2009_aabn,BNPP_fine root,,In-growth core
 239,Aragao_2009_aabn,NPP,,"includes foliage, stem, coarse root, fine root, branch production as detailed in methodology source. Allometric relation for aboveground biomass"
+240,Fenn et al submitted (BGD),BNPP_coarse root,,20% of aboveground wood increment
+241,Fenn et al submitted (BGD),BNPP_fine root,,Mass balance
 242,Fenn et al submitted (BGD),NPP,,"includes foliage, stem, coarse root, fine root, branch, repro production as detailed in methodology source."
+244,Ma_2008_oamo,BNPP_fine root,,Harvesting
 245,Ma_2008_oamo,NPP,,"includes foliage, stem, coarse root, fine root, understory production as detailed in methodology source."
+247,Kajimoto_2009,BNPP_fine root,,In-growth core
 248,Kajimoto_2009,NPP,,"includes foliage, stem, fine root, branch production as detailed in methodology source."
+249,Moser_2011_eeot,BNPP_coarse root,,Dendrometer tapes
+250,Moser_2011_eeot,BNPP_fine root,,Minirhizotrons
 251,Moser_2011_eeot,NPP,,"includes foliage, stem, coarse root, fine root, branch, understory, repro production as detailed in methodology source."
-427,Malhi_2014_tpma,NPP,,Summation of NPP components
-386,Lugo_1992_cott,organic.layer_OM,,multiplying the concentration of organic matter at the center of each soil horizon in the 1 x 1 x 1 m pit by the thickness of the horizon and its bulk density
-388,Delaney_1997_tdoo,organic.layer_OM,,Litter sampled and weighed
-417,Egunjobi_1979_band; Hughes_1999_bcan,organic.layer_OM,,Harvesting
 252,Williams_2005_aiao,R_auto_C,,foliage and stem respiration (Law et al 1999)
+253,Williams_2005_aiao,R_het_soil_C,,Manual system for root contributions to Rs (Law et
 255,Lloyd_2002_saav,R_auto_C,,Shibistova et al. 2002
-258,Arneth_1998_nepn,R_auto_C,,C-balance
-266,Kutsch_2005_shoe,R_auto_C,,C-balance
-274,Kutsch_2001_fmor,R_auto_C,,foliage and stem respiration + decomposition
-296,Maier_2004_rcua,R_auto_C,,calculated based on specific tissue biomass and respiration response functions  
-299,Maier_2004_rcua,R_auto_C,,C-balance
-338,Pers. Commun. Goulden,R_auto_C,,NPP_roots
-341,Pers. Commun. Malhi,R_auto_C,,foliage and wood respiration
-355,Navarro_2008_fdng,R_auto_C,,GPP-NPP
-356,Ryan_1997_acco,R_auto_C,,Chamber measurements of the components
-357,Campbell_2004_scos,R_auto_C,,Ra_roots+Ra_foliage+Ra_wood
-360,Harmon_2004_prao,R_auto_C,,"biomass, temperature function adjusted by Ra_folia"
-372,Griffis_2004_svap,R_auto_C,,scaled bole chamber measurements
-375,Fenn et al submitted,R_auto_C,,Chamber measurements + micromesh bags
-402,Malhi_2014_tpma,R_auto_C,,Ra = Rleaf + Rstem + Rrhizosphere + Rcoarse root
-403,Malhi_2014_tpma,R_auto_foliage_C,,Leaf gas exchange measurements of Rdark were performed using infra-red gas analysers
-404,Malhi_2014_tpma,R_auto_wood_C,,"Bole respiration was measured using a closed dynamic chamber method with an IRGA (EGM-4) and soil respiration chamber (SRC-1) connected to a permanent collar, sealed to the tree bole surface"
+256,Lloyd_2002_saav,R_het_soil_C,,Shibistova et al. 2002
 257,Lloyd_2002_saav,R_soil_C,,Ground level eddy covariance
+258,Arneth_1998_nepn,R_auto_C,,C-balance
+259,Arneth_1998_nepn,R_het_soil_C,,NPP - NEP
 260,Arneth_1998_nepn,R_soil_C,,Chamber
+262,Black_2005,R_het_soil_C,,Trenching
 263,Black_2005,R_soil_C,,Chamber
+264,Misson_2005_iorf,R_het_soil_C,,Trench plot (root exclusion plot)
 265,Misson_2005_iorf,R_soil_C,,Chamber
+266,Kutsch_2005_shoe,R_auto_C,,C-balance
 267,Wilson_2001_cieo,R_soil_C,,Ground level eddy covariance
+269,Hamilton_2002_fcbu,R_het_soil_C,,calculated as total soil CO2 efflux minus fine and coarse root respiration plus the  proportion  of  DIC  attributed  to  microbes. 
 270,Hamilton_2002_fcbu,R_soil_C,,Chamber
 271,Davidson_2002_bcai,R_soil_C,,Chamber
+272,Schulze_2000_tcan,R_het_soil_C,,Trenched/clearcuts
 273,Schulze_2000_tcan,R_soil_C,,Chamber + ground level eddy covariance
+274,Kutsch_2001_fmor,R_auto_C,,foliage and stem respiration + decomposition
+275,Kutsch_2001_fmor,R_het_soil_C,,litter + fine root turnover (C-balance)
 276,Kutsch_2001_fmor,R_soil_C,,Chamber
+277,Tang_2006_sfct,R_het_soil_C,,Use in-growth cores and sequential coring to estim
 278,Tang_2006_sfct,R_soil_C,,Chamber
+280,Yan_2006_eosr,R_het_soil_C,,Rs-Ra_roots
 281,Yan_2006_eosr,R_soil_C,,Chamber
 282,Kolari pers commun,R_soil_C,,Chamber measurement + soil temperature + wintertim
 285,Lee_2005_tdoc,R_soil_C,,Chamber
+286,Roupsard_2006_poea,R_het_soil_C,,Trenched
 287,Roupsard_2006_poea,R_soil_C,,Chamber
+288,Epron_2006_scbi,R_het_soil_C,,measured in gap (clearcut)
 289,Epron_2006_scbi,R_soil_C,,Chamber
+290,Maier_2000_scea,R_het_soil_C,,Root excised
 291,Maier_2000_scea,R_soil_C,,Chamber
+292,Bhupinderpal-Singh_2003,R_het_soil_C,,Girdling
 293,Bhupinderpal-Singh_2003,R_soil_C,,Chamber
+294,O'Connell_2003_nepo,R_het_soil_C,,Trenching
 295,O'Connell_2003_nepo,R_soil_C,,Chamber
+296,Maier_2004_rcua,R_auto_C,,calculated based on specific tissue biomass and respiration response functions  
+299,Maier_2004_rcua,R_auto_C,,C-balance
+300,Maier_2004_rcua,R_het_soil_C,,NPP - NEP
 301,Maier_2004_rcua,R_soil_C,,C-balance
+302,Li_2004_eora,R_het_soil_C,,Trenching
 303,Li_2004_eora,R_soil_C,,Alkali trapping
+304,Xu_2001_safo,R_het_soil_C,,root regression model
 305,Xu_2001_safo,R_soil_C,,Chamber
+306,Andrews_1999_sorr,R_het_soil_C,,Isotopes
 307,Andrews_1999_sorr,R_soil_C,,Chamber
+310,Nakane_1983_eorr,R_het_soil_C,,Gap (Clearcut)
 311,Nakane_1983_eorr,R_soil_C,,Alkali trapping
 313,Moncrieff_1999_amfs,R_soil_C,,Chamber
+314,Buchmann_2000_baaf,R_het_soil_C,,Mass balance
 315,Buchmann_2000_baaf,R_soil_C,,Chamber
+316,Haynes_1995_bcai,R_het_soil_C,,Trenching
 317,Haynes_1995_bcai,R_soil_C,,Chamber
+318,Cronan_2003_bbpa,R_het_soil_C,,Mass balance
 319,Cronan_2003_bbpa,R_soil_C,,Alkali trapping
 321,Nakane_1995_scci,R_soil_C,,Alkali absorption
+322,Dorr_1987_avis,R_het_soil_C,,radiocarbon
 323,Dorr_1987_avis,R_soil_C,,Soil probes
+324,Behera_1990_rctt,R_het_soil_C,,root regression model
 325,Behera_1990_rctt,R_soil_C,,Alkali
 326,Pers. Commun Migliavacca,R_soil_C,,Chamber
 327,Davidson_2006_tsos,R_soil_C,,Chamber
+328,Ehman_2002_aiio,R_het_soil_C,,litter + fine root turnover (C-balance)
 329,Ehman_2002_aiio,R_soil_C,,Chamber
+331,Law_2001_satv,R_het_soil_C,,Root excised
 332,Law_2001_satv,R_soil_C,,Chamber
+333,Pers. Commun. Bonal,R_het_soil_C,,Trenching
 334,Pers. Commun. Bonal,R_soil_C,,Chamber
 335,Pereira_2003_fcbi,R_soil_C,,Chamber
+336,Sierra_2007_satv,R_het_soil_C,,Trenching
+338,Pers. Commun. Goulden,R_auto_C,,NPP_roots
+339,Pers. Commun. Goulden,R_het_soil_C,,Rs-Ra_roots
 340,Pers. Commun. Goulden,R_soil_C,,Chamber
+341,Pers. Commun. Malhi,R_auto_C,,foliage and wood respiration
+342,Pers. Commun. Malhi,R_het_soil_C,,Rs-Ra_roots
 343,Malhi_2014_tpma,R_soil_C,,closed dynamic chamber method with an infra-red gas analyser and soil respiration chamber
+344,Wang_2006_sris,R_het_soil_C,,Trenching
 345,Wang_2006_sris,R_soil_C,,Chamber
 346,Martin_2005_asri,R_soil_C,,Chamber
 347,Tagesson_2007_hsce,R_soil_C,,Chamber
+348,Cook_2004_ceav,R_het_soil_C,,Rs-Ra_roots
 349,Khomik_2006_tasv,R_soil_C,,Chamber
 350,Gaumont-Guay_2006_iota,R_soil_C,,Chamber
 351,Jiabingb_2006_pcod,R_soil_C,,Chamber
 352,Zha_2007_tacc,R_soil_C,,Chamber
 353,Asensio_2007_ssal,R_soil_C,,Chamber
 354,Cleveland_2006_nata,R_soil_C,,Chamber
-359,Campbell_2004_scos,R_soil_C,,Chamber
-365,Gough_2007_tloh,R_soil_C,,Chamber
-366,Jassal_2007_coer,R_soil_C,,Chamber
-368,Gaudinski_2000_scci,R_soil_C,,Chamber
-369,Adachi_2006_disr,R_soil_C,,Chamber
-371,Yang_2007_srac,R_soil_C,,Alkali absorption
-374,Griffis_2004_svap,R_soil_C,,Chamber
-377,Fenn et al submitted,R_soil_C,,Chamber
-253,Williams_2005_aiao,R_het_soil_C,,Manual system for root contributions to Rs (Law et
-256,Lloyd_2002_saav,R_het_soil_C,,Shibistova et al. 2002
-259,Arneth_1998_nepn,R_het_soil_C,,NPP - NEP
-262,Black_2005,R_het_soil_C,,Trenching
-264,Misson_2005_iorf,R_het_soil_C,,Trench plot (root exclusion plot)
-269,Hamilton_2002_fcbu,R_het_soil_C,,calculated as total soil CO2 efflux minus fine and coarse root respiration plus the  proportion  of  DIC  attributed  to  microbes. 
-272,Schulze_2000_tcan,R_het_soil_C,,Trenched/clearcuts
-275,Kutsch_2001_fmor,R_het_soil_C,,litter + fine root turnover (C-balance)
-277,Tang_2006_sfct,R_het_soil_C,,Use in-growth cores and sequential coring to estim
-280,Yan_2006_eosr,R_het_soil_C,,Rs-Ra_roots
-286,Roupsard_2006_poea,R_het_soil_C,,Trenched
-288,Epron_2006_scbi,R_het_soil_C,,measured in gap (clearcut)
-290,Maier_2000_scea,R_het_soil_C,,Root excised
-292,Bhupinderpal-Singh_2003,R_het_soil_C,,Girdling
-294,O'Connell_2003_nepo,R_het_soil_C,,Trenching
-300,Maier_2004_rcua,R_het_soil_C,,NPP - NEP
-302,Li_2004_eora,R_het_soil_C,,Trenching
-304,Xu_2001_safo,R_het_soil_C,,root regression model
-306,Andrews_1999_sorr,R_het_soil_C,,Isotopes
-310,Nakane_1983_eorr,R_het_soil_C,,Gap (Clearcut)
-314,Buchmann_2000_baaf,R_het_soil_C,,Mass balance
-316,Haynes_1995_bcai,R_het_soil_C,,Trenching
-318,Cronan_2003_bbpa,R_het_soil_C,,Mass balance
-322,Dorr_1987_avis,R_het_soil_C,,radiocarbon
-324,Behera_1990_rctt,R_het_soil_C,,root regression model
-328,Ehman_2002_aiio,R_het_soil_C,,litter + fine root turnover (C-balance)
-331,Law_2001_satv,R_het_soil_C,,Root excised
-333,Pers. Commun. Bonal,R_het_soil_C,,Trenching
-336,Sierra_2007_satv,R_het_soil_C,,Trenching
-339,Pers. Commun. Goulden,R_het_soil_C,,Rs-Ra_roots
-342,Pers. Commun. Malhi,R_het_soil_C,,Rs-Ra_roots
-344,Wang_2006_sris,R_het_soil_C,,Trenching
-348,Cook_2004_ceav,R_het_soil_C,,Rs-Ra_roots
+355,Navarro_2008_fdng,R_auto_C,,GPP-NPP
+356,Ryan_1997_acco,R_auto_C,,Chamber measurements of the components
+357,Campbell_2004_scos,R_auto_C,,Ra_roots+Ra_foliage+Ra_wood
 358,Campbell_2004_scos,R_het_soil_C,,Rs-Ra_roots
+359,Campbell_2004_scos,R_soil_C,,Chamber
+360,Harmon_2004_prao,R_auto_C,,"biomass, temperature function adjusted by Ra_folia"
 361,Harmon_2004_prao,R_het_soil_C,,(detritus+soil)*decay
 362,Dannenmann_2007,R_het_soil_C,,Barometric Process Separation
 364,Gough_2007_tloh,R_het_soil_C,,Component integration (Hanson et al 2000)
+365,Gough_2007_tloh,R_soil_C,,Chamber
+366,Jassal_2007_coer,R_soil_C,,Chamber
 367,Gaudinski_2000_scci,R_het_soil_C,,Isotopic signature
+368,Gaudinski_2000_scci,R_soil_C,,Chamber
+369,Adachi_2006_disr,R_soil_C,,Chamber
 370,Yang_2007_srac,R_het_soil_C,,Gap (Dirt plots stratified design)
+371,Yang_2007_srac,R_soil_C,,Alkali absorption
+372,Griffis_2004_svap,R_auto_C,,scaled bole chamber measurements
 373,Griffis_2004_svap,R_het_soil_C,,Trenching?
+374,Griffis_2004_svap,R_soil_C,,Chamber
+375,Fenn et al submitted,R_auto_C,,Chamber measurements + micromesh bags
 376,Fenn et al submitted,R_het_soil_C,,Micromesh bags
-3,Valentini_2000_ratm,Reco,,Ecosystem respiration based on nighttime respiration vs soil or air temperature relationship
-9,Chambers_2004_rfat,Reco,,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
-13,Gielen_2005_ncsi,Reco,,GPP-NEP
-16,Hanson_2003_etnp,Reco,,GPP-NEP
-25,Kowalski_2004_pcoc,Reco,,Ecosystem respiration based on nighttime respiration vs SWC and soil temperature relationship
-28,Kutsch_2001_tcco,Reco,,Direct measurement of the components of Reco with chambers
-31,Lai_2002_mnte,Reco,,Constrained source optimization
-34,Law_1999_saar,Reco,,Direct measurement of of the components of Reco with chambers compared with Reco from eddy covariance
-39,Law_2001_satv,Reco,,Direct measurement of the components of Reco with chambers
-42,Lloyd_2002_saav,Reco,,GPP-NEP
-51,Wang_2004_ccfa,Reco,,modeled based on continuous eddy flux measurements and site-specific functions for respiratory components
-55,Williams_2005_aiao,Reco,,Direct measurement of the components of Reco with chambers + ACM data assimilation
-56,Kutsch_2001_tcco,Reco,,Direct measurement of the components of Reco with chambers
-57,Schulze_2000_tcan,Reco,,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
-58,Clark_2004_cdaa,Reco,,Direct measurement of the components of Reco with chambers
-62,Bolstad_2004_cawr,Reco,,Direct measurement of the components of Reco with chambers
-65,Zha_2007_tacc,Reco,,Direct measurement of the components of Reco with chambers
-68,Harmon_2004_prao,Reco,,Ra+Rh
-73,Ma_2008_oamo,Reco,,Not mentioned
-77,Hamilton_2002_fcbu,Reco,,"sum of C losses by total soil CO2 efflux, DIC, canopy respiration, woody respiration  and herbivory"
-401,Malhi_2014_tpma,Rsoil_het_annual,,Partitioning experiment
+377,Fenn et al submitted,R_soil_C,,Chamber
+378,Egunjobi_1979_band; Gehring_1999_rosv,biomass_ag_OM,,Harvesting
+379,Montagnini_2000_aiab,biomass_ag_OM,,Harvest (thinning)
+380,Aide_1995_fria; Chan_2013_eoam; Saldarriaga_1988_lcof; Sierra_2007_satv; Sierra_2012_tcai; Uhl_1984_sand; Uhl_1987_fcsf,biomass_ag_OM,,"Harvest, allometric relations"
+381,Lewis_2009_icsi,biomass_ag_OM,,"measure the diameter of all trees that are_100_mm in diameter in a given area (mean 2.1_ha) at least twice (mean interval 9.4_years), and apply allometric equations to convert tree-diameter measurements to carbon content"
+382,Lugo_1992_cott,ANPP,,ANPP was calculated by adding tree biomass increment and litterfall during the period of measurement. Aboveground tree biomass was estimated allometrically using tree inventory data and biomass-diameter relation
+382.1,Lugo_1992_cott,biomass_ag_OM,,Aboveground tree biomass was estimated allometrically using tree inventory data and biomass-diameter relation
+383,Lugo_1992_cott,ANPP,,"ANPP was calculated by adding tree biomass increment and litterfall during the period of measurement. Pine, mahogany, and roble (Tabebuia heterophylla (DC.) Britton) trees were harvested to supplement available biomass information on these species. Least squares regression analysis was used to develop bio- mass-diameter relation"
+383.1,Lugo_1992_cott,biomass_ag_OM,,"Pine, mahogany, and roble (Tabebuia heterophylla (DC.) Britton) trees were harvested to supplement available biomass information on these species. Least squares regression analysis was used to develop biomass-diameter relation"
+384,Maier_2004_rcua,ANPP_woody_stem_C,,"Where the individual tree data (including taxonomy) are available, we use allometric equation (Baker et al. 2004) to directly estimate the above-ground biomass at every census."
+385,Hughes_1999_bcan; Zarin_2001_pbai; Gehring_2005_rosf; Letcher_2009_rrob; Becknell_2014_saas; Delaney_1997_tdoo; Baker_2004_ibia,biomass_ag_OM,,Measured DBH; Allometric relations
+386,Lugo_1992_cott,organic.layer_OM,,multiplying the concentration of organic matter at the center of each soil horizon in the 1 x 1 x 1 m pit by the thickness of the horizon and its bulk density
+387,Broadbent_2014_isas,biomass_ag_OM,,"Measured DBH, height, crown exposure; allometric relations"
+388,Delaney_1997_tdoo,organic.layer_OM,,Litter sampled and weighed
+389,Delaney_1997_tdoo,deadwood_OM,,down dead wood sampled using line intersect method (Brown 1974); standing dead wood using allometric relations subtracting 10%
 390,Delaney_1997_tdoo,soil_C,,soil pit and cores
+391,Delaney_1997_tdoo,biomass_root_OM,,"root biomass from root-to-shoot ratios (0.48 dry forests, 0.22 montane moist, 0.16 lowland moist; Sanford and Cuevas 1996)"
+392,Delaney_1997_tdoo,biomass_OM,,"See 385, 391"
+393,Delaney_1997_tdoo,Ecosystem_2,,"See 385, 388-391"
 394,Broadbent_2014_isas,soil_C,,soil cores
 395,Hughes_1999_bcan,soil_C,,Soil samples at 5 depths and surface soils and mineral soils
+396,Alves_1997_bopa; Malhi_2014_tpma; Steininger_2000_sfsa; Uhl_1988_apie,biomass_ag_OM/biomass_ag_C,,"Measured DBH, height; Allometric relations"
+397,Malhi_2014_tpma,ANPP_woody_branch_OM,,"Harvest (branches > 2 cm diameter), larger branches measured diameter at 3 points, assigned wood density value"
+398,Malhi_2014_tpma,ANPP_foliage_OM,,"Litter traps, separated into components, oven dried and weighed"
+399,Malhi_2014_tpma; Araujo-Murakami_2014_tpaa; da Costa_2014_eran; del Aguila-Pasquel_2014_tsco; Doughty_2014_tpaa; Rocha_2014_epac,ANPP_folivory_OM,,Leaves collected in litterfall traps photographed before drying. Leaves scanned to calculate leaf area lost to herbivory. The fractional herbivory (H) for each leaf was calculated (see Table 3)
+401,Malhi_2014_tpma,Rsoil_het_annual,,Partitioning experiment
+402,Malhi_2014_tpma,R_auto_C,,Ra = Rleaf + Rstem + Rrhizosphere + Rcoarse root
+403,Malhi_2014_tpma,R_auto_foliage_C,,Leaf gas exchange measurements of Rdark were performed using infra-red gas analysers
+404,Malhi_2014_tpma,R_auto_wood_C,,"Bole respiration was measured using a closed dynamic chamber method with an IRGA (EGM-4) and soil respiration chamber (SRC-1) connected to a permanent collar, sealed to the tree bole surface"
+405,Maier_2004_rcua,GPP,NPP + Ra,"GPP = NPPtotal + Ra = plant carbon expenditure PCE, Metcalfe et al. 2010"
+406,Saldarriaga_1988_lcof,biomass_root_OM,,Root biomass sampled from pits and used to develop regression equations
+407,Uhl_1984_sand,biomass_root_coarse_OM,,root harvesting in plots/pits
+408,Uhl_1984_sand,ANPP,,litter collection
+409,Uhl_1987_fcsf,LAI,,Yearly LAI was calculated by multiplying the average leaf area/mass value for each life form by the estimated leaf biomass in each life form and then summing over life forms.
+410,Egunjobi_1979_band; Saldarriaga_1988_lcof; Uhl_1984_sand; Uhl_1987_fcsf,biomass_OM,,Summation of biomass components
+412,Lugo_1992_cott; Sierra_2012_tcai; Sierra_2007_tcsi,biomass_root_fine_OM,,Soil cores
+413,Lugo_1992_cott,biomass_root_OM,,Soil cores
+414,Egunjobi_1979_band,biomass_ag_woody_OM,,Harvesting
+415,Egunjobi_1979_band; Gehring_1999_rosv,biomass_ag_foliage_OM,,Harvesting
+416,Gehring_1999_rosv,deadwood_OM,,Harvesting
+417,Egunjobi_1979_band; Hughes_1999_bcan,organic.layer_OM,,Harvesting
+418,Egunjobi_1979_band,biomass_root_OM,,Root weight was estimated by proportion from the rela- tionship in the two destructively sampled trees
+419,Montagnini_2000_aiab,biomass_ag_woody_OM,,Harvest (thinning)
+420,Montagnini_2000_aiab,biomass_ag_foliage_OM,,Harvest (thinning)
+422,Saldarriaga_1988_lcof; Uhl_1984_sand; Uhl_1987_fcsf,biomass_ag_foliage_OM,,"Harvest, allometric relations"
+423,Sierra_2007_satv; Sierra_2012_tcai,biomass_root_coarse_OM,,"Harvest, allometric relations"
+424,Saldarriaga_1988_lcof,deadwood_OM,,"Harvest, allometric relations"
+425,Alves_1997_bopa; Malhi_2014_tpma,ANPP_stem,,"Measured DBH, height; Allometric relations"
+426,Uhl_1988_apie,deadwood_OM,,"Measured DBH, height; Allometric relations"
+427,Malhi_2014_tpma,NPP,,Summation of NPP components
+428,Malhi_2014_tpma,ANPP_repro_OM,,"Litter traps, separated into components, oven dried and weighed"
+429,Uhl_1987_fcsf,biomass_root_OM,,root harvesting in plots/pits
+430,Uhl_1984_sand,ANPP_foliage_OM,,litter collection
+431,Malhi_2014_tpma,BNPP_fine root,,ingrowth cores
+432,Hughes_1999_bcan,deadwood_OM,,Measured DBH; Allometric relations
+433,Weaver_2001_ntfc,ANPP,,ANPP was estimated by summing annual litterfall accumulation (897 g/m2/year) plus biomass change due to delayed mortality (142 g/m2/year) plus estimated herbivory (25 g/m2/year)
+434,Kadeba_1991_abpa,ANPP,,ANPP is mean periodic aboveground production plus mean annual litterfall
+435,Uhl_1987_fcsf,ANPP,,ANPP was calculated by combining litter (leaf+branch) and growth data (allometric relations based on height and diameter).
+437,Kira_1978_cano ,ANPP_folivory_OM,,"from caterpillar frass in littertraps, and assuming 13% efficiency; this = 4.4% of leaf prod."
+438,Martinez-Yrizar_1996_nppo; Martinez-Yrizar_1992_agpo,ANPP_folivory_OM,,Comes out to about 9% of ANPP; tracked leaf studies. 
+439,Weaver_1990_fsap,ANPP_folivory_OM,,"Followed herbivory of tagged leaves over 3 mo., to 12 m ht. maximum, got 1% herbivory in 90 days, extrapolated to 4% over a year;converted to /ha with LAI values based on plumb bob data and standing leaf biomass from mass/area relation. "
+440,Sierra_2007_satv,ANPP_folivory_OM,,"estimated annual herbivory rates by ants in the area as 16% of leaf standing biomass (based on J. C. Giraldo and R. A. Bedoya, unpublished entomological data)."
+441,Kira_1998_ntfk,ANPP_folivory_OM,,"Leaf herbivory rate (grazing by caterpillars, assuming efficiency of assimilation at 13%)"
+442,Maass_2001_ntfc,ANPP_folivory_OM,,"See Filip et al. 1995. Loss of leaf mass to herbivores was determined from repeated measurements of damage on individually labeled leaves; percent leaf area also measured using discrete measurements over a 3-year period (1983-1985); For the long-term measurements, percent leaf area eaten measured by leaf tracing."
+443,Saldarriaga_1988_lcof; Uhl_1984_sand,biomass_ag_woody_OM,,"Harvest, allometric relations"
+444,Tepley_2017_vtfl,biomass_ag_OM,,"Measured dbh, total height, and crown base height for tree species > 1.5 cm dbh; measured total height and crown diameter for shrub species and tree species < 1.5 cm dbh; entered into allometric equations"
+445,Condit_1998_tfcp;  Meakem_2017_rots,biomass_ag_C,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries. Estimated C as 47% of biomass."
+446,Condit_1998_tfcp;  Meakem_2017_rots,delta.agb_C,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
+447,Condit_1998_tfcp;  Meakem_2017_rots,ANPP_woody_stem_C,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody productivity as summed changes in biomass of individual stems divided by census inverval"
 448,Condit_1998_tfcp;  Meakem_2017_rots,woody.mortality_ag_C,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody mortality as summed biomass of all stems that died divided by census interval"
+449,Condit_1998_tfcp; Chave_2008_aefa; Lutz_2018_giol,biomass_ag_OM,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries. "
 450,Condit_1998_tfcp; Chave_2008_aefa; Johnson_2018_csss,woody.mortality_ag_OM,,"Measured diameter of all stems following CTFS-ForestGEO protocol, estimated biomass based on allometries of main stems, calculated woody mortality as summed biomass of all trees that died divided by census interval"
+451,Condit_1998_tfcp; Chave_2008_aefa,ANPP_woody_stem_OM,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated woody productivity as summed changes in biomass of individual stems divided by census inverval"
+452,Condit_1998_tfcp; Chave_2008_aefa,delta.agb_OM,,"Measured diameter of all stems in repeat censuses following CTFS-ForestGEO protocol, estimated biomass based on allometries, calculated net biomass change as difference between the two censuses divided by census interval"
+453,Lasslop_2009_sone,GPP,,"Estimated from daytime partitioning method; variable USTAR threshold, with reference selected from GPP versions using model efficiency (MEF)"
+454,Reichstein_2005_otso,GPP,,"Estimated from nighttime partitioning method; variable USTAR threshold, with reference selected from GPP versions using model efficiency (MEF)"
