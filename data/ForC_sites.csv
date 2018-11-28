@@ -2322,4 +2322,4 @@ site.ID,sites.sitename,network,alt.names,super.site,city,state,country,lat,lon,m
 2289,YRP,FluxNet,NA,NA,NAC,NAC,United States of America,46.6188,-91.0814,349,NA,NI,NI,NI,NI,NA,NAC,NAC,NAC,NAC,NAC,NAC,NA,NA,NAC,NAC,,,,Chen_2015_fuyr,Chen_2015_fuyr,NA,NA,Chen_2015_fuyr,Becky Banbury Morgan,0,0,,NA,
 2290,MHW,FluxNet,NA,NA,NAC,NAC,United States of America,46.6347,-91.0987,411,NA,NI,NI,NI,NI,NA,NAC,NAC,NAC,NAC,NAC,NAC,NA,NA,NAC,NAC,,,,Chen_2015_fumh,Chen_2015_fumh,NA,NA,Chen_2015_fumh,Becky Banbury Morgan,0,0,,NA,
 2291,MRP,FluxNet,NA,NA,NAC,NAC,United States of America,46.7393,-91.1663,352,NA,NI,NI,NI,NI,NA,NAC,NAC,NAC,NAC,NAC,NAC,NA,NA,NAC,NAC,,,,Chen_2015_fumr,Chen_2015_fumr,NA,NA,Chen_2015_fumr,Becky Banbury Morgan,0,0,,NA,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,,Becky Banbury Morgan,0,0,,NA,
+2292,Mongu,FluxNet,NA,NA,NAC,NAC,Zambia,-15.4378,23.2528,1053,NA,25,NI,NI,945,NA,NAC,NAC,NAC,NAC,NAC,NAC,NA,NA,NAC,NAC,,,,FLUXNET2015_2015_fzm,FLUXNET2015_2015_fzm,NA,NA,FLUXNET2015_2015_fzm,Becky Banbury Morgan,0,0,,NA,
