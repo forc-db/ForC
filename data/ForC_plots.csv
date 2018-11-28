@@ -831,7 +831,7 @@
 831,"Flakaliden C","Managed","NAC",831.01,"1963",831.04,"Planted","1963",831.03,"Burned","100","1963",831.02,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 832,"Flakaliden irrigated + fertilized","FI","NAC",832.01,"1963",832.04,"Planted","1963",832.03,"Burned","100","1963",832.02,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,832.05,832.06,0,0
 833,"Tapajos km 67","TAP67","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-834,"FLONA Tapajos Km 83","primary forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+834,"FLONA Tapajos Km 83","primary forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,834.02,"Harvest","NI","2001",0,NA,NA,NA,0,0,0,0,0,0,0
 835,"Forest Research Institute P. caribaea plantation","Stand development of managed plantation.10 y","NAC",835.02,"1965",835.01,"Planted","1965",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2732,"Forest Research Institute P. caribaea plantation","Stand development of managed plantation.9 y","NAC",2732.02,"1966",2732.01,"Planted","1966",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 836,"Forest Research Institute P. caribaea plantation","Stand development of managed plantation.6 y","NAC",836.02,"1969",836.01,"Planted","1969",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2422,7 +2422,7 @@
 2430,"Trocha Union 8","unmanaged upland tropical forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2431,"Trounson Forest Reserve","Agathis australis mature forest","0.36",0,"NAC",2431.01,"Initiation of post-disturbance cohort (natural)","NI",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2432,"Tucuri","old-growth tropical forest.TUC","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2434,"Tumbarumba flux station (AU-Tum)","mature managed forest","NAC",2434.01,"1911",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,2434.02,"Harvest","<100%","NI",0,NA,NA,NA,0,0,0,0,0,0,0
+2434,"Tumbarumba flux station (AU-Tum)","mature managed forest","NAC",2434.01,"1911",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,2434.02,"Harvest","<100%","NI",2434.03,"Harvest","NAC","2004",0,0,0,0,0,0,0
 2435,"Tura, right bank of Kochechum River","Larix gmelinii dominated mixed-age forest","0.1",2435.01,"1715",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,2435.02,"Burned","NAC","NI",0,NA,NA,NA,0,0,0,0,0,0,0
 2436,"Tura","natural regeneration after fire.Larix gmelinii forest","NAC",2436.03,"1899",2436.02,"Initiation of post-disturbance cohort (natural)","1899",2436.01,"Burned","100","1899",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2437,"Tura","natural regeneration after fire.Larix gmelinii forest C1","NAC",2437.01,"1717",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,2437.02,"Burned","<100%","NI",0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3055,3 +3055,26 @@
 3070,"New Brunswick, FNP","S4","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3070.04,0
 3071,"New Brunswick, FNP","S3A","0.002",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3071.04,0
 3072,"New Brunswick, FNP","S3B","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3072.04,0
+3073,"Adelaide River","AU-Ade","NI",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3074,"Cumberland Plain","AU-Cum","NI",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3075,"Gingin","AU-Gin","NAC",0,"NAC",0,NA,"NAC",0,NA,NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3076,"Loxton","AU-Lox","NAC",0,"NAC",0,NA,"NAC",0,NA,NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3077,"Robson Creek","AU-Rob","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3078,"Wallaby Creek","AU-Wac","NI",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3079,"Whroo","AU-Whr","NI",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3080,"Wombat","AU-Wom","NI",3080.02,"1985",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3081,"Davos","CH-Dav","NI",3081.02,"1600",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3082,"Laegern","CH-Lae","NI",3082.02,"1850",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3083,"Lackenberg","DE-Lkb","NAC",0,"NAC",0,NA,"NAC",0,NA,NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3084,"Oberbarenburg","DE-Obe","NAC",0,"NAC",0,NA,"NAC",0,NA,NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3085,"Ispra","IT-Isp","NAC",3085.02,"1960",3085.01,"Initiation of post-disturbance cohort (natural)","1960",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3086,"Moshiri","JP-MBF","NAC",3086.02,"1985",3086.01,"Initiation of post-disturbance cohort (natural)","1985",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3087,"Seto","JP-SMF","NAC",3087.02,"1930",3087.01,"Initiation of post-disturbance cohort (natural)","1930",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3088,"GLEES","US-GLE","NAC",3088.01,"1600",3088.02,"Initiation of post-disturbance cohort (natural)","1600",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3089,"Metolius Mature","US-Me2","NAC",3089.01,"1900",3089.02,"Initiation of post-disturbance cohort (natural)","1900",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3090,"Metolius Young","US-Me6","NAC",3090.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3091,"Poker Flat","US-Prr","NAC",3091.01,"1940",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3092,"YRP","US-Wi0","NAC",3092.01,"1999",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3093,"MHW","US-Wi3","NAC",3093.01,"1942",3093.02,"Initiation of post-disturbance cohort (natural)","1942",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3094,"MRP","US-Wi4","NAC",3094.01,"1944",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3095,"Mongu","ZM-Mon","NAC",0,"NAC",0,NA,"NAC",0,NA,NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
