@@ -20,3 +20,5 @@ library(ggmap)
 get_map(source="google", maptype="hybrid")
 
 #for whatever reason it won't let me download the map because it is "403 Forbidden." I have no idea if this is an IT issue or not.
+
+#update: I asked Bill Fisher and he said it has something to do with the API key. I tried following his instructions for that but nothing worked. This is ok, tho, as RStudio has a built-in option that allows for different basemaps (select the layered symbol on left side of plot viewer after running  code).
