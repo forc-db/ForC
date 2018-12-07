@@ -26,12 +26,12 @@ library(rgeos)
 # LOAD SYNMAP MAP AND LEGEND ####
 
 
-SYNMAP <- readOGR("R:/Global Maps Data/SYNMAP_Hurtt/synmap_polygon_dissolve.shp")
+SYNMAP <- readOGR("S:/Global Maps Data/SYNMAP_Hurtt/synmap_polygon_dissolve.shp")
 
 SYNMAP$GRIDCODE <- as.numeric(as.character(SYNMAP$GRIDCODE))
 
 
-SYNMAP_legend <- read.csv("R:/Global Maps Data/SYNMAP_Hurtt/SYNMAP_Legend.csv")
+SYNMAP_legend <- read.csv("S:/Global Maps Data/SYNMAP_Hurtt/SYNMAP_Legend.csv")
 
 ## Separate gricodes of synmap into forest_cover types
 
@@ -52,7 +52,7 @@ which(!gIsValid(SYNMAP, byid = TRUE))
 
 # LOAD WWF ECOREGIONS MAP ####
 
-ECOREGIONS <-  readOGR("R:/Global Maps Data/Shapefiles/WWF Terrestrial Ecoregions/modifications for TropForC fig/wwf_terr_ecos.shp")
+ECOREGIONS <-  readOGR("S:/Global Maps Data/Shapefiles/WWF Terrestrial Ecoregions/modifications for TropForC fig/wwf_terr_ecos.shp")
 
 unique(ECOREGIONS$REALM_1)
 
@@ -61,7 +61,7 @@ summary(ECOREGIONS)
 
 ## Any self-intersection ??
 
-which(!gIsValid(ECOREGIONS, byid = TRUE))
+which(!gIsValid(ECOREGIONS, byid = TRUE)) # should be empty
 
 
 # LOAD COUNTOUR MAP ####
@@ -85,7 +85,7 @@ No.of.records <- tapply(MEASUREMENTS$mean, MEASUREMENTS$sites.sitename, function
 No.of.records <- data.frame(sites.sitename = rownames(No.of.records), No.of.records = as.vector(No.of.records))
 str(No.of.records)
 
-SITES <- SITES[, c("sites.sitename", "lat", "lon", "FAOecozone")]
+SITES <- SITES[, c("sites.sitename", "lat", "lon", "FAO.ecozone")]
 SITES <- merge(SITES, No.of.records, by = "sites.sitename")
 
 
