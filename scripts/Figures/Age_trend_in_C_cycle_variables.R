@@ -33,6 +33,9 @@ na_codes <- c("NA", "NI", "NRA", "NaN", "NAC")
 my_is.na <- function(x) { is.na(x) | x %in% na_codes}
 my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 
+# set parameters ####
+save.plot = F
+
 # Prepare data ####
 
 ## Filter out managed, disturbed and no hisotry info sites
@@ -153,7 +156,7 @@ for(response.v in response.variables) {
   
   ### plot
   
-  tiff(file = paste0("figures/age_trends/", response.v, ".tiff"), height = 800, width = 1000, units = "px", res = 150)
+  if(save.plot) tiff(file = paste0("figures/age_trends/", response.v, ".tiff"), height = 800, width = 1000, units = "px", res = 150)
   
   ### layout figure
   layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,2), widths = c(5,1))
@@ -194,7 +197,7 @@ for(response.v in response.variables) {
   mtext(side = 1, line = -1, adj = 0.03, text = paste("n =", nrow(df.mature)), cex = 0.5)
   
   
-  dev.off()
+  if(save.plot) dev.off()
 }
 
 # Figure 6 and 7 ERL-review####
@@ -202,7 +205,7 @@ for(response.v in response.variables) {
 for( fig in c("Figure6", "Figure7")) {
   
 
-  tiff(file = paste0("figures/age_trends/for_ERL_review/", fig, ".tiff"), height = 1000, width = 1000, units = "px", res = 150)
+  if(save.plot) tiff(file = paste0("figures/age_trends/for_ERL_review/", fig, ".tiff"), height = 1000, width = 1000, units = "px", res = 150)
   
   ### layout figure
   nf <- layout(matrix(c(1,1,4,4,
@@ -315,7 +318,7 @@ for( fig in c("Figure6", "Figure7")) {
     
   } # for(response.v in variables.of.interest)
   
-  dev.off()
+  if(save.plot) dev.off()
   
   
 } # for( fig in c("Figure6", "Figure7"))
