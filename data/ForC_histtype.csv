@@ -6,6 +6,7 @@ Regrowth(_prior),Initiation of post-disturbance cohort (planted or natural),"Ini
 Regrowth(_prior),Planted,Planting/transplanting of seedlings.,plants ha-1
 Regrowth(_prior),Seeded_trees,Seeded with tree species.,plants ha-1
 Regrowth(_prior),Planted_and_natural_regeneration,Combination of planting or seeding and natural regeneration,plants ha-1
+Disturbance(_prior),Agriculture_generic,"Unspecified or mixed agricultural use, assigned when specific type is not known.",NA
 Disturbance(_prior),Biotic,"Significant biotic disturbance (e.g., insect pest/ pathogen causing tree mortality) ",NA
 Disturbance(_prior),Burned,"Includes prescribed burns, wildfires, and slash-and-burn events.","cycles (slash-and-burn), times, ha, km2, kW m-1"
 Disturbance(_prior),Cultivation,Any form of cultivation. Use Tillage if soil was tilled.,"months, seasons, years, harvests"

@@ -1,5 +1,5 @@
 ######################################################
-# Purpose: create aa version of ForC_Simplified in the ForC edu resources that only includes mature, undisturbed, and unmanaged forests (https://github.com/forc-db/ForC/issues/99)
+# Purpose: create a version of ForC_Simplified in the ForC edu resources that only includes mature, undisturbed, and unmanaged forests (https://github.com/forc-db/ForC/issues/99)
 # Developped by: Valentine Herrmann - HerrmannV@si.edu in July 2018
 #  R version 3.4.4 (2018-03-15)
 ######################################################

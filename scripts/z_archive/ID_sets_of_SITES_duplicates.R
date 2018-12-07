@@ -48,7 +48,7 @@ sum(table(clusters) > 1) # 307 clusters of more than one site
 
 clusters_with_potential_duplicates <- names(table(clusters))[table(clusters) > 1]
 
-## Within each cluster of potential duplicates, compare the fields related to physical emnvironement. When missing, consider as potential duplicates. 
+## Within each cluster of potential duplicates, compare the fields related to physical environement. When missing, consider as potential duplicates. 
 
 SITES$potential_duplicate_group <- 0
 SITES$potential_duplicate_group_parsed <- 0

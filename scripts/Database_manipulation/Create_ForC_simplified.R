@@ -99,8 +99,8 @@ SITES_simplified$map <- as.numeric(SITES_simplified$map) ## If you get an error 
 ## PLOTS ####
 
 plots.columns.to.keep <- c("sites.sitename", "plot.name", "plot.area", "year.establishment.oldest.trees", 
-                           "regrowth.hist.type", "regrowth.year", "dist.mrs.hist.type", 
-                           "dist.mrs.yr")
+                           "regrowth.type", "regrowth.year", "distmrs.type", 
+                           "distmrs.yr")
 names(PLOTS)
 
 PLOTS_simplified <- PLOTS[, plots.columns.to.keep]
@@ -143,10 +143,10 @@ if(any(!c( paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name)[grep
 
 ## disturbed ####
 
-# 1. Find plots referencing dist_1.hist.type, dist_1.mort, dist_2.hist.type, dist_2.mort, and additional.dist.ID links to HISTORY table (just a handful of these)
+# 1. Find plots referencing dist1.type, dist1.mort, dist2.type, dist2.mort, and additional.dist.ID links to HISTORY table (just a handful of these)
 
-## Find plots referencing dist_1.hist.type, dist_1.mort, dist_2.hist.type, dist_2.mort
-plots.disturbance.columns <- c("dist_1.hist.type", "dist_1.mort", "dist_2.hist.type", "dist_2.mort")
+## Find plots referencing dist1.type, dist1.mort, dist2.type, dist2.mort
+plots.disturbance.columns <- c("dist1.type", "dist1.mort", "dist2.type", "dist2.mort")
 disturbed <- PLOTS[apply(PLOTS[, plots.disturbance.columns], 1, function(x) any(!is.na(x))),]
 
 ## add plots for which additional.dist.ID links to HISTORY table
@@ -154,52 +154,52 @@ disturbed <- rbind(disturbed, PLOTS[!PLOTS$additional.dist.ID %in% 0,])
 
 # 2. From the plots found in 1., remove the following:
 # hist.type = Cut or Harvest - mort level "<<100%"
-disturbed <- disturbed[!((grepl("Cut|Harvest", disturbed$dist_1.hist.type, perl = T) & grepl("minor", disturbed$dist_1.mort)) |
-                           (grepl("Cut|Harvest", disturbed$dist_2.hist.type, perl = T) & grepl("minor", disturbed$dist_2.mort))), ]
+disturbed <- disturbed[!((grepl("Cut|Harvest", disturbed$dist1.type, perl = T) & grepl("minor", disturbed$dist1.mort)) |
+                           (grepl("Cut|Harvest", disturbed$dist2.type, perl = T) & grepl("minor", disturbed$dist2.mort))), ]
 
 # hist.type = Burned- mort level <= 10%
-dist_1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_1.mort))
-dist_2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_2.mort))
+dist1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist1.mort))
+dist2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist2.mort))
 
-disturbed <- disturbed[!((grepl("Burned", disturbed$dist_1.hist.type, perl = T) & dist_1.mort.num <=  10 & !is.na(dist_1.mort.num)) |
-                           (grepl("Burned", disturbed$dist_2.hist.type, perl = T) & dist_2.mort.num <=  10 & !is.na(dist_2.mort.num))), ]
+disturbed <- disturbed[!((grepl("Burned", disturbed$dist1.type, perl = T) & dist1.mort.num <=  10 & !is.na(dist1.mort.num)) |
+                           (grepl("Burned", disturbed$dist2.type, perl = T) & dist2.mort.num <=  10 & !is.na(dist2.mort.num))), ]
 
 # hist.type = Drought- exclude only if mort level has a specific value > 10%.
-dist_1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_1.mort))
-dist_2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_2.mort))
+dist1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist1.mort))
+dist2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist2.mort))
 
-disturbed <- disturbed[!((grepl("Drought", disturbed$dist_1.hist.type, perl = T) & (dist_1.mort.num <=  10 | is.na(dist_1.mort.num))) |
-                           (grepl("Drought", disturbed$dist_2.hist.type, perl = T) & (dist_2.mort.num <=  10 | is.na(dist_2.mort.num)))), ]
+disturbed <- disturbed[!((grepl("Drought", disturbed$dist1.type, perl = T) & (dist1.mort.num <=  10 | is.na(dist1.mort.num))) |
+                           (grepl("Drought", disturbed$dist2.type, perl = T) & (dist2.mort.num <=  10 | is.na(dist2.mort.num)))), ]
 
 
 # hist.type = Flood- mort level <= 10%
-dist_1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_1.mort))
-dist_2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_2.mort))
+dist1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist1.mort))
+dist2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist2.mort))
 
-disturbed <- disturbed[!((grepl("Flood", disturbed$dist_1.hist.type, perl = T) & dist_1.mort.num <=  10 & !is.na(dist_1.mort.num)) |
-                           (grepl("Flood", disturbed$dist_2.hist.type, perl = T) & dist_2.mort.num <=  10 & !is.na(dist_2.mort.num))), ]
+disturbed <- disturbed[!((grepl("Flood", disturbed$dist1.type, perl = T) & dist1.mort.num <=  10 & !is.na(dist1.mort.num)) |
+                           (grepl("Flood", disturbed$dist2.type, perl = T) & dist2.mort.num <=  10 & !is.na(dist2.mort.num))), ]
 
 # hist.type = Major storm- mort level <= 10%
-dist_1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_1.mort))
-dist_2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_2.mort))
+dist1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist1.mort))
+dist2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist2.mort))
 
-disturbed <- disturbed[!((grepl("Major storm", disturbed$dist_1.hist.type, perl = T) & dist_1.mort.num <=  10 & !is.na(dist_1.mort.num)) |
-                           (grepl("Major storm", disturbed$dist_2.hist.type, perl = T) & dist_2.mort.num <=  10 & !is.na(dist_2.mort.num))), ]
+disturbed <- disturbed[!((grepl("Major storm", disturbed$dist1.type, perl = T) & dist1.mort.num <=  10 & !is.na(dist1.mort.num)) |
+                           (grepl("Major storm", disturbed$dist2.type, perl = T) & dist2.mort.num <=  10 & !is.na(dist2.mort.num))), ]
 
 
 # hist.type = Other- any mort level > 0%
-dist_1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_1.mort))
-dist_2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist_2.mort))
+dist1.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist1.mort))
+dist2.mort.num <- as.numeric(gsub("[[:punct:]]", "", disturbed$dist2.mort))
 
-disturbed <- disturbed[!((grepl("Other", disturbed$dist_1.hist.type, perl = T) & dist_1.mort.num <=  0 & !is.na(dist_1.mort.num)) |
-                           (grepl("Other", disturbed$dist_2.hist.type, perl = T) & dist_2.mort.num <=  0 & !is.na(dist_2.mort.num))), ]
+disturbed <- disturbed[!((grepl("Other", disturbed$dist1.type, perl = T) & dist1.mort.num <=  0 & !is.na(dist1.mort.num)) |
+                           (grepl("Other", disturbed$dist2.type, perl = T) & dist2.mort.num <=  0 & !is.na(dist2.mort.num))), ]
 
 # hist.type = Grazed only  - all records (Grazing wouldn't kill trees)
-disturbed <- disturbed[!(grepl("Grazed", disturbed$dist_1.hist.type, perl = T) & (grepl("Grazed", disturbed$dist_2.hist.type, perl = T) | is.na(disturbed$dist_2.hist.type))), ]
+disturbed <- disturbed[!(grepl("Grazed", disturbed$dist1.type, perl = T) & (grepl("Grazed", disturbed$dist2.type, perl = T) | is.na(disturbed$dist2.type))), ]
 
 # 3. verify
-table(disturbed$dist_1.hist.type, disturbed$dist_1.mort)
-table(disturbed$dist_2.hist.type, disturbed$dist_2.mort)
+table(disturbed$dist1.type, disturbed$dist1.mort)
+table(disturbed$dist2.type, disturbed$dist2.mort)
 
 # 4. Give a 1 to all disturbed plots
 ForC_simplified$disturbed <- ifelse(paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name) %in% paste(disturbed$sites.sitename, disturbed$plot.name), 1, 0)
@@ -222,8 +222,8 @@ ordered.field <- c("measurement.ID", "sites.sitename", "plot.name",
                   "country", "lat", "lon", "masl", "mat", "map", "geographic.area", 
                   "biogeog", "Koeppen", "FAO.ecozone",
                   "plot.area", "year.establishment.oldest.trees", 
-                  "regrowth.hist.type", "regrowth.year", "dist.mrs.hist.type", 
-                  "dist.mrs.yr", "managed", "disturbed", "history.no.info")
+                  "regrowth.type", "regrowth.year", "distmrs.type", 
+                  "distmrs.yr", "managed", "disturbed", "history.no.info")
 
 ForC_simplified <- ForC_simplified[, ordered.field]
 
