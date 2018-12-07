@@ -31,6 +31,9 @@ categoriesKOEPPEN <- categoriesKOEPPEN[, c(1,3)]
 colnames(categoriesKOEPPEN) <- c("GRIDCODE", "Koeppen")
 
 
+continents <- readOGR("supplementary_resources/World Map data/Continents/World_Continents.shp", stringsAsFactors = F)
+
+
 # set SITES as coordinates ####
 
 SITES.xy <- SITES
@@ -103,6 +106,17 @@ A
 SITES$Koeppen <- new.KOEPPEN
 
 
+# Extract biogeog ####
+plot(continents)
+points(SITES.xy, pch = 16, col = "red")
+
+new.biogeog <- over(SITES.xy, continents)
+
+new.biogeog[is.na(SITES$biogeog) ,]
+
+new.biogeog <- new.biogeog$CONTINENT
+
+identical(SITES.xy$site.ID, SITES$site.ID)
 # SAVE ####
 
 write.csv(SITES, "data/ForC_sites.csv", row.names = F)
