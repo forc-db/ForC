@@ -345,15 +345,24 @@ for (n in 1:n_plots) {
   OUT_DIST <- data.frame(DIST_RN[1], DIST_TYPE[1], MORT[1], DIST_DATE[1], DIST_RN[2], DIST_TYPE[2], MORT[2], DIST_DATE[2], DIST_RN[3], stringsAsFactors = F)  # disturbance after regrowth
   OUT_MAN <- data.frame(CO2, TEMPERATURE, HYDRO, NUTRIENTS, BIOTA, OTHER, stringsAsFactors = F)# management
   
-  ForC_plots <- rbind(ForC_plots, data.frame(PLOTID, SITE, PLOT, PLOTAREA, OUT_ESTABLISHMENT, OUT_REGROWTH, OUT_DIST_PREV, PRIOR_RN, OUT_DIST, OUT_MAN, stringsAsFactors = F))
+  # Rename columns
+  names(PLOTS_to_add) <- c("plot.id", "sites.sitename", "plot.name", "plot.area", 
+                           "establishment.ID", "year.establishment.oldest.trees", 
+                           "regrowth.ID", "regrowth.type", "regrowth.year", 
+                           "dist.mrs.ID", "distmrs.type", "mortality", "distmrs.yr", "dist.additional.mrs.ID", 
+                           "prior.history.ID",
+                           "dist1.ID",	"dist1.type",	"dist1.mort",	"dist1.year",
+                           "dist2.ID",	"dist2.type",	"dist2.mort",	"dist2.year",
+                           "additional.dist.ID",
+                           "management.CO2.ID",	"management.temperature.ID",	"management.hydrology.ID",
+                           "management.nutrients.ID",	"management.biota.ID",	"management.other.ID")
+  
+  
+  ForC_plots <- rbind(ForC_plots, PLOTS_to_add, stringsAsFactors = F)
   
   
   
 } # for (n in 1:n_plots) 
- 
-
-# Rename columns ####
-colnames(ForC_plots) <- colnames(PLOTS)
 
 # double check with Krista's verison
 # 
