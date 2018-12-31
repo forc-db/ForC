@@ -44,7 +44,7 @@ irrigated.sites.sitename <- irrigated.sites.sitename[!grepl("Class|Bosque|chrono
 new.sites.sitename <- ifelse(new.sites.sitename %in% irrigated.sites.sitename, gsub("(\\bI\\b)(?=$)|(\\bI\\b)(?= )|(\\bI\\b)(?=\\+)", "irrigated", new.sites.sitename, perl = T), new.sites.sitename)
 
 ## F for fertilized ####
-fertilized.sites.sitename <- new.sites.sitename[grepl("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", new.sites.sitename, perl = T)]
+fertilized.sites.sitename <- new.sites.sitename[grepl("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)|(\\bF\\b)(?=)", new.sites.sitename, perl = T)]
 
 new.sites.sitename <- ifelse(new.sites.sitename %in% fertilized.sites.sitename, gsub("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", "fertilized", new.sites.sitename, perl = T), new.sites.sitename)
 
@@ -73,9 +73,10 @@ irrigated.plot.name <- irrigated.plot.name[!grepl("Class|Bosque|chronosequence|F
 new.plot.name <- ifelse(new.plot.name %in% irrigated.plot.name, gsub("(\\bI\\b)(?=$)|(\\bI\\b)(?= )|(\\bI\\b)(?=\\+)", "irrigated", new.plot.name, perl = T), new.plot.name)
 
 ## F for fertilized ####
-fertilized.plot.name <- new.plot.name[grepl("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", new.plot.name, perl = T)]
+fertilized.plot.name <- new.plot.name[grepl("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)|(\\bF\\b)(?=,)", new.plot.name, perl = T)] # fertilized.plot.name <- new.plot.name[grepl("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", new.plot.name, perl = T)]
 
-new.plot.name <- ifelse(new.plot.name %in% fertilized.plot.name, gsub("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", "fertilized", new.plot.name, perl = T), new.plot.name)
+
+new.plot.name <- ifelse(new.plot.name %in% fertilized.plot.name, gsub("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)|(\\bF\\b)(?=,)", "fertilized", new.plot.name, perl = T), new.plot.name) # new.plot.name <- ifelse(new.plot.name %in% fertilized.plot.name, gsub("(\\bF\\b)(?=$)|(\\bF\\b)(?= )|(\\bF\\b)(?=\\+)", "fertilized", new.plot.name, perl = T), new.plot.name)
 
 
 ## UM for unmanaged ####
