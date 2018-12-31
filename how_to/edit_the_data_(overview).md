@@ -68,6 +68,8 @@ We recommend having this guide and the [metadata](https://github.com/forc-db/For
 ## Entering Data
 Before editing, make sure you have the current version of the data (see step 2a).
 
+NOTE: ForC does not contain special characters. These should be converted to the closest equivalent. 
+
 7.	Use data from the paper to populate the data sheets, following guidance of metadata files describing each field. Most studies present data for multiple sites, plots, variables, measurement intervals, etc. Please be sure to add a separate entry in the measurements.csv file for each site. **In addition, each separate variable should receive its own line of entry.** 
 - _For example if Chave_2008_aefa measured both delta.agb_OM and ANPP_woody_stem for 5 sites, then you should add 10 rows in the measurements.csv._
 
