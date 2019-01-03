@@ -17,6 +17,8 @@
 # Clean environment ####
 rm(list = ls())
 
+library(lubridate)
+
 # Set working directory as ForC main folder ####
 setwd(".")
 
@@ -98,7 +100,7 @@ SITES_simplified$map <- as.numeric(SITES_simplified$map) ## If you get an error 
 
 ## PLOTS ####
 
-plots.columns.to.keep <- c("sites.sitename", "plot.name", "plot.area", "year.establishment.oldest.trees", 
+plots.columns.to.keep <- c("sites.sitename", "plot.name", "plotarea", "year.establishment.oldest.trees", 
                            "regrowth.type", "regrowth.year", "distmrs.type", 
                            "distmrs.yr")
 names(PLOTS)
@@ -139,7 +141,6 @@ ForC_simplified$managed <- ifelse(paste(ForC_simplified$sites.sitename, ForC_sim
 
 # 4. double check we got all
 if(any(!c( paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name)[grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name), perl = T, ignore.case = T)]) %in% all.managed.sites.plot.name)) { stop("Didn't get all managed sites")}# double check we got all either in managed.1 or managed.2... 
-
 
 ## disturbed ####
 
