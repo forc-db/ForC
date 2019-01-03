@@ -222,7 +222,7 @@ ordered.field <- c("measurement.ID", "sites.sitename", "plot.name",
                   "date", "start.date", "end.date", "mean", "min.dbh", "citation.ID", "required.citations", "ForC.investigator",
                   "country", "lat", "lon", "masl", "mat", "map", "geographic.area", 
                   "biogeog", "Koeppen", "FAO.ecozone",
-                  "plot.area", "year.establishment.oldest.trees", 
+                  "plotarea", "year.establishment.oldest.trees", 
                   "regrowth.type", "regrowth.year", "distmrs.type", 
                   "distmrs.yr", "managed", "disturbed", "history.no.info")
 
