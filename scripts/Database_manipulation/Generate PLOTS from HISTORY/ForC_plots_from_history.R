@@ -92,7 +92,7 @@ for (n in 1:n_plots) {
         EST_NOTES <- HISTORY$hist.notes[i_ni]
       }
     }
-  if(length(i_est) > 1) print(paste('REVISIT BY HAND (ESTABLISHMENT): ', plots_list[n])) # revisit by hand
+  if(length(i_est) > 1) warning(paste('REVISIT BY HAND (ESTABLISHMENT): ', plots_list[n])) # revisit by hand
 
 
   
@@ -345,6 +345,7 @@ for (n in 1:n_plots) {
   OUT_DIST <- data.frame(DIST_RN[1], DIST_TYPE[1], MORT[1], DIST_DATE[1], DIST_RN[2], DIST_TYPE[2], MORT[2], DIST_DATE[2], DIST_RN[3], stringsAsFactors = F)  # disturbance after regrowth
   OUT_MAN <- data.frame(CO2, TEMPERATURE, HYDRO, NUTRIENTS, BIOTA, OTHER, stringsAsFactors = F)# management
   
+  PLOTS_to_add <- data.frame(PLOTID, SITE, PLOT, PLOTAREA, OUT_ESTABLISHMENT, OUT_REGROWTH, OUT_DIST_PREV, PRIOR_RN, OUT_DIST, OUT_MAN, stringsAsFactors = F)
   # Rename columns
   names(PLOTS_to_add) <- c("plot.id", "sites.sitename", "plot.name", "plot.area", 
                            "establishment.ID", "year.establishment.oldest.trees", 
