@@ -31,6 +31,15 @@ PLOTS <- read.csv("data/ForC_plots.csv", stringsAsFactors = F)
 HISTORY <- read.csv("data/ForC_history.csv", stringsAsFactors = F)
 VARIABLES <- read.csv("data/ForC_variables.csv", stringsAsFactors = F)
 
+
+## this will remove accidental white spaces from the end of site.sitenames and plot.name if required (if errors at line 52, run this)
+#trim.trailing <- function (x) sub("\\s+$", "", x)
+#PLOTS$sites.sitename <- trim.trailing(PLOTS$sites.sitename)
+#PLOTS$plot.name <- trim.trailing(PLOTS$plot.name)
+#MEASUREMENTS$sites.sitename <- trim.trailing(MEASUREMENTS$sites.sitename)
+#MEASUREMENTS$plot.name <- trim.trailing(MEASUREMENTS$plot.name)
+#SITES$sites.sitename <- trim.trailing(SITES$sites.sitename)
+
 na_codes <- c("NA", "NI", "NRA", "NaN", "NAC", "999") 
 my_is.na <- function(x) { is.na(x) | x %in% na_codes}
 my_na.omit <- function(x) { return(x[!my_is.na(x)])}
@@ -100,7 +109,7 @@ SITES_simplified$map <- as.numeric(SITES_simplified$map) ## If you get an error 
 
 ## PLOTS ####
 
-plots.columns.to.keep <- c("sites.sitename", "plot.name", "plotarea", "year.establishment.oldest.trees", 
+plots.columns.to.keep <- c("sites.sitename", "plot.name", "plot.area", "year.establishment.oldest.trees", 
                            "regrowth.type", "regrowth.year", "distmrs.type", 
                            "distmrs.yr")
 names(PLOTS)
@@ -222,7 +231,7 @@ ordered.field <- c("measurement.ID", "sites.sitename", "plot.name",
                   "date", "start.date", "end.date", "mean", "min.dbh", "citation.ID", "required.citations", "ForC.investigator",
                   "country", "lat", "lon", "masl", "mat", "map", "geographic.area", 
                   "biogeog", "Koeppen", "FAO.ecozone",
-                  "plotarea", "year.establishment.oldest.trees", 
+                  "plot.area", "year.establishment.oldest.trees", 
                   "regrowth.type", "regrowth.year", "distmrs.type", 
                   "distmrs.yr", "managed", "disturbed", "history.no.info")
 
