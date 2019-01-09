@@ -151,6 +151,8 @@ new.R.group.ID <- ifelse(any(!my_is.na(MEASUREMENTS$old_R.group)), max(as.numeri
 new.S.group.ID <- ifelse(any(!my_is.na(MEASUREMENTS$old_S.group)), max(as.numeric(MEASUREMENTS$old_S.group), na.rm = T), 0)
 new.D.group.ID <- ifelse(any(!my_is.na(MEASUREMENTS$old_D.group)), max(as.numeric(MEASUREMENTS$old_D.group), na.rm = T), 0)
 
+more.thn.one.D.precedence.measurement.ID.given.and.not.easy.case.split.ID <- NULL
+
 for(i in 1:length(MEASUREMENTS.split)){
   
   X <- MEASUREMENTS.split[[i]]
@@ -232,15 +234,15 @@ for(i in 1:length(MEASUREMENTS.split)){
             # if (all.same.citation & all.same.method & all.same.notes & all.same.C.units & all.same.start.date & all.same.end.date & all.same.depth)
             if (all.same.citation & all.same.method & all.same.notes & all.same.C.units & all.same.depth & all.same.dbh) { # if only replicates
               
-              # if(length(unique(x$R.group)) == 1 & all(!is.na(x$R.group))) R.group.ID.to.add <- unique(x$R.group)
-              if(any(table(unlist(strsplit(unique(x$old_R.group), ";"))) == length(unique(x$old_R.group))) & all(!is.na(x$old_R.group))) {
+              # if(length(unique(x$R.group)) == 1 & all(!my_is.na(x$R.group))) R.group.ID.to.add <- unique(x$R.group)
+              if(any(table(unlist(strsplit(unique(x$old_R.group), ";"))) == length(unique(x$old_R.group))) & all(!my_is.na(x$old_R.group))) {
                 
                 # R.group.ID.to.add <- unique(x$R.group)
                 R.group.ID.to.add <- names(which(table(unlist(strsplit(unique(x$old_R.group), ";"))) == length(unique(x$old_R.group))))
                 if(length(R.group.ID.to.add) > 1) stop()
               } 
               
-              if(!(any(table(unlist(strsplit(unique(x$old_R.group), ";"))) == length(unique(x$old_R.group))) & all(!is.na(x$old_R.group)))) {
+              if(!(any(table(unlist(strsplit(unique(x$old_R.group), ";"))) == length(unique(x$old_R.group))) & all(!my_is.na(x$old_R.group)))) {
                 # print(x)
                 # readline("case were we need for a new R.group")
                 new.R.group.ID <- new.R.group.ID +1
@@ -254,14 +256,14 @@ for(i in 1:length(MEASUREMENTS.split)){
           # Not only replicates (and maybe not at all)...
             # if (any(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.start.date, !all.same.end.date, !all.same.depth))
             if (any(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, !all.same.dbh)) { # if not only replicates
-              # if(length(unique( x$D.group )) == 1 & all(!is.na( x$D.group ))) D.group.ID.to.add <- unique( x$D.group )
-              if(any(table(unlist(strsplit(unique( x$old_D.group), ";"))) == length(unique( x$old_D.group))) & all(!is.na( x$old_D.group))) {
+              # if(length(unique( x$D.group )) == 1 & all(!my_is.na( x$D.group ))) D.group.ID.to.add <- unique( x$D.group )
+              if(any(table(unlist(strsplit(unique( x$old_D.group), ";"))) == length(unique( x$old_D.group))) & all(!my_is.na( x$old_D.group))) {
                 # D.group.ID.to.add <- unique( x$D.group )
                 D.group.ID.to.add <- names(which(table(unlist(strsplit(unique(x$old_D.group), ";"))) == length(unique(x$old_D.group))))
                 if(length(D.group.ID.to.add) > 1) stop()
               }  
               
-              if(!(any(table(unlist(strsplit(unique( x$old_D.group), ";"))) == length(unique( x$old_D.group))) & all(!is.na( x$old_D.group)))) {
+              if(!(any(table(unlist(strsplit(unique( x$old_D.group), ";"))) == length(unique( x$old_D.group))) & all(!my_is.na( x$old_D.group)))) {
                 # print(x)
                 # readline("case where we need for a new D.group")
                 new.D.group.ID <- new.D.group.ID +1
@@ -285,14 +287,14 @@ for(i in 1:length(MEASUREMENTS.split)){
               
               if (any(idx.replicates.amongs.duplicates)) { # if there are replicates in the group of duplicates
                 
-                # if(length(unique( x[idx.replicates.amongs.duplicates, ]$R.group)) == 1 & all(!is.na( x[idx.replicates.amongs.duplicates, ]$R.group))) R.group.ID.to.add <- unique( x[idx.replicates.amongs.duplicates, ]$R.group)
-                if(any(table(unlist(strsplit(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group), ";"))) == length(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group))) & all(!is.na(x[idx.replicates.amongs.duplicates, ]$old_R.group))) {
+                # if(length(unique( x[idx.replicates.amongs.duplicates, ]$R.group)) == 1 & all(!my_is.na( x[idx.replicates.amongs.duplicates, ]$R.group))) R.group.ID.to.add <- unique( x[idx.replicates.amongs.duplicates, ]$R.group)
+                if(any(table(unlist(strsplit(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group), ";"))) == length(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group))) & all(!my_is.na(x[idx.replicates.amongs.duplicates, ]$old_R.group))) {
                   # R.group.ID.to.add <- unique( x[idx.replicates.amongs.duplicates, ]$R.group)
                   R.group.ID.to.add <- names(which(table(unlist(strsplit(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group), ";"))) == length(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group))))
                   if(length(R.group.ID.to.add) > 1) stop()
                 }
                 
-                if(!(any(table(unlist(strsplit(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group), ";"))) == length(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group))) & all(!is.na(x[idx.replicates.amongs.duplicates, ]$old_R.group)))) {
+                if(!(any(table(unlist(strsplit(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group), ";"))) == length(unique(x[idx.replicates.amongs.duplicates, ]$old_R.group))) & all(!my_is.na(x[idx.replicates.amongs.duplicates, ]$old_R.group)))) {
                   # print(x[idx.replicates.amongs.duplicates,])
                   # readline("case were we need for a new R.group")
                   
@@ -379,14 +381,14 @@ for(i in 1:length(MEASUREMENTS.split)){
             ## If everything is the same, it is a replicate
             if(length(conflict.types) == 0) { # if it is a replicate
 
-              # if(length(unique(X[this.case.idx, "R.group"])) == 1 & all(!is.na(X[this.case.idx, "R.group"]))) R.group.ID.to.add <- unique(X[this.case.idx, "R.group"])
-              if(any(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!is.na(X[this.case.idx, "old_R.group"]))) {
+              # if(length(unique(X[this.case.idx, "R.group"])) == 1 & all(!my_is.na(X[this.case.idx, "R.group"]))) R.group.ID.to.add <- unique(X[this.case.idx, "R.group"])
+              if(any(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!my_is.na(X[this.case.idx, "old_R.group"]))) {
                 # R.group.ID.to.add <- unique(X[this.case.idx, "R.group"])
                 R.group.ID.to.add <- names(which(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))))
                 if(length(R.group.ID.to.add) > 1) stop()
               } 
               
-              if(!(any(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!is.na(X[this.case.idx, "old_R.group"])))) {
+              if(!(any(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!my_is.na(X[this.case.idx, "old_R.group"])))) {
                 # print(  X[this.case.idx, ])
                 # readline("case where we need for a new R.group")
                 new.R.group.ID <- new.R.group.ID +1
@@ -403,8 +405,8 @@ for(i in 1:length(MEASUREMENTS.split)){
             ## If NOT everything is the same, it is a duplicate
             if(length(conflict.types) > 0) { # if it is a duplicate
               
-              # if(length(unique(X[this.case.idx, "D.group"])) == 1 & all(!is.na(X[this.case.idx, "D.group"]))) D.group.ID.to.add <- unique(  X[this.case.idx, "D.group"])
-              if(any(table(unlist(strsplit(unique(X[this.case.idx, "old_D.group"]), ";"))) == length(unique(X[this.case.idx, "old_D.group"]))) & all(!is.na(X[this.case.idx, "old_D.group"]))) {
+              # if(length(unique(X[this.case.idx, "D.group"])) == 1 & all(!my_is.na(X[this.case.idx, "D.group"]))) D.group.ID.to.add <- unique(  X[this.case.idx, "D.group"])
+              if(any(table(unlist(strsplit(unique(X[this.case.idx, "old_D.group"]), ";"))) == length(unique(X[this.case.idx, "old_D.group"]))) & all(!my_is.na(X[this.case.idx, "old_D.group"]))) {
                 # D.group.ID.to.add <- unique(X[this.case.idx, "D.group"])
                 D.group.ID.to.add <- names(which(table(unlist(strsplit(unique(X[this.case.idx, "old_D.group"]), ";"))) == length(unique(X[this.case.idx, "old_D.group"]))))
                 if(length(D.group.ID.to.add) > 1) {
@@ -413,7 +415,7 @@ for(i in 1:length(MEASUREMENTS.split)){
                 }
               }  
               
-              if(!(any(table(unlist(strsplit(unique(X[this.case.idx, "old_D.group"]), ";"))) == length(unique(X[this.case.idx, "old_D.group"]))) & all(!is.na(X[this.case.idx, "old_D.group"])))) {
+              if(!(any(table(unlist(strsplit(unique(X[this.case.idx, "old_D.group"]), ";"))) == length(unique(X[this.case.idx, "old_D.group"]))) & all(!my_is.na(X[this.case.idx, "old_D.group"])))) {
                 # print( X[this.case.idx, ])
                 # readline("case where we need for a new D.group")
                 new.D.group.ID <- new.D.group.ID +1
@@ -475,8 +477,8 @@ for(i in 1:length(MEASUREMENTS.split)){
           
           this.case.idx <- c(idx.range.date.subset, idx.non.range.dates[dates.within.range]) # look at range record and non-range record
           
-          # if(length(unique(x$D.group[this.case.idx])) == 1 & all(!is.na(x$D.group[this.case.idx]))) D.group.ID.to.add <- unique(x$D.group[this.case.idx])
-          if(any(table(unlist(strsplit(unique(x$old_D.group[this.case.idx]), ";"))) == length(unique(x$old_D.group[this.case.idx]))) & all(!is.na(x$old_D.group[this.case.idx]))) {
+          # if(length(unique(x$D.group[this.case.idx])) == 1 & all(!my_is.na(x$D.group[this.case.idx]))) D.group.ID.to.add <- unique(x$D.group[this.case.idx])
+          if(any(table(unlist(strsplit(unique(x$old_D.group[this.case.idx]), ";"))) == length(unique(x$old_D.group[this.case.idx]))) & all(!my_is.na(x$old_D.group[this.case.idx]))) {
         
             # D.group.ID.to.add <- unique(x$D.group[this.case.idx])
             D.group.ID.to.add <- names(which(table(unlist(strsplit(unique(x$old_D.group[this.case.idx]), ";"))) == length(unique(x$old_D.group[this.case.idx]))))
@@ -486,7 +488,7 @@ for(i in 1:length(MEASUREMENTS.split)){
             }
           } 
           
-          if(!(any(table(unlist(strsplit(unique(x$old_D.group[this.case.idx]), ";"))) == length(unique(x$old_D.group[this.case.idx]))) & all(!is.na(x$old_D.group[this.case.idx])))) {
+          if(!(any(table(unlist(strsplit(unique(x$old_D.group[this.case.idx]), ";"))) == length(unique(x$old_D.group[this.case.idx]))) & all(!my_is.na(x$old_D.group[this.case.idx])))) {
             # print(x[this.case.idx,])
             # readline("case were we need for a new D.group")
             new.D.group.ID <- new.D.group.ID +1
@@ -513,15 +515,15 @@ for(i in 1:length(MEASUREMENTS.split)){
         
         if (one.to.many.conflict) { # if 1-to-many conflict
           
-          # if(length(unique(x$S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])) == 1 & all(!is.na(x$S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) S.group.ID.to.add <- unique(x$S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])
+          # if(length(unique(x$S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])) == 1 & all(!my_is.na(x$S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) S.group.ID.to.add <- unique(x$S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])
           
-          if(any(table(unlist(strsplit(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]), ";"))) == length(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) & all(!is.na(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) {
+          if(any(table(unlist(strsplit(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]), ";"))) == length(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) & all(!my_is.na(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) {
             # S.group.ID.to.add <- unique(x$S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])
             S.group.ID.to.add <- names(which((table(unlist(strsplit(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]), ";"))) == length(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])))))
             if(length(S.group.ID.to.add) > 1) stop()
           }
           
-          if(!(any(table(unlist(strsplit(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]), ";"))) == length(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) & all(!is.na(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])))) {
+          if(!(any(table(unlist(strsplit(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]), ";"))) == length(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) & all(!my_is.na(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])))) {
             # print(x[c(idx.range.date.subset,idx.non.range.dates[dates.within.range]),])
             # readline("case where we need for a new S.group")
             new.S.group.ID <- new.S.group.ID +1
@@ -573,14 +575,14 @@ for(i in 1:length(MEASUREMENTS.split)){
       
       ## give S.group ID
       
-      # if(length(unique(X$S.group)) == 1 & all(!is.na(X$S.group))) S.group.ID.to.add <- unique(X$S.group)
-      if(any(table(unlist(strsplit(unique(X$old_S.group), ";"))) == length(unique(X$old_S.group))) & all(!is.na(X$old_S.group))) {
+      # if(length(unique(X$S.group)) == 1 & all(!my_is.na(X$S.group))) S.group.ID.to.add <- unique(X$S.group)
+      if(any(table(unlist(strsplit(unique(X$old_S.group), ";"))) == length(unique(X$old_S.group))) & all(!my_is.na(X$old_S.group))) {
         # S.group.ID.to.add <- unique(X$S.group)
         S.group.ID.to.add <- names(which(table(unlist(strsplit(unique(X$old_S.group), ";"))) == length(unique(X$old_S.group))))
         if(length(S.group.ID.to.add) > 1) stop()
       }
         
-      if(!(any(table(unlist(strsplit(unique(X$old_S.group), ";"))) == length(unique(X$old_S.group))) & all(!is.na(X$old_S.group)))) {
+      if(!(any(table(unlist(strsplit(unique(X$old_S.group), ";"))) == length(unique(X$old_S.group))) & all(!my_is.na(X$old_S.group)))) {
         # print(X)
         # if(!"Becky Banbury Morgan (Beckybanbury)" %in% X$loaded.by) readline("case where we need for a new S.group")
         new.S.group.ID <- new.S.group.ID +1
@@ -745,7 +747,7 @@ for(i in 1:length(MEASUREMENTS.split)){
         
         idx.cap.S.in.conflicts <- grep("S", x[idx.to.look.at, ]$conflicts, ignore.case = F)
         
-        if(length(idx.checked.original.pub) > 0){
+        if(length(idx.cap.S.in.conflicts) > 0){
           x[idx.to.look.at, ][idx.cap.S.in.conflicts, ]$D.precedence <- 0
          
         }
@@ -1119,8 +1121,9 @@ for(i in 1:length(MEASUREMENTS.split)){
           other.D.group <- other.D.group[! other.D.group %in% ""]
           
           x.both.D.group <- rbind(x, collecting.x[collecting.x$D.group %in% other.D.group,])
-          if(x.both.D.group$D.precedence[grepl(";", x.both.D.group$D.group)] == 0 & all(x.both.D.group$measurement.ID[!grepl(";", x.both.D.group$D.group)] == x.both.D.group$D.precedence.measurement.ID[!grepl(";", x.both.D.group$D.group)]))  warning("All is good!", immediate. = T) else { stop("There is more than one D.precedence.measurement.ID given and it is not an easy case")}
-        } #  if(any(grepl("R", x$conflicts))) 
+          if(x.both.D.group$D.precedence[grepl(";", x.both.D.group$D.group)] == 0 & all(x.both.D.group$measurement.ID[!grepl(";", x.both.D.group$D.group)] == x.both.D.group$D.precedence.measurement.ID[!grepl(";", x.both.D.group$D.group)]))  warning("All is good!", immediate. = T) else { more.thn.one.D.precedence.measurement.ID.given.and.not.easy.case.split.ID <- c(more.thn.one.D.precedence.measurement.ID.given.and.not.easy.case.split.ID, i) #stop("There is more than one D.precedence.measurement.ID given and it is not an easy case")
+          }
+        } #   if(any(grepl(";", x$D.group))) 
         
         # if none of the of the record is replicates give an error.
         if(!any(grepl("R", x$conflicts)) & !any(grepl(";", x$D.group))) stop("There is more than one D.precedence.measurement.ID given and it is not a case of replicates or multiple duplicates.")
@@ -1144,7 +1147,8 @@ for(i in 1:length(MEASUREMENTS.split)){
       } 
       
       collecting.x[grepl(pattern.D.group,collecting.x$D.group),] <- x
-    }
+    } #for (d in unique.D.groups)
+    
     # put back into X ####
     
     if(!all(X[idx.D.group, ]$measurement.ID %in% collecting.x$measurement.ID)) stop("make sure we've got all records") # this is to make sure we are putting records back in the main flow correctly
@@ -1405,7 +1409,7 @@ if(length(need.user.input.split.ID) > 0) {
      
      print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
      print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
-     readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
+     # readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
      
    }
 
@@ -1426,6 +1430,8 @@ MEASUREMENTS[MEASUREMENTS.final$split.ID %in% split.ID, ]
 
 MEASUREMENTS[MEASUREMENTS$D.group %in% 661,]
 MEASUREMENTS.final[MEASUREMENTS$D.group %in% 661,]
+
+MEASUREMENTS.final[MEASUREMENTS.final$measurement.ID %in% c("17541", "17551", "17561", "17571", "18245"),duplicate.related.columns]
 
 ## retrieve old conflict information when we decided it was better that way ####
 for(split.ID in c(retrieve.old.version.split.ID, need.user.input.split.ID)) { 
@@ -1468,7 +1474,7 @@ missing.D.precedence.split.ID <- sort(unique(MEASUREMENTS.final[grepl("D", MEASU
 for(split.ID in missing.D.precedence.split.ID) {
   X <- MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID & grepl("D", MEASUREMENTS.final$conflicts), ]
   print(X)
-  readline()
+  # readline()
 }
 
 
@@ -1484,7 +1490,7 @@ NAC.D.precedence.split.ID <- sort(unique(MEASUREMENTS.final[grepl("D", MEASUREME
 for(split.ID in NAC.D.precedence.split.ID) {
   X <- MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID, ]
   print(X)
-  readline()
+  # readline()
 }
 
 msg_box(paste("There is", length(NAC.D.precedence.split.ID), "groups where D precedence needs to be given manually."))
