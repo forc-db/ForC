@@ -576,7 +576,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 248.03,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Control (C),NAC,3,1935,8,Regrowth_prior,Planted,1,NA,NA,NA,broadcast burned and planted with Pinus radiata in 1935,NA,
 248.04,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Control (C),NAC,4,1972,8,Disturbance,Cut,NA,100,%,100,"The pine crop was clear-felled in 1972, residues burned",NA,
 248.05,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Control (C),NAC,5,1972,8,Disturbance,Burned,NA,NA,NA,100,"The pine crop was clear-felled in 1972, residues burned",NA,
-248.06,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Control (C),NAC,6,1973,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"The site was cleared of the original eucalypt woodland in 1934, broadcast burned and planted with P. radiata in 1935. The pine crop was clear-felled in 1972, residues burnedthe second pine stand planted in 1973",NA,
+248.06,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Control (C),NAC,6,1973,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"The site was cleared of the original eucalypt woodland in 1934, broadcast burned and planted with P. radiata in 1935. The pine crop was clear-felled in 1972, residues burned the second pine stand planted in 1973",NA,
 248.07,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Control (C),NAC,7,1973,8,Regrowth,Planted,1,NA,NA,NA,the second pine stand planted in 1973,NA,
 248.08,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Control (C),NAC,8,1988.748634,6,Disturbance,Cut,NA,50,% basal area,<100%," The stand was thinned in October 1988, removing 50% of the basal area for the I and C treatments",NA,
 249.01,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,1,1934,8,Disturbance_prior,Cut,NA,100,%,100,cleared of the original eucalypt woodland in 1934,NA,
@@ -584,7 +584,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 249.03,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,3,1935,8,Regrowth_prior,Planted,1,NA,NA,NA,broadcast burned and planted with Pinus radiata in 1935,NA,
 249.04,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,4,1972,8,Disturbance,Cut,NA,100,%,100,"The pine crop was clear-felled in 1972, residues burned",NA,
 249.05,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,5,1972,8,Disturbance,Burned,NA,NA,NA,100,"The pine crop was clear-felled in 1972, residues burned",NA,
-249.06,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,6,1973,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"The site was cleared of the original eucalypt woodland in 1934, broadcast burned and planted with P. radiata in 1935. The pine crop was clear-felled in 1972, residues burnedthe second pine stand planted in 1973",NA,
+249.06,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,6,1973,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"The site was cleared of the original eucalypt woodland in 1934, broadcast burned and planted with P. radiata in 1935. The pine crop was clear-felled in 1972, residues burned the second pine stand planted in 1973",NA,
 249.07,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,7,1973,8,Regrowth,Planted,1,NA,NA,NA,the second pine stand planted in 1973,NA,
 249.08,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,8,1983,7,Management,Irrigation,NA,NA,NA,NA,"In winter 1983, irrigation and fetilization treatments were established on 0.25 ha plots",NA,
 249.09,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated (I),NAC,9,1988.748634,6,Disturbance,Cut,NA,50,% basal area,<100%," The stand was thinned in October 1988, removing 50% of the basal area for the I and C treatments",NA,
@@ -594,9 +594,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 250.04,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,4,1972,8,Disturbance,Cut,NA,100,%,100,"The pine crop was clear-felled in 1972, residues burned",NA,
 250.05,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,5,1972,8,Disturbance,Burned,NA,NA,NA,100,"The pine crop was clear-felled in 1972, residues burned",NA,
 250.06,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,6,1973,8,Regrowth,Planted,1,NA,NA,NA,the second pine stand planted in 1973,NA,
-250.07,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,7,1973,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"The site was cleared of the original eucalypt woodland in 1934, broadcast burned and planted with P. radiata in 1935. The pine crop was clear-felled in 1972, residues burnedthe second pine stand planted in 1973",NA,
+250.07,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,7,1973,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"The site was cleared of the original eucalypt woodland in 1934, broadcast burned and planted with P. radiata in 1935. The pine crop was clear-felled in 1972, residues burned the second pine stand planted in 1973",NA,
 250.08,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,8,1983,7,Management,Irrigation,NA,NA,NA,NA,"In winter 1983, irrigation and fetilization treatments were established on 0.25 ha plots",NA,
-250.09,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,9,1984.666667,6,Management,Fertilization,NA,NA,NA,NA,"The IL treatment, which commenced in spring (September) 1984, provided a balanced nutrient input weekly in the irrigation water and was varied seasonally to match tree demand; annual inputs of N totaled 300 kg ha-1. After 1990, mineralization ofN in the soil and forest floor of the IL treatment was considered to be in excess of tree requirements, and fertilization was halted",NA,
+250.09,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,9,1984.666667,6,Management,Fertilization,NA,NA,NA,NA,"The IL treatment, which commenced in spring (September) 1984, provided a balanced nutrient input weekly in the irrigation water and was varied seasonally to match tree demand; annual inputs of N totaled 300 kg ha-1. After 1990, mineralization of N in the soil and forest floor of the IL treatment was considered to be in excess of tree requirements, and fertilization was halted",NA,
 250.1,Biology of Forest Growth experimental plantation in Pierces Creek Forest,Irrigated + Liquid Fertilized (IF),NAC,10,1988.748634,6,Disturbance,Cut,NA,30,% basal area,<100%," The stand was thinned in October 1988, removing 30% of the basal area for the IL treatment and 50% of the basal area for the I and C treatments.",NA,
 251.01,Bionte (Luizao),lowland tropical forest,NAC,1,NAC,9,No.info,NI,NA,NA,NA,NA,NA,5614,
 252.01,Bionte 1,terra firma BNT-01,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2359,
@@ -606,10 +606,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 256.01,Bionte T4 B1 SB3,terra firma BNT-06,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2362,
 257.01,Bionte T4 B2 SB1,terra firma BNT-05,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2363,
 258.01,Bionte T4 B4 SB4,terra firma BNT-07,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2364,
-259.01,Luquillo Experimental Forest: Bisley watersheds 1 and 2 ,Secondary tabonuco forest,0.16,1,NI,9,Disturbance,Cut,NA,NA,NA,NA,based on other Luquillo site history,2078,
-259.02,Luquillo Experimental Forest: Bisley watersheds 1 and 2 ,Secondary tabonuco forest,0.16,2,1930,8.5,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,secondary forest,NA,
-259.03,Luquillo Experimental Forest: Bisley watersheds 1 and 2 ,Secondary tabonuco forest,,,1930,8.5,Establishment,Establishment of oldest trees,NA,NA,NA,NA,secondary forest,NA,
-259.04,Luquillo Experimental Forest: Bisley watersheds 1 and 2 ,Secondary tabonuco forest,0.16,3,1989.715068,5,Disturbance,Major storm,NA,NA,NA,NA,Hurricane Hugo,NA,
+259.01,Luquillo Experimental Forest: Bisley watersheds 1 and 2,Secondary tabonuco forest,0.16,1,NI,9,Disturbance,Cut,NA,NA,NA,NA,based on other Luquillo site history,2078,
+259.02,Luquillo Experimental Forest: Bisley watersheds 1 and 2,Secondary tabonuco forest,0.16,2,1930,8.5,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,secondary forest,NA,
+259.03,Luquillo Experimental Forest: Bisley watersheds 1 and 2,Secondary tabonuco forest,,,1930,8.5,Establishment,Establishment of oldest trees,NA,NA,NA,NA,secondary forest,NA,
+259.04,Luquillo Experimental Forest: Bisley watersheds 1 and 2,Secondary tabonuco forest,0.16,3,1989.715068,5,Disturbance,Major storm,NA,NA,NA,NA,Hurricane Hugo,NA,
 260.01,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,1,1982,8,Disturbance,Cut,NA,100,%,100,NA,2023,
 260.02,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,2,1982,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,NA,2029,
 260.03,Bissiga B12,Tree and bush savanna recovery after clear-cut,1,3,1982,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,2232,
@@ -932,8 +932,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 418.01,Cascade Head (1),unmanaged,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,Unmanaged,NA,
 419.01,Cascade Head (1A),FI,NAC,1,NAC,9,Management,Fertilization,NA,NA,NA,NA,Fertilized,NA,
 419.02,Cascade Head (1A),FI,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Fertilized,NA,
-420.01,Cascade Head 1 ,recently disturbed,NAC,1,1989,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Recently disturbed,NA,
-420.02,Cascade Head 1 ,recently disturbed,NAC,2,1989,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Recently disturbed,NA,
+420.01,Cascade Head 1,recently disturbed,NAC,1,1989,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Recently disturbed,NA,
+420.02,Cascade Head 1,recently disturbed,NAC,2,1989,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Recently disturbed,NA,
 421.01,Cascade Head 10,unmanaged,NAC,1,1816,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. Unmanaged,NA,
 421.02,Cascade Head 10,unmanaged,NAC,2,1816,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Age method: Tree rings. Unmanaged,NA,
 422.01,Cascade Head 11,unmanaged,NAC,1,1833,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. Unmanaged,NA,
@@ -1304,7 +1304,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 640.01,Deep Throat,Tropical Dry Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA,
 640.02,Deep Throat,Tropical Dry Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA,
 640.03,Deep Throat,Tropical Dry Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA,
-641.01,Deer Canyon Preserve Pinyon Juniper Woodland ,pinyon juniper woodland,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
+641.01,Deer Canyon Preserve Pinyon Juniper Woodland,pinyon juniper woodland,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 642.01,Deqin Larix,Larix,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 643.01,"Deqin Picea, Abies 1","Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 644.01,"Deqin Picea, Abies 2","Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
@@ -1862,7 +1862,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 848.01,FT11 Gumkhal,Dry sub-deciduous Shorea robusta Gaertn. F. (Sal),NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
 849.01,FT12 Laldhang Shorea,Moist Bhabhar Shorea robusta F. (Sal),NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
 850.01,FT13 Banchuri-Sara,Dry Siwalik Shorea robusta Gaertn. F. (Sal),NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
-851.01,FT14 Kalagarh ,Moist Shorea robusta Gaertn. F. (Sal) Savannah,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
+851.01,FT14 Kalagarh,Moist Shorea robusta Gaertn. F. (Sal) Savannah,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
 852.01,FT15 Nayar,Riverian Shorea robusta Gaertn. F. (Sal),NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
 853.01,FT16 Between Srinagar and Rudraprayag,Anogeissus latifolia Wall. - Spondias pinnata (L. f.) Kurz (Bakli - Ambara),NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
 854.01,FT17 Laldhang,Western Gangetic Moist-Mixed Deciduous,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
@@ -3623,8 +3623,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1708.01,Nova Xavantina cerrado,short-statured tropical forest.NXA1,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 1709.01,Nova Xavantina cerrado,short-statured tropical forest.NXA2,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 1710.01,NSW south coast,"E. sieberi, E. agglomerata, E. obliqua",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
-1711.01,O site ,50/250 yr ,NAC,1,1749,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,"27% old trees (c. 250 y.o.), 25% younger trees (c. 50 y.o.) and 48% mixed-age trees",NA,
-1711.02,O site ,50/250 yr ,NAC,2,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,The forest has never been logged,NA,
+1711.01,O site,50/250 yr ,NAC,1,1749,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,"27% old trees (c. 250 y.o.), 25% younger trees (c. 50 y.o.) and 48% mixed-age trees",NA,
+1711.02,O site,50/250 yr ,NAC,2,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,The forest has never been logged,NA,
 1712.01,Oak ridge liriodendron,NI,NAC,1,1918,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,No information available,NA,
 1712.02,Oak ridge liriodendron,NI,NAC,2,1918,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,No information available,NA,
 1713.01,Oak Ridge National Laboratory Global Change Field Research Facility,"ambient CO2, ambient T",NAC,1,1994.084932,6,Regrowth,Planted,1,14154,plants ha-1,NA,1-y-old Acer rubrum seedlings (10 plants in ground in 3.0m diameter chamber),NA,
@@ -3688,7 +3688,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1755.01,"ORCOAST,Cascade Head,CH10",CH10,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 1756.01,"ORCOAST,Cascade Head,CH04",CH04,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 1757.01,"ORCOAST,Cascade Head,CH05",CH05,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
-1758.01,"OREAST, Metolius RNA,MRNA",MRNA,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
+1758.01,"OREAST,Metolius RNA,MRNA",MRNA,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 1759.01,"OREAST,Pringle Falls RNA 1",Temperate mountain system,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 1760.01,"OREAST,Pringle Falls RNA 2",Temperate mountain system,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 1761.01,"OREAST,Pringle Falls RNA 3",Temperate mountain system,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
@@ -5181,8 +5181,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2300.02,"Sweetbriar College, Constitution Oaks",Quercus spp. old-growth forest,0.21,2,1728,8,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA,
 2301.01,Sylvania,unmanaged hemlock-hardwood old-growth,NAC,1,1653,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Age method: Tree rings. Natural old-growth, non-managed",NA,
 2301.02,Sylvania,unmanaged hemlock-hardwood old-growth,NAC,2,1653,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"Age method: Tree rings. Natural old-growth, non-managed",NA,
-2302.01,Tablelands Juniper Savanna ,Managed grazed juniper savannah private ranch,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,NA,light seasonal cattle grazing,NA,
-2302.02,Tablelands Juniper Savanna ,Managed grazed juniper savannah private ranch,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,light seasonal cattle grazing,NA,
+2302.01,Tablelands Juniper Savanna,Managed grazed juniper savannah private ranch,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,NA,light seasonal cattle grazing,NA,
+2302.02,Tablelands Juniper Savanna,Managed grazed juniper savannah private ranch,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,light seasonal cattle grazing,NA,
 2303.01,Tahe Larix,Larix,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 2304.01,Tahe Pinus sylvestris var. mongolica,Pinus sylvestris var. mongolica,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 2305.01,Taimyr peninsula and Evenk region 1,"Larix gmelinii, Larix cajanderi",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
@@ -5196,8 +5196,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2312.02,Takayama,secondary deciduous forest,NAC,2,1958,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"Age is uncertain. Estimated this year based on info from asiaflux.net [50 y.o. in 2008]. Other sources >40 y.o. (Saigusa 2002), appx. 50 (Saigusa 2005)",NA,
 2313.01,Tambopata-Candamo Reserve permanent plot TAM-01,"terra firma, floodplain TAM-01",1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2429,
 2314.01,Tambopata-Candamo Reserve permanent plot TAM-02,"terra firma, floodplain TAM-02",1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2430,
-2315.01,Tambopata-Candamo Reserve permanent plot TAM-03 ,swamp TAM-03,0.58,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2432,
-2316.01,Tambopata-Candamo Reserve permanent plot TAM-04 ,"terra firma, floodplain TAM-04",0.42,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2431,
+2315.01,Tambopata-Candamo Reserve permanent plot TAM-03,swamp TAM-03,0.58,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2432,
+2316.01,Tambopata-Candamo Reserve permanent plot TAM-04,"terra firma, floodplain TAM-04",0.42,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2431,
 2317.01,Tambopata-Candamo Reserve permanent plot TAM-05,terra firma unmanaged primary forest ,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. Long-term forest inventory plots established in early 1980s,2433,
 2318.01,Tambopata-Candamo Reserve permanent plot TAM-06,"terra firma, floodplain unmanaged primary forest",0.96,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. Long-term forest inventory plots established in early 1980s,2434,
 2319.01,Tambopata-Candamo Reserve permanent plot TAM-07,terra firma TAM-07,1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance. ,2435,
@@ -5510,12 +5510,12 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2452.02,UMBS harvest and fire chronosequence,Managed.68-y since clear-cut and burn,NAC,2,1936,8,Disturbance,Burned,NA,NA,NA,100,Clear cut and burned in 1936,NA,
 2452.03,UMBS harvest and fire chronosequence,Managed.68-y since clear-cut and burn,NAC,3,1936,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Clear cut and burned in 1936,NA,
 2452.04,UMBS harvest and fire chronosequence,Managed.68-y since clear-cut and burn,NAC,4,1936,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Clear cut and burned in 1936,NA,
-2453.01,University of Michigan Biological Station (UMBS) ,secondary successional mixed northern hardwood forest,1.1,1,1890,8.5,Disturbance,Burned,NA,NA,NA,<100%,subsequent cutting and patchy burns in the area until early 20th century,NA,
-2453.02,University of Michigan Biological Station (UMBS) ,secondary successional mixed northern hardwood forest,1.1,2,1890,8.5,Disturbance,Cut,NA,NA,NA,NAC,subsequent cutting and patchy burns in the area until early 20th century,NA,
-2453.03,University of Michigan Biological Station (UMBS) ,secondary successional mixed northern hardwood forest,1.1,3,1890,8.5,Disturbance,Harvest,NA,NA,NA,NI,"old-growth white pine, red pine and eastern hemlock were harvested in the late 19th century",NA,
-2453.04,University of Michigan Biological Station (UMBS) ,secondary successional mixed northern hardwood forest,NAC,4,1900,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,average tree age 85 years,NA,
-2454.01,University of Michigan Biological Station (UMBS) ,unmanaged,NAC,1,1880,8.5,Disturbance,Cut,NA,NA,NA,NAC,"The presettlement white pine, red pine, hemlock forest was cut around 1880",NA,
-2454.02,University of Michigan Biological Station (UMBS) ,unmanaged,NAC,2,1923,9,Disturbance,Burned,NA,NA,NA,NAC,The area was disturbed repeatedly by fire until 1923.,NA,
+2453.01,University of Michigan Biological Station (UMBS),secondary successional mixed northern hardwood forest,1.1,1,1890,8.5,Disturbance,Burned,NA,NA,NA,<100%,subsequent cutting and patchy burns in the area until early 20th century,NA,
+2453.02,University of Michigan Biological Station (UMBS),secondary successional mixed northern hardwood forest,1.1,2,1890,8.5,Disturbance,Cut,NA,NA,NA,NAC,subsequent cutting and patchy burns in the area until early 20th century,NA,
+2453.03,University of Michigan Biological Station (UMBS),secondary successional mixed northern hardwood forest,1.1,3,1890,8.5,Disturbance,Harvest,NA,NA,NA,NI,"old-growth white pine, red pine and eastern hemlock were harvested in the late 19th century",NA,
+2453.04,University of Michigan Biological Station (UMBS),secondary successional mixed northern hardwood forest,NAC,4,1900,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,average tree age 85 years,NA,
+2454.01,University of Michigan Biological Station (UMBS),unmanaged,NAC,1,1880,8.5,Disturbance,Cut,NA,NA,NA,NAC,"The presettlement white pine, red pine, hemlock forest was cut around 1880",NA,
+2454.02,University of Michigan Biological Station (UMBS),unmanaged,NAC,2,1923,9,Disturbance,Burned,NA,NA,NA,NAC,The area was disturbed repeatedly by fire until 1923.,NA,
 2455.01,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.18-y,NAC,1,1911,8,Disturbance,Burned,NA,NA,NA,100,wildfire,NA,
 2455.02,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.18-y,NAC,2,1936,8,Disturbance,Burned,NA,NA,NA,<100%,prescribed burn,NA,
 2455.03,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.18-y,NAC,3,1936,8,Disturbance,Cut,NA,100,%,100,clear-cut,NA,
@@ -5599,12 +5599,12 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2472.01,Valle Azul,Tropical Moist Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA,
 2472.02,Valle Azul,Tropical Moist Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA,
 2472.03,Valle Azul,Tropical Moist Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA,
-2473.01,Valles Caldera Mixed Conifer ,subalpine conifer forest,NAC,1,1800,8.5,Disturbance,Grazed,NA,NA,NA,NA,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
-2473.02,Valles Caldera Mixed Conifer ,subalpine conifer forest,NAC,2,NI,9,Disturbance,Harvest,NA,NA,NA,NI,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
-2473.03,Valles Caldera Mixed Conifer ,subalpine conifer forest,NAC,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
-2474.01,Valles Caldera Ponderosa Pine ,ponderosa pine forest,NAC,1,1800,8.5,Disturbance,Grazed,NA,NA,NA,NA,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
-2474.02,Valles Caldera Ponderosa Pine ,ponderosa pine forest,NAC,2,NI,9,Disturbance,Harvest,NA,NA,NA,NI,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
-2474.03,Valles Caldera Ponderosa Pine ,ponderosa pine forest,NAC,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
+2473.01,Valles Caldera Mixed Conifer,subalpine conifer forest,NAC,1,1800,8.5,Disturbance,Grazed,NA,NA,NA,NA,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
+2473.02,Valles Caldera Mixed Conifer,subalpine conifer forest,NAC,2,NI,9,Disturbance,Harvest,NA,NA,NA,NI,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
+2473.03,Valles Caldera Mixed Conifer,subalpine conifer forest,NAC,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
+2474.01,Valles Caldera Ponderosa Pine,ponderosa pine forest,NAC,1,1800,8.5,Disturbance,Grazed,NA,NA,NA,NA,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
+2474.02,Valles Caldera Ponderosa Pine,ponderosa pine forest,NAC,2,NI,9,Disturbance,Harvest,NA,NA,NA,NI,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
+2474.03,Valles Caldera Ponderosa Pine,ponderosa pine forest,NAC,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"logging before 1972, cattle grazing (1800s-1999), historically large elk herd (1960-present)",NA,
 2475.01,Vancouver Island DF49,planted Douglas fir mixed with natural regeneration,NAC,1,1937,8,Disturbance,Cut,NA,NA,NA,100,original stand logged in 1937,NA,
 2475.02,Vancouver Island DF49,planted Douglas fir mixed with natural regeneration,NAC,2,1943,8,Disturbance,Burned,NA,NA,NA,100,slash-burned in 1943,NA,
 2475.03,Vancouver Island DF49,planted Douglas fir mixed with natural regeneration,NAC,3,1949,8,Regrowth,Planted_and_natural_regeneration,1,NA,NA,NA,"planted with Douglas-fir seedlings in 1949, mixed with natural regeneration",NA,
@@ -5762,11 +5762,11 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2545.02,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.7y,0.01,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,almost entirely Balsam fir (99+%),NA,
 2545.03,Wave-regenerated Balsam Fir chronosequence,Forest recovery following five-year wave mortality events.7y,0.01,3,1965,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,
 2546.01,Wayqecha,unmanaged upland tropical forest,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,2282,
-2547.01,Web-FACE ,Ambient CO2,NAC,1,1900,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,
-2547.02,Web-FACE ,Ambient CO2,NAC,2,1900,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA,
-2548.01,Web-FACE ,Elevated CO2,NAC,1,1900,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,
-2548.02,Web-FACE ,Elevated CO2,NAC,2,1900,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA,
-2548.03,Web-FACE ,Elevated CO2,NAC,3,1900,8.5,Management,CO2_fumigation,NA,NAC,NA,NA,NA,NA,
+2547.01,Web-FACE,Ambient CO2,NAC,1,1900,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,
+2547.02,Web-FACE,Ambient CO2,NAC,2,1900,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA,
+2548.01,Web-FACE,Elevated CO2,NAC,1,1900,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,
+2548.02,Web-FACE,Elevated CO2,NAC,2,1900,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA,
+2548.03,Web-FACE,Elevated CO2,NAC,3,1900,8.5,Management,CO2_fumigation,NA,NAC,NA,NA,NA,NA,
 2549.01,Weidong,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 2550.01,Weixi 1,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 2551.01,Weixi 2,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
@@ -5828,10 +5828,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2580.01,Wildfire-regenerating Jack Pine Chronosequence 7,Forest recovery following wildfire,NAC,1,1995,8,Disturbance,Burned,NA,NA,NA,100,NA,NA,
 2580.02,Wildfire-regenerating Jack Pine Chronosequence 7,Forest recovery following wildfire,NAC,2,1995,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,
 2580.03,Wildfire-regenerating Jack Pine Chronosequence 7,Forest recovery following wildfire,NAC,3,1995,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA,
-2581.01,Willow Creek (WC)-Chequamegon National Forest ,recently disturbed mature regrowth upland hardwood forest,NAC,1,1920,8.5,Disturbance,Harvest,NA,NA,NA,NI,"The site has never been farmed, but has been logged at least twice. Second growth stand logged during the 1920s.",NA,
-2581.02,Willow Creek (WC)-Chequamegon National Forest ,recently disturbed mature regrowth upland hardwood forest,NAC,2,1933,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Windthrow within fetch. Second growth stand logged during the 1920s. Since then the stand has been periodically thinned,the last thinning occurring in the early 1970s.",NA,
-2581.03,Willow Creek (WC)-Chequamegon National Forest ,recently disturbed mature regrowth upland hardwood forest,NAC,3,1970,8.5,Disturbance,Harvest,NA,NA,NA,<100%,"Since the logging in 1920s, the stand has been periodically thinned, the last thinning occurring in the early 1970s.",NA,
-2581.04,Willow Creek (WC)-Chequamegon National Forest ,recently disturbed mature regrowth upland hardwood forest,NAC,4,1970,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,"Since the logging in 1920s, the stand has been periodically thinned, the last thinning occurring in the early 1970s.",NA,
+2581.01,Willow Creek (WC)-Chequamegon National Forest,recently disturbed mature regrowth upland hardwood forest,NAC,1,1920,8.5,Disturbance,Harvest,NA,NA,NA,NI,"The site has never been farmed, but has been logged at least twice. Second growth stand logged during the 1920s.",NA,
+2581.02,Willow Creek (WC)-Chequamegon National Forest,recently disturbed mature regrowth upland hardwood forest,NAC,2,1933,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Windthrow within fetch. Second growth stand logged during the 1920s. Since then the stand has been periodically thinned,the last thinning occurring in the early 1970s.",NA,
+2581.03,Willow Creek (WC)-Chequamegon National Forest,recently disturbed mature regrowth upland hardwood forest,NAC,3,1970,8.5,Disturbance,Harvest,NA,NA,NA,<100%,"Since the logging in 1920s, the stand has been periodically thinned, the last thinning occurring in the early 1970s.",NA,
+2581.04,Willow Creek (WC)-Chequamegon National Forest,recently disturbed mature regrowth upland hardwood forest,NAC,4,1970,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,"Since the logging in 1920s, the stand has been periodically thinned, the last thinning occurring in the early 1970s.",NA,
 2582.01,Willow Creek AE 1,NI,NAC,1,1928,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,
 2582.02,Willow Creek AE 1,NI,NAC,2,1928,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA,
 2583.01,Willow Creek AE 2,NI,NAC,1,1921,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA,
@@ -6522,7 +6522,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2998.01,Lampang,Lampang,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
 2999.01,Mt. Kilimanjaro,Mt. Kilimanjaro,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
 3000.01,Horton Plains,Horton Plains,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
-3001.01,Sinharadja,Sinharadja,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
+3001.01,Sinharaja,Sinharaja,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
 3002.01,Wilpattu,Wilpattu,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
 3003.01,Polonaruwa,Polonaruwa,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
 3004.01,Hakgala Natural Reserve,Nuwara Eliya,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
@@ -6563,7 +6563,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3039.01,"Lumut, South Perak",Lumut,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
 3040.01,"Bikam, South Perak",Bikam,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
 3041.01,Yona Experimental Forest,Yona Experimental Forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
-3042.01,Arunachal Pradesh ,Arunachal Pradesh ,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
+3042.01,Arunachal Pradesh,Arunachal Pradesh ,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
 3043.01,Schefferville,Schefferville,NAC,1,1864,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA,
 3043.02,Schefferville,Schefferville,NAC,1,1864,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA,
 3044.01,km64,km64,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA,
