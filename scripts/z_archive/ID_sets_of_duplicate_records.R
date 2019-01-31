@@ -56,6 +56,11 @@ MEASUREMENTS$my.end.date <- year(MEASUREMENTS$my.end.date)
 MEASUREMENTS$my.end.date <- ifelse(my_is.na(MEASUREMENTS$my.end.date), NA, paste0(MEASUREMENTS$my.end.date, "-01-01"))
 MEASUREMENTS$my.end.date <- as.Date(MEASUREMENTS$my.end.date)
 
+### if start and end date are the same day (january 1st of the same year) remove them and put that date in date ####
+idx <- !is.na(MEASUREMENTS$my.start.date) & (MEASUREMENTS$my.start.date == MEASUREMENTS$my.end.date)
+MEASUREMENTS$my.date[idx] <- MEASUREMENTS$my.start.date[idx]
+MEASUREMENTS$my.start.date[idx] <- NA
+MEASUREMENTS$my.end.date[idx] <- NA
 
 ## consider NA as a factor level for plot.names (otherwise doesn't work when splitting the data) ####
 MEASUREMENTS$plot.name <- addNA(MEASUREMENTS$plot.name)
@@ -188,11 +193,11 @@ for(i in 1:length(MEASUREMENTS.split)){
     
     ## If any duplicated dates or start.date (excluding NA) OR, if all dates are missing, if any duplicated stand.gae (excluding NA)
     if (any.duplicated.dates | (all.types.dates.NA & any.duplicated.stand.age)) { # if any duplicated dates or start.date or stand.age (if missing all dates),  (excluding NA)
-
+      
       if (any.duplicated.dates)  date.to.look.at <- "my.date"
       # if (any.duplicated.start.dates)  date.to.look.at <- "my.start.date"; n.loop = 1
       if (all.types.dates.NA & any.duplicated.stand.age) date.to.look.at <- "stand.age"
-    
+      
       # if (any.duplicated.dates & any.duplicated.start.dates) date.to.look.at <- "my.date"; n.loop = 2
       #   {
       #   print(X)
@@ -204,33 +209,33 @@ for(i in 1:length(MEASUREMENTS.split)){
       #   
       #   if (l == 1) date.to.look.at <- date.to.look.at
       #   if (l == 2) date.to.look.at <- "my.start.date"
-        
-        X.split <- split(X, addNA(X[, date.to.look.at])) # split by date
-        
-        for(s in 1:length(X.split)){ # look into each date subset
+      
+      X.split <- split(X, addNA(X[, date.to.look.at])) # split by date
+      
+      for(s in 1:length(X.split)){ # look into each date subset
         
         x <- X.split[[s]]
         
         if (!my_is.na(names((X.split))[s])) { # if date is not NA, care about. otherwise, don't do anything, it will be taken care of in another case
           if (nrow(x) == 1) x$conflicts = paste(x$conflicts, "I", sep = ";" ) # if only one record per date --> independant record
-        
+          
           if (nrow(x) > 1 ) { # if more than one record, need to look more into it...
-          
-          #   if (length(unique(x$stand.age)) != length(unique(x[, ifelse(date.to.look.at == "my.date", "my.date", "start.date")]))) { # if one stand.age is not associated to one date
-          #   print(x)
-          #   warning(paste("Problem of stand.age and date for i =", i))
-          #   readline("press[enter]")
-          # } # if one stand.age is not associated to one date
-          
+            
+            #   if (length(unique(x$stand.age)) != length(unique(x[, ifelse(date.to.look.at == "my.date", "my.date", "start.date")]))) { # if one stand.age is not associated to one date
+            #   print(x)
+            #   warning(paste("Problem of stand.age and date for i =", i))
+            #   readline("press[enter]")
+            # } # if one stand.age is not associated to one date
+            
             all.same.citation <- length(unique(x$citation.ID)) == 1 # are all record the from the same study ?
             all.same.method <- length(unique(x$method.ID)) == 1  # are all record the from the same method ?
             all.same.notes <-  length(unique(x$notes)) == 1 # have all record the same note ?
             all.same.C.units <- length(unique(x$variable.name)) == 1 # have all record the same carbon units ?
             all.same.depth <- length(unique(x$depth)) == 1 # have all record the same depth ?
             all.same.dbh <- length(unique(x$min.dbh)) == 1# have all record the same min.dbh ?
-          
-          
-          # only replicates (all same study & all same method & all same notes & all same carbon units)
+            
+            
+            # only replicates (all same study & all same method & all same notes & all same carbon units)
             # if (all.same.citation & all.same.method & all.same.notes & all.same.C.units & all.same.start.date & all.same.end.date & all.same.depth)
             if (all.same.citation & all.same.method & all.same.notes & all.same.C.units & all.same.depth & all.same.dbh) { # if only replicates
               
@@ -252,8 +257,8 @@ for(i in 1:length(MEASUREMENTS.split)){
               x$R.group <- paste(x$R.group, R.group.ID.to.add, sep = ";") # paste(i, s, "only replicates") # give a R.group_ID
               x$conflicts <- paste(x$conflicts, "R", sep = ";" ) # give a conflict value (beside existing one)
             }  # if only replicates
-          
-          # Not only replicates (and maybe not at all)...
+            
+            # Not only replicates (and maybe not at all)...
             # if (any(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.start.date, !all.same.end.date, !all.same.depth))
             if (any(!all.same.citation, !all.same.method, !all.same.notes, !all.same.C.units, !all.same.depth, !all.same.dbh)) { # if not only replicates
               # if(length(unique( x$D.group )) == 1 & all(!my_is.na( x$D.group ))) D.group.ID.to.add <- unique( x$D.group )
@@ -269,7 +274,7 @@ for(i in 1:length(MEASUREMENTS.split)){
                 new.D.group.ID <- new.D.group.ID +1
                 D.group.ID.to.add <- new.D.group.ID
               }
-
+              
               ## give D conflict value and D.group ID to all
               x$D.group <- paste(x$D.group, D.group.ID.to.add, sep = ";") # paste(i, s, "duplicates")
               x$conflicts <-  paste(x$conflicts, "D", sep = ";" ) # give a conflict value (beside existing one)
@@ -315,16 +320,16 @@ for(i in 1:length(MEASUREMENTS.split)){
               
             } # if not only replicates
             
-        }  # if more than one record, need to look more into it
+          }  # if more than one record, need to look more into it
         }  # if date is not NA, care about. otherwise, don't do anything, it will be taken car of in another case
         
         X.split[[s]] <- x
       } # look into each date subset
-        
-        X <- do.call(rbind, X.split)
+      
+      X <- do.call(rbind, X.split)
       # } # loop if there is both duplicated dates and duplicated start.dates
-
-        
+      
+      
     } # if any duplicated dates or start.date or stand.gae (if missing all dates),  (excluding NA)
     
     ## if any range record
@@ -380,7 +385,7 @@ for(i in 1:length(MEASUREMENTS.split)){
             
             ## If everything is the same, it is a replicate
             if(length(conflict.types) == 0) { # if it is a replicate
-
+              
               # if(length(unique(X[this.case.idx, "R.group"])) == 1 & all(!my_is.na(X[this.case.idx, "R.group"]))) R.group.ID.to.add <- unique(X[this.case.idx, "R.group"])
               if(any(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!my_is.na(X[this.case.idx, "old_R.group"]))) {
                 # R.group.ID.to.add <- unique(X[this.case.idx, "R.group"])
@@ -400,7 +405,7 @@ for(i in 1:length(MEASUREMENTS.split)){
               X[this.case.idx, "conflicts"] <- paste( X[this.case.idx, "conflicts"], "R", sep = ";" )
               
             } # if it is a replicate
-              
+            
             
             ## If NOT everything is the same, it is a duplicate
             if(length(conflict.types) > 0) { # if it is a duplicate
@@ -458,15 +463,15 @@ for(i in 1:length(MEASUREMENTS.split)){
         idx.non.range.dates <- which(my_is.na(x$my.start.date)) #including NA
         
         ### what dates are within the range or NA ?
-        dates.within.range <- na.omit(x$my.date[idx.non.range.dates] >= the.one.start.date & x$my.date[idx.non.range.dates] <= the.one.end.date)
-        dates.oustide.range <- na.omit(x$my.date[idx.non.range.dates] < the.one.start.date | x$my.date[idx.non.range.dates] > the.one.end.date)
+        dates.within.range <- !is.na(x$my.date[idx.non.range.dates] ) & (x$my.date[idx.non.range.dates] >= the.one.start.date & x$my.date[idx.non.range.dates] <= the.one.end.date)
+        dates.oustide.range <- !is.na(x$my.date[idx.non.range.dates] ) & (x$my.date[idx.non.range.dates] < the.one.start.date | x$my.date[idx.non.range.dates] > the.one.end.date)
         dates.NA <- my_is.na(x$my.date[idx.non.range.dates])
         
         ## what type of conflict do we have
         no.conflict <- length(idx.range.date.subset) == 1 & sum(dates.within.range) == 0
         one.to.one.conflict <- length(idx.range.date.subset) == 1 & sum(dates.within.range) == 1
         one.to.many.conflict <- length(idx.range.date.subset) == 1 & sum(dates.within.range) > 1 
-          
+        
         if (length(idx.range.date.subset) != 1) stop("Error: problem in coding, length(idx.range.date.subset) should be 1")
         
         if (no.conflict)  x$conflicts <- paste(x$conflicts, "I", sep = ";" )
@@ -479,7 +484,7 @@ for(i in 1:length(MEASUREMENTS.split)){
           
           # if(length(unique(x$D.group[this.case.idx])) == 1 & all(!my_is.na(x$D.group[this.case.idx]))) D.group.ID.to.add <- unique(x$D.group[this.case.idx])
           if(any(table(unlist(strsplit(unique(x$old_D.group[this.case.idx]), ";"))) == length(unique(x$old_D.group[this.case.idx]))) & all(!my_is.na(x$old_D.group[this.case.idx]))) {
-        
+            
             # D.group.ID.to.add <- unique(x$D.group[this.case.idx])
             D.group.ID.to.add <- names(which(table(unlist(strsplit(unique(x$old_D.group[this.case.idx]), ";"))) == length(unique(x$old_D.group[this.case.idx]))))
             if(length(D.group.ID.to.add) > 1) {
@@ -495,7 +500,7 @@ for(i in 1:length(MEASUREMENTS.split)){
             D.group.ID.to.add <- new.D.group.ID
           }
           
-  
+          
           x$D.group[this.case.idx] <- paste( x$D.group[this.case.idx], D.group.ID.to.add, sep = ";") # paste(i, s, "duplicates")
           x$conflicts[this.case.idx] <-  paste(x$conflicts[this.case.idx], "D", sep = ";" ) # give a conflict value (beside existing one)
           
@@ -552,13 +557,13 @@ for(i in 1:length(MEASUREMENTS.split)){
         } # if 1-to-many conflict
         
         ### put back in X
-       
+        
         if (length(idx.range.date) == 1) X <- x
         if (length(idx.range.date) > 1) X[-idx.y, ] <- x
-       
+        
       } # for(r in 1:length(idx.range.date))
       
-      } # if dates and ranges together
+    } # if dates and ranges together
     
     
     ## missing dates amongst other records with dates
@@ -581,7 +586,7 @@ for(i in 1:length(MEASUREMENTS.split)){
         S.group.ID.to.add <- names(which(table(unlist(strsplit(unique(X$old_S.group), ";"))) == length(unique(X$old_S.group))))
         if(length(S.group.ID.to.add) > 1) stop()
       }
-        
+      
       if(!(any(table(unlist(strsplit(unique(X$old_S.group), ";"))) == length(unique(X$old_S.group))) & all(!my_is.na(X$old_S.group)))) {
         # print(X)
         # if(!"Becky Banbury Morgan (Beckybanbury)" %in% X$loaded.by) readline("case where we need for a new S.group")
@@ -610,7 +615,7 @@ for(i in 1:length(MEASUREMENTS.split)){
     
     
   } # if more than one record...  
-
+  
   ### Clean up the group codes ####
   
   #### conflicts
@@ -655,15 +660,15 @@ for(i in 1:length(MEASUREMENTS.split)){
   # sometimes, when some records en up in mutliple D.groups, it turns out that all records can be lumped into one big D.group. It is usually the case when there is 2 duplicate ranges of dates and a third record with a date that is within the range. So first the code IDs the 2 duplicates and then it gives another D.group for a one to one relationship for each range-date pair.
   idx.non.na.D.group <- which(!is.na(X$D.group))
   if(length(idx.non.na.D.group) > 0) {
-   x <- X$D.group[idx.non.na.D.group]
-   if(length(unique(unlist(strsplit(x, ";")))) == length(x)) {
-     print(X)
-     readline("case where all x$D.group would be lumped into one - before. Press [enter].")
-     X$D.group[idx.non.na.D.group] <- min(unique(unlist(strsplit(x, ";"))))
-     
-     print(X)
-     readline("case where all x$D.group would be lumped into one - after. Press [enter]. Talk to Valentine Herrmann if you don't understand what just happened.")
-   }
+    x <- X$D.group[idx.non.na.D.group]
+    if(length(unique(unlist(strsplit(x, ";")))) == length(x)) {
+      print(X)
+      readline("case where all x$D.group would be lumped into one - before. Press [enter].")
+      X$D.group[idx.non.na.D.group] <- min(unique(unlist(strsplit(x, ";"))))
+      
+      print(X)
+      readline("case where all x$D.group would be lumped into one - after. Press [enter]. Talk to Valentine Herrmann if you don't understand what just happened.")
+    }
   }
   
   
@@ -680,11 +685,11 @@ for(i in 1:length(MEASUREMENTS.split)){
   ## 7. Take later study over older
   ## 8. Look at dup.num and use it, but add something about it in the notes field -- NOT RELEVANT ANYMORE
   ## 9. If still not been able to pin point precedence (including records that only differ in method.ID.), give NAC to all precedence for future manual rating + append "manual D.precendence rating" to the notes
-  # Once done with each "D.group
+  # Once done with each "D.group"
   ## Deal with records with several D.groups. 
   ## Check if the D.precedence given matches the  D.precedence.measurement.ID (which is entered manually when needed, automated if not).
   ## If D.precedence given does not match D.precedence.measurement.ID....  Look for "manually" in conflict.notes and see if D.precendence.meauserment.ID is non ambiguous. If yes, use it, if no, give NAC to all precedence for future manual rating + append "manual D.precendence rating" to the notes.
-    
+  
   
   idx.D.group <- which(grepl("D", X$conflicts))
   
@@ -705,7 +710,7 @@ for(i in 1:length(MEASUREMENTS.split)){
       all.same.C.units <- length(unique(x$variable.name)) == 1 # have all record the same carbon units ?
       all.same.depth <- length(unique(x$depth)) == 1 # have all record the same depth ?
       all.same.dbh <- length(unique(x$min.dbh)) == 1# have all record the same min.dbh ?
-      all.same.record.duration <- !any(grepl("T", x$conflict.type)) | all(grepl("T", x$conflict.type) & grepl("(s)|(S)", x$conflicts))
+      all.same.record.duration <- !(any(grepl("T", x$conflict.type)) | all(grepl("T", x$conflict.type) & grepl("(s)|(S)", x$conflicts)))
       
       any.checked.original.pub <- any(x$checked.ori.pub == 1)
       any.capital.S.in.conflicts <- any(grepl("S", x$conflicts, ignore.case = F))
@@ -752,6 +757,12 @@ for(i in 1:length(MEASUREMENTS.split)){
          
         }
         
+        
+        if(((nrow(x) - length(idx.cap.S.in.conflicts)) > 0) & ((nrow(x) - length(idx.cap.S.in.conflicts)) < nrow(x))) {
+          x[idx.to.look.at, ][-idx.cap.S.in.conflicts, ]$D.precedence <- 1
+        }
+        
+        
       }
       
       
@@ -775,10 +786,10 @@ for(i in 1:length(MEASUREMENTS.split)){
         if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
         
         idx.max.depth <- which(x[idx.to.look.at,]$depth == max(x[idx.to.look.at,]$depth, na.rm = T) | my_is.na(x[idx.to.look.at,]$depth))
-          
+        
         if(length(idx.max.depth) < nrow(x[idx.to.look.at,])) {
-            x[idx.to.look.at,][idx.max.depth, ]$D.precedence <- 1 ; x[idx.to.look.at,][-idx.max.depth, ]$D.precedence <- 0 
-          }
+          x[idx.to.look.at,][idx.max.depth, ]$D.precedence <- 1 ; x[idx.to.look.at,][-idx.max.depth, ]$D.precedence <- 0 
+        }
         
         
       }
@@ -801,13 +812,13 @@ for(i in 1:length(MEASUREMENTS.split)){
         if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
         
         idx.min.min.dbh <- which(x[idx.to.look.at,]$min.dbh == min(x[idx.to.look.at,]$min.dbh, na.rm = T) | my_is.na(x[idx.to.look.at,]$min.dbh))
-          
+        
         if(length(idx.min.min.dbh) < nrow(x[idx.to.look.at,])) {
           x[idx.to.look.at,][idx.min.min.dbh, ]$D.precedence <- 1
           x[idx.to.look.at,][-idx.min.min.dbh, ]$D.precedence <- 0 
         }
-          
-          
+        
+        
       } # if still need to go down the list
       
       still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
@@ -871,13 +882,13 @@ for(i in 1:length(MEASUREMENTS.split)){
         if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
         
         record.duration <- difftime(x[idx.to.look.at,]$my.end.date, x[idx.to.look.at,]$my.start.date)
-        record.duration <- ifelse(my_is.na(record.duration), 1, record.duration) # consider a record with only "date" to be 1 yaer long
+        record.duration <- ifelse(my_is.na(record.duration), 1, record.duration) # consider a record with only "date" to be 1 year long
         
         idx.max.record.duration <- which(record.duration == max(record.duration))
         
         if(length(idx.max.record.duration) < nrow(x[idx.to.look.at,])) {
-          one.record.is.1.75.times.longer.than.all.the.others <- record.duration[idx.max.record.duration] > 1.75 * record.duration[-idx.max.record.duration]
-          
+          one.record.is.1.75.times.longer.than.all.the.others <- unique(record.duration[idx.max.record.duration] > 1.75 * record.duration[-idx.max.record.duration])
+          if(length(one.record.is.1.75.times.longer.than.all.the.others) > 1) stop("code more here")
           if (one.record.is.1.75.times.longer.than.all.the.others) {
             x[idx.to.look.at,][idx.max.record.duration, ]$D.precedence <- 1
             x[idx.to.look.at,][-idx.max.record.duration, ]$D.precedence <- 0
@@ -890,9 +901,9 @@ for(i in 1:length(MEASUREMENTS.split)){
         #   warning("records differ in duration but not 1.75 x more", immediate. = T)
         #   readline("press [enter]")
         # }
-          
-          
-          
+        
+        
+        
         
       } # if still need to go down the list and durations are different
       
@@ -908,7 +919,7 @@ for(i in 1:length(MEASUREMENTS.split)){
       }
       
       # 5. If records differ only in units (C or OM) and C = 0.45 to 0.55 * OM, give precedence to OM. The logic there is that researchers use slightly varying conversion factors, so when there's a choice its best to do the conversion ourselves. ####
-
+      
       if ((still.more.than.one.1 | still.only.NAs) & !all.same.C.units) { # if still need to go down the list
         
         if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
@@ -916,13 +927,13 @@ for(i in 1:length(MEASUREMENTS.split)){
         
         idx.C <- grep("_C", x[idx.to.look.at,]$variable.name)
         idx.OM <- grep("_OM", x[idx.to.look.at,]$variable.name)
-      
-      if(length(idx.OM) > 1 & length(idx.C) > 1) {
-        print(i)
-        # print(x)
-        warning("work in unit stuff when more than one record in both units", immediate. = T)
-        # readline("press [enter]")
-      }
+        
+        if(length(idx.OM) > 1 & length(idx.C) > 1) {
+          print(i)
+          # print(x)
+          warning("work in unit stuff when more than one record in both units", immediate. = T)
+          # readline("press [enter]")
+        }
         
         C.within.0.45.to.0.55.times.OM <- x[idx.to.look.at,][idx.C, ]$mean >= 0.45 * x[idx.to.look.at,][idx.OM, ]$mean & x[idx.to.look.at,][idx.C, ]$mean <= 0.55 * x[idx.to.look.at,][idx.OM, ]$mean
         
@@ -947,9 +958,9 @@ for(i in 1:length(MEASUREMENTS.split)){
         #   warning("work in unit stuff, C is not within 0.45 to 0.55 times OM", immediate. = T)
         #   readline("press [enter]")
         # }
-       
-      
-      
+        
+        
+        
       } # if still need to go down the list
       
       still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
@@ -966,10 +977,10 @@ for(i in 1:length(MEASUREMENTS.split)){
       # 6. Give precedence to records that were checked against original pub ####
       
       if ((still.more.than.one.1 | still.only.NAs) & any.checked.original.pub) {
-       
+        
         if(still.more.than.one.1) idx.to.look.at <- which(x$D.precedence == 1)
         if(still.only.NAs) idx.to.look.at <- 1:nrow(x)
-      
+        
         idx.checked.original.pub <- which(x[idx.to.look.at, ]$checked.ori.pub == 1)
         
         if(length(idx.checked.original.pub) < nrow(x[idx.to.look.at, ])){
@@ -1007,13 +1018,13 @@ for(i in 1:length(MEASUREMENTS.split)){
         idx.max.citation.year <- which(x.year == max(x.year))
         
         if(length(idx.max.citation.year) < nrow(x[idx.to.look.at,])){ # if not all published same year
-        
+          
           x[idx.to.look.at,][idx.max.citation.year, ]$D.precedence <- 1
           x[idx.to.look.at,][-idx.max.citation.year, ]$D.precedence <- 0 
         }
         
       } # if still need to go down the list
-       
+      
       still.more.than.one.1 <- sum(x$D.precedence == 1, na.rm = T) > 1
       still.only.NAs <- all(my_is.na(x$D.precedence))
       still.some.NAs <- sum(x$D.precedence == 1, na.rm = T) > 0 & any(my_is.na(x$D.precedence))
@@ -1024,7 +1035,7 @@ for(i in 1:length(MEASUREMENTS.split)){
         warning("some NA left in D.precedence", immediate. = T)
         # readline("press [enter]")
       }
-     
+      
       
       # 8. If still need to be pinned down, look at dup.num and use it , but add something about it in the notes field ####
       ## ***---- This is not relevant anymore since column dup.num does not exist anymore ----**** ##
@@ -1053,29 +1064,44 @@ for(i in 1:length(MEASUREMENTS.split)){
       #   warning("some NA left in D.precedence", immediate. = T)
       #   # readline("press [enter]")
       # }
-
+      
       # 9. As a last resort, put NAC in D.predence for Krista to do it manually ####
       
-      if ((still.more.than.one.1 | still.only.NAs)) {
+      if (still.more.than.one.1 & all(!my_is.na(x$D.precedence))) {
         
-          x$D.precedence <- "NAC"
-          x$conflicts.notes <- ifelse(my_is.na(x$conflicts.notes), "D.precedence given manually.", paste(x$conflicts.notes, "D.precedence given manually.", sep = ". "))
+        idx.to.look.at <-  x$D.precedence %in% 1
+        x$D.precedence[idx.to.look.at] <- "NAC"
+        x$conflicts.notes[idx.to.look.at] <- ifelse(my_is.na(x$conflicts.notes[idx.to.look.at]), "D.precedence given manually.", paste(x$conflicts.notes[x$D.precedence %in% 1], "D.precedence given manually.", sep = ". "))
         
         
         print(i)
         # print(x)
-        warning("D.precedence given manually.", immediate. = T)
+        warning("D.precedence to be given manually.", immediate. = T)
         # readline("press [enter]")
+        
+      }
       
+      if (still.only.NAs) {
+        
+        x$D.precedence <- "NAC"
+        x$conflicts.notes <- ifelse(my_is.na(x$conflicts.notes), "D.precedence given manually.", paste(x$conflicts.notes, "D.precedence given manually.", sep = ". "))
+        
+        
+        print(i)
+        # print(x)
+        warning("D.precedence to be given manually.", immediate. = T)
+        # readline("press [enter]")
+        
       }
       
       # rbind into collecting.x
       
       collecting.x <- rbind(collecting.x, x)
-    
+      
+      # print(x); readline()
     } # loop through each D.group
     
-    # deal with records that belong to 2 groups
+    # deal with records that belong to 2 groups ####
     
     if(any(duplicated(collecting.x$measurement.ID))) {
       
@@ -1108,11 +1134,11 @@ for(i in 1:length(MEASUREMENTS.split)){
       pattern.D.group <- paste0("(^",d, "$)|(^",d, ";)|(;", d, ";)|(;", d, "$)")
       x <- collecting.x[grepl(pattern.D.group,collecting.x$D.group),]
       
-      if(length(my_na.omit(unique(x$D.precedence.measurement.ID))) > 1) {
+      if(length(my_na.omit(unique(x$D.precedence.measurement.ID))) > 1 & all(unique(x$D.precedence.measurement.ID) %in% x$measurement.ID)) {
         # if one of the record is a replicate and the measurement.ID of the other one is the same as the replicate of the first, then it is fine and we can leave it this way. Same if there is 2 groups of duplictes and they both point to the independant records (no ";" in D.group records)
         if(any(grepl("R", x$conflicts))) {
           if(any(grepl(";", x$R.group))) stop() # this is to give an error to me because I have not coded this eventuality but I don't think it exists...
-        idx.of.the.other.replicate.outside.of.this.D.group <- which(collecting.x$R.group %in% x$R.group[grepl("R", x$conflicts)] & !collecting.x$measurement.ID %in% x$measurement.ID[grepl("R", x$conflicts)])
+          idx.of.the.other.replicate.outside.of.this.D.group <- which(collecting.x$R.group %in% x$R.group[grepl("R", x$conflicts)] & !collecting.x$measurement.ID %in% x$measurement.ID[grepl("R", x$conflicts)])
           if(x$D.precedence.measurement.ID[!grepl("R", x$conflicts)] == collecting.x$measurement.ID[idx.of.the.other.replicate.outside.of.this.D.group])   warning("All is good!", immediate. = T)
         } #  if(any(grepl("R", x$conflicts))) 
         
@@ -1125,16 +1151,20 @@ for(i in 1:length(MEASUREMENTS.split)){
           }
         } #   if(any(grepl(";", x$D.group))) 
         
-        # if none of the of the record is replicates give an error.
-        if(!any(grepl("R", x$conflicts)) & !any(grepl(";", x$D.group))) stop("There is more than one D.precedence.measurement.ID given and it is not a case of replicates or multiple duplicates.")
+        if((!any(grepl("R", x$conflicts)) & !any(grepl(";", x$D.group))) & !any(grepl("manually", x$conflicts.notes))) stop("There is more than one D.precedence.measurement.ID given and it is not a case of replicates or multiple duplicates.")
       } 
       
-      if(length(my_na.omit(unique(x$D.precedence.measurement.ID))) == 1 & ifelse(sum(as.numeric(x$D.precedence)) %in% 1, x$measurement.ID[x$D.precedence %in% 1] %in% unique(x$D.precedence.measurement.ID), FALSE)) {
+      if(length(my_na.omit(unique(x$D.precedence.measurement.ID))) > 1 & sum(unique(x$D.precedence.measurement.ID) %in% x$measurement.ID) == 1) {  # I added this after replacing my.date by my.start.date when my.start.date and my.end.dates are the same.
+        x$D.precedence.measurement.ID <- x$measurement.ID[x$D.precedence %in% "1"]
+        warning("new (or wrong old) record with no ambiguity and D.precedence.measurement.ID can be given!", immediate. = T)
+      }
+      
+      if(length(my_na.omit(unique(x$D.precedence.measurement.ID))) == 1 & ifelse(sum(as.numeric(x$D.precedence)) %in% 1, x$measurement.ID[x$D.precedence %in% 1] %in% my_na.omit(unique(x$D.precedence.measurement.ID)), FALSE)) {
         warning("All is good!", immediate. = T) # this is when the code works on its own on older data
         x$D.precedence.measurement.ID <- my_na.omit(unique(x$D.precedence.measurement.ID)) # this is because sometimes there is a NAC in there and Ithink it can safely be changed to the unique x$D.precedence.measurement.ID...
       }
       
-      if(length(my_na.omit(unique(x$D.precedence.measurement.ID))) == 0 & sum(as.numeric(x$D.precedence)) %in% 1) { # this is where D.precendence is given to new record with no ambiguity and D.precedence.measurement.ID can be given
+      if((length(my_na.omit(unique(x$D.precedence.measurement.ID))) == 0 & sum(as.numeric(x$D.precedence)) %in% 1) | (length(my_na.omit(unique(x$D.precedence.measurement.ID))) == 1 & any(my_is.na(x$D.precedence.measurement.ID)) & sum(as.numeric(x$D.precedence)) %in% 1)) { # this is where D.precendence is given to new record with no ambiguity and D.precedence.measurement.ID can be given
         x$D.precedence.measurement.ID <- x$measurement.ID[x$D.precedence %in% "1"]
         warning("new (or wrong old) record with no ambiguity and D.precedence.measurement.ID can be given!", immediate. = T)
       }
@@ -1143,7 +1173,8 @@ for(i in 1:length(MEASUREMENTS.split)){
         print(x)
         readline("This is an example where D.precedence does not match D.precedence.measurement.ID")
         print(X)
-        readline("This is the whole data for that group of record")
+        # readline("This is the whole data for that group of record")
+        stop("This is an example where D.precedence does not match D.precedence.measurement.ID")
       } 
       
       collecting.x[grepl(pattern.D.group,collecting.x$D.group),] <- x
@@ -1155,12 +1186,12 @@ for(i in 1:length(MEASUREMENTS.split)){
     
     X[idx.D.group, ] <- collecting.x
     
- 
-    } # if there is any duplicates
+    
+  } # if there is any duplicates
   
   # save output into final object####
   MEASUREMENTS.final[[i]] <- X
-}
+} # for(i in 1:length(MEASUREMENTS.split))
 
 # re-formate output ####
 MEASUREMENTS.final.split <- MEASUREMENTS.final
@@ -1183,7 +1214,8 @@ what.not.the.same.ones.split.ID <- sort(unique(MEASUREMENTS.final$split.ID[not.t
 
 
 ### ignore new records or groups that have only one record left because the rest was deleted ####
-what.not.the.same.ones.split.ID.new.not.new <- sapply(what.not.the.same.ones.split.ID, function(split.ID) any(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$loaded.by %in% c("Becky Banbury Morgan (Beckybanbury)", "Ian McGregor"))) # , "Abby Ferson"
+newest.loaded.by <- ""# c("Becky Banbury Morgan (Beckybanbury)", "Ian McGregor") # , "Abby Ferson"
+what.not.the.same.ones.split.ID.new.not.new <- sapply(what.not.the.same.ones.split.ID, function(split.ID) any(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$loaded.by %in% newest.loaded.by)) 
 what.not.the.same.ones.split.ID.new <- what.not.the.same.ones.split.ID[what.not.the.same.ones.split.ID.new.not.new]
 what.not.the.same.ones.split.ID.not.new <- what.not.the.same.ones.split.ID[!what.not.the.same.ones.split.ID.new.not.new]
 
@@ -1200,7 +1232,12 @@ retrieve.old.version.meas.IDs <- c("1224;1225;1226;1227;1228;1229;17532;17542;17
                                  "1028;1029;1030;1031",
                                  "1034;1035;1036;1037",
                                  "1038;1039;1040;1041",
-                                 "1042;1043;1044;1045"
+                                 "1042;1043;1044;1045",
+                                 "4006;4007;4008", # previous script handled this better so leaving it this way
+                                 "7536;7537;7538", # suspecting that no overlap and previous script handled this better so leaving it this way
+                                 "1218;1219;1220;1221;1222;1223;17512;17522", # this was overwritten at first but now we want to keep that as we manually edited D.precedence
+                                 "13646;13647;13648;13649;13650;13651;13652;13653;13654;13661;13662;13663;13674;13675;13678;13679;13682;13687;13690;13693;13696;13699;13700;19033;19034;19035;19036;19037;19038;19039;19040;19041;19042;19043;19044;19045;19046;19047;19048;19049;19050;19965;19966;19967;19968;19969;19970;19971;19972;19973;19974;19975;19976;19977;19978;19979;19980;19981;19982;19983;19984", # this was overwritten at first but now we want to keep that as we manually edited D.precedence
+                                 "1230;1231;1232;1233;1234;1235;17572;17582" # this was overwritten at first but now we want to keep that as we manually edited D.precedence
                                  ) # paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was.
 delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% only.one.record.left.split.ID, ]$measurement.ID, #ignore old conflicts of measurement.ID that are in a conflict groups where only one record is left
                                   "11525;11541", # Abby Ferson weird assignment of R group
@@ -1209,24 +1246,52 @@ delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID
                                   "11647;11652", # Abby Ferson weird assignment of R group
                                   "3229;3236;3239;12103",
                                   "3230;3237;3240;12104",
-                                  "8816;17416;17480", # dat NA, start date 2012, 1992, en data 2012, 2012... 
+                                  "8816;17416;17480", # different but now it will be like that
+                                  "17428;17482", # different but now it will be like that
+                                  "10449;10455;10461;10467;10473;10481;10487;10492", # different but now it will be like that
                                   "3510;3511;3512;17378",
                                   "1684;1685",
-                                  "15278;15279;15280;15281;15290;15291;15293;15294;15295"
-                                 
+                                  "6647;6662", # M,T becomes M in conflict.type because now small range of date is considered as one date
+                                  "6855;6860", # M,T becomes M in conflict.type because now small range of date is considered as one date
+                                  "7663;7664;7669;7670;7671;7672;7676;7677;7678;7679", # M,T becomes M in conflict.type because now small range of date is considered as one date
+                                  "6651;6660", # M,T becomes M in conflict.type because now small range of date is considered as one date
+                                  "6848;6858", # M,T becomes M in conflict.type because now small range of date is considered as one date
+                                  "6649;6661", # M,T becomes M in conflict.type because now small range of date is considered as one date
+                                  "6846;6859", # M,T becomes M in conflict.type because now small range of date is considered as one date
+                                  "6669;6686;6689", # will have to manually add D.precedence beacuse S becomes D
+                                  "6671;6684;6687", # will have to manually add D.precedence beacuse S becomes D
+                                  "6673;6685;6688", # will have to manually add D.precedence beacuse S becomes D
+                                  "15060;15063;15066;15069;15072;15079;15080;15081;15088;15089;15090", # simpler thus better now, same D.precedence
+                                  "15278;15279;15280;15281;15290;15291;15293;15294;15295", # simpler thus better now, same D.precedence
+                                  "15058;15061;15064;15067;15070;15073;15074;15075;15082;15083;15084", # simpler thus better now, same D.precedence
+                                  "15059;15062;15065;15068;15071;15076;15077;15078;15085;15086;15087", # simpler thus better now, same D.precedence
+                                  "17382;17470", # fixes D.group
+                                  "17458;17490", # fixes D.group
+                                  "17410;17478", # fixes D.group
+                                  "1208;17370;17464", # fixes D.group
+                                  "17404;17474", # fixes D.group
+                                  "9485;9486;9511;9512;9513", # meaningless change in D.precedence.meas.ID
+                                  "17035;17036;17037;17039;17040;17041;17042;17043;17044", # meaningless change in D.precedence.meas.ID
+                                  "17029;17030;17031;17038;17045;17046;17047;17048;17049;17050", # meaningless change in D.precedence.meas.ID
+                                  "9483;9484;9508;9509;9510"# meaningless change in D.precedence.meas.ID
                                    )# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the old version is more approriate than the code's output
 
-#### keep new handling of stand age 999
+#### keep new handling of stand age 999 ####
 ## Valentine to Krsita: I believe that when I originally ran the code for duplicated measurements I was considering stand.age "999" as NA. So, 2 measurements of the same variable, at the same plot, with no dates, and with stand.age "999" were considered as S conflict, and both measurements were getting a capital S (which I think deletes them both when creating ForC_simplified). Now I ran the code considering "999" as a 'known' stand.age so the 2 records above would get a conflict R if the method (citation.ID) is the same (see measurements.ID 14061 and 14062 for an example) or D if not (see measurements.ID 7782 and 7786 for an example - and precedence would be for the latest study).That second second solution is better, right?
 ## Krista: Yes
 
-stand.age.issue.split.ID <- NULL
-for(split.ID in what.not.the.same.ones.split.ID[! what.not.the.same.ones.split.ID%in% only.one.record.left.split.ID]) { 
+stand.age.issue.meas.ID <- NULL
+for(split.ID in what.not.the.same.ones.split.ID[!what.not.the.same.ones.split.ID %in% only.one.record.left.split.ID]) { 
   print(split.ID)
-  if(all(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$stand.age %in% "999")) stand.age.issue.split.ID <- c(stand.age.issue.split.ID, paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
+  if(all(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$stand.age %in% "999")) stand.age.issue.meas.ID <- c(stand.age.issue.meas.ID, paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
 }
-delete.old.version.meas.IDs <- c(delete.old.version.meas.IDs, sort(stand.age.issue.split.ID))
-  
+
+
+stand.age.issue.meas.ID <- stand.age.issue.meas.ID[!stand.age.issue.meas.ID %in% retrieve.old.version.meas.IDs] # do not let overwrite things we agreed to keep earlier
+
+
+delete.old.version.meas.IDs <- c(delete.old.version.meas.IDs, sort(stand.age.issue.meas.ID))
+
 retrieve.old.version.split.ID <- NULL
 delete.old.version.split.ID <- NULL
 need.user.input.split.ID <- NULL
@@ -1281,6 +1346,9 @@ for(split.ID in what.not.the.same.conflicts.split.ID) {
   
   if(!paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";") %in% c(retrieve.old.version.meas.IDs, delete.old.version.meas.IDs)) need.user.input.split.ID <- c(need.user.input.split.ID, split.ID)
   
+  # print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
+  # print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
+  # readline()
 }
 
 
@@ -1301,7 +1369,6 @@ for(split.ID in what.not.the.same.S.group.split.ID) {
   # print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
   # print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
   # readline()
-  # keep.or.retrieve.function()
 }
 
 ### ??? Abby Ferson entered some R.group in a strange way
@@ -1340,7 +1407,10 @@ for(split.ID in what.not.the.same.D.group.split.ID) {
     if(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";") %in% delete.old.version.meas.IDs)  delete.old.version.split.ID <- c(delete.old.version.split.ID, split.ID)
     
     if(!paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";") %in% c(retrieve.old.version.meas.IDs, delete.old.version.meas.IDs)) need.user.input.split.ID <- c(need.user.input.split.ID, split.ID)
-    
+   
+    # print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
+    # print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
+    # readline() 
   }
 
 
@@ -1358,6 +1428,9 @@ for(split.ID in what.not.the.same.D.precedence.split.ID) {
   
   if(!paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";") %in% c(retrieve.old.version.meas.IDs, delete.old.version.meas.IDs)) need.user.input.split.ID <- c(need.user.input.split.ID, split.ID)
   
+  # print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
+  # print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
+  # readline() 
 }
 
 ### not same D.precedence.measurement.ID and not new records ####
@@ -1374,6 +1447,9 @@ for(split.ID in what.not.the.same.D.precedence.measurement.ID.split.ID) {
   
   if(!paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";") %in% c(retrieve.old.version.meas.IDs, delete.old.version.meas.IDs)) need.user.input.split.ID <- c(need.user.input.split.ID, split.ID)
   
+  # print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
+  # print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
+  # readline()
 }
 
 
@@ -1418,12 +1494,12 @@ if(length(need.user.input.split.ID) > 0) {
 
 ## other checks 'by hand'####
 
-X.group = 1373 # 1397 #1373 # 1323
+X.group = 2103 # 1397 #1373 # 1323
 pattern.X.group <- paste0("(^",X.group, "$)|(^",X.group, ";)|(;", X.group, ";)|(;", X.group, "$)")
 MEASUREMENTS.final[grepl(pattern.X.group, MEASUREMENTS.final$D.group), ]
 
 
-split.ID <-  6870
+split.ID <-  462
 MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID, ]
 MEASUREMENTS[MEASUREMENTS.final$split.ID %in% split.ID, ]
 
@@ -1432,6 +1508,15 @@ MEASUREMENTS[MEASUREMENTS$D.group %in% 661,]
 MEASUREMENTS.final[MEASUREMENTS$D.group %in% 661,]
 
 MEASUREMENTS.final[MEASUREMENTS.final$measurement.ID %in% c("17541", "17551", "17561", "17571", "18245"),duplicate.related.columns]
+
+
+### look for "dup.num" in old_conflicts.notes and copy notes over to the new notes (even if the code worked fine without dupnum). This is because originally, a lot of the D.precedence was given lookin at a column called "dup.num", which does not exists anymore, but we should still report that we used it for D.precedence. ####
+
+MEASUREMENTS.final[grepl("dup.num", MEASUREMENTS.final$old_conflicts.notes),]$conflicts.notes <- MEASUREMENTS.final[grepl("dup.num", MEASUREMENTS.final$old_conflicts.notes),]$old_conflicts.notes 
+
+### look for "manually" in old_conflicts.notes and copy notes over to the new notes (even if the code worked without previous manual help). This is not to loose track of precedence potentially given by hand... ####
+
+MEASUREMENTS.final[grepl("manually", MEASUREMENTS.final$old_conflicts.notes),]$conflicts.notes <- "D.precedence given manually."   
 
 ## retrieve old conflict information when we decided it was better that way ####
 for(split.ID in c(retrieve.old.version.split.ID, need.user.input.split.ID)) { 
@@ -1465,8 +1550,13 @@ for(split.ID in c(retrieve.old.version.split.ID, need.user.input.split.ID)) {
 
 ## double check a few things ####
 
-### make sure there is no D.precedence given when there is not D.group or D in conflicts ####
-if( any(!my_is.na(MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence))) MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),][!my_is.na(MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence), ]$D.precedence <- NA
+### make sure we've got all measurement.IDs ####
+all(MEASUREMENTS.final$measurement.ID %in% MEASUREMENTS$measurement.ID) & all(MEASUREMENTS$measurement.ID %in% MEASUREMENTS.final$measurement.ID) # HAS TO BE TRUE!!!!
+
+### make sure there is no D.precedence or D.precedence.measurement.ID given when there is not D.group or D in conflicts ####
+if( any(!is.na(MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence))) MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),][!is.na(MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence), ]$D.precedence <- NA
+ 
+if( any(!is.na(MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence.measurement.ID))) MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),][!is.na(MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence.measurement.ID), ]$D.precedence.measurement.ID <- NA
 
 ### make sure there is no "NA" for D.precedence when there is not D.group or D in conflicts ####
 missing.D.precedence.split.ID <- sort(unique(MEASUREMENTS.final[grepl("D", MEASUREMENTS.final$conflicts),][is.na(MEASUREMENTS.final[grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence),]$split.ID))
@@ -1476,12 +1566,6 @@ for(split.ID in missing.D.precedence.split.ID) {
   print(X)
   # readline()
 }
-
-
-### look for "dup.num" in old_conflicts.notes and copy notes over to the new notes. This is because originally, a lot of the D.precedence was given lookin at a column called "dup.num", which does not exists anymore, but we should still report that we used it for D.precedence. ####
-
-MEASUREMENTS.final[grepl("dup.num", MEASUREMENTS.final$old_conflicts.notes),]$conflicts.notes <- MEASUREMENTS.final[grepl("dup.num", MEASUREMENTS.final$old_conflicts.notes),]$old_conflicts.notes 
-
 
 ## Pop up window to say if there is D.precedence that needs to be manually edited ####
 
@@ -1493,7 +1577,9 @@ for(split.ID in NAC.D.precedence.split.ID) {
   # readline()
 }
 
-msg_box(paste("There is", length(NAC.D.precedence.split.ID), "groups where D precedence needs to be given manually."))
+NAC.D.precedence.D.group <- sort(as.numeric(unique(unlist(strsplit(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% NAC.D.precedence.split.ID, ]$D.group, ";")))))
+
+msg_box(paste("There is", length(NAC.D.precedence.D.group), "groups where D precedence needs to be given manually. But don't worry, it will ba faster than you think to fix them manually."))
 
 # remove columns we don't want to keep ####
 names(MEASUREMENTS.final)[!names(MEASUREMENTS.final) %in% sets.of.columns.to.keep.at.the.end]
@@ -1502,4 +1588,4 @@ MEASUREMENTS.final <- MEASUREMENTS.final[, sets.of.columns.to.keep.at.the.end]
 
 
 # SAVE ####
-# write.csv(MEASUREMENTS.final, "data/ForC_measurements.csv", row.names = F)
+write.csv(MEASUREMENTS.final, "data/ForC_measurements.csv", row.names = F)
