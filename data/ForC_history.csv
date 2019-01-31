@@ -6670,3 +6670,5 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3083.01,"WACOAST,Olympic Peninsula,HR",HR02,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 3084.01,"WACOAST,Olympic Peninsula,HR",HR03,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 3085.01,"WACOAST,Olympic Peninsula,HR",HR04,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
+3086.01,Jadraas,Ih-V,NAC,1,1850,8.5,Regrowth(_prior),Initiation of post-disturbance cohort (natural),0,NI,NA,NA,NA,NA,
+3086.02,Jadraas,Ih-V,NAC,1,1850,8.5,Establishment,Establishment of oldest trees,0,NI,NA,NA,NA,NA,
