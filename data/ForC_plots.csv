@@ -1755,9 +1755,9 @@
 1756,"ORCOAST,Cascade Head,CH04","CH04","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1757,"ORCOAST,Cascade Head,CH05","CH05","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1758,"OREAST,Metolius RNA,MRNA","MRNA","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1759,"OREAST,Pringle Falls RNA 1","Temperate mountain system","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1760,"OREAST,Pringle Falls RNA 2","Temperate mountain system","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1761,"OREAST,Pringle Falls RNA 3","Temperate mountain system","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+1759,"OREAST,Pringle Falls RNA,PF29","Temperate mountain system","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+1760,"OREAST,Pringle Falls RNA,PF28","Temperate mountain system","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+1761,"OREAST,Pringle Falls RNA,PF27","Temperate mountain system","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1762,"Oregon Cascades 1 (cool temperate montane)","Pseudotsuga menziesii","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1763,"Oregon Cascades 2 (cool temperate montane)","Pseudotsuga menziesii","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1764,"Oregon Cascades","Pseudotsuga menziesii","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
