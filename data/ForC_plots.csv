@@ -830,7 +830,6 @@
 830,"Fireburn","mature 'old growth' forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 831,"Flakaliden C","Managed","NAC",831.01,"1963",831.04,"Planted","1963",831.03,"Burned","100","1963",831.02,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 832,"Flakaliden irrigated + fertilized","FI","NAC",832.01,"1963",832.04,"Planted","1963",832.03,"Burned","100","1963",832.02,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,832.05,832.06,0,0
-833,"FLONA Tapajos Km 67","primary forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 834,"FLONA Tapajos Km 83","primary forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 835,"Forest Research Institute P. caribaea plantation","Stand development of managed plantation.10 y","NAC",835.02,"1965",835.01,"Planted","1965",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2732,"Forest Research Institute P. caribaea plantation","Stand development of managed plantation.9 y","NAC",2732.02,"1966",2732.01,"Planted","1966",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -1385,7 +1384,6 @@
 1384,"Lucknow Terminala arjuna plantation: 20000 plants per ha","Stand development of unmanaged plantation on solic soils","NAC",0,"NAC",1384.01,"Planted","NI",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1385,"Lucknow Terminala arjuna plantation: 30000 plants per ha","Stand development of unmanaged plantation on solic soils","NAC",0,"NAC",1385.01,"Planted","NI",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1386,"Lulang","Picea, Abies","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1387,"Lumbubashi","NI","NAC",1387.01,"1848",1387.02,"Initiation of post-disturbance cohort (planted or natural)","1848",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1388,"Luo Site 1006.Deqin","Subtropical mountain system.evergreen broadleaved","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1389,"Luo Site 1168.Shanxi 1","Temperate continental forest.deciduous broadleaved","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1390,"Luo Site 1327.Shanxi 2","Temperate continental forest.deciduous broadleaved","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -1939,7 +1937,6 @@
 1942,"Puechabon","Managed.evergreen oak coppice woodland","NAC",1942.05,"1942",1942.04,"Initiation of post-disturbance cohort (planted or natural)","1942",1942.03,"Cut","100","1942",0,1942,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1943,"Pumilio","Tropical Wet Forest recovery following pasture abandonment","NAC",1943.03,"NI",1943.02,"Initiation of post-disturbance cohort (natural)","NI",1943.01,"Grazed","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1944,"Puu Kolekole","unmanaged Mature Metrosideros polymorpha","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1945,"QC-EOBS","NAC","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1946,"Qianshan","Pinus tabulaeformis","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1947,"Qianyanzhou-Jinggangshan transect","secondary subtropical forest","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1948,"Qianyanzhou","evergreen conifer plantation","NAC",1948.01,"1985",1948.02,"Planted","1985",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2965,10 +2962,6 @@
 2979,"La Fortuna Forest Reserve Samudio","Samudio","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2980,"La Fortuna Forest Reserve Palo Seco","Palo Seco","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2981,"La Fortuna Forest Reserve Hornito","Hornito","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2982,"Gunung Mulu National Park I","I","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2983,"Gunung Mulu National Park II","II","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2984,"Gunung Mulu National Park III","III","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2985,"Gunung Mulu National Park IV","IV","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2986,"Gunung Silam I","I","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2987,"Gunung Silam II","II","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2988,"Gunung Silam III","III","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3043,11 +3036,7 @@
 3057,"Daxing'anling 34yrs","34yrs","NAC",3057.02,"1967",3057.01,"Initiation of post-disturbance cohort (planted or natural)","1967",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3058,"Minnesota","71yrs","NAC",3058.02,"1930",3058.01,"Initiation of post-disturbance cohort (planted or natural)","1930",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3059,"Minnesota","106yrs","NAC",3059.02,"1895",3059.01,"Initiation of post-disturbance cohort (planted or natural)","1895",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3060,"Harvard Forest","Hardwood Site","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3061,"Harvard Forest","Mixed Forest Site","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3062,"Taita Experimental Station","Taita Experimental Station","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3063,"Guanica State Forest","Guanica State Forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3064,"Ducke Forest","Ducke Forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3065,"New Brunswick, FNP","A1","0.04",3065.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3066,"New Brunswick, FNP","A2","0.04",3066.01,"1942",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3067,"New Brunswick, FNP","A3","0.04",3067.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
