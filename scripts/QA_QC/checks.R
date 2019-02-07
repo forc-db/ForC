@@ -85,9 +85,9 @@ cat("There are", nrow(m_no_pft), "measurement records with undefined PFTs\n")
 if(nrow(m_no_pft)) message("See `m_no_pft`")
 
 # All variables in MEASUREMENTS should be ID-ed in VARIABLES
-if(any(!unique(MEASUREMENTS$variables.name) %in% VARIABLES$variable.name)) {
-  message("There variables not defined")
-  message("Check unique(MEASUREMENTS$variables.name)[!unique(MEASUREMENTS$variables.name)%in% VARIABLES$variable.name]")
+if(any(!unique(MEASUREMENTS$variable.name) %in% VARIABLES$variable.name)) {
+  message("There are variables not defined")
+  message("Check unique(MEASUREMENTS$variable.name)[!unique(MEASUREMENTS$variable.name)%in% VARIABLES$variable.name]")
 }
 
 
@@ -131,7 +131,7 @@ SITES %>%
   anti_join(HISTORY, by = c("sites.sitename")) %>% 
   distinct(site.ID, sites.sitename) ->
   s_no_h
-cat("There are", nrow(s_no_h), "sites with no corresponding hystory record\n")
+cat("There are", nrow(s_no_h), "sites with no corresponding history record\n")
 if(nrow(s_no_h)) message("See `s_no_h`")
 
 # There are no sites in SITES that lack records in MEASUREMENTS
@@ -144,10 +144,11 @@ if(nrow(s_no_m)) message("See `s_no_m`")
 
 # Sites should only be defined once
 if(any(duplicated(SITES$sites.sitename))) {
-  message("There are duplicated variable names in the VARIABLES table!")  
+  message("There are duplicated sites.sitename in the SITES table!")  
 }
+
 if(any(duplicated(SITES$site.ID))) {
-  message("There are duplicated variable names in the VARIABLES table!")  
+  message("There are duplicated site.ID names in the SITES table!")  
 }
 
 # ===== HISTORY checks ==== ####
@@ -239,29 +240,29 @@ if(any(duplicated(paste(HISTTYPE$hist.cat, HISTTYPE$hist.type)))) {
 }
 
 # All hist.cat exist in HISTORY
-if(!all(gsub("\\(_prior\\)", "", HISTTYPE$hist.cat) %in% HISTORY$hist.cat)) stop("There are hist.cat in HISTTYPE that don't exist in History")
+if(!all(gsub("\\(_prior\\)", "", HISTTYPE$hist.cat) %in% HISTORY$hist.cat)) stop("There are hist.cat in HISTTYPE that don't exist in HISTORY")
 
 
 # All hist.type exist in HISTORY
 
-if(!all(HISTTYPE$hist.type2 %in% HISTORY$hist.type))  stop("There are hist.type in HISTTYPE that don't exist in History. See HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type]
+if(!all(HISTTYPE$hist.type2 %in% HISTORY$hist.type))  stop("There are hist.type in HISTTYPE that don't exist in HISTORY table. See HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type]
 ")
 HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type] # Leave Precipitation Diversion
 
 # All hist.type exist in PLOTS
-if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$dist.mrs.hist.type, PLOTS$dist_1.hist.type, PLOTS$dist_2.hist.type)))) stop("There are hist.cat in HISTTYPE that don't exist in PLOTS. SEE")
+if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$dist.mrs.hist.type, PLOTS$dist_1.hist.type, PLOTS$dist_2.hist.type)))) stop("There are hist.cat in HISTTYPE that don't exist in PLOTS table. SEE")
 
-  HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$dist.mrs.hist.type, PLOTS$dist_1.hist.type, PLOTS$dist_2.hist.type))] # keep for furture records
+HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$dist.mrs.hist.type, PLOTS$dist_1.hist.type, PLOTS$dist_2.hist.type))] # keep for furture records
 
 
   
-  # ===== PFT checks ==== ####
+# ===== PFT checks ==== ####
 # PFTs should only be defined once
 if(any(duplicated(PFT$pftcode))) {
   message("There are duplicated PFT codes in the PFT table!")  
 }
 # All pftcode are present in MEASUREMENTS table
-if(!all(PFT$pftcode %in% MEASUREMENTS$dominant.veg)) stop("There are pftcode in PFT that don't exist in Measurements. See PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg]
+if(!all(PFT$pftcode %in% MEASUREMENTS$dominant.veg)) stop("There are pftcode in PFT that don't exist in MEASUREMENTS table. See PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg]
 ")
 PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg] # Leave "2VW"   "2GW"   "2FORB" "2LTR"  "2RF"   "2RB"
 
@@ -270,7 +271,7 @@ PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg] # Leave "2VW"   "2GW"  
 
 
 # There should be no records in METHODOLOGY that lack corresponding records in MEASUREMENTS
-if(!all(METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID)) stop("There are method.ID in METHODOLOGY that don't exist in Measurements. See METHODOLOGY$method.ID[!METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID]")
+if(!all(METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID)) stop("There are method.ID in METHODOLOGY that don't exist in MEASUREMENTS table. See METHODOLOGY$method.ID[!METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID]")
 
 
 # All variables in METHODOLOGY exist in VARIABLES --> not checking as names may change
@@ -278,14 +279,14 @@ if(!all(METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID)) stop("There are meth
 
 # ===== VARIABLES checks ==== ####
 
-# All variables in VARIABLES should exist in MEASUREMENTS in either variables.name or covariate_#
-if(any(!VARIABLES$variable.name %in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2))) {
-  message("There variables not used in MEASUREMENTS")
+# All variables in VARIABLES should exist in MEASUREMENTS in either variable.name or covariate_#
+if(any(!VARIABLES$variable.name %in% c(MEASUREMENTS$variable.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2))) {
+  message("There variables not used in MEASUREMENTS table")
   message("Check 
-          unique(VARIABLES$variable.name)[!unique(VARIABLES$variable.name)%in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)]")
+          unique(VARIABLES$variable.name)[!unique(VARIABLES$variable.name)%in% c(MEASUREMENTS$variable.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)]")
 }
 
-unique(VARIABLES$variable.name)[!unique(VARIABLES$variable.name)%in% c(MEASUREMENTS$variables.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)] # Leave "NPP_4", "NPP_5", "NPP_understory", "NPP_woody", "ANPP_litterfall_2_C", "ANPP_litterfall_3_C"
+unique(VARIABLES$variable.name)[!unique(VARIABLES$variable.name)%in% c(MEASUREMENTS$variable.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)] # Leave "NPP_4", "NPP_5", "NPP_understory", "NPP_woody", "ANPP_litterfall_2_C", "ANPP_litterfall_3_C"
 
 # All variables in VARIABLES should exist in METHODOLOGY --> not checking as names may change
 
@@ -294,9 +295,9 @@ unique(VARIABLES$variable.name)[!unique(VARIABLES$variable.name)%in% c(MEASUREME
 
 # All allometric.equation in ALLOMETRY exist in MEASUREMENTS allometry_1 and allometry_2
 if(any(!ALLOMETRY$allometric.equation %in% c(MEASUREMENTS$allometry_1, MEASUREMENTS$allometry_2))) {
-  message("There allometric.equation not used in MEASUREMENTS")
+  message("There allometric.equation not used in MEASUREMENTS table.")
   message("Check 
-          ALLOMETRY$allometric.equation[!ALLOMETRY$variables.name %in% c(MEASUREMENTS$coV_1.value, MEASUREMENTS$coV_2.value)]")
+          ALLOMETRY$allometric.equation[!ALLOMETRY$allometric.equation %in% c(MEASUREMENTS$allometry_1, MEASUREMENTS$allometry_2)]")
 }
 
 unique(ALLOMETRY$allometric.equation)[!unique(ALLOMETRY$allometric.equation) %in% c(MEASUREMENTS$allometry_1, MEASUREMENTS$allometry_2)] # Keep all
@@ -330,8 +331,8 @@ for(i in 1:nrow(VARIABLES)){
   n.records.v <- as.numeric(VARIABLES$n.records[i])
   
 
-    if(n.records.v == 0 & nrow(MEASUREMENTS[MEASUREMENTS$variables.name %in% v, ]) > 0){
-      Value.for.variables.without.range <- rbind(Value.for.variables.without.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variables.name %in% v, c("measurement.ID", "sites.sitename", "variables.name", "mean")]))
+    if(n.records.v == 0 & nrow(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]) > 0){
+      Value.for.variables.without.range <- rbind(Value.for.variables.without.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, c("measurement.ID", "sites.sitename", "variable.name", "mean")]))
     }
   
   
@@ -340,7 +341,7 @@ for(i in 1:nrow(VARIABLES)){
     
     if(!VARIABLES$variable.type[i] %in% "covariates"){
       
-      x <- MEASUREMENTS[MEASUREMENTS$variables.name %in% v, ]$mean
+      x <- MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean
       x <- na.omit(as.numeric(ifelse(x %in% na_codes, NA, x)))
       
       value.too.small <- any(x < min.v)
@@ -348,7 +349,7 @@ for(i in 1:nrow(VARIABLES)){
       
       flagged.value <- c(x[x < min.v], x[x > max.v])
       
-      if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variables.name %in% v & MEASUREMENTS$mean %in% flagged.value, c("measurement.ID", "sites.sitename", "variables.name", "mean")]))
+      if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v & MEASUREMENTS$mean %in% flagged.value, c("measurement.ID", "sites.sitename", "variable.name", "mean")]))
       
       
     }
@@ -412,7 +413,7 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
     DF_meta.max <- as.numeric(DF_meta$max[i])
     
     
-    if(all(!is.na(c(DF_meta.min, DF_meta.max)))){
+    if(all(!is.na(c(DF_meta.min, DF_meta.max)))) {
     
       x <- DF[, f]
       x <- round(na.omit(as.numeric(ifelse(x %in% na_codes, NA, x))))
