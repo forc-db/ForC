@@ -27,11 +27,9 @@ n_plots <- length(plots_list)
 
 ## cycle through unique plots, pulling out data to assign to new PLOTS table. ##
 
-ForC_plots <- NULL
-# DIST_RN=cell(n_plots,3);
-# DIST_DATE=cell(n_plots,2);
-# DIST_TYPE=cell(n_plots,2);
+PLOTS_updated <- NULL
 
+establishements_to_revisit_by_hand <- NULL
 
 for (n in 1:n_plots) {
   print(n)
@@ -92,7 +90,10 @@ for (n in 1:n_plots) {
         EST_NOTES <- HISTORY$hist.notes[i_ni]
       }
     }
-  if(length(i_est) > 1) warning(paste('REVISIT BY HAND (ESTABLISHMENT): ', plots_list[n])) # revisit by hand
+  if(length(i_est) > 1) {
+    warning(paste('REVISIT BY HAND (ESTABLISHMENT): ', plots_list[n])) # revisit by hand
+    establishements_to_revisit_by_hand <- rbind(establishements_to_revisit_by_hand, HISTORY[index, ])
+  }
 
 
   
@@ -350,7 +351,7 @@ for (n in 1:n_plots) {
   names(PLOTS_to_add) <- c("plot.ID", "sites.sitename", "plot.name", "plot.area", 
                            "establishment.ID", "year.establishment.oldest.trees", 
                            "regrowth.ID", "regrowth.type", "regrowth.year", 
-                           "dist.mrs.ID", "distmrs.type", "mortality", "distmrs.yr", "dist.additional.mrs.ID", 
+                           "dist.mrs.ID", "distmrs.type", "mortality", "distmrs.year", "dist.additional.mrs.ID", 
                            "prior.history.ID",
                            "dist1.ID",	"dist1.type",	"dist1.mort",	"dist1.year",
                            "dist2.ID",	"dist2.type",	"dist2.mort",	"dist2.year",
@@ -359,37 +360,15 @@ for (n in 1:n_plots) {
                            "management.nutrients.ID",	"management.biota.ID",	"management.other.ID")
   
   
-  ForC_plots <- rbind(ForC_plots, PLOTS_to_add, stringsAsFactors = F)
+  PLOTS_updated <- rbind(PLOTS_updated, PLOTS_to_add, stringsAsFactors = F)
   
   
   
 } # for (n in 1:n_plots) 
 
-# double check with Krista's verison
-# 
-# dim(ForC_plots) == dim(PLOTS)
-# 
-# for( i in 1: nrow(ForC_plots)) {
-#   
-#   SITE <- ForC_plots$sites.sitename[i]
-#   PLOTID <- ForC_plots$plot.name[i]
-#   
-#   A <- ForC_plots[i, ]
-#   B <- PLOTS[PLOTS$sites.sitename %in% SITE & PLOTS$plot.name %in% PLOTID, ]
-#   
-#   print(i - which(PLOTS$sites.sitename %in% SITE & PLOTS$plot.name %in% PLOTID))
-#   
-#   if(all.equal(A[, -c(1)], B[,-c(1)], check.attributes = F) != TRUE) {
-#     print(i)
-#     print( rbind(A, B))
-#     warning("A differ from B")
-#     readline("press [enter]")
-#   }
-#   
-# }
-
+establishements_to_revisit_by_hand
 
 # SAVE ####
-write.csv(ForC_plots, "data/ForC_plots.csv", row.names = F) 
+write.csv(PLOTS_updated, "data/ForC_plots.csv", row.names = F) 
 
 
