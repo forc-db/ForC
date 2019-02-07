@@ -1027,7 +1027,6 @@
 1027,"Huitong Experimental Forest","Castanopsis hysrix - Cyclobalanopsis glauca - Machilus pauhoi community","NAC",0,"NAC",1027.02,"Initiation of post-disturbance cohort (natural)","1958",1027.01,"Harvest","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1028,"Huitong","Chinese Fir plantation","NAC",1028.02,"1995",1028.01,"Planted","1995",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1029,"Huma","Boreal coniferous forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1030,"Hungary","NI","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1031,"Hyytiala Scots Pine Chronosequence 12","Stand development of an unmanaged plantation","NAC",1031.04,"1991",1031.03,"Seeded_trees","1991",1031.02,"Burned","NAC","1990",1031.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1032,"Hyytiala Scots Pine Chronosequence 40","Stand development of an unmanaged plantation","NAC",1032.04,"1962",1032.03,"Seeded_trees","1962",1032.02,"Burned","NAC","1962",1032.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1033,"Hyytiala Scots Pine Chronosequence 4","Stand development of an unmanaged plantation","NAC",1033.03,"1996",1033.02,"Initiation of post-disturbance cohort (natural)","1996",1033.01,"Cut","100","1996",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2765,12 +2764,10 @@
 2781,"Zofin CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1838",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2782,"Yasuni CTFS-ForestGEO plot","25-ha forest dynamics plot (western half of 50-ha forest dynamics plot), excluding disturbed 1ha","24",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,2782.02
 2783,"Gorakhpur_S_10","Sal Plantation Forest","NAC",2783.01,"1962",2783.02,"Planted","1962",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2784,"Gorakhpur_S_16","Sal Plantation Forest","NAC",2784.01,"1956",2784.02,"Planted","1956",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2785,"Gorakhpur_S_22","Sal Plantation Forest","NAC",2785.01,"1950",2785.02,"Planted","1950",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2786,"Gorakhpur_S_28","Sal Plantation Forest","NAC",2786.01,"1944",2786.02,"Planted","1944",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2787,"Gorakhpur_S_35","Sal Plantation Forest","NAC",2787.01,"1937",2787.02,"Planted","1937",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2788,"Gorakhpur_S_38","Sal Plantation Forest","NAC",2788.01,"1934",2788.02,"Planted","1934",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2789,"Tallish Ironwood_1","Site 1","NAC",2789.01,"1942",2789.02,"Planted","1942",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2790,"Tallish Ironwood_2","Site 2","NAC",2790.01,"1952",2790.02,"Planted","1952",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2791,"Tallish Ironwood_3","Site 3","NAC",2791.01,"NI",2791.02,"Planted","NI",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2792,"Tallish Ironwood_4","Site 4","NAC",2792.01,"1933",2792.02,"Planted","1933",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2863,7 +2860,6 @@
 2880,"Terre Firme 1","Clay","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2881,"Riverine","Riverine","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2882,"Terre Firme 2","Terre Firme","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2883,"Santarem","Santarem","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2884,"Pantanal","1FE","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2885,"Pantanal","4FE","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2886,"Bukit Belalong 800m","800m","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3036,7 +3032,6 @@
 3057,"Daxing'anling 34yrs","34yrs","NAC",3057.02,"1967",3057.01,"Initiation of post-disturbance cohort (planted or natural)","1967",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3058,"Minnesota","71yrs","NAC",3058.02,"1930",3058.01,"Initiation of post-disturbance cohort (planted or natural)","1930",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3059,"Minnesota","106yrs","NAC",3059.02,"1895",3059.01,"Initiation of post-disturbance cohort (planted or natural)","1895",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3063,"Guanica State Forest","Guanica State Forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3065,"New Brunswick, FNP","A1","0.04",3065.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3066,"New Brunswick, FNP","A2","0.04",3066.01,"1942",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3067,"New Brunswick, FNP","A3","0.04",3067.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
