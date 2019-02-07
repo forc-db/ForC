@@ -322,7 +322,6 @@ Value.for.variables.without.range <-  data.frame()
 
 for(i in 1:nrow(VARIABLES)){
   
-  
   v <- VARIABLES$variable.name[i]
   print(v)
   
@@ -341,15 +340,15 @@ for(i in 1:nrow(VARIABLES)){
     
     if(!VARIABLES$variable.type[i] %in% "covariates"){
       
-      x <- MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean
-      x <- na.omit(as.numeric(ifelse(x %in% na_codes, NA, x)))
+      x <- MEASUREMENTS[MEASUREMENTS$variable.name %in% v, c("measurement.ID", "mean")]
+      x$mean <- na.omit(as.numeric(ifelse(x$mean %in% na_codes, NA, x$mean)))
       
-      value.too.small <- any(x < min.v)
-      value.too.big <- any(x > max.v)
+      value.too.small <- any(x$mean < min.v)
+      value.too.big <- any(x$mean > max.v)
       
-      flagged.value <- c(x[x < min.v], x[x > max.v])
+      flagged.ID <- c(x$measurement.ID[x$mean < min.v], x$measurement.ID[x$mean > max.v])
       
-      if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v & MEASUREMENTS$mean %in% flagged.value, c("measurement.ID", "sites.sitename", "variable.name", "mean")]))
+      if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v & MEASUREMENTS$measurement.ID %in% flagged.ID, c("measurement.ID", "sites.sitename", "variable.name", "mean")]))
       
       
     }
@@ -379,7 +378,7 @@ for(i in 1:nrow(VARIABLES)){
 }
 
 
-cat(paste("There is", nrow(mean.not.within.range), "measurements falling out of variable range"))
+warning(paste("There is", nrow(mean.not.within.range), "measurements falling out of variable range"))
 if(nrow(mean.not.within.range) > 0) cat("See mean.not.within.range")
 
 cat(paste("There is", nrow(covariate_1.not.within.range), "covariate_1 value(s) falling out of variable range"))
@@ -391,6 +390,29 @@ if(nrow(covariate_2.not.within.range) > 0) cat("See covariate_2.not.within.range
 cat(paste("There is", nrow(Value.for.variables.without.range), "value(s) from a variable that has no defined range (this is probably the first record for that variable)"))
 if(nrow(Value.for.variables.without.range) > 0) cat("See Value.for.variables.without.range")
 
+
+# plot to trouble shoot ####
+require("R2HTML")
+
+target <- HTMLInitFile(outdir = paste0(getwd(), "/scripts/QA_QC"), filename = "checking_range_of_records")
+HTML("<h1>These are plots to review wether records outside of range are plausible or if they are mistakes.</h1>",file=target)
+
+for( v in sort(unique(mean.not.within.range$variable.name))) {
+  old_minimum <- as.numeric(VARIABLES[VARIABLES$variable.name %in% v,]$min)
+  old_maximum <- as.numeric(VARIABLES[VARIABLES$variable.name %in% v,]$max)
+  curr_minimum <- min(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean)
+  curr_maximum <- max(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean)
+  
+plot(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, ylim = c(min(old_minimum, curr_minimum), max(old_maximum, curr_maximum)), main = v, col = ifelse(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID %in% mean.not.within.range[mean.not.within.range$variable.name %in% v, ]$measurement.ID, "red", "black"), pch = 16, ylab = v)
+  abline(h =c(old_minimum, old_maximum))
+  text(x = 1:nrow(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]), y = MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, labels = ifelse(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID %in% mean.not.within.range[mean.not.within.range$variable.name %in% v, ]$measurement.ID, MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID, NA), pos = 2)
+  
+  HTMLplot(file=target, append = T, GraphDirectory = "scripts/QA_QC")
+
+}
+
+
+file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
 
 # ===== All tables numerical variables, check against range in corresponding matadata table ==== ####
 
