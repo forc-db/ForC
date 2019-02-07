@@ -6589,7 +6589,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3058.02,Minnesota,71yrs,NAC,,1930,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA,
 3059.01,Minnesota,106yrs,NAC,,1895,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA,
 3059.02,Minnesota,106yrs,NAC,,1895,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA,
-3063.01,Guanica State Forest,Guanica State Forest,NAC,,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA,
 3065.01,"New Brunswick, FNP",A1,0.04,1,1937,8.5,Establishment,Establishment of oldest trees,0,NI,NA,NA,NA,NA,
 3065.02,"New Brunswick, FNP",A1,0.04,2,NI,9,Disturbance(_prior),Harvest,0,NI,NA,<100,Selective logging,NA,
 3065.03,"New Brunswick, FNP",A1,0.04,3,NI,9,Regrowth(_prior),Initiation of post-disturbance cohort (natural),0,NI,NA,NA,NA,NA,
