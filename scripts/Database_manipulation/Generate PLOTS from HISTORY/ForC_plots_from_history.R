@@ -38,7 +38,7 @@ for (n in 1:n_plots) {
   
   # index records for the plot
   index <- which(site_plot %in% plots_list[n]) # index for all records for the plot
-  histID <- n + HISTORY$event.sequence[index]/100
+  # histID <- n + HISTORY$event.sequence[index]/100
   
   # get fields that are the same for all records in the original version
   index1 <- min(index); #index for just the first record for the plot 
@@ -347,7 +347,7 @@ for (n in 1:n_plots) {
   
   PLOTS_to_add <- data.frame(PLOTID, SITE, PLOT, PLOTAREA, OUT_ESTABLISHMENT, OUT_REGROWTH, OUT_DIST_PREV, PRIOR_RN, OUT_DIST, OUT_MAN, stringsAsFactors = F)
   # Rename columns
-  names(PLOTS_to_add) <- c("plot.id", "sites.sitename", "plot.name", "plot.area", 
+  names(PLOTS_to_add) <- c("plot.ID", "sites.sitename", "plot.name", "plot.area", 
                            "establishment.ID", "year.establishment.oldest.trees", 
                            "regrowth.ID", "regrowth.type", "regrowth.year", 
                            "dist.mrs.ID", "distmrs.type", "mortality", "distmrs.yr", "dist.additional.mrs.ID", 
