@@ -142,12 +142,12 @@
 141,"Balmoral","Managed","NAC",141.01,"1986",141.02,"Planted","1986",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 142,"BAN-01b_Banco IBP Plateau","african tropical forest","0.3",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 143,"BAN-02b_Banco IBP Valley","african tropical forest","0.3",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-144,"Banco plateau","Mature ","5",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-145,"Banco Valley","Mature ","0.08",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+144,"Banco plateau","Mature","5",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+145,"Banco Valley","Mature","0.08",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 146,"BangorFACE","Ambient CO2 F. sylvatica","NAC",0,"NAC",146.02,"Planted","2004.163934",146.01,"Harvest","NAC","2003",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-147,"BangorFACE","Ambient CO2 Mixture ","NAC",0,"NAC",147.02,"Planted","2004.163934",147.01,"Harvest","NAC","2003",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+147,"BangorFACE","Ambient CO2 Mixture","NAC",0,"NAC",147.02,"Planted","2004.163934",147.01,"Harvest","NAC","2003",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 148,"BangorFACE","Elevated CO2 F. sylvatica","NAC",0,"NAC",148.02,"Planted","2004.163934",148.01,"Harvest","NAC","2003",0,0,0,NA,NA,NA,0,NA,NA,NA,0,148.03,0,0,0,0,0
-149,"BangorFACE","Elevated CO2 Mixture ","NAC",0,"NAC",149.02,"Planted","2004.163934",149.01,"Harvest","NAC","2003",0,0,0,NA,NA,NA,0,NA,NA,NA,0,149.03,0,0,0,0,0
+149,"BangorFACE","Elevated CO2 Mixture","NAC",0,"NAC",149.02,"Planted","2004.163934",149.01,"Harvest","NAC","2003",0,0,0,NA,NA,NA,0,NA,NA,NA,0,149.03,0,0,0,0,0
 150,"Bannadpare","Mature Rain forest","1",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 151,"Baotianman Nature Reserve","natural regeneration of secondary Quercus acutidentata forest","NAC",151.03,"1961",151.02,"Initiation of post-disturbance cohort (natural)","NI",151.01,"Harvest","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 152,"Baotianman Nature Reserve","natural secondary Quercus variabilis forest","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -488,7 +488,7 @@
 487,"Changjiaba","Picea, Abies","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 488,"Charabaru","mature 'old growth' forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 489,"Cheko","evergreen seasonal forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-490,"Cheng and Li (1989)","Larix ","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+490,"Cheng and Li (1989)","Larix","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 491,"Chersky","natural regeneration of Larix cajanderi forest after fire","NAC",491.03,"1819",491.02,"Initiation of post-disturbance cohort (natural)","1819",491.01,"Burned","100","1819",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 492,"Chibougamau EOBS","mature black spruce forest","NAC",492.02,"1909",492.03,"Initiation of post-disturbance cohort (natural)","1909",492.01,"Burned","NI","1900",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 493,"Chibougamau HBS00","Managed.harvested in 2000.after soil scarified","NAC",0,"NAC",493.03,"Initiation of post-disturbance cohort (natural)","2000.666667",493.01,"Harvest","NI","2000.666667",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,493.02
@@ -789,9 +789,9 @@
 789,"Entre-Rios E. grandis x urophylla stand 9","mixed clonal plantation","0.0471",0,"NAC",789.03,"Planted","1990",789.02,"Cut","100","1990",789.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,789,789,0
 790,"Erastvere","Forest recovery following agricultural abandonment","NAC",790.03,"1964",790.02,"Initiation of post-disturbance cohort (natural)","1964",790.01,"Cultivation","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 791,"Espirra","Eucalyptus globulus plantation","NAC",0,"NAC",791.05,"Initiation of post-disturbance cohort (planted or natural)","2006.747945",791.04,"Harvest","100","2006.747945",0,791,791.06,"Cut","75","2008.748634",0,NA,NA,NA,0,0,0,0,0,0,0
-792,"Eucalyptus globulus and Acacia mearnsii plantation","11 yr 100% A. ","NAC",792.02,"1992.748634",792.01,"Planted","1992.748634",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,792.03,0,0
-793,"Eucalyptus globulus and Acacia mearnsii plantation","11 yr 100% E. ","NAC",793.02,"1992.497268",793.01,"Planted","1992.497268",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,793.03,0,0
-794,"Eucalyptus globulus and Acacia mearnsii plantation","11 yr 50:50 ","NAC",794.02,"1992.497268",794.01,"Planted","1992.708333",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,794.03,0,0
+792,"Eucalyptus globulus and Acacia mearnsii plantation","11 yr 100% A.","NAC",792.02,"1992.748634",792.01,"Planted","1992.748634",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,792.03,0,0
+793,"Eucalyptus globulus and Acacia mearnsii plantation","11 yr 100% E.","NAC",793.02,"1992.497268",793.01,"Planted","1992.497268",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,793.03,0,0
+794,"Eucalyptus globulus and Acacia mearnsii plantation","11 yr 50:50","NAC",794.02,"1992.497268",794.01,"Planted","1992.708333",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,794.03,0,0
 795,"Eucalyptus saligna plantation","2 yr C, 1m * 1m","0.01",795.04,"1994.328767",795.03,"Planted","1994.328767",795.01,"Harvest","NAC","1993",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,795.02,0
 796,"Eucalyptus saligna plantation","2 yr C, 3m * 3m","0.0225",796.04,"1994.328767",796.03,"Planted","1994.328767",796.01,"Harvest","NAC","1993",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,796.02,0
 797,"Eucalyptus saligna plantation","2 yr F, 1m * 1m","0.01",797.05,"1994.328767",797.03,"Planted","1994.328767",797.01,"Harvest","NAC","1993",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,797,797.02,0
@@ -957,13 +957,13 @@
 957,"Hanjiayuan","Pinus sylvestris var. mongolica","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 958,"Hartheim","planted scots pine forest in 1963","NAC",0,"NAC",958.01,"Planted","1963",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 959,"Harvard 2","unmanaged","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-960,"Harvard Forest - Little Prospect Hill","EMS Tower (HFR1) ","NAC",960.01,"1895",960.04,"Initiation of post-disturbance cohort (natural)","1938",960.03,"Harvest","<100%","1938",960.02,0,960.05,"Burned","<100%","1957",0,NA,NA,NA,0,0,0,0,0,0,0
+960,"Harvard Forest - Little Prospect Hill","EMS Tower (HFR1)","NAC",960.01,"1895",960.04,"Initiation of post-disturbance cohort (natural)","1938",960.03,"Harvest","<100%","1938",960.02,0,960.05,"Burned","<100%","1957",0,NA,NA,NA,0,0,0,0,0,0,0
 961,"Harvard Forest Hemlock / US-Ha2","unmanaged","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,961.01,"Harvest","<100%","1800",961.02,"Harvest","<100%","1900",0,0,0,0,0,0,0
 962,"Harvard Forest Soil Warming Experiment- Barre Woods","Control unmanaged","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,962,962.03,"Major storm","<100%","1938",0,NA,NA,NA,0,0,0,0,0,0,0
 963,"Harvard Forest Soil Warming Experiment- Barre Woods","Warming_soil, soil disturbance","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,963,963.03,"Major storm","<100%","1938",0,NA,NA,NA,0,0,963.05,0,0,0,963.04
 964,"Harvard Forest Soil Warming Experiment- Prospect Hill","Un-warmed, soil disturbance","NAC",0,"NAC",964.02,"Initiation of post-disturbance cohort (natural)","1908",964.01,"Tillage","100","1900",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,964.03
 965,"Harvard Forest Soil Warming Experiment- Prospect Hill","Warmed, soil disturbance","NAC",0,"NAC",965.02,"Initiation of post-disturbance cohort (natural)","1908",965.01,"Tillage","100","1900",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,965.04,0,0,0,965.03
-966,"Harwood CarboAge Chronosequence","Managed 21-y ","NAC",966.01,"1980",966.02,"Initiation of post-disturbance cohort (planted or natural)","1980",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+966,"Harwood CarboAge Chronosequence","Managed 21-y","NAC",966.01,"1980",966.02,"Initiation of post-disturbance cohort (planted or natural)","1980",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 967,"Harwood CarboAge Chronosequence","Managed 30-y second rotation","NAC",967.03,"1971",967.02,"Initiation of post-disturbance cohort (planted or natural)","1971",967.01,"Cut","100","1971",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 968,"Harwood CarboAge Chronosequence","Managed clear-cut in 1960.40-y first rotation","NAC",968.03,"1960",968.02,"Initiation of post-disturbance cohort (planted or natural)","1960",968.01,"Cut","100","1960",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 969,"Harwood CarboAge Chronosequence","recently disturbed 7-y","NAC",969.01,"1994",969.02,"Initiation of post-disturbance cohort (planted or natural)","1994",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -1704,7 +1704,7 @@
 1708,"Nova Xavantina cerrado","short-statured tropical forest.NXA1","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1709,"Nova Xavantina cerrado","short-statured tropical forest.NXA2","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1710,"NSW south coast","E. sieberi, E. agglomerata, E. obliqua","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1711,"O site","50/250 yr ","NAC",1711.01,"1749",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+1711,"O site","50/250 yr","NAC",1711.01,"1749",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1712,"Oak ridge liriodendron","NI","NAC",1712.01,"1918",1712.02,"Initiation of post-disturbance cohort (planted or natural)","1918",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1713,"Oak Ridge National Laboratory Global Change Field Research Facility","ambient CO2, ambient T","NAC",0,"NAC",1713.01,"Planted","1994.084932",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1714,"Oak Ridge National Laboratory Global Change Field Research Facility","ambient CO2, elevated T","NAC",0,"NAC",1714.02,"Planted","1994.084932",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,1714.01,0,0,0,0
@@ -1792,11 +1792,11 @@
 1797,"Pao","Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment","NAC",1797.03,"NI",1797.02,"Initiation of post-disturbance cohort (natural)","NI",1797.01,"Grazed","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1798,"Paracou","old-growth tropical forest.PAR","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1799,"Paracou","terra firma PAR","6.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1800,"Paragominas 2","Intact ","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1801,"Paragominas 2","Managed.Heavily logged ","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,1801.01,1801.02,"Harvest","<100%","NI",0,NA,NA,NA,0,0,0,0,0,0,0
-1802,"Paragominas 2","Managed.Logged and heavily burned ","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,1802.01,"Harvest","<100%","NI",1802.02,"Burned","95.5","NI",0,0,0,0,0,0,0
-1803,"Paragominas 2","Managed.Logged and lightly burned ","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,1803.01,"Harvest","<100%","NI",1803.02,"Burned","70","NI",0,0,0,0,0,0,0
-1804,"Paragominas 2","Managed.Moderately logged ","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,1804.01,"Harvest","<100%","NI",0,NA,NA,NA,0,0,0,0,0,0,0
+1800,"Paragominas 2","Intact","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+1801,"Paragominas 2","Managed.Heavily logged","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,1801.01,1801.02,"Harvest","<100%","NI",0,NA,NA,NA,0,0,0,0,0,0,0
+1802,"Paragominas 2","Managed.Logged and heavily burned","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,1802.01,"Harvest","<100%","NI",1802.02,"Burned","95.5","NI",0,0,0,0,0,0,0
+1803,"Paragominas 2","Managed.Logged and lightly burned","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,1803.01,"Harvest","<100%","NI",1803.02,"Burned","70","NI",0,0,0,0,0,0,0
+1804,"Paragominas 2","Managed.Moderately logged","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,1804.01,"Harvest","<100%","NI",0,NA,NA,NA,0,0,0,0,0,0,0
 1805,"Paragominas age sequence-heavy use","abandoned pasture- HEAVY use. 2.5y #11","NAC",0,"NAC",1805.05,"Initiation of post-disturbance cohort (natural)","NI",1805.04,"Grazed","100","NI",1805,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,1805.03,0
 1806,"Paragominas age sequence-heavy use","abandoned pasture- HEAVY use. 2.5y #12","NAC",0,"NAC",1806.05,"Initiation of post-disturbance cohort (natural)","NI",1806.04,"Grazed","100","NI",1806,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,1806.03,0
 1807,"Paragominas age sequence-heavy use","abandoned pasture- HEAVY use. 8y","NAC",0,"NAC",1807.05,"Initiation of post-disturbance cohort (natural)","NI",1807.04,"Grazed","100","NI",1807,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,1807.03,0
@@ -1838,11 +1838,11 @@
 1843,"Pico del Este","Mature Lower montane rain (dwarf) forest","0.0036",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1844,"Pifo Polylepis Forest","Forest recovery following 1958 landslide","NAC",1844.03,"1968",1844.02,"Initiation of post-disturbance cohort (natural)","1958",1844.01,"Landslide","100","1958",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1845,"Pifo Polylepis Forest","Forest recovery following harvest","NAC",1845.03,"1993",1845.02,"Initiation of post-disturbance cohort (natural)","1993",1845.01,"Harvest","100","1993",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1846,"Pifo Polylepis Forest","Forest recovery following pasture abandonment ","NAC",1846.03,"1983",1846.02,"Initiation of post-disturbance cohort (natural)","1983",1846.01,"Grazed","100","1981",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+1846,"Pifo Polylepis Forest","Forest recovery following pasture abandonment","NAC",1846.03,"1983",1846.02,"Initiation of post-disturbance cohort (natural)","1983",1846.01,"Grazed","100","1981",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1847,"Pifo Polylepis Forest","old-growth forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1848,"Ping Kong","monsoon forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1850,"Piro","Tropical Wet Forest recovery following pasture abandonment","NAC",1850.03,"NI",1850.02,"Initiation of post-disturbance cohort (natural)","NI",1850.01,"Grazed","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-1851,"Piste de Saint-Elie (ECEREX)","Mature ","1",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+1851,"Piste de Saint-Elie (ECEREX)","Mature","1",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1852,"Piste de Saint-Elie (ECEREX)","old-growth tropical forest.PSE","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1853,"Pitahaya","Tropical Dry Forest recovery following pasture abandonment","NAC",1853.03,"NI",1853.02,"Initiation of post-disturbance cohort (natural)","NI",1853.01,"Grazed","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1854,"Pocosol","Tropical Dry Forest recovery following pasture abandonment","NAC",1854.03,"NI",1854.02,"Initiation of post-disturbance cohort (natural)","NI",1854.01,"Grazed","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2169,7 +2169,7 @@
 2176,"Scituate Watershed J1","Forest recovery following pasture abandonment.99-y","NAC",2176.03,"1915",2176.02,"Initiation of post-disturbance cohort (natural)","1899",2176.01,"Grazed","100","1850",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2177,"Scituate Watershed J2","Forest recovery following pasture abandonment.53-y","NAC",2177.03,"1962",2177.02,"Initiation of post-disturbance cohort (natural)","1945",2177.01,"Grazed","100","1850",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2178,"Scituate Watershed J3","Forest recovery following pasture abandonment.47-y","NAC",2178.03,"1959",2178.02,"Initiation of post-disturbance cohort (natural)","1951",2178.01,"Grazed","100","1850",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2179,"Scituate Watershed J5","Forest recovery following pasture abandonment.10-y ","NAC",2179.02,"1986",2179.03,"Initiation of post-disturbance cohort (natural)","1988",2179.01,"Grazed","100","1850",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2179,"Scituate Watershed J5","Forest recovery following pasture abandonment.10-y","NAC",2179.02,"1986",2179.03,"Initiation of post-disturbance cohort (natural)","1988",2179.01,"Grazed","100","1850",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2180,"Scituate Watershed J7","Forest recovery following pasture abandonment.23-y","NAC",2180.03,"1983",2180.02,"Initiation of post-disturbance cohort (natural)","1975",2180.01,"Grazed","100","1850",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2181,"Scituate Watershed P1","Less disturbed uncultivated site.61-y","NAC",0,"NAC",2181.02,"Initiation of post-disturbance cohort (natural)","NI",2181.01,"Cut","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2182,"Sebulu","tropical lowland evergreen dipterocarp rainforest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2234,7 +2234,7 @@
 2241,"Southeast Tree Research and Education Site (SETRES)","12 yr fertilized","NAC",2241.03,"1985",2241.02,"Planted","1985",2241.01,"Harvest","100","1985",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,2241,0,0
 2242,"Southeast Tree Research and Education Site (SETRES)","12 yr irrigated","NAC",2242.03,"1985",2242.02,"Planted","1985",2242.01,"Harvest","100","1985",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,2242.04,0,0,0
 2243,"Southeast Tree Research and Education Site (SETRES)","12 yr irrigated + fertilized","NAC",2243.03,"1985",2243.02,"Planted","1985",2243.01,"Harvest","100","1985",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,2243.11,2243,0,0
-2244,"Southeastern Puerto Rico chronosequence","Forest recovery following pasture abandonment ","NAC",0,"NAC",2244.02,"Initiation of post-disturbance cohort (natural)","1936",2244.01,"Grazed","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2244,"Southeastern Puerto Rico chronosequence","Forest recovery following pasture abandonment","NAC",0,"NAC",2244.02,"Initiation of post-disturbance cohort (natural)","1936",2244.01,"Grazed","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2245,"Southern Appalachians","cove forests","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2246,"Southern Finland","Pinus sylvestris","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2247,"Southern Karelian Spruce, Site 10","Forest recovery following clear-cut","NAC",2247.03,"1924",2247.02,"Initiation of post-disturbance cohort (natural)","1924",2247.01,"Cut","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2307,7 +2307,7 @@
 2314,"Tambopata-Candamo Reserve permanent plot TAM-02","terra firma, floodplain TAM-02","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2315,"Tambopata-Candamo Reserve permanent plot TAM-03","swamp TAM-03","0.58",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2316,"Tambopata-Candamo Reserve permanent plot TAM-04","terra firma, floodplain TAM-04","0.42",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2317,"Tambopata-Candamo Reserve permanent plot TAM-05","terra firma unmanaged primary forest ","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2317,"Tambopata-Candamo Reserve permanent plot TAM-05","terra firma unmanaged primary forest","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2318,"Tambopata-Candamo Reserve permanent plot TAM-06","terra firma, floodplain unmanaged primary forest","0.96",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2319,"Tambopata-Candamo Reserve permanent plot TAM-07","terra firma TAM-07","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2320,"Tambopata-Candamo Reserve permanent plot TAM-08","terra firma TAM-08","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2640,7 +2640,7 @@
 2654,"Xingjiangling","Picea, Abies","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2655,"Xinlong","Picea, Abies","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2656,"Xiping (SP)","poplar plantation","NAC",2656.02,"2002",2656.01,"Planted","2002",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2657,"Xishuangbanna","Castanopsis ferox, Choerospondias axillaris, Elaeocarpus varunua, Pometia tomentosa, Chukrasia tabularia, ","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2657,"Xishuangbanna","Castanopsis ferox, Choerospondias axillaris, Elaeocarpus varunua, Pometia tomentosa, Chukrasia tabularia,","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2658,"Xu (1988)","Larix","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2659,"Xueka","Picea, Abies","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2660,"Xujiaba Research Station.Lithocarpus xylocarpus forest","high density stand","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2661,7 +2661,7 @@
 2675,"Yangambi","8 years forest fallow","NAC",2675.04,"1943",2675.05,"Initiation of post-disturbance cohort (natural)","1943",2675.03,"Cultivation","100","NI",2675,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2676,"Yangyu","Juniperus przewalskii","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2677,"YAP-01b_Yapo IBP","african tropical forest","0.2",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2678,"Yapo (Plateau)","Mature ","5",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2678,"Yapo (Plateau)","Mature","5",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2679,"Yatir","maturing Pinus halepensis planted forest","NAC",2679.02,"1966",2679.01,"Planted","1966",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2680,"Yele","Cupressus, Sabina (Juniperus)","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2681,"Yellowstone National Park (YNP)","110 yr","NAC",2681.01,"1881",2681.02,"Initiation of post-disturbance cohort (natural)","1881",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2883,7 +2883,7 @@
 2904,"Los Santos Reserve","LSFR1","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2905,"Los Santos Reserve","LSFR3","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2906,"La Selva Biological Station","Terrace","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2907,"La Selva Biological Station","Plateau ","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2907,"La Selva Biological Station","Plateau","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2908,"La Selva Biological Station","Slope","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2909,"Tropenstation La Gamba","Coastal","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2910,"Tropenstation La Gamba","Slope","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3002,7 +3002,7 @@
 3028,"Berbice River Kwakwani 1","BER-01","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3029,"North West District: Kariako","NWD-01","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3030,"Lore Lindu I","Puncak Dingin","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3031,"Lore Lindu II","Rorekatimbu ","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3031,"Lore Lindu II","Rorekatimbu","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3032,"Lore Lindu III","Wuasa","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3033,"Cinchona Botanical Gardens","Mmor","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3034,"Cinchona Botanical Gardens","Pmull","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3013,7 +3013,7 @@
 3039,"Lumut, South Perak","Lumut","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3040,"Bikam, South Perak","Bikam","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3041,"Yona Experimental Forest","Yona Experimental Forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3042,"Arunachal Pradesh","Arunachal Pradesh ","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3042,"Arunachal Pradesh","Arunachal Pradesh","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3043,"Schefferville","Schefferville","NAC",3043.02,"1864",3043.01,"Initiation of post-disturbance cohort (planted or natural)","1864",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3044,"km64","km64","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3045,"Cove Forest Long Branch 1","Long Branch 1","NAC",3045.02,"1780",3045.01,"Initiation of post-disturbance cohort (planted or natural)","1780",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
