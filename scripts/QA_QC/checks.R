@@ -409,10 +409,11 @@ plot(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, ylim = c(min(old_mi
   
   HTMLplot(file=target, append = T, GraphDirectory = "scripts/QA_QC")
 
+  Sys.sleep(1)
 }
 
 
-file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
+# file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
 
 # ===== All tables numerical variables, check against range in corresponding matadata table ==== ####
 
