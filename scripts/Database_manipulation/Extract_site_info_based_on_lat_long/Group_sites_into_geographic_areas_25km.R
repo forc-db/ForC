@@ -15,7 +15,8 @@ setwd(".")
 
 # Load libraries ####
 library(fields)
- 
+library(sp)
+
 # Load forC MEASUREMENTS table ####
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 
@@ -48,9 +49,11 @@ table(clusters)
 #   points(xy[clusters == i,], col = "red" , pch=19)
 # }
 
+plot(xy, col = rainbow(length(unique(clusters)))[clusters])
+
 
 # Update area column
-cbind(SITES$geographic.area, clusters)
+cbind(SITES$sites.sitename, SITES$geographic.area, clusters)[apply(cbind(SITES$geographic.area, clusters), 1, function(x) x[1] != x[2]), ] # show the ones that changed...
 
 
 SITES$geographic.area <- clusters
@@ -65,6 +68,8 @@ names(A[A != 1])
 for(i in names(A[A != 1])){
   x <- SITES[SITES$geographic.area == i,]
   print(unique(x$country))
+  plot(xy, main = paste("geographic areas in", unique(x$country)))
+  points(xy[SITES$geographic.area == i,], col = rainbow(length(unique(clusters)))[clusters[SITES$geographic.area == i]])
 }
 
 
@@ -78,7 +83,7 @@ for(i in names(A[A != 1])){
   print(unique(x$biogeog))
 }
 
-i = 352
+i = 852
 plot(xy, main = paste(i, " n.plot =", sum(clusters == i)))
 points(xy[clusters == i,], col = "red" , pch=19)
 
