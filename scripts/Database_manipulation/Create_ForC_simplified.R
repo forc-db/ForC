@@ -54,7 +54,7 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 MEASUREMENTS <- MEASUREMENTS[MEASUREMENTS$flag.suspicious %in% 0, ] # keep only non-suspicious records
 ### Resolve duplicates #####
 
-source("scripts/Database_manipulation/Reconcile_duplicated_records.R")
+source("scripts/Database_manipulation/Identify_and_resolve_duplicates/Reconcile_duplicated_records.R")
 
 
 ### Ignore secondary variables ####
@@ -111,7 +111,7 @@ SITES_simplified$map <- as.numeric(SITES_simplified$map) ## If you get an error 
 
 plots.columns.to.keep <- c("sites.sitename", "plot.name", "plot.area", "year.establishment.oldest.trees", 
                            "regrowth.type", "regrowth.year", "distmrs.type", 
-                           "distmrs.yr")
+                           "distmrs.year")
 names(PLOTS)
 
 PLOTS_simplified <- PLOTS[, plots.columns.to.keep]
@@ -125,6 +125,10 @@ MEASUREMENTS_SITES_PLOTS <- merge(MEASUREMENTS_SITES, PLOTS_simplified, by = c("
 
 ForC_simplified <- MEASUREMENTS_SITES_PLOTS
 
+# double check we've got everything
+all(paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name) %in% paste(PLOTS$sites.sitename, PLOTS$plot.name)) # should be TRUE
+
+
 # Add managed and disturbed columns ####
 
 ## Managed ####
@@ -133,23 +137,37 @@ ForC_simplified <- MEASUREMENTS_SITES_PLOTS
 
 plots.management.columns <- names(PLOTS)[grepl("management", names(PLOTS)) & !names(PLOTS) %in% "management.other.ID"]
 managed <- PLOTS[, c("sites.sitename", "plot.name"),][apply(PLOTS[, plots.management.columns], 1, function(x) any(x!=0)),]
-unmanaged.for.now <- PLOTS[, c("sites.sitename", "plot.name"),][apply(PLOTS[, plots.management.columns], 1, function(x) all(x==0)),] # calling "for now because ste 2below is done on those to further filter out)
-
-if((nrow(managed) + nrow(unmanaged.for.now)) != nrow(PLOTS)) {stop("Problem when ID-ing the managed sites. unmanaged + managed does not equal total of sites")}
+unmanaged.for.now <- PLOTS[, c("sites.sitename", "plot.name"),][apply(PLOTS[, plots.management.columns], 1, function(x) all(x==0)),] # calling "for now because still need to be filtered by next steps
 
 managed.1 <- paste(managed[,1], managed[,2])
 unmanaged.for.now <- paste(unmanaged.for.now[,1], unmanaged.for.now[,2]) # calling "for now" because still need to be filtered by next step
 
+if(!all(paste(PLOTS$sites.sitename, PLOTS$plot.name) %in% c(managed.1, unmanaged.for.now))) {stop("Problem when ID-ing the managed sites. unmanaged + managed does not equal total of sites")}
+
+paste(PLOTS$sites.sitename, PLOTS$plot.name)[!paste(PLOTS$sites.sitename, PLOTS$plot.name) %in% c(managed.1, unmanaged.for.now)]
+
+
 # 2. Find any site.name or plot.name containing "plantation", "planted", "managed", "irrigated" or "fertilied"
 
 managed.2 <- unmanaged.for.now[grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", unmanaged.for.now, perl = T, ignore.case = T)]
+unmanaged.for.now <- unmanaged.for.now[!grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", unmanaged.for.now, perl = T, ignore.case = T)]
+
+
+all(! managed.2 %in% unmanaged.for.now) # should be TRUE
+all(! managed.1 %in% unmanaged.for.now) # should be TRUE
+
+if(!all(paste(PLOTS$sites.sitename, PLOTS$plot.name) %in% c(managed.1, managed.2, unmanaged.for.now))) {stop("Problem when ID-ing the managed sites. unmanaged + managed does not equal total of sites")}
+
+
 
 # 3. Give a 1 to all managed plots found in 1. and 2. 
 all.managed.sites.plot.name <- c(managed.1, managed.2)
 ForC_simplified$managed <- ifelse(paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name) %in% all.managed.sites.plot.name, 1, 0)
 
 # 4. double check we got all
-if(any(!c( paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name)[grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name), perl = T, ignore.case = T)]) %in% all.managed.sites.plot.name)) { stop("Didn't get all managed sites")}# double check we got all either in managed.1 or managed.2... 
+
+if(any(!c(paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name)[grepl("(plantation)|(planted)|(\\bmanaged)|(irrigated)|(fertilized)", paste(ForC_simplified$sites.sitename, ForC_simplified$plot.name), perl = T, ignore.case = T)]) %in% all.managed.sites.plot.name)) { stop("Didn't get all managed sites")}# double check we got all either in managed.1 or managed.2... 
+
 
 ## disturbed ####
 
@@ -233,7 +251,7 @@ ordered.field <- c("measurement.ID", "sites.sitename", "plot.name",
                   "biogeog", "Koeppen", "FAO.ecozone",
                   "plot.area", "year.establishment.oldest.trees", 
                   "regrowth.type", "regrowth.year", "distmrs.type", 
-                  "distmrs.yr", "managed", "disturbed", "history.no.info")
+                  "distmrs.year", "managed", "disturbed", "history.no.info")
 
 ForC_simplified <- ForC_simplified[, ordered.field]
 

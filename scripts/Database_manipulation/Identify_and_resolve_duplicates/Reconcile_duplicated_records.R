@@ -32,10 +32,10 @@ Duplicates <- MEASUREMENTS[(grepl("D", MEASUREMENTS$conflicts) ) & !(grepl("R", 
 subdubed_only <- MEASUREMENTS[grepl("s", MEASUREMENTS$conflicts, ignore.case = F) & !(grepl("R", MEASUREMENTS$conflicts) ) & (is.na(MEASUREMENTS$D.precedence)),] # take subdubed records that are not Replicates nore duplicates (since we already have them in previous objects)
 
 ## double check we got what we wanted
-table(apply(Independents[c("conflicts", "D.precedence")], 1, paste, collapse = " "))
-table(apply(Replicates[c("conflicts", "D.precedence")], 1, paste, collapse = " "))
-table(apply(Duplicates[c("conflicts", "D.precedence")], 1, paste, collapse = " "))
-table(apply(subdubed_only[c("conflicts", "D.precedence")], 1, paste, collapse = " "))
+table(apply(Independents[c("conflicts", "D.precedence")], 1, paste, collapse = " ")) # should only have "I NA"
+table(apply(Replicates[c("conflicts", "D.precedence")], 1, paste, collapse = " ")) # sould only be "D;R  1", "R NA", "R;D  1", or  "R;s NA" 
+table(apply(Duplicates[c("conflicts", "D.precedence")], 1, paste, collapse = " ")) # shoulc only be "D 1", or "D;s 1". If there is a D;S 1 there is a an error in ID_sets_of_duplicate_records.R because no captial "S" should have a "1" in D.precedence...
+table(apply(subdubed_only[c("conflicts", "D.precedence")], 1, paste, collapse = " ")) # should only be "s NA "
 
 # double check all ID-s are in there and if not they have a zeroe in D.precedence or a cap S in conflicts
 sum(duplicated(rbind(Independents, Replicates, Duplicates, subdubed_only)$measurement.ID))
@@ -48,8 +48,8 @@ all(A %in% B) # should be FASLE
 
 C <- A[!A %in% B] # missing IDs
 
-unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C, ]$D.precedence) # should only be 0, if NA, conflict should have a cap S
-unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C & is.na(MEASUREMENTS$D.precedence), ]$conflicts)  # shold only be S
+unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C, ]$D.precedence) # should only be 0, if NA, conflict should have a cap S (next line)
+unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C & is.na(MEASUREMENTS$D.precedence), ]$conflicts)  # should only be cap S
 unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C, ]$conflicts) # should not be any I
 
 ### --> All  is good !
