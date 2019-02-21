@@ -80,7 +80,7 @@ for(cluster in clusters_with_potential_duplicates) {
       
       if ( length(unique(duplicates)) == 1 ) {
         group.c[, c][s[, c] %in% duplicates] <- seq(s[, c][s[, c] %in% duplicates])
-        group.c[, c][!s[, c] %in% duplicates] <- paste(seq(s[, c][s[, c] %in% duplicates]), collapse = ",")
+        group.c[, c][!s[, c] %in% duplicates] <- paste(seq(s[, c][s[, c] %in% duplicates]), collapse = ";")
       } else {
         group.c[, c] <- rep(1, length(s[, c]))
       }
