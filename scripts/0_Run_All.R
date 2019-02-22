@@ -11,14 +11,32 @@ rm(list = ls())
 # Set working directory as ForC main folder ####
 setwd(".")
 
-
 # Run all necessary scripts
+
+## check for special characters
+source("scripts/QA_QC/checks_for_special_characters.R") # if no errors show up, you are good to move on
 
 ## Generate plots from History ####
 source("scripts/Database_manipulation/Generate PLOTS from HISTORY/ForC_plots_from_history.R")
 
-## Group sites into areas ?
-# source("scripts/Database_manipulation/Group_sites_into_areas/Group_sites_into_geographic_areas_25km.R")
+
+## Data quality and Checks
+source("scripts/QA_QC/checks.R")
+
+
+## Get biogeog, Koeppen and FAO zones
+source("scripts/Database_manipulation/Extract_site_info_based_on_lat_long/Extract_Koppen_and_FAO_zones_frome_shapefiles.R")
+
+## Group sites into areas
+source("scripts/Database_manipulation/Extract_site_info_based_on_lat_long/Group_sites_into_geographic_areas_25km.R")
+
+## ID SITES duplicates
+source("scripts/Database_manipulation/Identify_and_resolve_duplicates/ID_sets_of_SITES_duplicates.R")
+
+## ID MEASUREMENTS duplicates
+source("scripts/Database_manipulation/Identify_and_resolve_duplicates/ID_sets_of_duplicate_records.R")
+
+
 
 ## Generate ForC_simplified and ForC_simplified_metadata ####
 ### this internalky runs (source("scripts/Database_manipulation/Reconcile_duplicated_records.R"))
