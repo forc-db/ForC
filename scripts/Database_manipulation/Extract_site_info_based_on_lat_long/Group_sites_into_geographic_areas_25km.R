@@ -26,15 +26,14 @@ threshold.in.km = 25  # 25 km
 
 
 # Get lat long of Sites ####
-idx.non.missing.coordinates <- apply(SITES[, c("lon", "lat")], 1, function(x) !any(is.na(x)))
 
-xy <- SpatialPointsDataFrame(SITES[idx.non.missing.coordinates, c("lon", "lat")], data.frame(sites.sitename = SITES[idx.non.missing.coordinates, ]$sites.sitename),
+xy <- SpatialPointsDataFrame(SITES[, c("lon", "lat")], data.frame(sites.sitename = SITES$sites.sitename),
                              proj4string = CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 "))
 
 plot(xy)
 
 #distance matrix
-dist.in.km.matrix <- rdist.earth(SITES[idx.non.missing.coordinates, c("lon", "lat")], miles = F, R = 6378.137)
+dist.in.km.matrix <- rdist.earth(SITES[, c("lon", "lat")], miles = F, R = 6378.137)
 
 #clustering
 fit <- hclust(as.dist(dist.in.km.matrix), method = "single")
@@ -53,29 +52,24 @@ table(clusters)
 plot(xy, col = rainbow(length(unique(clusters)))[clusters])
 
 
-# See what changed (sometimes old geographic.area get changed... I think we just go with it)
-cbind(SITES[idx.non.missing.coordinates, ]$sites.sitename, SITES[idx.non.missing.coordinates, ]$geographic.area, clusters)[apply(cbind(SITES[idx.non.missing.coordinates, ]$geographic.area, clusters), 1, function(x) x[1] != x[2]), ] # show the ones that changed... but we want to try to keep the same numbers...
+# Update area column
+cbind(SITES$sites.sitename, SITES$geographic.area, clusters)[apply(cbind(SITES$geographic.area, clusters), 1, function(x) x[1] != x[2]), ] # show the ones that changed...
 
-site.ID_by_old_cluster <- split(SITES[idx.non.missing.coordinates, ]$site.ID, SITES[idx.non.missing.coordinates, ]$geographic.area)
-site.ID_by_new_cluster <- split(SITES[idx.non.missing.coordinates, ]$site.ID, clusters)
 
-names(site.ID_by_old_cluster)[!(names(site.ID_by_old_cluster) %in% names(site.ID_by_new_cluster))] # should only be NAC
-
-# Update geographic.area column
-SITES[idx.non.missing.coordinates, ]$geographic.area <- clusters
+SITES$geographic.area <- clusters
 
 # double check some things
 
 
 ## check countries per cluser
-A <- by(SITES[idx.non.missing.coordinates, ]$country, SITES[idx.non.missing.coordinates, ]$geographic.area, function(x) length(unique(x)))  
+A <- by(SITES$country, SITES$geographic.area, function(x) length(unique(x)))  
 names(A[A != 1])
   
 for(i in names(A[A != 1])){
   x <- SITES[SITES$geographic.area == i,]
   print(unique(x$country))
   plot(xy, main = paste("geographic areas in", unique(x$country)))
-  points(xy[SITES[idx.non.missing.coordinates, ]$geographic.area == i,], col = rainbow(length(unique(clusters)))[clusters[SITES[idx.non.missing.coordinates, ]$geographic.area == i]], pch = 16)
+  points(xy[SITES$geographic.area == i,], col = rainbow(length(unique(clusters)))[clusters[SITES$geographic.area == i]])
 }
 
 
