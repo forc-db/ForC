@@ -15,7 +15,7 @@ setwd(".")
 
 # Load tables ####
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
-
+SITES_MISSING_COOR <- read.csv("data/ForC_sites_missing_coordinates.csv", stringsAsFactors = F)
 
 # separate out SITES with missing coordinates ####
 SITES_with_missing_coordinates <- SITES[apply(SITES[, c("lon", "lat")], 1, function(x) any(is.na(x))), ]
@@ -23,6 +23,7 @@ SITES_without_missing_coordinates <- SITES[apply(SITES[, c("lon", "lat")], 1, fu
 
 if(!(nrow(SITES_without_missing_coordinates) + nrow(SITES_with_missing_coordinates)) == nrow(SITES)) stop("There is a problem, the number of rows don't add up right")
 
+SITES_with_missing_coordinates <- rbind(SITES_MISSING_COOR, SITES_with_missing_coordinates)
 # SAVE ####
 
 write.csv(SITES_without_missing_coordinates, "data/ForC_sites.csv", row.names = F)
