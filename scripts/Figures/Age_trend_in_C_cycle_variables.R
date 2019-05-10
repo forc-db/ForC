@@ -34,7 +34,7 @@ my_is.na <- function(x) { is.na(x) | x %in% na_codes}
 my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 
 # set parameters ####
-save.plot = F
+save.plot = T
 
 # Prepare data ####
 
