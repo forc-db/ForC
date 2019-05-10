@@ -143,11 +143,12 @@ SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% "Australia"] <- "Austral
 SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% "New Zealand"] <- "Oceania"
 
 SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("Malaysia", "Japan", "China", "Cambodia", "Turkey")] <- "Asia"
-SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("French Guiana", "Brazil", "Panama")] <- "South America"
+SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("French Guiana", "Brazil", "Panama", "Belize")] <- "South America"
 
 
 if(any(is.na(SITES$biogeog) | SITES$biogeog %in% "NAC")) stop("There are missing biogeog that you need to fill by hand in this script.")
 
+SITES[is.na(SITES$biogeog), c("sites.sitename", "lat", "lon", "country")]
 # SAVE ####
 
 write.csv(SITES, "data/ForC_sites.csv", row.names = F)

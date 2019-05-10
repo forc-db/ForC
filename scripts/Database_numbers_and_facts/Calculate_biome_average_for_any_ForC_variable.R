@@ -180,6 +180,7 @@ for (v.diag in unique(Variables_mapping$variable.diagram)) { # for each variable
     # caluculate weigh, keep it only if we are working with flux data and start and end dates are given
     timint <- difftime(x$end.date, x$start.date, units = "days") / 365
     timint <- ifelse(is.na(timint), 1, timint) # take 1 if there is no start and end date
+    timint <- ifelse(timint == 0, 1, timint) # take 1 if there is start and end date are equal (assuming they are 1 year measuremet from Jan 01 to dec 31)
     if(!flux) timint[] <- 1 # take the timint only if we are working in a flux, otherwise just put 1
     
     # get the highest variable name
@@ -190,6 +191,8 @@ for (v.diag in unique(Variables_mapping$variable.diagram)) { # for each variable
     x.out$mean <-  weighted.mean(x$mean, timint)# replace the mean by the average of all rows, weighted by time intervalle if flux with start and end date
       
     X.final <- rbind(X.final, x.out)
+    
+    if(is.na(x.out$mean)) stop("problem: mean is NA") # stop if we get an NA for the mean
   }
   
   if(nrow(X.final) != length(X.split)) {stop("Problem when averaging per plot, we don't end up with th right number of observations...")}

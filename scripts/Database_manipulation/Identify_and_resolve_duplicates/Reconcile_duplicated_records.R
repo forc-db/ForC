@@ -48,11 +48,12 @@ all(A %in% B) # should be FASLE
 
 C <- A[!A %in% B] # missing IDs
 
-unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C, ]$D.precedence) # should only be 0, if NA, conflict should have a cap S (next line)
+unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C, ]$D.precedence) # should only be 0, if NA, conflict should have a cap S (next line), if NAC, need to resolve that manually... those will be ignored for now
 unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C & is.na(MEASUREMENTS$D.precedence), ]$conflicts)  # should only be cap S
 unique(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% C, ]$conflicts) # should not be any I
 
 ### --> All  is good !
+
 
 
 

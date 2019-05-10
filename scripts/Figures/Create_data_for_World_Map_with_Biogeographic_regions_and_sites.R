@@ -112,7 +112,7 @@ MEASUREMENTS_Summary <- merge(MEASUREMENTS[, c("sites.sitename", "plot.name")], 
 
 
 ### forested area
-forested_area <- table(SITES$Ecoregion[grepl("forest", SITES$FAOecozone)])
+forested_area <- table(SITES$Ecoregion[grepl("forest", SITES$FAO.ecozone)])
 
 ### No. of sites
 No._of_sites <- table(SITES$Ecoregion)

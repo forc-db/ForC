@@ -24,6 +24,10 @@ source("scripts/Database_manipulation/Generate PLOTS from HISTORY/ForC_plots_fro
 source("scripts/QA_QC/checks.R")
 
 
+## before getting coordinare related info, seperate sites without coordinates
+source("scripts/Database_manipulation/Separate_out_SITES_with_missing_coordinates.R")
+
+
 ## Get biogeog, Koeppen and FAO zones
 source("scripts/Database_manipulation/Extract_site_info_based_on_lat_long/Extract_Koppen_and_FAO_zones_frome_shapefiles.R")
 
