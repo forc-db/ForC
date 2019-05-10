@@ -107,7 +107,7 @@ if(!all(na.omit(MEASUREMENTS$allometry_2) [!na.omit(MEASUREMENTS$allometry_2) %i
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
 MEASUREMENTS %>% 
-  filter(!method.ID %in% na_codes) %>% 
+  filter(!method.ID %in% na_codes & !is.na(method.ID)) %>% 
   anti_join(METHODOLOGY, by = c("method.ID")) %>% 
   distinct(measurement.ID, method.ID) ->
   m_no_m
@@ -250,9 +250,9 @@ if(!all(HISTTYPE$hist.type2 %in% HISTORY$hist.type))  stop("There are hist.type 
 HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type] # Leave Precipitation Diversion
 
 # All hist.type exist in PLOTS
-if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$dist.mrs.hist.type, PLOTS$dist_1.hist.type, PLOTS$dist_2.hist.type)))) stop("There are hist.cat in HISTTYPE that don't exist in PLOTS table. SEE")
+if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type)))) stop("There are hist.cat in HISTTYPE that don't exist in PLOTS table. SEE")
 
-HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.hist.type, PLOTS$dist.mrs.hist.type, PLOTS$dist_1.hist.type, PLOTS$dist_2.hist.type))] # keep for furture records
+HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type))] # keep for furture records
 
 
   
@@ -331,7 +331,7 @@ for(i in 1:nrow(VARIABLES)){
   
 
     if(n.records.v == 0 & nrow(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]) > 0){
-      Value.for.variables.without.range <- rbind(Value.for.variables.without.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, c("measurement.ID", "sites.sitename", "variable.name", "mean")]))
+      Value.for.variables.without.range <- rbind(Value.for.variables.without.range, data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, c("measurement.ID", "sites.sitename", "variable.name", "mean")], min_range = min.v, max_range = max.v))
     }
   
   
@@ -348,7 +348,7 @@ for(i in 1:nrow(VARIABLES)){
       
       flagged.ID <- c(x$measurement.ID[x$mean < min.v], x$measurement.ID[x$mean > max.v])
       
-      if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v & MEASUREMENTS$measurement.ID %in% flagged.ID, c("measurement.ID", "sites.sitename", "variable.name", "mean")]))
+      if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v & MEASUREMENTS$measurement.ID %in% flagged.ID, c("measurement.ID", "sites.sitename", "variable.name", "mean")], min_range = min.v, max_range = max.v))
       
       
     }
@@ -380,6 +380,9 @@ for(i in 1:nrow(VARIABLES)){
 
 warning(paste("There is", nrow(mean.not.within.range), "measurements falling out of variable range"))
 if(nrow(mean.not.within.range) > 0) cat("See mean.not.within.range")
+
+View(mean.not.within.range)
+View(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% mean.not.within.range$measurement.ID, ])
 
 cat(paste("There is", nrow(covariate_1.not.within.range), "covariate_1 value(s) falling out of variable range"))
 if(nrow(covariate_1.not.within.range) > 0) cat("See covariate_1.not.within.range")
