@@ -19,6 +19,7 @@ setwd(".")
 
 # Load ForC MEASUREMENTS table ####
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
+SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 
 # Prepare data to plot ####
 max.age <- 200
@@ -30,6 +31,10 @@ MEASUREMENTS$ageclass <- as.factor(ifelse(as.numeric(MEASUREMENTS$stand.age) == 
                                                  "known <= max.age")))
 
 MEASUREMENTS$age.round <- round(as.numeric(as.character(MEASUREMENTS$stand.age))/ 5, 0) * 5
+
+MEASUREMENTS$lat <- SITES$lat[match(MEASUREMENTS$sites.sitename, SITES$sites.sitename)]
+MEASUREMENTS$tropical.extratropical <- ifelse(abs(MEASUREMENTS$lat) > 23.5, "Extratropical", "Tropical")
+
 
 
 ## known age <= max.age
