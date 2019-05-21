@@ -6678,4 +6678,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3107.02,YRP,US-Wi0,NAC,1,1999,8.5,Establishment,Establishment of oldest trees,0,NI,NA,NA,NA,NA
 3108.01,MHW,US-Wi3,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 3109.01,MRP,US-Wi4,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-3110.01,Mongu,ZM-Mon,NAC,1,NAC,9,No.disturbance,NAC,NA,NA,NA,NA,NA,NA
+3110.01,Mongu,ZM-Mon,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+3111.01,Dukes Research Natural Area,RNA,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+3112.01,Huron Mountains,Huron,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
