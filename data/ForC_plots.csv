@@ -2724,7 +2724,7 @@
 2738,"Danum Valley CTFS-ForestGEO plot","25-ha of 50-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2739,"Fushan CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2740,"Gutianshan CTFS-ForestGEO plot","24-ha forest dynamics plot","24",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2741,"Harvard Forest CTFS-ForestGEO plot","35-ha forest dynamics plot","35",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2741,"Harvard Forest CTFS-ForestGEO plot","35-ha forest dynamics plot","35",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2742,"Heishiding CTFS-ForestGEO plot","50-ha forest dynamics plot","50",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2743,"Hong Kong CTFS-ForestGEO plot","20-ha forest dynamics plot","20",2743.03,"1960",2743.02,"Initiation of post-disturbance cohort (planted or natural)","1960",2743.01,"Harvest","100","1960",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2744,"Huai Kha Khaeng CTFS-ForestGEO plot","50-ha forest dynamics plot","50",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,2744.02,"Burned","<100%","1991",2744.03,"Other","<100%","1998",0,0,0,0,0,0,0
@@ -2734,7 +2734,7 @@
 2748,"Jianfengling CTFS-ForestGEO plot","60-ha forest dynamics plot","60",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2749,"Kenting CTFS-ForestGEO plot","9.6-ha forest dynamics plot","9.6",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2750,"Korup CTFS-ForestGEO plot","50-ha forest dynamics plot","50",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2751,"La Planada CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1986",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2751,"La Planada CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1986",0,0,2751.01,"Harvest","<10%","1986",0,NA,NA,NA,0,0,0,0,0,0,0
 2752,"Lambir CTFS-ForestGEO plot","52-ha forest dynamics plot","52",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2752,"Laupahoehoe CTFS-ForestGEO plot","4-ha forest dynamics plot","4",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,2752.01,"Harvest","minor","1700",0,NA,NA,NA,0,0,0,0,0,0,2752.03
 2753,"Lienhuachih CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2752,9 +2752,9 @@
 2765,"Santa Cruz CTFS-ForestGEO plot","6-ha forest dynamics plot (original plot)","5.96",2765.02,"1900",0,"NAC","NAC",0,"No disturbance",NA,"1930",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2766,"Scotty Creek CTFS-ForestGEO plot","9.6 ha of 21-ha forest dynamics plot","9.6",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2767,"Sinharaja CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,2767.02,"Other","NI","1995",0,NA,NA,NA,0,0,0,0,0,0,0
-2768,"Smithsonian Environmental Research Center CTFS-ForestGEO plot","16-ha forest dynamics plot","16",2768.01,"1900",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2768,"Smithsonian Environmental Research Center CTFS-ForestGEO plot","16-ha forest dynamics plot","16",2768.01,"1900",2768.02,"Initiation of post-disturbance cohort (natural)","1900",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2769,"Tyson Research Center CTFS-ForestGEO plot","20.16-ha forest dynamics plot","20.16",2769.02,"1820",0,"NAC","NAC",0,"No disturbance",NA,"1935",0,0,2769.01,"Harvest",NA,"1900",0,NA,NA,NA,0,0,0,0,0,0,0
-2770,"Wabikon CTFS-ForestGEO plot","25.2-ha forest dynamics plot","25.2",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1900",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2770,"Wabikon CTFS-ForestGEO plot","25.2-ha forest dynamics plot","25.2",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1900",0,0,2770.01,"Harvest",NA,"1900",0,NA,NA,NA,0,0,0,0,0,0,0
 2771,"Wanang CTFS-ForestGEO plot","50-ha forest dynamics plot","50",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2772,"Wind River CTFS-ForestGEO plot","25.6 ha of 27.2-ha forest dynamics plot","25.6",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2773,"Wytham Woods CTFS-ForestGEO plot","18-ha forest dynamics plot","18",2773.01,"NI",2773.04,"Planted_and_natural_regeneration","NI",2773.03,"Harvest","NI","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3031,30 +3031,30 @@
 3057,"Daxing'anling 34yrs","34yrs","NAC",3057.02,"1967",3057.01,"Initiation of post-disturbance cohort (planted or natural)","1967",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3058,"Minnesota","71yrs","NAC",3058.02,"1930",3058.01,"Initiation of post-disturbance cohort (planted or natural)","1930",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3059,"Minnesota","106yrs","NAC",3059.02,"1895",3059.01,"Initiation of post-disturbance cohort (planted or natural)","1895",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3065,"New Brunswick, FNP","A1","0.04",3065.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3066,"New Brunswick, FNP","A2","0.04",3066.01,"1942",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3067,"New Brunswick, FNP","A3","0.04",3067.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3068,"New Brunswick, FNP","M1","0.04",3068.01,"1892",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3069,"New Brunswick, FNP","C1","0.04",3069.01,"1922",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3070,"New Brunswick, FNP","C2","0.04",3070.01,"1902",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3071,"New Brunswick, FNP","C3","0.04",3071.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3072,"New Brunswick, FNP","S21","0.01",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3072.04,0
-3073,"New Brunswick, FNP","S15","0.01",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3073.04,0
-3074,"New Brunswick, FNP","S13","0.01",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3074.03,0
-3075,"New Brunswick, FNP","S8","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3075.04,0
-3076,"New Brunswick, FNP","S7A","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3076.04,0
-3077,"New Brunswick, FNP","S7B","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3077.04,0
-3078,"New Brunswick, FNP","L6","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3078.04,0
-3079,"New Brunswick, FNP","S5A","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3079.04,0
-3080,"New Brunswick, FNP","S4","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3080.04,0
-3081,"New Brunswick, FNP","S3A","0.002",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3081.04,0
-3082,"New Brunswick, FNP","S3B","0.0025",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3082.04,0
+3065,"New Brunswick, FNP","A1","0.04",3065.01,"1937",3065.03,"Initiation of post-disturbance cohort (natural)","NI",3065.02,"Harvest","<100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3066,"New Brunswick, FNP","A2","0.04",3066.01,"1942",3066.03,"Initiation of post-disturbance cohort (natural)","NI",3066.02,"Harvest","<100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3067,"New Brunswick, FNP","A3","0.04",3067.01,"1937",3067.03,"Initiation of post-disturbance cohort (natural)","NI",3067.02,"Harvest","<100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3068,"New Brunswick, FNP","M1","0.04",3068.01,"1892",3068.03,"Initiation of post-disturbance cohort (natural)","NI",3068.02,"Harvest","<100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3069,"New Brunswick, FNP","C1","0.04",3069.01,"1922",3069.03,"Initiation of post-disturbance cohort (natural)","NI",3069.02,"Harvest","<100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3070,"New Brunswick, FNP","C2","0.04",3070.01,"1902",3070.03,"Initiation of post-disturbance cohort (natural)","NI",3070.02,"Harvest","<100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3071,"New Brunswick, FNP","C3","0.04",3071.01,"1907",3071.03,"Initiation of post-disturbance cohort (natural)","NI",3071.02,"Harvest","<100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3072,"New Brunswick, FNP","S21","0.01",0,"NAC",3072.03,"Seeded_trees","NI",3072.02,"Harvest","100","NI",3072.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3072.04,0
+3073,"New Brunswick, FNP","S15","0.01",0,"NAC",3073.03,"Seeded_trees","NI",3073.02,"Harvest","100","NI",3073.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3073.04,0
+3074,"New Brunswick, FNP","S13","0.01",0,"NAC",3074.03,"Seeded_trees","NI",3074.02,"Harvest","100","NI",3074.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3074.03,0
+3075,"New Brunswick, FNP","S8","0.0025",0,"NAC",3075.03,"Seeded_trees","NI",3075.02,"Harvest","100","NI",3075.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3075.04,0
+3076,"New Brunswick, FNP","S7A","0.0025",0,"NAC",3076.03,"Seeded_trees","NI",3076.02,"Harvest","100","NI",3076.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3076.04,0
+3077,"New Brunswick, FNP","S7B","0.0025",0,"NAC",3077.03,"Seeded_trees","NI",3077.02,"Harvest","100","NI",3077.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3077.04,0
+3078,"New Brunswick, FNP","L6","0.0025",0,"NAC",3078.03,"Seeded_trees","NI",3078.02,"Harvest","100","NI",3078.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3078.04,0
+3079,"New Brunswick, FNP","S5A","0.0025",0,"NAC",3079.03,"Seeded_trees","NI",3079.02,"Harvest","100","NI",3079.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3079.04,0
+3080,"New Brunswick, FNP","S4","0.0025",0,"NAC",3080.03,"Seeded_trees","NI",3080.02,"Harvest","100","NI",3080.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3080.04,0
+3081,"New Brunswick, FNP","S3A","0.002",0,"NAC",3081.03,"Seeded_trees","NI",3081.02,"Harvest","100","NI",3081.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3081.04,0
+3082,"New Brunswick, FNP","S3B","0.0025",0,"NAC",3082.03,"Seeded_trees","NI",3082.02,"Harvest","100","NI",3082.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3082.04,0
 3083,"WACOAST,Olympic Peninsula,HR","HR02","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3084,"WACOAST,Olympic Peninsula,HR","HR03","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3085,"WACOAST,Olympic Peninsula,HR","HR04","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3086,"Jadraas","Ih-V","NAC",3086.02,"1850",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3086,"Jadraas","Ih-V","NAC",3086.02,"1850",3086.01,"Initiation of post-disturbance cohort (natural)","1850",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3087,"Metolius young II","US-Me6","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3088,"New Brunswick, FNP","S5B","NAC",3088.02,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3088,"New Brunswick, FNP","S5B","NAC",3088.02,"1992",3088.01,"Initiation of post-disturbance cohort (natural)","1992",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3089,"Adelaide River","AU-Ade","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3090,"Cumberland Plain","AU-Cum","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3091,"Gingin","AU-Gin","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3062,7 +3062,7 @@
 3093,"Robson Creek","AU-Rob","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3094,"Wallaby Creek","AU-Wac","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3095,"Whroo","AU-Whr","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3096,"Wombat","AU-Wom","NAC",3096.02,"1985",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3096,"Wombat","AU-Wom","NAC",3096.02,"1985",3096.01,"Initiation of post-disturbance cohort (natural)","1985",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3097,"Davos","CH-Dav","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3098,"Laegern","CH-Lae","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3099,"Lackenberg","DE-Lkb","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3073,7 +3073,9 @@
 3104,"GLEES","US-GLE","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3105,"Metolius Mature","US-Me2","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3106,"Poker Flat","US-Prr","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3107,"YRP","US-Wi0","NAC",3107.02,"1999",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3107,"YRP","US-Wi0","NAC",3107.02,"1999",3107.01,"Initiation of post-disturbance cohort (natural)","1999",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3108,"MHW","US-Wi3","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3109,"MRP","US-Wi4","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3110,"Mongu","ZM-Mon","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3110,"Mongu","ZM-Mon","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3111,"Dukes Research Natural Area","RNA","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3112,"Huron Mountains","Huron","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
