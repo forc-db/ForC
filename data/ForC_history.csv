@@ -4619,7 +4619,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2100.01,San Pablo de Tregua,Laureliopsis philippiana,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 2101.01,San Pablo de Tregua,Nothofagus dombeyi,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 2102.01,San Pedro mesquite woodland,velvet mesquite dominated woodland,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,NA
-2103.01,San PedroSan Pedro- SPD-02,SPD02,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,2276
+2103.01,San Pedro- SPD-02,SPD02,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,2276
 2104.01,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,1,1983.665753,6,Disturbance,Burned,NA,NA,NA,NAC,NA,1476
 2104.02,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,2,1983.665753,6,Disturbance,Cut,NA,100,%,100,clear-cut,1477
 2104.03,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,3,1983.665753,6,Disturbance,Cultivation,NA,NA,NA,100,Oryza sativa,1478
