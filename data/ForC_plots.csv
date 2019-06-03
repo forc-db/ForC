@@ -2093,7 +2093,7 @@
 2100,"San Pablo de Tregua","Laureliopsis philippiana","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2101,"San Pablo de Tregua","Nothofagus dombeyi","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2102,"San Pedro mesquite woodland","velvet mesquite dominated woodland","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2103,"San Pedro","SPD02","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2103,"San Pedro- SPD-02","SPD02","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2104,"San Ramon Experiment Station fallow systems","Stand development of managed fallow systems","NAC",2104.05,"1984.084699",2104.05,"Initiation of post-disturbance cohort (natural)","1984.084699",2104.03,"Cultivation","100","1983.665753",2104,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,2104.04,0
 2105,"San Rossore","Managed","NAC",2105.01,"1959",2105.02,"Initiation of post-disturbance cohort (planted or natural)","1959",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2106,"Santa Rita Mesquite savanna","Managed grazed woody-plant-encroached semiarid grassland","NAC",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,2106.01,"Grazed",NA,"1957",0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3081,6 +3081,8 @@
 3112,"Huron Mountains","Huron","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3113,"Pantiacolla 2","PAN02","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3114,"Pantiacolla 3","PAN03","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3115,"San Pedro","SPD01","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3115,"San Pedro- SPD-01","SPD01","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3116,"Esperanza","ESP01","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3117,"Acjanaco","ACJ01","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3118,"Santiam Pass OTER","Santiam Pass","NAC",3118.01,"1860",3118.02,"Initiation of post-disturbance cohort (planted or natural)","1860",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3119,"Teshio","Teshio Experimental Forest","NAC",3119.01,"1850",3119.02,"Initiation of post-disturbance cohort (planted or natural)","1850",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
