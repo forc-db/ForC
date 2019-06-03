@@ -6686,3 +6686,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3115.01,San Pedro- SPD-01,SPD01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3116.01,Esperanza,ESP01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3117.01,Acjanaco,ACJ01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+3118.01,Santiam Pass OTER,Santiam Pass,NAC,1,1860,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3118.02,Santiam Pass OTER,Santiam Pass,NAC,1,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
+3119.01,Teshio,Teshio Experimental Forest,NAC,1,1850,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3119.02,Teshio,Teshio Experimental Forest,NAC,1,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
