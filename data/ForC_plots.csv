@@ -2154,7 +2154,7 @@
 2161,"Saskatchewan SK5","Picea mariana-87%, Populus balsamifera-7%, Pinus banksiana-6%","0.08",2161.01,"1838",0,"NAC","NAC",0,"No disturbance",NA,"1838",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2162,"SAT 1000","Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment","NAC",2162.03,"NI",2162.02,"Initiation of post-disturbance cohort (natural)","NI",2162.01,"Grazed","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2163,"SAT 900","Premontane Wet, Transition to Basal, Atlantic Forest recovery following pasture abandonment","NAC",2163.03,"NI",2163.02,"Initiation of post-disturbance cohort (natural)","NI",2163.01,"Grazed","100","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2164,"Savage River S.F., Turkey Lodge"," old-growth forest","0.21",2164.01,"1920",0,"NAC","NAC",0,"No disturbance",NA,"1920",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2164,"Savage River S.F., Turkey Lodge","old-growth forest","0.21",2164.01,"1920",0,"NAC","NAC",0,"No disturbance",NA,"1920",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2165,"Savanna sites within 65km of Darwin","Howard Springs, Humpty Doo and Territory Wildlife Park","0.36",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,2165.01,"Burned","<100%","NI",0,NA,NA,NA,0,0,0,0,0,0,0
 2166,"Schacht","Managed","NAC",2166.01,"1875",2166.02,"Initiation of post-disturbance cohort (planted or natural)","1875",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2167,"Schanze","PO","NAC",2167.01,"1960",2167.02,"Initiation of post-disturbance cohort (planted or natural)","1960",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2219,7 +2219,7 @@
 2226,"Slash pine Florida rotation-aged","rotation-aged slash pine plantation","NAC",2226.02,"1973",2226.03,"Planted","1973",2226.01,"Cut","100","1972",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2227,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","25.6-ha forest dynamics plot","25.6",2227.03,"1900",0,"NAC","NAC",0,"No severe disturbance",NA,"1973",0,2227,2227.04,"Harvest","<100%","NI",2227.05,"Grazed","<100%","1909",2227.09,0,0,0,0,0,2227
 2228,"Smithsonian Environmental Research Center (SERC), Frog Canyon","Quercus spp. old-growth forest","0.21",2228.01,"1874",0,"NAC","NAC",0,"No disturbance",NA,"1874",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2229,"Smithsonian Environmental Research Center (SERC), Hog Island"," old-growth forest","0.21",2229.01,"1754",0,"NAC","NAC",0,"No disturbance",NA,"1754",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2229,"Smithsonian Environmental Research Center (SERC), Hog Island","old-growth forest","0.21",2229.01,"1754",0,"NAC","NAC",0,"No disturbance",NA,"1754",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2230,"Sodankyla","unmanaged","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2231,"Solling project B1","Forest recovery following clear-cut.122y","NAC",2231.03,"1847",2231.02,"Initiation of post-disturbance cohort (natural)","1847",2231.01,"Cut","100","1847",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2232,"Solling project B3","Forest recovery following clear-cut.80y","NAC",2232.03,"1889",2232.02,"Initiation of post-disturbance cohort (natural)","1889",2232.01,"Cut","100","1889",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2757,7 +2757,7 @@
 2770,"Wabikon CTFS-ForestGEO plot","25.2-ha forest dynamics plot","25.2",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1900",0,0,2770.01,"Harvest",NA,"1900",0,NA,NA,NA,0,0,0,0,0,0,0
 2771,"Wanang CTFS-ForestGEO plot","50-ha forest dynamics plot","50",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2772,"Wind River CTFS-ForestGEO plot","25.6 ha of 27.2-ha forest dynamics plot","25.6",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2773,"Wytham Woods CTFS-ForestGEO plot","18-ha forest dynamics plot","18",2773.01,"NI",2773.04,"Planted_and_natural_regeneration","NI",2773.03,"Harvest","NI","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2773,"Wytham Woods CTFS-ForestGEO plot","18-ha forest dynamics plot","18",2773.01,"NI",2773.04,"Planted_and_natural_regeneration","NI",2773.03,"Harvest","NI","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,2773.05,0
 2778,"Xishuangbanna CTFS-ForestGEO plot","20-ha forest dynamics plot","20",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2779,"Yasuni CTFS-ForestGEO plot","25-ha forest dynamics plot (western half of 50-ha forest dynamics plot)","25",0,"NAC",0,"NAC","NAC",0,"No major disturbance",NA,"NI",0,0,2779.02,"Other","4","1980",0,NA,NA,NA,0,0,0,0,0,0,2779.04
 2780,"Yosemite National Park CTFS-ForestGEO plot","25.6-ha forest dynamics plot","25.6",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2928,8 +2928,8 @@
 2949,"Belem","Combu Island","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2950,"Japi Mountains","altitudinal forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2951,"Japi Mountains","semideciduous forest","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2952,"Manaus I ","campinarana","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2953,"Manaus I ","baixio","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2952,"Manaus I","campinarana","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2953,"Manaus I","baixio","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2954,"Badas","Badas","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2955,"Andalau","Andalau","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2956,"Southern Bakundu Forest Reserve","Experiments 1&2","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3086,3 +3086,751 @@
 3117,"Acjanaco","ACJ01","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3118,"Santiam Pass OTER","Santiam Pass","NAC",3118.01,"1860",3118.02,"Initiation of post-disturbance cohort (planted or natural)","1860",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3119,"Teshio","Teshio Experimental Forest","NAC",3119.01,"1850",3119.02,"Initiation of post-disturbance cohort (planted or natural)","1850",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3120,"BOREAS NSA-D1998","Aggrading Boreal Evergreen Forest. Stand established around 1998","NAC",3120.01,"1998",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3121,"BOREAS NSA-D1995","Aggrading Boreal Deciduous Forest. Stand established around 1995","NAC",3121.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3122,"BOREAS NSA-D1989","Aggrading Boreal Deciduous Forest. Stand established around 1989","NAC",3122.01,"1989",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3123,"BOREAS NSA-D1981","Aggrading Boreal Mixed Forest. Stand established around 1981","NAC",3123.01,"1981",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3124,"BOREAS NSA-D1964","Aggrading Boreal Evergreen Forest. Stand established around 1964","NAC",3124.01,"1964",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3125,"BOREAS NSA-D1930","Boreal Evergreen Forest. Stand established around 1930","NAC",3125.01,"1930",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3126,"BOREAS NSA-D1850; NOBS","Boreal Evergreen Forest. Stand established around 1850","NAC",3126.01,"1850",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3127,"BOREAS NSA-W1998","Aggrading Boreal Evergreen Forest. Stand established around 1998","NAC",3127.01,"1998",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3128,"BOREAS NSA-W1995","Aggrading Boreal Deciduous Forest. Stand established around 1995","NAC",3128.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3129,"BOREAS NSA-W1989","Aggrading Boreal Deciduous Forest. Stand established around 1989","NAC",3129.01,"1989",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3130,"BOREAS NSA-W1981","Aggrading Boreal Mixed Forest. Stand established around 1981","NAC",3130.01,"1981",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3131,"BOREAS NSA-W1964","Aggrading Boreal Evergreen Forest. Stand established around 1964","NAC",3131.01,"1964",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3132,"BOREAS NSA-W1930","Boreal Evergreen Forest. Stand established around 1930","NAC",3132.01,"1930",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3133,"BOREAS NSA-W1850; NOBS","Boreal Evergreen Forest. Stand established around 1850","NAC",3133.01,"1850",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3134,"Ewel9","Aggrading Temperate Evergreen Forest. Stand established around 1975","NAC",3134.01,"1975",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3135,"Ewel29","Temperate Evergreen Forest. Stand established around 1955","NAC",3135.01,"1955",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3136,"Oak Ridge","Temperate Deciduous Forest. Stand established around 1927","NAC",3136.01,"1927",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3137,"Haynes1","Temperate Evergreen Forest. Stand established around 1960","NAC",3137.01,"1960",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3138,"Haynes1","Managed Temperate Evergreen Forest with Fertilization (300 kgN/ha/yr) treatment. Stand established around 1960","NAC",3138.01,"1960",3138.02,"Initiation of post-disturbance cohort (planted or natural)","1960",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3138.03,0,0
+3139,"Harvard","Temperate Deciduous Forest. Stand established around 1911","NAC",3139.01,"1911",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3140,"Wiedenbrunnen","Aggrading Temperate Evergreen Forest. Stand established around 1950","NAC",3140.01,"1950",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3141,"Coulissenhieb","Temperate Evergreen Forest. Stand established around 1851","NAC",3141.01,"1851",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3142,"Duke FACE","Aggrading Temperate Evergreen Forest. Stand established around 1982","NAC",3142.01,"1982",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3143,"Arneth1","Aggrading Temperate Evergreen Forest. Stand established around 1987","NAC",3143.01,"1987",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3144,"Bonanza Creek","Boreal Evergreen Forest. Stand established around 1891","NAC",3144.01,"1891",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3145,"Bonanza Creek","Boreal Evergreen Forest. Stand established around 1926","NAC",3145.01,"1926",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3146,"Bonanza Creek","Boreal Evergreen Forest. Stand established around 1881","NAC",3146.01,"1881",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3147,"Hesse Forest","Aggrading Temperate Deciduous Forest. Stand established around 1967","NAC",3147.01,"1967",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3148,"Oak Ridge","Temperate Deciduous Forest. Stand established around 1896","NAC",3148.01,"1896",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3149,"Oak Ridge","Aggrading Temperate Deciduous Forest with Clearcut treatment. Stand established around 1981","NAC",3149.02,"1981",3149.03,"Initiation of post-disturbance cohort (planted or natural)","1981",3149.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3150,"Euskirchen_2006_cfia research site in Michigan USA","Aggrading Temperate Evergreen Forest. Stand established around 1989","NAC",3150.01,"1989",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3151,"Paragominas","Tropical Evergreen Forest","NAC",3151.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3152,"BOREAS SSA-OBS","Boreal Evergreen Forest. Stand established around 1880","NAC",3152.01,"1880",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3153,"BOREAS SSA-BSSP","Boreal Evergreen Forest. Stand established around 1880","NAC",3153.01,"1880",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3154,"Norunda-N","Boreal Evergreen Forest. Stand established around 1965","NAC",3154.01,"1965",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3155,"Norunda-SW","Boreal Evergreen Forest. Stand established around 1949","NAC",3155.01,"1949",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3156,"Metiolus-Y","Aggrading Temperate Evergreen Forest. Stand established around 1985","NAC",3156.01,"1985",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3157,"Metiolus-O","Temperate Evergreen Forest. Stand established around 1749","NAC",3157.01,"1749",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3158,"Metiolus-O","Temperate Evergreen Forest. Stand established around 1750","NAC",3158.01,"1750",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3159,"Metiolus-O","Temperate Evergreen Forest. Stand established around 1751","NAC",3159.01,"1751",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3160,"Metiolus-O","Temperate Evergreen Forest. Stand established around 1746","NAC",3160.01,"1746",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3161,"BOREAS SSA-OBS","Boreal Evergreen Forest. Stand established around 1883","NAC",3161.01,"1883",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3162,"Oak Ridge","Temperate Deciduous Forest. Stand established around 1944","NAC",3162.01,"1944",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3163,"Manaus","Tropical Evergreen Forest","NAC",3163.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3164,"Harvard Forest-Prospect Hill","Temperate Deciduous Forest. Stand established around 1936","NAC",3164.01,"1936",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3165,"Maruia","Temperate Deciduous Forest","NAC",3165.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3166,"Aheden","Boreal Evergreen Forest. Stand established around 1950","NAC",3166.01,"1950",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3167,"Kiel Ecosystem Research Center","Temperate Deciduous Forest. Stand established around 1947","NAC",3167.01,"1947",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3168,"Ouidah","Tropical Evergreen Forest. Stand established around 1973","NAC",3168.01,"1973",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3169,"SETRES","Aggrading Temperate Evergreen Forest. Stand established around 1984","NAC",3169.01,"1984",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3170,"SETRES","Managed Aggrading Temperate Evergreen Forest with Irrigated treatment. Stand established around 1984","NAC",3170.01,"1984",3170.02,"Initiation of post-disturbance cohort (planted or natural)","1984",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3170.03,0,0,0
+3171,"SETRES","Managed Aggrading Temperate Evergreen Forest with Fertilized treatment. Stand established around 1984","NAC",3171.01,"1984",3171.02,"Initiation of post-disturbance cohort (planted or natural)","1984",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3171.03,0,0
+3172,"SETRES","Managed Aggrading Temperate Evergreen Forest with Irrigated+fertilized treatment. Stand established around 1984","NAC",3172.01,"1984",3172.02,"Initiation of post-disturbance cohort (planted or natural)","1984",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3172.03,3172.04,0,0
+3173,"Vaatsa","Managed Aggrading Boreal Evergreen Forest with Drained treatment. Stand established around 1959","NAC",3173.01,"1959",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3174,"Vesijako","Managed Aggrading Boreal Evergreen Forest with Drained treatment. Stand established around 1948","NAC",3174.01,"1948",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3175,"Kivalo","Managed Boreal Evergreen Forest with Drained treatment. Stand established around 1933","NAC",3175.01,"1933",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3176,"BFG Plantation-C","Aggrading Temperate Evergreen Forest. Stand established around 1973","NAC",3176.01,"1973",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3177,"BOREAS SSA-OJP","Boreal Evergreen Forest. Stand established around 1929","NAC",3177.01,"1929",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3178,"BOREAS SSA-OA","Boreal Deciduous Forest. Stand established around 1927","NAC",3178.01,"1927",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3179,"BOREAS SSA-OBS","Boreal Evergreen Forest. Stand established around 1879","NAC",3179.01,"1879",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3180,"University of Michigan Biological Station","Aggrading Temperate Deciduous Forest. Stand established around 1998","NAC",3180.01,"1998",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3181,"University of Michigan Biological Station","Aggrading Temperate Deciduous Forest. Stand established around 1980","NAC",3181.01,"1980",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3182,"University of Michigan Biological Station","Aggrading Temperate Deciduous Forest. Stand established around 1954","NAC",3182.01,"1954",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3183,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1948","NAC",3183.01,"1948",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3184,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1936","NAC",3184.01,"1936",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3185,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1916","NAC",3185.01,"1916",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3186,"Wytham Woods","Temperate Deciduous Forest. Stand established around 1823","NAC",3186.01,"1823",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3187,"Fuchu","Temperate Evergreen Forest. Stand established around 1900","NAC",3187.01,"1900",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3188,"Roccarespampani","Temperate Deciduous Forest. Stand established around 1960","NAC",3188.01,"1960",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3189,"Kyushu Forest Research and Instruction Station","Temperate Evergreen Forest. Stand established around 1987","NAC",3189.01,"1987",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3190,"Kyushu Forest Research and Instruction Station","Temperate Evergreen Forest with Clearcut treatment. Stand established around 1997","NAC",3190.02,"1997",3190.03,"Initiation of post-disturbance cohort (planted or natural)","1997",3190.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3191,"Delta Junction-BHC","Aggrading Boreal Evergreen Forest. Stand established around 1994","NAC",3191.01,"1994",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3192,"Delta Junction-B90","Aggrading Boreal Evergreen Forest. Stand established around 1990","NAC",3192.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3193,"Delta Junction-B87","Aggrading Boreal Evergreen Forest. Stand established around 1987","NAC",3193.01,"1987",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3194,"Delta Junction-B56","Aggrading Boreal Evergreen Forest. Stand established around 1956","NAC",3194.01,"1956",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3195,"Delta Junction-UB80","Boreal Evergreen Forest. Stand established around 1917","NAC",3195.01,"1917",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3196,"Delta Junction-UB140","Boreal Evergreen Forest. Stand established around 1857","NAC",3196.01,"1857",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3197,"Ogeechee-EFP","Temperate Deciduous Forest","NAC",3197.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3198,"Ogeechee-WFP","Temperate Deciduous Forest","NAC",3198.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3199,"BOREAS SSA-OA","Boreal Deciduous Forest. Stand established around 1924","NAC",3199.01,"1924",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3200,"Pushchino-1","Temperate Deciduous Forest. Stand established around 1947","NAC",3200.01,"1947",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3201,"Yakutsk-IFS","Boreal Deciduous Forest","NAC",3201.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3202,"Yakutsk-IFL","Boreal Deciduous Forest","NAC",3202.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3203,"Yakutsk-SFS","Aggrading Boreal Deciduous Forest","NAC",3203.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3204,"Yakutsk-SFL","Aggrading Boreal Deciduous Forest","NAC",3204.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3205,"Ione Ameriflux","Mediterranean Deciduous Savanna","NAC",3205.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3206,"Fagne de Chimay","Temperate Deciduous Forest","NAC",3206.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3207,"Chequamegon-NH1","Temperate Deciduous Forest. Stand established around 1933","NAC",3207.01,"1933",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3208,"Chequamegon-NH2","Temperate Deciduous Forest. Stand established around 1928","NAC",3208.01,"1928",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3209,"Chequamegon-NH3","Temperate Deciduous Forest. Stand established around 1933","NAC",3209.01,"1933",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3210,"Chequamegon-NH4","Temperate Deciduous Forest. Stand established around 1933","NAC",3210.01,"1933",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3211,"Chequamegon-MA1","Temperate Deciduous Forest. Stand established around 1952","NAC",3211.01,"1952",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3212,"Chequamegon-MA2","Temperate Deciduous Forest. Stand established around 1958","NAC",3212.01,"1958",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3213,"Chequamegon-IA1","Temperate Deciduous Forest. Stand established around 1973","NAC",3213.01,"1973",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3214,"Chequamegon-IA2","Temperate Deciduous Forest. Stand established around 1976","NAC",3214.01,"1976",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3215,"Maoershan ERS-Oak","Temperate Deciduous Forest. Stand established around 1948","NAC",3215.01,"1948",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3216,"Maoershan ERS-Aspen","Temperate Deciduous Forest. Stand established around 1949","NAC",3216.01,"1949",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3217,"Maoershan ERS-DecidMix","Temperate Deciduous Forest. Stand established around 1949","NAC",3217.01,"1949",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3218,"Maoershan ERS-Hardwood","Temperate Deciduous Forest. Stand established around 1954","NAC",3218.01,"1954",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3219,"Maoershan ERS-Pine","Temperate Evergreen Forest. Stand established around 1965","NAC",3219.01,"1965",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3220,"Maoershan ERS-Larch","Temperate Deciduous Forest. Stand established around 1957","NAC",3220.01,"1957",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3221,"H.J. Andrews-DIRT","Temperate Evergreen Forest","NAC",3221.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3222,"Chaux-P1","Temperate Deciduous Forest","NAC",3222.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3223,"Chaux-P2","Temperate Deciduous Forest","NAC",3223.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3224,"Chaux-P3","Temperate Deciduous Forest","NAC",3224.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3225,"Chaux-P4","Temperate Deciduous Forest","NAC",3225.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3226,"Chaux-P5","Temperate Deciduous Forest","NAC",3226.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3227,"Chaux-P6","Temperate Deciduous Forest","NAC",3227.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3228,"Chaux-P7","Temperate Deciduous Forest","NAC",3228.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3229,"Chaux-P8","Temperate Deciduous Forest","NAC",3229.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3230,"Chaux-P9","Temperate Deciduous Forest","NAC",3230.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3231,"Kane-mediumSI","Boreal Evergreen Forest. Stand established around 1916","NAC",3231.01,"1916",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3232,"Luquillo Experimental Forest","Aggrading Mix Forest. Stand established around 1976","NAC",3232.01,"1976",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3233,"Luquillo Experimental Forest","Aggrading Pinus caribae Forest. Stand established around 1976","NAC",3233.01,"1976",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3234,"Fort Benning-clay","Temperate Deciduous Forest","NAC",3234.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3235,"Fort Benning-sand","Temperate Deciduous Forest","NAC",3235.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3236,"Lytle-uncut","Temperate Evergreen Forest. Stand established around 1952","NAC",3236.01,"1952",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3237,"Lytle-clearcut","Aggrading Temperate Evergreen Forest with Clearcut treatment. Stand established around 1992","NAC",3237.02,"1992",3237.03,"Initiation of post-disturbance cohort (planted or natural)","1992",3237.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3238,"Simmons-1","Temperate Deciduous Forest. Stand established around 1893","NAC",3238.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3239,"Simmons-2","Temperate Deciduous Forest. Stand established around 1893","NAC",3239.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3240,"Simmons-3","Temperate Deciduous Forest. Stand established around 1893","NAC",3240.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3241,"Simmons-4","Temperate Deciduous Forest. Stand established around 1893","NAC",3241.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3242,"Simmons-5","Temperate Deciduous Forest. Stand established around 1893","NAC",3242.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3243,"Simmons-6","Temperate Deciduous Forest. Stand established around 1893","NAC",3243.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3244,"Simmons-7; Howland","Temperate Evergreen Forest. Stand established around 1893","NAC",3244.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3245,"Simmons-9","Temperate Deciduous Forest. Stand established around 1893","NAC",3245.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3246,"Simmons-10","Temperate Evergreen Forest. Stand established around 1893","NAC",3246.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3247,"Simmons-11","Temperate Evergreen Forest. Stand established around 1893","NAC",3247.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3248,"Simmons-12","Temperate Evergreen Forest. Stand established around 1893","NAC",3248.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3249,"Simmons-13","Temperate Deciduous Forest. Stand established around 1893","NAC",3249.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3250,"Simmons-14","Temperate Deciduous Forest. Stand established around 1893","NAC",3250.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3251,"Simmons-15","Temperate Deciduous Forest. Stand established around 1893","NAC",3251.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3252,"Simmons-16","Temperate Deciduous Forest. Stand established around 1893","NAC",3252.01,"1893",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3253,"Metiolus-O","Temperate Evergreen Forest. Stand established around 1747","NAC",3253.01,"1747",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3254,"Blodgett FRS","Mediterranean Evergreen Forest","NAC",3254.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3255,"Tonzi Ranch","Mediterranean Deciduous Forest","NAC",3255.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3256,"Dinghushan-BF","Tropical Deciduous Forest. Stand established around 1601","NAC",3256.01,"1601",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3257,"Dinghushan-MF","Tropical Mixed Forest. Stand established around 1941","NAC",3257.01,"1941",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3258,"Dinghushan-PF","Tropical Evergreen Forest. Stand established around 1941","NAC",3258.01,"1941",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3259,"Soro-CarboEuroFlux","Temperate Deciduous Forest. Stand established around 1918","NAC",3259.01,"1918",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3260,"Bilos","Aggrading Temperate Evergreen Forest with Clearcut treatment. Stand established around 1999","NAC",3260.02,"1999",3260.03,"Initiation of post-disturbance cohort (planted or natural)","1999",3260.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3261,"Aleza Lake Research Forest","Aggrading Boreal Evergreen Forest. Stand established around 2000","NAC",3261.01,"2000",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3262,"Aleza Lake Research Forest","Aggrading Boreal Evergreen Forest. Stand established around 1998","NAC",3262.01,"1998",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3263,"Aleza Lake Research Forest","Aggrading Boreal Evergreen Forest. Stand established around 1997","NAC",3263.01,"1997",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3264,"Aleza Lake Research Forest","Aggrading Boreal Evergreen Forest. Stand established around 1995","NAC",3264.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3265,"Aleza Lake Research Forest","Aggrading Boreal Evergreen Forest. Stand established around 1994","NAC",3265.01,"1994",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3266,"Aleza Lake Research Forest","Aggrading Boreal Evergreen Forest. Stand established around 1991","NAC",3266.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3267,"Aleza Lake Research Forest","Aggrading Boreal Evergreen Forest. Stand established around 1990","NAC",3267.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3268,"Fazenda Nova Vida","Tropical Deciduous Forest. Stand established around 1992","NAC",3268.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3269,"Solling","Managed Temperate Evergreen Forest with Irrigation treatment. Stand established around 1929","NAC",3269.01,"1929",3269.02,"Initiation of post-disturbance cohort (planted or natural)","1929",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3269.03,0,0,0
+3270,"Metolius","Temperate Evergreen Forest. Stand established around 1951","NAC",3270.01,"1951",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3271,"Metolius","Temperate Evergreen Forest. Stand established around 1746","NAC",3271.01,"1746",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3272,"Harshaw Forestry Research Farm","Temperate Evergreen Forest. Stand established around 1960","NAC",3272.01,"1960",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3273,"Harshaw Forestry Research Farm","Aggrading Temperate Deciduous Forest. Stand established around 1984","NAC",3273.01,"1984",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3274,"Nara","Temperate Evergreen Forest","NAC",3274.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3275,"Nara","Temperate Deciduous Forest","NAC",3275.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3276,"Pasoh Forest Reserve","Tropical Evergreen Forest","NAC",3276.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3277,"Beijing Forest Ecosystem Research Station","Temperate Deciduous Forest","NAC",3277.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3278,"H.J. Andrews","Pseudotsuga menziesii-Castanopsis Forest. Stand established around 1524","NAC",3278.01,"1524",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3279,"H.J. Andrews","Pseudotsuga menziesii-Rhododendron-Gaultheria Forest. Stand established around 1524","NAC",3279.01,"1524",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3280,"H.J. Andrews","Pseudotsuga menziesii-Rhododendron-Berberis Forest. Stand established around 1524","NAC",3280.01,"1524",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3281,"H.J. Andrews","Pseudotsuga menziesii-Acer-Polystichum Forest. Stand established around 1524","NAC",3281.01,"1524",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3282,"BOREAS-SOBS","Boreal Evergreen Forest. Stand established around 1914","NAC",3282.01,"1914",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3283,"Mount Norikura","Temperate Deciduous Forest. Stand established around 1964","NAC",3283.01,"1964",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3284,"Kettle River Range","Temperate Evergreen Forest. Stand established around 1899","NAC",3284.01,"1899",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3285,"Wiedenbrunnen2","Temperate Evergreen Forest. Stand established around 1968","NAC",3285.01,"1968",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3286,"Eyerly-609","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3286.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3287,"Eyerly-611","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3287.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3288,"Eyerly-604","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3288.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3289,"Eyerly-601","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3289.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3290,"Eyerly-607","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3290.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3291,"Eyerly-610","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3291.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3292,"Eyerly-608","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3292.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3293,"Eyerly-602","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3293.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3294,"Eyerly-612","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3294.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3295,"Eyerly-605","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3295.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3296,"Eyerly-603","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3296.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3297,"Eyerly-606","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3297.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3298,"Campbell River","Temperate Evergreen Forest. Stand established around 1949","NAC",3298.01,"1949",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3299,"Hesse Forest-H1","Temperate Deciduous Forest. Stand established around 1969","NAC",3299.01,"1969",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3300,"Hesse Forest-H2","Temperate Deciduous Forest. Stand established around 1969","NAC",3300.01,"1969",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3301,"Blodgett FRS","Aggrading Mediterranean Evergreen Forest. Stand established around 1990.5","NAC",3301.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3302,"Aleza Lake Research Forest","Aggrading Temperate Evergreen Forest. Stand established around 1993","NAC",3302.01,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3303,"Aleza Lake Research Forest","Aggrading Temperate Evergreen Forest. Stand established around 1994","NAC",3303.01,"1994",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3304,"Howard Springs","Tropical Evergreen Savanna","NAC",3304.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3305,"University Forest","Temperate Evergreen Forest. Stand established around 1938","NAC",3305.01,"1938",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3306,"Lavigne-cool","Temperate Evergreen Forest. Stand established around 1937","NAC",3306.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3307,"Lavigne-midtransect","Temperate Evergreen Forest. Stand established around 1947","NAC",3307.01,"1947",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3308,"Lavigne-warm","Temperate Evergreen Forest. Stand established around 1957","NAC",3308.01,"1957",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3309,"Mount Norikura","Temperate Deciduous Forest. Stand established around 1960","NAC",3309.01,"1960",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3310,"BOREAS-SSA","Aggrading Boreal Evergreen Forest. Stand established around 1999","NAC",3310.01,"1999",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3311,"BOREAS-SSA","Aggrading Boreal Evergreen Forest. Stand established around 1994","NAC",3311.01,"1994",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3312,"BOREAS-SSA","Aggrading Boreal Evergreen Forest. Stand established around 1989","NAC",3312.01,"1989",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3313,"BOREAS-SSA","Aggrading Boreal Evergreen Forest. Stand established around 1970","NAC",3313.01,"1970",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3314,"BOREAS-SSA","Boreal Evergreen Forest. Stand established around 1920","NAC",3314.01,"1920",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3315,"Conasauga River","Temperate Deciduous Forest","NAC",3315.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3316,"Conasauga River","Natural Temperate Deciduous Forest with Burning treatment","NAC",3316.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3317,"Mekrijarvi Research Station","Boreal Evergreen Forest. Stand established around 1977","NAC",3317.01,"1977",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3318,"Mekrijarvi Research Station","Natural Boreal Evergreen Forest with CO2 (700 ppm) treatment. Stand established around 1977","NAC",3318.01,"1977",3318.02,"Initiation of post-disturbance cohort (planted or natural)","1977",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3318.03,0,0,0,0,0
+3319,"Mekrijarvi Research Station","Natural Boreal Evergreen Forest with Heated (+5 C) treatment. Stand established around 1977","NAC",3319.01,"1977",3319.02,"Initiation of post-disturbance cohort (planted or natural)","1977",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3319.03,0,0,0,0
+3320,"Mekrijarvi Research Station","Natural Boreal Evergreen Forest with CO2, heated (700 ppm, +5 C) treatment. Stand established around 1977","NAC",3320.01,"1977",3320.02,"Initiation of post-disturbance cohort (planted or natural)","1977",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3320.03,3320.04,0,0,0,0
+3321,"Entre-Rios","Aggrading Tropical Evergreen Forest. Stand established around 1997","NAC",3321.01,"1997",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3322,"Entre-Rios","Aggrading Tropical Evergreen Forest. Stand established around 1997.5","NAC",3322.01,"1997",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3323,"Kondi","Aggrading Tropical Evergreen Forest. Stand established around 1992","NAC",3323.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3324,"Kondi","Aggrading Tropical Evergreen Forest with Clearcut treatment. Stand established around 2001","NAC",3324.02,"2001",3324.03,"Initiation of post-disturbance cohort (planted or natural)","2001",3324.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3325,"Pura","Temperate Deciduous Forest. Stand established around 1945","NAC",3325.01,"1945",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3326,"Coconino National Forest","Temperate Evergreen Forest","NAC",3326.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3327,"Coconino National Forest","Natural Temperate Evergreen Forest with Thinned treatment","NAC",3327.01,"NAC",3327.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3327.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3328,"Coconino National Forest","Natural Temperate Evergreen Forest with Thinned, burned treatment","NAC",3328.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3329,"Coconino National Forest","Natural Temperate Evergreen Forest with Burned treatment. Stand established around 1996","NAC",3329.01,"1996",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3330,"Wetzstein 35","Aggrading Temperate Evergreen Forest. Stand established around 1965","NAC",3330.01,"1965",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3331,"Wetzstein 114","Temperate Evergreen Forest. Stand established around 1886","NAC",3331.01,"1886",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3332,"DF49","Temperate Evergreen Forest. Stand established around 1949","NAC",3332.01,"1949",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3333,"HDF88","Aggrading Temperate Evergreen Forest. Stand established around 1988","NAC",3333.01,"1988",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3334,"HDF00","Aggrading Temperate Evergreen Forest. Stand established around 1999","NAC",3334.01,"1999",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3335,"Guanecaste-Ca-as","Tropical Deciduous Savanna","NAC",3335.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3336,"Guanecaste-Ca-as","Tropical Deciduous Forest","NAC",3336.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3337,"Guanecaste-Ca-as","Tropical Evergreen Forest","NAC",3337.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3338,"Limon-Guapiles","Tropical Evergreen Forest","NAC",3338.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3339,"Limon-Guapiles","Aggrading Tropical Evergreen Forest","NAC",3339.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3340,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1914","NAC",3340.01,"1914",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3341,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1915","NAC",3341.01,"1915",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3342,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1917","NAC",3342.01,"1917",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3343,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1918","NAC",3343.01,"1918",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3344,"Diamond Notch","Temperate Deciduous Forest","NAC",3344.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3345,"Yamashiro Experimental Forest","Aggrading Temperate Deciduous Forest. Stand established around 1972","NAC",3345.01,"1972",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3346,"Stringer Creek Watershed","Temperate Evergreen Forest","NAC",3346.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3347,"BERMS-F98","Aggrading Boreal Evergreen Forest. Stand established around 2000","NAC",3347.01,"2000",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3348,"BERMS-F89","Aggrading Boreal Evergreen Forest. Stand established around 1989","NAC",3348.01,"1989",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3349,"BERMS-F77","Aggrading Boreal Evergreen Forest. Stand established around 1977","NAC",3349.01,"1977",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3350,"British Columbia Fluxnet Canada","Temperate Evergreen Forest. Stand established around 1949","NAC",3350.01,"1949",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3351,"BOREAS NSA-CBS","Boreal Evergreen Forest. Stand established around 1914","NAC",3351.01,"1914",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3352,"BOREAS NSA-CJP","Boreal Evergreen Forest. Stand established around 1914","NAC",3352.01,"1914",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3353,"BOREAS SSA-OJP","Boreal Evergreen Forest. Stand established around 1924","NAC",3353.01,"1924",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3354,"Helsinki University Forestry Station","Boreal Evergreen Forest. Stand established around 1894","NAC",3354.01,"1894",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3355,"Al-Pac plantation","Aggrading Boreal Deciduous Forest. Stand established around 2001","NAC",3355.01,"2001",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3356,"Al-Pac plantation","Aggrading Boreal Deciduous Forest. Stand established around 1999","NAC",3356.01,"1999",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3357,"Al-Pac plantation","Aggrading Boreal Deciduous Forest. Stand established around 1997","NAC",3357.01,"1997",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3358,"Al-Pac plantation","Aggrading Boreal Deciduous Forest. Stand established around 1992","NAC",3358.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3359,"Centennial Forest","Temperate Evergreen Forest. Stand established around 1919","NAC",3359.01,"1919",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3360,"Centennial Forest","Natural Aggrading Temperate Evergreen Forest with Thinned treatment. Stand established around 1991","NAC",3360.01,"1991",3360.02,"Initiation of post-disturbance cohort (planted or natural)","1991",0,"NAC","NAC","NAC",0,0,3360.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3361,"Lena River","Boreal Deciduous Forest. Stand established around 1805","NAC",3361.01,"1805",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3362,"Lena River","Boreal Deciduous Forest. Stand established around 2001","NAC",3362.01,"2001",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3363,"Lena River","Boreal Deciduous Forest with Clearcut treatment. Stand established around 2000","NAC",3363.02,"2000",3363.03,"Initiation of post-disturbance cohort (planted or natural)","2000",3363.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3364,"Turkey Lakes Watershed","Temperate Deciduous Forest. Stand established around 1865","NAC",3364.01,"1865",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3365,"Hesse Forest","Temperate Deciduous Forest","NAC",3365.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3366,"Great Lakes-St. Lawrence Forest Region of Rowe","Temperate Evergreen Forest. Stand established around 1920","NAC",3366.01,"1920",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3367,"Great Lakes-St. Lawrence Forest Region of Rowe","Temperate Evergreen Forest. Stand established around 1964","NAC",3367.01,"1964",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3368,"Great Lakes-St. Lawrence Forest Region of Rowe","Aggrading Temperate Deciduous Forest. Stand established around 1964","NAC",3368.01,"1964",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3369,"Petawawa National Forest Institute","Temperate Mixed Forest","NAC",3369.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3370,"Petawawa National Forest Institute","Aggrading Temperate Mixed Forest with Clearcut (Conventional harvest) treatment. Stand established around 1981","NAC",3370.02,"1981",3370.03,"Initiation of post-disturbance cohort (planted or natural)","1981",3370.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3371,"Petawawa National Forest Institute","Aggrading Temperate Mixed Forest with Clearcut (Whole-tree harvest) treatment. Stand established around 1981","NAC",3371.02,"1981",3371.03,"Initiation of post-disturbance cohort (planted or natural)","1981",3371.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3372,"West Virginia University Forest","Temperate Deciduous Forest. Stand established around 1937","NAC",3372.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3373,"West Virginia University Forest","Aggrading Temperate Deciduous Forest. Stand established around 1977","NAC",3373.01,"1977",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3374,"Blodgett","Mediterranean Evergreen Forest. Stand established around 1990","NAC",3374.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3375,"FACTS-II Aspen FACE","Aggrading Temperate Deciduous Forest. Stand established around 1997","NAC",3375.01,"1997",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3376,"FACTS-II Aspen FACE","Unmanaged Aggrading Temperate Deciduous Forest with CO2 (534 ppm) treatment. Stand established around 1997","NAC",3376.01,"1997",3376.02,"Initiation of post-disturbance cohort (planted or natural)","1997",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3376.03,0,0,0,0,0
+3377,"FACTS-II Aspen FACE","Unmanaged Aggrading Temperate Deciduous Forest with O3 (36 ppb) treatment. Stand established around 1997","NAC",3377.01,"1997",3377.02,"Initiation of post-disturbance cohort (planted or natural)","1997",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,3377.03
+3378,"FACTS-II Aspen FACE","Unmanaged Aggrading Temperate Deciduous Forest with CO2, O3 (534 ppm; 36 ppb) treatment. Stand established around 1997","NAC",3378.01,"1997",3378.02,"Initiation of post-disturbance cohort (planted or natural)","1997",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3378.03,0,0,0,0,0
+3379,"Vindeln Experimental Forest","Boreal Evergreen Forest","NAC",3379.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3380,"Vindeln Experimental Forest","Natural Boreal Evergreen Forest with Shallow soil frost treatment","NAC",3380.01,"NAC",3380.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3380.03,"Extreme cold",NA,"NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3381,"Vindeln Experimental Forest","Natural Boreal Evergreen Forest with Deep soil frost treatment","NAC",3381.01,"NAC",3381.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3381.03,"Extreme cold",NA,"NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3382,"Kissoko","Aggrading Tropical Deciduous Forest with Disk harrowing treatment. Stand established around 2004","NAC",3382.02,"2004",3382.03,"Initiation of post-disturbance cohort (planted or natural)","2004",3382.01,"Tillage","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3383,"Kissoko","Managed Aggrading Tropical Deciduous Forest with Herbicide treatment. Stand established around 2004","NAC",3383.01,"2004",3383.02,"Initiation of post-disturbance cohort (planted or natural)","2004",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3383.03,0
+3384,"Gjovik","Managed Aggrading Boreal Evergreen Forest with Thinned (820/ha (in 1971)) treatment","NAC",3384.01,"NAC",3384.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3384.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3385,"Gjovik","Managed Aggrading Boreal Evergreen Forest with Thinned (1100/ha (in 1971)) treatment","NAC",3385.01,"NAC",3385.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3385.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3386,"Gjovik","Managed Aggrading Boreal Evergreen Forest with Thinned (2070/ha (in 1971)) treatment","NAC",3386.01,"NAC",3386.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3386.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3387,"Duke FACE","Aggrading Temperate Evergreen Forest. Stand established around 1983","NAC",3387.01,"1983",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3388,"Duke FACE","Managed Aggrading Temperate Evergreen Forest with CO2 treatment. Stand established around 1983","NAC",3388.01,"1983",3388.02,"Initiation of post-disturbance cohort (planted or natural)","1983",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3388.03,0,0,0,0,0
+3389,"BOREAS NSA-D1850; NOBS","Boreal Evergreen Forest. Stand established around 1849","NAC",3389.01,"1849",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3390,"Tok Junction","Boreal Deciduous Forest","NAC",3390.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3391,"Tok Junction","Aggrading Boreal Deciduous Forest. Stand established around 1990","NAC",3391.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3392,"Tok Junction","Boreal Evergreen Forest","NAC",3392.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3393,"Tok Junction","Aggrading Boreal Evergreen Forest. Stand established around 1990","NAC",3393.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3394,"Kannus-1","Aggrading Boreal Deciduous Forest. Stand established around 1986","NAC",3394.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3395,"Kannus-2","Aggrading Boreal Deciduous Forest. Stand established around 1986","NAC",3395.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3396,"Kannus-3","Aggrading Boreal Evergreen Forest. Stand established around 1971","NAC",3396.01,"1971",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3397,"Kannus-4","Aggrading Boreal Evergreen Forest. Stand established around 1971","NAC",3397.01,"1971",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3398,"Kannus-5","Aggrading Boreal Deciduous Forest. Stand established around 1994","NAC",3398.01,"1994",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3399,"Kannus-6","Aggrading Boreal Deciduous Forest. Stand established around 1969","NAC",3399.01,"1969",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3400,"Buckley Bay","Aggrading Temperate Evergreen Forest. Stand established around 1988","NAC",3400.01,"1988",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3401,"Metiolus-O","Temperate Evergreen Forest. Stand established around 1915","NAC",3401.01,"1915",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3402,"Gaumont-Guay_2008_bcor research site in Saskatchewan Canada","Boreal Evergreen Forest. Stand established around 1879","NAC",3402.01,"1879",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3403,"Duke FACE","Aggrading Temperate Evergreen Forest","NAC",3403.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3404,"Duke FACE","Managed Aggrading Temperate Evergreen Forest with Fertilized treatment","NAC",3404.01,"NAC",3404.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3404.03,0,0
+3405,"Duke FACE","Managed Aggrading Temperate Evergreen Forest with CO2 treatment","NAC",3405.01,"NAC",3405.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3405.03,0,0,0,0,0
+3406,"Duke FACE","Managed Aggrading Temperate Evergreen Forest with Fertilized, CO2 treatment","NAC",3406.01,"NAC",3406.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3406.03,0,0,3406.04,0,0
+3407,"Boreal Soil and Air Warming Experiment","Aggrading Boreal Evergreen Forest. Stand established around 1992","NAC",3407.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3408,"Boreal Soil and Air Warming Experiment","Managed Aggrading Boreal Evergreen Forest with Heated (air, soil) treatment. Stand established around 1992","NAC",3408.01,"1992",3408.02,"Initiation of post-disturbance cohort (planted or natural)","1992",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3408,0,0,0,0
+3409,"Boreal Soil and Air Warming Experiment","Managed Aggrading Boreal Evergreen Forest with Heated (soil) treatment. Stand established around 1992","NAC",3409.01,"1992",3409.02,"Initiation of post-disturbance cohort (planted or natural)","1992",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3409.03,0,0,0,0
+3410,"Boreal Soil and Air Warming Experiment","Aggrading Boreal Evergreen Forest. Stand established around 1993","NAC",3410.01,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3411,"Boreal Soil and Air Warming Experiment","Managed Aggrading Boreal Evergreen Forest with Heated (air, soil) treatment. Stand established around 1993","NAC",3411.01,"1993",3411.02,"Initiation of post-disturbance cohort (planted or natural)","1993",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3411,0,0,0,0
+3412,"Boreal Soil and Air Warming Experiment","Managed Aggrading Boreal Evergreen Forest with Heated (soil) treatment. Stand established around 1993","NAC",3412.01,"1993",3412.02,"Initiation of post-disturbance cohort (planted or natural)","1993",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3412.03,0,0,0,0
+3413,"INPA reserve","Tropical Evergreen Forest","NAC",3413.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3414,"Hesse Forest","Temperate Deciduous Forest. Stand established around 1966","NAC",3414.01,"1966",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3415,"Hesse Forest","Unmanaged Temperate Deciduous Forest with Thinned treatment. Stand established around 1966","NAC",3415.01,"1966",3415.02,"Initiation of post-disturbance cohort (planted or natural)","1966",0,"NAC","NAC","NAC",0,0,3415.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3416,"Giardina_2004_bcci research site in Hawaii USA","Aggrading Tropical NA Forest. Stand established around 1993.5","NAC",3416.01,"1994",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3417,"Giardina_2004_bcci research site in Hawaii USA","Natural Aggrading Tropical NA Forest with Fertilized treatment. Stand established around 1993.5","NAC",3417.01,"1994",3417.02,"Initiation of post-disturbance cohort (planted or natural)","1994",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3417.03,0,0
+3418,"Acadia Research Forest","Temperate Evergreen Forest. Stand established around 1958","NAC",3418.01,"1958",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3419,"Plotnikovo","Boreal Deciduous Forest","NAC",3419.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3420,"Subke_2004_fibn research site in Germany","Aggrading Temperate Evergreen Forest. Stand established around 1967","NAC",3420.01,"1967",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3421,"Solling-B0","Temperate Evergreen Forest. Stand established around 1869","NAC",3421.01,"1869",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3422,"Solling-B30","Temperate Evergreen Forest. Stand established around 1869","NAC",3422.01,"1869",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3423,"Solling-B70","Temperate Deciduous Forest. Stand established around 1869","NAC",3423.01,"1869",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3424,"Solling-B100","Temperate Deciduous Forest. Stand established around 1869","NAC",3424.01,"1869",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3425,"Hubbard Brook-W6","Temperate Deciduous Forest. Stand established around 1915","NAC",3425.01,"1915",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3426,"De Inslag Forest","Temperate Evergreen Forest. Stand established around 1934","NAC",3426.01,"1934",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3427,"Bilos","Mediterranean Evergreen Forest. Stand established around 1998","NAC",3427.01,"1998",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3428,"Bray","Mediterranean Evergreen Forest. Stand established around 1976","NAC",3428.01,"1976",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3429,"Duke Forest","Temperate Evergreen Forest. Stand established around 1982","NAC",3429.01,"1982",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3430,"Herm","Mediterranean Evergreen Forest","NAC",3430.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3431,"Niwot Ridge","Temperate Evergreen Forest. Stand established around 1905","NAC",3431.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3432,"Tharandt","Temperate Evergreen Forest. Stand established around 1888","NAC",3432.01,"1888",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3433,"Temple","Mediterranean Evergreen Forest","NAC",3433.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3434,"De Inslag Forest","Temperate Deciduous Forest. Stand established around 1934","NAC",3434.01,"1934",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3435,"Great Basin","Temperate Deciduous Savanna","NAC",3435.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3436,"Sky Oaks","Mediterranean Deciduous Savanna. Stand established around 1923","NAC",3436.01,"1923",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3437,"Sky Oaks","Mediterranean Deciduous Savanna. Stand established around 1996","NAC",3437.01,"1996",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3438,"Takayama Experimental Field Station","Aggrading Temperate Deciduous Forest. Stand established around 1960","NAC",3438.01,"1960",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3439,"Fraser Experimental Forest","Temperate Evergreen Forest. Stand established around 1703","NAC",3439.01,"1703",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3440,"Fraser Experimental Forest","Temperate Evergreen Forest. Stand established around 1953","NAC",3440.01,"1953",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3441,"Sisters","Aggrading Temperate Evergreen Forest. Stand established around 1978","NAC",3441.01,"1978",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3442,"Campbell River","Temperate Evergreen Forest. Stand established around 1950","NAC",3442.01,"1950",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3443,"Huhus","Boreal Evergreen Forest. Stand established around 1951","NAC",3443.01,"1951",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3444,"Xinkou Experimental Forestry Centre-Xiaohu","Subtropical Evergreen Forest","NAC",3444.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3445,"La Selva Biological Station","Mix Forest","NAC",3445.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3446,"Sakata_2007_sosr research site in Ibaraki Japan","Temperate Deciduous Forest","NAC",3446.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3447,"Takayama Experimental Field Station","Temperate Deciduous Forest. Stand established around 1954","NAC",3447.01,"1954",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3448,"Takayama Experimental Field Station","Temperate Deciduous Forest. Stand established around 1955","NAC",3448.01,"1955",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3449,"Takayama Experimental Field Station","Temperate Deciduous Forest. Stand established around 1956","NAC",3449.01,"1956",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3450,"Takayama Experimental Field Station","Temperate Deciduous Forest. Stand established around 1957","NAC",3450.01,"1957",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3451,"Takayama Experimental Field Station","Temperate Deciduous Forest. Stand established around 1958","NAC",3451.01,"1958",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3452,"Caxiuana National Forest","Tropical Evergreen Forest","NAC",3452.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3453,"Caxiuana National Forest","Natural Tropical Evergreen Forest with Drought treatment","NAC",3453.01,"NAC",3453.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3453.03,0,0,0
+3454,"Ylivieska","Aggrading Boreal Deciduous Forest. Stand established around 1992","NAC",3454.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3455,"Ylivieska","Boreal Evergreen Forest. Stand established around 1970","NAC",3455.01,"1970",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3456,"Vesijako","Boreal Deciduous Forest. Stand established around 1966","NAC",3456.01,"1966",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3457,"Jonard_2007_scde research site in Belgium","Quercus petraea Forest","NAC",3457.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3458,"Jonard_2007_scde research site in Belgium","Quercus petraea; Fagus sylvatica Forest","NAC",3458.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3459,"Jonard_2007_scde research site in Belgium","Fagus sylvatica Forest","NAC",3459.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3460,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1954","NAC",3460.01,"1954",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3461,"University of Michigan Biological Station","Temperate Deciduous Forest. Stand established around 1919","NAC",3461.01,"1919",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3462,"Blodgett Forest Research Station","Aggrading Mediterranean Evergreen Forest. Stand established around 1990","NAC",3462.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3463,"Harwood Forest","Temperate Evergreen Forest. Stand established around 1962","NAC",3463.01,"1962",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3464,"Harwood Forest","Temperate Evergreen Forest with Clearcut treatment. Stand established around 2001","NAC",3464.02,"2001",3464.03,"Initiation of post-disturbance cohort (planted or natural)","2001",3464.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3465,"Walker Branch","Temperate Deciduous Forest. Stand established around 1905","NAC",3465.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3466,"Petawawa Research Forest","Temperate Evergreen Forest. Stand established around 1910","NAC",3466.01,"1910",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3467,"Joshi_1991_spot research site in India","Quercus floribunda Forest","NAC",3467.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3468,"Joshi_1991_spot research site in India","Quercus leucotrichophora Forest","NAC",3468.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3469,"Joshi_1991_spot research site in India","Cedrus deodara Forest","NAC",3469.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3470,"Joshi_1991_spot research site in India","Pinus roxburghii Forest","NAC",3470.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3471,"Joshi_1991_spot research site in India","Aggrading Quercus floribunda Forest. Stand established around 1970","NAC",3471.01,"1970",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3472,"Joshi_1991_spot research site in India","Aggrading Populus ciliata Forest. Stand established around 1968","NAC",3472.01,"1968",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3473,"Joshi_1991_spot research site in India","Aggrading Coriaria nepalensis Forest","NAC",3473.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3474,"Kenkeme-S200","Boreal Deciduous Forest. Stand established around 1798","NAC",3474.01,"1798",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3475,"Kenkeme-S5","Aggrading Boreal Deciduous Forest. Stand established around 1993","NAC",3475.01,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3476,"Kenkeme-S25","Aggrading Boreal Deciduous Forest. Stand established around 1977","NAC",3476.01,"1977",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3477,"Neleger-L200","Boreal Deciduous Forest. Stand established around 1828","NAC",3477.01,"1828",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3478,"Neleger-L5","Aggrading Boreal Deciduous Forest. Stand established around 1992","NAC",3478.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3479,"Genya Mountain","Temperate Evergreen Forest. Stand established around 1913","NAC",3479.01,"1913",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3480,"Genya Mountain","Aggrading Temperate Evergreen Forest. Stand established around 1988","NAC",3480.01,"1988",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3481,"Luquillo Experimental Forest-Guzman","Tropical Evergreen Forest. Stand established around 1976","NAC",3481.01,"1976",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3482,"University of Michigan Biological Station-HIFE","Aggrading Temperate Deciduous Forest. Stand established around 1972","NAC",3482.01,"1972",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3483,"University of Michigan Biological Station-GRTR","Temperate Deciduous Forest. Stand established around 1913","NAC",3483.01,"1913",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3484,"University of Michigan Biological Station-UPGR","Temperate Deciduous Forest. Stand established around 1913","NAC",3484.01,"1913",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3485,"University of Michigan Biological Station-54BURN","Aggrading Temperate Deciduous Forest. Stand established around 1954","NAC",3485.01,"1954",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3486,"University of Michigan Biological Station-LOFE","Aggrading Temperate Deciduous Forest. Stand established around 1972","NAC",3486.01,"1972",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3487,"Luquillo Experimental Forest","Tabebuia rigida Forest","NAC",3487.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3488,"Luquillo Experimental Forest","Cyrilla racemiflora Forest","NAC",3488.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3489,"Luquillo Experimental Forest","Dacryodes excelsa Forest","NAC",3489.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3490,"Luquillo Experimental Forest","Grasses (mix) Forest. Stand established around 1992","NAC",3490.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3491,"Brasschaat","Temperate Mixed Forest. Stand established around 1931","NAC",3491.01,"1931",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3492,"Kyoto","Temperate Deciduous Forest","NAC",3492.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3493,"Miyazu-Oak","Temperate Deciduous Forest","NAC",3493.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3494,"Miyazu-Cedar","Temperate Deciduous Forest","NAC",3494.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3495,"Miyazu-Beech","Temperate Deciduous Forest","NAC",3495.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3496,"Nobeyama","Temperate Deciduous Forest","NAC",3496.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3497,"Yanting Agro-ecological Station of Purple Soil","Subtropical Evergreen Forest. Stand established around 1975","NAC",3497.01,"1975",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3498,"Dooary 1","Aggrading Temperate Evergreen Forest. Stand established around 1993","NAC",3498.01,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3499,"Dooary 2","Aggrading Temperate Evergreen Forest. Stand established around 1988","NAC",3499.01,"1988",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3500,"Dooary 3","Aggrading Temperate Evergreen Forest. Stand established around 1972","NAC",3500.01,"1972",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3501,"Cullenagh","Aggrading Temperate Evergreen Forest. Stand established around 1956","NAC",3501.01,"1956",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3502,"Niwot Ridge","Temperate Evergreen Forest","NAC",3502.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3503,"Minamata Forest-P2","Temperate Evergreen Forest","NAC",3503.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3504,"Maoershan Mountain","Temperate Mixed Forest","NAC",3504.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3505,"Maoershan Mountain","Aggrading Temperate Deciduous Forest. Stand established around 1986","NAC",3505.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3506,"SWC","Temperate Deciduous Forest","NAC",3506.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3507,"SWT","Natural Temperate Deciduous Forest with Thinned treatment","NAC",3507.01,"NAC",3507.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3507.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3508,"NEC","Temperate Deciduous Forest","NAC",3508.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3509,"NET","Natural Temperate Deciduous Forest with Thinned treatment","NAC",3509.01,"NAC",3509.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3509.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3510,"Golden Gate Park","Temperate Evergreen Forest","NAC",3510.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3511,"Howland Forest","Temperate Evergreen Forest","NAC",3511.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3512,"Bear Brook Watershed","Temperate Deciduous Forest","NAC",3512.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3513,"Letter E Township","Temperate Mixed Forest","NAC",3513.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3514,"Letter E Township","Temperate Evergreen Forest. Stand established around 1986","NAC",3514.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3515,"Merapi","Aggrading Tropical Evergreen Forest. Stand established around 1957","NAC",3515.01,"1957",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3516,"Bear Creek","Aggrading Temperate Deciduous Forest. Stand established around 1990","NAC",3516.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3517,"Changbai Mountain","Temperate Evergreen Forest","NAC",3517.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3518,"Werner_2006_ncac research site in China","Tropical Evergreen Forest","NAC",3518.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3519,"Werner_2006_ncac research site in China","Aggrading Tropical Evergreen Forest","NAC",3519.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3520,"Werner_2006_ncac research site in China","Managed Aggrading Tropical Evergreen Forest with Fertilized treatment","NAC",3520.01,"NAC",3520.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3520.03,0,0
+3521,"Werner_2006_ncac research site in China","Natural Tropical Evergreen Forest with Irrigation treatment","NAC",3521.01,"NAC",3521.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3521.03,0,0,0
+3522,"Werner_2006_ncac research site in China","Natural Aggrading Tropical Evergreen Forest with Irrigation treatment","NAC",3522.01,"NAC",3522.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3522.03,0,0,0
+3523,"Werner_2006_ncac research site in China","Managed Aggrading Tropical Evergreen Forest with Irrigation, fertilized treatment","NAC",3523.01,"NAC",3523.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3523.03,3523.04,0,0
+3524,"West Florida Research and Education Center","Temperate Deciduous Forest. Stand established around 1954","NAC",3524.01,"1954",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3525,"West Florida Research and Education Center","Aggrading Temperate Deciduous Forest. Stand established around 1998","NAC",3525.01,"1998",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3526,"Pushchino Scientific Centre","Temperate Deciduous Forest. Stand established around 1947","NAC",3526.01,"1947",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3527,"Cherskii North-East Scientific Station","Boreal Deciduous Forest","NAC",3527.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3528,"Wang_2006_cosr research site in China","Aggrading Temperate Evergreen Forest","NAC",3528.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3529,"Klimahaus Research Station","Temperate Evergreen Forest. Stand established around 1912","NAC",3529.01,"1912",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3530,"Changbai Mountain","NA Temperate Evergreen Forest","NAC",3530.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3531,"Changbai Mountain","NA Temperate Deciduous Forest","NAC",3531.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3532,"Changbai Mountain","Aggrading Temperate Deciduous Forest","NAC",3532.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3533,"Khurpatal","Aggrading Temperate Evergreen Forest. Stand established around 1979","NAC",3533.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3534,"Khurpatal","Aggrading Temperate Evergreen Forest. Stand established around 1957","NAC",3534.01,"1957",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3535,"Khurpatal","Temperate Evergreen Forest","NAC",3535.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3536,"Barah Patthar","Aggrading Temperate Deciduous Forest. Stand established around 1979","NAC",3536.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3537,"Barah Patthar","Aggrading Temperate Deciduous Forest. Stand established around 1957","NAC",3537.01,"1957",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3538,"Barah Patthar","Temperate Deciduous Forest","NAC",3538.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3539,"Canaima National Park","Tropical Evergreen Forest","NAC",3539.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3540,"Canaima National Park","Aggrading Tropical Evergreen Forest. Stand established around 1940","NAC",3540.01,"1940",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3541,"Yangpyeong","Temperate Evergreen Forest. Stand established around 1955","NAC",3541.01,"1955",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3542,"Yangpyeong","Temperate Deciduous Forest. Stand established around 1955","NAC",3542.01,"1955",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3543,"Labrador Hollow Unique Area","Temperate Mixed Forest","NAC",3543.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3544,"Yoshiwa","Temperate Deciduous Forest. Stand established around 1890","NAC",3544.01,"1890",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3545,"Isagi_1994_csac research site in Kyoto Japan","Aggrading Temperate Evergreen Forest. Stand established around 1968","NAC",3545.01,"1968",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3546,"V.O.B.","Temperate Evergreen Forest","NAC",3546.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3547,"Katula","Temperate Evergreen Forest","NAC",3547.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3548,"Dakbungalow","Temperate Evergreen Forest","NAC",3548.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3549,"Latoli","Temperate Evergreen Forest","NAC",3549.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3550,"Al-Pac pulp mill","Aggrading Temperate Deciduous Forest","NAC",3550.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3551,"Estacao Experimental Gregorio Bondar","Tropical Evergreen Forest","NAC",3551.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3552,"San Carlos de Rio Negro","Tropical Evergreen Forest","NAC",3552.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3553,"Cedar Pit Flora Reserve","Tropical NA Forest","NAC",3553.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3554,"Haw River","Aggrading Temperate Evergreen Forest. Stand established around 1958.5","NAC",3554.01,"1959",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3555,"Sambalpur University","Aggrading Tropical Evergreen Forest","NAC",3555.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3556,"Yaita City","Temperate Deciduous Forest","NAC",3556.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3557,"Yaita City","Aggrading Temperate Deciduous Forest","NAC",3557.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3558,"Washington Creek Experimental Area","Boreal Evergreen Forest. Stand established around 1853","NAC",3558.01,"1853",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3559,"Dorr_1987_avis research site in Germany","Temperate Mixed Forest","NAC",3559.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3560,"Bily Kriz Experimental Ecological Study Site","Aggrading Temperate Evergreen Forest. Stand established around 1977","NAC",3560.01,"1977",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3561,"Qingyuan Forest Experimental Station","Temperate Deciduous Forest. Stand established around 1953","NAC",3561.01,"1953",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3562,"Qingyuan Forest Experimental Station","Temperate Deciduous Forest. Stand established around 1951","NAC",3562.01,"1951",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3563,"Qingyuan Forest Experimental Station","Temperate Deciduous Forest. Stand established around 1948","NAC",3563.01,"1948",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3564,"RG","Aggrading Temperate Deciduous Forest with Clearcut treatment. Stand established around 2002","NAC",3564.02,"2002",3564.03,"Initiation of post-disturbance cohort (planted or natural)","2002",3564.01,"Cut","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3565,"YA1","Aggrading Temperate Deciduous Forest. Stand established around 1995","NAC",3565.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3566,"YA2","Aggrading Temperate Deciduous Forest. Stand established around 1995","NAC",3566.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3567,"YA3","Aggrading Temperate Deciduous Forest. Stand established around 1995","NAC",3567.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3568,"YA4","Aggrading Temperate Deciduous Forest. Stand established around 1995","NAC",3568.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3569,"IA1","Aggrading Temperate Deciduous Forest. Stand established around 1979","NAC",3569.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3570,"IA2","Aggrading Temperate Deciduous Forest. Stand established around 1979","NAC",3570.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3571,"IA3","Aggrading Temperate Deciduous Forest. Stand established around 1979","NAC",3571.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3572,"IA4","Aggrading Temperate Deciduous Forest. Stand established around 1979","NAC",3572.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3573,"MH1","Temperate Deciduous Forest. Stand established around 1932","NAC",3573.01,"1932",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3574,"MH2","Temperate Deciduous Forest. Stand established around 1932","NAC",3574.01,"1932",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3575,"MH3","Temperate Deciduous Forest. Stand established around 1932","NAC",3575.01,"1932",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3576,"MH4","Temperate Deciduous Forest. Stand established around 1932","NAC",3576.01,"1932",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3577,"OG","Temperate Deciduous Forest. Stand established around 1655","NAC",3577.01,"1655",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3578,"Xiashu Experimental Forest","Subtropical Deciduous Forest. Stand established around 1950","NAC",3578.01,"1950",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3579,"Xiashu Experimental Forest","Aggrading Subtropical Deciduous Forest. Stand established around 1970","NAC",3579.01,"1970",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3580,"SMEAR II","Aggrading Boreal Evergreen Forest. Stand established around 1962","NAC",3580.01,"1962",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3581,"SMEAR II","Aggrading Boreal Evergreen Forest. Stand established around 1965","NAC",3581.01,"1965",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3582,"SMEAR II","Aggrading Boreal Evergreen Forest. Stand established around 1972","NAC",3582.01,"1972",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3583,"Schindlbacher_2009_cldt research site in Austria","Temperate Evergreen Forest. Stand established around 1885","NAC",3583.01,"1885",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3584,"Schindlbacher_2009_cldt research site in Austria","Natural Temperate Evergreen Forest with Heated (+4 C) treatment. Stand established around 1885","NAC",3584.01,"1885",3584.02,"Initiation of post-disturbance cohort (planted or natural)","1885",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3584.03,0,0,0,0
+3585,"Ailao Mountains Nature Preserve","Subtropical Evergreen Forest","NAC",3585.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3586,"Malau Forest Reserve","Aggrading Tropical Evergreen Forest. Stand established around 1976","NAC",3586.01,"1976",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3587,"Coweeta basin","Temperate Mixed Forest","NAC",3587.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3588,"Coweeta basin","Natural Temperate Mixed Forest with Woody adelgid infestation treatment","NAC",3588.01,"NAC",3588.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3588.03,"Biotic","NAC","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3589,"SMEAR II","Boreal Evergreen Forest. Stand established around 1967","NAC",3589.01,"1967",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3590,"Storskogberget","Boreal Evergreen Forest. Stand established around 1882","NAC",3590.01,"1882",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3591,"Yatir Forest","Temperate Evergreen Forest. Stand established around 1959","NAC",3591.01,"1959",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3592,"Heshan Hilly Land Interdisciplinary Experimental Station","Aggrading Acacia crassicarpa Forest","NAC",3592.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3593,"Heshan Hilly Land Interdisciplinary Experimental Station","Aggrading Eucalyptus urophylla Forest","NAC",3593.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3594,"DF49","Temperate Evergreen Forest. Stand established around 1938","NAC",3594.01,"1938",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3595,"EOBS","Boreal Evergreen Forest. Stand established around 1905","NAC",3595.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3596,"Rhtkg","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",3596.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3597,"Mtkg I","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",3597.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3598,"Mtkg II","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",3598.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3599,"Ptkg I","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",3599.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3600,"Ptkg II","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",3600.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3601,"Vatkg","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",3601.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3602,"Valsain-plot14","Mediterranean Evergreen Forest. Stand established around 1885","NAC",3602.01,"1885",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3603,"Valsain-plot22","Mediterranean Evergreen Forest. Stand established around 1885","NAC",3603.01,"1885",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3604,"Valsain-plot33","Mediterranean Evergreen Forest. Stand established around 1885","NAC",3604.01,"1885",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3605,"Valsain-plot42","Mediterranean Evergreen Forest. Stand established around 1885","NAC",3605.01,"1885",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3606,"Diaz-Pines_2010_rtau research site in Austria","Temperate Evergreen Forest. Stand established around 1875","NAC",3606.01,"1875",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3607,"Centennial Forest","Temperate Evergreen Forest. Stand established around 1906","NAC",3607.01,"1906",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3608,"Centennial Forest","Temperate Evergreen Forest. Stand established around 1907","NAC",3608.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3609,"Centennial Forest","Aggrading Temperate Evergreen Forest. Stand established around 1996","NAC",3609.01,"1996",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3610,"Centennial Forest","Aggrading Temperate Evergreen Forest. Stand established around 2006","NAC",3610.01,"2006",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3611,"Coconino NF","Aggrading Temperate Evergreen Forest. Stand established around 1996","NAC",3611.01,"1996",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3612,"La Selva Biological Station","Aggrading Hieronyma alchorneoides Forest","NAC",3612.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3613,"La Selva Biological Station","Aggrading Pentaclethra macroloba Forest","NAC",3613.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3614,"La Selva Biological Station","Aggrading Pinus patula Forest","NAC",3614.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3615,"La Selva Biological Station","Aggrading Virola koschnyi Forest","NAC",3615.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3616,"La Selva Biological Station","Aggrading Vochysia guatemalensis Forest","NAC",3616.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3617,"Boreal Soil and Air Warming Experiment","Aggrading Boreal Deciduous Forest. Stand established around 1992","NAC",3617.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3618,"Hermle_2010_crer research site in Quebec Canada","Boreal Evergreen Forest. Stand established around 1910","NAC",3618.01,"1910",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3619,"Menglun Nature Reserve","Tropical Mixed Forest","NAC",3619.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3620,"Gwangeung Forest","Temperate Deciduous Forest","NAC",3620.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3621,"Yashiro_2010_beon research site in Japan","Temperate Evergreen Forest. Stand established around 1966","NAC",3621.01,"1966",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3622,"Takayama Forest Research Station","Aggrading Temperate Deciduous Forest. Stand established around 1987","NAC",3622.01,"1987",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3623,"Molalla","Managed Aggrading Temperate Evergreen Forest with Vegetation control (Initial) treatment. Stand established around 2003","NAC",3623.01,"2003",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3624,"Matlock","Managed Aggrading Temperate Evergreen Forest with Vegetation control (Initial) treatment. Stand established around 2003","NAC",3624.01,"2003",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3625,"Molalla","Managed Aggrading Temperate Evergreen Forest with Vegetation control (Annual) treatment. Stand established around 2003","NAC",3625.01,"2003",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3626,"Matlock","Managed Aggrading Temperate Evergreen Forest with Vegetation control (Annual) treatment. Stand established around 2003","NAC",3626.01,"2003",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3627,"Heshan Hilly Land Interdisciplinary Experimental Sta- tion","Aggrading Subtropical Deciduous Forest. Stand established around 2005","NAC",3627.01,"2005",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3628,"LSgeren","Quercus robur Forest. Stand established around 1907","NAC",3628.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3629,"LSgeren","Fagus sylvatica Forest. Stand established around 1907","NAC",3629.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3630,"LSgeren","Abies alba Forest. Stand established around 1907","NAC",3630.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3631,"LSgeren","Fraxinus excelsior Forest. Stand established around 1907","NAC",3631.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3632,"LSgeren","Acer pseudoplatanus Forest. Stand established around 1907","NAC",3632.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3633,"Hainich National Park","Temperate Deciduous Forest. Stand established around 1750","NAC",3633.01,"1750",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3634,"SCC FACE","Temperate Deciduous Forest. Stand established around 1907","NAC",3634.01,"1907",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3635,"SCC FACE","Natural Temperate Deciduous Forest with CO2 (550 ppm) treatment. Stand established around 1907","NAC",3635.01,"1907",3635.02,"Initiation of post-disturbance cohort (planted or natural)","1907",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3635.03,0,0,0,0,0
+3636,"Wytham Woods","Temperate Deciduous Forest","NAC",3636.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3637,"Wayqecha","Tropical Evergreen Forest","NAC",3637.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3638,"San Pedro","Tropical Evergreen Forest","NAC",3638.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3639,"Tono","Tropical Evergreen Forest","NAC",3639.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3640,"Tambopata","Tropical Evergreen Forest","NAC",3640.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3641,"Tomakomai National Forest","Temperate Deciduous Forest. Stand established around 1958","NAC",3641.01,"1958",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3642,"Solling Forest","Picea abies Forest","NAC",3642.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3643,"Solling Forest","Fagus sylvatica; Picea abies Forest","NAC",3643.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3644,"Solling Forest","Fagus sylvatica Forest","NAC",3644.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3645,"Mt. Makiling Forest Reserve","Aggrading Tropical Evergreen Forest. Stand established around 1947","NAC",3645.01,"1947",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3646,"Mt. Makiling Forest Reserve","Aggrading Tropical Evergreen Forest","NAC",3646.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3647,"Pingyuan Forestry Farm","Managed Aggrading Temperate Deciduous Forest with Irrigation treatment. Stand established around 2005","NAC",3647.01,"2005",3647.02,"Initiation of post-disturbance cohort (planted or natural)","2005",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3647.03,0,0,0
+3648,"Pingyuan Forestry Farm","Managed Aggrading Temperate Deciduous Forest with Irrigation treatment. Stand established around 2000","NAC",3648.01,"2000",3648.02,"Initiation of post-disturbance cohort (planted or natural)","2000",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3648.03,0,0,0
+3649,"Pingyuan Forestry Farm","Managed Aggrading Temperate Deciduous Forest with Irrigation treatment. Stand established around 1995","NAC",3649.01,"1995",3649.02,"Initiation of post-disturbance cohort (planted or natural)","1995",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3649.03,0,0,0
+3650,"Tianjiling National Park","Aggrading Subtropical Evergreen Forest. Stand established around 1995","NAC",3650.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3651,"Heshan Hilly Land Interdisciplinary Experimental Station","Aggrading Magnoliaceae glanca Blume; Liquidambar formosana Hance; Tsoongiodendron odorum Chun Forest. Stand established around 2004","NAC",3651.01,"2004",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3652,"Heshan Hilly Land Interdisciplinary Experimental Station","Managed Aggrading Magnoliaceae glanca Blume; Liquidambar formosana Hance; Tsoongiodendron odorum Chun Forest with C. alata addition treatment. Stand established around 2004","NAC",3652.01,"2004",3652.02,"Initiation of post-disturbance cohort (planted or natural)","2004",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3652.03,0
+3653,"Heshan Hilly Land Interdisciplinary Experimental Station","Managed Aggrading Magnoliaceae glanca Blume; Liquidambar formosana Hance; Tsoongiodendron odorum Chun Forest with Understory removal treatment. Stand established around 2004","NAC",3653.01,"2004",3653.02,"Initiation of post-disturbance cohort (planted or natural)","2004",0,"NAC","NAC","NAC",0,0,3653.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3654,"Heshan Hilly Land Interdisciplinary Experimental Station","Managed Aggrading Magnoliaceae glanca Blume; Liquidambar formosana Hance; Tsoongiodendron odorum Chun Forest with Understory removal, C. alata addition treatment. Stand established around 2004","NAC",3654.01,"2004",3654.02,"Initiation of post-disturbance cohort (planted or natural)","2004",0,"NAC","NAC","NAC",0,0,3654.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,3654.04,0
+3655,"Yanting Agro-Ecological Station of Purple Soil","Temperate Evergreen Forest. Stand established around 1972","NAC",3655.01,"1972",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3656,"Baotianman Natural Reserve","Temperate Deciduous Forest. Stand established around 1968","NAC",3656.01,"1968",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3657,"Baotianman Natural Reserve","Temperate Deciduous Forest. Stand established around 1960","NAC",3657.01,"1960",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3658,"Baotianman Natural Reserve","Temperate Deciduous Forest. Stand established around 1928","NAC",3658.01,"1928",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3659,"Baotianman Natural Reserve","Temperate Deciduous Forest. Stand established around 1865","NAC",3659.01,"1865",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3660,"De Inslag Forest","Temperate Evergreen Forest. Stand established around 1929","NAC",3660.01,"1929",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3661,"Brevens bruk","Boreal Evergreen Forest. Stand established around 1933","NAC",3661.01,"1933",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3662,"Heshan Hilly Land Interdisciplinary Experimental Station","Aggrading Acacia crassicarpa Forest. Stand established around 2004","NAC",3662.01,"2004",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3663,"Heshan Hilly Land Interdisciplinary Experimental Station","Aggrading Eucalyptus urophylla Forest. Stand established around 2004","NAC",3663.01,"2004",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3664,"Arevalo_2011_luce research site in Alberta Canada","Aggrading Temperate Deciduous Forest. Stand established around 2004","NAC",3664.01,"2004",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3665,"Arevalo_2011_luce research site in Alberta Canada","Aggrading Temperate Deciduous Forest. Stand established around 1997","NAC",3665.01,"1997",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3666,"Mt. Gonglushan","Temperate Deciduous Forest. Stand established around 1979","NAC",3666.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3667,"Mt. Gonglushan","Temperate Deciduous Forest. Stand established around 1949","NAC",3667.01,"1949",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3668,"Experimental Station of the Faculty of Agriculture of the University of Bologna","Managed Temperate Deciduous Forest with Fertilized (80:25:100 kg/ha NPK) treatment. Stand established around 1997","NAC",3668.01,"1997",3668.02,"Initiation of post-disturbance cohort (planted or natural)","1997",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3668.03,0,0
+3669,"Mae Klong Watershed Research Station","Tropical Evergreen Forest","NAC",3669.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3670,"Dagangshan Forest Station","Subtropical Evergreen Forest","NAC",3670.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3671,"Pingyuan Forestry Farm","Aggrading Temperate Deciduous Forest. Stand established around 2005","NAC",3671.01,"2005",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3672,"Pingyuan Forestry Farm","Aggrading Temperate Deciduous Forest. Stand established around 1999","NAC",3672.01,"1999",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3673,"Pingyuan Forestry Farm","Aggrading Temperate Deciduous Forest. Stand established around 1992","NAC",3673.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3674,"Appi Forest","Temperate Deciduous Forest. Stand established around 1937","NAC",3674.01,"1937",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3675,"Parque Municipal do Bacaba-Cerrado","Tropical Deciduous Savanna","NAC",3675.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3676,"Parque Municipal do Bacaba-Cerradao","Tropical Deciduous Savanna","NAC",3676.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3677,"Duke FACE","Aggrading Subtropical Evergreen Forest","NAC",3677.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3678,"Duke FACE","Unmanaged Aggrading Subtropical Evergreen Forest with Fertilized (11.2 gN/m2/yr) treatment","NAC",3678.01,"NAC",3678.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3678.03,0,0
+3679,"Duke FACE","Unmanaged Aggrading Subtropical Evergreen Forest with CO2 (+200 ppm) treatment","NAC",3679.01,"NAC",3679.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3679.03,0,0,0,0,0
+3680,"Duke FACE","Unmanaged Aggrading Subtropical Evergreen Forest with Fertilized, CO2 (11.2 gN/m2/yr, +200 ppm) treatment","NAC",3680.01,"NAC",3680.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3680.03,0,0,3680.04,0,0
+3681,"Rosinedalsheden experimental forest","Boreal Evergreen Forest. Stand established around 1939","NAC",3681.01,"1939",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3682,"Rosinedalsheden experimental forest","Natural Boreal Evergreen Forest with Fertilized (20 kgN/ha/yr, NH4NO3) treatment. Stand established around 1939","NAC",3682.01,"1939",3682.02,"Initiation of post-disturbance cohort (planted or natural)","1939",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3682.03,0,0
+3683,"Rosinedalsheden experimental forest","Natural Boreal Evergreen Forest with Fertilized (100 kgN/ha/yr, NH4NO3) treatment. Stand established around 1939","NAC",3683.01,"1939",3683.02,"Initiation of post-disturbance cohort (planted or natural)","1939",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3683.03,0,0
+3684,"Alice Holt research forest","Temperate Deciduous Forest. Stand established around 1928","NAC",3684.01,"1928",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3685,"Yamashiro Experimental Forest","Temperate Deciduous Forest","NAC",3685.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3686,"Abitibi-James Bay","Boreal Evergreen Forest. Stand established around 1916","NAC",3686.01,"1916",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3687,"Abitibi-James Bay","Boreal Mixed Forest. Stand established around 1916","NAC",3687.01,"1916",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3688,"Abitibi-James Bay","Boreal Deciduous Forest. Stand established around 1916","NAC",3688.01,"1916",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3689,"Vesijako Research Forest","Boreal Evergreen Forest. Stand established around 1950","NAC",3689.01,"1950",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3690,"US-NC2","Aggrading Temperate Evergreen Forest. Stand established around 1991","NAC",3690.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3691,"Iroquois National Wildlife Refuge","Temperate Deciduous Forest","NAC",3691.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3692,"Kalevansuo","Boreal Evergreen Forest. Stand established around 1971","NAC",3692.01,"1971",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3693,"Panzacchi_2012_bcaa research site in Italy","Managed Temperate Deciduous Forest with Irrigation, fertilized (Control) treatment. Stand established around 1996","NAC",3693.01,"1996",3693.02,"Initiation of post-disturbance cohort (planted or natural)","1996",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3693.03,3693.04,0,0
+3694,"Panzacchi_2012_bcaa research site in Italy","Managed Temperate Deciduous Forest with Irrigation, fertilized (-30% irrigation) treatment. Stand established around 1996","NAC",3694.01,"1996",3694.02,"Initiation of post-disturbance cohort (planted or natural)","1996",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3694.03,3694.04,0,0
+3695,"US-Me6","Aggrading Temperate Evergreen Forest. Stand established around 1980","NAC",3695.01,"1980",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3696,"US-Me6","Unmanaged Aggrading Temperate Evergreen Forest with Irrigation treatment. Stand established around 1980","NAC",3696.01,"1980",3696.02,"Initiation of post-disturbance cohort (planted or natural)","1980",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3696.03,0,0,0
+3697,"Neuglobsow","Temperate Evergreen Forest. Stand established around 1905","NAC",3697.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3698,"Stadra","Aggrading Temperate Evergreen Forest. Stand established around 2007","NAC",3698.01,"2007",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3699,"Schindlbacher_2012_sruc research site in Austria","Temperate Evergreen Forest. Stand established around 1883","NAC",3699.01,"1883",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3700,"Schindlbacher_2012_sruc research site in Austria","Natural Temperate Evergreen Forest with Warmed treatment. Stand established around 1883","NAC",3700.01,"1883",3700.02,"Initiation of post-disturbance cohort (planted or natural)","1883",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3700.03,0,0,0,0
+3701,"Schindlbacher_2012_sruc research site in Austria","Natural Temperate Evergreen Forest with Drought treatment. Stand established around 1883","NAC",3701.01,"1883",3701.02,"Initiation of post-disturbance cohort (planted or natural)","1883",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3701.03,0,0,0
+3702,"Schindlbacher_2012_sruc research site in Austria","Natural Temperate Evergreen Forest with Warming, drought treatment. Stand established around 1883","NAC",3702.01,"1883",3702.02,"Initiation of post-disturbance cohort (planted or natural)","1883",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3702.03,3702.04,0,0,0
+3703,"EBE","Temperate Evergreen Forest. Stand established around 1915","NAC",3703.01,"1915",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3704,"FRE","Temperate Evergreen Forest. Stand established around 1851","NAC",3704.01,"1851",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3705,"Takayama experimental forest","Temperate Deciduous Forest. Stand established around 1951","NAC",3705.01,"1951",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3706,"Takayama experimental forest","Temperate Deciduous Forest. Stand established around 1991","NAC",3706.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3707,"Renon","Temperate Evergreen Forest","NAC",3707.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3708,"Wetzstein","Temperate Evergreen Forest. Stand established around 1956","NAC",3708.01,"1956",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3709,"Norunda","Boreal Evergreen Forest. Stand established around 1932","NAC",3709.01,"1932",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3710,"Bily Kriz","Aggrading Temperate Evergreen Forest. Stand established around 1979","NAC",3710.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3711,"Teshio Experimental Forest","Aggrading Temperate Mixed Forest. Stand established around 1967","NAC",3711.01,"1967",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3712,"Teshio Experimental Forest","Managed Aggrading Temperate Mixed Forest with Warmed (3 C) treatment. Stand established around 1967","NAC",3712.01,"1967",3712.02,"Initiation of post-disturbance cohort (planted or natural)","1967",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3712.03,0,0,0,0
+3713,"Agroforestry Field Laboratory of the Institute of Forestry","Aggrading Dracontomelon dao Forest. Stand established around 1992","NAC",3713.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3714,"Agroforestry Field Laboratory of the Institute of Forestry","Aggrading Gmelina arborea Forest. Stand established around 1992","NAC",3714.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3715,"Agroforestry Field Laboratory of the Institute of Forestry","Aggrading Dipterocarps Forest. Stand established around 1992","NAC",3715.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3716,"Bricka","Temperate Deciduous Forest. Stand established around 1905","NAC",3716.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3717,"Kladje","Temperate Deciduous Forest. Stand established around 1905","NAC",3717.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3718,"Rajhenav","Temperate Deciduous Forest. Stand established around 1905","NAC",3718.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3719,"Snezna jama","Temperate Deciduous Forest. Stand established around 1905","NAC",3719.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3720,"Vrhovo","Temperate Deciduous Forest. Stand established around 1905","NAC",3720.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3721,"Tomotsune_2013_sora research site in Nagano Japan","Temperate Deciduous Forest. Stand established around 1975","NAC",3721.01,"1975",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3722,"Kondi","Managed Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2008.5","NAC",3722.01,"2008",3722.02,"Initiation of post-disturbance cohort (planted or natural)","2008",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,3722.03
+3723,"Kondi","Managed Tropical Deciduous Forest with Stem wood harvest treatment. Stand established around 2008.5","NAC",3723.01,"2008",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3724,"Kondi","Managed Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2009.5","NAC",3724.01,"2009",3724.02,"Initiation of post-disturbance cohort (planted or natural)","2009",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,3724.03
+3725,"Kondi","Managed Tropical Deciduous Forest with Stem wood harvest treatment. Stand established around 2009.5","NAC",3725.01,"2009",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3726,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1991","NAC",3726.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3727,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1981","NAC",3727.01,"1981",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3728,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1971","NAC",3728.01,"1971",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3729,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1992","NAC",3729.01,"1992",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3730,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1982","NAC",3730.01,"1982",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3731,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1972","NAC",3731.01,"1972",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3732,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1993","NAC",3732.01,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3733,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1983","NAC",3733.01,"1983",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3734,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1973","NAC",3734.01,"1973",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3735,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1994","NAC",3735.01,"1994",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3736,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1984","NAC",3736.01,"1984",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3737,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest. Stand established around 1974","NAC",3737.01,"1974",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3738,"Melling_2013_smar research site in Sarawak Indonesia","Tropical NA Forest","NAC",3738.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3739,"Melling_2013_smar research site in Sarawak Indonesia","Managed Aggrading Tropical NA Forest with Fertilized (103 kgN/ha) treatment. Stand established around 1999","NAC",3739.01,"1999",3739.02,"Initiation of post-disturbance cohort (planted or natural)","1999",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3739.03,0,0
+3740,"Melling_2013_smar research site in Sarawak Indonesia","Aggrading Tropical NA Forest","NAC",3740.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3741,"Mt. Worak National Park","Temperate Deciduous Forest","NAC",3741.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3742,"Ailaoshan Station for Subtropical Forest Ecosystem Studies","Subtropical NA Forest","NAC",3742.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3743,"D1","Mediterranean Deciduous Forest","NAC",3743.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3744,"D2","Mediterranean Deciduous Forest","NAC",3744.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3745,"D3","Mediterranean Deciduous Forest","NAC",3745.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3746,"D4","Mediterranean Deciduous Forest","NAC",3746.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3747,"Tian_2012_cosr research site in China","Temperate Evergreen Forest","NAC",3747.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3748,"National Field Research Station of Daxing'anling Forest Ecosystem","Boreal Deciduous Forest","NAC",3748.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3749,"SMEAR II","Boreal Evergreen Forest. Stand established around 1961","NAC",3749.01,"1961",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3750,"Mt. Ailao Nature Reserve","Subtropical Evergreen Forest. Stand established around 1711","NAC",3750.01,"1711",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3751,"Herdade da Machoqueira do Grou","Mediterranean Deciduous Forest. Stand established around 2010","NAC",3751.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3752,"Shisanling","Temperate Evergreen Forest","NAC",3752.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3753,"Shisanling","Managed Temperate Evergreen Forest with Thinning (4100/ha) treatment","NAC",3753.01,"NAC",3753.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3753.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3754,"Shisanling","Managed Temperate Evergreen Forest with Thinning (3000/ha) treatment","NAC",3754.01,"NAC",3754.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3754.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3755,"Skogaryd","Temperate Evergreen Forest. Stand established around 1951","NAC",3755.01,"1951",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3756,"Noh_2013_cand research site in South Korea","Temperate Evergreen Forest. Stand established around 1938","NAC",3756.01,"1938",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3757,"Ohtsuka_2013_ccas research site in Japan","Temperate Evergreen Forest. Stand established around 1912","NAC",3757.01,"1912",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3758,"Laoshan Experimental Station","Temperate Deciduous Forest. Stand established around 1967","NAC",3758.01,"1967",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3759,"Laoshan Experimental Station","Managed Temperate Deciduous Forest with Thinned treatment. Stand established around 1958","NAC",3759.01,"1958",3759.02,"Initiation of post-disturbance cohort (planted or natural)","1958",0,"NAC","NAC","NAC",0,0,3759.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3760,"Laoshan Experimental Station","Temperate Deciduous Forest. Stand established around 1968","NAC",3760.01,"1968",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3761,"Laoshan Experimental Station","Managed Temperate Deciduous Forest with Thinned treatment. Stand established around 1959","NAC",3761.01,"1959",3761.02,"Initiation of post-disturbance cohort (planted or natural)","1959",0,"NAC","NAC","NAC",0,0,3761.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3762,"Laoshan Experimental Station","Temperate Deciduous Forest. Stand established around 1969","NAC",3762.01,"1969",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3763,"Laoshan Experimental Station","Managed Temperate Deciduous Forest with Thinned treatment. Stand established around 1960","NAC",3763.01,"1960",3763.02,"Initiation of post-disturbance cohort (planted or natural)","1960",0,"NAC","NAC","NAC",0,0,3763.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3764,"Huitong National Research Station of Forest Ecosystem","Aggrading Subtropical Evergreen Forest. Stand established around 1988","NAC",3764.01,"1988",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3765,"Saihanba Forestry Center","Aggrading Temperate Evergreen Forest","NAC",3765.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3766,"Saihanba Forestry Center","Aggrading Temperate Deciduous Forest","NAC",3766.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3767,"Saihanba Forestry Center","Temperate Deciduous Forest","NAC",3767.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3768,"Soro","Temperate Deciduous Forest. Stand established around 1919","NAC",3768.01,"1919",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3769,"Gazi Bay","Tropical Evergreen Forest","NAC",3769.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3770,"Harvard Forest-Prospect Hill","Aggrading Temperate Deciduous Forest. Stand established around 2010","NAC",3770.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3771,"Harvard Forest-Prospect Hill","Aggrading Temperate Deciduous Forest. Stand established around 2011","NAC",3771.01,"2011",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3772,"Turkey Point-TP02","Aggrading Temperate Evergreen Forest. Stand established around 2002","NAC",3772.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3773,"Turkey Point-TP89","Aggrading Temperate Evergreen Forest. Stand established around 1989","NAC",3773.01,"1989",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3774,"Turkey Point-TP74","Temperate Evergreen Forest. Stand established around 1974","NAC",3774.01,"1974",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3775,"Turkey Point-TP39","Temperate Evergreen Forest. Stand established around 1980","NAC",3775.01,"1980",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3776,"Caxiuana~ National Forest Reserve","Tropical Evergreen Forest","NAC",3776.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3777,"Caxiuana~ National Forest Reserve","Natural Tropical Evergreen Forest with Drought treatment","NAC",3777.01,"NAC",3777.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3777.03,0,0,0
+3778,"Fazenda Tanguro","Tropical Evergreen Forest","NAC",3778.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3779,"Fazenda Tanguro","Aggrading Tropical Evergreen Forest. Stand established around 2009","NAC",3779.01,"2009",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3780,"Caxiuana~ National Forest Reserve","Aggrading Tropical Evergreen Forest","NAC",3780.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3781,"Caxiuana~ National Forest Reserve","Aggrading Tropical Evergreen Forest. Stand established around 1960","NAC",3781.01,"1960",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3782,"Kenia-dry","Tropical Evergreen Forest","NAC",3782.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3783,"Kenia-wet","Tropical Evergreen Forest","NAC",3783.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3784,"Allpahuayo-Mishana National Reserve RAINFOR","Tropical Evergreen Forest","NAC",3784.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3785,"Tambopata- Candamo Reserve TAM05","Tropical Evergreen Forest","NAC",3785.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3786,"Tambopata- Candamo Reserve TAM06","Tropical Evergreen Forest","NAC",3786.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3787,"San Pedro- SPD-02","Tropical Evergreen Forest","NAC",3787.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3788,"San Pedro- SPD-01","Tropical Evergreen Forest","NAC",3788.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3789,"Kong_2014_asot research site in Mt. Bulam South Korea","Temperate Deciduous Forest","NAC",3789.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3790,"Dinghushan Biosphere Reserve-BF","Subtropical Evergreen Forest. Stand established around 1611","NAC",3790.01,"1611",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3791,"Dinghushan Biosphere Reserve-CF","Subtropical Evergreen Forest. Stand established around 1911","NAC",3791.01,"1911",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3792,"Heshan National Field Research Station of Forest Ecosystems-CP","Subtropical Evergreen Forest. Stand established around 1986","NAC",3792.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3793,"Heshan National Field Research Station of Forest Ecosystems-BP","Subtropical Evergreen Forest. Stand established around 1986","NAC",3793.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3794,"Dingmushan","Subtropical Evergreen Forest. Stand established around 1961","NAC",3794.01,"1961",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3795,"Bellif national forest","Mediterranean Evergreen Forest. Stand established around 1973","NAC",3795.01,"1973",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3796,"Bellif national forest","Mediterranean Evergreen Forest. Stand established around 1921.5","NAC",3796.01,"1922",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3797,"West China Subalpine Botanical Garden","Subtropical Evergreen Forest","NAC",3797.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3798,"Mt. Dongling","Aggrading Tropical Deciduous Forest. Stand established around 1991","NAC",3798.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3799,"Mt. Dongling","Aggrading Tropical Evergreen Forest. Stand established around 1991","NAC",3799.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3800,"Miyaluo Experimental Forest","Temperate Evergreen Forest. Stand established around 1986","NAC",3800.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3801,"Miyaluo Experimental Forest","Temperate Evergreen Forest. Stand established around 1961","NAC",3801.01,"1961",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3802,"Miyaluo Experimental Forest","Temperate Evergreen Forest. Stand established around 1940","NAC",3802.01,"1940",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3803,"Miyaluo Experimental Forest","Temperate Evergreen Forest. Stand established around 1858","NAC",3803.01,"1858",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3804,"Hanpattanakit_2015_mtva research site in Ratchaburi Thailand","Aggrading Tropical Evergreen Forest. Stand established around 2001","NAC",3804.01,"2001",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3805,"Kambja","Aggrading Temperate Deciduous Forest. Stand established around 1997","NAC",3805.01,"1997",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3806,"Alatskivi 2","Temperate Deciduous Forest. Stand established around 1978","NAC",3806.01,"1978",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3807,"Erastvere","Temperate Deciduous Forest. Stand established around 1965","NAC",3807.01,"1965",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3808,"Mt. Asama","Temperate Deciduous Forest. Stand established around 1974","NAC",3808.01,"1974",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3809,"Mt. Asama","Managed Temperate Deciduous Forest with Understory harvesting treatment. Stand established around 1974","NAC",3809.01,"1974",3809.02,"Initiation of post-disturbance cohort (planted or natural)","1974",0,"NAC","NAC","NAC",0,0,3809.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3810,"Longwang Mountain","Subtropical Mixed Forest","NAC",3810.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3811,"Wombat State Forest","Mediterranean Evergreen Forest. Stand established around 1986","NAC",3811.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3812,"Wombat State Forest","Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986","NAC",3812.01,"1986",3812.02,"Initiation of post-disturbance cohort (planted or natural)","1986",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3812.03,0,0,0
+3813,"Research Forest of the Faculty of Forestry, Istanbul University","Temperate Deciduous Forest","NAC",3813.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3814,"Research Forest of the Faculty of Forestry, Istanbul University","Managed Temperate Deciduous Forest with Thinned treatment","NAC",3814.01,"NAC",3814.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,3814.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3815,"Raymond_2013_sdci research site in Maine USA","Picea rubens Forest","NAC",3815.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3816,"Raymond_2013_sdci research site in Maine USA","Tsuga canadensis Forest","NAC",3816.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3817,"Raymond_2013_sdci research site in Maine USA","Thuja occidentalis Forest","NAC",3817.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3818,"Raymond_2013_sdci research site in Maine USA","Fagus grandifolia; Acer saccharum; Betula papyrifera Forest","NAC",3818.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3819,"Raymond_2013_sdci research site in Maine USA","Betula alleghaniensis; Acer saccharum; Betula papyrifera Forest","NAC",3819.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3820,"Chachoengsao Rubber Research Center","Aggrading Tropical Evergreen Forest. Stand established around 1995","NAC",3820.01,"1995",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3821,"Taiyue Mountain Ecosystem Research Station","Temperate Evergreen Forest. Stand established around 1973","NAC",3821.01,"1973",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3822,"Liangshui Nature Reserve","Temperate Deciduous Forest. Stand established around 1712","NAC",3822.01,"1712",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3823,"Liangshui Nature Reserve","Temperate Deciduous Forest. Stand established around 1954","NAC",3823.01,"1954",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3824,"Liangshui Nature Reserve","Temperate Deciduous Forest. Stand established around 1955","NAC",3824.01,"1955",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3825,"Liangshui Nature Reserve","Temperate Evergreen Forest. Stand established around 1955","NAC",3825.01,"1955",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3826,"Weimer Run Watershed","Temperate Mixed Forest","NAC",3826.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3827,"Liujiang","Aggrading Subtropical Deciduous Forest. Stand established around 2000","NAC",3827.01,"2000",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3828,"Liujiang","Managed Aggrading Subtropical Deciduous Forest with Fertilized (50 kg N added per hectare per year for two years prior to the start of the study) treatment. Stand established around 2000","NAC",3828.01,"2000",3828.02,"Initiation of post-disturbance cohort (planted or natural)","2000",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3828.03,0,0
+3829,"Liujiang","Managed Aggrading Subtropical Deciduous Forest with Fertilized (100 kg N added per hectare per year for two years prior to the start of the study) treatment. Stand established around 2000","NAC",3829.01,"2000",3829.02,"Initiation of post-disturbance cohort (planted or natural)","2000",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3829.03,0,0
+3830,"Liujiang","Managed Aggrading Subtropical Deciduous Forest with Fertilized (150 kg N added per hectare per year for two years prior to the start of the study) treatment. Stand established around 2000","NAC",3830.01,"2000",3830.02,"Initiation of post-disturbance cohort (planted or natural)","2000",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3830.03,0,0
+3831,"Lake Hovsgol International Long-Term Ecological Research Site","Boreal Mixed Forest","NAC",3831.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3832,"Lake Hovsgol International Long-Term Ecological Research Site","Natural Boreal Mixed Forest with Warmed treatment","NAC",3832.01,"NAC",3832.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,3832.03,0,0,0,0
+3833,"Saihanba Ecological Station","Aggrading Boreal Evergreen Forest. Stand established around 1991","NAC",3833.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3834,"Saihanba Ecological Station","Managed Aggrading Boreal Evergreen Forest with Fertilized (20 kg N ha-1 yr-1) treatment. Stand established around 1991","NAC",3834.01,"1991",3834.02,"Initiation of post-disturbance cohort (planted or natural)","1991",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3834.03,0,0
+3835,"Saihanba Ecological Station","Managed Aggrading Boreal Evergreen Forest with Fertilized (50 kg N ha-1 yr-1) treatment. Stand established around 1991","NAC",3835.01,"1991",3835.02,"Initiation of post-disturbance cohort (planted or natural)","1991",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3835.03,0,0
+3836,"Nilsen_2013_csaf research site in Eidsberg Municipality Norway","Managed Aggrading Boreal Evergreen Forest with Selection cutting (11 selection cuttings since 1923) treatment. Stand established around 1998","NAC",3836.01,"1998",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3837,"Nilsen_2013_csaf research site in Eidsberg Municipality Norway","Managed Aggrading Boreal Evergreen Forest with Thinning, Stumps extrated from soil (5 thinnings from 1954 to 1975) treatment. Stand established around 1922","NAC",3837.01,"1922",3837.02,"Initiation of post-disturbance cohort (planted or natural)","1922",0,"NAC","NAC","NAC",0,0,3837.03,"Cut","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,3837.04
+3838,"National Field Research Station of Daxing'anling Forest Ecosystem","Boreal Deciduous Forest. Stand established around 1925","NAC",3838.01,"1925",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3839,"National Field Research Station of Daxing'anling Forest Ecosystem","Boreal Evergreen Forest. Stand established around 1927","NAC",3839.01,"1927",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3840,"Huitong Natural Research Station of Forest Ecosystem","Aggrading Subtropical Evergreen Forest. Stand established around 1990","NAC",3840.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3841,"Forest Ecosystem Open Research Station of Changbai Mountains","Temperate Mixed Forest. Stand established around 1704","NAC",3841.01,"1704",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3842,"Coastal Forest Park","Aggrading Populus tomentosa Forest. Stand established around 2006","NAC",3842.01,"2006",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3843,"Coastal Forest Park","Aggrading Gleditsia triacanthos Forest. Stand established around 2006","NAC",3843.01,"2006",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3844,"Coastal Forest Park","Aggrading Ligustrum lucidum Forest. Stand established around 2006","NAC",3844.01,"2006",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3845,"Coastal Forest Park","Aggrading Juniperus media Forest. Stand established around 2006","NAC",3845.01,"2006",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3846,"Coastal Forest Park","Aggrading Ascendens mucronatum Forest. Stand established around 2006","NAC",3846.01,"2006",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3847,"Coastal Forest Park","Aggrading Ascendens altissima Forest. Stand established around 2006","NAC",3847.01,"2006",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3848,"Bily Kriz","Temperate Evergreen Forest. Stand established around 1981","NAC",3848.01,"1981",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3849,"Xiayang forest farm","Subtropical Deciduous Forest. Stand established around 1993","NAC",3849.01,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3850,"Xiayang forest farm","Subtropical Evergreen Forest. Stand established around 1993","NAC",3850.01,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3851,"Harvard Forest-Prospect Hill","Temperate Evergreen Forest. Stand established around 1781","NAC",3851.01,"1781",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3852,"Harvard Forest-Simes","Temperate Evergreen Forest. Stand established around 1879","NAC",3852.01,"1879",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3853,"Harvard Forest-Simes","Aggrading Temperate Evergreen Forest. Stand established around 2006","NAC",3853.01,"2006",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3854,"Burnham Brook","Aggrading Temperate Deciduous Forest. Stand established around 1993","NAC",3854.01,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3855,"Black Pond","Temperate Deciduous Forest. Stand established around 1876","NAC",3855.01,"1876",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3856,"Arang-arang","Managed Aggrading Tropical Evergreen Forest with Fertilized treatment. Stand established around 2006","NAC",3856.01,"2006",3856.02,"Initiation of post-disturbance cohort (planted or natural)","2006",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3856.03,0,0
+3857,"Sumber Agung","Managed Aggrading Tropical Evergreen Forest with Fertilized treatment. Stand established around 1997","NAC",3857.01,"1997",3857.02,"Initiation of post-disturbance cohort (planted or natural)","1997",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3857.03,0,0
+3858,"Wakhid_2017_scde research site in Central Kalimantan Indonesia","Managed Aggrading Tropical Evergreen Forest with Fertilized treatment. Stand established around 2007","NAC",3858.01,"2007",3858.02,"Initiation of post-disturbance cohort (planted or natural)","2007",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,3858.03,0,0
+3859,"Kurth_2014_isrr research site in Minnesota USA","Temperate Deciduous Forest. Stand established around 1950","NAC",3859.01,"1950",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3860,"Kurth_2014_isrr research site in Minnesota USA","Managed Temperate Deciduous Forest with Harvest (WTH) treatment. Stand established around 2010","NAC",3860.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3861,"Kurth_2014_isrr research site in Minnesota USA","Managed Temperate Deciduous Forest with Harvest (20SR) treatment. Stand established around 2010","NAC",3861.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3862,"Kurth_2014_isrr research site in Minnesota USA","Managed Temperate Deciduous Forest with Harvest (SOH) treatment. Stand established around 2010","NAC",3862.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3863,"Kurth_2014_isrr research site in Minnesota USA","Managed Temperate Deciduous Forest with Harvest (All) treatment. Stand established around 2010","NAC",3863.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3864,"Kurth_2014_isrr research site in Minnesota USA","Managed Temperate Deciduous Forest with Harvest (AGR) treatment. Stand established around 2010","NAC",3864.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3865,"Kurth_2014_isrr research site in Minnesota USA","Managed Temperate Deciduous Forest with Harvest (NONE) treatment. Stand established around 2010","NAC",3865.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3866,"Kurth_2014_isrr research site in Minnesota USA","Temperate Deciduous Forest. Stand established around 1951","NAC",3866.01,"1951",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3867,"Kurth_2014_isrr research site in Minnesota USA","Temperate Deciduous Forest. Stand established around 1952","NAC",3867.01,"1952",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0

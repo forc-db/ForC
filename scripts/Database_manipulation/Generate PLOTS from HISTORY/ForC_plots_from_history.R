@@ -281,9 +281,10 @@ for (n in 1:n_plots) {
   
   
   ## temperature 
-  i1 <- which(site_plot %in% plots_list[n] & HISTORY$hist.cat %in% 'Management' & HISTORY$hist.type %in% 'Warming_soil')
-  i2 <- which(site_plot %in% plots_list[n] & HISTORY$hist.cat %in% 'Management' & HISTORY$hist.type %in% 'Warming_air')
-  iTEMP <- c(i1, i2)
+  i1 <- which(site_plot %in% plots_list[n] & HISTORY$hist.cat %in% 'Management' & grepl("Warming", HISTORY$hist.type))
+  # i1 <- which(site_plot %in% plots_list[n] & HISTORY$hist.cat %in% 'Management' & HISTORY$hist.type %in% 'Warming_soil')
+  # i2 <- which(site_plot %in% plots_list[n] & HISTORY$hist.cat %in% 'Management' & HISTORY$hist.type %in% 'Warming_air')
+  iTEMP <- i1 # c(i1, i2)
   
   if (length(iTEMP) == 1) TEMPERATURE <- HISTORY$history.ID[iTEMP]
   if (length(iTEMP) == 0) TEMPERATURE <- 0

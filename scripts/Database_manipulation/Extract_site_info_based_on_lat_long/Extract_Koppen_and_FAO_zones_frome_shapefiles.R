@@ -113,6 +113,8 @@ SITES$Koeppen[is.na(SITES$Koeppen) & SITES$FAO.ecozone %in% "Tropical rainforest
 SITES$Koeppen[is.na(SITES$Koeppen) & SITES$FAO.ecozone %in% "Subtropical humid forest"] <- "Cfa"
 
 if(any(is.na(SITES$Koeppen) | SITES$Koeppen %in% "NAC")) stop("There are missing Koeppen that you need to fill by hand in this script.")
+plot(KOEPPEN)
+points(SITES.xy[is.na(SITES$Koeppen) | SITES$Koeppen %in% "NAC", ], col = "red", pch= 16)
 
 
 # Extract biogeog ####
@@ -148,7 +150,10 @@ SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("French Guiana", "Braz
 
 if(any(is.na(SITES$biogeog) | SITES$biogeog %in% "NAC")) stop("There are missing biogeog that you need to fill by hand in this script.")
 
-SITES[is.na(SITES$biogeog), c("sites.sitename", "lat", "lon", "country")]
+SITES[is.na(SITES$biogeog) | SITES$biogeog %in% "NAC", c("sites.sitename", "lat", "lon", "country")]
+points(SITES.xy[is.na(SITES$biogeog)| SITES$biogeog%in% "NAC",], pch = 16, col = "red")
+
+
 # SAVE ####
 
 write.csv(SITES, "data/ForC_sites.csv", row.names = F)
