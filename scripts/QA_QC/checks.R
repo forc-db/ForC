@@ -58,7 +58,7 @@ ALLOMETRY_meta     <- read.csv("metadata/allometry_metadata.csv", stringsAsFacto
 
 # unique measurement ID:
 
-if(sum(duplicated(MEASUREMENTS$measurement.ID))>0) cat(paste("there are", sum(duplicated(MEASUREMENTS$measurement.ID)), "measurement.ID that are repeated"))
+cat(paste("there are", sum(duplicated(MEASUREMENTS$measurement.ID)), "measurement.ID that are repeated"))
 # View(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% MEASUREMENTS$measurement.ID[duplicated(MEASUREMENTS$measurement.ID)],])
 
 

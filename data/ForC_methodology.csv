@@ -402,12 +402,13 @@
 1011,"Larionova_1998_srac","R_soil_C","Soil profile",NA
 1012,"Tang_2003_asce","R_soil_C","Profile",NA
 1013,"Grier_1977_opco","R_soil_C","Regression",NA
-1014,"Binkley_2006_ttsr","R_soil_het_C","Girdling",NA
-1015,"Xu_2001_eria","R_soil_het_C","Other",NA
-1016,"Hubbard_2005_spis","R_soil_C","Gradient",NA
+1014,"Liang_2004_isco","R_soil_C","Gradient",NA
+1015,"Binkley_2006_ttsr","R_soil_het_C","Girdling",NA
+1016,"Xu_2001_eria","R_soil_het_C","Other",NA
 1017,"Zha_2007_tacc","R_soil_het_C","Equation",NA
 1018,"Sawamoto_2003_cine","R_soil_C","Unknown",NA
 1019,"Dorr_1987_avis","R_soil_het_C","Radiocarbon",NA
 1020,"Dore_2010_cawf","R_soil_C","IRGA, static, gradient",NA
-1021,"Pumpanen_2015_sdoa","R_soil_het_C","Temporal",NA
-1022,"Wu_2013_sotc","R_soil_het_C","Mass balance",NA
+1021,"Forrester_2013_emof","R_soil_het_C","Mass balance",NA
+1022,"Pumpanen_2015_sdoa","R_soil_het_C","Temporal",NA
+1023,"Wang_2013_eots","R_soil_C","Gas Chromatography",NA
