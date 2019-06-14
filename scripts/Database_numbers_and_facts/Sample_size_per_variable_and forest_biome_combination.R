@@ -101,7 +101,9 @@ A.cast <- as.data.frame(cbind(variable.name = row.names(t(A.cast)), t(A.cast)), 
 A.cast[, -1] <- sapply(A.cast[, -1], as.numeric)
 A.cast <- A.cast[order(A.cast$`boreal_broadleaf_< 100 years`, decreasing = T), ]
 
-saveWidget(A, "numbers_and_facts/Sample_size_per_variable_and_forest_biome_combination.html")
+oldwd <- getwd()
+setwd("numbers_and_facts")
+saveWidget(A, "Sample_size_per_variable_and_forest_biome_combination.html")
+setwd(oldwd)
 write.csv( A.cast, "numbers_and_facts/Sample_size_per_variable_and_forest_biome_combination.csv", row.names = F)
 
-setwd(dirname(getwd()))

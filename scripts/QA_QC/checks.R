@@ -39,7 +39,7 @@ HISTORY      <- read_csv("data/ForC_history.csv")
 PFT          <- read_csv("data/ForC_pft.csv", na = na_codes)
 HISTTYPE     <- read_csv("data/ForC_histtype.csv")
 VARIABLES    <- read_csv("data/ForC_variables.csv", na = na_codes)
-METHODOLOGY  <- read_csv("data/ForC_methodology.csv", col_types = "cccc", na = na_codes)
+METHODOLOGY  <- read_csv("data/ForC_methodology.csv", col_types = "ccccc", na = na_codes)
 ALLOMETRY    <- read_csv("data/ForC_allometry.csv", na = na_codes)
 
 
@@ -55,6 +55,12 @@ ALLOMETRY_meta     <- read.csv("metadata/allometry_metadata.csv", stringsAsFacto
 
 
 # ===== MEASUREMENTS checks ==== ####
+
+# unique measurement ID:
+
+cat(paste("there are", sum(duplicated(MEASUREMENTS$measurement.ID)), "measurement.ID that are repeated"))
+# View(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% MEASUREMENTS$measurement.ID[duplicated(MEASUREMENTS$measurement.ID)],])
+
 
 # For each site-plot combination in MEASUREMENTS, there is a corresponding site-plot record in PLOTS
 MEASUREMENTS %>%
@@ -94,15 +100,15 @@ if(any(!unique(MEASUREMENTS$variable.name) %in% VARIABLES$variable.name)) {
 
 
 # For each covariate_# in MEASUREMENTS, there is a definition in VARIABLES
-if(!all(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variable.name] %in% na_codes)) stop("There are covariate_1 in measurements that are not defined in VARIABLES")
+if(!all(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variable.name] %in% na_codes)) warning("There are covariate_1 in measurements that are not defined in VARIABLES")
 
-if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variable.name] %in% na_codes))stop("There are covariate_2 in measurements that are not defined in VARIABLES")
+if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variable.name] %in% na_codes))warning("There are covariate_2 in measurements that are not defined in VARIABLES")
 
 
 # For each allometry_1 and allometry_2 in MEASUREMENTS, there is an allometric equation in ALLOMETRIE
-if(!all(unique(na.omit(MEASUREMENTS$allometry_1)) [!unique(na.omit(MEASUREMENTS$allometry_1)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) stop("There are coV_1.value in measurements that are not defined in ALLOMETRY")
+if(!all(unique(na.omit(MEASUREMENTS$allometry_1)) [!unique(na.omit(MEASUREMENTS$allometry_1)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_1.value in measurements that are not defined in ALLOMETRY")
 
-if(!all(na.omit(MEASUREMENTS$allometry_2) [!na.omit(MEASUREMENTS$allometry_2) %in% ALLOMETRY$allometric.equation] %in% na_codes)) stop("There are coV_2.value in measurements that are not defined in ALLOMETRY")
+if(!all(na.omit(MEASUREMENTS$allometry_2) [!na.omit(MEASUREMENTS$allometry_2) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_2.value in measurements that are not defined in ALLOMETRY")
 
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
@@ -240,17 +246,17 @@ if(any(duplicated(paste(HISTTYPE$hist.cat, HISTTYPE$hist.type)))) {
 }
 
 # All hist.cat exist in HISTORY
-if(!all(gsub("\\(_prior\\)", "", HISTTYPE$hist.cat) %in% HISTORY$hist.cat)) stop("There are hist.cat in HISTTYPE that don't exist in HISTORY")
+if(!all(gsub("\\(_prior\\)", "", HISTTYPE$hist.cat) %in% HISTORY$hist.cat)) warning("There are hist.cat in HISTTYPE that don't exist in HISTORY")
 
 
 # All hist.type exist in HISTORY
 
-if(!all(HISTTYPE$hist.type2 %in% HISTORY$hist.type))  stop("There are hist.type in HISTTYPE that don't exist in HISTORY table. See HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type]
+if(!all(HISTTYPE$hist.type2 %in% HISTORY$hist.type))  warning("There are hist.type in HISTTYPE that don't exist in HISTORY table. See HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type]
 ")
 HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type] # Leave Precipitation Diversion
 
 # All hist.type exist in PLOTS
-if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type)))) stop("There are hist.cat in HISTTYPE that don't exist in PLOTS table. SEE")
+if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type)))) warning("There are hist.cat in HISTTYPE that don't exist in PLOTS table. SEE")
 
 HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type))] # keep for furture records
 
@@ -261,8 +267,9 @@ HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$
 if(any(duplicated(PFT$pftcode))) {
   message("There are duplicated PFT codes in the PFT table!")  
 }
+
 # All pftcode are present in MEASUREMENTS table
-if(!all(PFT$pftcode %in% MEASUREMENTS$dominant.veg)) stop("There are pftcode in PFT that don't exist in MEASUREMENTS table. See PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg]
+if(!all(PFT$pftcode %in% MEASUREMENTS$dominant.veg)) warning("There are pftcode in PFT that don't exist in MEASUREMENTS table. See PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg]
 ")
 PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg] # Leave "2VW"   "2GW"   "2FORB" "2LTR"  "2RF"   "2RB"
 
@@ -271,7 +278,7 @@ PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg] # Leave "2VW"   "2GW"  
 
 
 # There should be no records in METHODOLOGY that lack corresponding records in MEASUREMENTS
-if(!all(METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID)) stop("There are method.ID in METHODOLOGY that don't exist in MEASUREMENTS table. See METHODOLOGY$method.ID[!METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID]")
+if(!all(METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID)) warning("There are method.ID in METHODOLOGY that don't exist in MEASUREMENTS table. See METHODOLOGY$method.ID[!METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID]")
 
 
 # All variables in METHODOLOGY exist in VARIABLES --> not checking as names may change
@@ -381,8 +388,8 @@ for(i in 1:nrow(VARIABLES)){
 warning(paste("There is", nrow(mean.not.within.range), "measurements falling out of variable range"))
 if(nrow(mean.not.within.range) > 0) cat("See mean.not.within.range")
 
-View(mean.not.within.range)
-View(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% mean.not.within.range$measurement.ID, ])
+# View(mean.not.within.range)
+# View(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% mean.not.within.range$measurement.ID, ])
 
 cat(paste("There is", nrow(covariate_1.not.within.range), "covariate_1 value(s) falling out of variable range"))
 if(nrow(covariate_1.not.within.range) > 0) cat("See covariate_1.not.within.range")

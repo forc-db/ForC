@@ -43,7 +43,7 @@ source("scripts/Database_manipulation/Identify_and_resolve_duplicates/ID_sets_of
 
 
 ## Generate ForC_simplified and ForC_simplified_metadata ####
-### this internalky runs (source("scripts/Database_manipulation/Reconcile_duplicated_records.R"))
+### this internally runs (source("scripts/Database_manipulation/Reconcile_duplicated_records.R"))
 source("scripts/Database_manipulation/Create_ForC_simplified.R")
 source("scripts/Database_manipulation/Create_ForC_simplified_metadata.R")
 
@@ -67,8 +67,10 @@ source("scripts/Figures/World_Map_with_Biogeographic_Regions_and_ForC_Sites.R")
 
 
 
+## put back sites without coordinates back in
+source("scripts/Database_manipulation/Put_back_SITES_with_missing_coordinates_into_SITES.R")
 
 
-
+## update metadata of ForC ? need to fix data way outside of range first...
 
 

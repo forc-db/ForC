@@ -69,6 +69,7 @@ MEASUREMENTS$plot.name <- addNA(MEASUREMENTS$plot.name)
 
 ## ID orphan conflicts 
 orphan.R.group <- NULL
+MEASUREMENTS$R.group <- as.character(MEASUREMENTS$R.group)
 for(X.group in sort(my_na.omit(unique(unlist(strsplit(MEASUREMENTS$R.group, ";")))))) {
   pattern.X.group <- paste0("(^",X.group, "$)|(^",X.group, ";)|(;", X.group, ";)|(;", X.group, "$)")
   X <- MEASUREMENTS[grepl(pattern.X.group, MEASUREMENTS$R.group), ]
@@ -387,13 +388,13 @@ for(i in 1:length(MEASUREMENTS.split)){
             if(length(conflict.types) == 0) { # if it is a replicate
               
               # if(length(unique(X[this.case.idx, "R.group"])) == 1 & all(!my_is.na(X[this.case.idx, "R.group"]))) R.group.ID.to.add <- unique(X[this.case.idx, "R.group"])
-              if(any(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!my_is.na(X[this.case.idx, "old_R.group"]))) {
+              if(any(table(unlist(strsplit(as.character(unique(X[this.case.idx, "old_R.group"])), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!my_is.na(X[this.case.idx, "old_R.group"]))) {
                 # R.group.ID.to.add <- unique(X[this.case.idx, "R.group"])
                 R.group.ID.to.add <- names(which(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))))
                 if(length(R.group.ID.to.add) > 1) stop()
               } 
               
-              if(!(any(table(unlist(strsplit(unique(X[this.case.idx, "old_R.group"]), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!my_is.na(X[this.case.idx, "old_R.group"])))) {
+              if(!(any(table(unlist(strsplit(as.character(unique(X[this.case.idx, "old_R.group"])), ";"))) == length(unique(X[this.case.idx, "old_R.group"]))) & all(!my_is.na(X[this.case.idx, "old_R.group"])))) {
                 # print(  X[this.case.idx, ])
                 # readline("case where we need for a new R.group")
                 new.R.group.ID <- new.R.group.ID +1
@@ -1241,6 +1242,7 @@ retrieve.old.version.meas.IDs <- c("1224;1225;1226;1227;1228;1229;17532;17542;17
                                    "7536;7537;7538", # suspecting that no overlap and previous script handled this better so leaving it this way
                                    "1218;1219;1220;1221;1222;1223;17512;17522", # this was overwritten at first but now we want to keep that as we manually edited D.precedence
                                    "13646;13647;13648;13649;13650;13651;13652;13653;13654;13661;13662;13663;13674;13675;13678;13679;13682;13687;13690;13693;13696;13699;13700;19033;19034;19035;19036;19037;19038;19039;19040;19041;19042;19043;19044;19045;19046;19047;19048;19049;19050;19965;19966;19967;19968;19969;19970;19971;19972;19973;19974;19975;19976;19977;19978;19979;19980;19981;19982;19983;19984", # this was overwritten at first but now we want to keep that as we manually edited D.precedence
+                                   "14806;14807;14808;14809;14810;14811;14812;14813;14814;14815;14839;14840;14841;14842;14843;14858;19469;19470;19471;19472;19473;19474;20236;20237;20238;20239;20240;20241;20242;20243;20244;20245;20248;20249;20250;20251;20252;20253;20254;20255;20256;20257;20454;20456;20458;20460", # we want to keep snice it was manually edited
                                    "1230;1231;1232;1233;1234;1235;17572;17582" # this was overwritten at first but now we want to keep that as we manually edited D.precedence
 ) # paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was.
 delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% only.one.record.left.split.ID, ]$measurement.ID, #ignore old conflicts of measurement.ID that are in a conflict groups where only one record is left
@@ -1295,11 +1297,18 @@ delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID
                                   "13971;18772", # C is correct in conflict.type
                                   "13986;18773", # C is correct in conflict.type
                                   "14001;18774", # C is correct in conflict.type
-                                  "8576;8582;18028" # C is correct in conflict.type
+                                  "8576;8582;18028", # C is correct in conflict.type
+                                  "2983;2995", # C is correct in conflict.type
+                                  "3017;3025", # C is correct in conflict.type
+                                  "15238;20420", # now a conflict (not I anymore)
+                                  "14249;14259;14267", # legitimate conflict
+                                  "15237;20421", "13023;20410", "15241;20422", "259;20392", "13024;20411", "15242;20423", "16284;20438", "20455;20457;20459;20461", # now a conflict (not I anymore)
+                                  "3191;3195;3197;20445" # now a new sort of conflict
+                                  
 )# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the old version is more approriate than the code's output
 
 #### keep new handling of stand age 999 ####
-## Valentine to Krsita: I believe that when I originally ran the code for duplicated measurements I was considering stand.age "999" as NA. So, 2 measurements of the same variable, at the same plot, with no dates, and with stand.age "999" were considered as S conflict, and both measurements were getting a capital S (which I think deletes them both when creating ForC_simplified). Now I ran the code considering "999" as a 'known' stand.age so the 2 records above would get a conflict R if the method (citation.ID) is the same (see measurements.ID 14061 and 14062 for an example) or D if not (see measurements.ID 7782 and 7786 for an example - and precedence would be for the latest study).That second second solution is better, right?
+## Valentine to Krista: I believe that when I originally ran the code for duplicated measurements I was considering stand.age "999" as NA. So, 2 measurements of the same variable, at the same plot, with no dates, and with stand.age "999" were considered as S conflict, and both measurements were getting a capital S (which I think deletes them both when creating ForC_simplified). Now I ran the code considering "999" as a 'known' stand.age so the 2 records above would get a conflict R if the method (citation.ID) is the same (see measurements.ID 14061 and 14062 for an example) or D if not (see measurements.ID 7782 and 7786 for an example - and precedence would be for the latest study).That second second solution is better, right?
 ## Krista: Yes
 
 stand.age.issue.meas.ID <- NULL
@@ -1507,7 +1516,7 @@ if(length(need.user.input.split.ID) > 0) {
     
     print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
     print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
-    # readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
+    readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
     
   }
   
