@@ -115,7 +115,7 @@ for(response.v in response.variables) {
   ### data
   df <- ForC_simplified[ForC_simplified$variable.name %in% response.v, ]
   df.mature <- df[df$stand.age >= 100, ]
-  df.young <- df[df$stand.age < 100 & df$stand.age != 0,]  # removing 0 because we are taking the log. Removes 28 recorsd
+  df.young <- df[df$stand.age < 100 & df$stand.age != 0,]  # removing 0 because we are taking the log.
   
   right.skewed.response <- skewness(df.young$mean) > 2 & all(df.young$mean > 0)
   
@@ -124,13 +124,19 @@ for(response.v in response.variables) {
   
   ### model young
   
-  mod.young <- lmer(mean ~ log10(stand.age) + Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
+  enough.data.for.mixed.model <- nrow(unique(droplevels(df.young)[, c("geographic.area", "plot.name")])) < nrow(df.young)
+  if(enough.data.for.mixed.model) {
+    mod.young <- lmer(mean ~ log10(stand.age) + Biome + (1|geographic.area/plot.name), data = droplevels(df.young)) # when there is enough data for mixed model
+  } else {
+    mod.young <- lm(mean ~ log10(stand.age) + Biome , data = droplevels(df.young))# when there is not enough data for mixed model
+  }
+  
   drop1.result <- drop1(mod.young, k = log(nrow(df.young)))
   age.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
   
   at.least.10.different.ages.in.each.Biome <- all(tapply(droplevels(df.young)$stand.age, droplevels(df.young)$Biome, function(x) length(x)>=10))
   
-  if(age.significant & at.least.10.different.ages.in.each.Biome)   mod.young <- lmer(mean ~ log10(stand.age) * Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
+  if(age.significant & at.least.10.different.ages.in.each.Biome & enough.data.for.mixed.model)   mod.young <- lmer(mean ~ log10(stand.age) * Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
 
   # mod.without.age <- lmer(mean ~ Biome + (1|geographic.area/plot.name), data = droplevels(df.young))
   # age.significant <- anova(mod.without.age, mod)$"Pr(>Chisq)"[2] < 0.05
