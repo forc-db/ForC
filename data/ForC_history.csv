@@ -7024,7 +7024,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3399.01,BOREAS-SOBS,Boreal Evergreen Forest. Stand established around 1914,NAC,1,1914,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3400.01,Mount Norikura,Temperate Deciduous Forest. Stand established around 1964,NAC,1,1964,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3401.01,Kettle River Range,Temperate Evergreen Forest. Stand established around 1899,NAC,1,1899,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3402.01,La Selva Biological Station-old alluvium,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3402.01,La Selva Biological Station-old alluvium,Tropical Evergreen Forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3403.01,La Selva Biological Station-residual,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3404.01,Harwood Forest,Aggrading Temperate Evergreen Forest. Stand established around 1981,NAC,1,1981,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3405.01,Harwood Forest,Aggrading Temperate Evergreen Forest. Stand established around 1971,NAC,1,1971,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7048,7 +7048,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3423.01,Wallaby Creek,Temperate Deciduous Forest. Stand established around 1981,NAC,1,1981,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3424.01,Hesse Forest-H1,Temperate Deciduous Forest. Stand established around 1969,NAC,1,1969,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3425.01,Hesse Forest-H2,Temperate Deciduous Forest. Stand established around 1969,NAC,1,1969,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3426.01,Kiryu Experimental Watershed,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3427.01,De Inslag Forest,Quercus robur Forest. Stand established around 1931,NAC,1,1931,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3428.01,De Inslag Forest,Quercus robus; Pinus serotina Forest. Stand established around 1931,NAC,1,1931,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3429.01,De Inslag Forest,Quercus robur; Rhododendron ponticum Forest. Stand established around 1931,NAC,1,1931,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7350,7 +7349,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3651.01,Bray,Mediterranean Evergreen Forest. Stand established around 1976,NAC,1,1976,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3652.01,Cascade Head,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3653.01,Duke Forest,Temperate Evergreen Forest. Stand established around 1982,NAC,1,1982,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3654.01,H.J. Andrews,NA Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3654.01,H.J. Andrews,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3655.01,Howland Forest,Temperate Evergreen Forest. Stand established around 1909,NAC,1,1909,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3656.01,Herm,Mediterranean Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3657.01,Metiolus-O,Temperate Evergreen Forest. Stand established around 1848,NAC,1,1848,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7412,10 +7411,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3713.01,Simpevarp,Temperate Deciduous Forest. Stand established around 1871,NAC,1,1871,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3714.01,Sakata_2007_sosr research site in Ibaraki Japan,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3715.01,Takayama Experimental Field Station,Temperate Deciduous Forest. Stand established around 1954,NAC,1,1954,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3716.01,Takayama Experimental Field Station,Temperate Deciduous Forest. Stand established around 1955,NAC,1,1955,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3717.01,Takayama Experimental Field Station,Temperate Deciduous Forest. Stand established around 1956,NAC,1,1956,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3718.01,Takayama Experimental Field Station,Temperate Deciduous Forest. Stand established around 1957,NAC,1,1957,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3719.01,Takayama Experimental Field Station,Temperate Deciduous Forest. Stand established around 1958,NAC,1,1958,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3720.01,Caxiuana National Forest,Tropical Evergreen Forest with Drought treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3720.02,Caxiuana National Forest,Tropical Evergreen Forest with Drought treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 3720.03,Caxiuana National Forest,Tropical Evergreen Forest with Drought treatment,NAC,3,NAC,NAC,Management,Precipitation diversion,NA,NAC,NA,NAC,Drought,NA
@@ -7505,7 +7500,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3804.01,Oak Ridge,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3805.01,Great Smoky Mountain National Park,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3806.01,Luquillo Experimental Forest-Guzman,Tropical Evergreen Forest. Stand established around 1976,NAC,1,1976,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3807.01,La Selva Field Station,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3807.01,La Selva Field Station,Tropical Evergreen Forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3808.01,La Selva Field Station,Aggrading Tropical Evergreen Forest. Stand established around 1978,NAC,1,1978,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3809.01,University of Michigan Biological Station-HIFE,Aggrading Temperate Deciduous Forest. Stand established around 1972,NAC,1,1972,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3810.01,University of Michigan Biological Station-GRTR,Temperate Deciduous Forest. Stand established around 1913,NAC,1,1913,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7567,7 +7562,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3857.02,NET,Temperate Deciduous Forest with Thinned treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 3857.03,NET,Temperate Deciduous Forest with Thinned treatment,NAC,3,NAC,NAC,Disturbance,Cut,NA,NAC,NA,<100%,Thinned,NA
 3858.01,Golden Gate Park,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3859.01,Howland Forest,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3860.01,Bear Brook Watershed,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3861.01,Letter E Township,Temperate Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3862.01,Letter E Township,Temperate Evergreen Forest. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7787,8 +7781,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4064.01,TSEB,"Managed Aggrading Citrus reticulata Forest with Fertilized (310 N, 115 P, 260 K kg/ha/yr) treatment. Stand established around 1998",NAC,1,1998,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4064.02,TSEB,"Managed Aggrading Citrus reticulata Forest with Fertilized (310 N, 115 P, 260 K kg/ha/yr) treatment. Stand established around 1998",NAC,2,1998,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4064.03,TSEB,"Managed Aggrading Citrus reticulata Forest with Fertilized (310 N, 115 P, 260 K kg/ha/yr) treatment. Stand established around 1998",NAC,3,NAC,NAC,Management,Fertilization,NA,NAC,NA,NA,"Fertilized  310 N, 115 P, 260 K kg/ha/yr",NA
-4065.01,Wanmulin Nature Reserve,Subtropical Evergreen Forest. Stand established around 1506,NAC,1,1506,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4070.01,Wanmulin Nature Reserve,Subtropical Evergreen Forest. Stand established around 1507,NAC,1,1507,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4075.01,Matazul Farm,Tropical Evergreen Savanna,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4076.01,Lageren,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4077.01,Lageren-1,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7867,7 +7859,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4127.03,Yizhou State Forestry Centre,"Subtropical Evergreen Forest with Clearcut, slash burnt treatment. Stand established around 1961",NAC,3,1961,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4127.04,Yizhou State Forestry Centre,"Subtropical Evergreen Forest with Clearcut, slash burnt treatment. Stand established around 1961",NAC,4,1961,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4129.01,Menglun Nature Reserve,Tropical Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4130.01,Gwangeung Forest,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4130.01,Gwangeung Forest,Temperate Deciduous Forest. Stand established around 2004,NAC,1,2004,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4131.01,Yashiro_2010_beon research site in Japan,Temperate Evergreen Forest. Stand established around 1966,NAC,1,1966,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4132.01,Gwangeung Forest,Temperate Evergreen Forest. Stand established around 1937,NAC,1,1937,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4133.01,Takayama Forest Research Station,Aggrading Temperate Deciduous Forest. Stand established around 1987,NAC,1,1987,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7909,7 +7901,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4169.01,Turkey Point Flux Station,Aggrading Temperate Evergreen Forest. Stand established around 1974,NAC,1,1974,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4170.01,Turkey Point Flux Station,Temperate Evergreen Forest. Stand established around 1939,NAC,1,1939,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4171.01,Barbeau National Forest FR-Fon,Temperate Deciduous Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4172.01,Wytham Woods,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4172.01,Wytham Woods,Temperate Deciduous Forest. Stand established around 1857,NAC,1,1857,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4173.01,Banobitan,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4174.01,Indian Botanic Garden,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4175.01,Chandra,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -8086,7 +8078,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4294.01,HDF88,Aggrading Temperate Evergreen Forest. Stand established around 1984,NAC,1,1984,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4298.01,Jauhiainen_2012_cdef research site in Sumatra Indonesia,Managed Aggrading Tropical Evergreen Forest with Drained treatment. Stand established around 2003,NAC,1,2003,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4299.01,Nam-San,Temperate Deciduous Forest. Stand established around 1958,NAC,1,1958,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4300.01,Yamashiro Experimental Forest,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4300.01,Yamashiro Experimental Forest,Temperate Deciduous Forest. Stand established around 1972,NAC,1,1972,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4301.01,Abitibi-James Bay,Boreal Evergreen Forest. Stand established around 1916,NAC,1,1916,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4302.01,Abitibi-James Bay,Boreal Mixed Forest. Stand established around 1916,NAC,1,1916,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4303.01,Abitibi-James Bay,Boreal Deciduous Forest. Stand established around 1916,NAC,1,1916,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -8176,10 +8168,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4363.01,Norunda,Boreal Evergreen Forest. Stand established around 1932,NAC,1,1932,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4364.01,Bily Kriz,Aggrading Temperate Evergreen Forest. Stand established around 1979,NAC,1,1979,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4365.01,Teshio Experimental Forest,Aggrading Temperate Mixed Forest. Stand established around 1967,NAC,1,1967,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4366.01,Teshio Experimental Forest,Aggrading Temperate Mixed Forest. Stand established around 1968,NAC,1,1968,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4367.01,Teshio Experimental Forest,Aggrading Temperate Mixed Forest. Stand established around 1969,NAC,1,1969,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4368.01,Teshio Experimental Forest,Aggrading Temperate Mixed Forest. Stand established around 1970,NAC,1,1970,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4369.01,Teshio Experimental Forest,Aggrading Temperate Mixed Forest. Stand established around 1971,NAC,1,1971,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4370.01,Belgrad Forest,Aggrading Picea orientalis Forest. Stand established around 1967,NAC,1,1967,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4371.01,Belgrad Forest,Aggrading Pinus nigra Forest. Stand established around 1967,NAC,1,1967,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4372.01,Belgrad Forest,Aggrading Abies bornmulleriana Forest. Stand established around 1967,NAC,1,1967,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -8219,15 +8207,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4394.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1991,NAC,1,1991,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4395.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1981,NAC,1,1981,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4396.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1971,NAC,1,1971,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4397.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1992,NAC,1,1992,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4398.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1982,NAC,1,1982,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4399.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1972,NAC,1,1972,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4400.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1993,NAC,1,1993,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4401.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1983,NAC,1,1983,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4402.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1973,NAC,1,1973,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4403.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1994,NAC,1,1994,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4404.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1984,NAC,1,1984,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4405.01,Saihanba Forestry Center,Aggrading Temperate Evergreen Forest. Stand established around 1974,NAC,1,1974,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4406.01,Dube_2013_scfi research site in Chile,Managed Aggrading Temperate Evergreen Forest with Fertilized treatment. Stand established around 1990,NAC,1,1990,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4406.02,Dube_2013_scfi research site in Chile,Managed Aggrading Temperate Evergreen Forest with Fertilized treatment. Stand established around 1990,NAC,2,1990,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4406.03,Dube_2013_scfi research site in Chile,Managed Aggrading Temperate Evergreen Forest with Fertilized treatment. Stand established around 1990,NAC,3,NAC,NAC,Management,Fertilization,NA,NAC,NA,NA,Fertilized,NA
@@ -8297,7 +8276,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4456.01,Hollengebirge-HW07,Temperate Mixed Forest. Stand established around 2007,NAC,1,2007,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4457.01,Tian_2012_cosr research site in China,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4458.01,Wanmulin Nature Reserve,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4459.01,National Field Research Station of Daxing'anling Forest Ecosystem,Boreal Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4459.01,National Field Research Station of Daxing'anling Forest Ecosystem,Boreal Deciduous Forest. Stand established around 1927,NAC,1,1927,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4460.01,Flambeau River State Forest,Temperate Deciduous Forest. Stand established around 1928,NAC,1,1928,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4462.01,Changwu Station,Temperate Deciduous Forest. Stand established around 1980,NAC,1,1980,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4463.01,Mt. Ailao Nature Reserve,Subtropical Evergreen Forest. Stand established around 1711,NAC,1,1711,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -8769,10 +8748,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4809.01,Vilhena,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4810.01,FACTS-I,Aggrading Temperate Evergreen Forest. Stand established around 1983,NAC,1,1983,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4811.01,Oak Ridge,Aggrading Temperate Deciduous Forest. Stand established around 1987,NAC,1,1987,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4812.01,Oak Ridge,Aggrading Temperate Deciduous Forest. Stand established around 1988,NAC,1,1988,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4813.01,Oak Ridge,Aggrading Temperate Deciduous Forest. Stand established around 1989,NAC,1,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4814.01,Oak Ridge,Aggrading Temperate Deciduous Forest. Stand established around 1990,NAC,1,1990,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4815.01,Oak Ridge,Aggrading Temperate Deciduous Forest. Stand established around 1991,NAC,1,1991,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4816.01,FACTS-II,Aggrading Temperate Deciduous Forest. Stand established around 1998,NAC,1,1998,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4817.01,POPFACE,Aggrading Temperate Deciduous Forest. Stand established around 1999,NAC,1,1999,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4818.01,POPFACE,Aggrading Temperate Evergreen Forest. Stand established around 1999,NAC,1,1999,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -8788,18 +8763,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4823.01,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (567 ppm) treatment. Stand established around 1983,NAC,1,1983,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4823.02,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (567 ppm) treatment. Stand established around 1983,NAC,2,1983,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4823.03,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (567 ppm) treatment. Stand established around 1983,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  567 ppm,NA
-4824.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (528 ppm) treatment. Stand established around 1988,NAC,1,1988,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4824.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (528 ppm) treatment. Stand established around 1988,NAC,2,1988,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-4824.03,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (528 ppm) treatment. Stand established around 1988,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  528 ppm,NA
-4825.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (538 ppm) treatment. Stand established around 1989,NAC,1,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4825.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (538 ppm) treatment. Stand established around 1989,NAC,2,1989,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-4825.03,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (538 ppm) treatment. Stand established around 1989,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  538 ppm,NA
-4826.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (545 ppm) treatment. Stand established around 1990,NAC,1,1990,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4826.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (545 ppm) treatment. Stand established around 1990,NAC,2,1990,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-4826.03,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (545 ppm) treatment. Stand established around 1990,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  545 ppm,NA
-4827.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (548 ppm) treatment. Stand established around 1991,NAC,1,1991,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4827.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (548 ppm) treatment. Stand established around 1991,NAC,2,1991,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-4827.03,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (548 ppm) treatment. Stand established around 1991,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  548 ppm,NA
 4828.01,FACTS-II,Aggrading Temperate Deciduous Forest with CO2 (523 ppm) treatment. Stand established around 1998,NAC,1,1998,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4828.02,FACTS-II,Aggrading Temperate Deciduous Forest with CO2 (523 ppm) treatment. Stand established around 1998,NAC,2,1998,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4828.03,FACTS-II,Aggrading Temperate Deciduous Forest with CO2 (523 ppm) treatment. Stand established around 1998,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  523 ppm,NA
@@ -9019,7 +8982,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4941.01,Solling-B100,Managed Temperate Deciduous Forest with O-horizon removed treatment. Stand established around 1869,NAC,1,1870,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4941.02,Solling-B100,Managed Temperate Deciduous Forest with O-horizon removed treatment. Stand established around 1869,NAC,2,1870,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4941.03,Solling-B100,Managed Temperate Deciduous Forest with O-horizon removed treatment. Stand established around 1869,NAC,3,NAC,NAC,Management,Soil disturbance,NA,NAC,NA,NA,O-horizon removed,NA
-4942.01,Tomakomai Experimental Forest,Aggrading Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4942.01,Tomakomai Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 1954,NAC,1,1954,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4943.01,Loch Vale,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4944.01,Prades Mountain,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4945.01,Prades Mountain,Temperate Deciduous Forest with Drought treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
