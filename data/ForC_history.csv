@@ -7771,7 +7771,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4055.03,South China Botanical Garden,"Managed Aggrading Subtropical Evergreen Forest with Nitrogen, CO2 (100 kgN/ha/yr, 700 ppm) treatment. Stand established around 2004",NAC,3,NAC,NAC,Management,fertilization_N,NA,NAC,NA,NA,"Nitrogen, CO2  100 kgN/ha/yr, 700 ppm",NA
 4055.04,South China Botanical Garden,"Managed Aggrading Subtropical Evergreen Forest with Nitrogen, CO2 (100 kgN/ha/yr, 700 ppm) treatment. Stand established around 2004",NAC,4,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,"Nitrogen, CO2  100 kgN/ha/yr, 700 ppm",NA
 4056.01,Daxinganling,Boreal Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4057.01,Changbaishan,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4057.01,Changbaishan,Temperate Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4058.01,Dinghushan,Subtropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4059.01,Xishuangbanna,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4060.01,Wanmulin Nature Reserve,Subtropical Evergreen Forest. Stand established around 1505,NAC,1,1505,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
