@@ -6668,7 +6668,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3096.01,Wombat,AU-Wom,NAC,1,1985,8.5,Regrowth,Initiation of post-disturbance cohort (natural),0,NI,NA,NA,NA,NA
 3096.02,Wombat,AU-Wom,NAC,1,1985,8.5,Establishment,Establishment of oldest trees,0,NI,NA,NA,NA,NA
 3097.01,Davos,CH-Dav,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-3098.01,Laegern,CH-Lae,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
+3098.01,Laegern (CH-Lae),CH-Lae,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 3099.01,Lackenberg,DE-Lkb,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 3100.01,Oberbarenburg,DE-Obe,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 3101.01,Ispra,IT-Isp,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
@@ -7780,23 +7780,23 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4064.02,TSEB,"Managed Aggrading Citrus reticulata Forest with Fertilized (310 N, 115 P, 260 K kg/ha/yr) treatment. Stand established around 1998",NAC,2,1998,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4064.03,TSEB,"Managed Aggrading Citrus reticulata Forest with Fertilized (310 N, 115 P, 260 K kg/ha/yr) treatment. Stand established around 1998",NAC,3,NAC,NAC,Management,Fertilization,NA,NAC,NA,NA,"Fertilized  310 N, 115 P, 260 K kg/ha/yr",NA
 4075.01,Matazul Farm,Tropical Evergreen Savanna,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4076.01,Lageren,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4077.01,Lageren-1,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4078.01,Lageren-2,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4079.01,Lageren-3,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4080.01,Lageren-4,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4081.01,Lageren-5,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4082.01,Lageren-6,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4083.01,Lageren-7,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4084.01,Lageren-8,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4085.01,Lageren-9,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4086.01,Lageren-10,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4087.01,Lageren-11,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4088.01,Lageren-12,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4089.01,Lageren-13,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4090.01,Lageren-14,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4091.01,Lageren-15,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4092.01,Lageren-16,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4076.01,Laegern (CH-Lae),Lageren,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4077.01,Laegern (CH-Lae),Lageren-1,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4078.01,Laegern (CH-Lae),Lageren-2,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4079.01,Laegern (CH-Lae),Lageren-3,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4080.01,Laegern (CH-Lae),Lageren-4,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4081.01,Laegern (CH-Lae),Lageren-5,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4082.01,Laegern (CH-Lae),Lageren-6,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4083.01,Laegern (CH-Lae),Lageren-7,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4084.01,Laegern (CH-Lae),Lageren-8,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4085.01,Laegern (CH-Lae),Lageren-9,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4086.01,Laegern (CH-Lae),Lageren-10,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4087.01,Laegern (CH-Lae),Lageren-11,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4088.01,Laegern (CH-Lae),Lageren-12,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4089.01,Laegern (CH-Lae),Lageren-13,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4090.01,Laegern (CH-Lae),Lageren-14,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4091.01,Laegern (CH-Lae),Lageren-15,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4092.01,Laegern (CH-Lae),Lageren-16,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4093.01,San Jacinto Preserve,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4094.01,San Jacinto Preserve,Aggrading Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4095.01,Aracruz,Managed Aggrading Tropical Evergreen Forest with Fertilized treatment. Stand established around 2000,NAC,1,2000,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7879,11 +7879,11 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4151.01,Gwangneung Experimental Forest,Temperate Mixed Forest. Stand established around 1927,NAC,1,1927,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4152.01,Kesan Forest District,Aggrading Temperate Evergreen Forest. Stand established around 1978.5,NAC,1,1978,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4153.01,Kesan Forest District,Managed Aggrading Temperate Evergreen Forest with Burned treatment. Stand established around 1978.5,NAC,1,1978,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4154.01,LSgeren,Quercus robur Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4155.01,LSgeren,Fagus sylvatica Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4156.01,LSgeren,Abies alba Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4157.01,LSgeren,Fraxinus excelsior Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4158.01,LSgeren,Acer pseudoplatanus Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4154.01,Laegern (CH-Lae),Quercus robur Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4155.01,Laegern (CH-Lae),Fagus sylvatica Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4156.01,Laegern (CH-Lae),Abies alba Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4157.01,Laegern (CH-Lae),Fraxinus excelsior Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4158.01,Laegern (CH-Lae),Acer pseudoplatanus Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4159.01,Hainich National Park,Temperate Deciduous Forest. Stand established around 1750,NAC,1,1750,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4160.01,Almagro_2010_bcap research site in Murcia Spain,Temperate Evergreen Forest. Stand established around 1856,NAC,1,1856,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4161.01,Almagro_2010_bcap research site in Murcia Spain,Aggrading Temperate Evergreen Forest. Stand established around 1981,NAC,1,1981,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
