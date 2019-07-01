@@ -8463,10 +8463,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4621.02,Deheson del Encinar,Managed Mediterranean Mixed Forest with Grazed treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4621.03,Deheson del Encinar,Managed Mediterranean Mixed Forest with Grazed treatment,NAC,3,NAC,NAC,Disturbance,Grazed,NA,NAC,NA,NAC,Grazed,NA
 4622.01,Deheson del Encinar,"Managed Mediterranean Mixed Forest with Tilled, Grazed treatment",NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4623.01,Liangshui Nature Reserve,Temperate Deciduous Forest. Stand established around 1712,NAC,1,1712,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4624.01,Liangshui Nature Reserve,Temperate Deciduous Forest. Stand established around 1954,NAC,1,1954,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4623.01,Liangshui Nature Reserve,Temperate Mixed Forest. Stand established around 1712,NAC,1,1712,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4624.01,Liangshui Nature Reserve,Temperate Mixed Forest. Stand established around 1954,NAC,1,1954,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4625.01,Liangshui Nature Reserve,Temperate Deciduous Forest. Stand established around 1955,NAC,1,1955,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4626.01,Liangshui Nature Reserve,Temperate Evergreen Forest. Stand established around 1955,NAC,1,1955,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4626.01,Liangshui Nature Reserve,Temperate Mixed Forest. Stand established around 1955,NAC,1,1955,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4627.01,Weimer Run Watershed,Temperate Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4628.01,Liujiang,Aggrading Subtropical Deciduous Forest. Stand established around 2000,NAC,1,2000,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4629.01,Liujiang,Managed Aggrading Subtropical Deciduous Forest with Fertilized (50 kg N added per hectare per year for two years prior to the start of the study) treatment. Stand established around 2000,NAC,1,2000,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
