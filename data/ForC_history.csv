@@ -6849,8 +6849,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3271.01,Edge forest,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3272.01,Interior forest,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3273.01,Changbai Mountain,Temperate Evergreen Forest. Stand established around 1703,NAC,1,1703,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3274.01,Fort Benning-clay,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3275.01,Fort Benning-sand,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3274.01,Fort Benning-clay,Temperate Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3275.01,Fort Benning-sand,Temperate Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3276.01,Lytle-uncut,Temperate Evergreen Forest. Stand established around 1952,NAC,1,1952,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3277.01,Lytle-clearcut,Aggrading Temperate Evergreen Forest with Clearcut treatment. Stand established around 1992,NAC,1,NAC,NAC,Disturbance,Cut,NA,NAC,NA,100,Clearcut,NA
 3277.02,Lytle-clearcut,Aggrading Temperate Evergreen Forest with Clearcut treatment. Stand established around 1992,NAC,2,1992,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
