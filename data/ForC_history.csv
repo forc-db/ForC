@@ -6652,7 +6652,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3085.01,"WACOAST,Olympic Peninsula,HR",HR04,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 3086.01,Jadraas,Ih-V,NAC,1,1850,8.5,Regrowth,Initiation of post-disturbance cohort (natural),0,NI,NA,NA,NA,NA
 3086.02,Jadraas,Ih-V,NAC,1,1850,8.5,Establishment,Establishment of oldest trees,0,NI,NA,NA,NA,NA
-3087.01,Metolius young II,US-Me6,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
+3087.01,Metolius Young Pine Burn (US-Me6),Aggrading Temperate Evergreen Forest. Stand established 1990,NA,1,1979,8,Disturbance,Burned,1,NA,NA,100,severe fire in 1979,NA
+3087.02,Metolius Young Pine Burn (US-Me6),Aggrading Temperate Evergreen Forest. Stand established 1990,NA,1,1980,8.5,Disturbance,Harvest,1,NA,NA,100,salvage logged,NA
+3087.03,Metolius Young Pine Burn (US-Me6),Aggrading Temperate Evergreen Forest. Stand established 1990,NA,1,1990,8,Regrowth,Initiation of post-disturbance cohort (planted),1,NA,NA,NA,acquired by the US Forest Service land and re-forested in 1990,NA
+3087.04,Metolius Young Pine Burn (US-Me6),Aggrading Temperate Evergreen Forest. Stand established 1990,NA,1,1990,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,acquired by the US Forest Service land and re-forested in 1990,NA
 3088.01,"New Brunswick, FNP",S5B,NAC,1,1992,8,Regrowth,Initiation of post-disturbance cohort (natural),0,NI,NA,NA,NA,NA
 3088.02,"New Brunswick, FNP",S5B,NAC,1,1992,8,Establishment,Establishment of oldest trees,0,NI,NA,NA,NA,NA
 3089.01,Adelaide River,AU-Ade,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
@@ -8106,7 +8109,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4322.01,EOBS,Boreal Evergreen Forest. Stand established around 1903,NAC,1,1903,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4323.01,HBS00,Boreal Evergreen Forest. Stand established around 2000,NAC,1,2000,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4324.01,HBS75,Boreal Evergreen Forest. Stand established around 1975,NAC,1,1975,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4325.01,US-Me6,Aggrading Temperate Evergreen Forest. Stand established around 1980,NAC,1,1980,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4326.01,Escambia Experimental Forest,Subtropical Evergreen Forest. Stand established around 1958,NAC,1,1958,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4327.01,Malua Forest Reserve,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4328.01,Malua Forest Reserve,Aggrading Tropical Evergreen Forest. Stand established around 1982,NAC,1,1982,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
