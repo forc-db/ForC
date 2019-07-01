@@ -3435,9 +3435,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1609.03,Monte di Mezzo,Managed,NAC,3,1958,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Planted on former pasture, not thinned",NA
 1610.01,Montpelier,L. tulipifera old-growth forest,0.21,1,1708,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 1610.02,Montpelier,L. tulipifera old-growth forest,0.21,2,1708,8,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
-1611.01,Morgan Monroe State Forest (MMSF),Managed,NAC,1,1928,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,The forest is dominated by 60-80 y.o. trees,NA
-1611.02,Morgan Monroe State Forest (MMSF),Managed,NAC,2,1990,8,Disturbance,Major storm,NA,NA,NA,<100%,"wind fall in 1990 within fetch.Wind, lightning, and ice storms are the most common types of natural disturbances. Fires occur occasionally but are uncommon and never widespread",NA
-1611.03,Morgan Monroe State Forest (MMSF),Managed,NAC,3,NAC,9,Disturbance,Harvest,NA,NA,NA,<100%,Timber harvest in the vicinity of the flux tower with 20-25 year rotation; no timber harvest in source area of flux tower recently except in one small seed-tree management area in 1991.,NA
+1611.01,Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,NAC,1,198,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,The forest is dominated by 60-80 y.o. trees,NA
+1611.02,Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,NAC,2,1990,8,Disturbance,Major storm,NA,NA,NA,<100%,"wind fall in 1990 within fetch.Wind, lightning, and ice storms are the most common types of natural disturbances. Fires occur occasionally but are uncommon and never widespread",NA
+1611.03,Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,NAC,3,NAC,9,Disturbance,Harvest,NA,NA,NA,<100%,Timber harvest in the vicinity of the flux tower with 20-25 year rotation; no timber harvest in source area of flux tower recently except in one small seed-tree management area in 1991.,NA
 1612.01,Mount Jefferson 1,recently disturbed,NAC,1,1991,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Recently disturbed,NA
 1612.02,Mount Jefferson 1,recently disturbed,NAC,2,1991,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Recently disturbed,NA
 1613.01,Mount Jefferson 2,recently disturbed,NAC,1,1990,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Recently disturbed,NA
@@ -7006,7 +7006,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3385.01,La Sabanita-medium,Tropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3386.01,La Sabanita-high,Tropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3387.01,Walker Branch,Temperate Deciduous Forest. Stand established around 1830,NAC,1,1830,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3388.01,Morgan Monroe State Forest,Temperate Deciduous Forest. Stand established around 1915,NAC,1,1915,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3389.01,Harvard Forest,Temperate Deciduous Forest. Stand established around 1935,NAC,1,1935,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3390.01,University of Michigan Biological Station,Temperate Deciduous Forest. Stand established around 1905,NAC,1,1905,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3391.01,Willow Creek,Temperate Deciduous Forest. Stand established around 1929,NAC,1,1929,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -9048,7 +9047,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5006.01,Neches River,Temperate Deciduous Forest with Clearcut treatment. Stand established around 1992,NAC,1,NAC,NAC,Disturbance,Cut,NA,NAC,NA,100,Clearcut,NA
 5006.02,Neches River,Temperate Deciduous Forest with Clearcut treatment. Stand established around 1992,NAC,2,1992,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5006.03,Neches River,Temperate Deciduous Forest with Clearcut treatment. Stand established around 1992,NAC,3,1992,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-5007.01,Morgan-Monroe State Forest,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5008.01,Hudgens_1997_leos research site in New York USA,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5009.01,Hudgens_1997_leos research site in New York USA,Aggrading Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5010.01,Hudgens_1997_leos research site in New York USA,Aggrading Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
