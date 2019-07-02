@@ -7549,14 +7549,14 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3851.01,Maoershan Mountain,Aggrading Temperate Deciduous Forest. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3852.01,Hui_2007_srud research site in China,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3853.01,Hui_2007_srud research site in China,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3854.01,SWC,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3855.01,SWT,Temperate Deciduous Forest with Thinned treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3855.02,SWT,Temperate Deciduous Forest with Thinned treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-3855.03,SWT,Temperate Deciduous Forest with Thinned treatment,NAC,3,NAC,NAC,Disturbance,Cut,NA,NAC,NA,<100%,Thinned,NA
-3856.01,NEC,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3857.01,NET,Temperate Deciduous Forest with Thinned treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3857.02,NET,Temperate Deciduous Forest with Thinned treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-3857.03,NET,Temperate Deciduous Forest with Thinned treatment,NAC,3,NAC,NAC,Disturbance,Cut,NA,NAC,NA,<100%,Thinned,NA
+3854.01,Swabian Jura NWC,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3855.01,Swabian Jura SWT,Temperate Deciduous Forest with Thinned treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3855.02,Swabian Jura SWT,Temperate Deciduous Forest with Thinned treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+3855.03,Swabian Jura SWT,Temperate Deciduous Forest with Thinned treatment,NAC,3,NAC,NAC,Disturbance,Cut,NA,NAC,NA,<100%,Thinned,NA
+3856.01,Swabian Jura NEC,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3857.01,Swabian Jura NET,Temperate Deciduous Forest with Thinned treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3857.02,Swabian Jura NET,Temperate Deciduous Forest with Thinned treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+3857.03,Swabian Jura NET,Temperate Deciduous Forest with Thinned treatment,NAC,3,NAC,NAC,Disturbance,Cut,NA,NAC,NA,<100%,Thinned,NA
 3858.01,Golden Gate Park,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3860.01,Bear Brook Watershed,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3861.01,Letter E Township,Temperate Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
