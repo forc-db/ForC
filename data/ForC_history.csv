@@ -6050,8 +6050,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2676.01,Yangyu,Juniperus przewalskii,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 2677.01,YAP-01b_Yapo IBP,african tropical forest,0.2,1,NAC,9,No.info,NAC,NA,NA,NA,NA,Lewis Ref [48]-Bernhard-Reversat et al. 1978,2217
 2678.01,Yapo (Plateau),Mature,5,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2065
-2679.01,Yatir,maturing Pinus halepensis planted forest,NAC,1,1966,8,Regrowth,Planted,1,NA,NA,NA,Aleppo pine (Pinus halepensis Mill.) forest that was planted 35 years ago at the edge of the Negev desert,NA
-2679.02,Yatir,maturing Pinus halepensis planted forest,NAC,2,1966,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Aleppo pine (Pinus halepensis Mill.) forest that was planted 35 years ago at the edge of the Negev desert,NA
+2679.01,Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,NAC,1,1964,8.5,Regrowth,Planted,1,NA,NA,NA,Aleppo pine (Pinus halepensis Mill.) forest that was planted 35 years ago at the edge of the Negev desert. Planted in the years 1964-1969,NA
+2679.02,Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,NAC,2,1964,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,Aleppo pine (Pinus halepensis Mill.) forest that was planted 35 years ago at the edge of the Negev desert. Planted in the years 1964-1969,NA
 2680.01,Yele,"Cupressus, Sabina (Juniperus)",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 2681.01,Yellowstone National Park (YNP),110 yr,NAC,1,1881,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,Mature postfire(?) stands were 100-120 years old,NA
 2681.02,Yellowstone National Park (YNP),110 yr,NAC,2,1881,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Mature postfire(?) stands were 100-120 years old,NA
@@ -6735,7 +6735,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3155.01,Coweeta,Liriodendron tulipifera Forest. Stand established around 1922,NAC,1,1922,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3156.01,Coweeta,Quercus prinus Forest. Stand established around 1922,NAC,1,1922,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3157.01,Coweeta,Acer rubrum Forest. Stand established around 1922,NAC,1,1922,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3158.01,Yatir,Mediterranean Evergreen Forest. Stand established around 1963,NAC,1,1963,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3160.01,BOREAS SSA-BSSP,Boreal Evergreen Forest. Stand established around 1880,NAC,1,1880,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3161.01,Norunda-N,Boreal Evergreen Forest. Stand established around 1965,NAC,1,1965,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3162.01,Norunda-SW,Boreal Evergreen Forest. Stand established around 1949,NAC,1,1949,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7271,7 +7270,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3580.01,Tok Junction,Aggrading Boreal Deciduous Forest. Stand established around 1990,NAC,1,1990,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3581.01,Tok Junction,Boreal Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3582.01,Tok Junction,Aggrading Boreal Evergreen Forest. Stand established around 1990,NAC,1,1990,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3587.01,Yatir Forest,Aggrading Temperate Evergreen Forest. Stand established around 1964,NAC,1,1964,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3588.01,Kannus-1,Aggrading Boreal Deciduous Forest. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3589.01,Kannus-2,Aggrading Boreal Deciduous Forest. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3590.01,Kannus-3,Aggrading Boreal Evergreen Forest. Stand established around 1971,NAC,1,1971,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7729,7 +7727,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4016.03,Hwangmaesan Soopkakkugi Model Forest,Managed Temperate Evergreen Forest with Thinned treatment. Stand established around 1966,NAC,3,NAC,NAC,Disturbance,Cut,NA,NAC,NA,<100%,Thinned,NA
 4017.01,Bago State Forest,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4018.01,Storskogberget,Boreal Evergreen Forest. Stand established around 1882,NAC,1,1882,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4024.01,Yatir Forest,Temperate Evergreen Forest. Stand established around 1964,NAC,1,1964,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4026.01,Gaumont-Guay_2009_scei research site in Saskatchewan Canada,Boreal Deciduous Forest. Stand established around 1919,NAC,1,1919,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4027.01,Gaumont-Guay_2009_scei research site in Saskatchewan Canada,Boreal Evergreen Forest. Stand established around 1879,NAC,1,1879,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4028.01,Gaumont-Guay_2009_scei research site in Saskatchewan Canada,Boreal Evergreen Forest. Stand established around 1929,NAC,1,1929,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -9415,4 +9412,4 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5263.03,Wang_2014_ceob research site in Zhejiang China,Managed Aggrading Subtropical Deciduous Forest with Fertilized treatment. Stand established around 1992,NAC,3,NAC,NAC,Management,Fertilization,NA,NAC,NA,NA,Fertilized,NA
 5264.01,Bajia Suburban Park,Aggrading Tropical Evergreen Forest. Stand established around 2008,NAC,1,2008,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5265.01,Sungai Menyala,Tropical Deciduous Forest. Stand established around 1943,NAC,1,1943,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-5266.01,Fontainebleau-Barbeau (FR-Fon),FR-Fon,NA,1,1855,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,stand age approximate. Calcualted based off of 150yr age in 2005.
+5266.01,Fontainebleau-Barbeau (FR-Fon),FR-FON. mature sessile oak stand (Quercus petraea),NA,1,NAC,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
