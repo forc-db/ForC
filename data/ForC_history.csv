@@ -6665,8 +6665,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3093.01,Robson Creek,AU-Rob,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
 3094.01,Wallaby Creek,AU-Wac,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
 3095.01,Whroo,AU-Whr,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-3096.01,Wombat,AU-Wom,NAC,1,1985,8.5,Regrowth,Initiation of post-disturbance cohort (natural),0,NI,NA,NA,NA,NA
-3096.02,Wombat,AU-Wom,NAC,1,1985,8.5,Establishment,Establishment of oldest trees,0,NI,NA,NA,NA,NA
+3096.01,Wombat,AU-Wom,NAC,1,1986,8.5,Regrowth,Initiation of post-disturbance cohort (natural),0,NI,NA,NA,NA,NA
+3096.02,Wombat,AU-Wom,NAC,1,1986,8.5,Establishment,Establishment of oldest trees,0,NI,NA,NA,NA,NA
 3097.01,Davos,CH-Dav,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
 3098.01,Laegern (CH-Lae),CH-Lae,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 3099.01,Lackenberg,DE-Lkb,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
@@ -8416,10 +8416,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4594.01,Gahagan_2015_cfsa research site in Michigan USA,Temperate Evergreen Forest. Stand established around 1945,NAC,1,1945,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4595.01,Longwang Mountain,Subtropical Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4596.01,Chiota,Subtropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4597.01,Wombat State Forest,Mediterranean Evergreen Forest. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4598.01,Wombat State Forest,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4598.02,Wombat State Forest,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,NAC,2,1986,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-4598.03,Wombat State Forest,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,NAC,3,NAC,NAC,Management,Precipitation diversion,NA,NAC,NA,NAC,Drought  -40%,NA
+4597.01,Wombat,Mediterranean Evergreen Forest. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4598.01,Wombat,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4598.02,Wombat,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,NAC,2,1986,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+4598.03,Wombat,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,NAC,3,NAC,NAC,Management,Precipitation diversion,NA,NAC,NA,NAC,Drought  -40%,NA
 4599.01,Bukit Duabelas National Park,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4600.01,Bukit Duabelas National Park,Managed Aggrading Tropical Evergreen Forest with Fertilization treatment. Stand established around 2002,NAC,1,2002,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4600.02,Bukit Duabelas National Park,Managed Aggrading Tropical Evergreen Forest with Fertilization treatment. Stand established around 2002,NAC,2,2002,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
