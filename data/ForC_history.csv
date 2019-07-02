@@ -6912,7 +6912,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3325.01,Giardina-Hawaii,Aggrading Tropical Evergreen Forest. Stand established around 1991,NAC,1,1991,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3326.01,Giardina-Hawaii,"Managed Aggrading Tropical Evergreen Forest with Fertilized (N,K,Ca,S,Mg,others) treatment. Stand established around 1991",NAC,1,1991,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3326.02,Giardina-Hawaii,"Managed Aggrading Tropical Evergreen Forest with Fertilized (N,K,Ca,S,Mg,others) treatment. Stand established around 1991",NAC,2,1991,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-3326.03,Giardina-Hawaii,"Managed Aggrading Tropical Evergreen Forest with Fertilized (N,K,Ca,S,Mg,others) treatment. Stand established around 1991",NAC,3,NAC,NAC,Management,Fertilization,NA,NAC,NA,NA,"Fertilized  N,K,Ca,S,Mg,others",NA
+3326.03,Giardina-Hawaii,"Managed Aggrading Tropical Evergreen Forest with Fertilized (N,K,Ca,S,Mg,others) treatment. Stand established around 1991",NAC,3,1992,NAC,Management,Fertilization,NA,NAC,NA,NA,"Fertilized  N,K,Ca,S,Mg,others",NA
 3327.01,Soro-CarboEuroFlux,Temperate Deciduous Forest. Stand established around 1918,NAC,1,1918,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3328.01,Jumbong-N1,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3329.01,Jumbong-S1,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7311,8 +7311,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3621.01,Hesse Forest,Temperate Deciduous Forest with Thinned treatment. Stand established around 1966,NAC,1,1966,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3621.02,Hesse Forest,Temperate Deciduous Forest with Thinned treatment. Stand established around 1966,NAC,2,1966,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 3621.03,Hesse Forest,Temperate Deciduous Forest with Thinned treatment. Stand established around 1966,NAC,3,NAC,NAC,Disturbance,Cut,NA,NAC,NA,<100%,Thinned,NA
-3622.01,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899,NAC,1,1899,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3623.01,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924,NAC,1,1924,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3622.01,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. No earthworms.,NAC,1,1899,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3623.01,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. No earthworms.,NAC,1,1924,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3624.01,Giardina_2004_bcci research site in Hawaii USA,Aggrading Tropical NA Forest. Stand established around 1993.5,NAC,1,1994,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3625.01,Giardina_2004_bcci research site in Hawaii USA,Aggrading Tropical NA Forest with Fertilized treatment. Stand established around 1993.5,NAC,1,1994,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3625.02,Giardina_2004_bcci research site in Hawaii USA,Aggrading Tropical NA Forest with Fertilized treatment. Stand established around 1993.5,NAC,2,1994,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
@@ -8827,7 +8827,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4870.01,Reynolds Homestead Forest Resources Research Center,Managed Aggrading Temperate Evergreen Forest with Thinned treatment. Stand established around 1980,NAC,1,1980,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4870.02,Reynolds Homestead Forest Resources Research Center,Managed Aggrading Temperate Evergreen Forest with Thinned treatment. Stand established around 1980,NAC,2,1980,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4870.03,Reynolds Homestead Forest Resources Research Center,Managed Aggrading Temperate Evergreen Forest with Thinned treatment. Stand established around 1980,NAC,3,NAC,NAC,Disturbance,Cut,NA,NAC,NA,<100%,Thinned,NA
-4871.01,El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established around 2005,NAC,1,2005,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4871.01,El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established 1989,NAC,1,1989,8,Disturbance,Burned,NA,NA,NA,100,severe fire,NA
+4871.02,El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established 1989,NAC,2,1989,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
+4871.03,El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established 1989,NAC,3,1989,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4871.04,El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established 1989,NAC,4,2005.892473,5,Disturbance,Major storm,NA,NA,NA,<100%,Hurricane Wilma,NA
 4872.01,James San Jacinto Mountains Reserve,Mediterranean Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4873.01,James San Jacinto Mountains Reserve,Mediterranean Deciduous Savanna,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4874.01,University of Idaho Experimental Forest,Temperate Evergreen Forest. Stand established around 1927,NAC,1,1927,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -9405,3 +9408,5 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5264.01,Bajia Suburban Park,Aggrading Tropical Evergreen Forest. Stand established around 2008,NAC,1,2008,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5265.01,Sungai Menyala,Tropical Deciduous Forest. Stand established around 1943,NAC,1,1943,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5266.01,Fontainebleau-Barbeau (FR-Fon),FR-FON. mature sessile oak stand (Quercus petraea),NA,1,NAC,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5267.01,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. Earthworms.,NAC,1,1899,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5268.01,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. Earthworms,NAC,1,1924,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA

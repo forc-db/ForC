@@ -37,11 +37,16 @@ Laegern (CH-Lae),Fraxinus excelsior Forest. Stand established around 1907,LSgere
 Laegern (CH-Lae),Acer pseudoplatanus Forest. Stand established around 1907,LSgeren,Acer pseudoplatanus Forest. Stand established around 1907,7/2/19,merge duplicate sites
 Wombat,Mediterranean Evergreen Forest. Stand established around 1986,Wombat State Forest,Mediterranean Evergreen Forest. Stand established around 1986,7/2/19,merge duplicate sites
 Wombat,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,Wombat State Forest,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,7/2/19,merge duplicate sites
-Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with fire exclusion,Wombat State Forest,Mediterranean Deciduous Forest. Stand established around 1965,7/3/19,resolve problematic site /plot names
-Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 3 years (AH),Wombat State Forest-AL,Mediterranean Deciduous Forest. Stand established around 2006,7/3/19,resolve problematic site /plot names
-Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 10 years (AL),Wombat State Forest-AH,Mediterranean Deciduous Forest. Stand established around 2008,7/3/19,resolve problematic site /plot names
-Fontainebleau-Barbeau (FR-Fon),Fontainebleu,Fontainebleu,Fontainebleu,,
-Fontainebleau-Barbeau (FR-Fon),FR-FON. mature sessile oak stand (Quercus petraea),Fontainebleu,Fontainebleu,,
-Fontainebleau-Barbeau (FR-Fon),Temperate Deciduous Forest. Stand established around 1881,Barbeau National Forest FR-Fon,Temperate Deciduous Forest. Stand established around 1881,,
-Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,Yatir Forest,(any),,
-Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,Yatir,maturing Pinus halepensis planted forest,,
+Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with fire exclusion,Wombat State Forest,Mediterranean Deciduous Forest. Stand established around 1965,7/2/19,resolve problematic site /plot names
+Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 3 years (AH),Wombat State Forest-AL,Mediterranean Deciduous Forest. Stand established around 2006,7/2/19,resolve problematic site /plot names
+Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 10 years (AL),Wombat State Forest-AH,Mediterranean Deciduous Forest. Stand established around 2008,7/2/19,resolve problematic site /plot names
+Fontainebleau-Barbeau (FR-Fon),Fontainebleu,Fontainebleu,Fontainebleu,7/2/19,merge duplicate sites
+Fontainebleau-Barbeau (FR-Fon),FR-FON. mature sessile oak stand (Quercus petraea),Fontainebleu,Fontainebleu,7/2/19,merge duplicate sites
+Fontainebleau-Barbeau (FR-Fon),Temperate Deciduous Forest. Stand established around 1881,Barbeau National Forest FR-Fon,Temperate Deciduous Forest. Stand established around 1881,7/2/19,merge duplicate sites
+Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,Yatir Forest,(any),7/2/19,merge duplicate sites
+Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,Yatir,maturing Pinus halepensis planted forest,7/2/19,merge duplicate sites
+Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. Earthworms.,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. ,7/3/19,separate plots based on SRDB notes
+Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. Earthworms,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. ,7/3/19,separate plots based on SRDB notes
+Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. No earthworms.,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. ,7/3/19,separate plots based on SRDB notes
+Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. No earthworms.,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. ,7/3/19,separate plots based on SRDB notes
+El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established 1989,El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established around 2005,7/3/19,corrected based on SRDB notes
