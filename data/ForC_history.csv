@@ -6288,8 +6288,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2798.02,Ontario site region 5 site 4,Site 4,NAC,2,1840,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 2799.01,Bab,Bab,NAC,1,1910,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 2799.02,Bab,Bab,NAC,2,1910,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-2800.01,Fontainebleu,Fontainebleu,NAC,1,NAC,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-2800.02,Fontainebleu,Fontainebleu,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
+2800.01,Fontainebleau-Barbeau (FR-Fon),Fontainebleu,NAC,1,NAC,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2800.02,Fontainebleau-Barbeau (FR-Fon),Fontainebleu,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 2801.01,Rouquet,Rouquet,NAC,1,1820,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 2801.02,Rouquet,Rouquet,NAC,2,1820,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 2802.01,Sikfokut,Sikfokut,NAC,1,1905,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7898,7 +7898,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4168.01,Turkey Point Flux Station,Aggrading Temperate Evergreen Forest. Stand established around 1989,NAC,1,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4169.01,Turkey Point Flux Station,Aggrading Temperate Evergreen Forest. Stand established around 1974,NAC,1,1974,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4170.01,Turkey Point Flux Station,Temperate Evergreen Forest. Stand established around 1939,NAC,1,1939,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4171.01,Barbeau National Forest FR-Fon,Temperate Deciduous Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4171.01,Fontainebleau-Barbeau (FR-Fon),Temperate Deciduous Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4172.01,Wytham Woods,Temperate Deciduous Forest. Stand established around 1857,NAC,1,1857,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4173.01,Banobitan,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4174.01,Indian Botanic Garden,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -9415,3 +9415,4 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5263.03,Wang_2014_ceob research site in Zhejiang China,Managed Aggrading Subtropical Deciduous Forest with Fertilized treatment. Stand established around 1992,NAC,3,NAC,NAC,Management,Fertilization,NA,NAC,NA,NA,Fertilized,NA
 5264.01,Bajia Suburban Park,Aggrading Tropical Evergreen Forest. Stand established around 2008,NAC,1,2008,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5265.01,Sungai Menyala,Tropical Deciduous Forest. Stand established around 1943,NAC,1,1943,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5266.01,Fontainebleau-Barbeau (FR-Fon),FR-Fon,NA,1,1855,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,stand age approximate. Calcualted based off of 150yr age in 2005.
