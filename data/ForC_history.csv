@@ -9353,9 +9353,15 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5230.01,Jiulong River Estuary Mangrove Reserve,Spartina alterniflora Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5231.01,Stones River National Battlefield,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5232.01,TKY,Temperate Deciduous Forest. Stand established around 1950,NAC,1,1950,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-5233.01,Wombat State Forest,Mediterranean Deciduous Forest. Stand established around 1965,NAC,1,1965,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-5234.01,Wombat State Forest-AL,Mediterranean Deciduous Forest. Stand established around 2006,NAC,1,2006,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-5235.01,Wombat State Forest-AH,Mediterranean Deciduous Forest. Stand established around 2008,NAC,1,2008,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5233.01,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with fire exclusion,NAC,1,NI,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5233.02,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with fire exclusion,NAC,2,1972,8.5,Disturbance,Cut,NA,NA,NA,<100%,"last thinnings 1964,1974,1979. date given is average of these",NA
+5233.03,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with fire exclusion,NAC,3,1947,8.5,Disturbance,Burned,NA,NA,NA,NA,"last burns 1931,1935,1974. date given is average of these",NA
+5234.01,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 3 years (AH),NAC,1,NI,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5234.02,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 3 years (AH),NAC,2,1972,8.5,Disturbance,Cut,NA,NA,NA,<100%,"last thinnings 1964,1974,1979. date given is average of these",NA
+5234.03,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 3 years (AH),NAC,3,2007,9,Disturbance,Burned,NA,3,yr,<100%,"starting 1987-2007, fire return ~every 3 years",NA
+5235.01,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 10 years (AL),NAC,1,NI,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5235.02,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 10 years (AL),NAC,2,1972,8.5,Disturbance,Cut,NA,NA,NA,<100%,"last thinnings 1964,1974,1979. date given is average of these",NA
+5235.03,Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 10 years (AL),NAC,3,2007,9,Disturbance,Burned,NA,10,yr,<100%,"starting 1987-2007, fire return ~every 10 years",NA
 5236.01,Wangdonggou,Aggrading Temperate Deciduous Forest. Stand established around 1983,NAC,1,1983,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5237.01,Wangdonggou,Aggrading Temperate Deciduous Forest. Stand established around 1976,NAC,1,1976,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5238.01,Maoxian Mountain Ecosystem Research Station,Managed Temperate Evergreen Forest with Thinned (Small gap) treatment. Stand established around 1984,NAC,1,1984,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
