@@ -6686,7 +6686,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3112.01,Huron Mountains,Huron,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3113.01,Pantiacolla 2,PAN02,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3114.01,Pantiacolla 3,PAN03,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
-3115.01,San Pedro- SPD-01,SPD01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
+3115.01,San Pedro- SPD-01,SPD01,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3116.01,Esperanza,ESP01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3117.01,Acjanaco,ACJ01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3118.01,Santiam Pass OTER,Santiam Pass,NAC,1,1860,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
@@ -8354,8 +8354,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4547.01,Allpahuayo-Mishana National Reserve RAINFOR,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4548.01,Tambopata- Candamo Reserve TAM05,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4549.01,Tambopata- Candamo Reserve TAM06,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4550.01,San Pedro- SPD-02,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4551.01,San Pedro- SPD-01,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4552.01,Kong_2014_asot research site in Mt. Bulam South Korea,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4553.01,Dinghushan Biosphere Reserve-BF,Subtropical Evergreen Forest. Stand established around 1611,NAC,1,1611,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4554.01,Dinghushan Biosphere Reserve-CF,Subtropical Evergreen Forest. Stand established around 1911,NAC,1,1911,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
