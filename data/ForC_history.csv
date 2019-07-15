@@ -7877,10 +7877,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4160.01,Almagro_2010_bcap research site in Murcia Spain,Temperate Evergreen Forest. Stand established around 1856,NAC,1,1856,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4161.01,Almagro_2010_bcap research site in Murcia Spain,Aggrading Temperate Evergreen Forest. Stand established around 1981,NAC,1,1981,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4162.01,Almagro_2010_bcap research site in Murcia Spain,Temperate Deciduous Forest. Stand established around 1906,NAC,1,1906,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4163.01,SCC FACE,Temperate Deciduous Forest. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4164.01,SCC FACE,Temperate Deciduous Forest with CO2 (550 ppm) treatment. Stand established around 1907,NAC,1,1907,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4164.02,SCC FACE,Temperate Deciduous Forest with CO2 (550 ppm) treatment. Stand established around 1907,NAC,2,1907,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
-4164.03,SCC FACE,Temperate Deciduous Forest with CO2 (550 ppm) treatment. Stand established around 1907,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  550 ppm,NA
 4165.01,Sardinilla,Tropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4166.01,Barro Colorado,Tropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4167.01,Turkey Point Flux Station,Aggrading Temperate Evergreen Forest. Stand established around 2002,NAC,1,2002,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
