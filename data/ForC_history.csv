@@ -7655,7 +7655,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3945.01,Dinghushan-MPF,Aggrading Subtropical Evergreen Forest. Stand established around 1948,NAC,1,1948,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3946.01,Dinghushan-MF,Subtropical Evergreen Forest. Stand established around 1893,NAC,1,1893,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3947.01,Dinghushan-MEBF,Subtropical Evergreen Forest. Stand established around 1603,NAC,1,1603,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3948.01,Zimmerman_2009_lctd research site in Peru,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3949.01,Qingyuan Forest Experimental Station,Temperate Deciduous Forest. Stand established around 1953,NAC,1,1953,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3950.01,Qingyuan Forest Experimental Station,Temperate Deciduous Forest. Stand established around 1951,NAC,1,1951,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3951.01,Qingyuan Forest Experimental Station,Temperate Deciduous Forest. Stand established around 1948,NAC,1,1948,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7889,7 +7888,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4174.01,Indian Botanic Garden,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4175.01,Chandra,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4176.01,Chilapata,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4177.01,Wayqecha,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4179.01,Tono,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4180.01,Tambopata,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4181.01,Tomakomai National Forest,Temperate Deciduous Forest. Stand established around 1958,NAC,1,1958,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
