@@ -88,6 +88,17 @@ ForC_to_Calculator_Biome <- lapply(ForC_to_Calculator_Biome, function(X) apply(X
 ForC_to_Calculator_Biome <- data.frame(unlist(mapply(function(x, y) rep(x, each = y), x = names(ForC_to_Calculator_Biome), y = sapply(ForC_to_Calculator_Biome, length))),
                                        row.names = unlist(ForC_to_Calculator_Biome))
 
+
+# -- for the README file for_calculator/README.md -- ####
+# X <- lapply(Calculator_Biome_to_ForC, expand.grid)
+# 
+# X <- cbind(Calculator_Biome = unlist(mapply(function(x, y) rep(x, each = y), x = names(X), y = sapply(X, nrow))), do.call(rbind, X))
+# X <- X[!X$dominant.life.form %in% c("Forest", " Savanna"),]
+# 
+# write.csv(X, "clipboard", row.names = F, quote = F)
+# -- END of for the README file for_calculator/README.md -- ##
+
+
 # Load data ####
 ForC_simplified <- read.csv("ForC_simplified/ForC_simplified.csv", stringsAsFactors = F)
 
