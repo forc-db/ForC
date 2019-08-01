@@ -126,19 +126,44 @@ ForC_simplified$calculatior_Biome <- ForC_to_Calculator_Biome[paste(ForC_simplif
 
 # calculate Biome defaults ####
 
-biome_defaults <- tapply(ForC_simplified$mean_OM, list(ForC_simplified$variable.name_calculator, ForC_simplified$calculatior_Biome), mean)
-biome_defaults <- biome_defaults[, c(paste0("T", 1:13), "S1")]
+## first average within a plot
 
-biome_defaults_n <- tapply(ForC_simplified$mean_OM, list(ForC_simplified$variable.name_calculator, ForC_simplified$calculatior_Biome), length)
-biome_defaults_n <- biome_defaults_n[, c(paste0("T", 1:13), "S1")]
+Data_to_use <- unique(ForC_simplified[, c("variable.name_calculator", "sites.sitename", "plot.name", "calculatior_Biome")])
+Data_to_use$mean_OM <- NA
+         
+for(i in 1:nrow(Data_to_use)) {
+  
+  X <- ForC_simplified[ForC_simplified$variable.name_calculator %in%Data_to_use$variable.name_calculator[i] &
+                         ForC_simplified$sites.sitename %in%Data_to_use$sites.sitename[i] &
+                         ForC_simplified$plot.name %in%Data_to_use$plot.name[i] &
+                         ForC_simplified$calculatior_Biome %in%Data_to_use$calculatior_Biome[i], ]
+  
+  Data_to_use$mean_OM[i] <- mean(X$mean_OM, na.rm = T)
+}
 
-biome_defaults_sd <- tapply(ForC_simplified$mean_OM, list(ForC_simplified$variable.name_calculator, ForC_simplified$calculatior_Biome), sd)
-biome_defaults_sd <- biome_defaults_sd[, c(paste0("T", 1:13), "S1")]
+## then group by Tropical, Subtropical and Continental for deadwood and litter
+Data_to_use$calculatior_Biome  <- as.character(Data_to_use$calculatior_Biome )
+Data_to_use$calculatior_Biome <- ifelse(Data_to_use$calculatior_Biome %in% c("T1", "T2", "T3") & Data_to_use$variable.name_calculator %in% c("OM_wood", "OM_litter"), "Tropical", 
+                                        ifelse(Data_to_use$calculatior_Biome %in% paste0("T", 4:8) & Data_to_use$variable.name_calculator %in% c("OM_wood", "OM_litter"), "Subtropical", 
+                                               ifelse(Data_to_use$calculatior_Biome %in% paste0("T",9:13) & Data_to_use$variable.name_calculator %in% c("OM_wood", "OM_litter"), "Continental", Data_to_use$calculatior_Biom)))
+
+
+Data_to_use$calculatior_Biome <- factor(Data_to_use$calculatior_Biome, levels = c(paste0("T", 1:13), "S1", unique(Data_to_use$calculatior_Biome )[!unique(Data_to_use$calculatior_Biome ) %in%  c(paste0("T", 1:13), "S1")]))
+## now average per Biome 
+
+biome_defaults <- tapply(Data_to_use$mean_OM, list(Data_to_use$variable.name_calculator, Data_to_use$calculatior_Biome), mean, na.rm = T)
+biome_defaults <- biome_defaults[, c(paste0("T", 1:13), "S1", colnames(biome_defaults)[!colnames(biome_defaults) %in%  c(paste0("T", 1:13), "S1")])]
+
+biome_defaults_n <- tapply(Data_to_use$mean_OM, list(Data_to_use$variable.name_calculator, Data_to_use$calculatior_Biome), length)
+biome_defaults_n <- biome_defaults_n[, colnames(biome_defaults)]
+
+biome_defaults_sd <- tapply(Data_to_use$mean_OM, list(Data_to_use$variable.name_calculator, Data_to_use$calculatior_Biome), sd)
+biome_defaults_sd <- biome_defaults_sd[,colnames(biome_defaults)]
 
 # save ####
 write.csv(biome_defaults, file = "for_calculator/biome_defaults.csv")
 write.csv(biome_defaults_n, file = "for_calculator/biome_defaults_sample_size.csv")
 write.csv(biome_defaults_sd, file = "for_calculator/biome_defaults_sd.csv")
-write.csv(ForC_simplified, file = "for_calculator/data_used_to_calculate_biome_defaults.csv", row.names = F)
+write.csv(Data_to_use, file = "for_calculator/data_used_to_calculate_biome_defaults.csv", row.names = F)
 
 
