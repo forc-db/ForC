@@ -6995,7 +6995,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3376.01,Harshaw Forestry Research Farm,Aggrading Temperate Deciduous Forest. Stand established around 1984,NAC,1,1984,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3377.01,Fazenda Vitoria,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3378.01,Ashland Wildlife Area,Temperate Deciduous Forest. Stand established around 1921,NAC,1,1921,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3381.01,Pasoh Forest Reserve,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3382.01,Savannah River Plant,Aggrading Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3383.01,Soro EUROFLUX,Temperate Deciduous Forest. Stand established around 1916,NAC,1,1916,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3384.01,La Sabanita-low,Tropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7462,7 +7461,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3776.01,Dinghushan Mountain National Reserve,Subtropical Evergreen Forest. Stand established around 1953,NAC,1,1953,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3777.01,Dinghushan Mountain National Reserve,Subtropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3778.01,Oak Ridge,Temperate Deciduous Forest. Stand established around 1921,NAC,1,1921,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3779.01,Pasoh Forest,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3780.01,Tulaphitak_1983_sfat research site in Thailand,Tropical Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3781.01,Mt. Takao,Aggrading Temperate Evergreen Forest. Stand established around 1941,NAC,1,1941,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3782.01,Mt. Takao,Temperate Evergreen Forest. Stand established around 1900,NAC,1,1900,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
