@@ -1876,10 +1876,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 863.01,FT7 Buvakhal,Lower West Himalayan Quercus leucotrichophoraA. Camus (Banj Oak),NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 864.01,FT8 Pauri,Managed Quercus spp. (Oak) Scrub,NAC,1,NI,9,Disturbance,Harvest,NA,NA,NA,<100%,repeated anthropogenic interferences,NA
 865.01,FT9 Dudhatoli,Moist Temperate Deciduous,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
-866.01,Fuchu,Managed,NAC,1,NAC,9,Disturbance,Cut,NA,NA,NA,100,Repeated cutting and burning,NA
-866.02,Fuchu,Managed,NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,100,Repeated cutting and burning,NA
-866.03,Fuchu,Managed,NAC,3,1903,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Repeated cutting and burning,NA
-866.04,Fuchu,Managed,NAC,4,1903,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Repeated cutting and burning,NA
 867.01,Fuhai,Larix,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 868.01,Fujiyoshida forest meteorology research site,naturally regenerated red pine forest,NAC,1,1910,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
 868.02,Fujiyoshida forest meteorology research site,naturally regenerated red pine forest,NAC,2,1910,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -6770,8 +6766,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3193.01,University of Michigan Biological Station,Temperate Deciduous Forest. Stand established around 1936,NAC,1,1936,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3194.01,University of Michigan Biological Station,Temperate Deciduous Forest. Stand established around 1916,NAC,1,1916,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3195.01,Wytham Woods,Temperate Deciduous Forest. Stand established around 1823,NAC,1,1823,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3196.01,Fuchu,Temperate Evergreen Forest. Stand established around 1900,NAC,1,1900,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3197.01,Fuchu,Temperate Evergreen Forest with Clearcut treatment. Stand established around 1980,NAC,1,NAC,NAC,Disturbance,Cut,NA,NAC,NA,100,Clearcut,NA
+3196.01,Fuchu,Temperate Evergreen Forest. Stand established around 1900,NAC,1,1900,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NAC,Repeated cutting and burning,NA
+3197.01,Fuchu,Temperate Evergreen Forest with Clearcut treatment. Stand established around 1980,NAC,1,NAC,NAC,Disturbance,Cut,NA,NAC,NA,100,Repeated cutting and burning,NA
 3197.02,Fuchu,Temperate Evergreen Forest with Clearcut treatment. Stand established around 1980,NAC,2,1980,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3197.03,Fuchu,Temperate Evergreen Forest with Clearcut treatment. Stand established around 1980,NAC,3,1980,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 3198.01,Groundhog River Flux Station,Boreal Mixed Forest. Stand established around 1929,NAC,1,1929,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
