@@ -3608,10 +3608,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1702.01,Northern Rondonia State,tropical moist forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2186
 1703.01,Norunda,Managed,NAC,1,1901,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. Managed,NA
 1703.02,Norunda,Managed,NAC,2,1901,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Age method: Tree rings. Managed,NA
-1704.01,Nouragues Grand Plateau,old-growth tropical forest.NOR2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-1705.01,Nouragues Grand Plateau,terra firma NOR-02,10,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2416
-1706.01,Nouragues Petit Plateau,old-growth tropical forest.NOR1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-1707.01,Nouragues Petit Plateau,terra firma NOR-01,12,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2417
+1705.01,Nouragues Grand Plateau,old-growth tropical forest.NOR2,10,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2416
+1707.01,Nouragues Petit Plateau,old-growth tropical forest.NOR1,12,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2417
 1708.01,Nova Xavantina cerrado,short-statured tropical forest.NXA1,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 1709.01,Nova Xavantina cerrado,short-statured tropical forest.NXA2,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 1710.01,NSW south coast,"E. sieberi, E. agglomerata, E. obliqua",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
