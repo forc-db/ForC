@@ -664,14 +664,15 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 285.01,"Bomi Picea, Abies 2","Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 286.01,Bomi Quercus 1,Quercus,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 287.01,Bomi Quercus 2,Quercus,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-288.01,Bonanza 5A,unmanaged,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
-288.02,Bonanza 5A,unmanaged,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
-289.01,Bonanza 5C,unmanaged,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
-289.02,Bonanza 5C,unmanaged,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
-289.03,Bonanza 5C,unmanaged,NAC,3,1803,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
-290.01,Bonanza 5D,unmanaged,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
-290.02,Bonanza 5D,unmanaged,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
-290.03,Bonanza 5D,unmanaged,NAC,3,1803,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
+288.01,Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
+288.02,Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,NAC,2,1798,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
+288.03,Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,NAC,3,1798,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
+289.01,Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
+289.02,Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,NAC,2,1828,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
+289.03,Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,NAC,3,1828,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
+290.01,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
+290.02,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,2,1838,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
+290.03,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,3,1838,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
 291.01,Bonanza 6.1,unmanaged,NAC,1,1889,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Unmanaged,NA
 291.02,Bonanza 6.1,unmanaged,NAC,2,1889,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Unmanaged,NA
 292.01,Bonanza 6.2,unmanaged,NAC,1,1924,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Unmanaged,NA
@@ -6778,9 +6779,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3208.01,Ogeechee-EFP,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3209.01,Ogeechee-WFP,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3210.01,BOREAS SSA-OA,Boreal Deciduous Forest. Stand established around 1924,NAC,1,1924,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3211.01,BNZ LTER-5A,Boreal Evergreen Forest. Stand established around 1798,NAC,1,1798,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3212.01,BNZ LTER-5C,Boreal Evergreen Forest. Stand established around 1828,NAC,1,1828,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3213.01,BNZ LTER-5D,Boreal Evergreen Forest. Stand established around 1838,NAC,1,1838,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3214.01,Pushchino-1,Temperate Deciduous Forest. Stand established around 1947,NAC,1,1947,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3215.01,Yakutsk-IFS,Boreal Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3216.01,Yakutsk-IFL,Boreal Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
