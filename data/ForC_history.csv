@@ -673,12 +673,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 290.01,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
 290.02,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,2,1838,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
 290.03,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,3,1838,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
-291.01,Bonanza 6.1,unmanaged,NAC,1,1889,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Unmanaged,NA
-291.02,Bonanza 6.1,unmanaged,NAC,2,1889,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Unmanaged,NA
-292.01,Bonanza 6.2,unmanaged,NAC,1,1924,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Unmanaged,NA
-292.02,Bonanza 6.2,unmanaged,NAC,2,1924,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Unmanaged,NA
-293.01,Bonanza 6.3,unmanaged,NAC,1,1879,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Unmanaged,NA
-293.02,Bonanza 6.3,unmanaged,NAC,2,1879,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Unmanaged,NA
 294.01,Bonanza Creek/Standard Creek,Mature lowland 'dry' perfmafrost-free spruce forest,NAC,1,1780,8.5,Disturbance,Burned,NA,NA,NA,NAC,"never been logged, originated after wildfire dated to app. 1780 for bonanza Creek and might have occurred at a similar time in Standard Creek",NA
 294.02,Bonanza Creek/Standard Creek,Mature lowland 'dry' perfmafrost-free spruce forest,NAC,2,1780,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"never been logged, originated after wildfire dated to app. 1780 for bonanza Creek and might have occurred at a similar time in Standard Creek",NA
 294.03,Bonanza Creek/Standard Creek,Mature lowland 'dry' perfmafrost-free spruce forest,NAC,3,1780,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,"never been logged, originated after wildfire dated to app. 1780 for bonanza Creek and might have occurred at a similar time in Standard Creek",NA
@@ -6712,9 +6706,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3144.01,Duke FACE,Aggrading Temperate Evergreen Forest. Stand established around 1982,NAC,1,1982,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3145.01,Arneth1,Aggrading Temperate Evergreen Forest. Stand established around 1987,NAC,1,1987,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3146.01,Balmoral Forest plantation,Aggrading Temperate Evergreen Forest. Stand established around 1996,NAC,1,1996,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3147.01,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1891,NAC,1,1891,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3148.01,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1926,NAC,1,1926,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3149.01,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3147.01,Bonanza Creek high-elevation area with no permafrost (high-np),Boreal Evergreen Forest. Stand established around 1891,NAC,1,1891,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3148.01,Bonanza Creek mid-elevation deep permafrost area (mid-dp),Boreal Evergreen Forest. Stand established around 1926,NAC,1,1926,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3149.01,Bonanza Creek low-elevation shallow permafrost (low-sp),Boreal Evergreen Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3150.01,Hesse Forest,Aggrading Temperate Deciduous Forest. Stand established around 1967,NAC,1,1967,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3151.01,Oak Ridge,Temperate Deciduous Forest. Stand established around 1896,NAC,1,1896,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3152.01,Oak Ridge,Aggrading Temperate Deciduous Forest with Clearcut treatment. Stand established around 1981,NAC,1,NAC,NAC,Disturbance,Cut,NA,NAC,NA,100,Clearcut,NA
