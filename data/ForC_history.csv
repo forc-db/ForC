@@ -5222,13 +5222,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2348.01,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA
 2348.02,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA
 2348.03,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA
-2349.01,Teshio,clear-cut 13.7ha area,NAC,1,2003,6,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-2349.02,Teshio,clear-cut 13.7ha area,NAC,2,2003,6,Disturbance,Cut,NA,NA,NA,100,"trees intentionally clear-cut in Jan-March 2003, after 1.5 years of observation in mixed forest",NA
-2349.03,Teshio,clear-cut 13.7ha area,NAC,3,2003,6,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
-2350.01,Teshio,mixed forest,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,Large trees more than 200-years-old,NA
-2350.02,Teshio,mixed forest,NAC,2,1961,8,Disturbance,Cut,NA,NA,NA,<100%,Selective cutting (15% of trees) in experimental area,NA
-2351.01,Teshio,replant with hybrid larch,NAC,1,2003,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-2351.02,Teshio,replant with hybrid larch,NAC,2,2003.747945,6,Regrowth,Planted,1,2500,plants ha-1,NA,saplings of 2-year old hybrid larch (Larix gmelinii x L. kaempferi),NA
+2350.03,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,3,2003,6,Disturbance,Cut,NA,NA,NA,100,"trees intentionally clear-cut in Jan-March 2003, after 1.5 years of observation in mixed forest",NA
+2350.01,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,Large trees more than 200-years-old,NA
+2350.02,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,2,1961,8,Disturbance,Cut,NA,NA,NA,<100%,Selective cutting (15% of trees) in experimental area,NA
+2350.04,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,4,2003.747945,6,Regrowth,Planted,1,2500,plants ha-1,NA,saplings of 2-year old hybrid larch (Larix gmelinii x L. kaempferi),NA
 2352.01,Tharandt 24,Managed,NAC,1,1976,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Managed,NA
 2352.02,Tharandt 24,Managed,NAC,2,1976,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Managed,NA
 2353.01,Tharandt 42,Managed,NAC,1,1958,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Managed,NA
@@ -6687,8 +6684,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3117.01,Acjanaco,ACJ01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3118.01,Santiam Pass OTER,Santiam Pass,NAC,1,1860,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
 3118.02,Santiam Pass OTER,Santiam Pass,NAC,1,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3119.01,Teshio,Teshio Experimental Forest,NAC,1,1850,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-3119.02,Teshio,Teshio Experimental Forest,NAC,1,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3120.01,BOREAS NSA-D1998,Aggrading Boreal Evergreen Forest. Stand established around 1996,NAC,1,1996,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3121.01,BOREAS NSA-D1995,Aggrading Boreal Deciduous Forest. Stand established around 1993,NAC,1,1993,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3122.01,BOREAS NSA-D1989,Aggrading Boreal Deciduous Forest. Stand established around 1987,NAC,1,1987,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7669,9 +7664,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3968.01,MH3,Temperate Deciduous Forest. Stand established around 1932,NAC,1,1932,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3969.01,MH4,Temperate Deciduous Forest. Stand established around 1932,NAC,1,1932,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3970.01,OG,Temperate Deciduous Forest. Stand established around 1655,NAC,1,1655,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3971.01,Teshio Experimental Forest,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3972.01,Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2003,NAC,1,2003,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3973.01,Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2002,NAC,1,2002,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3974.01,Xiashu Experimental Forest,Subtropical Deciduous Forest. Stand established around 1950,NAC,1,1950,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3975.01,Xiashu Experimental Forest,Aggrading Subtropical Deciduous Forest. Stand established around 1970,NAC,1,1970,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3976.01,Cehegin,Mediterranean Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
