@@ -5,7 +5,7 @@ These files are created by [this script](https://github.com/forc-db/ForC/blob/ma
 1. Filtering out managed, disturbed and no hisotry info sites
 2. Filtering out young plots (<50yrs)
 3. Converting measurements to Biomass Carbon (from C: OM = C/0.74)
-4. Converting NEE (F_CO2) from kg to kmol (kmol = kg * 22.722366761722)
+4. Converting NEE (F_CO2) from Mg/ha/yr to kmol/ha/yr (kmol = Mg * 22.722366761722)
 5. renaming the variables as follow:
     - biomass_ag --> OM_ag
     - biomass_root --> OM_root

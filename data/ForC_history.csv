@@ -664,20 +664,15 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 285.01,"Bomi Picea, Abies 2","Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 286.01,Bomi Quercus 1,Quercus,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 287.01,Bomi Quercus 2,Quercus,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-288.01,Bonanza 5A,unmanaged,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
-288.02,Bonanza 5A,unmanaged,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
-289.01,Bonanza 5C,unmanaged,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
-289.02,Bonanza 5C,unmanaged,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
-289.03,Bonanza 5C,unmanaged,NAC,3,1803,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
-290.01,Bonanza 5D,unmanaged,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
-290.02,Bonanza 5D,unmanaged,NAC,2,NAC,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
-290.03,Bonanza 5D,unmanaged,NAC,3,1803,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
-291.01,Bonanza 6.1,unmanaged,NAC,1,1889,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Unmanaged,NA
-291.02,Bonanza 6.1,unmanaged,NAC,2,1889,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Unmanaged,NA
-292.01,Bonanza 6.2,unmanaged,NAC,1,1924,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Unmanaged,NA
-292.02,Bonanza 6.2,unmanaged,NAC,2,1924,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Unmanaged,NA
-293.01,Bonanza 6.3,unmanaged,NAC,1,1879,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Unmanaged,NA
-293.02,Bonanza 6.3,unmanaged,NAC,2,1879,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Unmanaged,NA
+288.01,Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
+288.02,Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,NAC,2,1798,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
+288.03,Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,NAC,3,1798,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
+289.01,Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
+289.02,Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,NAC,2,1828,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
+289.03,Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,NAC,3,1828,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
+290.01,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,1,NAC,9,Disturbance,Flood,NA,NA,NA,NAC,Naturally established after flood,NA
+290.02,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,2,1838,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Naturally established after flood,NA
+290.03,Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,NAC,3,1838,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Naturally established after flood,NA
 294.01,Bonanza Creek/Standard Creek,Mature lowland 'dry' perfmafrost-free spruce forest,NAC,1,1780,8.5,Disturbance,Burned,NA,NA,NA,NAC,"never been logged, originated after wildfire dated to app. 1780 for bonanza Creek and might have occurred at a similar time in Standard Creek",NA
 294.02,Bonanza Creek/Standard Creek,Mature lowland 'dry' perfmafrost-free spruce forest,NAC,2,1780,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,"never been logged, originated after wildfire dated to app. 1780 for bonanza Creek and might have occurred at a similar time in Standard Creek",NA
 294.03,Bonanza Creek/Standard Creek,Mature lowland 'dry' perfmafrost-free spruce forest,NAC,3,1780,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,"never been logged, originated after wildfire dated to app. 1780 for bonanza Creek and might have occurred at a similar time in Standard Creek",NA
@@ -1876,10 +1871,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 863.01,FT7 Buvakhal,Lower West Himalayan Quercus leucotrichophoraA. Camus (Banj Oak),NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 864.01,FT8 Pauri,Managed Quercus spp. (Oak) Scrub,NAC,1,NI,9,Disturbance,Harvest,NA,NA,NA,<100%,repeated anthropogenic interferences,NA
 865.01,FT9 Dudhatoli,Moist Temperate Deciduous,NAC,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
-866.01,Fuchu,Managed,NAC,1,NAC,9,Disturbance,Cut,NA,NA,NA,100,Repeated cutting and burning,NA
-866.02,Fuchu,Managed,NAC,2,NAC,9,Disturbance,Burned,NA,NA,NA,100,Repeated cutting and burning,NA
-866.03,Fuchu,Managed,NAC,3,1903,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Repeated cutting and burning,NA
-866.04,Fuchu,Managed,NAC,4,1903,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Repeated cutting and burning,NA
 867.01,Fuhai,Larix,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 868.01,Fujiyoshida forest meteorology research site,naturally regenerated red pine forest,NAC,1,1910,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
 868.02,Fujiyoshida forest meteorology research site,naturally regenerated red pine forest,NAC,2,1910,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -3612,10 +3603,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1702.01,Northern Rondonia State,tropical moist forest,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2186
 1703.01,Norunda,Managed,NAC,1,1901,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Age method: Tree rings. Managed,NA
 1703.02,Norunda,Managed,NAC,2,1901,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Age method: Tree rings. Managed,NA
-1704.01,Nouragues Grand Plateau,old-growth tropical forest.NOR2,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-1705.01,Nouragues Grand Plateau,terra firma NOR-02,10,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2416
-1706.01,Nouragues Petit Plateau,old-growth tropical forest.NOR1,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
-1707.01,Nouragues Petit Plateau,terra firma NOR-01,12,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2417
+1705.01,Nouragues Grand Plateau,old-growth tropical forest.NOR2,10,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2416
+1707.01,Nouragues Petit Plateau,old-growth tropical forest.NOR1,12,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2417
 1708.01,Nova Xavantina cerrado,short-statured tropical forest.NXA1,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 1709.01,Nova Xavantina cerrado,short-statured tropical forest.NXA2,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 1710.01,NSW south coast,"E. sieberi, E. agglomerata, E. obliqua",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
@@ -5226,13 +5215,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2348.01,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA
 2348.02,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA
 2348.03,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA
-2349.01,Teshio,clear-cut 13.7ha area,NAC,1,2003,6,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-2349.02,Teshio,clear-cut 13.7ha area,NAC,2,2003,6,Disturbance,Cut,NA,NA,NA,100,"trees intentionally clear-cut in Jan-March 2003, after 1.5 years of observation in mixed forest",NA
-2349.03,Teshio,clear-cut 13.7ha area,NAC,3,2003,6,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
-2350.01,Teshio,mixed forest,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,Large trees more than 200-years-old,NA
-2350.02,Teshio,mixed forest,NAC,2,1961,8,Disturbance,Cut,NA,NA,NA,<100%,Selective cutting (15% of trees) in experimental area,NA
-2351.01,Teshio,replant with hybrid larch,NAC,1,2003,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-2351.02,Teshio,replant with hybrid larch,NAC,2,2003.747945,6,Regrowth,Planted,1,2500,plants ha-1,NA,saplings of 2-year old hybrid larch (Larix gmelinii x L. kaempferi),NA
+2350.03,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,3,2003,6,Disturbance,Cut,NA,NA,NA,100,"trees intentionally clear-cut in Jan-March 2003, after 1.5 years of observation in mixed forest",NA
+2350.01,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,Large trees more than 200-years-old,NA
+2350.02,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,2,1961,8,Disturbance,Cut,NA,NA,NA,<100%,Selective cutting (15% of trees) in experimental area,NA
+2350.04,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,4,2003.747945,6,Regrowth,Planted,1,2500,plants ha-1,NA,saplings of 2-year old hybrid larch (Larix gmelinii x L. kaempferi),NA
 2352.01,Tharandt 24,Managed,NAC,1,1976,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Managed,NA
 2352.02,Tharandt 24,Managed,NAC,2,1976,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Managed,NA
 2353.01,Tharandt 42,Managed,NAC,1,1958,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Managed,NA
@@ -6691,8 +6677,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3117.01,Acjanaco,ACJ01,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
 3118.01,Santiam Pass OTER,Santiam Pass,NAC,1,1860,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
 3118.02,Santiam Pass OTER,Santiam Pass,NAC,1,1860,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3119.01,Teshio,Teshio Experimental Forest,NAC,1,1850,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
-3119.02,Teshio,Teshio Experimental Forest,NAC,1,1850,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3120.01,BOREAS NSA-D1998,Aggrading Boreal Evergreen Forest. Stand established around 1996,NAC,1,1996,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3121.01,BOREAS NSA-D1995,Aggrading Boreal Deciduous Forest. Stand established around 1993,NAC,1,1993,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3122.01,BOREAS NSA-D1989,Aggrading Boreal Deciduous Forest. Stand established around 1987,NAC,1,1987,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -6722,9 +6706,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3144.01,Duke FACE,Aggrading Temperate Evergreen Forest. Stand established around 1982,NAC,1,1982,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3145.01,Arneth1,Aggrading Temperate Evergreen Forest. Stand established around 1987,NAC,1,1987,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3146.01,Balmoral Forest plantation,Aggrading Temperate Evergreen Forest. Stand established around 1996,NAC,1,1996,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3147.01,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1891,NAC,1,1891,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3148.01,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1926,NAC,1,1926,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3149.01,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3147.01,Bonanza Creek high-elevation area with no permafrost (high-np),Boreal Evergreen Forest. Stand established around 1891,NAC,1,1891,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3148.01,Bonanza Creek mid-elevation deep permafrost area (mid-dp),Boreal Evergreen Forest. Stand established around 1926,NAC,1,1926,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3149.01,Bonanza Creek low-elevation shallow permafrost (low-sp),Boreal Evergreen Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3150.01,Hesse Forest,Aggrading Temperate Deciduous Forest. Stand established around 1967,NAC,1,1967,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3151.01,Oak Ridge,Temperate Deciduous Forest. Stand established around 1896,NAC,1,1896,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3152.01,Oak Ridge,Aggrading Temperate Deciduous Forest with Clearcut treatment. Stand established around 1981,NAC,1,NAC,NAC,Disturbance,Cut,NA,NAC,NA,100,Clearcut,NA
@@ -6770,8 +6754,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3193.01,University of Michigan Biological Station,Temperate Deciduous Forest. Stand established around 1936,NAC,1,1936,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3194.01,University of Michigan Biological Station,Temperate Deciduous Forest. Stand established around 1916,NAC,1,1916,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3195.01,Wytham Woods,Temperate Deciduous Forest. Stand established around 1823,NAC,1,1823,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3196.01,Fuchu,Temperate Evergreen Forest. Stand established around 1900,NAC,1,1900,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3197.01,Fuchu,Temperate Evergreen Forest with Clearcut treatment. Stand established around 1980,NAC,1,NAC,NAC,Disturbance,Cut,NA,NAC,NA,100,Clearcut,NA
+3196.01,Fuchu,Temperate Evergreen Forest. Stand established around 1900,NAC,1,1900,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NAC,Repeated cutting and burning,NA
+3197.01,Fuchu,Temperate Evergreen Forest with Clearcut treatment. Stand established around 1980,NAC,1,NAC,NAC,Disturbance,Cut,NA,NAC,NA,100,Repeated cutting and burning,NA
 3197.02,Fuchu,Temperate Evergreen Forest with Clearcut treatment. Stand established around 1980,NAC,2,1980,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3197.03,Fuchu,Temperate Evergreen Forest with Clearcut treatment. Stand established around 1980,NAC,3,1980,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 3198.01,Groundhog River Flux Station,Boreal Mixed Forest. Stand established around 1929,NAC,1,1929,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -6789,9 +6773,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3208.01,Ogeechee-EFP,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3209.01,Ogeechee-WFP,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3210.01,BOREAS SSA-OA,Boreal Deciduous Forest. Stand established around 1924,NAC,1,1924,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3211.01,BNZ LTER-5A,Boreal Evergreen Forest. Stand established around 1798,NAC,1,1798,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3212.01,BNZ LTER-5C,Boreal Evergreen Forest. Stand established around 1828,NAC,1,1828,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3213.01,BNZ LTER-5D,Boreal Evergreen Forest. Stand established around 1838,NAC,1,1838,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3214.01,Pushchino-1,Temperate Deciduous Forest. Stand established around 1947,NAC,1,1947,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3215.01,Yakutsk-IFS,Boreal Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3216.01,Yakutsk-IFL,Boreal Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -6999,9 +6980,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3376.01,Harshaw Forestry Research Farm,Aggrading Temperate Deciduous Forest. Stand established around 1984,NAC,1,1984,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3377.01,Fazenda Vitoria,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3378.01,Ashland Wildlife Area,Temperate Deciduous Forest. Stand established around 1921,NAC,1,1921,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3379.01,Nara,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3380.01,Nara,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3381.01,Pasoh Forest Reserve,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3382.01,Savannah River Plant,Aggrading Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3383.01,Soro EUROFLUX,Temperate Deciduous Forest. Stand established around 1916,NAC,1,1916,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3384.01,La Sabanita-low,Tropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7468,7 +7446,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3776.01,Dinghushan Mountain National Reserve,Subtropical Evergreen Forest. Stand established around 1953,NAC,1,1953,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3777.01,Dinghushan Mountain National Reserve,Subtropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3778.01,Oak Ridge,Temperate Deciduous Forest. Stand established around 1921,NAC,1,1921,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3779.01,Pasoh Forest,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3780.01,Tulaphitak_1983_sfat research site in Thailand,Tropical Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3781.01,Mt. Takao,Aggrading Temperate Evergreen Forest. Stand established around 1941,NAC,1,1941,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3782.01,Mt. Takao,Temperate Evergreen Forest. Stand established around 1900,NAC,1,1900,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7677,9 +7654,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3968.01,MH3,Temperate Deciduous Forest. Stand established around 1932,NAC,1,1932,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3969.01,MH4,Temperate Deciduous Forest. Stand established around 1932,NAC,1,1932,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3970.01,OG,Temperate Deciduous Forest. Stand established around 1655,NAC,1,1655,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3971.01,Teshio Experimental Forest,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3972.01,Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2003,NAC,1,2003,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3973.01,Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2002,NAC,1,2002,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3974.01,Xiashu Experimental Forest,Subtropical Deciduous Forest. Stand established around 1950,NAC,1,1950,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3975.01,Xiashu Experimental Forest,Aggrading Subtropical Deciduous Forest. Stand established around 1970,NAC,1,1970,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3976.01,Cehegin,Mediterranean Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
