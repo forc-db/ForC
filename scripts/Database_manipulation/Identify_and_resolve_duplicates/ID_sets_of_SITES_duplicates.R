@@ -92,7 +92,7 @@ for(cluster in clusters_with_potential_duplicates) {
       group.c[, c] <- seq(length(s[, c]))
     }
      
-  }
+  } # for(c in col.to.compare)
 
   list.all.duplicate.groupings[[which(clusters_with_potential_duplicates %in% cluster)]] <- group.c
   
@@ -108,7 +108,7 @@ for(cluster in clusters_with_potential_duplicates) {
 # Add measurement.refs ####
 for(i in 1:nrow(SITES)) {
   sites.sitename <- SITES$sites.sitename[i]
-  SITES$measurement.refs[i] <- paste(unique(MEASUREMENTS[MEASUREMENTS$sites.sitename %in% sites.sitename, "citation.ID"]), collapse = "; ")
+  SITES$measurement.refs[i] <- paste(sort(unique(MEASUREMENTS[MEASUREMENTS$sites.sitename %in% sites.sitename, "citation.ID"])), collapse = "; ")
 }
 
 write.csv(SITES, file = "data/ForC_sites.csv", row.names = F)
