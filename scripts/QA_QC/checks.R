@@ -153,6 +153,8 @@ if(any(duplicated(SITES$sites.sitename))) {
   message("There are duplicated sites.sitename in the SITES table!")  
 }
 
+# View(SITES[SITES$sites.sitename %in% SITES$sites.sitename[duplicated(SITES$sites.sitename)], ])
+
 if(any(duplicated(SITES$site.ID))) {
   message("There are duplicated site.ID names in the SITES table!")  
 }
