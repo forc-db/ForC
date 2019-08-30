@@ -1382,7 +1382,7 @@ delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID
                                   "29443;30353;30500;30501;30502;30503;30504;30505;30506", "30389;30390;30391;30392;30393",  "29881;30488", # better now
                                   "21248;28982;28994;28995;28996;28997;28998;28999;29000;29001", "2390;28749", # better now
                                   "21150;21169;21188;21199;21772", "28602;28604;28689;28694",  "28603;28605;28697", "2385;28748", # better now
-                                  "30394;30395;30396","25044;25047;25050;25053;25056" # better now
+                                  "30394;30395;30396","25044;25047;25050;25053;25056",  "9857;21955", "9856;21953;28791;28792" # better now
 # better now
 )# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was.
 
