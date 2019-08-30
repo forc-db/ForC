@@ -153,9 +153,9 @@ MEASUREMENTS.split <- split(MEASUREMENTS, list(MEASUREMENTS$sites.sitename, MEAS
 
 MEASUREMENTS.final <- NULL
 
-new.R.group.ID <- ifelse(any(!my_is.na(MEASUREMENTS$old_R.group)), max(as.numeric(MEASUREMENTS$old_R.group), na.rm = T), 0)
-new.S.group.ID <- ifelse(any(!my_is.na(MEASUREMENTS$old_S.group)), max(as.numeric(MEASUREMENTS$old_S.group), na.rm = T), 0)
-new.D.group.ID <- ifelse(any(!my_is.na(MEASUREMENTS$old_D.group)), max(as.numeric(MEASUREMENTS$old_D.group), na.rm = T), 0)
+new.R.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_R.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_R.group), ";"))), na.rm = T), 0)
+new.S.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_S.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_S.group), ";"))), na.rm = T), 0)
+new.D.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_D.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_D.group), ";"))), na.rm = T), 0)
 
 more.thn.one.D.precedence.measurement.ID.given.and.not.easy.case.split.ID <- NULL
 
@@ -666,11 +666,11 @@ for(i in 1:length(MEASUREMENTS.split)){
     
     if(length(unique(unlist(strsplit(x, ";")))) == length(x)) {
       print(X)
-      readline("case where all x$D.group would be lumped into one - before. Press [enter].")
+      # readline("case where all x$D.group would be lumped into one - before. Press [enter].")
       X$D.group[idx.non.na.D.group] <- min(unique(unlist(strsplit(x, ";"))))
       
       print(X)
-      readline("case where all x$D.group would be lumped into one - after. Press [enter]. Talk to Valentine Herrmann if you don't understand what just happened.")
+      # readline("case where all x$D.group would be lumped into one - after. Press [enter]. Talk to Valentine Herrmann if you don't understand what just happened.")
     }
   }
   
@@ -892,8 +892,13 @@ for(i in 1:length(MEASUREMENTS.split)){
         
         if(length(idx.max.record.duration) < nrow(x[idx.to.look.at,])) {
           one.record.is.1.75.times.longer.than.all.the.others <- unique(record.duration[idx.max.record.duration] > 1.75 * record.duration[-idx.max.record.duration])
-          if(length(one.record.is.1.75.times.longer.than.all.the.others) > 1) stop("code more here")
-          if (one.record.is.1.75.times.longer.than.all.the.others) {
+          
+          if(length(one.record.is.1.75.times.longer.than.all.the.others) > 1 & any(one.record.is.1.75.times.longer.than.all.the.others)) {
+            x[idx.to.look.at,][idx.max.record.duration, ]$D.precedence <- 1
+            x[idx.to.look.at,][-idx.max.record.duration, ][one.record.is.1.75.times.longer.than.all.the.others, ]$D.precedence <- 0
+          }
+          
+          if (length(one.record.is.1.75.times.longer.than.all.the.others) == 1 & any(one.record.is.1.75.times.longer.than.all.the.others)) {
             x[idx.to.look.at,][idx.max.record.duration, ]$D.precedence <- 1
             x[idx.to.look.at,][-idx.max.record.duration, ]$D.precedence <- 0
           }
@@ -1175,7 +1180,7 @@ for(i in 1:length(MEASUREMENTS.split)){
       
       if(length(my_na.omit(unique(x$D.precedence.measurement.ID))) == 1 & ifelse(sum(as.numeric(x$D.precedence)) %in% 1, !x$measurement.ID[x$D.precedence %in% 1] %in% unique(x$D.precedence.measurement.ID), FALSE)) {
         print(x)
-        readline("This is an example where D.precedence does not match D.precedence.measurement.ID")
+        # readline("This is an example where D.precedence does not match D.precedence.measurement.ID")
         print(X)
         # readline("This is the whole data for that group of record")
         stop("This is an example where D.precedence does not match D.precedence.measurement.ID")
@@ -1245,7 +1250,13 @@ retrieve.old.version.meas.IDs <- c("1224;1225;1226;1227;1228;1229;17532;17542;17
                                    "14806;14807;14808;14809;14810;14811;14812;14813;14814;14815;14839;14840;14841;14842;14843;14858;19469;19470;19471;19472;19473;19474;20236;20237;20238;20239;20240;20241;20242;20243;20244;20245;20248;20249;20250;20251;20252;20253;20254;20255;20256;20257;20454;20456;20458;20460", # we want to keep snice it was manually edited
                                    "1230;1231;1232;1233;1234;1235;17572;17582", # this was overwritten at first but now we want to keep that as we manually edited D.precedence
                                    "25212;25213;25214;25216",
-                                   "23707;23719;23731;23743;23752;23761;23770;23779;23788"
+                                   "23707;23719;23731;23743;23752;23761;23770;23779;23788",
+                                   "27516;27526;27536", "27511;27521;27531", "27515;27525;27535", # T conflict but I think it is better to keep them independant
+                                   "27510;27520;27530", "27517;27527;27537", "27512;27522;27532", "27518;27528;27538",# T conflict but I think it is better to keep them independant
+                                   "27514;27524;27534", "27509;27519;27529", "21661;21663", "21662;21664","27513;27523;27533",# T conflict but I think it is better to keep them independant
+                                   "26209;29187;29204;29205;29206", "28699;28700;28701", # looks like it was editted manually before
+                                   "17035;17036;17037;17039;17040;17041;17042;17043;17044;23082;23092;23102;23112;23122;23132", # looks like it was editted manually before
+                                   "28947;28948;28949;28950", "30567;30570", "30568;30569" # looks like it was editted manually before
 ) # paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the old version is more approriate than the code's output
 
 delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% only.one.record.left.split.ID, ]$measurement.ID, #ignore old conflicts of measurement.ID that are in a conflict groups where only one record is left
@@ -1349,8 +1360,32 @@ delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID
                                   "26416;26421;26426;26431;26436;26441;26446;26451;26456;26461;26470", "25816;25819;25822", # better handled now
                                   "27545;30490", "21004;28496", "21274;28955",  "21286;28957",  "20922;28494", "21248;28994",  # now a conflict
                                   "21558;21564;21569;28581;28582;28583", # now a conflict
-                                  "26324;26335;26344;30023;30024"
+                                  "26324;26335;26344;30023;30024",
+                                  "25871;27540", # actual deplicate
+                                  "9710;9736;9737;21999", "21157;21176;21195;21205;21771;21776", # I think it is better now
+                                  "21116;21219;21355", "21117;21220;21356", "21109;21212;21348", "9724;9742;9743;22000", "25872;27541", # I think it is better now
+                                  "21112;21215;21351",  "21110;21213;21349", "9720;9740;9741;22001", "9712;9756;9757;21998", # I think it is better now
+                                  "29908;29911;30449", "29641;29642;29643;30190;30191;30192;30193", "21111;21214;21350", # better now
+                                  "14424;14427;14430;14433;14436;20452;25042;25045;25048;25051;25054", # better now
+                                  "22630;25365;26578;26580;26582;26584;26586;26588;26590", "27249;27256", # better now
+                                  "23087;23097;23107;23117;23127;23137;25327;25328;25330;25332;25334;25336;25338",  "21114;21217;21353;24675",# better now
+                                  "21160;21179;21198;21206;21777", "22633;25368;26579;26581;26583;26585;26587;26589;26591", # better now
+                                  "21102;23084;23094;23104;23114;23124;23134",  "22632;25367", "25870;27539", # better now
+                                  "21153;21172;21191;21204;21770;21775", "9744;9745", "21485;21486", "9748;9749", "21113;21216;21352", # better now
+                                  "21105;21208;21344", "21151;21170;21189;21200;21768;21773", # better now
+                                  "17032;17033;17034;23083;23093;23103;23113;23123;23133", # better now
+                                  "14425;14428;14431;14434;14437;25043;25046;25049;25052;25055", "22631;25366", #better now
+                                  "25004;25007;25010;26869", "21106;21209;21345", "21152;21171;21190;21201;21769;21774", "28687;28869",  # better now
+                                  "30379;30380;30381;30382;30383;30384;30385;30386;30387;30388", # better now
+                                  "28505;29142;29143;29144;29145;29146;29147;29723;29724;29725;29726;29727;29728", # better now
+                                  "21104;21207;21343;28601;29518", "29651;29652;29653;29654;29655", "9714;28824", # better now
+                                  "29443;30353;30500;30501;30502;30503;30504;30505;30506", "30389;30390;30391;30392;30393",  "29881;30488", # better now
+                                  "21248;28982;28994;28995;28996;28997;28998;28999;29000;29001", "2390;28749", # better now
+                                  "21150;21169;21188;21199;21772", "28602;28604;28689;28694",  "28603;28605;28697", "2385;28748", # better now
+                                  "30394;30395;30396","25044;25047;25050;25053;25056" # better now
+# better now
 )# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was.
+
 
 #### keep new handling of stand age 999 ####
 ## Valentine to Krista: I believe that when I originally ran the code for duplicated measurements I was considering stand.age "999" as NA. So, 2 measurements of the same variable, at the same plot, with no dates, and with stand.age "999" were considered as S conflict, and both measurements were getting a capital S (which I think deletes them both when creating ForC_simplified). Now I ran the code considering "999" as a 'known' stand.age so the 2 records above would get a conflict R if the method (citation.ID) is the same (see measurements.ID 14061 and 14062 for an example) or D if not (see measurements.ID 7782 and 7786 for an example - and precedence would be for the latest study).That second second solution is better, right?
@@ -1561,7 +1596,7 @@ if(length(need.user.input.split.ID) > 0) {
     
     print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
     print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
-    # readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
+    readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
     
   }
   
