@@ -7346,7 +7346,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3674.01,Sky Oaks,Mediterranean Deciduous Savanna. Stand established around 1996,NAC,1,1996,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3675.01,Tonzi,Mediterranean Deciduous Savanna,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3676.01,Paracou,Tropical NA Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3677.01,Takayama Experimental Field Station,Aggrading Temperate Deciduous Forest. Stand established around 1960,NAC,1,1960,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3678.01,Fraser Experimental Forest,Temperate Evergreen Forest. Stand established around 1703,NAC,1,1703,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3679.01,Fraser Experimental Forest,Temperate Evergreen Forest. Stand established around 1953,NAC,1,1953,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3680.01,Sisters,Aggrading Temperate Evergreen Forest. Stand established around 1978,NAC,1,1978,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7384,7 +7383,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3712.01,Simpevarp,Temperate Deciduous Forest. Stand established around 1892,NAC,1,1892,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3713.01,Simpevarp,Temperate Deciduous Forest. Stand established around 1871,NAC,1,1871,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3714.01,Sakata_2007_sosr research site in Ibaraki Japan,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3715.01,Takayama Experimental Field Station,Temperate Deciduous Forest. Stand established around 1954,NAC,1,1954,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3720.01,Caxiuana National Forest,Tropical Evergreen Forest with Drought treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3720.02,Caxiuana National Forest,Tropical Evergreen Forest with Drought treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 3720.03,Caxiuana National Forest,Tropical Evergreen Forest with Drought treatment,NAC,3,NAC,NAC,Management,Precipitation diversion,NA,NAC,NA,NAC,Drought,NA
@@ -7568,7 +7566,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3884.01,Calabozo,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3885.01,Wang_2006_cosr research site in China,Aggrading Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3886.01,BOREAS SSA-OBS,Boreal Evergreen Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3887.01,Takayama Research Station,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3888.01,Klimahaus Research Station,Temperate Evergreen Forest. Stand established around 1912,NAC,1,1912,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3889.01,Maoershan Forest Research Station,NA Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3890.01,Maoershan Forest Research Station,Managed NA Temperate Deciduous Forest with Fertilized (10 gN/m2) treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
