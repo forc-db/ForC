@@ -9381,3 +9381,11 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5270.03,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,3,1951,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,afforested in 1951,NA
 5270.04,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,4,1951,8,Regrowth,Planted,1,NA,NA,NA,afforested in 1951,NA
 ,,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,5,NAC,9,Management,Fertilization,NA,55,t/ha,NA,NA,NA
+5271.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (528 ppm) treatment. Stand established around 1987,NAC,1,1987,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
+5271.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (528 ppm) treatment. Stand established around 1987,NAC,2,1987,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5272.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (538 ppm) treatment. Stand established around 1987,NAC,1,1987,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
+5272.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (538 ppm) treatment. Stand established around 1987,NAC,2,1987,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5273.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (545 ppm) treatment. Stand established around 1987,NAC,1,1987,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
+5273.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (545 ppm) treatment. Stand established around 1987,NAC,2,1987,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5274.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (548 ppm) treatment. Stand established around 1987,NAC,1,1987,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
+5274.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (548 ppm) treatment. Stand established around 1987,NAC,2,1987,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
