@@ -8260,7 +8260,10 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4476.01,Robinson Forest/Daniel Boone National Forest,Aggrading Temperate Deciduous Forest. Stand established around 1985,NAC,1,1985,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4477.01,Lyuri_2013_cisr research site in Russia,Boreal Evergreen Forest. Stand established around 1911,NAC,1,1911,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4478.01,Lyuri_2013_cisr research site in Russia,Boreal Evergreen Forest. Stand established around 1841,NAC,1,1841,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4479.01,Skogaryd,Temperate Evergreen Forest. Stand established around 1951,NAC,1,1951,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4479.01,Skogaryd,Picea abies dominated stand on drained organic soil. Stand established in 1951.,NAC,1,1875,8.5,Management,Drained,1,NA,NA,NA,"former mesotrophic fen, drained in 1870s",NA
+4479.02,Skogaryd,Picea abies dominated stand on drained organic soil. Stand established in 1951.,NAC,2,1875,8.5,Disturbance,Agriculture_generic,1,NA,NA,100,used for agriculture until 1951 ,NA
+4479.03,Skogaryd,Picea abies dominated stand on drained organic soil. Stand established in 1951.,NAC,3,1951,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,afforested in 1951,NA
+4479.04,Skogaryd,Picea abies dominated stand on drained organic soil. Stand established in 1951.,NAC,4,1951,8,Regrowth,Planted,1,NA,NA,NA,afforested in 1951,NA
 4480.01,Alligator River National Wildlife Refuge,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4481.01,Noh_2013_cand research site in South Korea,Temperate Evergreen Forest. Stand established around 1938,NAC,1,1938,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4482.01,Ohtsuka_2013_ccas research site in Japan,Temperate Evergreen Forest. Stand established around 1912,NAC,1,1912,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -9368,3 +9371,13 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5266.01,Fontainebleau-Barbeau (FR-Fon),FR-FON. mature sessile oak stand (Quercus petraea),NA,1,NAC,9,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5267.01,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. Earthworms.,NAC,1,1899,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5268.01,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. Earthworms,NAC,1,1924,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+5269.01,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (3.3 t/ha) treatment. Stand established in 1951.,NAC,1,1875,8.5,Management,Drained,1,NA,NA,NA,"former mesotrophic fen, drained in 1870s",NA
+5269.02,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (3.3 t/ha) treatment. Stand established in 1951.,NAC,2,1875,8.5,Disturbance,Agriculture_generic,1,NA,NA,100,used for agriculture until 1951 ,NA
+5269.03,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (3.3 t/ha) treatment. Stand established in 1951.,NAC,3,1951,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,afforested in 1951,NA
+5269.04,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (3.3 t/ha) treatment. Stand established in 1951.,NAC,4,1951,8,Regrowth,Planted,1,NA,NA,NA,afforested in 1951,NA
+5269.05,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (3.3 t/ha) treatment. Stand established in 1951.,NAC,5,NAC,9,Management,Fertilization,NA,3.3,t/ha,NA,NA,NA
+5270.01,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,1,1875,8.5,Management,Drained,1,NA,NA,NA,"former mesotrophic fen, drained in 1870s",NA
+5270.02,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,2,1875,8.5,Disturbance,Agriculture_generic,1,NA,NA,100,used for agriculture until 1951 ,NA
+5270.03,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,3,1951,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,afforested in 1951,NA
+5270.04,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,4,1951,8,Regrowth,Planted,1,NA,NA,NA,afforested in 1951,NA
+,,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,5,NAC,9,Management,Fertilization,NA,55,t/ha,NA,NA,NA
