@@ -6871,8 +6871,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3303.01,Vielsalm,Temperate Deciduous Forest. Stand established around 1927,NAC,1,1927,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3304.01,Blodgett FRS,Mediterranean Evergreen Forest. Stand established around 1990,NAC,1,1990,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3305.01,Tonzi Ranch,Mediterranean Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3307.01,Dinghushan-MF,Tropical Mixed Forest. Stand established around 1941,NAC,1,1941,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3308.01,Dinghushan-PF,Tropical Evergreen Forest. Stand established around 1941,NAC,1,1941,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3309.01,Reserve Cuieiras,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3310.01,PZ-Secfor 12a,Aggrading Tropical Evergreen Forest. Stand established around 1987,NAC,1,1987,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3311.01,PZ-Secfor 18,Aggrading Tropical Evergreen Forest. Stand established around 1981,NAC,1,1981,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7439,7 +7437,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3772.01,Joyce Kilmer-Slickrock Wilderness,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3773.01,Menglun Forest Reserve,Tropical Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3774.01,Changbai Mountains Forest Ecosystem Open Research Station,Temperate Mixed Forest. Stand established around 1802,NAC,1,1802,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3776.01,Dinghushan Mountain National Reserve,Subtropical Evergreen Forest. Stand established around 1953,NAC,1,1953,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3778.01,Oak Ridge,Temperate Deciduous Forest. Stand established around 1921,NAC,1,1921,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3780.01,Tulaphitak_1983_sfat research site in Thailand,Tropical Mixed Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3781.01,Mt. Takao,Aggrading Temperate Evergreen Forest. Stand established around 1941,NAC,1,1941,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -7616,8 +7613,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3942.01,Bily Kriz Experimental Ecological Study Site,Aggrading Temperate Evergreen Forest. Stand established around 1977,NAC,1,1977,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3943.01,Maoershan Experimental Forest Farm,Temperate Deciduous Forest. Stand established around 1969,NAC,1,1969,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3944.01,Maoershan Experimental Forest Farm,Temperate Deciduous Forest. Stand established around 1997,NAC,1,1997,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3945.01,Dinghushan-MPF,Aggrading Subtropical Evergreen Forest. Stand established around 1948,NAC,1,1948,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3946.01,Dinghushan-MF,Subtropical Evergreen Forest. Stand established around 1893,NAC,1,1893,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3949.01,Qingyuan Forest Experimental Station,Temperate Deciduous Forest. Stand established around 1953,NAC,1,1953,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3950.01,Qingyuan Forest Experimental Station,Temperate Deciduous Forest. Stand established around 1951,NAC,1,1951,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3951.01,Qingyuan Forest Experimental Station,Temperate Deciduous Forest. Stand established around 1948,NAC,1,1948,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -9373,3 +9368,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5275.01,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (574 ppm) treatment. Stand established around 1983,NAC,1,1983,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5275.02,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (574 ppm) treatment. Stand established around 1983,NAC,2,1983,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 5275.03,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (574 ppm) treatment. Stand established around 1983,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  574 ppm,NA
+3307.01,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1941,NAC,1,1941,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3307.02,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1941,NAC,2,1964,8,No.disturbance,No disturbance,NA,NA,NA,NA,(see other Dinghushan records),NA
+3308.01,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,1,1941,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3308.02,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,2,1964,8,No.disturbance,No disturbance,NA,NA,NA,NA,(see other Dinghushan records),NA
