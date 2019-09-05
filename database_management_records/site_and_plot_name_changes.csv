@@ -1,108 +1,113 @@
-new.sitename,new.plotname,old.sitename,old.plotname,date.added.here,notes
-Tumbarumba flux station (AU-Tum),mature managed forest,Tumbarumba flux station,mature managed forest,9/21/18,add fluxnet code
-Tumbarumba flux station (AU-Tum),mature managed forest,Tumbara,NAC,9/21/18,merge with duplicate site 
-Luquillo CTFS-ForestGEO plot,16-ha forest dynamics plot,Luquillo Forest Dynamics plot,mature 'old growth' forest,9/22/18,merge with duplicate site 
-Luquillo Experimental Forest: Bisley watersheds 1 and 2 ,Secondary tabonuco forest,Bisley,Secondary tabonuco forest,9/22/18,clarify name
-Brindabella Range Eucalyptus pauciflora forest,Temperate Evergreen Forest. Stand established around 1939,Brindabella,Temperate Evergreen Forest. Stand established around 1939,7/1/19,merge with duplicate site 
-Brindabella Range Eucalyptus pauciflora forest,Temperate Evergreen Forest with Fertilized (500 kgP/ha) treatment. Stand established around 1939,Brindabella,Temperate Evergreen Forest with Fertilized (500 kgP/ha) treatment. Stand established around 1939,7/1/19,merge with duplicate site 
-Brindabella Range Eucalyptus pauciflora forest,Temperate Evergreen Forest. Stand established around 1939,Brindabella Range Eucalyptus pauciflora forest,Managed 54 yr C,7/1/19,merge with duplicate site 
-Brindabella Range Eucalyptus pauciflora forest,Temperate Evergreen Forest with Fertilized (500 kgP/ha) treatment. Stand established around 1939,Brindabella Range Eucalyptus pauciflora forest,Managed 54 yr P fertilized,7/1/19,merge with duplicate site 
-Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,Morgan Monroe State Forest (MMSF),Managed,7/1/19,merge with duplicate site 
-Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,Morgan Monroe State Forest,Temperate Deciduous Forest. Stand established around 1915,7/1/19,merge with duplicate site 
-Blandy Experimental Farm,(any),Blady Experimental Farm,(any),7/1/19,fix typo in site name
-Metolius Young Pine Burn (US-Me6),Aggrading Temperate Evergreen Forest. Stand established 1990,Metolius young II,US-Me6,7/2/19,merge duplicate sites
-Metolius Young Pine Burn (US-Me6),Aggrading Temperate Evergreen Forest. Stand established 1990,US-Me6,Aggrading Temperate Evergreen Forest. Stand established around 1980,7/2/19,merge duplicate sites
-Laegern (CH-Lae),CH-Lae,Laegern ,CH-Lae,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren,Lageren,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-1,Lageren-1,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-2,Lageren-2,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-3,Lageren-3,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-4,Lageren-4,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-5,Lageren-5,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-6,Lageren-6,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-7,Lageren-7,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-8,Lageren-8,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-9,Lageren-9,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-10,Lageren-10,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-11,Lageren-11,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-12,Lageren-12,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-13,Lageren-13,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-14,Lageren-14,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-15,Lageren-15,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Lageren-16,Lageren-16,Temperate Deciduous Forest,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Quercus robur Forest. Stand established around 1907,LSgeren,Quercus robur Forest. Stand established around 1907,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Fagus sylvatica Forest. Stand established around 1907,LSgeren,Fagus sylvatica Forest. Stand established around 1907,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Abies alba Forest. Stand established around 1907,LSgeren,Abies alba Forest. Stand established around 1907,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Fraxinus excelsior Forest. Stand established around 1907,LSgeren,Fraxinus excelsior Forest. Stand established around 1907,7/2/19,merge duplicate sites
-Laegern (CH-Lae),Acer pseudoplatanus Forest. Stand established around 1907,LSgeren,Acer pseudoplatanus Forest. Stand established around 1907,7/2/19,merge duplicate sites
-Wombat,Mediterranean Evergreen Forest. Stand established around 1986,Wombat State Forest,Mediterranean Evergreen Forest. Stand established around 1986,7/2/19,merge duplicate sites
-Wombat,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,Wombat State Forest,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,7/2/19,merge duplicate sites
-Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with fire exclusion,Wombat State Forest,Mediterranean Deciduous Forest. Stand established around 1965,7/2/19,resolve problematic site /plot names
-Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 3 years (AH),Wombat State Forest-AL,Mediterranean Deciduous Forest. Stand established around 2006,7/2/19,resolve problematic site /plot names
-Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 10 years (AL),Wombat State Forest-AH,Mediterranean Deciduous Forest. Stand established around 2008,7/2/19,resolve problematic site /plot names
-Fontainebleau-Barbeau (FR-Fon),Fontainebleu,Fontainebleu,Fontainebleu,7/2/19,merge duplicate sites
-Fontainebleau-Barbeau (FR-Fon),FR-FON. mature sessile oak stand (Quercus petraea),Fontainebleu,Fontainebleu,7/2/19,merge duplicate sites
-Fontainebleau-Barbeau (FR-Fon),Temperate Deciduous Forest. Stand established around 1881,Barbeau National Forest FR-Fon,Temperate Deciduous Forest. Stand established around 1881,7/2/19,merge duplicate sites
-Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,Yatir Forest,(any),7/2/19,merge duplicate sites
-Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,Yatir,maturing Pinus halepensis planted forest,7/2/19,merge duplicate sites
-Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. Earthworms.,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. ,7/3/19,separate plots based on SRDB notes
-Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. Earthworms,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. ,7/3/19,separate plots based on SRDB notes
-Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. No earthworms.,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. ,7/3/19,separate plots based on SRDB notes
-Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. No earthworms.,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. ,7/3/19,separate plots based on SRDB notes
-El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established 1989,El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established around 2005,7/3/19,corrected based on SRDB notes
-San Pedro- SPD-02,SPD02,San Pedro- SPD-02,Tropical Evergreen Forest,7/3/19,merge duplicate plots
-San Pedro- SPD-01,SPD01,San Pedro- SPD-01,Tropical Evergreen Forest,7/3/19,merge duplicate plots
-San Pedro- SPD-02,SPD02,San Pedro,Tropical Evergreen Forest,7/3/19,merge duplicate sites
-Web-FACE,Ambient CO2,SCC FACE,Temperate Deciduous Forest. Stand established around 1907,7/15/19,merge duplicate sites
-Web-FACE,Elevated CO2,SCC FACE,Temperate Deciduous Forest with CO2 (550 ppm) treatment. Stand established around 1907,7/15/19,merge duplicate sites
-Wayqecha,unmanaged upland tropical forest,Zimmerman_2009_lctd research site in Peru,Tropical Evergreen Forest,7/15/19,merge duplicate sites
-Wayqecha,unmanaged upland tropical forest,Wayqecha,Tropical Evergreen Forest,7/15/19,merge duplicate sites
-Wayqecha,unmanaged upland tropical forest,Wayqecha Biological Station,Tropical Evergreen Forest,7/16/19,merge duplicate sites
-Tambopata-Candamo Reserve permanent plot TAM-05,terra firma unmanaged primary forest,Tambopata- Candamo Reserve TAM05,Tropical Evergreen Forest,7/16/19,merge duplicate sites
-Tambopata-Candamo Reserve permanent plot TAM-06,"terra firma, floodplain unmanaged primary forest",Tambopata- Candamo Reserve TAM06,Tropical Evergreen Forest,7/16/19,merge duplicate sites
-Tambopata-Candamo Reserve permanent plot TAM-05,terra firma unmanaged primary forest,Tambopata,Tropical Evergreen Forest,7/16/19,merge duplicate sites
-Pasoh Forest Reserve,primary forest,Pasoh Forest Reserve,Tropical Evergreen Forest,8/3/19,merge duplicate sites
-Pasoh Forest Reserve,primary forest,Pasoh Forest,Tropical Evergreen Forest,8/3/19,merge duplicate sites
-Mt Odaigahara,NI,Nara,Temperate Deciduous Forest,8/3/19,merge duplicate sites
-Mt Kasuga,NI,Nara,Temperate Evergreen Forest,8/3/19,merge duplicate sites
-Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2003,8/4/19,merge duplicate plots
-Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio,clear-cut 13.7ha area,8/4/19,merge duplicate sites/plots
-Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio,mixed forest,8/4/19,merge duplicate sites/plots
-Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio,replant with hybrid larch,8/4/19,merge duplicate sites/plots
-Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio,Teshio Experimental Forest,8/4/19,merge duplicate sites/plots
-Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio Experimental Forest,Temperate Deciduous Forest,8/4/19,merge duplicate sites/plots
-Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2003,8/4/19,merge duplicate sites/plots
-Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2002,8/4/19,merge duplicate sites/plots
-Nouragues Grand Plateau,old-growth tropical forest.NOR2,Nouragues Grand Plateau,terra firma NOR-02,8/4/19,merge duplicate plots
-Nouragues Petit Plateau,old-growth tropical forest.NOR1,Nouragues Petit Plateau,terra firma NOR-01,8/4/19,merge duplicate plots
-Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,BNZ LTER-5A,Boreal Evergreen Forest. Stand established around 1798,8/4/19,merge duplicate sites/plots
-Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,BNZ LTER-5C,Boreal Evergreen Forest. Stand established around 1828,8/4/19,merge duplicate sites/plots
-Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,BNZ LTER-5D,Boreal Evergreen Forest. Stand established around 1838,8/4/19,merge duplicate sites/plots
-Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,Bonanza 5A,unmanaged,8/4/19,merge duplicate sites/plots
-Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,Bonanza 5C,unmanaged,8/4/19,merge duplicate sites/plots
-Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,Bonanza 5D,unmanaged,8/4/19,merge duplicate sites/plots
-Bonanza Creek high-elevation area with no permafrost (high-np),Boreal Evergreen Forest. Stand established around 1891,Bonanza 6.1,unmanaged,8/4/19,merge duplicate sites/plots
-Bonanza Creek mid-elevation deep permafrost area (mid-dp),Boreal Evergreen Forest. Stand established around 1926,Bonanza 6.2,unmanaged,8/4/19,merge duplicate sites/plots
-Bonanza Creek low-elevation shallow permafrost (low-sp),Boreal Evergreen Forest. Stand established around 1881,Bonanza 6.3,unmanaged,8/4/19,merge duplicate sites/plots
-Bonanza Creek high-elevation area with no permafrost (high-np),Boreal Evergreen Forest. Stand established around 1891,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1891,8/4/19,merge duplicate sites/plots
-Bonanza Creek mid-elevation deep permafrost area (mid-dp),Boreal Evergreen Forest. Stand established around 1926,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1926,8/4/19,merge duplicate sites/plots
-Bonanza Creek low-elevation shallow permafrost (low-sp),Boreal Evergreen Forest. Stand established around 1881,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1881,8/4/19,merge duplicate sites/plots
-Takayama,secondary deciduous forest,Takayama Experimental Field Station,Temperate Deciduous Forest,9/3/19,merge duplicate sites/plots
-Takayama,secondary deciduous forest,Takayama Research Station,Temperate Deciduous Forest,9/3/19,merge duplicate sites/plots
-Takayama,secondary deciduous forest,Takayama Experimental Field Station,Temperate Deciduous Forest. Stand established around 1954,9/3/19,merge duplicate sites/plots
-Takayama,secondary deciduous forest,Takayama Experimental Field Station,Aggrading Temperate Deciduous Forest. Stand established around 1960,9/3/19,merge duplicate sites/plots
-Stillberg,Alpine Larix-Pine stand planted in 1975.,Stillberg,Boreal Evergreen Forest. Stand established around 1975,9/3/19,merge duplicate sites/plots
-Stillberg,Alpine Larix-Pine stand planted in 1975.,Stillberg,Temperate Mixed Forest. Stand established around 1975,9/3/19,merge duplicate sites/plots
-Stillberg,Alpine Larix-Pine stand planted in 1975.,Stillberg,Temperate Deciduous Forest. Stand established around 1975,9/3/19,merge duplicate sites/plots
-Stillberg,Alpine Larix-Pine stand planted in 1975 with Warming (+4 C) treatment. ,Stillberg,Boreal Evergreen Forest with Warming (+4 C) treatment. Stand established around 1975,9/3/19,merge duplicate sites/plots
-Stillberg,Alpine Larix-Pine stand planted in 1975 with CO2 (575 ppm) treatment. ,Stillberg,Managed Temperate Mixed Forest with CO2 (575 ppm) treatment. Stand established around 1975,9/3/19,merge duplicate sites/plots
-Stillberg,Alpine Larix-Pine stand planted in 1975 with CO2 (575 ppm) treatment. ,Stillberg,Managed Temperate Deciduous Forest with CO2 treatment. Stand established around 1975,9/3/19,merge duplicate sites/plots
-Skogaryd,Picea abies dominated stand on drained organic soil. Stand established in 1951.,Skogaryd,Temperate Evergreen Forest. Stand established around 1951,9/3/19,fix problematic plot names
-Skogaryd,Picea abies dominated stand on drained organic soil. Stand established in 1951.,Skogaryd,Boreal Evergreen Forest. Stand established around 1951,9/3/19,fix problematic plot names
-Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (3.3 t/ha) treatment. Stand established in 1951.,Skogaryd,Boreal Evergreen Forest with Fertilization (3.3 t/ha) treatment. Stand established around 1951,9/3/19,fix problematic plot names
-Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,Skogaryd,Boreal Evergreen Forest with Fertilization (5.5 t/ha) treatment. Stand established around 1951,9/3/19,fix problematic plot names
-Sambong Exhibition Forests,Aggrading Temperate Deciduous Needleleaf Forest. Stand established around 1966,Sambong Exhibition Forests,Temperate Deciduous Forest. Stand established around 1966,9/3/19,fix problematic plot names
-Sambong Exhibition Forests,Aggrading Temperate Deciduous Needleleaf Forest. Stand established around 1966,Sambong Exhibition Forests,Aggrading Temperate Evergreen Forest. Stand established around 1966,9/3/19,fix problematic plot names
-Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,Morgan-Monroe State Forest,Temperate Deciduous Forest,9/4/19,merge duplicate sites/plots
-Dinghushan Biosphere Reserve flux site (CN-Din),primary forest,Dinghushan (DHS),primary forest,9/4/19,clarify name
-Dinghushan Biosphere Reserve flux site (CN-Din),primary forest,Dinghushan Biosphere Reserve,Subtropical Evergreen Forest. Stand established around 1604,9/4/19,merge duplicate sites/plots
+new.sitename,new.plotname,old.sitename,old.plotname,date.added.here,notes,,,,
+Tumbarumba flux station (AU-Tum),mature managed forest,Tumbarumba flux station,mature managed forest,9/21/18,add fluxnet code,,,,
+Tumbarumba flux station (AU-Tum),mature managed forest,Tumbara,NAC,9/21/18,merge with duplicate site ,,,,
+Luquillo CTFS-ForestGEO plot,16-ha forest dynamics plot,Luquillo Forest Dynamics plot,mature 'old growth' forest,9/22/18,merge with duplicate site ,,,,
+Luquillo Experimental Forest: Bisley watersheds 1 and 2 ,Secondary tabonuco forest,Bisley,Secondary tabonuco forest,9/22/18,clarify name,,,,
+Brindabella Range Eucalyptus pauciflora forest,Temperate Evergreen Forest. Stand established around 1939,Brindabella,Temperate Evergreen Forest. Stand established around 1939,7/1/19,merge with duplicate site ,,,,
+Brindabella Range Eucalyptus pauciflora forest,Temperate Evergreen Forest with Fertilized (500 kgP/ha) treatment. Stand established around 1939,Brindabella,Temperate Evergreen Forest with Fertilized (500 kgP/ha) treatment. Stand established around 1939,7/1/19,merge with duplicate site ,,,,
+Brindabella Range Eucalyptus pauciflora forest,Temperate Evergreen Forest. Stand established around 1939,Brindabella Range Eucalyptus pauciflora forest,Managed 54 yr C,7/1/19,merge with duplicate site ,,,,
+Brindabella Range Eucalyptus pauciflora forest,Temperate Evergreen Forest with Fertilized (500 kgP/ha) treatment. Stand established around 1939,Brindabella Range Eucalyptus pauciflora forest,Managed 54 yr P fertilized,7/1/19,merge with duplicate site ,,,,
+Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,Morgan Monroe State Forest (MMSF),Managed,7/1/19,merge with duplicate site ,,,,
+Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,Morgan Monroe State Forest,Temperate Deciduous Forest. Stand established around 1915,7/1/19,merge with duplicate site ,,,,
+Blandy Experimental Farm,(any),Blady Experimental Farm,(any),7/1/19,fix typo in site name,,,,
+Metolius Young Pine Burn (US-Me6),Aggrading Temperate Evergreen Forest. Stand established 1990,Metolius young II,US-Me6,7/2/19,merge duplicate sites,,,,
+Metolius Young Pine Burn (US-Me6),Aggrading Temperate Evergreen Forest. Stand established 1990,US-Me6,Aggrading Temperate Evergreen Forest. Stand established around 1980,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),CH-Lae,Laegern ,CH-Lae,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren,Lageren,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-1,Lageren-1,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-2,Lageren-2,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-3,Lageren-3,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-4,Lageren-4,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-5,Lageren-5,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-6,Lageren-6,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-7,Lageren-7,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-8,Lageren-8,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-9,Lageren-9,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-10,Lageren-10,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-11,Lageren-11,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-12,Lageren-12,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-13,Lageren-13,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-14,Lageren-14,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-15,Lageren-15,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Lageren-16,Lageren-16,Temperate Deciduous Forest,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Quercus robur Forest. Stand established around 1907,LSgeren,Quercus robur Forest. Stand established around 1907,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Fagus sylvatica Forest. Stand established around 1907,LSgeren,Fagus sylvatica Forest. Stand established around 1907,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Abies alba Forest. Stand established around 1907,LSgeren,Abies alba Forest. Stand established around 1907,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Fraxinus excelsior Forest. Stand established around 1907,LSgeren,Fraxinus excelsior Forest. Stand established around 1907,7/2/19,merge duplicate sites,,,,
+Laegern (CH-Lae),Acer pseudoplatanus Forest. Stand established around 1907,LSgeren,Acer pseudoplatanus Forest. Stand established around 1907,7/2/19,merge duplicate sites,,,,
+Wombat,Mediterranean Evergreen Forest. Stand established around 1986,Wombat State Forest,Mediterranean Evergreen Forest. Stand established around 1986,7/2/19,merge duplicate sites,,,,
+Wombat,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,Wombat State Forest,Managed Mediterranean Evergreen Forest with Drought (-40%) treatment. Stand established around 1986,7/2/19,merge duplicate sites,,,,
+Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with fire exclusion,Wombat State Forest,Mediterranean Deciduous Forest. Stand established around 1965,7/2/19,resolve problematic site /plot names,,,,
+Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 3 years (AH),Wombat State Forest-AL,Mediterranean Deciduous Forest. Stand established around 2006,7/2/19,resolve problematic site /plot names,,,,
+Wombat State Forest Fire Effect Study Areas (FESA) ,Mediterranean Deciduous Forest with low intensity burn approximately every 10 years (AL),Wombat State Forest-AH,Mediterranean Deciduous Forest. Stand established around 2008,7/2/19,resolve problematic site /plot names,,,,
+Fontainebleau-Barbeau (FR-Fon),Fontainebleu,Fontainebleu,Fontainebleu,7/2/19,merge duplicate sites,,,,
+Fontainebleau-Barbeau (FR-Fon),FR-FON. mature sessile oak stand (Quercus petraea),Fontainebleu,Fontainebleu,7/2/19,merge duplicate sites,,,,
+Fontainebleau-Barbeau (FR-Fon),Temperate Deciduous Forest. Stand established around 1881,Barbeau National Forest FR-Fon,Temperate Deciduous Forest. Stand established around 1881,7/2/19,merge duplicate sites,,,,
+Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,Yatir Forest,(any),7/2/19,merge duplicate sites,,,,
+Yatir,Agrading Pinus halepensis planted stand planted starting 1964.,Yatir,maturing Pinus halepensis planted forest,7/2/19,merge duplicate sites,,,,
+Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. Earthworms.,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. ,7/3/19,separate plots based on SRDB notes,,,,
+Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. Earthworms,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. ,7/3/19,separate plots based on SRDB notes,,,,
+Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. No earthworms.,Arnot Forest,Temperate Deciduous Forest. Stand established around 1899. ,7/3/19,separate plots based on SRDB notes,,,,
+Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. No earthworms.,Tompkins Farm,Temperate Deciduous Forest. Stand established around 1924. ,7/3/19,separate plots based on SRDB notes,,,,
+El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established 1989,El Eden Ecological Preserve,Aggrading Tropical Evergreen Forest. Stand established around 2005,7/3/19,corrected based on SRDB notes,,,,
+San Pedro- SPD-02,SPD02,San Pedro- SPD-02,Tropical Evergreen Forest,7/3/19,merge duplicate plots,,,,
+San Pedro- SPD-01,SPD01,San Pedro- SPD-01,Tropical Evergreen Forest,7/3/19,merge duplicate plots,,,,
+San Pedro- SPD-02,SPD02,San Pedro,Tropical Evergreen Forest,7/3/19,merge duplicate sites,,,,
+Web-FACE,Ambient CO2,SCC FACE,Temperate Deciduous Forest. Stand established around 1907,7/15/19,merge duplicate sites,,,,
+Web-FACE,Elevated CO2,SCC FACE,Temperate Deciduous Forest with CO2 (550 ppm) treatment. Stand established around 1907,7/15/19,merge duplicate sites,,,,
+Wayqecha,unmanaged upland tropical forest,Zimmerman_2009_lctd research site in Peru,Tropical Evergreen Forest,7/15/19,merge duplicate sites,,,,
+Wayqecha,unmanaged upland tropical forest,Wayqecha,Tropical Evergreen Forest,7/15/19,merge duplicate sites,,,,
+Wayqecha,unmanaged upland tropical forest,Wayqecha Biological Station,Tropical Evergreen Forest,7/16/19,merge duplicate sites,,,,
+Tambopata-Candamo Reserve permanent plot TAM-05,terra firma unmanaged primary forest,Tambopata- Candamo Reserve TAM05,Tropical Evergreen Forest,7/16/19,merge duplicate sites,,,,
+Tambopata-Candamo Reserve permanent plot TAM-06,"terra firma, floodplain unmanaged primary forest",Tambopata- Candamo Reserve TAM06,Tropical Evergreen Forest,7/16/19,merge duplicate sites,,,,
+Tambopata-Candamo Reserve permanent plot TAM-05,terra firma unmanaged primary forest,Tambopata,Tropical Evergreen Forest,7/16/19,merge duplicate sites,,,,
+Pasoh Forest Reserve,primary forest,Pasoh Forest Reserve,Tropical Evergreen Forest,8/3/19,merge duplicate sites,,,,
+Pasoh Forest Reserve,primary forest,Pasoh Forest,Tropical Evergreen Forest,8/3/19,merge duplicate sites,,,,
+Mt Odaigahara,NI,Nara,Temperate Deciduous Forest,8/3/19,merge duplicate sites,,,,
+Mt Kasuga,NI,Nara,Temperate Evergreen Forest,8/3/19,merge duplicate sites,,,,
+Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2003,8/4/19,merge duplicate plots,,,,
+Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio,clear-cut 13.7ha area,8/4/19,merge duplicate sites/plots,,,,
+Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio,mixed forest,8/4/19,merge duplicate sites/plots,,,,
+Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio,replant with hybrid larch,8/4/19,merge duplicate sites/plots,,,,
+Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio,Teshio Experimental Forest,8/4/19,merge duplicate sites/plots,,,,
+Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio Experimental Forest,Temperate Deciduous Forest,8/4/19,merge duplicate sites/plots,,,,
+Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2003,8/4/19,merge duplicate sites/plots,,,,
+Teshio Experimental Forest,CC-LaG experiment site (TSE),Teshio Experimental Forest,Aggrading Temperate Deciduous Forest. Stand established around 2002,8/4/19,merge duplicate sites/plots,,,,
+Nouragues Grand Plateau,old-growth tropical forest.NOR2,Nouragues Grand Plateau,terra firma NOR-02,8/4/19,merge duplicate plots,,,,
+Nouragues Petit Plateau,old-growth tropical forest.NOR1,Nouragues Petit Plateau,terra firma NOR-01,8/4/19,merge duplicate plots,,,,
+Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,BNZ LTER-5A,Boreal Evergreen Forest. Stand established around 1798,8/4/19,merge duplicate sites/plots,,,,
+Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,BNZ LTER-5C,Boreal Evergreen Forest. Stand established around 1828,8/4/19,merge duplicate sites/plots,,,,
+Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,BNZ LTER-5D,Boreal Evergreen Forest. Stand established around 1838,8/4/19,merge duplicate sites/plots,,,,
+Bonanza 5A,Boreal Evergreen Forest. Stand established around 1798,Bonanza 5A,unmanaged,8/4/19,merge duplicate sites/plots,,,,
+Bonanza 5C,Boreal Evergreen Forest. Stand established around 1828,Bonanza 5C,unmanaged,8/4/19,merge duplicate sites/plots,,,,
+Bonanza 5D,Boreal Evergreen Forest. Stand established around 1838,Bonanza 5D,unmanaged,8/4/19,merge duplicate sites/plots,,,,
+Bonanza Creek high-elevation area with no permafrost (high-np),Boreal Evergreen Forest. Stand established around 1891,Bonanza 6.1,unmanaged,8/4/19,merge duplicate sites/plots,,,,
+Bonanza Creek mid-elevation deep permafrost area (mid-dp),Boreal Evergreen Forest. Stand established around 1926,Bonanza 6.2,unmanaged,8/4/19,merge duplicate sites/plots,,,,
+Bonanza Creek low-elevation shallow permafrost (low-sp),Boreal Evergreen Forest. Stand established around 1881,Bonanza 6.3,unmanaged,8/4/19,merge duplicate sites/plots,,,,
+Bonanza Creek high-elevation area with no permafrost (high-np),Boreal Evergreen Forest. Stand established around 1891,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1891,8/4/19,merge duplicate sites/plots,,,,
+Bonanza Creek mid-elevation deep permafrost area (mid-dp),Boreal Evergreen Forest. Stand established around 1926,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1926,8/4/19,merge duplicate sites/plots,,,,
+Bonanza Creek low-elevation shallow permafrost (low-sp),Boreal Evergreen Forest. Stand established around 1881,Bonanza Creek,Boreal Evergreen Forest. Stand established around 1881,8/4/19,merge duplicate sites/plots,,,,
+Takayama,secondary deciduous forest,Takayama Experimental Field Station,Temperate Deciduous Forest,9/3/19,merge duplicate sites/plots,,,,
+Takayama,secondary deciduous forest,Takayama Research Station,Temperate Deciduous Forest,9/3/19,merge duplicate sites/plots,,,,
+Takayama,secondary deciduous forest,Takayama Experimental Field Station,Temperate Deciduous Forest. Stand established around 1954,9/3/19,merge duplicate sites/plots,,,,
+Takayama,secondary deciduous forest,Takayama Experimental Field Station,Aggrading Temperate Deciduous Forest. Stand established around 1960,9/3/19,merge duplicate sites/plots,,,,
+Stillberg,Alpine Larix-Pine stand planted in 1975.,Stillberg,Boreal Evergreen Forest. Stand established around 1975,9/3/19,merge duplicate sites/plots,,,,
+Stillberg,Alpine Larix-Pine stand planted in 1975.,Stillberg,Temperate Mixed Forest. Stand established around 1975,9/3/19,merge duplicate sites/plots,,,,
+Stillberg,Alpine Larix-Pine stand planted in 1975.,Stillberg,Temperate Deciduous Forest. Stand established around 1975,9/3/19,merge duplicate sites/plots,,,,
+Stillberg,Alpine Larix-Pine stand planted in 1975 with Warming (+4 C) treatment. ,Stillberg,Boreal Evergreen Forest with Warming (+4 C) treatment. Stand established around 1975,9/3/19,merge duplicate sites/plots,,,,
+Stillberg,Alpine Larix-Pine stand planted in 1975 with CO2 (575 ppm) treatment. ,Stillberg,Managed Temperate Mixed Forest with CO2 (575 ppm) treatment. Stand established around 1975,9/3/19,merge duplicate sites/plots,,,,1944
+Stillberg,Alpine Larix-Pine stand planted in 1975 with CO2 (575 ppm) treatment. ,Stillberg,Managed Temperate Deciduous Forest with CO2 treatment. Stand established around 1975,9/3/19,merge duplicate sites/plots,,,,
+Skogaryd,Picea abies dominated stand on drained organic soil. Stand established in 1951.,Skogaryd,Temperate Evergreen Forest. Stand established around 1951,9/3/19,fix problematic plot names,,,,
+Skogaryd,Picea abies dominated stand on drained organic soil. Stand established in 1951.,Skogaryd,Boreal Evergreen Forest. Stand established around 1951,9/3/19,fix problematic plot names,,,,
+Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (3.3 t/ha) treatment. Stand established in 1951.,Skogaryd,Boreal Evergreen Forest with Fertilization (3.3 t/ha) treatment. Stand established around 1951,9/3/19,fix problematic plot names,,,,
+Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,Skogaryd,Boreal Evergreen Forest with Fertilization (5.5 t/ha) treatment. Stand established around 1951,9/3/19,fix problematic plot names,,,,
+Sambong Exhibition Forests,Aggrading Temperate Deciduous Needleleaf Forest. Stand established around 1966,Sambong Exhibition Forests,Temperate Deciduous Forest. Stand established around 1966,9/3/19,fix problematic plot names,,,,
+Sambong Exhibition Forests,Aggrading Temperate Deciduous Needleleaf Forest. Stand established around 1966,Sambong Exhibition Forests,Aggrading Temperate Evergreen Forest. Stand established around 1966,9/3/19,fix problematic plot names,,,,
+Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,Morgan-Monroe State Forest,Temperate Deciduous Forest,9/4/19,merge duplicate sites/plots,,,,
+Dinghushan Biosphere Reserve flux site (CN-Din),primary evergreen broadleaf tropical forest,Dinghushan (DHS),primary forest,9/4/19,clarify name,,,,
+Dinghushan Biosphere Reserve flux site (CN-Din),primary evergreen broadleaf tropical forest,Dinghushan Biosphere Reserve,Subtropical Evergreen Forest. Stand established around 1604,9/4/19,merge duplicate sites/plots,,,,
+Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF),Dinghushan MEBF,unmanaged,9/4/19,clarify name,,,,
+Dinghushan Biosphere Reserve,coniferous and broadleaf mixed forest (MF),Dinghushan MF,unmanaged,9/4/19,clarify name,,,,
+Dinghushan Biosphere Reserve,Masson pine forest (MPF),Dinghushan MPF,unmanaged,9/4/19,clarify name,,,,
+Dinghushan Biosphere Reserve,Masson pine forest (MPF),Dinghushan Biosphere Reserve,Aggrading Subtropical Evergreen Forest. Stand established around 1948,,,,,,
+Dinghushan Biosphere Reserve,coniferous and broadleaf mixed forest (MF),Dinghushan Biosphere Reserve,Subtropical Evergreen Forest. Stand established around 1903,,,,,,

@@ -1309,8 +1309,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 648.01,"Deqin Picea, Abies 6","Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 649.01,"Deqin Picea, Abies 7","Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 650.01,Dingdong,"Pinus yunnanensis, P. khasya",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-651.01,Dinghushan Biosphere Reserve flux site (CN-Din),primary forest,NAC,1,1908,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,615
-651.02,Dinghushan Biosphere Reserve flux site (CN-Din),primary forest,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Protected since 1956,616
+651.01,Dinghushan Biosphere Reserve flux site (CN-Din),primary evergreen broadleaf tropical forest,NAC,1,1908,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,615
+651.02,Dinghushan Biosphere Reserve flux site (CN-Din),primary evergreen broadleaf tropical forest,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Protected since 1956,616
 652.01,Dinghushan 4,permanent plot,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,617
 653.01,Dinghushan 5,Cryptocarya chinensis community,NAC,1,NRA,9,No.info,NRA,NA,NA,NA,NA,NA,618
 654.01,Dinghushan 6,Cryptocarya concinna community,NAC,1,1948,8.5,Disturbance,Harvest,NA,NA,NA,NI,Logging 40 years ago (study was done 1988-1992),619
@@ -1322,12 +1322,12 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 657.02,Dinghushan 7.pine forest,pine forest (PF),NAC,2,1926,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,627
 657.03,Dinghushan 7.pine forest,pine forest (PF),NAC,3,1930,8.5,Regrowth,Planted,1,NA,NA,NA,Pinus massoniana planted on severely degraded land during 1930-1950,625
 657.04,Dinghushan 7.pine forest,pine forest (PF),NAC,4,1964,8,Disturbance,Harvest,NA,NA,NA,<100%,"1964-1990, local people allowed to log small trees and harvest lower-canopy biomass for firewood",626
-658.01,Dinghushan MEBF,unmanaged,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,No disturbance last 40 years,628
-658.02,Dinghushan MEBF,unmanaged,NAC,2,1964,8,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance last 40 years (assume since measurement year),629
-659.01,Dinghushan MF,unmanaged,NAC,1,1904,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,No disturbance last 40 years,630
-659.02,Dinghushan MF,unmanaged,NAC,2,1964,8,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance last 40 years (assume since measurement year),631
-660.01,Dinghushan MPF,unmanaged,NAC,1,1944,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,No disturbance last 40 years,632
-660.02,Dinghushan MPF,unmanaged,NAC,2,1964,8,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance last 40 years (assume since measurement year),633
+658.01,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF),NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,No disturbance last 40 years,628
+658.02,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF),NAC,2,1964,8,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance last 40 years (assume since measurement year),629
+659.01,Dinghushan Biosphere Reserve,coniferous and broadleaf mixed forest (MF),NAC,1,1904,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,No disturbance last 40 years,630
+659.02,Dinghushan Biosphere Reserve,coniferous and broadleaf mixed forest (MF),NAC,2,1964,8,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance last 40 years (assume since measurement year),631
+660.01,Dinghushan Biosphere Reserve,Masson pine forest (MPF),NAC,1,1944,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,No disturbance last 40 years,632
+660.02,Dinghushan Biosphere Reserve,Masson pine forest (MPF),NAC,2,1964,8,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance last 40 years (assume since measurement year),633
 661.01,Dinghushan.Erythrophleum fordii community,Erythrophleum fordii community,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,634
 662.01,Dinghushan.lowland,lowland evergreen broadleaved forest,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,635
 663.01,Dinghushan.mountain,mountain evergreen broadleaved forest,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,636
@@ -7486,8 +7486,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3821.01,Miyazu-Cedar,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3822.01,Miyazu-Beech,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3823.01,Nobeyama,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3824.01,Dinghushan Biosphere Reserve,Aggrading Subtropical Evergreen Forest. Stand established around 1948,NAC,1,1948,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3825.01,Dinghushan Biosphere Reserve,Subtropical Evergreen Forest. Stand established around 1903,NAC,1,1903,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3827.01,Yanting Agro-ecological Station of Purple Soil,Subtropical Evergreen Forest. Stand established around 1975,NAC,1,1975,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3828.01,Dooary 1,Aggrading Temperate Evergreen Forest. Stand established around 1993,NAC,1,1993,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3829.01,Dooary 2,Aggrading Temperate Evergreen Forest. Stand established around 1988,NAC,1,1988,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
