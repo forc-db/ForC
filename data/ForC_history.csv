@@ -3426,7 +3426,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1609.03,Monte di Mezzo,Managed,NAC,3,1958,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Planted on former pasture, not thinned",NA
 1610.01,Montpelier,L. tulipifera old-growth forest,0.21,1,1708,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 1610.02,Montpelier,L. tulipifera old-growth forest,0.21,2,1708,8,No.disturbance,No disturbance,NA,NA,NA,NA,NA,NA
-1611.01,Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,NAC,1,198,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,The forest is dominated by 60-80 y.o. trees,NA
+1611.01,Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,NAC,1,1980,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,The forest is dominated by 60-80 y.o. trees,NA
 1611.02,Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,NAC,2,1990,8,Disturbance,Major storm,NA,NA,NA,<100%,"wind fall in 1990 within fetch.Wind, lightning, and ice storms are the most common types of natural disturbances. Fires occur occasionally but are uncommon and never widespread",NA
 1611.03,Morgan Monroe State Forest (MMSF),Managed Temperate Deciduous Forest. Stand established around 1918,NAC,3,NAC,9,Disturbance,Harvest,NA,NA,NA,<100%,Timber harvest in the vicinity of the flux tower with 20-25 year rotation; no timber harvest in source area of flux tower recently except in one small seed-tree management area in 1991.,NA
 1612.01,Mount Jefferson 1,recently disturbed,NAC,1,1991,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Recently disturbed,NA
@@ -9380,7 +9380,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5270.02,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,2,1875,8.5,Disturbance,Agriculture_generic,1,NA,NA,100,used for agriculture until 1951 ,NA
 5270.03,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,3,1951,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,afforested in 1951,NA
 5270.04,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,4,1951,8,Regrowth,Planted,1,NA,NA,NA,afforested in 1951,NA
-5270.04,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,5,NAC,9,Management,Fertilization,NA,55,t/ha,NA,NA,NA
+5270.05,Skogaryd,Picea abies dominated stand on drained organic soil with Fertilization (5.5 t/ha) treatment. Stand established in 1951.,NAC,5,NAC,9,Management,Fertilization,NA,55,t/ha,NA,NA,NA
 5271.01,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (528 ppm) treatment. Stand established around 1987,NAC,1,1987,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
 5271.02,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (528 ppm) treatment. Stand established around 1987,NAC,2,1987,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5271.03,Oak Ridge,Managed Aggrading Temperate Deciduous Forest with CO2 (528 ppm) treatment. Stand established around 1987,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  528 ppm,NA
