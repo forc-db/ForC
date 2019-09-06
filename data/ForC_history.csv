@@ -1826,8 +1826,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 834.01,FLONA Tapajos Km 83,primary forest,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,*Selective logging after measurements were made,718
 835.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.10 y,NAC,1,1965,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,719
 835.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.10 y,NAC,2,1965,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,722
-2732.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.9 y,NAC,1,1966,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,719
-2732.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.9 y,NAC,2,1966,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,722
 836.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,1,1969,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,720
 836.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.6 y,NAC,2,1969,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,723
 837.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.8 y,NAC,1,1967,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,721
@@ -5208,9 +5206,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2348.01,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA
 2348.02,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA
 2348.03,Terciopelo,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA
-2350.03,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,3,2003,6,Disturbance,Cut,NA,NA,NA,100,"trees intentionally clear-cut in Jan-March 2003, after 1.5 years of observation in mixed forest",NA
 2350.01,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,1,NI,9,Establishment,Establishment of oldest trees,NA,NA,NA,NA,Large trees more than 200-years-old,NA
 2350.02,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,2,1961,8,Disturbance,Cut,NA,NA,NA,<100%,Selective cutting (15% of trees) in experimental area,NA
+2350.03,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,3,2003,6,Disturbance,Cut,NA,NA,NA,100,"trees intentionally clear-cut in Jan-March 2003, after 1.5 years of observation in mixed forest",NA
 2350.04,Teshio Experimental Forest,CC-LaG experiment site (TSE),13.7,4,2003.747945,6,Regrowth,Planted,1,2500,plants ha-1,NA,saplings of 2-year old hybrid larch (Larix gmelinii x L. kaempferi),NA
 2352.01,Tharandt 24,Managed,NAC,1,1976,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Managed,NA
 2352.02,Tharandt 24,Managed,NAC,2,1976,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,Managed,NA
@@ -6142,7 +6140,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2729.01,Zhuwagen Quercus,Quercus,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 2730.01,Zotino,Pinus sylvestris,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 2731.01,Zuogong,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
+2732.01,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.9 y,NAC,1,1966,8,Regrowth,Planted,1,2986,plants ha-1,NA,NA,719
 2732.01,San Lorenzo CTFS-ForestGEO plot,6-ha forest dynamics plot,5.96,1,1800,9,No.disturbance,No severe disturbance,NA,NI,NA,NA,"has apparently been free of severe disturbance for 200 y or more, since the largest trees are of slow-growing species (Manilkara bidentata, Brosimum utile)",NA
+2732.02,Forest Research Institute P. caribaea plantation,Stand development of managed plantation.9 y,NAC,2,1966,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,722
 2732.02,San Lorenzo CTFS-ForestGEO plot,6-ha forest dynamics plot,5.96,2,NI,9,Disturbance,Harvest,NA,NI,NA,<100%,"has been subject to some logging or clearing activity during the last 150 yr, including that the northern hectare of the plot was obviously cleared recently.",NA
 2732.03,San Lorenzo CTFS-ForestGEO plot,6-ha forest dynamics plot,5.96,3,1998,7,Disturbance,Drought,NA,NA,NA,4.88,percent mortality refers to stems >=1cm DBH,NA
 2733.01,Amacayacu CTFS-ForestGEO plot,25-ha forest dynamics plot,25,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,in Amacayacu National Natural Park in the Colombian Amazon,NA
@@ -6532,30 +6532,30 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3043.02,Schefferville,Schefferville,NAC,1,1864,8,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
 3044.01,km64,km64,NAC,1,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,NAC,NA
 3045.01,Cove Forest Long Branch 1,Long Branch 1,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3046.01,Cove Forest Long Branch 2,Long Branch 2,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3047.01,Cove Forest Porters Creek,Porters Creek,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3048.01,Cove Forest Roaring Fork 1,Roaring Fork 1,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3049.01,Cove Forest Roaring Fork 2,Roaring Fork 2,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3050.01,Cove Forest Roaring Fork 3,Roaring Fork 3,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3051.01,Dunn Creek,Dunn Creek,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3052.01,Cove Forest Long Branch Young 1,Young,NAC,1,1920,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3045.02,Cove Forest Long Branch 1,Long Branch 1,NAC,1,1780,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3046.01,Cove Forest Long Branch 2,Long Branch 2,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3046.02,Cove Forest Long Branch 2,Long Branch 2,NAC,1,1780,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3047.01,Cove Forest Porters Creek,Porters Creek,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3047.02,Cove Forest Porters Creek,Porters Creek,NAC,1,1780,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3048.01,Cove Forest Roaring Fork 1,Roaring Fork 1,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3048.02,Cove Forest Roaring Fork 1,Roaring Fork 1,NAC,1,1780,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3049.01,Cove Forest Roaring Fork 2,Roaring Fork 2,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3049.02,Cove Forest Roaring Fork 2,Roaring Fork 2,NAC,1,1780,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3050.01,Cove Forest Roaring Fork 3,Roaring Fork 3,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3050.02,Cove Forest Roaring Fork 3,Roaring Fork 3,NAC,1,1780,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3051.01,Dunn Creek,Dunn Creek,NAC,1,1780,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3051.02,Dunn Creek,Dunn Creek,NAC,1,1780,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3052.01,Cove Forest Long Branch Young 1,Young,NAC,1,1920,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3052.02,Cove Forest Long Branch Young 1,Young,NAC,1,1920,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
 3053.01,Daxing'anling 29yrs I,29yrs,NAC,NA,1972,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3054.01,Daxing'anling 54yrs,54yrs,NAC,NA,1947,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3055.01,Daxing'anling 29yrs II,29yrs,NAC,NA,1972,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3056.01,Daxing'anling 55yrs,55yrs,NAC,NA,1946,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
-3057.01,Daxing'anling 34yrs,34yrs,NAC,NA,1967,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3053.02,Daxing'anling 29yrs I,29yrs,NAC,NA,1972,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3054.01,Daxing'anling 54yrs,54yrs,NAC,NA,1947,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3054.02,Daxing'anling 54yrs,54yrs,NAC,NA,1947,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3055.01,Daxing'anling 29yrs II,29yrs,NAC,NA,1972,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3055.02,Daxing'anling 29yrs II,29yrs,NAC,NA,1972,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3056.01,Daxing'anling 55yrs,55yrs,NAC,NA,1946,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3056.02,Daxing'anling 55yrs,55yrs,NAC,NA,1946,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
+3057.01,Daxing'anling 34yrs,34yrs,NAC,NA,1967,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3057.02,Daxing'anling 34yrs,34yrs,NAC,NA,1967,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
 3058.01,Minnesota,71yrs,NAC,NA,1930,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),NAC,NAC,NA,NA,NAC,NA
 3058.02,Minnesota,71yrs,NAC,NA,1930,8.5,Establishment,Establishment of oldest trees,NAC,NAC,NA,NA,NAC,NA
@@ -6864,6 +6864,11 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3303.01,Vielsalm,Temperate Deciduous Forest. Stand established around 1927,NAC,1,1927,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3304.01,Blodgett FRS,Mediterranean Evergreen Forest. Stand established around 1990,NAC,1,1990,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3305.01,Tonzi Ranch,Mediterranean Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3307.01,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1941,NAC,1,1941,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3307.02,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1941,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
+3308.01,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,1,1941,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3308.02,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,2,1941,8.5,Regrowth,Planted,1,NA,NA,NA,planted by local people in 1950s/ Pinus massoniana planted on severely degraded land during 1930-1950,NA
+3308.03,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,3,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
 3309.01,Reserve Cuieiras,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3310.01,PZ-Secfor 12a,Aggrading Tropical Evergreen Forest. Stand established around 1987,NAC,1,1987,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3311.01,PZ-Secfor 18,Aggrading Tropical Evergreen Forest. Stand established around 1981,NAC,1,1981,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -8052,6 +8057,11 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4342.01,RIE,Temperate Evergreen Forest. Stand established around 1889,NAC,1,1889,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4343.01,Takayama experimental forest,Temperate Deciduous Forest. Stand established around 1951,NAC,1,1951,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4344.01,Takayama experimental forest,Temperate Deciduous Forest. Stand established around 1991,NAC,1,1991,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4346.01,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1924,NAC,1,1924,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4346.02,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1924,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
+4347.01,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,1,1934,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4347.02,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,2,1934,8.5,Regrowth,Planted,1,NA,NA,NA,planted by local people in 1950s/ Pinus massoniana planted on severely degraded land during 1930-1950,NA
+4347.03,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,3,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
 4348.01,Kondi,Managed Aggrading Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2008,NAC,1,2008,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4348.02,Kondi,Managed Aggrading Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2008,NAC,2,2008,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4348.03,Kondi,Managed Aggrading Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2008,NAC,3,NAC,NAC,Management,Soil disturbance,NA,NAC,NA,NA,Organic residues removed,NA
@@ -9348,22 +9358,12 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5275.01,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (574 ppm) treatment. Stand established around 1983,NAC,1,1983,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 5275.02,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (574 ppm) treatment. Stand established around 1983,NAC,2,1983,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 5275.03,FACTS-I,Managed Aggrading Temperate Evergreen Forest with CO2 (574 ppm) treatment. Stand established around 1983,NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,CO2  574 ppm,NA
-3307.01,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1941,NAC,1,1941,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3307.02,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1941,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
-3308.01,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,1,1941,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3308.02,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,2,1941,8.5,Regrowth,Planted,1,NA,NA,NA,planted by local people in 1950s/ Pinus massoniana planted on severely degraded land during 1930-1950,NA
-3308.03,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,3,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,3,2003,8,Management,Fertilization_N,NA,5,g m-2 yr-1,NA,NA,NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (10 gN/m2/yr) treatment,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (10 gN/m2/yr) treatment,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (10 gN/m2/yr) treatment,NAC,3,2003,8,Management,Fertilization_N,NA,10,g m-2 yr-1,NA,NA,NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
-,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,3,2003,8,Management,Fertilization_N,NA,15,g m-2 yr-1,NA,NA,NA
-4346.01,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1924,NAC,1,1924,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4346.02,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1924,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
-4347.01,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,1,1934,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4347.02,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,2,1934,8.5,Regrowth,Planted,1,NA,NA,NA,planted by local people in 1950s/ Pinus massoniana planted on severely degraded land during 1930-1950,NA
-4347.03,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,3,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
+5276.01,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",NA
+5276.02,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
+5276.03,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,3,2003,8,Management,Fertilization_N,NA,5,g m-2 yr-1,NA,NA,NA
+5277.01,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (10 gN/m2/yr) treatment,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",NA
+5277.02,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (10 gN/m2/yr) treatment,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
+5277.03,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (10 gN/m2/yr) treatment,NAC,3,2003,8,Management,Fertilization_N,NA,10,g m-2 yr-1,NA,NA,NA
+5278.01,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",NA
+5278.02,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
+5278.03,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,3,2003,8,Management,Fertilization_N,NA,15,g m-2 yr-1,NA,NA,NA
