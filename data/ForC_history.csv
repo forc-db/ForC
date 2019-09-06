@@ -1315,19 +1315,12 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 653.01,Dinghushan 5,Cryptocarya chinensis community,NAC,1,NRA,9,No.info,NRA,NA,NA,NA,NA,NA,618
 654.01,Dinghushan 6,Cryptocarya concinna community,NAC,1,1948,8.5,Disturbance,Harvest,NA,NA,NA,NI,Logging 40 years ago (study was done 1988-1992),619
 654.02,Dinghushan 6,Cryptocarya concinna community,NAC,2,1948,8.5,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,Some current vegetation was regenerated after logging,620
-655.01,Dinghushan 7.broadleaf forest,monsoon evergreen broadleaf forest (MEBF),NAC,1,1600,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,Protected for >400 years,621
-656.01,Dinghushan 7.mixed forest,pine and broadleaf mixed forest (PBMF),NAC,1,1922,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,622
-656.02,Dinghushan 7.mixed forest,pine and broadleaf mixed forest (PBMF),NAC,2,1930,8.5,Regrowth,Planted,1,NA,NA,NA,Pinus massoniana,623
-657.01,Dinghushan 7.pine forest,pine forest (PF),NAC,1,NAC,9,Disturbance,Cut,NA,100,%,100,Clearing and overcutting for fuel,624
-657.02,Dinghushan 7.pine forest,pine forest (PF),NAC,2,1926,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,627
-657.03,Dinghushan 7.pine forest,pine forest (PF),NAC,3,1930,8.5,Regrowth,Planted,1,NA,NA,NA,Pinus massoniana planted on severely degraded land during 1930-1950,625
-657.04,Dinghushan 7.pine forest,pine forest (PF),NAC,4,1964,8,Disturbance,Harvest,NA,NA,NA,<100%,"1964-1990, local people allowed to log small trees and harvest lower-canopy biomass for firewood",626
 658.01,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF),NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",628
 658.02,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF),NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,629
 659.01,Dinghushan Biosphere Reserve,secondary coniferous and broadleaf mixed forest (MF). Stand established around 1903.,NAC,1,1903,8.5,Establishment,Establishment of oldest trees,0,NA,NA,NA,developed from artificial pine forest with a gradual invasion of some pioneer broadleaf species through natural succession. Age given as -100 in Yan_2006_eosr (measurements made in 2003),630
 659.02,Dinghushan Biosphere Reserve,secondary coniferous and broadleaf mixed forest (MF). Stand established around 1903.,NAC,2,1910,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance for about 100 years (from Deng_2012_eopo),631
 660.01,Dinghushan Biosphere Reserve,Masson pine forest (MPF). Stand established around 1950.,NAC,1,1950,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,planted by local people in 1950s,632
-660.02,Dinghushan Biosphere Reserve,Masson pine forest (MPF). Stand established around 1950.,NAC,2,1950,8.5,Regrowth,Planted,1,NA,NA,NA,planted by local people in 1950s,NA
+660.02,Dinghushan Biosphere Reserve,Masson pine forest (MPF). Stand established around 1950.,NAC,2,1950,8.5,Regrowth,Planted,1,NA,NA,NA,planted by local people in 1950s/ Pinus massoniana planted on severely degraded land during 1930-1950,NA
 660.03,Dinghushan Biosphere Reserve,Masson pine forest (MPF). Stand established around 1950.,NAC,3,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,633
 661.01,Dinghushan.Erythrophleum fordii community,Erythrophleum fordii community,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,634
 662.01,Dinghushan.lowland,lowland evergreen broadleaved forest,NAC,1,NI,9,No.info,NI,NA,NA,NA,NA,NA,635
@@ -7503,7 +7496,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3839.01,Chunchon,Temperate Deciduous Forest. Stand established around 1952,NAC,1,1952,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3840.01,Sambong Exhibition Forests,Aggrading Temperate Deciduous Needleleaf Forest. Stand established around 1966,NAC,1,1966,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3842.01,Niwot Ridge,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3843.01,Dinghushan Nature Reserve,Aggrading Subtropical Evergreen Forest. Stand established around 1933,NAC,1,1933,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3845.01,Minamata Forest-P2,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3846.01,Minamata Forest-Q1,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3847.01,Minamata Forest-Q2,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -8060,8 +8052,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4342.01,RIE,Temperate Evergreen Forest. Stand established around 1889,NAC,1,1889,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4343.01,Takayama experimental forest,Temperate Deciduous Forest. Stand established around 1951,NAC,1,1951,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4344.01,Takayama experimental forest,Temperate Deciduous Forest. Stand established around 1991,NAC,1,1991,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4346.01,Dinghushan Biosphere Reserve,Subtropical Mixed Forest. Stand established around 1924,NAC,1,1924,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4347.01,Dinghushan Biosphere Reserve,Subtropical Mixed Forest. Stand established around 1934,NAC,1,1934,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4348.01,Kondi,Managed Aggrading Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2008,NAC,1,2008,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4348.02,Kondi,Managed Aggrading Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2008,NAC,2,2008,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4348.03,Kondi,Managed Aggrading Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2008,NAC,3,NAC,NAC,Management,Soil disturbance,NA,NAC,NA,NA,Organic residues removed,NA
@@ -8286,7 +8276,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4546.01,Kenia-wet,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4547.01,Allpahuayo-Mishana National Reserve RAINFOR,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4552.01,Kong_2014_asot research site in Mt. Bulam South Korea,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4554.01,Dinghushan Biosphere Reserve-CF,Subtropical Evergreen Forest. Stand established around 1911,NAC,1,1911,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4555.01,Heshan National Field Research Station of Forest Ecosystems-CP,Subtropical Evergreen Forest. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4556.01,Heshan National Field Research Station of Forest Ecosystems-BP,Subtropical Evergreen Forest. Stand established around 1986,NAC,1,1986,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4557.01,Bartlett Experimental Forest,Temperate Deciduous Forest. Stand established around 1990,NAC,1,1990,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -9362,7 +9351,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3307.01,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1941,NAC,1,1941,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3307.02,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1941,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
 3308.01,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,1,1941,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3308.02,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
+3308.02,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,2,1941,8.5,Regrowth,Planted,1,NA,NA,NA,planted by local people in 1950s/ Pinus massoniana planted on severely degraded land during 1930-1950,NA
+3308.03,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1941,NAC,3,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
 ,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",NA
 ,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
 ,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (5 gN/m2/yr) treatment,NAC,3,2003,8,Management,Fertilization_N,NA,5,g m-2 yr-1,NA,NA,NA
@@ -9372,3 +9362,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 ,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,1,1604,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,"primary forest, at least 400 years old",NA
 ,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
 ,Dinghushan Biosphere Reserve,primary evergreen broadleaf tropical forest (MEBF) with Fertilized (15 gN/m2/yr) treatment,NAC,3,2003,8,Management,Fertilization_N,NA,15,g m-2 yr-1,NA,NA,NA
+4346.01,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1924,NAC,1,1924,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4346.02,Dinghushan Biosphere Reserve,Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1924,NAC,2,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
+4347.01,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,1,1934,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4347.02,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,2,1934,8.5,Regrowth,Planted,1,NA,NA,NA,planted by local people in 1950s/ Pinus massoniana planted on severely degraded land during 1930-1950,NA
+4347.03,Dinghushan Biosphere Reserve,Secondary conifer forest (CF). Stand established around 1934,NAC,3,1956,8,No.disturbance,No disturbance,NA,NA,NA,NA,Dinghushan Natural Reserve established 1956,NA
