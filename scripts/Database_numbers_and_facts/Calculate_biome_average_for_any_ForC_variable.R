@@ -214,7 +214,7 @@ for (v.diag in unique(Variables_mapping$variable.diagram)) { # for each variable
     
     all.plot.area.given <- all(!my_is.na(x$plot.area))
     
-    if(all.plot.area.given) wt.plot.area <- x$plot.area else wt.plot.area <- rep(1, nrow(x))
+    if(all.plot.area.given) wt.plot.area <- as.numeric(x$plot.area) else wt.plot.area <- rep(1, nrow(x))
     
     x.out <- x[1,] # take only one row
     x.out$mean <-  weighted.mean(x$mean, wt.plot.area)# replace the mean by the average of all rows, weighted by plot area if all are given

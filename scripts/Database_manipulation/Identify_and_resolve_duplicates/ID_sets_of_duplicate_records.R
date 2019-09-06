@@ -992,7 +992,7 @@ for(i in 1:length(MEASUREMENTS.split)){
         
         idx.checked.original.pub <- which(x[idx.to.look.at, ]$checked.ori.pub == 1)
         
-        if(length(idx.checked.original.pub) < nrow(x[idx.to.look.at, ])){
+        if(length(idx.checked.original.pub) < nrow(x[idx.to.look.at, ]) & length(idx.checked.original.pub) > 0){ # added & length(idx.checked.original.pub) > 0 in case where the remainig "still.more.than.one.1" are not the one whose original publication were checked
           x[idx.to.look.at, ][idx.checked.original.pub, ]$D.precedence <- 1
           x[idx.to.look.at, ][-idx.checked.original.pub, ]$D.precedence <- 0
         }
@@ -1382,7 +1382,22 @@ delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID
                                   "29443;30353;30500;30501;30502;30503;30504;30505;30506", "30389;30390;30391;30392;30393",  "29881;30488", # better now
                                   "21248;28982;28994;28995;28996;28997;28998;28999;29000;29001", "2390;28749", # better now
                                   "21150;21169;21188;21199;21772", "28602;28604;28689;28694",  "28603;28605;28697", "2385;28748", # better now
-                                  "30394;30395;30396","25044;25047;25050;25053;25056",  "9857;21955", "9856;21953;28791;28792" # better now
+                                  "30394;30395;30396","25044;25047;25050;25053;25056",  "9857;21955", "9856;21953;28791;28792", # better now
+                                  "14165;23862;23875;23888;23901;23914", "24541;24546;24551;24556;24807", "24223;24487;24985;26513", # better now
+                                  "24219;24493;24989;26518;27932", "24542;24547;24552;24557;24808", "24567;26520", # better now
+                                  "14171;23865;23878;23891;23904;23917", "14170;23867;23880;23893;23906;23919", "24568;27195", # better now
+                                  "24224;24488;24986;26514",  "24220;24494;24566;24990;26519", "14173;23861;23874;23887;23900;23913", # better now
+                                  "24543;24548;24553;24558;24809", "23500;23858;23871;23884;23897;23910", "24218;24490;24988",# better now
+                                  "23501;23859;23872;23885;23898;23911", "29454;29455;29456;29457;29563", # better now
+                                  "30261;30458;30459;30460;30461;30462;30463;30464;30465", # better now
+                                  "29742;29743;30260;30450;30451;30452;30453;30454;30455;30456;30457", # better now
+                                  "9714;28824;29496;29497;29498;29499;29500;29501;29502;29503;29504;29505", "30081;30357", # better now
+                                  "4127;29376;29636;30084;30351",  "27454;30515;30516;30517;30518", "29463;30219", "30082;30358", # better now
+                                  "4125;29375;29464;29637;30085;30352", "24544;24549;24554;24559;24810", # better now
+                                  "27453;27640;27642;27644;27646",  "24222;24484;24984", # better now
+                                  "14176;14188;14189;14190;14191;14192;14193;14194;14195;14196;14216;14217;14218;14219;14220;24676;24677;24678;24679;24680;24681;24682;24683", # I think it is better now
+                                  "14154;14155;14156;14157;14158;14159;14178;23499;23857;23870;23883;23896;23909;29250;29251;29252;29253;29254;29522;29523;29524;29525;29526;29527;29528;29529;29530"# I think it is better now
+                                  
 # better now
 )# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was.
 
@@ -1596,7 +1611,7 @@ if(length(need.user.input.split.ID) > 0) {
     
     print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
     print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
-    readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
+    # readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
     
   }
   
