@@ -1133,9 +1133,9 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 539.01,Cocoflux,coconut plantation,NAC,1,1983,8,Establishment,Establishment of oldest trees,0,NA,NA,NA,Plantation. Export of albumen only (copra). Periodic (2 months) slash of grass under-storey. No fertilizer. No pruning,605
 539.02,Cocoflux,coconut plantation,NAC,2,NAC,9,Regrowth,Planted,1,NA,NA,NA,Plantation. Export of albumen only (copra). Periodic (2 months) slash of grass under-storey. No fertilizer. No pruning,606
 540.01,Cocoli CTFS-ForestGEO plot,4-ha forest dynamics plot,4,1,1894,8.5,Disturbance,StandClearing,NA,NA,NA,100,"Cocoli is a secondary forest c. 100 yr old (Condit, 1998b)",NA
-540.01,Cocoli CTFS-ForestGEO plot,4-ha forest dynamics plot,4,1,1894,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,100,"Cocoli is a secondary forest c. 100 yr old (Condit, 1998b)",NA
-540.01,Cocoli CTFS-ForestGEO plot,4-ha forest dynamics plot,4,1,1894,8.5,Establishment,Establishment of oldest trees,1,NA,NA,100,"Cocoli is a secondary forest c. 100 yr old (Condit, 1998b)",NA
-540.02,Cocoli CTFS-ForestGEO plot,4-ha forest dynamics plot,4,2,1998,7,Disturbance,Drought,NA,NA,NA,6.44,percent mortality refers to stems >=1cm DBH,NA
+540.02,Cocoli CTFS-ForestGEO plot,4-ha forest dynamics plot,4,2,1894,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,100,"Cocoli is a secondary forest c. 100 yr old (Condit, 1998b)",NA
+540.03,Cocoli CTFS-ForestGEO plot,4-ha forest dynamics plot,4,3,1894,8.5,Establishment,Establishment of oldest trees,1,NA,NA,100,"Cocoli is a secondary forest c. 100 yr old (Condit, 1998b)",NA
+540.04,Cocoli CTFS-ForestGEO plot,4-ha forest dynamics plot,4,4,1998,7,Disturbance,Drought,NA,NA,NA,6.44,percent mortality refers to stems >=1cm DBH,NA
 541.01,Coconino National Forest,natural regeneration after 1996 wildfire,NAC,1,1996,8,Disturbance,Burned,NA,NA,NA,100,high-intensity stand-replacing wildfire that killed all trees in 1996,NA
 541.02,Coconino National Forest,natural regeneration after 1996 wildfire,NAC,2,1996,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,NA
 542.01,Coffs Harbour Eucalyptus grandis Seed Lot,Stand development of an unmanaged plantation,NAC,1,1950,8,Regrowth_prior,Planted,1,NA,NA,NA,Pinus elliottii,NA
@@ -2776,8 +2776,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1247.03,Kooraste 2,Forest recovery following agricultural abandonment,NAC,3,1981,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 1247.04,Kooraste 2,Forest recovery following agricultural abandonment,NAC,4,NI,9,Disturbance,Cut,NA,NA,NA,<100%,NA,NA
 1248.01,Kraven S.A.,Premontane Rain Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,recovery following pasture abandonment,NA
-1248.01,Kraven S.A.,Premontane Rain Forest recovery following pasture abandonment,NAC,1,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA
-1248.02,Kraven S.A.,Premontane Rain Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,recovery following pasture abandonment,NA
+1248.02,Kraven S.A.,Premontane Rain Forest recovery following pasture abandonment,NAC,2,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA
+1248.03,Kraven S.A.,Premontane Rain Forest recovery following pasture abandonment,NAC,3,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,recovery following pasture abandonment,NA
 1249.01,Kukesu,"Picea, Abies",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 1250.01,Kusumi,Stand development of monoculture plantation.1 y,0.05,1,1999,8,Management,Irrigation,NA,700,mm yr-1,NA,NA,195
 1250.02,Kusumi,Stand development of monoculture plantation.1 y,0.05,2,1999.49589,6,Management,Fertilization_K,NA,80,kg ha-1,NA,Preplanting fertilizer,189
@@ -4604,7 +4604,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2104.03,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,3,1983.665753,6,Disturbance,Cultivation,NA,NA,NA,100,Oryza sativa,1478
 2104.04,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,4,1984.084699,6,Management,Seeded_agriculture,NA,NA,NA,NA,fallow legumes,1480
 2104.05,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,5,1984.084699,6,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,1481
-2104.05,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,5,1984.084699,6,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,1481
+2104.06,San Ramon Experiment Station fallow systems,Stand development of managed fallow systems,NAC,6,1984.084699,6,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,1481
 2105.01,San Rossore,Managed,NAC,1,1959,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,from Grainer et al. 2007,NA
 2105.02,San Rossore,Managed,NAC,2,1959,8,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,from Grainer et al. 2007,NA
 2106.01,Santa Rita Mesquite savanna,Managed grazed woody-plant-encroached semiarid grassland,NAC,1,1957,8,Disturbance,Grazed,NA,0.028,animals ha-1 y-1,NA,"year-round cattle grazing from 1957-2005 with about 0.028 animals ha?1 yr?1, or ?50% forage utilization. In 2006, the pasture received only minimal grazing of 25 cattle for 9 days and was not grazed by cattle in 2007.",NA
@@ -6166,7 +6166,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2750.01,Korup CTFS-ForestGEO plot,50-ha forest dynamics plot,50,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,National Park includes a big patch of intact forest; hunting pressure moderate to severe,NA
 2751.01,La Planada CTFS-ForestGEO plot,25-ha forest dynamics plot,25,1,1986,8.5,Disturbance,Harvest,NA,NA,NA,<10%,"Some selective logging carried out within plot; some areas were cleared for cattle ranching within the Park; harvest of palmito (Prestoea acuminata), the edible heart of palm is extracted by humans in July and December;",NA
 2751.02,La Planada CTFS-ForestGEO plot,25-ha forest dynamics plot,25,1,1986,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,Majority of plot undisturbed; no disturbance since 1986,NA
-5280.01,Lambir CTFS-ForestGEO plot,52-ha forest dynamics plot,52,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,"100m from edge with large paved road, has never been logged, but forest heavily impacted by hunting during the 1990s and early 2000s causing the extinction of some primate seed dispersers (gibbons), but more recent camera trapping has found high occupancy of muntjac, mouse deer, and short-tailed macaque, medium occupancy of other species (e.g. bearded pig).",NA
 2752.01,Laupahoehoe CTFS-ForestGEO plot,4-ha forest dynamics plot,4,1,1700,8.5,Disturbance,Harvest,NA,NA,NA,minor,"Following contact, large A. koa trees were occasionally harvested for traditional canoe building",NA
 2752.02,Laupahoehoe CTFS-ForestGEO plot,4-ha forest dynamics plot,4,2,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,no evidence of logging within the MWF,NA
 2752.03,Laupahoehoe CTFS-ForestGEO plot,4-ha forest dynamics plot,4,3,2009,8,Management,Other,NA,NA,NA,NA,"After the non-native trees were mapped, they were girdled and sprayed with herbicide",NA
@@ -6206,8 +6205,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2768.01,Smithsonian Environmental Research Center CTFS-ForestGEO plot,16-ha forest dynamics plot,16,1,1900,8.5,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,NA
 2768.02,Smithsonian Environmental Research Center CTFS-ForestGEO plot,16-ha forest dynamics plot,16,1,1900,8.5,Regrowth,Initiation of post-disturbance cohort (natural),NA,NA,NA,NA,Secondary forest ~120 years old,NA
 2769.01,Tyson Research Center CTFS-ForestGEO plot,20.16-ha forest dynamics plot,20.16,1,1900,8.5,Disturbance,Harvest,NA,NA,NA,NA,Selective logging,NA
-2769.02,Tyson Research Center CTFS-ForestGEO plot,20.16-ha forest dynamics plot,20.16,1,1935,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance since ~1935,NA
-2769.02,Tyson Research Center CTFS-ForestGEO plot,20.16-ha forest dynamics plot,20.16,1,1820,8.5,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,NA
+2769.02,Tyson Research Center CTFS-ForestGEO plot,20.16-ha forest dynamics plot,20.16,2,1820,8.5,Establishment,Establishment of oldest trees,NA,NA,NA,NA,NA,NA
+2769.03,Tyson Research Center CTFS-ForestGEO plot,20.16-ha forest dynamics plot,20.16,3,1935,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance since ~1935,NA
 2770.01,Wabikon CTFS-ForestGEO plot,25.2-ha forest dynamics plot,25.2,1,1900,8.5,Disturbance,Harvest,NA,NA,NA,NA,Logging,NA
 2770.02,Wabikon CTFS-ForestGEO plot,25.2-ha forest dynamics plot,25.2,1,1900,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,No disturbance since 1900,NA
 2771.01,Wanang CTFS-ForestGEO plot,50-ha forest dynamics plot,50,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,some hunting pressure,NA
@@ -6582,7 +6581,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3074.01,"New Brunswick, FNP",S13,0.01,1,NI,9,Disturbance,Cut,1,NI,NA,100,NA,NA
 3074.02,"New Brunswick, FNP",S13,0.01,2,NI,9,Disturbance,Harvest,1,NI,NA,100,NA,NA
 3074.03,"New Brunswick, FNP",S13,0.01,3,NI,9,Regrowth,Seeded_trees,1,NI,NA,NA,NA,NA
-3074.03,"New Brunswick, FNP",S13,0.01,4,NI,9,Management,Herbicide,1,NI,NA,NA,NA,NA
+3074.04,"New Brunswick, FNP",S13,0.01,4,NI,9,Management,Herbicide,1,NI,NA,NA,NA,NA
 3075.01,"New Brunswick, FNP",S8,0.0025,1,NI,9,Disturbance,Cut,1,NI,NA,100,NA,NA
 3075.02,"New Brunswick, FNP",S8,0.0025,2,NI,9,Disturbance,Harvest,1,NI,NA,100,NA,NA
 3075.03,"New Brunswick, FNP",S8,0.0025,3,NI,9,Regrowth,Seeded_trees,1,NI,NA,NA,NA,NA
@@ -9359,3 +9358,4 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 5279.01,San Lorenzo CTFS-ForestGEO plot,6-ha forest dynamics plot,5.96,1,1800,9,No.disturbance,No severe disturbance,NA,NI,NA,NA,"has apparently been free of severe disturbance for 200 y or more, since the largest trees are of slow-growing species (Manilkara bidentata, Brosimum utile)",NA
 5279.02,San Lorenzo CTFS-ForestGEO plot,6-ha forest dynamics plot,5.96,2,NI,9,Disturbance,Harvest,NA,NI,NA,<100%,"has been subject to some logging or clearing activity during the last 150 yr, including that the northern hectare of the plot was obviously cleared recently.",NA
 5279.03,San Lorenzo CTFS-ForestGEO plot,6-ha forest dynamics plot,5.96,3,1998,7,Disturbance,Drought,NA,NA,NA,4.88,percent mortality refers to stems >=1cm DBH,NA
+5280.01,Lambir CTFS-ForestGEO plot,52-ha forest dynamics plot,52,1,NI,9,No.disturbance,No disturbance,NA,NA,NA,NA,"100m from edge with large paved road, has never been logged, but forest heavily impacted by hunting during the 1990s and early 2000s causing the extinction of some primate seed dispersers (gibbons), but more recent camera trapping has found high occupancy of muntjac, mouse deer, and short-tailed macaque, medium occupancy of other species (e.g. bearded pig).",NA
