@@ -3706,7 +3706,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 1784.01,Oyacachi Alnus Forest,Forest recovery following 1990 landslide,NAC,1,1990,8,Disturbance,Landslide,NA,NA,NA,100,NA,1031
 1784.02,Oyacachi Alnus Forest,Forest recovery following 1990 landslide,NAC,2,1990,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,1029
 1784.03,Oyacachi Alnus Forest,Forest recovery following 1990 landslide,NAC,3,1990,8,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,NA,1030
-1785.01,Oymyakon Bondarev,L. cajanderi,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 1786.01,Oymyakon,natural regeneration of Larix cajanderi forest after fire,NAC,1,1745,8.5,Disturbance,Burned,NA,NA,NA,100,Even-aged stand regenerated after intensive fires,NA
 1786.02,Oymyakon,natural regeneration of Larix cajanderi forest after fire,NAC,2,1745,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Even-aged stand regenerated after intensive fires,NA
 1786.03,Oymyakon,natural regeneration of Larix cajanderi forest after fire,NAC,3,1745,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,Even-aged stand regenerated after intensive fires. Age by tree ring,NA
