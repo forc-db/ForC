@@ -5160,13 +5160,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2302.02,Tablelands Juniper Savanna,Managed grazed juniper savannah private ranch,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,light seasonal cattle grazing,NA
 2303.01,Tahe Larix,Larix,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 2304.01,Tahe Pinus sylvestris var. mongolica,Pinus sylvestris var. mongolica,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-2305.01,Taimyr peninsula and Evenk region 1,"Larix gmelinii, Larix cajanderi",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-2306.01,Taimyr peninsula and Evenk region 2,"Larix gmelinii, Larix cajanderi",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-2307.01,Taimyr peninsula and Evenk region 3,"Larix gmelinii, Larix cajanderi",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-2308.01,Taimyr peninsula and Evenk region 4,"Larix gmelinii, Larix cajanderi",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-2309.01,Taimyr peninsula and Evenk region 5,"Larix gmelinii, Larix cajanderi",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-2310.01,Taimyr peninsula and Evenk region 6,"Larix gmelinii, Larix cajanderi",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
-2311.01,Taimyr peninsula and Evenk region 7,"Larix gmelinii, Larix cajanderi",NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 2312.01,Takayama,secondary deciduous forest,NAC,1,1958,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,"Age is uncertain. Estimated this year based on info from asiaflux.net [50 y.o. in 2008]. Other sources >40 y.o. (Saigusa 2002), appx. 50 (Saigusa 2005)",NA
 2312.02,Takayama,secondary deciduous forest,NAC,2,1958,8.5,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,"Age is uncertain. Estimated this year based on info from asiaflux.net [50 y.o. in 2008]. Other sources >40 y.o. (Saigusa 2002), appx. 50 (Saigusa 2005)",NA
 2313.01,Tambopata-Candamo Reserve permanent plot TAM-01,"terra firma, floodplain TAM-01",1,1,1904,8.5,No.disturbance,No disturbance,NA,NA,NA,NA,All plots were mixed-age old-growth humid forests with no evidence of major human-induced disturbance for at least a century. In most cases the forests are unlikely to have ever experienced a major anthropogenic disturbance.,2429
