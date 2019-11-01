@@ -1,5 +1,7 @@
-n,Author (last name of first author),Year,Title,Journal,DOI,type, notes
-1,Anderson-Teixeira,2016,Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db),Global Change Biology,10.1111/gcb.13226,journal article,original database publication (tropical data only) 
-2,Anderson-Teixeira,2016,Data from: Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db),Dryad Digital Repository,10.5061/dryad.t516f,data,"data accompanying Anderson-Teixeira et al. 2016, GCB"
-3,Anderson-Teixeira,2018,ForC: a global database of forest carbon stocks and fluxes,Ecology,10.1002/ecy.2229,data,publication of full ForC database (ForC v2.0)
-4,Requena Suarez,2019,Estimating aboveground net biomass change for tropical and subtropical forests: refinement of IPCC default rates using forest plot data,Global Change Biology,10.1111/nph.15906,journal article,
+n,Author (last name of first author),Year,Title,Journal,DOI,type,data release, notes
+1,Anderson-Teixeira,2016,Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db),Global Change Biology,10.1111/gcb.13226,journal article,,original database publication (tropical data only) 
+2,Anderson-Teixeira,2016,Data from: Carbon dynamics of mature and regrowth tropical forests derived from a pantropical database (TropForC-db),Dryad Digital Repository,10.5061/dryad.t516f,data,,"data accompanying Anderson-Teixeira et al. 2016, GCB"
+3,Anderson-Teixeira,2018,ForC: a global database of forest carbon stocks and fluxes,Ecology,10.1002/ecy.2229,data,v2.0,publication of full ForC database (ForC v2.0)
+4,Requena Suarez,2019,Estimating aboveground net biomass change for tropical and subtropical forests: refinement of IPCC default rates using forest plot data,Global Change Biology,10.1111/nph.15906,journal article,,
+5,Chen,2018,Allometry of fine roots in forest ecosystems,Ecology Letters,10.1111/ele.13193,journal article,TropForC ,
+6,Thom,2019,"The climate sensitivity of carbon, timber, and species richness covaries with forest age in boreal–temperate North America",Global Change Biology,10.1111/gcb.14656,journal article,ForC ,
