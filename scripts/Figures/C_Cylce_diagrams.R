@@ -175,7 +175,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                                    move.text.box = "null",
                                    need.semi.transparent.box = TRUE),
                   woody.mortality = list(variable.type = "flux",
-                                         variable.name  = expression(bold("woody mortality")),
+                                         variable.name  = expression(bold("M"[woody])),
                                          coordinates = list(x0 = 4.4, y0 = 4.6, x1 = 6.8, y1 = 1.8),
                                          y.adjust = -0.2,
                                          x.adjust = -1,
