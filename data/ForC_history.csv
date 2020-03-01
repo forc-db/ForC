@@ -7584,7 +7584,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3925.01,Estacao Experimental Gregorio Bondar,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3926.01,San Carlos de Rio Negro,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3927.01,Cedar Pit Flora Reserve,Tropical NA Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3928.01,Haw River,Aggrading Temperate Evergreen Forest. Stand established around 1958.5,NAC,1,1959,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3928.01,Haw River,Aggrading loblolly pine plantation. Stand established around 1958.5,NAC,1,1959,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3928.02,Haw River,Aggrading loblolly pine plantation. Stand established around 1958.5,NAC,2,1959,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
 3931.01,Bousson Environmental Research Reserve,Temperate Deciduous Forest. Stand established around 1913,NAC,1,1913,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3932.01,Monte Taburno,Temperate Deciduous Forest. Stand established around 1883,NAC,1,1883,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3933.01,Monte Taburno,Temperate Mixed Forest. Stand established around 1903,NAC,1,1903,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
