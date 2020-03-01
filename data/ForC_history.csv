@@ -1874,7 +1874,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 874.01,Fyedorovskoye,Picea abies,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 875.01,Fyedorovskoye,unmanaged,NAC,1,1889,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Pristine forest,NA
 875.02,Fyedorovskoye,unmanaged,NAC,2,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,Pristine forest,NA
-876.01,Gainesville,Managed Florida Pinus elliotte plantation,NAC,1,NAC,9,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+876.01,Gainesville,Managed Florida Pinus elliottii plantation,NAC,1,NAC,9,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
 877.01,GBO-01_Grebo F.R. 1,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2140
 878.01,GBO-02_Grebo F.R. 2,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2141
 879.01,GBO-03_Grebo F.R. 3,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2142
@@ -7024,9 +7024,12 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3442.01,Lavigne-midtransect,Temperate Evergreen Forest. Stand established around 1947,NAC,1,1947,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3443.01,Lavigne-warm,Temperate Evergreen Forest. Stand established around 1957,NAC,1,1957,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3445.01,"Yela, Kosrae",Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3446.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1998,NAC,1,1998,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3447.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1989,NAC,1,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3448.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1973,NAC,1,1973,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3446.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1998,NAC,1,1998,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
+3447.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1989,NAC,1,1989,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
+3448.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1973,NAC,1,1973,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
+3446.02,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1998,NAC,2,1998,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3447.02,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1989,NAC,2,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3448.02,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1973,NAC,2,1973,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3449.01,BOREAS-SSA,Aggrading Boreal Evergreen Forest. Stand established around 1999,NAC,1,1999,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3450.01,BOREAS-SSA,Aggrading Boreal Evergreen Forest. Stand established around 1994,NAC,1,1994,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3451.01,BOREAS-SSA,Aggrading Boreal Evergreen Forest. Stand established around 1989,NAC,1,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
