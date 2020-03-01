@@ -5430,23 +5430,23 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 2438.01,Tura,natural regeneration after fire.Larix gmelinii forest W1,NAC,1,1898,8.5,Disturbance,Burned,NA,NA,NA,100,Even-aged stand regenerated after intensive fires. Age by tree ring,NA
 2438.02,Tura,natural regeneration after fire.Larix gmelinii forest W1,NAC,2,1898,8.5,Regrowth,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Even-aged stand regenerated after intensive fires. Age by tree ring,NA
 2438.03,Tura,natural regeneration after fire.Larix gmelinii forest W1,NAC,3,1898,8.5,Establishment,Establishment of oldest trees,1,NA,NA,NA,Even-aged stand regenerated after intensive fires. Age by tree ring,NA
-2439.01,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1939,0.24,1,1939,8,Disturbance,Cut,NA,100,%,100,Oak savanna cleared for afforestation,NA
-2439.02,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1939,0.24,2,1939,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
-2439.03,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1939,0.24,3,1939,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-2439.04,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1939,0.24,4,1983,8,Disturbance,Cut,NA,105,m3 ha-1,<100%,NA,NA
-2440.01,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1974,0.12,1,1974,8,Disturbance,Cut,NA,100,%,100,Oak savanna cleared for afforestation,NA
-2440.02,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1974,0.12,2,1974,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
-2440.03,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1974,0.12,3,1974,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-2441.01,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1989,0.12,1,NI,9,Disturbance_prior,Cultivation,NA,NA,NA,100,Former agricultural land; abandoned land for 10 years before,NA
-2441.02,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1989,0.12,2,1979,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Former agricultural land; abandoned land for 10 years before,NA
-2441.03,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1989,0.12,3,1989,8.5,Disturbance,Cut,NA,NA,NA,NA,"original source lacks details, but there must be a disturbance event",NA
-2441.04,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1989,0.12,4,1989,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
-2441.05,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 1989,0.12,5,1989,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-2442.01,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 2002,0.12,1,NI,9,Disturbance_prior,Cultivation,NA,NA,NA,100,Former agricultural land; fallow land for 10 years before afforestation,NA
-2442.02,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 2002,0.12,2,1992,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Former agricultural land; fallow land for 10 years before afforestation,NA
-2442.03,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 2002,0.12,3,1992,8,Disturbance,Cut,NA,NA,NA,NA,"original source lacks details, but there must be a disturbance event",NA
-2442.04,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 2002,0.12,4,2002,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
-2442.05,Turkey Point Flux Station White Pine Chronosequence,white pine plantation.planted 2002,0.12,5,2002,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2439.01,Turkey Point-TP39,white pine plantation.planted 1939,0.24,1,1939,8,Disturbance,Cut,NA,100,%,100,Oak savanna cleared for afforestation,NA
+2439.02,Turkey Point-TP39,white pine plantation.planted 1939,0.24,2,1939,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
+2439.03,Turkey Point-TP39,white pine plantation.planted 1939,0.24,3,1939,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2439.04,Turkey Point-TP39,white pine plantation.planted 1939,0.24,4,1983,8,Disturbance,Cut,NA,105,m3 ha-1,<100%,NA,NA
+2440.01,Turkey Point-TP74,white pine plantation.planted 1974,0.12,1,1974,8,Disturbance,Cut,NA,100,%,100,Oak savanna cleared for afforestation,NA
+2440.02,Turkey Point-TP74,white pine plantation.planted 1974,0.12,2,1974,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
+2440.03,Turkey Point-TP74,white pine plantation.planted 1974,0.12,3,1974,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2441.01,Turkey Point-TP89,white pine plantation.planted 1989,0.12,1,NI,9,Disturbance_prior,Cultivation,NA,NA,NA,100,Former agricultural land; abandoned land for 10 years before,NA
+2441.02,Turkey Point-TP89,white pine plantation.planted 1989,0.12,2,1979,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Former agricultural land; abandoned land for 10 years before,NA
+2441.03,Turkey Point-TP89,white pine plantation.planted 1989,0.12,3,1989,8.5,Disturbance,Cut,NA,NA,NA,NA,"original source lacks details, but there must be a disturbance event",NA
+2441.04,Turkey Point-TP89,white pine plantation.planted 1989,0.12,4,1989,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
+2441.05,Turkey Point-TP89,white pine plantation.planted 1989,0.12,5,1989,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+2442.01,Turkey Point-TP02,white pine plantation.planted 2002,0.12,1,NI,9,Disturbance_prior,Cultivation,NA,NA,NA,100,Former agricultural land; fallow land for 10 years before afforestation,NA
+2442.02,Turkey Point-TP02,white pine plantation.planted 2002,0.12,2,1992,8,Regrowth_prior,Initiation of post-disturbance cohort (natural),1,NA,NA,NA,Former agricultural land; fallow land for 10 years before afforestation,NA
+2442.03,Turkey Point-TP02,white pine plantation.planted 2002,0.12,3,1992,8,Disturbance,Cut,NA,NA,NA,NA,"original source lacks details, but there must be a disturbance event",NA
+2442.04,Turkey Point-TP02,white pine plantation.planted 2002,0.12,4,2002,8,Regrowth,Planted,1,NA,NA,NA,NA,NA
+2442.05,Turkey Point-TP02,white pine plantation.planted 2002,0.12,5,2002,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 2443.01,TUVA,Tropical Wet Forest recovery following pasture abandonment,NAC,1,NI,9,Disturbance,Grazed,NA,NA,NA,100,History event derived from plot.name,NA
 2443.02,TUVA,Tropical Wet Forest recovery following pasture abandonment,NAC,2,NI,9,Regrowth,Initiation of post-disturbance cohort (natural),0,NA,NA,NA,History event derived from plot.name,NA
 2443.03,TUVA,Tropical Wet Forest recovery following pasture abandonment,NAC,3,NI,9,Establishment,Establishment of oldest trees,0,NA,NA,NA,NA,NA
@@ -7823,10 +7823,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4162.01,Almagro_2010_bcap research site in Murcia Spain,Temperate Deciduous Forest. Stand established around 1906,NAC,1,1906,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4165.01,Sardinilla,Tropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4166.01,Barro Colorado,Tropical Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4167.01,Turkey Point Flux Station,Aggrading Temperate Evergreen Forest. Stand established around 2002,NAC,1,2002,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4168.01,Turkey Point Flux Station,Aggrading Temperate Evergreen Forest. Stand established around 1989,NAC,1,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4169.01,Turkey Point Flux Station,Aggrading Temperate Evergreen Forest. Stand established around 1974,NAC,1,1974,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4170.01,Turkey Point Flux Station,Temperate Evergreen Forest. Stand established around 1939,NAC,1,1939,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4171.01,Fontainebleau-Barbeau (FR-Fon),Temperate Deciduous Forest. Stand established around 1881,NAC,1,1881,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4172.01,Wytham Woods,Temperate Deciduous Forest. Stand established around 1857,NAC,1,1857,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4173.01,Banobitan,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
@@ -8265,10 +8261,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4532.01,Harvard Forest-Prospect Hill,Aggrading Temperate Deciduous Forest. Stand established around 2010,NAC,1,2010,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4533.01,Harvard Forest-Prospect Hill,Aggrading Temperate Deciduous Forest. Stand established around 2011,NAC,1,2011,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4534.01,Hirano_2014_cdet research site in Central Kalimantan Indonesia,Aggrading Tropical Deciduous Forest. Stand established around 2002,NAC,1,2002,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4535.01,Turkey Point-TP02,Aggrading Temperate Evergreen Forest. Stand established around 2002,NAC,1,2002,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4536.01,Turkey Point-TP89,Aggrading Temperate Evergreen Forest. Stand established around 1989,NAC,1,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4537.01,Turkey Point-TP74,Temperate Evergreen Forest. Stand established around 1974,NAC,1,1974,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4538.01,Turkey Point-TP39,Temperate Evergreen Forest. Stand established around 1980,NAC,1,1980,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4539.01,Caxiuana~ National Forest Reserve,Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4540.01,Caxiuana~ National Forest Reserve,Tropical Evergreen Forest with Drought treatment,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4540.02,Caxiuana~ National Forest Reserve,Tropical Evergreen Forest with Drought treatment,NAC,2,NAC,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
