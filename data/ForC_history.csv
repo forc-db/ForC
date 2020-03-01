@@ -7024,12 +7024,12 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 3442.01,Lavigne-midtransect,Temperate Evergreen Forest. Stand established around 1947,NAC,1,1947,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3443.01,Lavigne-warm,Temperate Evergreen Forest. Stand established around 1957,NAC,1,1957,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3445.01,"Yela, Kosrae",Tropical Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3446.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1998,NAC,1,1998,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
-3447.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1989,NAC,1,1989,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
-3448.01,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1973,NAC,1,1973,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
-3446.02,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1998,NAC,2,1998,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3447.02,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1989,NAC,2,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-3448.02,Gainesville,Aggrading Temperate Evergreen Forest. Stand established around 1973,NAC,2,1973,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3446.01,Gainesville,Managed Florida Pinus elliottii plantation. Stand established around 1998,NAC,1,1998,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
+3447.01,Gainesville,Managed Florida Pinus elliottii plantation. Stand established around 1989,NAC,1,1989,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
+3448.01,Gainesville,Managed Florida Pinus elliottii plantation. Stand established around 1973,NAC,1,1973,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
+3446.02,Gainesville,Managed Florida Pinus elliottii plantation. Stand established around 1998,NAC,2,1998,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3447.02,Gainesville,Managed Florida Pinus elliottii plantation. Stand established around 1989,NAC,2,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+3448.02,Gainesville,Managed Florida Pinus elliottii plantation. Stand established around 1973,NAC,2,1973,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3449.01,BOREAS-SSA,Aggrading Boreal Evergreen Forest. Stand established around 1999,NAC,1,1999,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3450.01,BOREAS-SSA,Aggrading Boreal Evergreen Forest. Stand established around 1994,NAC,1,1994,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 3451.01,BOREAS-SSA,Aggrading Boreal Evergreen Forest. Stand established around 1989,NAC,1,1989,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
