@@ -1874,7 +1874,7 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 874.01,Fyedorovskoye,Picea abies,NAC,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,NA
 875.01,Fyedorovskoye,unmanaged,NAC,1,1889,8,Establishment,Establishment of oldest trees,1,NA,NA,NA,Pristine forest,NA
 875.02,Fyedorovskoye,unmanaged,NAC,2,NAC,9,No.disturbance,No disturbance,NA,NA,NA,NA,Pristine forest,NA
-876.01,Gainsville,Managed,NAC,1,NAC,9,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
+876.01,Gainesville,Managed Florida Pinus elliotte plantation,NAC,1,NAC,9,Regrowth,Planted,1,NA,NA,NA,Plantation,NA
 877.01,GBO-01_Grebo F.R. 1,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2140
 878.01,GBO-02_Grebo F.R. 2,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2141
 879.01,GBO-03_Grebo F.R. 3,african tropical forest,1,1,NAC,9,No.info,NAC,NA,NA,NA,NA,NA,2142
@@ -7917,8 +7917,8 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4227.01,Jassal_2011_eonf research site in British Columbia Canada,Temperate Evergreen Forest. Stand established around 1949,NAC,1,1949,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4228.01,Arevalo_2011_luce research site in Alberta Canada,Aggrading hybrid poplar plantation. Stand established around 2004,NAC,1,2004,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4228.02,Arevalo_2011_luce research site in Alberta Canada,Aggrading hybrid poplar plantation. Stand established around 2004,NAC,2,2004,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
-4229.01,Arevalo_2011_luce research site in Alberta Canada,Aggrading hybrid plantation. Stand established around 1997,NAC,1,1997,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
-4229.02,Arevalo_2011_luce research site in Alberta Canada,Aggrading hybrid plantation. Stand established around 1997,NAC,2,1997,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
+4229.01,Arevalo_2011_luce research site in Alberta Canada,Aggrading hybrid poplar plantation. Stand established around 1997,NAC,1,1997,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
+4229.02,Arevalo_2011_luce research site in Alberta Canada,Aggrading hybrid poplar plantation. Stand established around 1997,NAC,2,1997,NAC,Regrowth,Planted,1,NA,NA,NA,NA,NA
 4230.01,Experimental Station of the Faculty of Agriculture of the University of Bologna,Managed Temperate Deciduous Forest with Fertilized (80:25:100 kg/ha NPK) treatment. Stand established around 1997,NAC,1,1997,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4230.02,Experimental Station of the Faculty of Agriculture of the University of Bologna,Managed Temperate Deciduous Forest with Fertilized (80:25:100 kg/ha NPK) treatment. Stand established around 1997,NAC,2,1997,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4230.03,Experimental Station of the Faculty of Agriculture of the University of Bologna,Managed Temperate Deciduous Forest with Fertilized (80:25:100 kg/ha NPK) treatment. Stand established around 1997,NAC,3,NAC,NAC,Management,Fertilization,NA,NAC,NA,NA,Fertilized  80:25:100 kg/ha NPK,NA
@@ -8592,7 +8592,6 @@ history.ID,sites.sitename,plot.name,plot.area,event.sequence,date,date.loc,hist.
 4762.02,Oak Ridge,"Managed Aggrading Temperate Deciduous Forest with CO2, heated (+4 C, +30 Pa) treatment. Stand established around 1994",NAC,2,1994,NAC,Regrowth,Initiation of post-disturbance cohort (planted or natural),1,NA,NA,NA,NA,NA
 4762.03,Oak Ridge,"Managed Aggrading Temperate Deciduous Forest with CO2, heated (+4 C, +30 Pa) treatment. Stand established around 1994",NAC,3,NAC,NAC,Management,CO2_fumigation,NA,NAC,NA,NA,"CO2, heated  +4 C, +30 Pa",NA
 4762.04,Oak Ridge,"Managed Aggrading Temperate Deciduous Forest with CO2, heated (+4 C, +30 Pa) treatment. Stand established around 1994",NAC,4,NAC,NAC,Management,Warming,NA,NAC,NA,NA,"CO2, heated  +4 C, +30 Pa",NA
-4763.01,Gainesville,Temperate Evergreen Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4764.01,Fazenda Vitoria,Aggrading Tropical Evergreen Forest. Stand established around 1975,NAC,1,1975,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4765.01,Oak Ridge,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
 4766.01,Minamata,Temperate Deciduous Forest,NAC,1,NAC,NAC,Establishment,Establishment of oldest trees,1,NA,NA,NA,NA,NA
