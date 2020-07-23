@@ -1,8 +1,10 @@
 # ForC Data Use Policy and Guidelines
 
-ForC-db is an open access database, and we encourage use of the data for scientific research and educational purposes. Data may not be used for commercial purposes without written permission of the database PI (Dr. Kristina Anderson-Teixeira, Smithsonian Institution; teixeirak@si.edu). 
+ForC-db is an open access database. 
 
-The following are guidelines for using ForC for scientific research purposes:
+## License
+
+ForC is licensed under [CC-BY-4](https://creativecommons.org/licenses/by/4.0/), as described in ['license.txt'](https://github.com/forc-db/ForC/blob/master/license.txt).
 
 ## Communication/ collaboration with ForC researchers
 
