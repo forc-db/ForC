@@ -4,7 +4,7 @@ ForC-db is an open access database.
 
 ## License
 
-ForC is licensed under [CC-BY-4](https://creativecommons.org/licenses/by/4.0/), as described in ['license.txt'](https://github.com/forc-db/ForC/blob/master/license.txt).
+ForC is licensed under [CC-BY-4](https://creativecommons.org/licenses/by/4.0/), as described in [`license.txt`](https://github.com/forc-db/ForC/blob/master/license.txt).
 
 ## Communication/ collaboration with ForC researchers
 
