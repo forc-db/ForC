@@ -21,3 +21,6 @@ For an overview of the database, please see the [ForC database website](https://
 
 *Database publications* are listed in [ForC_publications.csv](https://github.com/forc-db/ForC/blob/master/ForC_publications.csv). We ask that any authors using the database add resulting publications to this table.
 
+## License
+
+ForC is licensed under [CC-BY-4](https://creativecommons.org/licenses/by/4.0/), as described in ['license.txt'](https://github.com/forc-db/ForC/blob/master/license.txt).
