@@ -1,5 +1,5 @@
 # Forest Carbon database (ForC-db)
-
+[![DOI](https://zenodo.org/badge/49171546.svg)](https://zenodo.org/badge/latestdoi/49171546)
 
 ## Database overview
 
