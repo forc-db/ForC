@@ -70,12 +70,18 @@ View(cbind(SITES$sites.sitename, SITES$FAO.ecozone, new.FAO)[!apply(cbind(SITES$
 
 SITES$FAO.ecozone <- new.FAO
 
-SITES[is.na(SITES$FAO.ecozone) | SITES$FAO.ecozone %in% "NAC", c("sites.sitename", "lat", "lon", "country", "FAO.ecozone", "biogeog", "Koeppen")] # should be empty. if not, either fix the coordinates by hand or use code like the few lines below
+SITES[is.na(SITES$FAO.ecozone) | SITES$FAO.ecozone %in% "NAC", c("site.ID", "sites.sitename", "lat", "lon", "country", "FAO.ecozone", "biogeog", "Koeppen")] # should be empty. if not, either fix the coordinates by hand or use code like the few lines below
 
 
 # SITES$FAO.ecozone[is.na(SITES$FAO.ecozone) & SITES$country %in% "Japan" & SITES$Koeppen %in% "Cfa"] <- "Subtropical humid forest"
 # SITES$FAO.ecozone[is.na(SITES$FAO.ecozone) & SITES$country %in% "United States of America" & SITES$Koeppen %in% c("Cfa", "Dfb")] <- "Temperate continental forest"
 # SITES$FAO.ecozone[is.na(SITES$FAO.ecozone) & SITES$country %in% c("Brazil", "French Guiana")  & SITES$Koeppen %in% "Af"] <- "Tropical rainforest"
+
+
+SITES[SITES$site.ID %in% 3810, "FAO.ecozone"] <- "Subtropical humid forest"
+SITES[SITES$site.ID %in% 3843,  "FAO.ecozone"] <- "Tropical rainforest"
+SITES[SITES$site.ID %in% 3820,  "FAO.ecozone"] <- "Temperate oceanic forest"
+SITES[SITES$site.ID %in% 3995,  "FAO.ecozone"] <- "Subtropical humid forest"
 
 if(any(is.na(SITES$FAO.ecozone) | SITES$FAO.ecozone %in% "NAC")) stop("There are missing FAO.ecozone that you need to fill by hand in this script.")
 
@@ -112,9 +118,12 @@ SITES$Koeppen <- new.KOEPPEN
 SITES$Koeppen[is.na(SITES$Koeppen) & SITES$FAO.ecozone %in% "Tropical rainforest"] <- "Af"
 SITES$Koeppen[is.na(SITES$Koeppen) & SITES$FAO.ecozone %in% "Subtropical humid forest"] <- "Cfa"
 
+SITES[SITES$site.ID %in% 3819,  c("Koeppen")] <- c("Cfb")
+
 if(any(is.na(SITES$Koeppen) | SITES$Koeppen %in% "NAC")) stop("There are missing Koeppen that you need to fill by hand in this script.")
 plot(KOEPPEN)
 points(SITES.xy[is.na(SITES$Koeppen) | SITES$Koeppen %in% "NAC", ], col = "red", pch= 16)
+SITES.xy[is.na(SITES$Koeppen) | SITES$Koeppen %in% "NAC", ]
 
 
 # Extract biogeog ####
@@ -140,12 +149,12 @@ points(SITES.xy[is.na(new.biogeog),], pch = 2, col = "purple")
 # Replace all biogeog by the ones extracted + manually edit the ones that fall in the water
 SITES$biogeog <- new.biogeog
 
-SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("United States of America", "United States Virgin Islands", "USA")] <- "North America"
+SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("United States of America", "United States Virgin Islands", "USA", "Costa Rica")] <- "North America"
 SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% "Australia"] <- "Australia"
 SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% "New Zealand"] <- "Oceania"
 
 SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("Malaysia", "Japan", "China", "Cambodia", "Turkey")] <- "Asia"
-SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("French Guiana", "Brazil", "Panama", "Belize")] <- "South America"
+SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("French Guiana", "Brazil", "Panama", "Belize", "Colombia")] <- "South America"
 
 
 if(any(is.na(SITES$biogeog) | SITES$biogeog %in% "NAC")) stop("There are missing biogeog that you need to fill by hand in this script.")
@@ -157,3 +166,4 @@ points(SITES.xy[is.na(SITES$biogeog)| SITES$biogeog%in% "NAC",], pch = 16, col =
 # SAVE ####
 
 write.csv(SITES, "data/ForC_sites.csv", row.names = F)
+

@@ -1,34 +1,34 @@
 "Biome","variable.diagram","mean","std","equation","components.with.sufficient.data","sum.of.components","test","lack.of.closure"
-"Tropical broadleaf MATURE","NEE",-1.87,3.14,"R_eco - GPP","R_eco; GPP",-0.940000000000001,"equal",0
-"Tropical broadleaf MATURE","GPP",29.92,6.92,"NPP + R_auto_ag","NPP",10.65,"smaller",0
-"Tropical broadleaf MATURE","NPP",10.65,2.54,"ANPP + BNPP","ANPP; BNPP",10.11,"equal",0
-"Tropical broadleaf MATURE","ANPP",6.28,2.36,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_foliage; ANPP_woody; ANPP_repro; ANPP_folivory",6.85,"equal",0
-"Tropical broadleaf MATURE","ANPP_woody",3.08,1.12,"ANPP_branch + ANPP_stem","ANPP_branch; ANPP_stem",3.56,"equal",0
-"Tropical broadleaf MATURE","ANPP_stem",2.81,1.28,"woody.mortality","woody.mortality",2.56,"equal",0
+"Tropical broadleaf MATURE","NEE",-1.93,3.31,"R_eco - GPP","R_eco; GPP",-0.900000000000002,"equal",0
+"Tropical broadleaf MATURE","GPP",30.05,6.98,"NPP + R_auto_ag","NPP",10.85,"smaller",0
+"Tropical broadleaf MATURE","NPP",10.85,2.79,"ANPP + BNPP","ANPP; BNPP",10.18,"equal",0
+"Tropical broadleaf MATURE","ANPP",6.31,2.44,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_foliage; ANPP_woody; ANPP_repro; ANPP_folivory",6.85,"equal",0
+"Tropical broadleaf MATURE","ANPP_woody",3.08,1.12,"ANPP_branch + ANPP_stem","ANPP_branch; ANPP_stem",3.55,"equal",0
+"Tropical broadleaf MATURE","ANPP_stem",2.8,1.28,"woody.mortality","woody.mortality",2.56,"equal",0
 "Tropical broadleaf MATURE","ANPP_branch",0.75,0.37,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","ANPP_foliage",2.96,0.75,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","ANPP_litterfall",3.74,1.22,"ANPP_foliage + ANPP_branch + ANPP_repro","ANPP_foliage; ANPP_branch; ANPP_repro",4.03,"equal",0
-"Tropical broadleaf MATURE","ANPP_repro",0.32,0.15,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","ANPP_foliage",2.96,0.76,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","ANPP_litterfall",3.74,1.23,"ANPP_foliage + ANPP_branch + ANPP_repro","ANPP_foliage; ANPP_branch; ANPP_repro",4.03,"equal",0
+"Tropical broadleaf MATURE","ANPP_repro",0.32,0.16,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","ANPP_folivory",0.49,0.42,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","woody.mortality",2.56,0.99,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","delta.agb",2.56,0.99,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","BNPP",3.83,1.57,"BNPP_coarse + BNPP_fine","BNPP_coarse; BNPP_fine",3.35,"equal",0
+"Tropical broadleaf MATURE","BNPP",3.87,1.61,"BNPP_coarse + BNPP_fine","BNPP_coarse; BNPP_fine",3.36,"equal",0
 "Tropical broadleaf MATURE","BNPP_coarse",0.5,0.21,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","BNPP_fine",2.85,1.45,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","R_eco",28.98,6.63,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","BNPP_fine",2.86,1.46,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","R_eco",29.15,6.66,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","R_auto",20.58,3.27,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","R_auto_ag",20.58,3.27,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","R_root",5.4,1.83,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","R_het_soil",8.48,2.94,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","R_soil",14.65,3.83,"R_root + R_het_soil","R_root; R_het_soil",13.88,"equal",0
-"Tropical broadleaf MATURE","biomass",167.92,62.92,"biomass_ag + biomass_root","biomass_ag; biomass_root",185.36,"equal",0
-"Tropical broadleaf MATURE","biomass_ag",163.61,66.01,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",136.81,"equal",0
-"Tropical broadleaf MATURE","biomass_ag_woody",132.65,46.53,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","biomass_foliage",4.16,1.01,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","biomass_root",21.75,12.4,"biomass_root_coarse + biomass_root_fine","biomass_root_fine",8.19,"smaller",0
-"Tropical broadleaf MATURE","biomass_root_coarse",21.75,12.4,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","biomass_root_fine",8.19,10.59,NA,"",NA,NA,NA
-"Tropical broadleaf MATURE","deadwood",15.53,11.57,"deadwood_standing + deadwood_down","deadwood_standing",10.29,"equal",0
+"Tropical broadleaf MATURE","R_root",5.5,1.75,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","R_het_soil",8.5,3.01,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","R_soil",14.79,3.86,"R_root + R_het_soil","R_root; R_het_soil",14,"equal",0
+"Tropical broadleaf MATURE","biomass",163.53,62.39,"biomass_ag + biomass_root","biomass_ag; biomass_root",184.49,"equal",0
+"Tropical broadleaf MATURE","biomass_ag",163.29,66.08,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",132.41,"equal",0
+"Tropical broadleaf MATURE","biomass_ag_woody",128.28,46.08,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","biomass_foliage",4.13,1.06,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","biomass_root",21.2,12.09,"biomass_root_coarse + biomass_root_fine","biomass_root_fine",8.75,"smaller",0
+"Tropical broadleaf MATURE","biomass_root_coarse",21.2,12.09,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","biomass_root_fine",8.75,10.8,NA,"",NA,NA,NA
+"Tropical broadleaf MATURE","deadwood",15.93,11.63,"deadwood_standing + deadwood_down","deadwood_standing",10.29,"equal",0
 "Tropical broadleaf MATURE","deadwood_standing",10.29,10.96,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","deadwood_down",10.29,10.96,NA,"",NA,NA,NA
 "Tropical broadleaf MATURE","organic.layer",8.56,13.69,NA,"",NA,NA,NA
@@ -54,17 +54,17 @@
 "Tropical broadleaf YOUNG","R_root",7.88,4.01,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","R_het_soil",7.57,6.07,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","R_soil",14.05,7.08,"R_root + R_het_soil","R_root; R_het_soil",15.45,"equal",0
-"Tropical broadleaf YOUNG","biomass",61.07,71.79,"biomass_ag + biomass_root","biomass_ag; biomass_root",62.29,"equal",0
-"Tropical broadleaf YOUNG","biomass_ag",49.78,44.01,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",55.17,"equal",0
+"Tropical broadleaf YOUNG","biomass",61.07,71.79,"biomass_ag + biomass_root","biomass_ag; biomass_root",61.58,"equal",0
+"Tropical broadleaf YOUNG","biomass_ag",49.09,44.53,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",55.17,"equal",0
 "Tropical broadleaf YOUNG","biomass_ag_woody",51.36,23.92,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","biomass_foliage",3.81,3.19,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","biomass_root",12.51,8.33,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",7.79,"equal",0
+"Tropical broadleaf YOUNG","biomass_root",12.49,8.09,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",7.79,"equal",0
 "Tropical broadleaf YOUNG","biomass_root_coarse",5.08,5.87,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","biomass_root_fine",2.71,3.61,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","deadwood",4.72,3.27,"deadwood_standing + deadwood_down","",0,"smaller",0
+"Tropical broadleaf YOUNG","deadwood",4.72,3.27,"deadwood_standing + deadwood_down","deadwood_down",4.93,"equal",0
 "Tropical broadleaf YOUNG","deadwood_standing",4.72,3.27,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","deadwood_down",4.72,3.27,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","organic.layer",3.75,2.79,NA,"",NA,NA,NA
+"Tropical broadleaf YOUNG","deadwood_down",4.93,3.71,NA,"",NA,NA,NA
+"Tropical broadleaf YOUNG","organic.layer",3.66,2.36,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","NEE",-3.25,1.86,"R_eco - GPP","R_eco; GPP",-2.75,"equal",0
 "Temperate broadleaf MATURE","GPP",18.4,4.49,"NPP + R_auto_ag","NPP",6.46,"smaller",0
 "Temperate broadleaf MATURE","NPP",6.46,1.59,"ANPP + BNPP","ANPP; BNPP",5.43,"equal",0
@@ -87,22 +87,22 @@
 "Temperate broadleaf MATURE","R_root",3.75,2.7,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","R_het_soil",4.68,1.49,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","R_soil",9.02,5.04,"R_root + R_het_soil","R_root; R_het_soil",8.43,"equal",0
-"Temperate broadleaf MATURE","biomass",138.15,56.8,"biomass_ag + biomass_root","biomass_ag; biomass_root",158.16,"equal",0
-"Temperate broadleaf MATURE","biomass_ag",132.33,118.13,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",113.32,"equal",0
+"Temperate broadleaf MATURE","biomass",139.02,55.97,"biomass_ag + biomass_root","biomass_ag; biomass_root",159.45,"equal",0
+"Temperate broadleaf MATURE","biomass_ag",134.05,120.15,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",113.32,"equal",0
 "Temperate broadleaf MATURE","biomass_ag_woody",110.53,29.95,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","biomass_foliage",2.79,2.05,NA,"",NA,NA,NA
-"Temperate broadleaf MATURE","biomass_root",25.83,14.59,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",18.24,"equal",0
+"Temperate broadleaf MATURE","biomass_root",25.4,14.67,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",18.24,"equal",0
 "Temperate broadleaf MATURE","biomass_root_coarse",15.67,12.5,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","biomass_root_fine",2.57,1.69,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","deadwood",39.92,25.92,"deadwood_standing + deadwood_down","",0,"smaller",0
 "Temperate broadleaf MATURE","deadwood_standing",39.92,25.92,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","deadwood_down",39.92,25.92,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","organic.layer",20.36,26.97,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","NEE",-2.83,2.56,"R_eco - GPP","R_eco; GPP",-2.97,"equal",0
-"Temperate broadleaf YOUNG","GPP",14.58,4.74,"NPP + R_auto_ag","NPP",6.83,"smaller",0
-"Temperate broadleaf YOUNG","NPP",6.83,2.93,"ANPP + BNPP","ANPP; BNPP",6.63,"equal",0
-"Temperate broadleaf YOUNG","ANPP",4.52,1.91,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_woody",2.77,"equal",0
-"Temperate broadleaf YOUNG","ANPP_woody",4.52,1.91,"ANPP_branch + ANPP_stem","",NA,NA,NA
+"Temperate broadleaf YOUNG","NEE",-2.35,1.8,"R_eco - GPP","R_eco; GPP",-2.97,"equal",0
+"Temperate broadleaf YOUNG","GPP",14.58,4.74,"NPP + R_auto_ag","NPP",6.29,"smaller",0
+"Temperate broadleaf YOUNG","NPP",6.29,1.91,"ANPP + BNPP","ANPP; BNPP",6.63,"equal",0
+"Temperate broadleaf YOUNG","ANPP",4.52,1.94,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_woody",2.77,"equal",0
+"Temperate broadleaf YOUNG","ANPP_woody",4.52,1.94,"ANPP_branch + ANPP_stem","",NA,NA,NA
 "Temperate broadleaf YOUNG","ANPP_stem",2.54,1.1,"woody.mortality","",0,"smaller",0
 "Temperate broadleaf YOUNG","ANPP_branch",2.54,1.1,NA,"",NA,NA,NA
 "Temperate broadleaf YOUNG","ANPP_foliage",1.9,1.02,NA,"",NA,NA,NA
@@ -117,24 +117,24 @@
 "Temperate broadleaf YOUNG","R_eco",11.61,3.26,NA,"",NA,NA,NA
 "Temperate broadleaf YOUNG","R_auto",11.61,3.26,NA,"",NA,NA,NA
 "Temperate broadleaf YOUNG","R_auto_ag",11.61,3.26,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","R_root",3.69,2.94,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","R_het_soil",4.27,1.81,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","R_soil",8.73,3.41,"R_root + R_het_soil","R_root; R_het_soil",7.96,"equal",0
-"Temperate broadleaf YOUNG","biomass",116.77,71.86,"biomass_ag + biomass_root","biomass_ag; biomass_root",96.73,"equal",0
-"Temperate broadleaf YOUNG","biomass_ag",75.07,52.32,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",67.39,"equal",0
+"Temperate broadleaf YOUNG","R_root",3.69,3.01,NA,"",NA,NA,NA
+"Temperate broadleaf YOUNG","R_het_soil",4.34,1.81,NA,"",NA,NA,NA
+"Temperate broadleaf YOUNG","R_soil",8.85,3.73,"R_root + R_het_soil","R_root; R_het_soil",8.03,"equal",0
+"Temperate broadleaf YOUNG","biomass",113.88,72.8,"biomass_ag + biomass_root","biomass_ag; biomass_root",92.21,"equal",0
+"Temperate broadleaf YOUNG","biomass_ag",72.2,51.54,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",67.39,"equal",0
 "Temperate broadleaf YOUNG","biomass_ag_woody",65.4,50.13,NA,"",NA,NA,NA
 "Temperate broadleaf YOUNG","biomass_foliage",1.99,1.51,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","biomass_root",21.66,17.07,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",9.18,"equal",0
-"Temperate broadleaf YOUNG","biomass_root_coarse",6.75,8.59,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","biomass_root_fine",2.43,1.76,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","deadwood",2.43,1.76,"deadwood_standing + deadwood_down","",NA,NA,NA
-"Temperate broadleaf YOUNG","deadwood_standing",2.43,1.76,NA,"",NA,NA,NA
-"Temperate broadleaf YOUNG","deadwood_down",2.43,1.76,NA,"",NA,NA,NA
+"Temperate broadleaf YOUNG","biomass_root",20.01,16.89,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",9.22,"equal",0
+"Temperate broadleaf YOUNG","biomass_root_coarse",6.76,8.79,NA,"",NA,NA,NA
+"Temperate broadleaf YOUNG","biomass_root_fine",2.46,1.78,NA,"",NA,NA,NA
+"Temperate broadleaf YOUNG","deadwood",2.46,1.78,"deadwood_standing + deadwood_down","",NA,NA,NA
+"Temperate broadleaf YOUNG","deadwood_standing",2.46,1.78,NA,"",NA,NA,NA
+"Temperate broadleaf YOUNG","deadwood_down",2.46,1.78,NA,"",NA,NA,NA
 "Temperate broadleaf YOUNG","organic.layer",9.56,13.18,NA,"",NA,NA,NA
 "Temperate conifer MATURE","NEE",-0.88,2,"R_eco - GPP","R_eco; GPP",-2.43,"equal",0
 "Temperate conifer MATURE","GPP",14.07,5.5,"NPP + R_auto_ag","NPP",4.95,"smaller",0
-"Temperate conifer MATURE","NPP",4.95,1.85,"ANPP + BNPP","ANPP; BNPP",4.98,"equal",0
-"Temperate conifer MATURE","ANPP",3.09,1.32,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_foliage; ANPP_woody",4.14,"equal",0
+"Temperate conifer MATURE","NPP",4.95,1.85,"ANPP + BNPP","ANPP; BNPP",4.99,"equal",0
+"Temperate conifer MATURE","ANPP",3.1,1.36,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_foliage; ANPP_woody",4.14,"equal",0
 "Temperate conifer MATURE","ANPP_woody",2.56,0.98,"ANPP_branch + ANPP_stem","ANPP_branch; ANPP_stem",2.18,"equal",0
 "Temperate conifer MATURE","ANPP_stem",1.88,0.96,"woody.mortality","",0,"smaller",0
 "Temperate conifer MATURE","ANPP_branch",0.3,0.17,NA,"",NA,NA,NA
@@ -153,21 +153,21 @@
 "Temperate conifer MATURE","R_root",2.65,1.42,NA,"",NA,NA,NA
 "Temperate conifer MATURE","R_het_soil",4.12,1.21,NA,"",NA,NA,NA
 "Temperate conifer MATURE","R_soil",7.92,3.25,"R_root + R_het_soil","R_root; R_het_soil",6.77,"equal",0
-"Temperate conifer MATURE","biomass",147.68,94,"biomass_ag + biomass_root","biomass_ag; biomass_root",171.97,"equal",0
-"Temperate conifer MATURE","biomass_ag",147.08,126.4,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",328.31,"greater",1
+"Temperate conifer MATURE","biomass",149.88,98.33,"biomass_ag + biomass_root","biomass_ag; biomass_root",175.83,"equal",0
+"Temperate conifer MATURE","biomass_ag",149.82,131.66,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",328.31,"greater",1
 "Temperate conifer MATURE","biomass_ag_woody",319.79,167.75,NA,"",NA,NA,NA
 "Temperate conifer MATURE","biomass_foliage",8.52,3.14,NA,"",NA,NA,NA
-"Temperate conifer MATURE","biomass_root",24.89,22.62,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",84.12,"greater",1
+"Temperate conifer MATURE","biomass_root",26.01,23.61,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",84.12,"greater",1
 "Temperate conifer MATURE","biomass_root_coarse",81.84,60.96,NA,"",NA,NA,NA
 "Temperate conifer MATURE","biomass_root_fine",2.28,1.43,NA,"",NA,NA,NA
 "Temperate conifer MATURE","deadwood",84.38,35.03,"deadwood_standing + deadwood_down","deadwood_standing; deadwood_down",81.43,"equal",0
 "Temperate conifer MATURE","deadwood_standing",23.66,15.42,NA,"",NA,NA,NA
 "Temperate conifer MATURE","deadwood_down",57.77,28.99,NA,"",NA,NA,NA
 "Temperate conifer MATURE","organic.layer",18.1,12.8,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","NEE",-2.55,3.05,"R_eco - GPP","R_eco; GPP",-3.62,"equal",0
-"Temperate conifer YOUNG","GPP",15.73,5.82,"NPP + R_auto_ag","NPP",6.3,"smaller",0
-"Temperate conifer YOUNG","NPP",6.3,3.46,"ANPP + BNPP","ANPP; BNPP",5.78,"equal",0
-"Temperate conifer YOUNG","ANPP",3.58,2.68,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_foliage; ANPP_woody",3.96,"equal",0
+"Temperate conifer YOUNG","NEE",-2.36,2.74,"R_eco - GPP","R_eco; GPP",-3.74,"equal",0
+"Temperate conifer YOUNG","GPP",15.55,5.57,"NPP + R_auto_ag","NPP",6.51,"smaller",0
+"Temperate conifer YOUNG","NPP",6.51,3.55,"ANPP + BNPP","ANPP; BNPP",5.29,"equal",0
+"Temperate conifer YOUNG","ANPP",3.27,1.68,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_foliage; ANPP_woody",3.96,"equal",0
 "Temperate conifer YOUNG","ANPP_woody",2.69,1.52,"ANPP_branch + ANPP_stem","ANPP_branch; ANPP_stem",2.64,"equal",0
 "Temperate conifer YOUNG","ANPP_stem",2.24,1.31,"woody.mortality","",0,"smaller",0
 "Temperate conifer YOUNG","ANPP_branch",0.4,0.38,NA,"",NA,NA,NA
@@ -177,28 +177,28 @@
 "Temperate conifer YOUNG","ANPP_folivory",1.27,0.64,NA,"",NA,NA,NA
 "Temperate conifer YOUNG","woody.mortality",1.27,0.64,NA,"",NA,NA,NA
 "Temperate conifer YOUNG","delta.agb",1.27,0.64,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","BNPP",2.2,1.5,"BNPP_coarse + BNPP_fine","BNPP_coarse; BNPP_fine",2.22,"equal",0
+"Temperate conifer YOUNG","BNPP",2.02,1.29,"BNPP_coarse + BNPP_fine","BNPP_coarse; BNPP_fine",2.27,"equal",0
 "Temperate conifer YOUNG","BNPP_coarse",0.74,0.45,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","BNPP_fine",1.48,0.64,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","R_eco",12.11,3.63,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","R_auto",12.11,3.63,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","R_auto_ag",12.11,3.63,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","R_root",3.33,2.32,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","R_het_soil",4.16,1.69,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","R_soil",8.12,3.49,"R_root + R_het_soil","R_root; R_het_soil",7.49,"equal",0
-"Temperate conifer YOUNG","biomass",95.18,61.65,"biomass_ag + biomass_root","biomass_ag; biomass_root",89.39,"equal",0
-"Temperate conifer YOUNG","biomass_ag",73.59,70.77,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",79.6,"equal",0
+"Temperate conifer YOUNG","BNPP_fine",1.53,0.65,NA,"",NA,NA,NA
+"Temperate conifer YOUNG","R_eco",11.81,3.2,NA,"",NA,NA,NA
+"Temperate conifer YOUNG","R_auto",11.81,3.2,NA,"",NA,NA,NA
+"Temperate conifer YOUNG","R_auto_ag",11.81,3.2,NA,"",NA,NA,NA
+"Temperate conifer YOUNG","R_root",3.46,2.36,NA,"",NA,NA,NA
+"Temperate conifer YOUNG","R_het_soil",4.15,1.77,NA,"",NA,NA,NA
+"Temperate conifer YOUNG","R_soil",8.19,3.53,"R_root + R_het_soil","R_root; R_het_soil",7.61,"equal",0
+"Temperate conifer YOUNG","biomass",96.96,62.5,"biomass_ag + biomass_root","biomass_ag; biomass_root",90.47,"equal",0
+"Temperate conifer YOUNG","biomass_ag",74.63,72.05,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",79.6,"equal",0
 "Temperate conifer YOUNG","biomass_ag_woody",75.04,103.77,NA,"",NA,NA,NA
 "Temperate conifer YOUNG","biomass_foliage",4.56,3.23,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","biomass_root",15.8,14.34,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",19.66,"equal",0
-"Temperate conifer YOUNG","biomass_root_coarse",16.84,25.87,NA,"",NA,NA,NA
+"Temperate conifer YOUNG","biomass_root",15.84,14.68,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",19.92,"equal",0
+"Temperate conifer YOUNG","biomass_root_coarse",17.1,26.35,NA,"",NA,NA,NA
 "Temperate conifer YOUNG","biomass_root_fine",2.82,2.13,NA,"",NA,NA,NA
 "Temperate conifer YOUNG","deadwood",2.82,2.13,"deadwood_standing + deadwood_down","",NA,NA,NA
 "Temperate conifer YOUNG","deadwood_standing",2.82,2.13,NA,"",NA,NA,NA
 "Temperate conifer YOUNG","deadwood_down",2.82,2.13,NA,"",NA,NA,NA
-"Temperate conifer YOUNG","organic.layer",13.78,11.74,NA,"",NA,NA,NA
-"Boreal conifer MATURE","NEE",-0.94,0.85,"R_eco - GPP","R_eco; GPP",-1.6,"equal",0
-"Boreal conifer MATURE","GPP",7.49,2.3,"NPP + R_auto_ag","NPP",2.7,"smaller",0
+"Temperate conifer YOUNG","organic.layer",14.01,11.93,NA,"",NA,NA,NA
+"Boreal conifer MATURE","NEE",-0.94,0.85,"R_eco - GPP","R_eco; GPP",-1.59,"equal",0
+"Boreal conifer MATURE","GPP",7.48,2.31,"NPP + R_auto_ag","NPP",2.7,"smaller",0
 "Boreal conifer MATURE","NPP",2.7,0.89,"ANPP + BNPP","ANPP; BNPP",2.34,"equal",0
 "Boreal conifer MATURE","ANPP",1.43,0.59,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_woody",0.92,"equal",0
 "Boreal conifer MATURE","ANPP_woody",1.43,0.59,"ANPP_branch + ANPP_stem","",NA,NA,NA
@@ -219,8 +219,8 @@
 "Boreal conifer MATURE","R_root",5.89,2,NA,"",NA,NA,NA
 "Boreal conifer MATURE","R_het_soil",5.89,2,NA,"",NA,NA,NA
 "Boreal conifer MATURE","R_soil",5.19,2.65,"R_root + R_het_soil","",0,"smaller",0
-"Boreal conifer MATURE","biomass",100.39,61.21,"biomass_ag + biomass_root","biomass_ag; biomass_root",87.49,"equal",0
-"Boreal conifer MATURE","biomass_ag",69.77,58.09,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",51.24,"equal",0
+"Boreal conifer MATURE","biomass",100.39,61.21,"biomass_ag + biomass_root","biomass_ag; biomass_root",92.19,"equal",0
+"Boreal conifer MATURE","biomass_ag",74.47,57.53,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",51.24,"equal",0
 "Boreal conifer MATURE","biomass_ag_woody",48.09,29.95,NA,"",NA,NA,NA
 "Boreal conifer MATURE","biomass_foliage",3.15,1.68,NA,"",NA,NA,NA
 "Boreal conifer MATURE","biomass_root",17.72,6.44,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",13.3,"equal",0
@@ -230,10 +230,10 @@
 "Boreal conifer MATURE","deadwood_standing",3.68,1.9,NA,"",NA,NA,NA
 "Boreal conifer MATURE","deadwood_down",3.68,1.9,NA,"",NA,NA,NA
 "Boreal conifer MATURE","organic.layer",3.68,1.9,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","NEE",-0.72,1.38,"R_eco - GPP","R_eco; GPP",-0.77,"equal",0
-"Boreal conifer YOUNG","GPP",7.93,3.15,"NPP + R_auto_ag","NPP",3.65,"smaller",0
-"Boreal conifer YOUNG","NPP",3.65,1.83,"ANPP + BNPP","ANPP; BNPP",3.65,"equal",0
-"Boreal conifer YOUNG","ANPP",2.26,1.17,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_foliage; ANPP_woody",2.31,"equal",0
+"Boreal conifer YOUNG","NEE",-0.77,1.42,"R_eco - GPP","R_eco; GPP",-0.76,"equal",0
+"Boreal conifer YOUNG","GPP",8.11,3.19,"NPP + R_auto_ag","NPP",3.64,"smaller",0
+"Boreal conifer YOUNG","NPP",3.64,1.92,"ANPP + BNPP","ANPP; BNPP",3.6,"equal",0
+"Boreal conifer YOUNG","ANPP",2.31,1.18,"ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory","ANPP_foliage; ANPP_woody",2.31,"equal",0
 "Boreal conifer YOUNG","ANPP_woody",1.66,1.02,"ANPP_branch + ANPP_stem","ANPP_branch",0.27,"smaller",0
 "Boreal conifer YOUNG","ANPP_stem",0.79,0.47,"woody.mortality","",0,"smaller",0
 "Boreal conifer YOUNG","ANPP_branch",0.79,0.47,NA,"",NA,NA,NA
@@ -243,23 +243,23 @@
 "Boreal conifer YOUNG","ANPP_folivory",0.65,0.26,NA,"",NA,NA,NA
 "Boreal conifer YOUNG","woody.mortality",0.65,0.26,NA,"",NA,NA,NA
 "Boreal conifer YOUNG","delta.agb",0.65,0.26,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","BNPP",1.39,1.26,"BNPP_coarse + BNPP_fine","BNPP_fine",1.31,"equal",0
-"Boreal conifer YOUNG","BNPP_coarse",1.39,1.26,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","BNPP",1.29,1.28,"BNPP_coarse + BNPP_fine","BNPP_fine",1.31,"equal",0
+"Boreal conifer YOUNG","BNPP_coarse",1.29,1.28,NA,"",NA,NA,NA
 "Boreal conifer YOUNG","BNPP_fine",1.31,1.29,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","R_eco",7.16,2.51,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","R_auto",7.16,2.51,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","R_auto_ag",7.16,2.51,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","R_root",1.54,0.81,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","R_eco",7.35,2.52,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","R_auto",7.35,2.52,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","R_auto_ag",7.35,2.52,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","R_root",1.55,0.84,NA,"",NA,NA,NA
 "Boreal conifer YOUNG","R_het_soil",3.11,2.58,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","R_soil",4.98,2.88,"R_root + R_het_soil","R_root; R_het_soil",4.65,"equal",0
-"Boreal conifer YOUNG","biomass",56.89,38.56,"biomass_ag + biomass_root","biomass_ag; biomass_root",61.38,"equal",0
-"Boreal conifer YOUNG","biomass_ag",49.26,29.61,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",38.28,"equal",0
+"Boreal conifer YOUNG","R_soil",4.98,2.88,"R_root + R_het_soil","R_root; R_het_soil",4.66,"equal",0
+"Boreal conifer YOUNG","biomass",56.89,38.56,"biomass_ag + biomass_root","biomass_ag; biomass_root",61.37,"equal",0
+"Boreal conifer YOUNG","biomass_ag",49.41,29.62,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody",38.28,"equal",0
 "Boreal conifer YOUNG","biomass_ag_woody",35.98,34.32,NA,"",NA,NA,NA
 "Boreal conifer YOUNG","biomass_foliage",2.3,1.18,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","biomass_root",12.12,7.16,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",15.3,"equal",0
-"Boreal conifer YOUNG","biomass_root_coarse",6.34,6.64,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","biomass_root_fine",8.96,23.1,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","deadwood",8.96,23.1,"deadwood_standing + deadwood_down","",NA,NA,NA
-"Boreal conifer YOUNG","deadwood_standing",8.96,23.1,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","deadwood_down",8.96,23.1,NA,"",NA,NA,NA
-"Boreal conifer YOUNG","organic.layer",8.96,23.1,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","biomass_root",11.96,7.3,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",16.22,"equal",0
+"Boreal conifer YOUNG","biomass_root_coarse",6.58,6.99,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","biomass_root_fine",9.64,24.1,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","deadwood",9.64,24.1,"deadwood_standing + deadwood_down","",NA,NA,NA
+"Boreal conifer YOUNG","deadwood_standing",9.64,24.1,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","deadwood_down",9.64,24.1,NA,"",NA,NA,NA
+"Boreal conifer YOUNG","organic.layer",9.64,24.1,NA,"",NA,NA,NA

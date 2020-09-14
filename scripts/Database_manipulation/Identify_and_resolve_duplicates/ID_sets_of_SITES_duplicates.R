@@ -111,4 +111,5 @@ for(i in 1:nrow(SITES)) {
   SITES$measurement.refs[i] <- paste(sort(unique(MEASUREMENTS[MEASUREMENTS$sites.sitename %in% sites.sitename, "citation.ID"])), collapse = "; ")
 }
 
+# save ####
 write.csv(SITES, file = "data/ForC_sites.csv", row.names = F)

@@ -100,13 +100,13 @@ if(any(!unique(MEASUREMENTS$variable.name) %in% VARIABLES$variable.name)) {
 
 
 # For each covariate_# in MEASUREMENTS, there is a definition in VARIABLES
-if(!all(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variable.name] %in% na_codes)) warning("There are covariate_1 in measurements that are not defined in VARIABLES")
+if(!all(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variable.name] %in% na_codes)) warning("There are covariate_1 in measurements that are not defined in VARIABLES") #unique(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variable.name])
 
-if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variable.name] %in% na_codes))warning("There are covariate_2 in measurements that are not defined in VARIABLES")
+if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variable.name] %in% na_codes))warning("There are covariate_2 in measurements that are not defined in VARIABLES") # unique(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variable.name])
 
 
 # For each allometry_1 and allometry_2 in MEASUREMENTS, there is an allometric equation in ALLOMETRIE
-if(!all(unique(na.omit(MEASUREMENTS$allometry_1)) [!unique(na.omit(MEASUREMENTS$allometry_1)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_1.value in measurements that are not defined in ALLOMETRY")
+if(!all(unique(na.omit(MEASUREMENTS$allometry_1)) [!unique(na.omit(MEASUREMENTS$allometry_1)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_1.value in measurements that are not defined in ALLOMETRY") #
 
 if(!all(na.omit(MEASUREMENTS$allometry_2) [!na.omit(MEASUREMENTS$allometry_2) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_2.value in measurements that are not defined in ALLOMETRY")
 
@@ -194,10 +194,10 @@ HISTORY$hist.type2 <- gsub(pattern2, "Fertilization", HISTORY$hist.type)
 HISTTYPE$hist.type2 <- gsub(pattern2, "Fertilization", HISTTYPE$hist.type)
 HISTORY %>%
   anti_join(HISTTYPE, by = c("hist.cat2", "hist.type2")) %>%
-  distinct(history.ID, hist.cat, hist.type) ->
+  distinct(history.ID, hist.cat, hist.type) %>% filter(hist.type != "NAC") ->
   h_no_dist
 cat("There are", nrow(h_no_dist), "history records with undefined disturbance category/type combinations\n")
-if(nrow(h_no_dist)) message("See `h_no_dist`")
+if(nrow(h_no_dist)) message("See `h_no_dist`") # it is okay if all "NAC"
 
 
 # There are no records in HISTORY that lack corresponding records in PLOTS
@@ -263,7 +263,7 @@ if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type
 HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type))] # keep for furture records
 
 
-  
+
 # ===== PFT checks ==== ####
 # PFTs should only be defined once
 if(any(duplicated(PFT$pftcode))) {
@@ -338,10 +338,10 @@ for(i in 1:nrow(VARIABLES)){
   max.v <- as.numeric(VARIABLES$max[i])
   n.records.v <- as.numeric(VARIABLES$n.records[i])
   
-
-    if(n.records.v == 0 & nrow(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]) > 0){
-      Value.for.variables.without.range <- rbind(Value.for.variables.without.range, data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, c("measurement.ID", "sites.sitename", "variable.name", "mean")], min_range = min.v, max_range = max.v))
-    }
+  
+  if(n.records.v == 0 & nrow(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]) > 0){
+    Value.for.variables.without.range <- rbind(Value.for.variables.without.range, data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, c("measurement.ID", "sites.sitename", "variable.name", "mean")], min_range = min.v, max_range = max.v))
+  }
   
   
   
@@ -415,17 +415,17 @@ for( v in sort(unique(mean.not.within.range$variable.name))) {
   curr_minimum <- min(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean)
   curr_maximum <- max(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean)
   
-plot(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, ylim = c(min(old_minimum, curr_minimum), max(old_maximum, curr_maximum)), main = v, col = ifelse(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID %in% mean.not.within.range[mean.not.within.range$variable.name %in% v, ]$measurement.ID, "red", "black"), pch = 16, ylab = v)
+  plot(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, ylim = c(min(old_minimum, curr_minimum), max(old_maximum, curr_maximum)), main = v, col = ifelse(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID %in% mean.not.within.range[mean.not.within.range$variable.name %in% v, ]$measurement.ID, "red", "black"), pch = 16, ylab = v)
   abline(h =c(old_minimum, old_maximum))
   text(x = 1:nrow(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]), y = MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, labels = ifelse(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID %in% mean.not.within.range[mean.not.within.range$variable.name %in% v, ]$measurement.ID, MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID, NA), pos = 2)
   
   HTMLplot(file=target, append = T, GraphDirectory = "scripts/QA_QC")
-
+  
   Sys.sleep(1)
 }
 
 
-# file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
+file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
 
 # ===== All tables numerical variables, check against range in corresponding matadata table ==== ####
 
@@ -434,7 +434,7 @@ plot(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, ylim = c(min(old_mi
 variable.not.within.range <- NULL
 
 for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "VARIABLES", "METHODOLOGY","ALLOMETRY")){
- 
+  
   DF <- as.data.frame(get(Table))
   DF_meta <- as.data.frame(get(paste0(Table, "_meta")))
   
@@ -449,7 +449,7 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
     
     
     if(all(!is.na(c(DF_meta.min, DF_meta.max)))) {
-    
+      
       x <- DF[, f]
       x <- round(na.omit(as.numeric(ifelse(x %in% na_codes, NA, x))))
       

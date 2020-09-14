@@ -128,7 +128,12 @@ for(response.v in response.variables) {
   if(enough.data.for.mixed.model) {
     mod.young <- lmer(mean ~ log10(stand.age) + Biome + (1|geographic.area/plot.name), data = droplevels(df.young)) # when there is enough data for mixed model
   } else {
-    mod.young <- lm(mean ~ log10(stand.age) + Biome , data = droplevels(df.young))# when there is not enough data for mixed model
+    if(length(unique(droplevels(df.young)$Biome)) > 1) {
+      mod.young <- lm(mean ~ log10(stand.age) + Biome , data = droplevels(df.young))# when there is not enough data for mixed model
+    } else {
+      mod.young <- lm(mean ~ log10(stand.age), data = droplevels(df.young)) # when there is not enough data for mixed model
+    }
+   
   }
   
   drop1.result <- drop1(mod.young, k = log(nrow(df.young)))
@@ -175,9 +180,11 @@ for(response.v in response.variables) {
   coordinates(sites) <- c("lon", "lat")
   points(sites, col = color.biome[df.young$Biome], pch = 4)
   
-  sites <- df.mature[, c("lat", "lon", "Biome")]
-  coordinates(sites) <- c("lon", "lat")
-  points(sites, col = color.biome[df.mature$Biome], pch = 1)
+  if(nrow(df.mature) > 0) {
+    sites <- df.mature[, c("lat", "lon", "Biome")]
+    coordinates(sites) <- c("lon", "lat")
+    points(sites, col = color.biome[df.mature$Biome], pch = 1)
+  }
   
   ### Plot young 
   par(mar = c(5.1,4.1,0,0))
@@ -194,10 +201,14 @@ for(response.v in response.variables) {
   
   ## boxplot mature
   par(mar = c(5.1,0,0,0))
+  if(nrow(df.mature) > 0) {
   boxplot(mean ~ Biome, data = droplevels(df.mature), ylim = ylim, axes = F, xlab = "Mature Forest", col = color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], outcol =color.biome[as.factor(levels(df$Biome)) %in% df.mature$Biome], log = ifelse(right.skewed.response, "y", ""))
 
   if(biome.significant & !class(mod.mature) %in% "try-error") { # do pairwise comparison
     text(x = c(1:length(unique(droplevels(df.mature)$Biome))), y = max(df.mature$mean) + diff(ylim)/50, pairwise.comp.letter.grouping$mcletters$Letters)
+  }
+  } else {
+    boxplot(c(0,0,0,0), axes = F, border = "white", xlab = "Mature Forest")
   }
   
   mtext(side = 1, line = -1, adj = 0.03, text = paste("n =", nrow(df.mature)), cex = 0.5)

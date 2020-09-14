@@ -12,7 +12,7 @@
 # Clean environment ####
 rm(list = ls())
 
-# Set working directory as ForC main folder ####
+# Set working directory ####
 setwd(".")
 
 # Load libaries ####
@@ -29,6 +29,7 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 sets.of.columns.to.keep.at.the.end <- names(MEASUREMENTS)
 
 # Prepare data ####
+
 
 ## Ignore _OM and _Oc in variables names ####
 MEASUREMENTS$variable.name.combined <- MEASUREMENTS$variable.name
@@ -145,6 +146,18 @@ MEASUREMENTS[, c("conflicts", "R.group", "S.group", "D.group", "conflict.type", 
 
 
 # Split Measurement by site plot and variables name ####
+
+## save the only thing we need, clear environment to free up some space and load what we need
+save(list = c("MEASUREMENTS", 
+              "duplicate.related.columns", 
+              "sets.of.columns.to.keep.at.the.end",
+              "original.duplicate.related.column.values",
+              "my_is.na",
+              "my_na.omit", 
+              "na_codes"), file = "scripts/Database_manipulation/Identify_and_resolve_duplicates/temporary_saved_environment.RData")
+rm(list = ls())
+gc()
+load("scripts/Database_manipulation/Identify_and_resolve_duplicates/temporary_saved_environment.RData")
 
 MEASUREMENTS.split <- split(MEASUREMENTS, list(MEASUREMENTS$sites.sitename, MEASUREMENTS$plot.name, MEASUREMENTS$variable.name.combined), drop = TRUE)
 
@@ -614,7 +627,20 @@ for(i in 1:length(MEASUREMENTS.split)){
       
     } # if any missing dates, give s category
     
+    ## if all from GROA, they are all Independent records
+    if(all(X$required.citations %in% "[Cook-Patton database citation, in ForC format]")) {
+      X$conflicts <- "I"
+      X$R.group <- NA
+      X$S.group <- NA
+      X$D.group <- NA
+      X$D.precedence <- NA
+      X$conflict.type <- NA
+      X$D.precedence.measurement.ID <- NA
+      
+    }
     
+    
+
   } # if more than one record...  
   
   ### Clean up the group codes ####
@@ -1199,7 +1225,7 @@ for(i in 1:length(MEASUREMENTS.split)){
   } # if there is any duplicates
   
   # save output into final object####
-  MEASUREMENTS.final[[i]] <- X
+    MEASUREMENTS.final[[i]] <- X
 } # for(i in 1:length(MEASUREMENTS.split))
 
 
@@ -1256,7 +1282,8 @@ retrieve.old.version.meas.IDs <- c("1224;1225;1226;1227;1228;1229;17532;17542;17
                                    "27514;27524;27534", "27509;27519;27529", "21661;21663", "21662;21664","27513;27523;27533",# T conflict but I think it is better to keep them independant
                                    "26209;29187;29204;29205;29206", "28699;28700;28701", # looks like it was editted manually before
                                    "17035;17036;17037;17039;17040;17041;17042;17043;17044;23082;23092;23102;23112;23122;23132", # looks like it was editted manually before
-                                   "28947;28948;28949;28950", "30567;30570", "30568;30569" # looks like it was editted manually before
+                                   "28947;28948;28949;28950", "30567;30570", "30568;30569", # looks like it was editted manually before
+                                   "13538;13539;30692;30693" # looks like it was legintimately added
 ) # paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the old version is more approriate than the code's output
 
 delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% only.one.record.left.split.ID, ]$measurement.ID, #ignore old conflicts of measurement.ID that are in a conflict groups where only one record is left
@@ -1705,7 +1732,7 @@ for(split.ID in NAC.D.precedence.split.ID) {
 
 NAC.D.precedence.D.group <- sort(as.numeric(unique(unlist(strsplit(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% NAC.D.precedence.split.ID, ]$D.group, ";")))))
 
-msg_box(paste("There is", length(NAC.D.precedence.D.group), "groups where D precedence needs to be given manually. But don't worry, it will ba faster than you think to fix them manually."))
+msg_box(paste("There is", length(NAC.D.precedence.D.group), "groups where D precedence needs to be given manually. But don't worry, it will be faster than you think to fix them manually."))
 
 # remove columns we don't want to keep ####
 names(MEASUREMENTS.final)[!names(MEASUREMENTS.final) %in% sets.of.columns.to.keep.at.the.end]
