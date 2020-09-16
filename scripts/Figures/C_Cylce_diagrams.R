@@ -194,7 +194,7 @@ variables <- list(NEE = list(variable.type = "flux", #####
                                          y.adjust = -0.8,
                                          x.adjust = 0.8,
                                          move.text.box = "null",
-                                         need.semi.transparent.box = FALSE),
+                                         need.semi.transparent.box = TRUE),
                   R_soil = list(variable.type = "flux",
                                 variable.name  = expression(bold("R"[soil])),
                                 coordinates = list(x0 = 5.9, y0 = 0.8, x1 = 5.9, y1 = 1.9),

@@ -628,7 +628,7 @@ for(i in 1:length(MEASUREMENTS.split)){
     } # if any missing dates, give s category
     
     ## if all from GROA, they are all Independent records
-    if(all(X$required.citations %in% "[Cook-Patton database citation, in ForC format]")) {
+    if(all(X$ForC.investigator %in% "Dr. Susan Cook-Patton")) {
       X$conflicts <- "I"
       X$R.group <- NA
       X$S.group <- NA
