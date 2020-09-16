@@ -552,11 +552,11 @@ for(b in unique(ForC_biome_averages$Biome)){
   
   # add equations if any
   if(length(flux.equations.to.right.at.the.bottom > 0)) {
-      mtext(side = 1, text = paste0("eq (F", 1:length(flux.equations.to.right.at.the.bottom), "): ", flux.equations.to.right.at.the.bottom), line = - (c(length(flux.equations.to.right.at.the.bottom):1)-1) * 0.5, adj = 0.03, cex = 0.7)
+      mtext(side = 1, text = paste0("eq (F", 1:length(flux.equations.to.right.at.the.bottom), "): ", flux.equations.to.right.at.the.bottom), line = - (c(length(flux.equations.to.right.at.the.bottom):1)-4) * 0.5, adj = 0.03, cex = 0.7)
   }
   
   if(length(stock.equations.to.right.at.the.bottom > 0)) {
-    mtext(side = 1, text = paste0("eq (S", 1:length(stock.equations.to.right.at.the.bottom), "): ", stock.equations.to.right.at.the.bottom), line = - (c(length(stock.equations.to.right.at.the.bottom):1)-1) * 0.5, adj = 0.97, cex = 0.7)
+    mtext(side = 1, text = paste0("eq (S", 1:length(stock.equations.to.right.at.the.bottom), "): ", stock.equations.to.right.at.the.bottom), line = - (c(length(stock.equations.to.right.at.the.bottom):1)-4) * 0.5, adj = 0.97, cex = 0.7)
   }
   
   
