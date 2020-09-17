@@ -1,5 +1,5 @@
 variable.name,theoritical.components.equation
-NEE,R_eco - GPP
+NEP,GPP - R_eco
 GPP,NPP + R_auto_ag
 NPP,ANPP + BNPP
 ANPP,ANPP_foliage + ANPP_woody + ANPP_repro + ANPP_folivory
