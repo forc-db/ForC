@@ -1,6 +1,6 @@
 current.priority,citation.ID,citation.doi,citation.author,citation.year,citation.title,variables,disturbance.types,geographic.scope,n.sites,n.plots,n.records,notes,status,GitHub.issue,date.finished
 NA,Bond-Lamberty_2010_agdo,10.5194/bg-7-1915-2010,Bond-Lamberty,2010,A global database of soil respiration data ,many (Rsoil focus),any,global,,,,,4-done,https://github.com/forc-db/ForC/issues/78,2019-08
-1,NA,NA,Cook-Patton,in prep,GROA,biomass,regrowth,global,,,,,3-in progress/ partially entered,https://github.com/forc-db/ForC/issues/98,
+1,NA,NA,Cook-Patton,in press,GROA,biomass,regrowth,global,,,,,4-done,https://github.com/forc-db/ForC/issues/98,
 1,NA,NA,NA,NA,[FLUXNET- most recent,"NEE,GPP, Reco",multiple,global,,,,"a lot of data already in database, but it would be good to standardize against official site names and most recent data",3-in progress/ partially entered,https://github.com/forc-db/ForC/issues/149,
 1,Palace_2012_aroa,NA,Palace,2012,A review of above ground necromass in tropical forests,"deadwood, deadwood_down, deadwood_standing, AGB, ",any,(sub)tropical global,~50-100?,,,"many of these sites already included in ForC, some in GROA. Check for novel data.",2-pending,,
 2,Muller-Landau_2014_dapc,NA,Muller-Landau,2014,Detecting and projecting changes in forest biomass from plot data,delta.agb,mature,pan-tropical,,,,"ForestGEO, RAINFOR, AFRITRON",2-pending,https://github.com/forc-db/ForC/issues/79,
