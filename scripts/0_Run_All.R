@@ -41,7 +41,7 @@ source("scripts/Database_manipulation/Identify_and_resolve_duplicates/ID_sets_of
 source("scripts/Database_manipulation/Identify_and_resolve_duplicates/ID_sets_of_duplicate_records.R")
 
 ## Fill in dominant.veg when we can now (commented out when no new data because is a little long)
-# source("Fill_in_dominant_veg_when_possible_to_know")
+# source("scripts/Database_manipulation/Fill_in_dominant_veg_when_possible_to_know.R")
 
 
 ## Generate ForC_simplified and ForC_simplified_metadata ####
@@ -64,6 +64,7 @@ source("scripts/Figures/Histogram_of_number_of_records_by_measurement_date.R")
 source("scripts/Figures/Histogram_of_sites_elevetion.R")
 source("scripts/Figures/Histogram_of_Stand_Age.R")
 source("scripts/Figures/World_Map_with_Biogeographic_Regions_and_ForC_Sites.R")
+source("scripts/Figures/World_Map_with_Biomes_and_ForC_simplified_Sites_for_ERL_review.R")
 
 
 

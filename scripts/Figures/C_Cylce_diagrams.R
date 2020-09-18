@@ -44,8 +44,8 @@ img.Boreal_conifer_YOUNG <- readPNG(source = "figures/C_cycle_diagrams/Forest pa
 # Prepare list of variables and their relevant attributes ####
 
 variable.names <- unique(ForC_biome_averages$variable.diagram)
-variables <- list(NEE = list(variable.type = "flux", #####
-                             variable.name  = expression(bold("NEE")),
+variables <- list(NEP = list(variable.type = "flux", #####
+                             variable.name  = expression(bold("NEP")),
                              coordinates = list(x0 = 3, y0 = 11, x1 = 3, y1 = 10),
                              y.adjust = 0,
                              x.adjust = 0,
@@ -330,12 +330,12 @@ for(b in unique(ForC_biome_averages$Biome)){
   stock.equations.to.right.at.the.bottom <- NULL
   
   if(save.plot) {
-    tiff(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".tiff"), width =  2625, height = 2250, units = "px", res = 300)
-    op <- par(mar = c(1,1,1,1), pin = c(15.3 * 0.53, 11 * 0.53)) #  pty = "s") # 
+    png(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".png"), width =  2500, height = 2000, units = "px", res = 300)
+    op <- par(mar = c(0,0,0,0), oma = c(ifelse(grepl("YOUNG",b), 4, 0),0,0,0), pin = c(15.3 * 0.53, 11 * 0.53)) #  pty = "s") # 
   }
   
   # par(xaxs='i', yaxs='i')
-  plot(c(-0.8, 14.5), c(0, 11), type = "n", axes = F, xlab = "", ylab = "", main = b)
+  plot(c(-0.8, 14.5), c(0, 11), type = "n", axes = F, xlab = "", ylab = "") # , main = b
   # rasterImage(img, 14, 0, 6, 11)
   rasterImage(img, -1, 0, 15, 11)
   # plot the C cylce values ####
@@ -578,3 +578,6 @@ for(b in unique(ForC_biome_averages$Biome)){
 
 
 
+# copy over diagrams to the ERL_review repo ####
+file.copy(paste0("figures/C_cycle_diagrams/Diagrams/", unique(ForC_biome_averages$Biome), ".png"),
+paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/", unique(ForC_biome_averages$Biome), ".png"), overwrite = T)

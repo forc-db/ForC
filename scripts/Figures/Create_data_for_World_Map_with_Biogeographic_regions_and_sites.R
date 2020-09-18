@@ -21,6 +21,7 @@ setwd(".")
 # Load libraries ####
 library(rgdal)
 library(rgeos)
+library(sp)
 
 
 # LOAD SYNMAP MAP AND LEGEND ####
@@ -66,9 +67,22 @@ which(!gIsValid(ECOREGIONS, byid = TRUE)) # should be empty
 
 # LOAD COUNTOUR MAP ####
 
+# LOAD KOEPPEN and make Biomes column ####
+KOEPPEN <- readOGR("S:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/koeppen_dissolved.shp", layer = "koeppen_dissolved", stringsAsFactors = F)
+categoriesKOEPPEN <- read.table("S:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/Legend.txt", stringsAsFactors = F)
+categoriesKOEPPEN <- categoriesKOEPPEN[, c(1,3)]
+colnames(categoriesKOEPPEN) <- c("GRIDCODE", "Koeppen")
 
+categoriesKOEPPEN$Biome <- ifelse(grepl("^A", categoriesKOEPPEN$Koeppen ), "Tropical",
+                                    ifelse(grepl("(^C)|(^D.a$)|(^D.b$)", categoriesKOEPPEN$Koeppen ), "Temperate",
+                                           ifelse(grepl("(^D.c$)|(^D.d$)", categoriesKOEPPEN$Koeppen ), "Boreal", "Other")))
 
-# CREATE COLOR VECTORS
+KOEPPEN$Biome <- categoriesKOEPPEN$Biome[match(KOEPPEN$GRIDCODE, categoriesKOEPPEN$GRIDCODE)]
+
+# LOAD FAO ecozones ####
+FAO <- readOGR("S:/Global Maps Data/Shapefiles/FAO global eco_zone/gez_2010_wgs84.shp", layer = "gez_2010_wgs84", stringsAsFactors = F)
+
+# CREATE COLOR VECTORS ####
 names(ECOREGIONS)
 ECOREGIONS_colors = c("goldenrod3", "grey", "violetred3", "cadetblue4", "chocolate", "darkgreen", "darkorchid4", "darkred")
 
@@ -76,17 +90,21 @@ names(SYNMAP)
 SYNMAP_density <- rgb(c(255,255,255,255), c(255,255,255,255), c(255,255,255,255), alpha =  c(100,0,150,200), maxColorValue = 255)
 
 
-# ADD SITES
+KOEPPEN_biome_colors <- c(Boreal = "cadetblue",
+                          Temperate = "darkorange",
+                          Tropical = "tomato",
+                          Other = "grey")
+
+# LOAD SITES AND MEASUREMENTS + count records ####
 
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 
 No.of.records <- tapply(MEASUREMENTS$mean, MEASUREMENTS$sites.sitename, function(x) sum(!is.na(x)))
-No.of.records <- data.frame(sites.sitename = rownames(No.of.records), No.of.records = as.vector(No.of.records))
-str(No.of.records)
 
-SITES <- SITES[, c("sites.sitename", "lat", "lon", "FAO.ecozone")]
-SITES <- merge(SITES, No.of.records, by = "sites.sitename")
+
+SITES <- SITES[!is.na(SITES$lat) & !is.na(SITES$lon), c("sites.sitename", "lat", "lon", "FAO.ecozone")]
+SITES$No.of.records <- No.of.records[SITES$sites.sitename]
 
 
 
@@ -99,9 +117,12 @@ rbPal <- colorRampPalette(c("yellow", "red4"))
 SITES$Color <- rbPal(6)[as.numeric(cut(SITES$No.of.records, breaks = c(0,1,10,20,40,80,277)))]
 
 
+
+
+
 ## make inset plot ####
 
-SITES$Ecoregion <- over(SITES,ECOREGIONS) 
+SITES$Ecoregion <- over(SITES, ECOREGIONS) 
 SITES$Ecoregion <- names(ECOREGIONS)[SITES$Ecoregion]
 
 HISTORY <- read.csv("data/ForC_history.csv", stringsAsFactors = F)
@@ -109,10 +130,6 @@ HISTORY <- read.csv("data/ForC_history.csv", stringsAsFactors = F)
 
 HISTORY_Summary <- merge(HISTORY[, c("sites.sitename", "plot.name")], SITES[, c("sites.sitename", "Ecoregion")])
 MEASUREMENTS_Summary <- merge(MEASUREMENTS[, c("sites.sitename", "plot.name")], SITES[, c("sites.sitename", "Ecoregion")])
-
-
-### forested area
-forested_area <- table(SITES$Ecoregion[grepl("forest", SITES$FAO.ecozone)])
 
 ### No. of sites
 No._of_sites <- table(SITES$Ecoregion)

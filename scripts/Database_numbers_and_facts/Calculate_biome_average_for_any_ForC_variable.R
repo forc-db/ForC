@@ -98,8 +98,8 @@ ForC_biome_averages <- NULL
 for(b in Biomes.of.interest){
   print(b)
   
-  # get the data from the biome + except sites that were managed or disturbed
-  B <- ForC_simplified[Biome %in% b & ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0,] # remove managed and disturbed sites
+  # get the data from the biome + except sites that were managed or disturbed or have no history info
+  B <- ForC_simplified[Biome %in% b & ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0 & ForC_simplified$history.no.info %in%0,] # remove managed and disturbed sites
   
   young <- grepl("YOUNG" , b)
  
@@ -254,3 +254,151 @@ for (v.diag in unique(Variables_mapping$variable.diagram)) { # for each variable
 # save ####
 
 write.csv(ForC_biome_averages, file = "numbers_and_facts/ForC_variable_averages_per_Biome.csv", row.names = F)
+
+
+# prepare C_variables.csv for ERL review ####
+
+C_variables <- NULL
+for (v.diag in unique(Variables_mapping$variable.diagram)) { # for each variable in the C cycle diagram
+  print(v.diag)
+  
+  # get the variables mapping info
+  v.map <- Variables_mapping[Variables_mapping$variable.diagram %in% v.diag,]
+  v <- v.map$variable.name
+  v.type <- unique(v.map$variable.type)
+  flux <- v.type %in% "flux"
+  
+  # subset for the variables of interst
+  X <- B[B$variable.name %in% v, ]
+  
+  # get number of records
+  n.records <- nrow(X)
+  
+  # conversion.factor
+  m <- match(X$variable.name, v)
+  X$mean <- X$mean * as.numeric(v.map$conversion.factor[m])
+  
+  # add NA for plots and geographic area as a factor level for both mixed model random effect and average within each groups
+  X$plot.name <- addNA(X$plot.name)
+  X$geographic.area <- addNA(X$geographic.area)
+  
+  # consider stand.age as numeric
+  X$stand.age <- as.numeric(ifelse(my_is.na(X$stand.age), NA, X$stand.age))
+  
+  # if yound forest, compute a mixed effects model with stand.age as a fixed effect and plot as a random effect nested within geographic.area. When the effect of stand.age was significant at p≤0.05, summary statistics were reported as function of age. When there was no significant effect of stand.age, records were averaged as in the preceding two steps for mature stands. For mature stands and young stands with no significant age effects, we computed an unweighted average across geographic.areas.
+  
+  X.for.model <-  X[!is.na(X$stand.age) & ! X$stand.age %in% 0, ] # removing 0 because we are using log10
+  
+  if(young & nrow(X.for.model)>10 & length(unique(X.for.model[, c("geographic.area")])) >= 3) { # young + more than 10 n.records + at least 3 different geographic.area
+    
+    # if(length(unique(X.for.model$geographic.area)) >= 3) { # mixed.model
+    mod.null <- lmer(mean ~ 1 + (1|geographic.area), data = X.for.model)
+    mod <- lmer(mean ~ log10(stand.age) + (1|geographic.area), data =  X.for.model)
+    anova.mod <- anova(mod.null, mod)
+    significant <- anova.mod$'Pr(>Chisq)'[2] < 0.05 &  rownames(anova.mod)[2] %in% "mod"
+    
+    # } # mixed.model
+    
+    # if(length(unique(X.for.model$geographic.area)) < 3) { # linear model
+    #   mod.null <- lm(mean ~ 1, data = X.for.model)
+    #   mod <- lm(mean ~ log10(stand.age), data =  X.for.model)
+    #   anova.mod <- anova(mod.null, mod)
+    #   significant <- anova.mod$'Pr(>F)'[2] < 0.05
+    # } # linear model
+    
+    if(significant){
+      summary.mod <- summary(mod)$coefficients
+      intercept <- round(summary.mod["(Intercept)", "Estimate" ], 2)
+      intercept.se <- round(summary.mod["(Intercept)", "Std. Error" ], 2)
+      slope <- round(summary.mod["log10(stand.age)", "Estimate" ], 2)
+      slope.se <- round(summary.mod["log10(stand.age)", "Std. Error" ], 2)
+      equation <- paste0(format(intercept, nsmall = 2), "\u00b1", format(intercept.se, nsmall = 2), ifelse(sign(slope) == -1, "-log10(age)\u00D7", "+log10(age)\u00D7"), format(abs(slope), nsmall = 2), "\u00b1", format(slope.se, nsmall = 2))
+    }
+    
+    if(!significant) equation = NA
+  } # mixed.model
+  
+  if(!young | !nrow(X.for.model)>10) equation = NA
+  
+  # if not young or if effect of stand.age was not significant at p≤0.05, average all years per plot, weigthing per measurement perdiod if it is a flux with start and end date + taking higer variable if there is several (like NPP_1 and NPP_2)
+  X.split <- split(X, f = list(X$sites.sitename, X$plot.name), drop = T)
+  n.plots <- length(X.split) # get number of plots
+  
+  if(n.plots >= 1) {
+    X.final <- NULL
+    
+    for(i in 1:n.plots) {
+      
+      x <- X.split[[i]]
+      
+      # caluculate weigh, keep it only if we are working with flux data and start and end dates are given
+      timint <- difftime(x$end.date, x$start.date, units = "days") / 365
+      timint <- ifelse(is.na(timint), 1, timint) # take 1 if there is no start and end date
+      timint <- ifelse(timint == 0, 1, timint) # take 1 if there is start and end date are equal (assuming they are 1 year measuremet from Jan 01 to dec 31)
+      if(!flux) timint[] <- 1 # take the timint only if we are working in a flux, otherwise just put 1
+      
+      # get the highest variable name
+      v.number <- as.numeric(gsub("(\\w*)([0-9]$)", "\\2", x$variable.name))
+      higest.v <- which(v.number %in% max(v.number))[1]
+      
+      x.out <- x[higest.v,] # take only one row (the highest variable name if there is a number in it)
+      x.out$mean <-  weighted.mean(x$mean, timint)# replace the mean by the average of all rows, weighted by time intervalle if flux with start and end date
+      
+      X.final <- rbind(X.final, x.out)
+      
+      if(is.na(x.out$mean)) stop("problem: mean is NA") # stop if we get an NA for the mean
+    }
+    
+    if(nrow(X.final) != length(X.split)) {stop("Problem when averaging per plot, we don't end up with th right number of observations...")}
+    
+    X <- X.final
+  }
+  
+  # average per geographic area and weighing by plot.area if it is given for all plots
+  X.split <- split(X, f = list(X$geographic.area), drop = T)
+  n.areas <- length(X.split) # get number of geographic areas
+  
+  
+  if(n.areas >= 1) {
+    X.final <- NULL
+    
+    for(i in 1:n.areas) {
+      
+      x <- X.split[[i]]
+      
+      all.plot.area.given <- all(!my_is.na(x$plot.area))
+      
+      if(all.plot.area.given) wt.plot.area <- as.numeric(x$plot.area) else wt.plot.area <- rep(1, nrow(x))
+      
+      x.out <- x[1,] # take only one row
+      x.out$mean <-  weighted.mean(x$mean, wt.plot.area)# replace the mean by the average of all rows, weighted by plot area if all are given
+      
+      X.final <- rbind(X.final, x.out)
+    }
+    
+    if(nrow(X.final) != length(X.split)) {stop("Problem when averaging per plot, we don't end up with th right number of observations...")}
+    
+    X <- X.final
+  }
+  
+  # get statistics
+  
+  results <- data.frame(Biome = b,
+                        variable.type = v.type,
+                        variable.diagram = v.diag,
+                        mean = round(mean(X$mean), 2),
+                        std = round(sd(X$mean), 2),
+                        se = round(sd(X$mean) / nrow(X), 2),
+                        LCI = round(mean(X$mean) - 1.96 * sd(X$mean) / nrow(X), 2),
+                        UCI = round(mean(X$mean) + 1.96 * sd(X$mean) / nrow(X), 2),
+                        min = min(X$mean),
+                        max = max(X$mean),
+                        equation = equation,
+                        n.records = n.records,
+                        n.plots = n.plots,
+                        n.areas = n.areas
+  )
+  
+  ForC_biome_averages <- rbind(ForC_biome_averages, results)
+  
+}

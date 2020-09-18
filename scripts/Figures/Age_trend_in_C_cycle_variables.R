@@ -81,13 +81,14 @@ ForC_simplified <- droplevels(ForC_simplified[!ForC_simplified$Biome %in% "Other
 
 # order Biomes correctly
 ForC_simplified$Biome <- factor(ForC_simplified$Biome, levels = c("Tropical", "Temperate broadleaf", "Temperate conifer", "Boreal"))
+
 # Remove rows with no Age
 
 ForC_simplified <- droplevels(ForC_simplified[!is.na(ForC_simplified$stand.age), ])
 
 ## prepare color for biomes
 levels(ForC_simplified$Biome)
-color.biome <- c( "red", "green", "blue", "cyan2")
+color.biome <- c("Tropical" = "tomato", "Temperate broadleaf" = "yellowgreen", "Temperate conifer" = "cyan2", "Boreal" = "cadetblue")
 
 ## prepare map
 Continents <- crop(Continents, extent(-180, 180, -43, 73))
@@ -98,14 +99,19 @@ ForC_simplified[ForC_simplified$variable.name %in% c("ANPP_0", "ANPP_1", "ANPP_2
 ForC_simplified[ForC_simplified$variable.name %in% c("ANPP_litterfall_1", "ANPP_litterfall_2", "ANPP_litterfall_0"),]$variable.name <- "ANPP_litterfall"
 
 #### multiply NEP  by -1 anc consider is as NEE
-ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$mean <- -ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$mean 
-ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$variable.name <- "NEE"
+# ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$mean <- -ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$mean 
+# ForC_simplified[ForC_simplified $variable.name %in% c("NEP"),]$variable.name <- "NEE"
+
+#### multiply NEE  by -1 anc consider is as NEP
+ForC_simplified[ForC_simplified $variable.name %in% c("NEE"),]$mean <- -ForC_simplified[ForC_simplified $variable.name %in% c("NEE"),]$mean
+ForC_simplified[ForC_simplified $variable.name %in% c("NEE"),]$variable.name <- "NEP"
 
 ## Prepare list of variables to use (those that have at least 30 records in young forest)
 response.variables <- names(which(table(ForC_simplified[ForC_simplified$stand.age < 100 & ForC_simplified$stand.age !=0, ]$variable.name)>= 30))
-response.variables <- response.variables[!response.variables %in% c("NPP_understory", "total.ecosystem", "soil")]
+# response.variables <- response.variables[!response.variables %in% c("NPP_understory", "total.ecosystem", "soil")]
 
 # Run analysis + plot####
+v_not_enough_data_for_mature <- NULL
 
 for(response.v in response.variables) {
   print(response.v)
@@ -163,6 +169,8 @@ for(response.v in response.variables) {
       pairwise.comp <- glht(mod.mature, linfct = mcp(Biome = "Tukey"))
       pairwise.comp.letter.grouping <- cld(pairwise.comp) 
     }
+  } else {
+    v_not_enough_data_for_mature <- c(v_not_enough_data_for_mature, response.v)
   }
   
   ### plot
@@ -217,12 +225,17 @@ for(response.v in response.variables) {
   if(save.plot) dev.off()
 }
 
-# Figure 6 and 7 ERL-review####
 
-for( fig in c("Figure6", "Figure7")) {
+
+if(!is.null(v_not_enough_data_for_mature)) {
+  write.csv(v_not_enough_data_for_mature, "figures/age_trends/for_ERL_review/v_not_enough_data_for_mature.txt", row.names = F, quote = F, col.names = NULL)
+  write.csv(v_not_enough_data_for_mature, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/v_not_enough_data_for_mature.txt"), row.names = F, quote = F, col.names = NULL, )
+  }
+# Figure for ERL-review####
+for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
 
-  if(save.plot) tiff(file = paste0("figures/age_trends/for_ERL_review/", fig, ".tiff"), height = 1000, width = 1000, units = "px", res = 150)
+  if(save.plot) png(file = paste0("figures/age_trends/for_ERL_review/", fig, ".png"), height = 1000, width = 1000, units = "px", res = 150)
   
   ### layout figure
   nf <- layout(matrix(c(1,1,4,4,
@@ -230,13 +243,14 @@ for( fig in c("Figure6", "Figure7")) {
                         7,7,10,10,
                         8,9,11,12,
                         13,13,16,16,
-                        14,15,17,18), ncol = 4, byrow = T), heights = rep(c(1,2),3), widths = rep(c(4,1),2))
+                        14,15,17,18), 
+                      ncol = 4, byrow = T), heights = rep(c(1,2), 3), widths = rep(c(4,1),2))
+
   
-  if (fig %in% "Figure6") variables.of.interest <- c("GPP", "NPP", "ANPP", "R_soil", "R_eco", "NEE")
-  if (fig %in% "Figure7")  variables.of.interest <- c("biomass_ag", "biomass_ag_foliage", "biomass_root_fine", "deadwood")
+  if (fig %in% "Flux_age_trends") variables.of.interest <- c("GPP", "NPP", "ANPP", "R_soil", "R_eco", "NEP")
+  if (fig %in% "Stock_age_trends")  variables.of.interest <- c("biomass_ag", "biomass_ag_foliage", "biomass_root_fine", "deadwood_standing", "deadwood_down", "organic.layer")
  
-  
-  for(response.v in variables.of.interest) {
+   for(response.v in variables.of.interest) {
     print(response.v)
     
     # right.skewed.response <- response.v %in% right.skewed_response.variables
@@ -331,12 +345,20 @@ for( fig in c("Figure6", "Figure7")) {
     
     mtext(side = 1, line = 0, adj = 1, text = paste("n =", nrow(df.mature)), cex = 0.5)
     
-    Sys.sleep(time = 1) # this is to avoid a problem when NEE is launch while R_eco has not been plotted yet. The NEE was tkaing R_eco's place
+    Sys.sleep(time = 1) # this is to avoid a problem when NEP is launch while R_eco has not been plotted yet. The NEP was tkaing R_eco's place
     
   } # for(response.v in variables.of.interest)
   
   if(save.plot) dev.off()
   
   
-} # for( fig in c("Figure6", "Figure7"))
+} # for( fig in c("Flux_age_trends", "Stock_age_trends"))
+
+
+
+# copy over "Flux_age_trends", "Stock_age_trends" to the ERL_review repo ####
+file.copy(c("figures/age_trends/for_ERL_review/Flux_age_trends.png",
+            "figures/age_trends/for_ERL_review/Stock_age_trends.png"),
+          paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/", c("Flux_age_trends.png", "Stock_age_trends.png")), overwrite = T)
+
      

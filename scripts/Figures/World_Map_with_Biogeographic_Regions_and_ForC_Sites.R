@@ -10,7 +10,7 @@
 # Clean environment ####
 rm(list = ls())
 
-# Set working directory as ForC main folder ####
+# Set working directory ####
 setwd(".")
 
 # Load libraries ####
@@ -27,7 +27,7 @@ png("figures/World_Map_with_Biogeographic_regions_and_sites.png", width=169, hei
 par(mar = c(0,0,0,0))
 
 plot(SYNMAP, col = "grey",  border = "transparent")
-plot(ECOREGIONS, add = T, col = ECOREGIONS_colors, border = "white")
+plot(ECOREGIONS, add = T, col = ECOREGIONS_colors, border = "transparent")
 plot(SYNMAP, add = T, col = SYNMAP_density, border = "transparent")
 
 
@@ -48,11 +48,11 @@ par(fig = c(0.63, 1, 0, 0.41), new = T)
 par(mar = c(5.1, 4.1, 4.1, 2.1))
 par(oma = c(0,5,0,0))
 
-b <- barplot(t(rbind(forested_area/sum(forested_area), No._of_sites/sum(No._of_sites), No._of_plots/sum(No._of_plots), No._of_records/sum(No._of_records))), col = rgb(t(col2rgb(c("goldenrod3", "grey", "violetred3", "cadetblue4", "chocolate", "darkgreen", "darkorchid4", "darkred")[order(names(ECOREGIONS))][-2])), alpha = rep(200, 8), maxColorValue = 255), horiz = T, xaxt = "n", border = "transparent")
+b <- barplot(t(rbind(No._of_sites/sum(No._of_sites), No._of_plots/sum(No._of_plots), No._of_records/sum(No._of_records))), col = rgb(t(col2rgb(c("goldenrod3", "grey", "violetred3", "cadetblue4", "chocolate", "darkgreen", "darkorchid4", "darkred")[order(names(ECOREGIONS))][-2])), alpha = rep(200, 8), maxColorValue = 255), horiz = T, xaxt = "n", border = "transparent")
 
 
 axis(1, at = c(0, .5, 1), labels = c("0%", "50%"," 100%"))
-mtext(c("No. of records", "No. of plots", "No. of sites", "forested area"), side = 2, at = rev(b), las = 1, line = 1)
+mtext(c("No. of records", "No. of plots", "No. of sites"), side = 2, at = rev(b), las = 1, line = 1)
 
 dev.off()
 
