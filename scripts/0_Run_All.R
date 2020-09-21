@@ -51,12 +51,12 @@ source("scripts/Database_manipulation/Create_ForC_simplified_metadata.R")
 
 
 ## Database numbers and facts ####
-source("scripts/Database_numbers_and_facts/Calculate_biome_average_for_any_ForC_variable.R")
+source("scripts/Database_numbers_and_facts/Calculate_biome_average_and_age_trend_for_any_ForC_variable.R") # previously Calculate_biome_average_for_any_ForC_variable.R"
 source("scripts/Database_numbers_and_facts/Sample_size_per_variable_and forest_biome_combination.R")
 source("scripts/Database_numbers_and_facts/Test_for_C_cycle_closure_(consistency).R")
 
 ## Figures ####
-source("scripts/Figures/Age_trend_in_C_cycle_variables.R")
+# source("scripts/Figures/Age_trend_in_C_cycle_variables.R") #this is now in Calculate_biome_average_and_age_trend_for_any_ForC_variable
 source("scripts/Figures/C_Cylce_diagrams.R")
 source("scripts/Figures/Figure_of_Climate_of_forC_sites.R")
 source("scripts/Figures/Histogram_of_dominant_vegetation.R")
