@@ -331,7 +331,7 @@ for(b in unique(ForC_biome_averages$Biome)){
   
   if(save.plot) {
     png(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".png"), width =  2500, height = 2000, units = "px", res = 300)
-    op <- par(mar = c(0,0,0,0), oma = c(ifelse(grepl("YOUNG",b), 4, 0),0,0,0), pin = c(15.3 * 0.53, 11 * 0.53)) #  pty = "s") # 
+    op <- par(mar = c(0,0,0,0), oma = c(0,0,0,0), pin = c(15.3 * 0.53, 11 * 0.53)) #  pty = "s") # 
   }
   
   # par(xaxs='i', yaxs='i')
@@ -508,8 +508,13 @@ for(b in unique(ForC_biome_averages$Biome)){
         
       text.title <-  X.draw$variable.name
       
-      if(is.na(X$equation)){
+      if(is.na(X$equation) & grepl("MATURE", b)) {
         text.main <- c(paste(X$mean, X$std, sep = "\u00b1"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
+        if(is.na(X$mean)) text.main <- ""
+      }
+      
+      if(is.na(X$equation) & grepl("YOUNG", b)) {
+        text.main <- c(paste0("[", X$min, "-", X$max, "]"), paste(X$n.records, X$n.plots, X$n.areas, sep = "/"))
         if(is.na(X$mean)) text.main <- ""
       }
       
@@ -562,7 +567,7 @@ for(b in unique(ForC_biome_averages$Biome)){
   
   
   # add legend
-  if(grepl("YOUNG", b)) legend.txt <-  c("mean\u00b1std OR intercept\u00b1se + age \u00D7 slope\u00b1se",  paste("n records", "n plots", "n areas", sep = "/"))
+  if(grepl("YOUNG", b)) legend.txt <-  c("[min-max]",  paste("n records", "n plots", "n areas", sep = "/"))# c("mean\u00b1std OR intercept\u00b1se + age \u00D7 slope\u00b1se",  paste("n records", "n plots", "n areas", sep = "/"))
   if(!grepl("YOUNG", b)) legend.txt <-  c("mean\u00b1std",  paste("n records", "n plots", "n areas", sep = "/"))
   
   legend(x = 13, y = 10.5, title = expression(bold("Variable name")), legend = legend.txt, cex = 0.5,  xjust = 0.5, yjust = 0.3)

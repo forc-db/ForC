@@ -252,7 +252,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     slope2 <- ifelse(interaction.sig, round( ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Estimate" ], 0), 2), "-")
     slope2.se <- ifelse(interaction.sig, round( ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Std. Error" ], 0), 2), "-")
     
-    equation[[paste(b, "YOUNG")]] <- paste0(format(intercept, nsmall = 2), ifelse(sign(slope) == -1, "-log10(age)\u00D7", "+log10(age)\u00D7"), format(abs(slope), nsmall = 2))
+    equation[[paste(b, "YOUNG")]] <- NA # paste0(format(intercept, nsmall = 2), ifelse(sign(slope) == -1, "-log10(age)\u00D7", "+log10(age)\u00D7"), format(abs(slope), nsmall = 2)) # we removed the equation from the C-cycle diagrams
     equation[[paste(b, "MATURE")]] <- NA
       
       # equation <- paste0(format(intercept, nsmall = 2), "\u00b1", format(intercept.se, nsmall = 2), ifelse(sign(slope) == -1, "-log10(age)\u00D7", "+log10(age)\u00D7"), format(abs(slope), nsmall = 2), "\u00b1", format(slope.se, nsmall = 2))
