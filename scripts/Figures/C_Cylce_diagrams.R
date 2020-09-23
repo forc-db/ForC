@@ -363,7 +363,7 @@ for(b in unique(ForC_biome_averages$Biome)){
     X <- ForC_biome_averages[ForC_biome_averages$variable.diagram %in% v & ForC_biome_averages$Biome %in% b,]
     X.draw <- variables[[v]]
     
-    failure_C_closure <- v %in% C_cycle_closure$variable.diagram[C_cycle_closure$lack.of.closure %in% 1]
+    failure_C_closure <- v %in% C_cycle_closure$variable.diagram[C_cycle_closure$Biome %in% b & C_cycle_closure$lack.of.closure %in% 1]
     
     if(nrow(X) == 0) {
       X <- X.draw
