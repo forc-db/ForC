@@ -292,20 +292,20 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   # fill in table of results, by biome of interest ####
   # if not young or if effect of stand.age was not significant at p≤0.05, average all years per plot, weigthing per measurement perdiod if it is a flux with start and end date + taking higer variable if there is several (like NPP_1 and NPP_2)
   for(b in Biomes.of.interest) {
-    idx <- df$Biome_age %in% b
+    X <- df[df$Biome_age %in% b,]
     
-    n.records <- sum(idx)
+    n.records <- nrow(X)
     
     # split by plot
-    df.split <- split(df[idx,], f = list(df$sites.sitename[idx], df$plot.name[idx]), drop = T)
+    X.split <- split(X, f = list(X$sites.sitename, X$plot.name), drop = T)
+    n.plots <- length(X.split) # get number of plots
     
-    n.plots <- length(df.split) # get number of plots
     if(n.plots >= 1) {
       X.final <- NULL
       
       for(i in 1:n.plots) {
         
-        x <- df.split[[i]]
+        x <- X.split[[i]]
         
         # caluculate weigh, keep it only if we are working with flux data and start and end dates are given
         timint <- difftime(x$end.date, x$start.date, units = "days") / 365
@@ -325,21 +325,22 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
         if(is.na(x.out$mean)) stop("problem: mean is NA") # stop if we get an NA for the mean
       }
       
-      if(nrow(X.final) != n.plots) {stop("Problem when averaging per plot, we don't end up with th right number of observations...")}
+      if(nrow(X.final) != length(X.split)) {stop("Problem when averaging per plot, we don't end up with th right number of observations...")}
       
       X <- X.final
     }
     
     # average per geographic area and weighing by plot.area if it is given for all plots
-    df.split <- split(df[idx,], f = list(df$geographic.area[idx]), drop = T)
-    n.areas <- length(df.split) # get number of geographic areas
+    X.split <- split(X, f = list(X$geographic.area), drop = T)
+    n.areas <- length(X.split) # get number of geographic areas
+    
     
     if(n.areas >= 1) {
       X.final <- NULL
       
       for(i in 1:n.areas) {
         
-        x <- df.split[[i]]
+        x <- X.split[[i]]
         
         all.plot.area.given <- all(!my_is.na(x$plot.area))
         
@@ -351,23 +352,22 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
         X.final <- rbind(X.final, x.out)
       }
       
-      if(nrow(X.final) != n.areas) {stop("Problem when averaging per plot, we don't end up with th right number of observations...")}
+      if(nrow(X.final) != length(X.split)) {stop("Problem when averaging per plot, we don't end up with th right number of observations...")}
       
       X <- X.final
     }
-    
     # get statistics
     
     results <- data.frame(Biome = b,
                           variable.type = v.type,
                           variable.diagram = v.diag,
-                          mean = round(mean(df$mean[idx]), 2),
-                          std = round(sd(df$mean[idx]), 2),
-                          se = round(sd(df$mean[idx]) / sum(idx), 2),
-                          LCI = round(mean(df$mean[idx]) - 1.96 * sd(df$mean[idx]) / sum(idx), 2),
-                          UCI = round(mean(df$mean[idx]) + 1.96 * sd(df$mean[idx]) /sum(idx), 2),
-                          min = min(df$mean[idx]),
-                          max = max(df$mean[idx]),
+                          mean = round(mean(X$mean), 2),
+                          std = round(sd(X$mean), 2),
+                          se = round(sd(X$mean) / nrow(X), 2),
+                          LCI = round(mean(X$mean) - 1.96 * sd(X$mean) / nrow(X), 2),
+                          UCI = round(mean(X$mean) + 1.96 * sd(X$mean) / nrow(X), 2),
+                          min = min(X$mean),
+                          max = max(X$mean),
                           equation = equation[[b]],
                           n.records = n.records,
                           n.plots = n.plots,

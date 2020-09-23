@@ -24,12 +24,13 @@ components_maping <- read.csv("figures/C_cycle_diagrams/ForC_variables_component
 component_closure <- NULL
 
 for(b in unique(ForC_biome_averages$Biome)) {
-  
+  print(b)
   X <- ForC_biome_averages[ForC_biome_averages$Biome %in% b, ]
   
-  for( i in 1:nrow(components_maping)) {
-    v <-  components_maping$variable.name[i]
-
+  for( v in intersect(components_maping$variable.name, ForC_biome_averages$variable.diagram)) {
+    
+    print(v)
+    
     # equation
     eq_th <- components_maping[components_maping$variable.name %in% v, ]$theoritical.components.equation
       
