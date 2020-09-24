@@ -582,8 +582,3 @@ for(b in unique(ForC_biome_averages$Biome)){
   
 }
 
-
-
-# copy over diagrams to the ERL_review repo ####
-file.copy(paste0("figures/C_cycle_diagrams/Diagrams/", unique(ForC_biome_averages$Biome), ".png"),
-paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/", unique(ForC_biome_averages$Biome), ".png"), overwrite = T)
