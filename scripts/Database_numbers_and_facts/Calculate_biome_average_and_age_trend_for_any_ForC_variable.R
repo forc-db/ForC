@@ -64,65 +64,6 @@ ForC_simplified$end.date <- as.Date(date_decimal(as.numeric(ForC_simplified$end.
 ForC_simplified$geographic.area <- addNA(ForC_simplified$geographic.area)
 ForC_simplified$plot.name <- addNA(ForC_simplified$plot.name)
 
-## Prepare biomes ####
-### Koeppen region
-
-KOEPPEN <- ifelse(grepl("^A", ForC_simplified$Koeppen), "Tropical",
-                  ifelse(grepl("(^C)|(^D.a$)|(^D.b$)", ForC_simplified$Koeppen), "Temperate",
-                         ifelse(grepl("(^D.c$)|(^D.d$)", ForC_simplified$Koeppen), "Boreal", "Other")))
-
-table(KOEPPEN)
-unique(ForC_simplified$Koeppen[KOEPPEN %in% "Other"])
-
-## Broadleaf vs Conifer
-
-broadleaf_codes <- c("2TEB", "2TDB", "2TB")
-conifer_codes <- c("2TEN", "2TDN", "2TN")
-
-Leaf_Trait <- ifelse(ForC_simplified$dominant.veg %in% broadleaf_codes, "broadleaf",
-                     ifelse(ForC_simplified$dominant.veg %in% conifer_codes, "conifer", "Other"))
-  
-table(Leaf_Trait)
-unique(ForC_simplified$dominant.veg[Leaf_Trait %in% "Other"])
-
-## Age ####
-Age <- ifelse(ForC_simplified$stand.age >= 100, "MATURE", "YOUNG")
-ForC_simplified$Age <- Age
-
-
-## combine all
-
-Biome <-  paste(KOEPPEN, Leaf_Trait) #, Age)
-Biome_age <- paste(KOEPPEN, Leaf_Trait, Age)
-
-table(Biome)
-table(Biome_age)
-
-ForC_simplified$Biome <- factor(ifelse(grepl("Other", Biome), "Other", Biome)) 
-ForC_simplified$Biome_age <- Biome_age
-table(ForC_simplified$Biome)
-
-## Remove Biome Other ###
-ForC_simplified <- droplevels(ForC_simplified[!ForC_simplified$Biome %in% "Other", ])
-table(ForC_simplified$Biome)
-table(ForC_simplified$Biome_age)
-
-## keep only biomes of interest ###
-
-Biomes.of.interest <- c("Tropical broadleaf MATURE",
-                        "Tropical broadleaf YOUNG",
-                        "Temperate broadleaf MATURE",
-                        "Temperate broadleaf YOUNG",
-                        "Temperate conifer MATURE",
-                        "Temperate conifer YOUNG",
-                        "Boreal conifer MATURE",
-                        "Boreal conifer YOUNG")
-
-ForC_simplified <- droplevels(ForC_simplified[ForC_simplified$Biome_age %in% Biomes.of.interest, ])
-
-# order Biomes correctly
-ForC_simplified$Biome <- factor(ForC_simplified$Biome, levels = c("Tropical broadleaf", "Temperate broadleaf", "Temperate conifer", "Boreal conifer"))
-
 # Prepare Variables_mapping ####
 
 ## Ignore NEE_cum_C, GPP_cum_C, and R_eco_cum_C ignored.
@@ -152,6 +93,89 @@ summary_for_ERL$variable.diagram <- gsub("biomass_ag_wood", "biomass_ag_woody", 
 summary_for_ERL$variable.diagram <- gsub("OL", "organic.layer", summary_for_ERL$variable.diagram)
 summary_for_ERL$variable.diagram <- gsub("_tot", "", summary_for_ERL$variable.diagram)
 setdiff(summary_for_ERL$variable.diagram, Variables_mapping$variable.diagram) # shoule be only "R_het_ag" "R_het" , we have no data for those
+
+## Prepare biomes ####
+### Koeppen region ####
+
+KOEPPEN <- ifelse(grepl("^A", ForC_simplified$Koeppen), "Tropical",
+                  ifelse(grepl("(^C)|(^D.a$)|(^D.b$)", ForC_simplified$Koeppen), "Temperate",
+                         ifelse(grepl("(^D.c$)|(^D.d$)", ForC_simplified$Koeppen), "Boreal", "Other")))
+
+table(KOEPPEN)
+unique(ForC_simplified$Koeppen[KOEPPEN %in% "Other"])
+
+### Broadleaf vs Conifer ####
+
+broadleaf_codes <- c("2TEB", "2TDB", "2TB")
+conifer_codes <- c("2TEN", "2TDN", "2TN")
+
+Leaf_Trait <- ifelse(ForC_simplified$dominant.veg %in% broadleaf_codes, "broadleaf",
+                     ifelse(ForC_simplified$dominant.veg %in% conifer_codes, "conifer", "Other"))
+  
+table(Leaf_Trait)
+unique(ForC_simplified$dominant.veg[Leaf_Trait %in% "Other"])
+
+### Age ####
+Age <- ifelse(ForC_simplified$stand.age >= 100, "MATURE", "YOUNG")
+ForC_simplified$Age <- Age
+
+
+### combine all ####
+
+Biome <-  paste(KOEPPEN, Leaf_Trait) #, Age)
+Biome_age <- paste(KOEPPEN, Leaf_Trait, Age)
+
+table(Biome)
+table(Biome_age)
+
+ForC_simplified$Biome <- factor(ifelse(grepl("Other", Biome), "Other", Biome)) 
+ForC_simplified$Biome_age <- Biome_age
+table(ForC_simplified$Biome)
+
+#### get a count of records for Biomes at this stage, for only variables of focus, for ERL review ####
+# all variables
+sort(table(Biome), decreasing = T) 
+
+# just the ones we care about
+temp_idx <- ForC_simplified$variable.name %in% 
+  Variables_mapping$variable.name[Variables_mapping$variable.diagram %in% intersect(summary_for_ERL$variable.diagram, Variables_mapping$variable.diagram)] & !ForC_simplified$stand.age %in% 0
+A <- table(Biome[temp_idx], Age[temp_idx], useNA = "ifany")
+A <- data.frame(A)
+names(A) <- c("Biome", "Age", "n_records")
+write.csv(A, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/Biomes_n_records_variables_of_interest.csv"), row.names = F)
+
+## Remove Biome Other ####
+ForC_simplified <- droplevels(ForC_simplified[!ForC_simplified$Biome %in% "Other", ])
+table(ForC_simplified$Biome)
+table(ForC_simplified$Biome_age)
+
+## keep only biomes of interest ###
+
+Biomes.of.interest <- c("Tropical broadleaf MATURE",
+                        "Tropical broadleaf YOUNG",
+                        "Temperate broadleaf MATURE",
+                        "Temperate broadleaf YOUNG",
+                        "Temperate conifer MATURE",
+                        "Temperate conifer YOUNG",
+                        "Boreal conifer MATURE",
+                        "Boreal conifer YOUNG")
+
+ForC_simplified <- droplevels(ForC_simplified[ForC_simplified$Biome_age %in% Biomes.of.interest, ])
+
+# order Biomes correctly
+ForC_simplified$Biome <- factor(ForC_simplified$Biome, levels = c("Tropical broadleaf", "Temperate broadleaf", "Temperate conifer", "Boreal conifer"))
+
+#### get a count of records, n_plots and n_area at this stage, for ERL review ####
+
+# just the variables we care about
+temp_idx <- ForC_simplified$variable.name %in% 
+  Variables_mapping$variable.name[Variables_mapping$variable.diagram %in% intersect(summary_for_ERL$variable.diagram, Variables_mapping$variable.diagram)] & !ForC_simplified$stand.age %in% 0
+
+B <- data.frame(n_records=sum(temp_idx),
+                  n_plots = length(unique(paste(ForC_simplified$plot.name, ForC_simplified$sites.sitename)[temp_idx])),
+                n_areas = length(unique(ForC_simplified$geographic.area[temp_idx])))
+
+write.csv(B, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/Count_n_record_n_plot_n_area.csv"), row.names = F)
 
 # Prepare output ####
 ForC_biome_averages <- NULL

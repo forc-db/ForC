@@ -433,7 +433,7 @@
 435,"Caxiuana 1 CAX-01","terra firma","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 436,"Caxiuana 2 CAX-02","terra firma","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 437,"Caxiuana Drought Control CAX-04","largely undisturbed terra firma forest","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-438,"Caxiuana Terra Preta CAX-08","unmanaged Late successional forest","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1960",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+438,"Caxiuana Terra Preta CAX-08","unmanaged Late successional forest","1",0,"NAC",438.02,"Initiation of post-disturbance cohort (natural)","1955",438.01,"Cultivation",NA,"1950",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 439,"Caxiuana Tower CAX-06","tall primary forest near flux tower site","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 440,"Caxiuana","unmanaged","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1970",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 441,"Cedar Bridge fire tower Pine/Scrub Oak stand","gypsy moth defoliation","NAC",441.01,"1923",441.02,"Initiation of post-disturbance cohort (planted or natural)","1923",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -4128,7 +4128,7 @@
 4341,"MIT","Temperate Evergreen Forest. Stand established around 1890","NAC",4341.01,"1890",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4342,"RIE","Temperate Evergreen Forest. Stand established around 1889","NAC",4342.01,"1889",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4343,"Takayama experimental forest","Temperate Deciduous Forest. Stand established around 1951","NAC",4343.01,"1951",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4344,"Takayama experimental forest","Temperate Deciduous Forest. Stand established around 1991","NAC",4344.01,"1991",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+4344,"Takayama experimental forest","Temperate Deciduous Forest. Stand established 2000","NAC",4344.01,"2000",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4346,"Dinghushan Biosphere Reserve","Secondary coniferous and broadleaf mixed forest (MF). Stand established around 1924","NAC",4346.01,"1924",0,"NAC","NAC",0,"No disturbance",NA,"1956",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4347,"Dinghushan Biosphere Reserve","Secondary conifer forest (CF). Stand established around 1934","NAC",4347.01,"1934",4347.02,"Planted","1934",0,"No disturbance",NA,"1956",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4348,"Kondi","Managed Aggrading Tropical Deciduous Forest with Organic residues removed treatment. Stand established around 2008","NAC",4348.01,"2008",4348.02,"Initiation of post-disturbance cohort (planted or natural)","2008",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,4348.03
@@ -4270,12 +4270,9 @@
 4532,"Harvard Forest-Prospect Hill","Aggrading Temperate Deciduous Forest. Stand established around 2010","NAC",4532.01,"2010",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4533,"Harvard Forest-Prospect Hill","Aggrading Temperate Deciduous Forest. Stand established around 2011","NAC",4533.01,"2011",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4534,"Hirano_2014_cdet research site in Central Kalimantan Indonesia","Aggrading Tropical Deciduous Forest. Stand established around 2002","NAC",4534.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4539,"Caxiuana~ National Forest Reserve","Tropical Evergreen Forest","NAC",4534.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4540,"Caxiuana~ National Forest Reserve","Tropical Evergreen Forest with Drought treatment","NAC",4534.01,"2002",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,4540,0,0,0
+4540,"Caxiuana Drought Experiment","Tropical Evergreen Forest with Drought treatment","NAC",4540.01,"NAC",4540.02,"Initiation of post-disturbance cohort (planted or natural)","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,4540.03,0,0,0
 4541,"Fazenda Tanguro","Tropical Evergreen Forest","NAC",4541.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4542,"Fazenda Tanguro","Aggrading Tropical Evergreen Forest. Stand established around 2009","NAC",4542.01,"2009",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4543,"Caxiuana~ National Forest Reserve","Aggrading Tropical Evergreen Forest","NAC",4542.01,"2009",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4544,"Caxiuana~ National Forest Reserve","Aggrading Tropical Evergreen Forest. Stand established around 1960","NAC",4542.01,"2009",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4547,"Allpahuayo-Mishana National Reserve RAINFOR","Tropical Evergreen Forest","NAC",4547.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4552,"Kong_2014_asot research site in Mt. Bulam South Korea","Temperate Deciduous Forest","NAC",4552.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4555,"Heshan National Field Research Station of Forest Ecosystems","Subtropical Evergreen Pinus massoniana-Cunninghamia lanceolata plantation. Stand established around 1986","NAC",4555.01,"1986",4555.02,"Planted","1986",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
