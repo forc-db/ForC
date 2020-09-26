@@ -311,6 +311,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     }
   } else {
     v_not_enough_data_for_mature <- c(v_not_enough_data_for_mature, v.diag)
+    biome.significant <- FALSE
   }
   
   # fill in table of results, by biome of interest ####
@@ -402,21 +403,24 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     
   }
  
-
   
   ### fill ERL review summary table ####
   idx_ERL <- summary_for_ERL$variable.diagram %in% v.diag
   summary_for_ERL$records[idx_ERL] <- nrow(df)
   summary_for_ERL$plots[idx_ERL] <- nrow(unique(df[, c("sites.sitename", "plot.name")]))
   summary_for_ERL$geographic.areas[idx_ERL] <- length(unique(df$geographic.area))
- if(biome.significant) { 
+ if(biome.significant & !v.diag %in% v_not_enough_data_for_mature) { 
   biome.differences <- names(order.mature.biomes)[1]
   for(i in seq_along(order.mature.biomes)[-1]) {
     biome.differences <- paste(biome.differences, ifelse(any(unlist(strsplit(order.mature.biomes[i], "")) %in% unlist(strsplit(order.mature.biomes[i-1], ""))), "$\\ge$", ">"), names(order.mature.biomes)[i])
   }
   summary_for_ERL$biome.differences[idx_ERL] <- biome.differences
-  } else {
+  }
+  if(!biome.significant & !v.diag %in% v_not_enough_data_for_mature) {
     summary_for_ERL$biome.differences[idx_ERL] <-"n.s."
+  }
+  if(!biome.significant & v.diag %in% v_not_enough_data_for_mature) {
+    summary_for_ERL$biome.differences[idx_ERL] <-"-"
   }
   summary_for_ERL$age.trend[idx_ERL] <- paste0(c(ifelse(sign(summary(mod.young)$coefficients[1])>0, "+", "-")[age.significant], "xB"[interaction.sig]), collapse = "; ")
   summary_for_ERL$age.trend[idx_ERL] <- ifelse(  summary_for_ERL$age.trend[idx_ERL] == "", "n.s.",   summary_for_ERL$age.trend[idx_ERL])
