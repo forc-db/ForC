@@ -180,6 +180,7 @@ write.csv(B, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/Cou
 # Prepare output ####
 ForC_biome_averages <- NULL
 v_not_enough_data_for_mature <- NULL
+v_not_enough_data_for_young <- NULL
 Summary_table <- NULL
 age_trend_model_summaries <- NULL
 
@@ -197,7 +198,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   flux <- v.type %in% "flux"
   data.filter <- unique(v.map$data.filter)
   
-  # subset for the variables of interst
+  # subset for the variables of interest
   df <- ForC_simplified[ForC_simplified$variable.name %in% v  & !is.na(ForC_simplified$stand.age) & !ForC_simplified$stand.age %in% 0, ]  # removing age 0 because we are taking the log for youngs
   
   # exclude min dbh >10 when we know
@@ -214,32 +215,49 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   df.mature <- droplevels(df[df$Age %in% "MATURE", ])
   df.young <- droplevels(df[df$Age %in% "YOUNG",]) 
   
-  enough.data.for.model.young <- nrow(df.young) >= 30
+  # remove any biome with less than 7 geographic areas for MATURE, 3 for YOUNG
+  A_MATURE <- table(df.mature$Biome, df.mature$geographic.area)
+  A_MATURE[A_MATURE>0] <- 1
+  Biomes_to_keep_MATURE <- names(which(rowSums(A_MATURE) >=7))
+  at_least_2_biomes_MATURE <- length(Biomes_to_keep_MATURE)>=2
+  
+  A_YOUNG <- table(df.young$Biome, df.young$geographic.area)
+  A_YOUNG[A_YOUNG>0] <- 1
+  Biomes_to_keep_YOUNG <- names(which(rowSums(A_YOUNG) >=3))
+  at_least_2_biomes_YOUNG <- length(Biomes_to_keep_YOUNG)>=2
+    
+    
+  df.mature <- droplevels(df.mature[df.mature$Biome %in% Biomes_to_keep_MATURE, ])
+  df.young <- droplevels(df.young[df.young$Biome %in% Biomes_to_keep_YOUNG, ])
+  
+  
+  # enough.data.for.model.young <- nrow(df.young) >= 30
 
   
   ### model young ####
-  enough.data.for.mixed.model <- nrow(unique(df.young[, c("geographic.area", "plot.name")])) < nrow(df.young) & nrow(unique(df.young[, c("geographic.area", "plot.name")])) >=3
+  # enough.data.for.mixed.model <- nrow(unique(df.young[, c("geographic.area", "plot.name")])) < nrow(df.young) & nrow(unique(df.young[, c("geographic.area", "plot.name")])) >=3
   
-  at.least.10.different.ages.in.each.Biome <- all(tapply(df.young$stand.age, df.young$Biome, function(x) length(x)>=10))
+  at.least.10.different.ages.in.each.Biome <- all(tapply(df.young$stand.age, df.young$Biome, function(x) length(unique(x))>=10))
   
-  more.than.one.biome <- length(unique(df.young$Biome)) > 1
+  # more.than.one.biome <- length(unique(df.young$Biome)) > 1
   
-  if(enough.data.for.model.young) {
-    
-    
+  if(at_least_2_biomes_YOUNG) {
+
     right.skewed.response <- skewness(df.young$mean) > 2 & all(df.young$mean > 0)
-    if(enough.data.for.mixed.model) {
-      if(more.than.one.biome) mod.young <- lmer(mean ~ -1 + log10(stand.age) + Biome + (1|geographic.area/plot.name), data = df.young) # when there is enough data for mixed model
-      if(!more.than.one.biome) mod.young <- lmer(mean ~ -1 + log10(stand.age) + (1|geographic.area/plot.name), data = df.young) # when there is enough data for mixed model
+    # if(enough.data.for.mixed.model) {
+      # if(more.than.one.biome) 
+        mod.young <- lmer(mean ~ -1 + log10(stand.age) + Biome + (1|geographic.area/plot.name), data = df.young) # when there is enough data for mixed model
+      # if(!more.than.one.biome) mod.young <- lmer(mean ~ -1 + log10(stand.age) + (1|geographic.area/plot.name), data = df.young) # when there is enough data for mixed model
       age.significant <- AIC(mod.young) < AIC(update(mod.young, ~ . -log10(stand.age) ))
-    } else {
-      if(more.than.one.biome) {
-        mod.young <- lm(mean ~ -1 + log10(stand.age) + Biome , data = df.young)# when there is not enough data for mixed model
-      } else {
-        mod.young <- lm(mean ~ -1 + log10(stand.age), data = df.young) # when there is not enough data for mixed model
-      }
-      age.significant <-  summary(mod.young)$coefficients['log10(stand.age)', 'Pr(>|t|)'] < 0.05
-    }
+    # } 
+  # else {
+  #     if(more.than.one.biome) {
+  #       mod.young <- lm(mean ~ -1 + log10(stand.age) + Biome , data = df.young)# when there is not enough data for mixed model
+  #     } else {
+  #       mod.young <- lm(mean ~ -1 + log10(stand.age), data = df.young) # when there is not enough data for mixed model
+  #     }
+  #     age.significant <-  summary(mod.young)$coefficients['log10(stand.age)', 'Pr(>|t|)'] < 0.05
+  #   }
     
     if(age.significant & at.least.10.different.ages.in.each.Biome ) {
       if( AIC(mod.young) > AIC(update(mod.young, ~ .+log10(stand.age):Biome)))  {
@@ -255,8 +273,11 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     newDat<- expand.grid(stand.age = 10^seq(min(log10(df.young$stand.age))+0.01, max(log10(df.young$stand.age)), length.out = 100), Biome = levels(df.young$Biome))
     
     fit.young  <- predict(mod.young, newDat, re.form =  NA)
-  } else {age.significant = FALSE
-  right.skewed.response = F}
+  } else {
+    mod.young = NULL
+    age.significant = FALSE
+  right.skewed.response = F
+  v_not_enough_data_for_young <- c(v_not_enough_data_for_young, v.diag)}
   
   ##### get the equations for each Biomes ####
   equation <- list()
@@ -288,32 +309,44 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   }
   }
   
-  ### get model summiers for ERL_review SI table
-  age_trend_model_summaries <- rbind(age_trend_model_summaries,
-                                     data.frame(Variable = summary_for_ERL$Variable[match(v.diag, summary_for_ERL$variable.diagram)], 
-                                                Parameter = rownames(summary(mod.young)$coefficients),
-                                                round(summary(mod.young)$coefficients, 2)))
+  ### get model summaries for ERL_review SI table
+  if(!v.diag %in% v_not_enough_data_for_young) {
+    age_trend_model_summaries <- rbind(age_trend_model_summaries,
+                                       data.frame(Variable = summary_for_ERL$Variable[match(v.diag, summary_for_ERL$variable.diagram)], 
+                                                  Parameter = rownames(summary(mod.young)$coefficients),
+                                                  round(summary(mod.young)$coefficients, 2)))
+  } else {
+    age_trend_model_summaries <- rbind(age_trend_model_summaries,
+                                       data.frame(Variable = summary_for_ERL$Variable[match(v.diag, summary_for_ERL$variable.diagram)], 
+                                                  Parameter = "-",
+                                                  Estimate = "-",
+                                                  Std..Error = "-",
+                                                  t.value = "-"
+                                                  ))
+  }
  
   
   ### model mature ####
-  
-  mod.mature <- try(lmer(mean ~ -1 + Biome + (1|geographic.area/plot.name), data = droplevels(df.mature)), silent = T)
-  
-  if(!class(mod.mature) %in% "try-error"){
-    drop1.result <- drop1(mod.mature, k = log(nrow(df.mature)))
-    biome.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
+  if(at_least_2_biomes_MATURE) {
     
-    if(biome.significant) { # do pairwise comparison
-      pairwise.comp <- glht(mod.mature, linfct = mcp(Biome = "Tukey"))
-      pairwise.comp.letter.grouping <- cld(pairwise.comp) 
-      order.mature.biomes <- pairwise.comp.letter.grouping$mcletters$Letters[order(summary(mod.mature)$coefficients[,1], decreasing = T)]
-      names(order.mature.biomes) <- abb.biome[names(order.mature.biomes)]
+    mod.mature <- try(lmer(mean ~ -1 + Biome + (1|geographic.area/plot.name), data = droplevels(df.mature)), silent = T)
+    
+    if(!class(mod.mature) %in% "try-error"){
+      drop1.result <- drop1(mod.mature, k = log(nrow(df.mature)))
+      biome.significant <- drop1.result$AIC[2] > drop1.result$AIC[1]
+      
+      if(biome.significant) { # do pairwise comparison
+        pairwise.comp <- glht(mod.mature, linfct = mcp(Biome = "Tukey"))
+        pairwise.comp.letter.grouping <- cld(pairwise.comp) 
+        order.mature.biomes <- pairwise.comp.letter.grouping$mcletters$Letters[order(summary(mod.mature)$coefficients[,1], decreasing = T)]
+        names(order.mature.biomes) <- abb.biome[names(order.mature.biomes)]
+      }
+    } else {
+      stop()
+      v_not_enough_data_for_mature <- c(v_not_enough_data_for_mature, v.diag)
+      biome.significant <- FALSE
     }
-  } else {
-    v_not_enough_data_for_mature <- c(v_not_enough_data_for_mature, v.diag)
-    biome.significant <- FALSE
-  }
-  
+  }  
   # fill in table of results, by biome of interest ####
   # if not young or if effect of stand.age was not significant at p≤0.05, average all years per plot, weigthing per measurement perdiod if it is a flux with start and end date + taking higer variable if there is several (like NPP_1 and NPP_2)
   for(b in Biomes.of.interest) {
@@ -409,7 +442,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   summary_for_ERL$records[idx_ERL] <- nrow(df)
   summary_for_ERL$plots[idx_ERL] <- nrow(unique(df[, c("sites.sitename", "plot.name")]))
   summary_for_ERL$geographic.areas[idx_ERL] <- length(unique(df$geographic.area))
- if(biome.significant & !v.diag %in% v_not_enough_data_for_mature) { 
+ if(biome.significant & !v.diag %in% v_not_enough_data_for_mature) {
   biome.differences <- names(order.mature.biomes)[1]
   for(i in seq_along(order.mature.biomes)[-1]) {
     biome.differences <- paste(biome.differences, ifelse(any(unlist(strsplit(order.mature.biomes[i], "")) %in% unlist(strsplit(order.mature.biomes[i-1], ""))), "$\\ge$", ">"), names(order.mature.biomes)[i])
@@ -422,7 +455,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   if(!biome.significant & v.diag %in% v_not_enough_data_for_mature) {
     summary_for_ERL$biome.differences[idx_ERL] <-"-"
   }
-  summary_for_ERL$age.trend[idx_ERL] <- paste0(c(ifelse(sign(summary(mod.young)$coefficients[1])>0, "+", "-")[age.significant], "xB"[interaction.sig]), collapse = "; ")
+  summary_for_ERL$age.trend[idx_ERL] <- ifelse(v.diag %in% v_not_enough_data_for_young, "-", paste0(c(ifelse(sign(summary(mod.young)$coefficients[1])>0, "+", "-")[age.significant], "xB"[interaction.sig]), collapse = "; "))
   summary_for_ERL$age.trend[idx_ERL] <- ifelse(  summary_for_ERL$age.trend[idx_ERL] == "", "n.s.",   summary_for_ERL$age.trend[idx_ERL])
   
   
@@ -550,4 +583,8 @@ write.csv(age_trend_model_summaries, file = paste0(dirname(getwd()), "/ERL-revie
 if(!is.null(v_not_enough_data_for_mature)) {
   write.csv(v_not_enough_data_for_mature, "figures/age_trends/for_ERL_review/v_not_enough_data_for_mature.txt", row.names = F, quote = F, col.names = NULL)
   write.csv(v_not_enough_data_for_mature, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/v_not_enough_data_for_mature.txt"), row.names = F, quote = F, col.names = NULL, )
+}
+if(!is.null(v_not_enough_data_for_young)) {
+  write.csv(v_not_enough_data_for_young, "figures/age_trends/for_ERL_review/v_not_enough_data_for_young.txt", row.names = F, quote = F, col.names = NULL)
+  write.csv(v_not_enough_data_for_young, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/v_not_enough_data_for_young.txt"), row.names = F, quote = F, col.names = NULL, )
 }

@@ -52,6 +52,7 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 ### remove measurements that we don't trust
 
 MEASUREMENTS <- MEASUREMENTS[MEASUREMENTS$flag.suspicious %in% 0, ] # keep only non-suspicious records
+
 ### Resolve duplicates #####
 
 source("scripts/Database_manipulation/Identify_and_resolve_duplicates/Reconcile_duplicated_records.R")
@@ -80,8 +81,6 @@ units <- sapply(strsplit(MEASUREMENTS_no_duplicates$variable.name, "_"), tail, 1
 
 MEASUREMENTS_no_duplicates$mean <- ifelse(units %in% "OM", 0.47*MEASUREMENTS_no_duplicates$mean, MEASUREMENTS_no_duplicates$mean)
 MEASUREMENTS_no_duplicates$variable.name <- gsub("(\\w*)(_C$|_OM$)", "\\1", MEASUREMENTS_no_duplicates$variable, perl = T)
-
-
 
 
 ## SITES ####
@@ -258,6 +257,9 @@ ForC_simplified <- ForC_simplified[, ordered.field]
 # order records ####
 
 ForC_simplified <- ForC_simplified[order(ForC_simplified$measurement.ID),]
+
+# remove records wihtout lat lon ####
+ForC_simplified <- ForC_simplified[!is.na(ForC_simplified$lat) & !is.na(ForC_simplified$lon), ]
 
 # Save ForC-simplified ####
 
