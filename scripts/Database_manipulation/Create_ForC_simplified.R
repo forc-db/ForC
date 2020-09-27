@@ -31,6 +31,8 @@ PLOTS <- read.csv("data/ForC_plots.csv", stringsAsFactors = F)
 HISTORY <- read.csv("data/ForC_history.csv", stringsAsFactors = F)
 VARIABLES <- read.csv("data/ForC_variables.csv", stringsAsFactors = F)
 
+SRDB_ForC_potential_conflicts <- read.csv("database_management_records/SRDB_ForC_potential_conflicts.csv", stringsAsFactors = F)
+
 
 ## this will remove accidental white spaces from the end of site.sitenames and plot.name if required (if errors at line 52, run this)
 #trim.trailing <- function (x) sub("\\s+$", "", x)
@@ -52,6 +54,9 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 ### remove measurements that we don't trust
 
 MEASUREMENTS <- MEASUREMENTS[MEASUREMENTS$flag.suspicious %in% 0, ] # keep only non-suspicious records
+
+### remove SRDB data that was flagged as potential duplicates
+MEASUREMENTS <- MEASUREMENTS[!MEASUREMENTS$measurement.ID %in% SRDB_ForC_potential_conflicts$SRDB_ForC_measurement.ID,]
 
 ### Resolve duplicates #####
 
