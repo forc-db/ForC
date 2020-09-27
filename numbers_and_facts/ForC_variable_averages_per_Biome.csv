@@ -144,7 +144,7 @@
 "Boreal conifer MATURE","flux","R_auto_ag",NA,NA,NA,NA,NA,Inf,-Inf,NA,0,0,0
 "Boreal conifer YOUNG","flux","R_auto_ag",NA,NA,NA,NA,NA,Inf,-Inf,NA,0,0,0
 "Tropical broadleaf MATURE","flux","R_root",5.58,1.92,0.17,5.24,5.92,2.88,9.54,NA,14,14,11
-"Tropical broadleaf YOUNG","flux","R_root",7.5,3.98,0.4,6.72,8.28,1.58,12.17,NA,20,16,10
+"Tropical broadleaf YOUNG","flux","R_root",7.47,3.95,0.39,6.69,8.24,1.58,12.17,NA,21,17,10
 "Temperate broadleaf MATURE","flux","R_root",4.15,2.71,0.25,3.67,4.63,1.09,10.08,NA,30,18,11
 "Temperate broadleaf YOUNG","flux","R_root",3.29,1.8,0.07,3.15,3.43,0.36,9.44,NA,50,43,25
 "Temperate conifer MATURE","flux","R_root",2.63,1.41,0.18,2.29,2.98,0.9,5.42,NA,19,10,8
@@ -152,7 +152,7 @@
 "Boreal conifer MATURE","flux","R_root",1.45,0.79,0.2,1.07,1.84,0.34,2.16,NA,11,10,4
 "Boreal conifer YOUNG","flux","R_root",1.5,0.86,0.07,1.37,1.63,0.03,3.01,NA,25,22,13
 "Tropical broadleaf MATURE","flux","R_soil",14.08,3.31,0.17,13.76,14.41,8.13,22.65,NA,35,27,20
-"Tropical broadleaf YOUNG","flux","R_soil",12.9,5.47,0.29,12.34,13.47,3.27,28.6,NA,36,28,19
+"Tropical broadleaf YOUNG","flux","R_soil",12.89,5.32,0.24,12.42,13.37,3.27,28.6,NA,39,31,22
 "Temperate broadleaf MATURE","flux","R_soil",9.59,5.6,0.31,8.98,10.2,2.92,25.48,NA,40,27,18
 "Temperate broadleaf YOUNG","flux","R_soil",8.76,3.76,0.05,8.66,8.87,2.89,23.71,NA,181,130,70
 "Temperate conifer MATURE","flux","R_soil",7.84,3.37,0.15,7.56,8.13,1.45,15.57,NA,70,41,23
@@ -176,7 +176,7 @@
 "Boreal conifer MATURE","stock","biomass",80.54,44.59,4.05,72.6,88.49,12.81,189.82,NA,19,18,11
 "Boreal conifer YOUNG","stock","biomass",53.04,33.17,2.55,48.04,58.04,4.36,117.23,NA,45,45,13
 "Tropical broadleaf MATURE","stock","biomass_ag",145.25,60.5,0.72,143.84,146.66,35.91,366.93,NA,266,196,84
-"Tropical broadleaf YOUNG","stock","biomass_ag",43.5,35.76,0.7,42.12,44.87,0.72,180,NA,598,489,51
+"Tropical broadleaf YOUNG","stock","biomass_ag",45.63,31.99,0.28,45.09,46.18,0.72,180,NA,2233,2036,115
 "Temperate broadleaf MATURE","stock","biomass_ag",108.66,61.41,0.99,106.72,110.6,0.63,268,NA,104,103,62
 "Temperate broadleaf YOUNG","stock","biomass_ag",51.06,44.28,0.24,50.59,51.52,0.36,288.79,NA,1133,995,186
 "Temperate conifer MATURE","stock","biomass_ag",169.99,179.44,4.98,160.22,179.76,4.52,720.51,NA,103,86,36
@@ -200,7 +200,7 @@
 "Boreal conifer MATURE","stock","biomass_foliage",3.15,1.68,0.15,2.85,3.45,0.43,5.62,NA,18,17,11
 "Boreal conifer YOUNG","stock","biomass_foliage",2.3,1.18,0.13,2.05,2.56,0.15,4.25,NA,39,39,9
 "Tropical broadleaf MATURE","stock","biomass_root",21.4,12.96,0.93,19.59,23.21,3.76,47.79,NA,20,20,14
-"Tropical broadleaf YOUNG","stock","biomass_root",11.01,5.81,0.32,10.37,11.64,2.3,22.48,NA,122,109,18
+"Tropical broadleaf YOUNG","stock","biomass_root",10.38,6.86,0.24,9.92,10.85,2.34,29.33,NA,250,219,29
 "Temperate broadleaf MATURE","stock","biomass_root",19.86,15.71,0.44,19,20.71,0.22,73.5,NA,65,64,36
 "Temperate broadleaf YOUNG","stock","biomass_root",12.55,15.33,0.1,12.37,12.74,0.07,162.57,NA,839,836,159
 "Temperate conifer MATURE","stock","biomass_root",32.49,41.81,2.61,27.37,37.62,1.04,150.57,NA,59,58,16
@@ -216,7 +216,7 @@
 "Boreal conifer MATURE","stock","biomass_root_coarse",12.15,7.35,0.92,10.35,13.95,2.94,21.88,NA,13,12,8
 "Boreal conifer YOUNG","stock","biomass_root_coarse",10.89,7.14,1.19,8.56,13.22,1.4,22.84,NA,22,22,6
 "Tropical broadleaf MATURE","stock","biomass_root_fine",8.86,10.72,0.82,7.24,10.47,1.03,38,NA,16,15,13
-"Tropical broadleaf YOUNG","stock","biomass_root_fine",2.71,3.61,0.3,2.12,3.3,0.57,13.5,NA,44,37,12
+"Tropical broadleaf YOUNG","stock","biomass_root_fine",2.64,3.46,0.27,2.12,3.17,0.57,13.5,NA,54,43,13
 "Temperate broadleaf MATURE","stock","biomass_root_fine",2.57,1.69,0.11,2.35,2.79,0.32,6.5,NA,24,19,15
 "Temperate broadleaf YOUNG","stock","biomass_root_fine",2.51,1.84,0.05,2.41,2.62,0.23,7.4,NA,99,67,35
 "Temperate conifer MATURE","stock","biomass_root_fine",2.65,2.02,0.2,2.26,3.05,0.91,7.04,NA,19,17,10
@@ -232,7 +232,7 @@
 "Boreal conifer MATURE","stock","deadwood",11,NA,NA,NA,NA,11,11,NA,1,1,1
 "Boreal conifer YOUNG","stock","deadwood",8.4,NA,NA,NA,NA,8.4,8.4,NA,1,1,1
 "Tropical broadleaf MATURE","stock","deadwood_standing",7.12,5.14,0.64,5.86,8.38,1.27,17.39,NA,11,11,8
-"Tropical broadleaf YOUNG","stock","deadwood_standing",0.19,NA,NA,NA,NA,0.19,0.19,NA,1,1,1
+"Tropical broadleaf YOUNG","stock","deadwood_standing",0.27,0.11,0.06,0.16,0.38,0.19,0.35,NA,10,6,2
 "Temperate broadleaf MATURE","stock","deadwood_standing",3.14,5.65,1.41,0.37,5.91,0,11.61,NA,4,4,4
 "Temperate broadleaf YOUNG","stock","deadwood_standing",31.55,43.96,21.98,-11.53,74.62,0.46,62.63,NA,11,11,2
 "Temperate conifer MATURE","stock","deadwood_standing",12.06,12.07,4.02,4.18,19.95,4.01,25.94,NA,4,4,3
@@ -240,7 +240,7 @@
 "Boreal conifer MATURE","stock","deadwood_standing",6.88,6.7,2.23,2.5,11.26,2.64,14.61,NA,5,5,3
 "Boreal conifer YOUNG","stock","deadwood_standing",1.94,0.44,0.22,1.51,2.38,1.63,2.26,NA,16,16,2
 "Tropical broadleaf MATURE","stock","deadwood_down",16.59,10.41,1.73,13.19,19.99,2.87,34.12,NA,9,9,6
-"Tropical broadleaf YOUNG","stock","deadwood_down",4.93,3.71,0.41,4.13,5.74,1.09,11,NA,69,66,9
+"Tropical broadleaf YOUNG","stock","deadwood_down",6.99,9.85,0.58,5.85,8.12,0.35,43.43,NA,178,169,17
 "Temperate broadleaf MATURE","stock","deadwood_down",NA,NA,NA,NA,NA,Inf,-Inf,NA,0,0,0
 "Temperate broadleaf YOUNG","stock","deadwood_down",7.63,8.57,2.86,2.03,13.23,0.89,17.27,NA,16,16,3
 "Temperate conifer MATURE","stock","deadwood_down",NA,NA,NA,NA,NA,Inf,-Inf,NA,0,0,0
@@ -248,7 +248,7 @@
 "Boreal conifer MATURE","stock","deadwood_down",9.14,NA,NA,NA,NA,9.14,9.14,NA,1,1,1
 "Boreal conifer YOUNG","stock","deadwood_down",18.27,13.71,2.74,12.89,23.64,5.2,36.44,NA,21,21,5
 "Tropical broadleaf MATURE","stock","organic.layer",12.99,17.33,1.93,9.22,16.77,1.32,52.17,NA,10,10,9
-"Tropical broadleaf YOUNG","stock","organic.layer",3.82,2.45,0.12,3.58,4.06,0.7,10.66,NA,118,102,20
+"Tropical broadleaf YOUNG","stock","organic.layer",4.03,3.05,0.09,3.86,4.2,0.12,15.98,NA,263,225,35
 "Temperate broadleaf MATURE","stock","organic.layer",20.36,26.97,1.69,17.05,23.66,1.73,96.58,NA,20,18,16
 "Temperate broadleaf YOUNG","stock","organic.layer",9.64,12.43,0.44,8.77,10.51,1.4,59.8,NA,104,82,28
 "Temperate conifer MATURE","stock","organic.layer",24.28,20.45,2.56,19.27,29.29,3.38,56.25,NA,12,12,8

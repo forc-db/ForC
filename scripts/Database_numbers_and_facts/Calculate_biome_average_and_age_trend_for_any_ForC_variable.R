@@ -120,6 +120,7 @@ Age <- ifelse(ForC_simplified$stand.age >= 100, "MATURE", "YOUNG")
 ForC_simplified$Age <- Age
 
 
+
 ### combine all ####
 
 Biome <-  paste(KOEPPEN, Leaf_Trait) #, Age)
@@ -128,6 +129,12 @@ Biome_age <- paste(KOEPPEN, Leaf_Trait, Age)
 table(Biome)
 table(Biome_age)
 
+###  group all of those young Tropical Other in with Tropical broadleaf ####
+### see https://github.com/forc-db/ERL-review/issues/32
+Biome[Biome_age %in% "Tropical Other YOUNG"] <- "Tropical broadleaf"
+Biome_age[Biome_age %in% "Tropical Other YOUNG"] <- "Tropical broadleaf YOUNG"
+
+### place into ForC_simplified ####
 ForC_simplified$Biome <- factor(ifelse(grepl("Other", Biome), "Other", Biome)) 
 ForC_simplified$Biome_age <- Biome_age
 table(ForC_simplified$Biome)

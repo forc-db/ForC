@@ -49,20 +49,20 @@
 "Tropical broadleaf YOUNG","R_eco",12.99,17.33,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","R_auto",12.99,17.33,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","R_auto_ag",12.99,17.33,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","R_root",7.5,3.98,NA,"",NA,NA,NA
+"Tropical broadleaf YOUNG","R_root",7.47,3.95,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","R_het_soil",5.71,1.58,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","R_soil",12.9,5.47,"R_root + R_het_soil","R_root; R_het_soil",13.21,"equal",0
-"Tropical broadleaf YOUNG","biomass",43.92,32.45,"biomass_ag + biomass_root","biomass_ag; biomass_root",54.51,"equal",0
-"Tropical broadleaf YOUNG","biomass_ag",43.5,35.76,"biomass_foliage + biomass_ag_woody","biomass_ag_woody",49.58,"equal",0
-"Tropical broadleaf YOUNG","biomass_ag_woody",43.5,35.76,NA,"",NA,NA,NA
+"Tropical broadleaf YOUNG","R_soil",12.89,5.32,"R_root + R_het_soil","R_root; R_het_soil",13.18,"equal",0
+"Tropical broadleaf YOUNG","biomass",43.92,32.45,"biomass_ag + biomass_root","biomass_ag; biomass_root",56.01,"equal",0
+"Tropical broadleaf YOUNG","biomass_ag",45.63,31.99,"biomass_foliage + biomass_ag_woody","biomass_ag_woody",49.58,"equal",0
+"Tropical broadleaf YOUNG","biomass_ag_woody",45.63,31.99,NA,"",NA,NA,NA
 "Tropical broadleaf YOUNG","biomass_foliage",3.81,3.19,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","biomass_root",11.01,5.81,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",7.79,"equal",0
+"Tropical broadleaf YOUNG","biomass_root",10.38,6.86,"biomass_root_coarse + biomass_root_fine","biomass_root_coarse; biomass_root_fine",7.72,"equal",0
 "Tropical broadleaf YOUNG","biomass_root_coarse",5.08,5.87,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","biomass_root_fine",2.71,3.61,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","deadwood",4.78,3.3,"deadwood_standing + deadwood_down","deadwood_down",4.93,"equal",0
+"Tropical broadleaf YOUNG","biomass_root_fine",2.64,3.46,NA,"",NA,NA,NA
+"Tropical broadleaf YOUNG","deadwood",4.78,3.3,"deadwood_standing + deadwood_down","deadwood_down",6.99,"equal",0
 "Tropical broadleaf YOUNG","deadwood_standing",4.78,3.3,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","deadwood_down",4.93,3.71,NA,"",NA,NA,NA
-"Tropical broadleaf YOUNG","organic.layer",3.82,2.45,NA,"",NA,NA,NA
+"Tropical broadleaf YOUNG","deadwood_down",6.99,9.85,NA,"",NA,NA,NA
+"Tropical broadleaf YOUNG","organic.layer",4.03,3.05,NA,"",NA,NA,NA
 "Temperate broadleaf MATURE","NEP",3.19,1.81,"GPP - R_eco","GPP",18.36,"greater",1
 "Temperate broadleaf MATURE","GPP",18.36,4.91,"NPP + R_auto_ag","NPP",6.38,"smaller",0
 "Temperate broadleaf MATURE","NPP",6.38,1.75,"ANPP + BNPP","ANPP; BNPP",5.11,"equal",0
