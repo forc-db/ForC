@@ -1,3 +1,7 @@
 x
+ANPP_folivory
+woody.mortality
+R_auto
 R_auto_ag
+deadwood_standing
 deadwood_down
