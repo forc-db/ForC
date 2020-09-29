@@ -287,7 +287,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
       }
       
     } else {interaction.sig = F}
-    
+    if(!age.significant) interaction.sig = F
     
     newDat<- expand.grid(stand.age = 10^seq(min(log10(df.young_model$stand.age))+0.01, max(log10(df.young_model$stand.age)), length.out = 100), Biome = levels(df.young_model$Biome))
     
