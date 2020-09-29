@@ -605,14 +605,6 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
 } # for( fig in c("Flux_age_trends", "Stock_age_trends"))
 
 
-# copy over "Flux_age_trends", "Stock_age_trends" to the ERL_review repo ####
-file.copy(c("figures/age_trends/for_ERL_review/Flux_age_trends.png",
-            "figures/age_trends/for_ERL_review/Stock_age_trends.png"),
-          paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/", c("Flux_age_trends.png", "Stock_age_trends.png")), overwrite = T)
-
-
-
-
 # save ####
 
 write.csv(ForC_biome_averages, file = "numbers_and_facts/ForC_variable_averages_per_Biome.csv", row.names = F)
