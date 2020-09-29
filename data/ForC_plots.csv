@@ -3488,10 +3488,9 @@
 3576,"Wind River Canopy Crane Research Facilty","Temperate Evergreen Forest. Stand established around 1499","NAC",3576.01,"1499",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3577,"Wind River Canopy Crane Research Facilty","Aggrading Temperate Evergreen Forest. Stand established around 1979","NAC",3577.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3578,"Wind River Canopy Crane Research Facilty","Aggrading Temperate Evergreen Forest. Stand established around 1959","NAC",3578.01,"1959",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3579,"Tok Junction","Boreal Deciduous Forest","NAC",3579.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3580,"Tok Junction","Aggrading Boreal Deciduous Forest. Stand established around 1990","NAC",3580.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3581,"Tok Junction","Boreal Evergreen Forest","NAC",3581.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3582,"Tok Junction","Aggrading Boreal Evergreen Forest. Stand established around 1990","NAC",3582.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3579,"Tok Junction","Populus tremuloides stand-unburned","NAC",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NAC",0,0,3579.01,"Burned",NA,"NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3580,"Tok Junction","Picea glauca stand-unburned","NAC",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NAC",0,0,3580.01,"Burned",NA,"NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+3581,"Tok Junction","Picea mariana stand-umburned","NAC",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NAC",0,0,3581.01,"Burned",NA,"NAC",0,NA,NA,NA,0,0,0,0,0,0,0
 3588,"Kannus-1","Aggrading Boreal Deciduous Forest. Stand established around 1986","NAC",3588.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3589,"Kannus-2","Aggrading Boreal Deciduous Forest. Stand established around 1986","NAC",3589.01,"1986",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3590,"Kannus-3","Aggrading Boreal Evergreen Forest. Stand established around 1971","NAC",3590.01,"1971",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
