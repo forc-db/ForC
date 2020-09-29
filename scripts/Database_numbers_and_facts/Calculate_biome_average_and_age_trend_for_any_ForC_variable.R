@@ -501,7 +501,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     ### Plot young 
     par(mar = c(5.1,4.1,0,0))
     if(nrow(df.young)>0) {
-      plot(mean ~ stand.age, data = df.young, col = color.biome[as.character(df.young$Biome)], xlab = "", ylab = "", log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
+      plot(mean ~ stand.age, data = df.young, col = color.biome[as.character(df.young$Biome)], xlab = "", ylab = "", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1) # , log = ifelse(right.skewed.response, "xy", "x")
       
       
       
@@ -514,7 +514,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
       }
       }
     } else {
-      plot(1,1, col = "white", xlab = "", ylab = "", log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
+      plot(1,1, col = "white", xlab = "", ylab = "", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1) # , log = ifelse(right.skewed.response, "xy", "x")
     }
     
     
@@ -524,14 +524,14 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     ylab =  ifelse(v.type %in% "flux",  paste0("expression(", ylab, "~'(Mg C ha'^{-1}~'yr'^{-1}*')')"), paste0("expression(", ylab, "~'(Mg C ha'^{-1}*')')"))
     
     mtext(side = 2, line = 2.5, text = eval(parse(text = ylab)), cex = 0.7)
-    mtext(side = 1, line = 2.5, text = "Age (years - log scaled)", cex = 0.7)
+    mtext(side = 1, line = 2.5, text = "Age (years)", cex = 0.7) # "Age (years - log scaled)"
       
       text(x = .8, y = ylim[2], labels = paste0("n = ", nrow(df.young), "\nn analyzed = ", ifelse(at_least_2_biomes_YOUNG, nrow(df.young_model), 0)), cex = 0.7, adj = 0, pos = 4, xpd = NA)
     
     ## boxplot mature
     par(mar = c(5.1,0,0,0))
     if(nrow(df.mature) > 0) {
-      boxplot(mean ~ Biome, data = df.mature, ylim = ylim, axes = F, xlab = "", col = color.biome[levels(df$Biome)], outcol =color.biome[levels(df$Biome)], log = ifelse(right.skewed.response, "y", ""))
+      boxplot(mean ~ Biome, data = df.mature, ylim = ylim, axes = F, xlab = "", col = color.biome[levels(df$Biome)], outcol =color.biome[levels(df$Biome)]) # , log = ifelse(right.skewed.response, "y", "")
       
       if(at_least_2_biomes_MATURE & biome.significant ) {
          # do pairwise comparison
