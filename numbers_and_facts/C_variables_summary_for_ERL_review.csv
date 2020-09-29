@@ -1,4 +1,4 @@
-"Variable","Description","records","plots","geographic.areas","biome.differences","age.trend","variable.diagram"
+"Variable","Description","records","plots","geographic areas","biome differences","age trend","variable diagram"
 "$NEP$","net ecosystem production or net ecosystem exchange (+ indicates C sink)",377,163,89,"n.s.","+; xB","NEP"
 "$GPP$","gross primary production ($NPP + R_{auto}$ or $R_{eco}-NEE$)",309,117,72,"TrB > TeB $\ge$ TeN $\ge$ BoN","+; xB","GPP"
 "$NPP$","net primary production ($ANPP$ + $BNPP$)",292,165,74,"TrB > TeB $\ge$ TeN > BoN","+","NPP"

@@ -184,6 +184,12 @@ B <- data.frame(n_records=sum(temp_idx),
 
 write.csv(B, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/Count_n_record_n_plot_n_area.csv"), row.names = F)
 
+
+#### get % record per countries
+ForC_simplified$country[ForC_simplified$country %in% c("USA", "United States", "United States of America")] <- "USA"
+
+write.csv(as.data.frame(round(prop.table(sort(table(ForC_simplified$country), decreasing = T))*100, 2)), "clipboard", row.names = F)
+
 # Prepare output ####
 ForC_biome_averages <- NULL
 v_not_enough_data_for_mature <- NULL
@@ -204,6 +210,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   v.type <- unique(v.map$variable.type)
   flux <- v.type %in% "flux"
   data.filter <- unique(v.map$data.filter)
+  ylab = summary_for_ERL$Variable[summary_for_ERL$variable.diagram %in% v.diag]
   
   # subset for the variables of interest
   df <- ForC_simplified[ForC_simplified$variable.name %in% v  & !is.na(ForC_simplified$stand.age) & !ForC_simplified$stand.age %in% 0, ]  # removing age 0 because we are taking the log for youngs
@@ -494,7 +501,9 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     ### Plot young 
     par(mar = c(5.1,4.1,0,0))
     if(nrow(df.young)>0) {
-      plot(mean ~ stand.age, data = df.young, col = color.biome[as.character(df.young$Biome)], xlab = "Age (years - log scaled)", ylab = eval(parse(text = ifelse(v.type %in% "flux",  paste0("expression(", v.diag, "~'(Mg C ha'^{-1}~'yr'^{-1}*')')"), paste0("expression(", v.diag, "~'(Mg C ha'^{-1}*')')")))), log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
+      plot(mean ~ stand.age, data = df.young, col = color.biome[as.character(df.young$Biome)], xlab = "", ylab = "", log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
+      
+      
       
       if(at_least_2_biomes_YOUNG) {
       for(b in levels(df.young_model$Biome)){
@@ -505,17 +514,24 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
       }
       }
     } else {
-      plot(1,1, col = "white", xlab = "Age (years - log scaled)", ylab = eval(parse(text = ifelse(v.type %in% "flux",  paste0("expression(", v.diag, "~'(Mg C ha'^{-1}~'yr'^{-1}*')')"), paste0("expression(", v.diag, "~'(Mg C ha'^{-1}*')')")))), log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
+      plot(1,1, col = "white", xlab = "", ylab = "", log = ifelse(right.skewed.response, "xy", "x"), xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1)
     }
+    
+    
+    ylab = gsub("\\$", "", ylab)
+    ylab = gsub("_\\{", "\\[", ylab)
+    ylab = gsub("}", "]", ylab)
+    ylab =  ifelse(v.type %in% "flux",  paste0("expression(", ylab, "~'(Mg C ha'^{-1}~'yr'^{-1}*')')"), paste0("expression(", ylab, "~'(Mg C ha'^{-1}*')')"))
+    
+    mtext(side = 2, line = 2.5, text = eval(parse(text = ylab)), cex = 0.7)
+    mtext(side = 1, line = 2.5, text = "Age (years - log scaled)", cex = 0.7)
       
-      
-      
-      text(x = .8, y = ylim[2], labels = paste0("n = ", nrow(df.young), "\nn analyzed = ", ifelse(at_least_2_biomes_YOUNG, nrow(df.young_model), 0)), cex = 0.5, adj = 0, pos = 4, xpd = NA)
+      text(x = .8, y = ylim[2], labels = paste0("n = ", nrow(df.young), "\nn analyzed = ", ifelse(at_least_2_biomes_YOUNG, nrow(df.young_model), 0)), cex = 0.7, adj = 0, pos = 4, xpd = NA)
     
     ## boxplot mature
     par(mar = c(5.1,0,0,0))
     if(nrow(df.mature) > 0) {
-      boxplot(mean ~ Biome, data = df.mature, ylim = ylim, axes = F, xlab = "Mature", col = color.biome[levels(df$Biome)], outcol =color.biome[levels(df$Biome)], log = ifelse(right.skewed.response, "y", ""))
+      boxplot(mean ~ Biome, data = df.mature, ylim = ylim, axes = F, xlab = "", col = color.biome[levels(df$Biome)], outcol =color.biome[levels(df$Biome)], log = ifelse(right.skewed.response, "y", ""))
       
       if(at_least_2_biomes_MATURE & biome.significant ) {
          # do pairwise comparison
@@ -525,7 +541,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
         
       }
       if(at_least_2_biomes_MATURE & !biome.significant ) {
-        text(x = c(1:length(unique(df.mature$Biome))), y = max(df.mature$mean) + diff(ylim)/50, c("-", "a")[ifelse(levels(df.mature$Biome) %in% levels(df.mature_model$Biome), 2, 1)])
+        text(x = c(1:length(unique(df.mature$Biome))), y = max(df.mature$mean) + diff(ylim)/50, c("-", "a")[ifelse(levels(df.mature$Biome) %in% levels(df.mature_model$Biome), 2, 1)], cex = 0.7)
         
       }
       if(!at_least_2_biomes_MATURE) {
@@ -534,10 +550,12 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
         
       }
     } else {
-      boxplot(c(0,0,0,0), axes = F, border = "white", xlab = "Mature Forest")
+      boxplot(c(0,0,0,0), axes = F, border = "white", xlab = "")
     }
     
-    text(x = 0, y = ylim[1], labels =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE, nrow(df.mature_model), 0)), cex = 0.5, adj = 0, pos = 4, xpd = NA)
+    mtext(side = 1, line = 2.5, text = "MAture", cex = 0.7)
+    
+    mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE, nrow(df.mature_model), 0)), cex = 0.6, adj = 0, pos = 4, xpd = NA)
 
     # dev.off() ####
     dev.off()
