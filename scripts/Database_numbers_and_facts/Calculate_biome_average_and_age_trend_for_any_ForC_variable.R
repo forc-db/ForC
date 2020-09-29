@@ -237,11 +237,13 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   A_MATURE[A_MATURE>0] <- 1
   Biomes_to_keep_MATURE <- names(which(rowSums(A_MATURE) >=7))
   at_least_2_biomes_MATURE <- length(Biomes_to_keep_MATURE)>=2
+  enough_data_for_mixed_model_MATURE <- sum(table(df.mature$Biome, paste(df.mature$geographic.area, df.mature$plot.name))) > ncol(table(df.mature$Biome, paste(df.mature$geographic.area, df.mature$plot.name))) # n levels < n obs
   
   A_YOUNG <- table(df.young$Biome, df.young$geographic.area)
   A_YOUNG[A_YOUNG>0] <- 1
   Biomes_to_keep_YOUNG <- names(which(rowSums(A_YOUNG) >=3))
   at_least_2_biomes_YOUNG <- length(Biomes_to_keep_YOUNG)>=2
+  enough_data_for_mixed_model_YOUNG <- sum(table(df.young$Biome, paste(df.young$geographic.area, df.young$plot.name))) > ncol(table(df.young$Biome, paste(df.young$geographic.area, df.young$plot.name))) # n levels < n obs
     
     
   df.mature_model <- droplevels(df.mature[df.mature$Biome %in% Biomes_to_keep_MATURE, ])
@@ -258,7 +260,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   
   # more.than.one.biome <- length(unique(df.young$Biome)) > 1
   
-  if(at_least_2_biomes_YOUNG) {
+  if(at_least_2_biomes_YOUNG & enough_data_for_mixed_model_YOUNG) {
 
     right.skewed.response <- skewness(df.young_model$mean) > 2 & all(df.young_model$mean > 0)
     # if(enough.data.for.mixed.model) {
@@ -344,7 +346,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
  
   
   ### model mature ####
-  if(at_least_2_biomes_MATURE) {
+  if(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE) {
     
     mod.mature <- lmer(mean ~ -1 + Biome + (1|geographic.area/plot.name), data = df.mature_model)
     
@@ -358,7 +360,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
       names(order.mature.biomes) <- abb.biome[names(order.mature.biomes)]
       
     }
-    }else {
+    } else {
       v_not_enough_data_for_mature <- c(v_not_enough_data_for_mature, v.diag)
       biome.significant <- FALSE
     }
@@ -508,7 +510,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
       
       
       
-      if(at_least_2_biomes_YOUNG) {
+      if(at_least_2_biomes_YOUNG & enough_data_for_mixed_model_YOUNG) {
       for(b in levels(df.young_model$Biome)){
         y <- fit.young[newDat$Biome %in% b]
         x <- newDat[newDat$Biome %in% b, ]$stand.age
@@ -529,21 +531,21 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     mtext(side = 2, line = 2.5, text = eval(parse(text = ylab)), cex = 0.7)
     mtext(side = 1, line = 2.5, text = "Age (years)", cex = 0.7) # "Age (years - log scaled)"
       
-      text(x = .8, y = ylim[2], labels = paste0("n = ", nrow(df.young), "\nn analyzed = ", ifelse(at_least_2_biomes_YOUNG, nrow(df.young_model), 0)), cex = 0.7, adj = 0, pos = 4, xpd = NA)
+      text(x = .8, y = ylim[2], labels = paste0("n = ", nrow(df.young), "\nn analyzed = ", ifelse(at_least_2_biomes_YOUNG & enough_data_for_mixed_model_YOUNG, nrow(df.young_model), 0)), cex = 0.7, adj = 0, pos = 4, xpd = NA)
     
     ## boxplot mature
     par(mar = c(5.1,0,0,0))
     if(nrow(df.mature) > 0) {
       boxplot(mean ~ Biome, data = df.mature, ylim = ylim, axes = F, xlab = "", col = color.biome[levels(df$Biome)], outcol =color.biome[levels(df$Biome)]) # , log = ifelse(right.skewed.response, "y", "")
       
-      if(at_least_2_biomes_MATURE & biome.significant ) {
+      if(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE & biome.significant ) {
          # do pairwise comparison
         letters_to_show <- pairwise.comp.letter.grouping$mcletters$Letters[levels(df.mature$Biome)]
         letters_to_show <- ifelse(is.na(letters_to_show), "-", letters_to_show)
         text(x = c(1:length(unique(df.mature$Biome))), y = max(df.mature$mean) + diff(ylim)/50, letters_to_show)
         
       }
-      if(at_least_2_biomes_MATURE & !biome.significant ) {
+      if(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE & !biome.significant ) {
         text(x = c(1:length(unique(df.mature$Biome))), y = max(df.mature$mean) + diff(ylim)/50, c("-", "a")[ifelse(levels(df.mature$Biome) %in% levels(df.mature_model$Biome), 2, 1)], cex = 0.7)
         
       }
@@ -558,7 +560,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     
     mtext(side = 1, line = 2.5, text = "Mature", cex = 0.7)
     
-    mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE, nrow(df.mature_model), 0)), cex = 0.6, adj = 0, pos = 4, xpd = NA)
+    mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE, nrow(df.mature_model), 0)), cex = 0.6, adj = 0, pos = 4, xpd = NA)
 
     # dev.off() ####
     dev.off()
