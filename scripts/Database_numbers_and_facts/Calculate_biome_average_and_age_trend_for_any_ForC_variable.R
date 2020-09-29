@@ -311,10 +311,10 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     intercept.se <- round(summary.mod[idx_intercept, "Std. Error" ], 2)
     slope <- ifelse(interaction.sig, round(summary.mod["log10(stand.age)", "Estimate" ] + ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Estimate" ], 0), 2), round(round(summary.mod["log10(stand.age)", "Estimate" ], 2)))  
     
-    slope.1 <- round(summary.mod["log10(stand.age)", "Estimate" ], 2)  
-    slope1.se <- round(summary.mod["log10(stand.age)", "Std. Error" ], 2)
-    slope2 <- ifelse(interaction.sig, round( ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Estimate" ], 0), 2), "-")
-    slope2.se <- ifelse(interaction.sig, round( ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Std. Error" ], 0), 2), "-")
+    # slope.1 <- round(summary.mod["log10(stand.age)", "Estimate" ], 2)  
+    # slope1.se <- round(summary.mod["log10(stand.age)", "Std. Error" ], 2)
+    # slope2 <- ifelse(interaction.sig, round( ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Estimate" ], 0), 2), "-")
+    # slope2.se <- ifelse(interaction.sig, round( ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Std. Error" ], 0), 2), "-")
     
     equation[[paste(b, "YOUNG")]] <- NA # paste0(format(intercept, nsmall = 2), ifelse(sign(slope) == -1, "-log10(age)\u00D7", "+log10(age)\u00D7"), format(abs(slope), nsmall = 2)) # we removed the equation from the C-cycle diagrams
     equation[[paste(b, "MATURE")]] <- NA
@@ -471,9 +471,9 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     summary_for_ERL$biome.differences[idx_ERL] <-"n.s."
   }
   if(!biome.significant & v.diag %in% v_not_enough_data_for_mature) {
-    summary_for_ERL$biome.differences[idx_ERL] <-"-"
+    summary_for_ERL$biome.differences[idx_ERL] <-"n.t."
   }
-  summary_for_ERL$age.trend[idx_ERL] <- ifelse(v.diag %in% v_not_enough_data_for_young, "-", paste0(c(ifelse(sign(summary(mod.young)$coefficients[1])>0, "+", "-")[age.significant], "xB"[interaction.sig]), collapse = "; "))
+  summary_for_ERL$age.trend[idx_ERL] <- ifelse(v.diag %in% v_not_enough_data_for_young, "n.t.", paste0(c(ifelse(sign(summary(mod.young)$coefficients[1])>0, "+", "-")[age.significant], "xB"[interaction.sig]), collapse = "; "))
   summary_for_ERL$age.trend[idx_ERL] <- ifelse(  summary_for_ERL$age.trend[idx_ERL] == "", "n.s.",   summary_for_ERL$age.trend[idx_ERL])
   
   

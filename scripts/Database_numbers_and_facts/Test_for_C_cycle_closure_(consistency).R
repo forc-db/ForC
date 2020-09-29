@@ -60,11 +60,11 @@ for(b in unique(ForC_biome_averages$Biome)) {
       
       sum.of.components <- with(Xs, eval(parse(text = eq)))
     
-      test <- ifelse(sum.of.components == "-", "-", ifelse(sum.of.components > (y$mean + y$std), "greater",
+      test <- ifelse(sum.of.components == "-", "n.t.", ifelse(sum.of.components > (y$mean + y$std), "greater",
                      ifelse(sum.of.components < (y$mean - y$std), "smaller", "equal")
                      ))
       
-      lack.of.closure <- ifelse(test == "-", "-", ifelse(!test %in% "equal", 1, 0))
+      lack.of.closure <- ifelse(test == "n.t.", "-", ifelse(!test %in% "equal", 1, 0))
       # lack.of.closure <- ifelse(is.na(test), NA, lack.of.closure)
       
     } #  if(X[X$variable.diagram %in% v, ]$n.areas >= 7) 
@@ -72,7 +72,7 @@ for(b in unique(ForC_biome_averages$Biome)) {
     if(!X[X$variable.diagram %in% v, ]$n.areas >= 7) {
       eq_comp <- NULL
       sum.of.components <- "-"
-      test <- "-"
+      test <- "n.t."
       lack.of.closure <- "-" 
     } # if(!X[X$variable.diagram %in% v, ]$n.areas >= 7) 
   
