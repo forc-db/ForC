@@ -22,7 +22,11 @@ load("supplementary_resources/World Map data/data_for_World_Map_with_Biogeograph
 ForC_simplified <- read.csv("ForC_simplified/ForC_simplified.csv", stringsAsFactors = F)
 
 ## Filter out managed, disturbed and no hisotry info sites
-ForC_simplified <- ForC_simplified[ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0 & ForC_simplified$history.no.info %in%0, ]
+ForC_simplified <- ForC_simplified[ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0 & ForC_simplified$history.no.info %in% 0, ]
+
+## filter out suspected duplicates ####
+ForC_simplified <-ForC_simplified[ForC_simplified$suspected.duplicate %in% 0, ]
+
 
 ## Make stand.age a numeric variable
 ForC_simplified$stand.age <- as.numeric(ForC_simplified$stand.age)

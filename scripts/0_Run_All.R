@@ -51,12 +51,14 @@ source("scripts/Database_manipulation/Identify_and_resolve_duplicates/ID_sets_of
 ### this internally runs (source("scripts/Database_manipulation/Reconcile_duplicated_records.R"))
 source("scripts/Database_manipulation/Create_ForC_simplified.R")
 source("scripts/Database_manipulation/Create_ForC_simplified_metadata.R")
+source("scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R")
 
 
 ## Database numbers and facts ####
 source("scripts/Database_numbers_and_facts/Calculate_biome_average_and_age_trend_for_any_ForC_variable.R") # previously Calculate_biome_average_for_any_ForC_variable.R"
-source("scripts/Database_numbers_and_facts/Sample_size_per_variable_and forest_biome_combination.R")
 source("scripts/Database_numbers_and_facts/Test_for_C_cycle_closure_(consistency).R")
+
+source("scripts/Database_numbers_and_facts/Sample_size_per_variable_and forest_biome_combination.R")
 
 ## Figures ####
 # source("scripts/Figures/Age_trend_in_C_cycle_variables.R") #this is now in Calculate_biome_average_and_age_trend_for_any_ForC_variable

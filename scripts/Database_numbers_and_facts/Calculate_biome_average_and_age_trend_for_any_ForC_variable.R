@@ -47,10 +47,13 @@ Continents <- crop(Continents, extent(-180, 180, -43, 73))
 
 # Prepare data ####
 
-## Filter out managed, disturbed and no hisotry info sites
-ForC_simplified <- ForC_simplified[ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0 & ForC_simplified$history.no.info %in%0, ]
+## Filter out managed, disturbed and no hisotry info sites ####
+ForC_simplified <- ForC_simplified[ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0 & ForC_simplified$history.no.info %in% 0, ]
 
-## Make stand.age a numeric variable
+## filter out suspected duplicates ####
+ForC_simplified <-ForC_simplified[ForC_simplified$suspected.duplicate %in% 0, ]
+
+## Make stand.age a numeric variable ####
 ForC_simplified$stand.age <- as.numeric(ForC_simplified$stand.age)
 
 

@@ -1,7 +1,2 @@
 x
 ANPP_repro
-ANPP_folivory
-woody.mortality
-R_auto
-R_auto_ag
-deadwood_standing
