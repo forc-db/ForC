@@ -553,7 +553,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
       boxplot(c(0,0,0,0), axes = F, border = "white", xlab = "")
     }
     
-    mtext(side = 1, line = 2.5, text = "MAture", cex = 0.7)
+    mtext(side = 1, line = 2.5, text = "Mature", cex = 0.7)
     
     mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE, nrow(df.mature_model), 0)), cex = 0.6, adj = 0, pos = 4, xpd = NA)
 
