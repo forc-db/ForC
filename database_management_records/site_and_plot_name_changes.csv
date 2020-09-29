@@ -201,3 +201,9 @@ Caxiuana~ National Forest Reserve,Aggrading Tropical Evergreen Forest. Stand est
 Caxiuana~ National Forest Reserve,Aggrading Tropical Evergreen Forest,Caxiuana Terra Preta CAX-08,unmanaged Late successional forest,3/1/20,merge duplicate sites/plots
 Caxiuana~ National Forest Reserve,Tropical Evergreen Forest,Caxiuana Drought Control CAX-04,largely undisturbed terra firma forest,3/1/20,merge duplicate sites/plots
 Caxiuana~ National Forest Reserve,Tropical Evergreen Forest with Drought treatment,Caxiuana Drought Experiment,Tropical Evergreen Forest with Drought treatment,3/1/20,merge duplicate sites/plots
+,,Tok Junction,Aggrading Boreal Deciduous Forest. Stand established around 1990,9/29/20,remove records that did not appear in original pub
+,,Tok Junction,Aggrading Boreal Evergreen Forest. Stand established around 1990,9/29/20,remove records that did not appear in original pub
+,,Tok Junction,Aggrading Boreal Evergreen Forest. Stand established around 1990,9/29/20,remove records that did not appear in original pub
+Tok Junction,Populus tremuloides stand-unburned,Tok Junction,Boreal Deciduous Forest,9/29/20,rename plots to distinguish stands
+Tok Junction,Picea glauca stand-unburned,Tok Junction,Boreal Evergreen Forest,9/29/20,rename plots to distinguish stands
+Tok Junction,Picea mariana stand-umburned,Tok Junction,Boreal Evergreen Forest,9/29/20,rename plots to distinguish stands
