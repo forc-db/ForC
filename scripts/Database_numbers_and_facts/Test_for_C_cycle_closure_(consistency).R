@@ -48,7 +48,8 @@ for(b in unique(ForC_biome_averages$Biome)) {
       if(all(eq_comp_th %in% eq_comp)) eq = eq_th
       if(!all(eq_comp_th %in% eq_comp)) {
         missing_comp <- eq_comp_th[!eq_comp_th %in% eq_comp]
-        eq = gsub(paste(missing_comp, collapse = "|"), "0", eq_th)
+        # eq = gsub(paste(missing_comp, collapse = "|"), "0", eq_th)
+        eq = "paste('-')"
       }
       
       # Calcul
@@ -59,20 +60,20 @@ for(b in unique(ForC_biome_averages$Biome)) {
       
       sum.of.components <- with(Xs, eval(parse(text = eq)))
     
-      test <- ifelse(sum.of.components > (y$mean + y$std), "greater",
+      test <- ifelse(sum.of.components == "-", "-", ifelse(sum.of.components > (y$mean + y$std), "greater",
                      ifelse(sum.of.components < (y$mean - y$std), "smaller", "equal")
-                     )
+                     ))
       
-      lack.of.closure <- ifelse((!all(eq_comp_th %in% eq_comp) & test %in% "greater") | (all(eq_comp_th %in% eq_comp) & !test %in% "equal"), 1, 0)
-      lack.of.closure <- ifelse(is.na(test), NA, lack.of.closure)
+      lack.of.closure <- ifelse(test == "-", "-", ifelse(!test %in% "equal", 1, 0))
+      # lack.of.closure <- ifelse(is.na(test), NA, lack.of.closure)
       
     } #  if(X[X$variable.diagram %in% v, ]$n.areas >= 7) 
     
     if(!X[X$variable.diagram %in% v, ]$n.areas >= 7) {
       eq_comp <- NULL
-      sum.of.components <- NA
-      test <- NA
-      lack.of.closure <- NA 
+      sum.of.components <- "-"
+      test <- "-"
+      lack.of.closure <- "-" 
     } # if(!X[X$variable.diagram %in% v, ]$n.areas >= 7) 
   
     component_closure <- rbind(
