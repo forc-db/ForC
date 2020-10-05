@@ -21,6 +21,10 @@ setwd(".")
 # Load libaries ####
 library(lubridate)
 library(lme4)
+library(rgdal)
+library(raster)
+library(moments)
+library(multcomp)
 
 # Load data ####
 ForC_simplified <- read.csv("ForC_simplified/ForC_simplified.csv", stringsAsFactors = F)
@@ -38,7 +42,6 @@ my_na.omit <- function(x) { return(x[!my_is.na(x)])}
 Continents <- readOGR("supplementary_resources/World Map data/Continents/World_Continents.shp")
 
 ## prepare color and abbreviations for biomes ####
-levels(ForC_simplified$Biome)
 color.biome <- c("Tropical broadleaf" = "tomato", "Temperate broadleaf" = "yellowgreen", "Temperate conifer" = "cyan2", "Boreal conifer" = "cadetblue")
 abb.biome <- c("Tropical broadleaf" = "TrB", "Temperate broadleaf" = "TeB", "Temperate conifer" = "TeN", "Boreal conifer" = "BoN")
 
@@ -483,6 +486,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   ### ylim
   ylim = range(df$mean)
   
+  
   png(file = paste0("figures/age_trends/", v.diag, ".png"), height = 3, width = 5, units = "in", res = 150)
   
   ### layout figure
@@ -560,7 +564,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     
     mtext(side = 1, line = 2.5, text = "Mature", cex = 0.7)
     
-    mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE, nrow(df.mature_model), 0)), cex = 0.6, adj = 0, pos = 4, xpd = NA)
+    mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE, nrow(df.mature_model), 0)), cex = 0.6, adj = 0, xpd = NA)
 
     # dev.off() ####
     dev.off()
@@ -574,7 +578,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
 # Figure for ERL-review####
 for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
- png(file = paste0("figures/age_trends/for_ERL_review/", fig, ".png"), height = 9, width = 10, units = "in", res = 300)
+ jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1500, width = 1600, units = "px", res = 300)
   
   ### layout figure
  par(mfrow = c(3, 2), mar = c(0,0,0,0))
@@ -597,7 +601,7 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
                  ybottom = 0, ytop = 100)
     
     
-    mtext(side = 3, line = -1, adj = 0.05, text = paste0(letters[which(variables.of.interest %in% v.diag)], ")"), cex = 0.8)
+    mtext(side = 3, line = -1, adj = 0.05, text = paste0(letters[which(variables.of.interest %in% v.diag)], ")"), cex = 0.5)
     
    
   }
@@ -624,3 +628,4 @@ if(!is.null(v_not_enough_data_for_young)) {
   write.csv(v_not_enough_data_for_young, "figures/age_trends/for_ERL_review/v_not_enough_data_for_young.txt", row.names = F, quote = F, col.names = NULL)
   write.csv(v_not_enough_data_for_young, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/v_not_enough_data_for_young.txt"), row.names = F, quote = F, col.names = NULL, )
 }
+

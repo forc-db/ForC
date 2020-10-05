@@ -329,7 +329,7 @@ for(b in unique(ForC_biome_averages$Biome)){
   stock.equations.to.right.at.the.bottom <- NULL
   
   if(save.plot) {
-    png(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".png"), width =  2500, height = 2000, units = "px", res = 300)
+    jpeg(file = paste0("figures/C_cycle_diagrams/Diagrams/", b, ".jpeg"), width =  2500, height = 2000, units = "px", res = 300)
     op <- par(mar = c(0,0,0,0), oma = c(0,0,0,0), pin = c(15.3 * 0.53, 11 * 0.53)) #  pty = "s") # 
   }
   
