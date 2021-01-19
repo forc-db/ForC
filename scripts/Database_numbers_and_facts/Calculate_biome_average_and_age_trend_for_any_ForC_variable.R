@@ -25,6 +25,7 @@ library(rgdal)
 library(raster)
 library(moments)
 library(multcomp)
+library(png)
 
 # Load data ####
 ForC_simplified <- read.csv("ForC_simplified/ForC_simplified.csv", stringsAsFactors = F)
@@ -489,26 +490,35 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   
   png(file = paste0("figures/age_trends/", v.diag, ".png"), height = 3, width = 5, units = "in", res = 150)
   
+  
+  # # with map
+  # ### layout figure
+  # layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,2), widths = c(5,1))
+  # 
+  # ### MAP plot all sites ? (even mature?)
+  # par(mar = c(0,0,0,0))
+  # plot(Continents, col = "grey", border = "grey")
+  # 
+  # if(nrow(df.young) > 0) {
+  #   sites <- df.young[, c("lat", "lon", "Biome")]
+  #   coordinates(sites) <- c("lon", "lat")
+  #   points(sites, col = color.biome[as.character(df.young$Biome)], pch = 4)
+  # }  
+  # if(nrow(df.mature) > 0) {
+  #   sites <- df.mature[, c("lat", "lon", "Biome")]
+  #   coordinates(sites) <- c("lon", "lat")
+  #   points(sites, col = color.biome[as.character(df.mature$Biome)], pch = 1)
+  # }
+  
+  
+  # without map
   ### layout figure
-  layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,2), widths = c(5,1))
-  
-  ### MAP plot all sites ? (even mature?)
-  par(mar = c(0,0,0,0))
-  plot(Continents, col = "grey", border = "grey")
-  
-  if(nrow(df.young) > 0) {
-    sites <- df.young[, c("lat", "lon", "Biome")]
-    coordinates(sites) <- c("lon", "lat")
-    points(sites, col = color.biome[as.character(df.young$Biome)], pch = 4)
-  }  
-  if(nrow(df.mature) > 0) {
-    sites <- df.mature[, c("lat", "lon", "Biome")]
-    coordinates(sites) <- c("lon", "lat")
-    points(sites, col = color.biome[as.character(df.mature$Biome)], pch = 1)
-  }
+  layout(matrix(c(1,2), ncol = 2, byrow = T), widths = c(5,1))
+
+
     
     ### Plot young 
-    par(mar = c(5.1,4.1,0,0))
+  par(mar = c(5.1,4.1,1,1), oma = c(0,0,0,1)) # with map par(mar = c(5.1,4.1,0,0))
     if(nrow(df.young)>0) {
       plot(mean ~ stand.age, data = df.young, col = color.biome[as.character(df.young$Biome)], xlab = "", ylab = "", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1) # , log = ifelse(right.skewed.response, "xy", "x")
       
@@ -564,7 +574,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     
     mtext(side = 1, line = 2.5, text = "Mature", cex = 0.7)
     
-    mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE, nrow(df.mature_model), 0)), cex = 0.6, adj = 0, xpd = NA)
+    mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE, nrow(df.mature_model), 0)), cex = 0.7, adj = 0, xpd = NA)
 
     # dev.off() ####
     dev.off()
