@@ -269,9 +269,9 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     right.skewed.response <- skewness(df.young_model$mean) > 2 & all(df.young_model$mean > 0)
     # if(enough.data.for.mixed.model) {
       # if(more.than.one.biome) 
-        mod.young <- lmer(mean ~ -1 + log10(stand.age) + Biome + (1|geographic.area/plot.name), data = df.young_model) # when there is enough data for mixed model
+        mod.young <- lmer(mean ~ -1 + poly(stand.age, 2, raw = T) + Biome + (1|geographic.area/plot.name), data = df.young_model) # when there is enough data for mixed model
       # if(!more.than.one.biome) mod.young <- lmer(mean ~ -1 + log10(stand.age) + (1|geographic.area/plot.name), data = df.young) # when there is enough data for mixed model
-      age.significant <- AIC(mod.young) < AIC(update(mod.young, ~ . -log10(stand.age) ))
+      age.significant <- AIC(mod.young) < AIC(update(mod.young, ~ . - poly(stand.age, 2, raw = T) ))
     # } 
   # else {
   #     if(more.than.one.biome) {
@@ -283,8 +283,8 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   #   }
     
     if(age.significant & at.least.10.different.ages.in.each.Biome ) {
-      if( AIC(mod.young) > AIC(update(mod.young, ~ .+log10(stand.age):Biome)))  {
-        mod.young <- update(mod.young, ~ .+log10(stand.age):Biome)
+      if( AIC(mod.young) > AIC(update(mod.young, ~ .+ poly(stand.age, 2, raw = T):Biome)))  {
+        mod.young <- update(mod.young, ~ .+ poly(stand.age, 2, raw = T):Biome)
         interaction.sig = TRUE
       }  else {
         interaction.sig = FALSE
@@ -293,7 +293,8 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     } else {interaction.sig = F}
     if(!age.significant) interaction.sig = F
     
-    newDat<- expand.grid(stand.age = 10^seq(min(log10(df.young_model$stand.age))+0.01, max(log10(df.young_model$stand.age)), length.out = 100), Biome = levels(df.young_model$Biome))
+    # newDat<- expand.grid(stand.age = 10^seq(min(log10(df.young_model$stand.age))+0.01, max(log10(df.young_model$stand.age)), length.out = 100), Biome = levels(df.young_model$Biome))
+    newDat <- expand.grid(stand.age = seq(min(df.young_model$stand.age), max(df.young_model$stand.age), length.out = 100), Biome = levels(df.young_model$Biome))
     
     fit.young  <- predict(mod.young, newDat, re.form =  NA)
   } else {
@@ -308,12 +309,12 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   if(age.significant & b %in% df.young_model$Biome){
     summary.mod <- summary(mod.young)$coefficients
   
-    idx_intercept <- rownames(summary.mod) %in% paste0("Biome",b)
-    idx_slope <- grepl(paste0("\\:Biome", b), rownames(summary.mod))
-    
-    intercept <- round(summary.mod[idx_intercept, "Estimate" ], 2)
-    intercept.se <- round(summary.mod[idx_intercept, "Std. Error" ], 2)
-    slope <- ifelse(interaction.sig, round(summary.mod["log10(stand.age)", "Estimate" ] + ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Estimate" ], 0), 2), round(round(summary.mod["log10(stand.age)", "Estimate" ], 2)))  
+    # idx_intercept <- rownames(summary.mod) %in% paste0("Biome",b)
+    # idx_slope <- grepl(paste0("\\:Biome", b), rownames(summary.mod))
+    # 
+    # intercept <- round(summary.mod[idx_intercept, "Estimate" ], 2)
+    # intercept.se <- round(summary.mod[idx_intercept, "Std. Error" ], 2)
+    # slope <- ifelse(interaction.sig, round(summary.mod["log10(stand.age)", "Estimate" ] + ifelse(sum(idx_slope) > 0, summary.mod[idx_slope, "Estimate" ], 0), 2), round(round(summary.mod["log10(stand.age)", "Estimate" ], 2)))  
     
     # slope.1 <- round(summary.mod["log10(stand.age)", "Estimate" ], 2)  
     # slope1.se <- round(summary.mod["log10(stand.age)", "Std. Error" ], 2)
