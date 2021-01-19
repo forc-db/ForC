@@ -491,34 +491,35 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   png(file = paste0("figures/age_trends/", v.diag, ".png"), height = 3, width = 5, units = "in", res = 150)
   
   
-  # # with map
-  # ### layout figure
-  # layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,2), widths = c(5,1))
-  # 
-  # ### MAP plot all sites ? (even mature?)
-  # par(mar = c(0,0,0,0))
-  # plot(Continents, col = "grey", border = "grey")
-  # 
-  # if(nrow(df.young) > 0) {
-  #   sites <- df.young[, c("lat", "lon", "Biome")]
-  #   coordinates(sites) <- c("lon", "lat")
-  #   points(sites, col = color.biome[as.character(df.young$Biome)], pch = 4)
-  # }  
-  # if(nrow(df.mature) > 0) {
-  #   sites <- df.mature[, c("lat", "lon", "Biome")]
-  #   coordinates(sites) <- c("lon", "lat")
-  #   points(sites, col = color.biome[as.character(df.mature$Biome)], pch = 1)
-  # }
+  # with map
+  ### layout figure
+  par(oma = c(0,0,0,1))
+  layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,2), widths = c(5,1))
+
+  ### MAP plot all sites ? (even mature?)
+  par(mar = c(0,0,0,0))
+  plot(Continents, col = "grey", border = "grey")
+
+  if(nrow(df.young) > 0) {
+    sites <- df.young[, c("lat", "lon", "Biome")]
+    coordinates(sites) <- c("lon", "lat")
+    points(sites, col = color.biome[as.character(df.young$Biome)], pch = 4)
+  }
+  if(nrow(df.mature) > 0) {
+    sites <- df.mature[, c("lat", "lon", "Biome")]
+    coordinates(sites) <- c("lon", "lat")
+    points(sites, col = color.biome[as.character(df.mature$Biome)], pch = 1)
+  }
   
   
   # without map
   ### layout figure
-  layout(matrix(c(1,2), ncol = 2, byrow = T), widths = c(5,1))
+  # layout(matrix(c(1,2), ncol = 2, byrow = T), widths = c(5,1))
 
 
     
     ### Plot young 
-  par(mar = c(5.1,4.1,1,1), oma = c(0,0,0,1)) # with map par(mar = c(5.1,4.1,0,0))
+  par(mar = c(5.1,4.1,2,1)) # with map par(mar = c(5.1,4.1,0,0))
     if(nrow(df.young)>0) {
       plot(mean ~ stand.age, data = df.young, col = color.biome[as.character(df.young$Biome)], xlab = "", ylab = "", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1) # , log = ifelse(right.skewed.response, "xy", "x")
       
@@ -588,10 +589,10 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
 # Figure for ERL-review####
 for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
- jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1500, width = 1600, units = "px", res = 300)
+ jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1100, width = 1600, units = "px", res = 300)
   
   ### layout figure
- par(mfrow = c(3, 2), mar = c(0,0,0,0))
+ par(mfrow = c(3, 2), mar = c(0,0,0,0), oma = c(0,0,0, 0))
   
   
   if (fig %in% "Flux_age_trends") variables.of.interest <- c("GPP", "NPP", "ANPP", "R_soil", "R_eco", "NEP")
@@ -601,6 +602,7 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
  
   for(v.diag in variables.of.interest) {
     img <- readPNG(paste0("figures/age_trends/", v.diag, ".png"))
+    img <- img[(nrow(img)/3):nrow(img), , ]
     
     plot.n <- plot.n +1
     
