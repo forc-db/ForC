@@ -589,20 +589,21 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
 # Figure for ERL-review####
 for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
- jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1100, width = 1600, units = "px", res = 300)
+  jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1100, width = 1500, units = "px", res = 300)
   
   ### layout figure
- par(mfrow = c(3, 2), mar = c(0,0,0,0), oma = c(0,0,0, 0))
-  
+  # par(mfrow = c(3, 2), mar = c(0,0,0,0))
+  layout(matrix(c(7,7,1,2,3,4,5,6), ncol = 2, byrow = T), heights = c(.2,1,1,1))
+  par(mar = c(0,0,0,0))
   
   if (fig %in% "Flux_age_trends") variables.of.interest <- c("GPP", "NPP", "ANPP", "R_soil", "R_eco", "NEP")
   if (fig %in% "Stock_age_trends")  variables.of.interest <- c("biomass_ag", "biomass_foliage", "biomass_root_fine", "deadwood_standing", "deadwood_down", "organic.layer")
- 
- plot.n = 0
- 
+  
+  plot.n = 0
+  
   for(v.diag in variables.of.interest) {
     img <- readPNG(paste0("figures/age_trends/", v.diag, ".png"))
-    img <- img[(nrow(img)/3):nrow(img), , ]
+    img <- img[(nrow(img)/3):(nrow(img)-20),,]
     
     plot.n <- plot.n +1
     
@@ -615,12 +616,22 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
     
     mtext(side = 3, line = -1, adj = 0.05, text = paste0(letters[which(variables.of.interest %in% v.diag)], ")"), cex = 0.5)
     
-   
+    
   }
- dev.off()
+  
+  # add legend
+  
+  par(mar = c(0,2,0,0))
+  plot(0:100, 0:100, type = "n", axes = F, xlab = "", ylab = "") 
+  legend("center", fill = color.biome, legend = names(color.biome), border = color.biome, bty = "n", horiz = T, cex = .8 )
+  
+  # dev.off()
+  dev.off()
   
   
 } # for( fig in c("Flux_age_trends", "Stock_age_trends"))
+
+
 
 
 # save ####
