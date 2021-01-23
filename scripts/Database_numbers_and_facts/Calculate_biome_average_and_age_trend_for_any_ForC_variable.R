@@ -488,13 +488,13 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   ylim = range(df$mean)
   
   
-  png(file = paste0("figures/age_trends/", v.diag, ".png"), height = 3, width = 5, units = "in", res = 150)
+  png(file = paste0("figures/age_trends/", v.diag, ".png"), height = 650, width = 750, units = "px", res = 175)
   
   
   # with map
   ### layout figure
   par(oma = c(0,0,0,1))
-  layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,2), widths = c(5,1))
+  layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,4), widths = c(5,1))
 
   ### MAP plot all sites ? (even mature?)
   par(mar = c(0,0,0,0))
@@ -589,7 +589,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
 # Figure for ERL-review####
 for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
-  jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1100, width = 1500, units = "px", res = 300)
+  jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1500, width = 1500, units = "px", res = 300)
   
   ### layout figure
   # par(mfrow = c(3, 2), mar = c(0,0,0,0))
@@ -603,7 +603,7 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
   for(v.diag in variables.of.interest) {
     img <- readPNG(paste0("figures/age_trends/", v.diag, ".png"))
-    img <- img[(nrow(img)/3):(nrow(img)-20),,]
+    img <- img[(nrow(img)/5):(nrow(img)-20),,]
     
     plot.n <- plot.n +1
     
