@@ -217,8 +217,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   v.type <- unique(v.map$variable.type)
   flux <- v.type %in% "flux"
   data.filter <- unique(v.map$data.filter)
-  ylab = summary_for_ERL$Variable[summary_for_ERL$variable.diagram %in% v.diag]
-  
+
   # subset for the variables of interest
   df <- ForC_simplified[ForC_simplified$variable.name %in% v  & !is.na(ForC_simplified$stand.age) & !ForC_simplified$stand.age %in% 0, ]  # removing age 0 because we are taking the log for youngs
   
@@ -487,14 +486,14 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
   ### ylim
   ylim = range(df$mean)
   
+  for(with_map in c(TRUE, FALSE)) {
+  png(file = paste0("figures/age_trends/", v.diag,"_with_map"[with_map],".png"), height =  ifelse(with_map, 2000, 800), width = ifelse(with_map, 2100, 1500), units = "px", res = ifelse(with_map, 300, 300), pointsize = 14)
   
-  png(file = paste0("figures/age_trends/", v.diag, ".png"), height = 650, width = 750, units = "px", res = 175)
-  
-  
+  if(with_map) {
   # with map
   ### layout figure
   par(oma = c(0,0,0,1))
-  layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1,4), widths = c(5,1))
+  layout(matrix(c(1,1,2,3), ncol = 2, byrow = T), heights = c(1.5,4), widths = c(5,1))
 
   ### MAP plot all sites ? (even mature?)
   par(mar = c(0,0,0,0))
@@ -510,18 +509,20 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
     coordinates(sites) <- c("lon", "lat")
     points(sites, col = color.biome[as.character(df.mature$Biome)], pch = 1)
   }
+  } else {
+    # without map
+    ### layout figure
+     layout(matrix(c(1,2), ncol = 2, byrow = T), widths = c(5,1))
+    par(oma = c(1,0,1,2))
+  }
   
-  
-  # without map
-  ### layout figure
-  # layout(matrix(c(1,2), ncol = 2, byrow = T), widths = c(5,1))
 
 
     
-    ### Plot young 
-  par(mar = c(5.1,4.1,2,1)) # with map par(mar = c(5.1,4.1,0,0))
+    ### Plot young ####
+  if(with_map) par(mar = c(5.1,4.1,0,0)) else par(mar = c(3,3.8,0,1)) # with map par(mar = c(5.1,4.1,0,0))
     if(nrow(df.young)>0) {
-      plot(mean ~ stand.age, data = df.young, col = color.biome[as.character(df.young$Biome)], xlab = "", ylab = "", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1) # , log = ifelse(right.skewed.response, "xy", "x")
+      plot(mean ~ stand.age, data = df.young, col = color.biome[as.character(df.young$Biome)], xlab = "", ylab = "", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1, cex = 0.8) # , log = ifelse(right.skewed.response, "xy", "x")
       
       
       
@@ -537,19 +538,21 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
       plot(1,1, col = "white", xlab = "", ylab = "", xlim = c(0.999, 100), ylim = ylim, pch = 4, bty = "L", las = 1) # , log = ifelse(right.skewed.response, "xy", "x")
     }
     
-    
+    ylab = summary_for_ERL$Variable[summary_for_ERL$variable.diagram %in% v.diag]
     ylab = gsub("\\$", "", ylab)
     ylab = gsub("_\\{", "\\[", ylab)
     ylab = gsub("}", "]", ylab)
     ylab =  ifelse(v.type %in% "flux",  paste0("expression(", ylab, "~'(Mg C ha'^{-1}~'yr'^{-1}*')')"), paste0("expression(", ylab, "~'(Mg C ha'^{-1}*')')"))
     
-    mtext(side = 2, line = 2.5, text = eval(parse(text = ylab)), cex = 0.7)
-    mtext(side = 1, line = 2.5, text = "Age (years)", cex = 0.7) # "Age (years - log scaled)"
+    mtext(side = 2, line = 2.5, text = eval(parse(text = ylab)), cex = 0.9)
+    mtext(side = 1, line = 2.5, text = "Age (years)", cex = 0.9) # "Age (years - log scaled)"
       
-      text(x = .8, y = ylim[2], labels = paste0("n = ", nrow(df.young), "\nn analyzed = ", ifelse(at_least_2_biomes_YOUNG & enough_data_for_mixed_model_YOUNG, nrow(df.young_model), 0)), cex = 0.7, adj = 0, pos = 4, xpd = NA)
+      # text(x = .8, y = ylim[2]*1.1, labels = paste0("n = ", nrow(df.young), "\nn analyzed = ", ifelse(at_least_2_biomes_YOUNG & enough_data_for_mixed_model_YOUNG, nrow(df.young_model), 0)), cex = 0.8, adj = 0, pos = 4, xpd = NA)
+      mtext(side = 3, line = -1.1, text =  paste0("n = ", nrow(df.young), "\nn analyzed = ", ifelse(at_least_2_biomes_YOUNG & enough_data_for_mixed_model_YOUNG, nrow(df.young_model), 0)), cex = 0.8, adj = 0, xpd = NA, at = .8)
+      
     
-    ## boxplot mature
-    par(mar = c(5.1,0,0,0))
+    ## boxplot mature ####
+      if(with_map) par(mar = c(5.1,0,0,0)) else par(mar = c(3,0,0,0)) 
     if(nrow(df.mature) > 0) {
       boxplot(mean ~ Biome, data = df.mature, ylim = ylim, axes = F, xlab = "", col = color.biome[levels(df$Biome)], outcol =color.biome[levels(df$Biome)]) # , log = ifelse(right.skewed.response, "y", "")
       
@@ -557,7 +560,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
          # do pairwise comparison
         letters_to_show <- pairwise.comp.letter.grouping$mcletters$Letters[levels(df.mature$Biome)]
         letters_to_show <- ifelse(is.na(letters_to_show), "-", letters_to_show)
-        text(x = c(1:length(unique(df.mature$Biome))), y = max(df.mature$mean) + diff(ylim)/50, letters_to_show)
+        text(x = c(1:length(unique(df.mature$Biome))), y = max(df.mature$mean) + diff(ylim)/50, letters_to_show, xpd = NA, cex = 0.7)
         
       }
       if(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE & !biome.significant ) {
@@ -565,7 +568,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
         
       }
       if(!at_least_2_biomes_MATURE) {
-        text(x = c(1:length(unique(df.mature$Biome))), y = max(df.mature$mean) + diff(ylim)/50, rep("-", length(unique(df.mature$Biome))))
+        text(x = c(1:length(unique(df.mature$Biome))), y = max(df.mature$mean) + diff(ylim)/50, rep("-", length(unique(df.mature$Biome))), cex = 0.7)
       
         
       }
@@ -573,14 +576,14 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
       boxplot(c(0,0,0,0), axes = F, border = "white", xlab = "")
     }
     
-    mtext(side = 1, line = 2.5, text = "Mature", cex = 0.7)
+    mtext(side = 1, line = 2.5, text = "Mature", cex = 1)
     
-    mtext(side = 1, line = 1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE, nrow(df.mature_model), 0)), cex = 0.7, adj = 0, xpd = NA)
+    mtext(side = 1, line = 1.1, text =  paste0("n = ", nrow(df.mature), "\nn analyzed = ", ifelse(at_least_2_biomes_MATURE & enough_data_for_mixed_model_MATURE, nrow(df.mature_model), 0)), cex = 0.8, adj = 0, xpd = NA)
 
     # dev.off() ####
     dev.off()
     
-    
+  } #  for(with_map in c(TRUE, FALSE))
     
     
   
@@ -589,7 +592,7 @@ for (v.diag in intersect(summary_for_ERL$variable.diagram, Variables_mapping$var
 # Figure for ERL-review####
 for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
-  jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1500, width = 1500, units = "px", res = 300)
+  jpeg(file = paste0("figures/age_trends/for_ERL_review/", fig, ".jpeg"), height = 1800, width = 2100, units = "px", res = 300)
   
   ### layout figure
   # par(mfrow = c(3, 2), mar = c(0,0,0,0))
@@ -603,7 +606,7 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
   for(v.diag in variables.of.interest) {
     img <- readPNG(paste0("figures/age_trends/", v.diag, ".png"))
-    img <- img[(nrow(img)/5):(nrow(img)-20),,]
+    # img <- img[(nrow(img)/5):(nrow(img)-20),,]
     
     plot.n <- plot.n +1
     
@@ -614,7 +617,7 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
                  ybottom = 0, ytop = 100)
     
     
-    mtext(side = 3, line = -1, adj = 0.05, text = paste0(letters[which(variables.of.interest %in% v.diag)], ")"), cex = 0.5)
+    mtext(side = 3, line = -1, adj = 0.05, text = paste0(letters[which(variables.of.interest %in% v.diag)], ")"))
     
     
   }
@@ -623,7 +626,7 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
   
   par(mar = c(0,2,0,0))
   plot(0:100, 0:100, type = "n", axes = F, xlab = "", ylab = "") 
-  legend("center", fill = color.biome, legend = names(color.biome), border = color.biome, bty = "n", horiz = T, cex = .8 )
+  legend("center", fill = color.biome, legend = names(color.biome), border = color.biome, bty = "n", horiz = T )
   
   # dev.off()
   dev.off()
