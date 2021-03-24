@@ -58,7 +58,7 @@ Bader_2010_noso,10.1111/j.1365-2486.2010.02159.x,Bader,2010,No overall stimulati
 Bae_2013_svos,10.1007/s10457-012-9530-8,Bae,2013,Seasonal variation of soil respiration rates in a secondary forest and agroforestry systems
 Bae_2015_snaa,10.1007/s10021-015-9892-7,Bae,2015,Soil Nitrogen Availability Affects Belowground Carbon Allocation and Soil Respiration in Northern Hardwood Forests of New Hampshire
 Baker_2004_ibia,10.1098/rstb.2003.1422,Baker,2004,Increasing biomass in Amazonian forest plots
-Baker_2004_viwd,10.1111/j.1529-8817.2003.00751.x,Baker,2004,Variation in wood density determines spatial patterns in Amazonian forest biomass
+Baker_2004_viwd,10.1111/j.1365-2486.2004.00751.x,Baker,2004,Variation in wood density determines spatial patterns in Amazonian forest biomass
 Baker_2007_lsoc,10.1007/s00442-007-0667-5,Baker,2007,Low stocks of coarse woody debris in a southwest Amazonian forest
 Baldocchi_2000_omne,10.1023/A:1002497616547,Baldocchi,2000,On Measuring Net Ecosystem Carbon Exchange Over Tall Vegetation on Complex Terrain
 Baldocchi_2008_bott,10.1071/BT07151,Baldocchi,2008,Breathing of the terrestrial biosphere: lessons learned from a global network of carbon dioxide flux measurement systems
@@ -115,7 +115,7 @@ Borken_1999_accs,NAC,Borken,1999,A climate change scenario for carbon dioxide an
 Borken_2002_aoci,NAC,Borken,2002,"Application of compost in spruce forests: effects on soil respiration, basal respiration and microbial biomass"
 Borken_2002_satv,NAC,Borken,2002,"Site and temporal variation of soil respiration in European beech, Norway spruce, and Scots pine forests"
 Borken_2005_srip,10.1139/X05-192,Borken,2005,Soil respiration in pure and mixed stands of European beech and Norway spruce following removal of organic horizons
-Borken_2006_eoed,10.1111/j.1365-2486.2005.01058.x,Borken,2006,Effects of experimental drought on soil respiration and radiocarbon efflux from a temperate forest soil
+Borken_2006_eoed,10.1111/j.1365-2486.2005.001058.x,Borken,2006,Effects of experimental drought on soil respiration and radiocarbon efflux from a temperate forest soil
 Bormann_1979_papi,NA,Bormann,1979,Pattern and process in a forested ecosystem.
 Bourg_2013_icws,10.1890/13-0010.1,Bourg,2013,"Initial census, woody seedling, seed rain, and stand structure data for the SCBI SIGEO Large Forest Dynamics Plot"
 Bowden_1993_coal,10.1139/x93-177,Bowden,1993,"Contributions Of Aboveground Litter, Belowground Litter, And Root Respiration To Total Soil Respiration In A Temperature Mixed Hardwood Forest"
@@ -220,7 +220,7 @@ Coleman_2000_cfps,NAC,Coleman,2000,"Contrasting fine-root production, survival a
 Coleman_2002_srff,NAC,Coleman,2002,Soil respiration from four aggrading forested watersheds measured over a quarter century
 Coles_2004_lbca,10.1080/01490450490505419,Coles,2004,"Linking belowground carbon allocation to anaerobic CH4 and CO2 production in a forested peatland, New York state"
 Collalti_2019_inpt,10.1093/treephys/tpz034,Collalti,2019,Is NPP proportional to GPP? Waring's hypothesis 20 years on
-Comeau_1999_nbfc,doi:10.3334/ORNLDAAC/465,Comeau,1999,"NPP Boreal Forest: Canal Flats, Canada, 1984."
+Comeau_1999_nbfc,10.3334/ORNLDAAC/465,Comeau,1999,"NPP Boreal Forest: Canal Flats, Canada, 1984."
 Comstedt_2011_aahs,10.1007/s10533-010-9491-9,Comstedt,2011,Autotrophic and heterotrophic soil respiration in a Norway spruce forest: estimating the root decomposition and soil moisture effects in a trenching experiment
 Conant_1998_cpaf,NAC,Conant,1998,Carbon pools and fluxes along an environmental gradient in northern Arizona
 Condit_1998_tfcp,NA,Condit,1998,Tropical forest census plots
@@ -266,7 +266,7 @@ Davidson_2002_bcai,10.1016/S0168-1923(02)00101-6,Davidson,2002,Belowground carbo
 Davidson_2004_napl,10.1890/01-6006,Davidson,2004,Nitrogen and phosphorus limitation of biomass growth in a tropical secondary forest
 Davidson_2006_adsp,10.1111/j.1365-2486.2005.01062.x,Davidson,2006,A distinct seasonal pattern of the ratio of soil respiration to total ecosystem respiration in a spruce-dominated forest
 Davidson_2006_tsos,10.1038/nature04514,Davidson,2006,Temperature sensitivity of soil carbon decomposition and feedbacks to climate change.
-Davidson_2006_vpoc,10.1111/j.1365-2486.2006.01142.x,Davidson,2006,Vertical partitioning of CO2 production within a temperate forest soil
+Davidson_2006_vpoc,10.1111/j.1365-2486.2005.01142.x,Davidson,2006,Vertical partitioning of CO2 production within a temperate forest soil
 Davidson_2008_eoae,10.1111/j.1365-2486.2008.01694.x,Davidson,2008,"Effects of an experimental drought and recovery on soil emissions of carbon dioxide, methane, nitrous oxide, and nitric oxide in a moist tropical forest"
 Davis_2003_csaa,10.1016/S0378-1127(02)00333-X,Davis,2003,Carbon storage along a stand development sequence in a New Zealand Nothofagus forest
 Davis_2003_taco,10.1046/j.1365-2486.2003.00672.x,Davis,2003,The annual cycles of CO2 and H2O exchange over a northern mixed forest as observed from a very tall tower
@@ -347,7 +347,7 @@ Fahey_1994_fdia,10.2307/2261262,Fahey,1994,"Fine-Root Dynamics In A Northern Har
 Fahey_2005_sras,10.1139/x04-182,Fahey,2005,Soil respiration and soil carbon balance in a northern hardwood forest ecosystem
 Fahey_2015_qcca,10.1890/14-1012.1,Fahey,2015,Quantifying canopy complexity and effects on productivity and resilience in late-successional hemlock-hardwood forests
 Falge_2002_soer,10.1016/S0168-1923(02)00102-8,Falge,2002,Seasonality of ecosystem respiration and gross primary production as derived from FLUXNET measurements
-Falk_2005_isra,10.1016/j.agroformet.2005.12.005,Falk,2005,Is soil respiration a major contributor to the carbon budget within a Pacific Northwest old-growth forest?
+Falk_2005_isra,10.1016/j.agrformet.2005.12.005,Falk,2005,Is soil respiration a major contributor to the carbon budget within a Pacific Northwest old-growth forest?
 Falk_2008_fpia,10.1093/treephys/28.4.509,Falk,2008,Flux partitioning in an old-growth forest: seasonal and interannual dynamics
 Fan_2015_eoma,10.1371/journal.pone.0126337,Fan,2015,Effects of Manipulated Above- and Belowground Organic Matter Input on Soil Respiration in a Chinese Pine Plantation
 Fang_2003_rofs,NA,Fang,2003,Role of forest succession on carbon sequestration of forest ecosystems in lower subtropical China
@@ -511,7 +511,7 @@ Hadley_2002_ceoa,10.1093/treephys/22.15-16.1079,Hadley,2002,Carbon exchange of a
 Hafkenscheid_2000_habo,NAC,Hafkenscheid,2000,"Hydrology and biogeochemistry of tropical montane rain forests of contrasting stature in the Blue Mountains, Jamaica"
 Hagedorn_2010_sroe,10.1007/s10533-009-9297-9,Hagedorn,2010,Short-term responses of ecosystem carbon fluxes to experimental soil warming at the Swiss alpine treeline
 Hagedorn_2013_nyoc,10.1016/j.soilbio.2012.10.001,Hagedorn,2013,Nine years of CO2 enrichment at the alpine treeline stimulates soil respiration but does not alter soil microbial communities
-Hahn_2006_catf,10.1111/j.1365-2486.2006.01143.x,Hahn,2006,C-14 - a tool for separation of autotrophic and heterotrophic soil respiration
+Hahn_2006_catf,10.1111/j.1365-2486.2006.001143.x,Hahn,2006,C-14 - a tool for separation of autotrophic and heterotrophic soil respiration
 Hall_1992_bmco,NAC,Hall,1992,"Biophysical, morphological, canopy optical property, and productivity data from the Superior National Forest"
 Hall_2013_nbfs,10.3334/ORNLDAAC/190,Hall,2013,"NPP Boreal Forest: Superior National Forest, USA, 1983-1984, R1"
 Hamilton_2002_fcbu,10.1007/s00442-002-0884-x,Hamilton,2002,Forest carbon balance under elevated CO2
@@ -560,7 +560,7 @@ Hollinger_2004_satv,10.1111/j.1365-2486.2004.00847.x,Hollinger,2004,Spatial and 
 Hooker_2003_feca,10.1890/1051-0761(2003)013[0299:FECANA]2.0.CO;2,Hooker,2003,Forest ecosystem carbon and nitrogen accumulation during the first century after agricultural abandonment
 Hoosbeek_2011_face,10.5194/bg-8-353-2011,Hoosbeek,2011,Free atmospheric CO2 enrichment increased above ground biomass but did not affect symbiotic N2-fixation and soil carbon dynamics in a mixed deciduous stand in Wales
 Hoshizaki_2004_tasv,10.1111/j.1440-1703.2004.00645.x,Hoshizaki,2004,"Temporal and spatial variation of forest biomass in relation to stand dynamics in a mature, lowland tropical rainforest, Malaysia"
-Howard_2004_eolo,10.1111/j.1365-2486.2004.00804.x,Howard,2004,"Effects of logging on carbon dynamics of a jack pine forest in Saskatchewan, Canada"
+Howard_2004_eolo,10.1111/j.1529-8817.2003.00804.x,Howard,2004,"Effects of logging on carbon dynamics of a jack pine forest in Saskatchewan, Canada"
 Hozumi_1969_peot,NA,Hozumi,1969,Production ecology of tropical rain forests in southwestern Cambodia: I. Plant Biomass
 Hu_2010_eosn,NAC,Hu,2010,Effects of Simulated Nitrogen Deposition on Soil Respiration in Northern Subtropical Deciduous Broad-leaved Forest
 Hu_2014_eohr,10.1016/j.foreco.2014.04.023,Hu,2014,Effects of harvest residue management on soil carbon and nitrogen processes in a Chinese fir plantation
@@ -760,7 +760,7 @@ Lee_1999_loot,10.1029/1999JD900227,Lee,1999,"Long-term observation of the atmosp
 Lee_2002_eore,10.1046/j.1440-1703.2002.00498.x,Lee,2002,Effects of rainfall events on soil CO2 flux in a cool temperate deciduous broad-leaved forest
 Lee_2003_scit,10.1023/A:1026192607512,Lee,2003,Seasonal changes in the contribution of root respiration to total soil respiration in a cool-temperate deciduous forest
 Lee_2003_sram,NAC,Lee,2003,Soil respiration and microbial biomass in sycamore (Platanus occidentalis L.) plantations treated with irrigation and nitrogen fertilization.
-Lee_2003_srfr,10.1016/S0378-1227(03)00164-6,Lee,2003,"Soil respiration, fine root production, and microbial biomass in cottonwood and loblolly pine plantations along a nitrogen fertilization gradient"
+Lee_2003_srfr,10.1016/S0378-1127(03)00164-6,Lee,2003,"Soil respiration, fine root production, and microbial biomass in cottonwood and loblolly pine plantations along a nitrogen fertilization gradient"
 Lee_2005_tdco,10.1111/j.1744-7976.2005.00023.x,Lee,2005,The Dynamic Competitiveness of U.S. Agricultural and Forest Carbon Sequestration
 Lee_2005_tior,10.1016/j.agrformet.2005.08.011,Lee,2005,The importance of root respiration in annual soil carbon fluxes in a cool-temperate deciduous forest
 Lee_2010_aahr,10.1007/s10265-010-0316-7,Lee,2010,"Autotrophic and heterotrophic respiration in needle fir and Quercus-dominated stands in a cool-temperate forest, central Korea"
@@ -846,7 +846,7 @@ Mackowski_1987_what,NA,Mackowski,1987,"Wildlife hollows and timber management in
 MacLean_1976_bojp,10.1139/x76-059,MacLean,1976,Biomass of jack pine and mixed hardwood stands in northeastern New Brunswick
 Maddock_2004_srac,NAC,Maddock,2004,"Soil respiration and carbon storage of an acrisol under forest and different cultivations in Rio de Janeiro State, Brazil"
 Maier_2000_scea,10.1139/x99-218,Maier,2000,Soil CO2 evolution and root respiration in 11 year-old loblolly pine (Pinus taeda) plantations as affected by moisture and nutrient availability
-Maier_2004_rcua,10.1111/j.1365-2486.2004.00809.x,Maier,2004,Respiratory carbon use and carbon storage in mid-rotation loblolly pine (Pinus taeda L.) plantations: the effect of site resources on the stand carbon balance
+Maier_2004_rcua,10.1111/j.1529-8817.2003.00809.x,Maier,2004,Respiratory carbon use and carbon storage in mid-rotation loblolly pine (Pinus taeda L.) plantations: the effect of site resources on the stand carbon balance
 Major_2010_fosb,10.1111/j.1365-2486.2009.02044.x,Major,2010,"Fate of soil-applied black carbon: downward migration, leaching and soil respiration"
 Makiranta_2007_sgge,NAC,Makiranta,2007,Soil greenhouse gas emissions from afforested organic soil croplands and cutaway peatlands
 Makiranta_2008_fcta,10.1016/j.soilbio.2008.01.009,Makiranta,2008,Factors causing temporal and spatial variation in heterotrophic and rhizospheric components of soil respiration in afforested organic soil croplands in Finland
@@ -1030,7 +1030,7 @@ Oren_2006_etui,10.1111/j.1365-2486.2006.01131.x,Oren,2006,Estimating the uncerta
 Orihuela-Belmonte_2013_csaa,10.1016/j.agee.2013.03.012,Orihuela-Belmonte,2013,"Carbon stocks and accumulation rates in tropical secondary forests at the scale of community, landscape and forest type"
 Ostertag_2001_eona,10.1890/0012-9658(2001)082[0485:EONAPA]2.0.CO;2,Ostertag,2001,Effects of nitrogen and phosphorus availability on fine-root fynamics in Hawaiian montane forests
 Ostertag_2008_ladi,10.1007/s10021-008-9152-1,Ostertag,2008,Litterfall and decomposition in relation to soil carbon pools along a secondary forest chronosequence in Puerto Rico
-Ostertag_2014_fsil,oi:10.1371/journal.pone.0103268,Ostertag,2014,Forest Structure in Low-Diversity Tropical Forests: A Study of Hawaiian Wet and Dry Forests
+Ostertag_2014_fsil,10.1371/journal.pone.0103268,Ostertag,2014,Forest Structure in Low-Diversity Tropical Forests: A Study of Hawaiian Wet and Dry Forests
 Overman_1994_eorm,10.1017/S0266467400007859,Overman,1994,Evaluation of regression models for above-ground biomass determination in Amazon rainforest
 Ovington_1959_tgac,10.1007/BF01666212,Ovington,1959,The Growth and Composition of Natural Stands of Birch
 Ovington_1970_bacc,NA,Ovington,1970,Biomass and chemical content of El Verde lower montane rain forest plants
@@ -1194,7 +1194,7 @@ Schuur_2001_ccas,10.1890/0012-9658(2001)082[3182:CCASCS]2.0.CO;2,Schuur,2001,Car
 Schuur_2005_ntfm,http://www.daac.ornl.gov,Schuur,2005,"NPP Tropical Forest: Maui, Hawaii, U.S.A., 1996-1997."
 Schwalm_2007_amfd,10.1111/j.1365-2486.2006.01298.x,Schwalm,2007,A method for deriving net primary productivity and component respiratory fluxes from tower-based eddy covariance data: a case study using a 17-year data record from a Douglas-fir chronosequence
 Schwendenmann_2003_satv,NAC,Schwendenmann,2003,"Spatial and temporal variation in soil CO2 efflux in an old-growth neotropical rain forest, La Selva, Costa Rica"
-Schwendenmann_2006_lcpf,10.1111/j.1365-2465.2006.01235.x,Schwendenmann,2006,Long-term CO2 production from deeply weathered soils of a tropical rain forest: evidence for a potential positive feedback to climate warming
+Schwendenmann_2006_lcpf,10.1111/j.1365-2486.2006.01235.x,Schwendenmann,2006,Long-term CO2 production from deeply weathered soils of a tropical rain forest: evidence for a potential positive feedback to climate warming
 Scott_1977_tioo,NA,Scott,1977,The Importance of Old-Field Succession Biomass Increments to Shifting Cultivation
 Scott_1992_esoa,10.2307/2260861,Scott,1992,"Ecological Studies on a Lowland Evergreen Rain Forest on Maraca Island, Roraima, Brazil. II. Litter and Nutrient Cycling"
 Scott_2006_eiow,10.1111/j.1365-2486.2005.01093.x,Scott,2006,Ecohydrological impacts of woody-plant encroachment: seasonal patterns of water and carbon dioxide exchange within a semiarid riparian environment
@@ -1668,7 +1668,7 @@ LUGO_1992_cott,NAC,LUGO,1992,COMPARISON OF TROPICAL TREE PLANTATIONS WITH SECOND
 CUEVAS_1991_aabo,NAC,CUEVAS,1991,ABOVEGROUND AND BELOWGROUND ORGANIC-MATTER STORAGE AND PRODUCTION IN A TROPICAL PINE PLANTATION AND A PAIRED BROADLEAF SECONDARY FOREST
 Vester_1998_taas,NAC,Vester,1998,"Tree architecture and secondary tropical rain forest development - a case study in Araracuara, Colombian Amazoni"
 Piotto_2011_sdof,NAC,Piotto,2011,Spatial Dynamics of Forest Recovery after Swidden Cultivation in the Atlantic Forest of Southern Bahia
-Ibrahim_2006_adce,NAC,Ibrahim,2006,"Almacenamiento de Carbono en el suelo y la biomasa arbÛrea en sistemas de usos de la tierra en paisajes ganaderos de Colombia, Costa Rica y Nicaragua"
+Ibrahim_2006_adce,NAC,Ibrahim,2006,"Almacenamiento de Carbono en el suelo y la biomasa arb√≥rea en sistemas de usos de la tierra en paisajes ganaderos de Colombia, Costa Rica y Nicaragua"
 Palm_1999_csat,NAC,Palm,1999,Carbon sequestration and trace gas emissions in slash-and-burn and alternative land-uses in the humid tropics
 Buschbacher_1988_apie,NAC,Buschbacher,1988,Abandoned pastures in eastern Amazonia II. Nutrient stocks in the soil and vegetation
 Brown_1990_eofc,NAC,Brown,1990,Effects of forest clearing and succession on the carbon and nitrogen content of soils in Puerto Rico and US Virgin Islands
@@ -1742,7 +1742,7 @@ MOU_1993_eosd,NAC,MOU,1993,EFFECTS OF SOIL DISTURBANCE ON VEGETATION RECOVERY AN
 REINERS_1992_yoer,NAC,REINERS,1992,20 YEARS OF ECOSYSTEM REORGANIZATION FOLLOWING EXPERIMENTAL DEFORESTATION AND REGROWTH SUPPRESSION
 JOHANSSON_1992_roca,NAC,JOHANSSON,1992,REGENERATION OF CLEARED ACACIA-ZANZIBARICA BUSHLAND IN KENYA
 Junqueira_2010_sfoa,NAC,Junqueira,2010,Secondary forests on anthropogenic soils conserve agrobiodiversity
-Cabral_2013_eeeb,NAC,Cabral,2013,"Estrutura espacial e biomassa da parte aÈrea em diferentes est·dios successionais de caatinga, em Santa Terezinha, ParaÌba."
+Cabral_2013_eeeb,NAC,Cabral,2013,"Estrutura espacial e biomassa da parte a√©rea em diferentes est√°dios successionais de caatinga, em Santa Terezinha, Para√≠ba."
 van Breugel_2006_cdde,NAC,van Breugel,2006,Community dynamics during early secondary succession in Mexican tropical rain forests
 van Breugel_2013_soes,NAC,van Breugel,2013,Succession of ephemeral secondary forests and their limited role for the conservation of floristic diversity in a human-modified tropical landscape
 Denslow_2000_viss,NAC,Denslow,2000,"Variation in stand structure, light and seedling abundance across a tropical moist forest chronosequence, Panama"
