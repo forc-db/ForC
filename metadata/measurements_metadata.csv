@@ -20,8 +20,6 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,Populated.by,n,Min,Ma
 19 / S,se,standard error,numeric (double) ,-,Given in VARIABLES table,manual entry,,,
 20 / T,lower95CI,lower 95% CI,numeric (double) ,-,Given in VARIABLES table,manual entry,,,
 21 / U,upper95CI,upper 95% CI,numeric (double) ,-,Given in VARIABLES table,manual entry,,,
-TO BE DELETED,stat.name,Name of reported statistic: SE- standard error; SD- standard deviation; 95%CI- 95% confidence interval (enter [upper bound - mean] and put full range in notes),character (string),see description,-,manual entry,2224,-,-
-TO BE DELETED,stat,Value of reported statistic. ,numeric (double),-,VARIABLES table,manual entry,2246,0,72
 22 / V,area.sampled,"Area sampled for measurement of the particular variable. If the measurement includes multiple components with different sampling area (e.g., large trees sampled in the entire plot, small trees sampled in subplots), the largest area is reported. This may be less than plot.area (PLOTS table). As this field was added after most of the data had been entered, it is coded as ""NAC"" for most records.",numeric (double),-,ha,manual entry,240,0,48
 23 / W,notes,"Additional information about the record, including notes on methodology and notes on any known anomalies.  Potentially problematic values have notes prefaced with asterisks. ",character (string),-,-,manual entry,3970,-,-
 24 / X,method.ID,Code number for methodology. ,numeric (integer),Given in METHODOLOGY table,-,manual entry,6376,1,448
