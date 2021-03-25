@@ -7,3 +7,4 @@ n,Author (last name of first author),Year,Title,Journal,DOI,type,data release, n
 6,Thom,2019,"The climate sensitivity of carbon, timber, and species richness covaries with forest age in boreal–temperate North America",Global Change Biology,10.1111/gcb.14656,journal article,ForC ,
 7,Goldstein,2020,Protecting irrecoverable carbon in Earth’s ecosystems,Nature Climate Change,10.1038/s41558-020-0738-8,journal article,ForC ,
 8,Cook-Patton,2020,Mapping carbon accumulation potential from global natural forest regrowth,Nature,10.1038/s41586-020-2686-x,journal article,GROA v1.0,"GROA drew from ForC, integrated back into ForC"
+9,Anderson-Teixeira,2021,,,,,,
