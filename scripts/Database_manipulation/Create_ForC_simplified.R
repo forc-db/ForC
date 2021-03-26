@@ -266,6 +266,15 @@ ForC_simplified <- ForC_simplified[order(ForC_simplified$measurement.ID),]
 # remove records wihtout lat lon ####
 ForC_simplified <- ForC_simplified[!is.na(ForC_simplified$lat) & !is.na(ForC_simplified$lon), ]
 
+
+# add suspected duplicates back (from master version in GitHub) ####
+ForC_with_suspicious_column <- read.csv("https://raw.githubusercontent.com/forc-db/ForC/master/ForC_simplified/ForC_simplified.csv")
+setdiff(ForC_simplified$measurement.ID, ForC_with_suspicious_column$measurement.ID) # I guess those are measurements that were "resolved" or recently added, they will have a 0 in ForC_simplified
+ForC_simplified$suspected.duplicate <- ForC_with_suspicious_column$suspected.duplicate[match(ForC_simplified$measurement.ID, ForC_with_suspicious_column$measurement.ID)]
+ForC_simplified$suspected.duplicate[is.na(ForC_simplified$suspected.duplicate)] <- 0
+
+
+
 # Save ForC-simplified ####
 
 write.csv(ForC_simplified, file = "ForC_simplified/ForC_simplified.csv", row.names = F)
