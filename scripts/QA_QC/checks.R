@@ -350,12 +350,12 @@ for(i in 1:nrow(VARIABLES)){
     if(!VARIABLES$variable.type[i] %in% "covariates"){
       
       x <- MEASUREMENTS[MEASUREMENTS$variable.name %in% v, c("measurement.ID", "mean")]
-      x$mean <- na.omit(as.numeric(ifelse(x$mean %in% na_codes, NA, x$mean)))
+      x$mean <- as.numeric(ifelse(x$mean %in% na_codes, NA, x$mean))
       
-      value.too.small <- any(x$mean < min.v)
-      value.too.big <- any(x$mean > max.v)
+      value.too.small <- any(na.omit(x$mean) < min.v)
+      value.too.big <- any(na.omit(x$mean) > max.v)
       
-      flagged.ID <- c(x$measurement.ID[x$mean < min.v], x$measurement.ID[x$mean > max.v])
+      flagged.ID <- na.omit(c(x$measurement.ID[x$mean < min.v], x$measurement.ID[x$mean > max.v]))
       
       if(any(value.too.small, value.too.big)) mean.not.within.range <- rbind(mean.not.within.range, data.frame(MEASUREMENTS[MEASUREMENTS$variable.name %in% v & MEASUREMENTS$measurement.ID %in% flagged.ID, c("measurement.ID", "sites.sitename", "variable.name", "mean")], min_range = min.v, max_range = max.v))
       
@@ -365,18 +365,18 @@ for(i in 1:nrow(VARIABLES)){
     if(VARIABLES$variable.type[i] %in% "covariates"){
       
       x_1 <- MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v, ]$coV_1.value
-      x_1 <- na.omit(as.numeric(ifelse(x_1 %in% na_codes, NA, x_1)))
+      x_1 <- as.numeric(ifelse(x_1 %in% na_codes, NA, x_1))
       
       x_2 <- MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v, ]$coV_2.value
-      x_2 <- na.omit(as.numeric(ifelse(x_2 %in% na_codes, NA, x_2)))
+      x_2 <- as.numeric(ifelse(x_2 %in% na_codes, NA, x_2))
       
-      value_1.too.small <- any(x_1 < min.v)
-      value_1.too.big <- any(x_1 > max.v)
+      value_1.too.small <- any(na.omit(x_1) < min.v)
+      value_1.too.big <- any(na.omit(x_1) > max.v)
       
-      value_2.too.small <- any(x_2 < min.v)
-      value_2.too.big <- any(x_2 > max.v)
+      value_2.too.small <- any(na.omit(x_2) < min.v)
+      value_2.too.big <- any(na.omit(x_2) > max.v)
       
-      flagged.value <- c(x_1[x_1 < min.v], x_1[x_1 > max.v], x_2[x_2 < min.v], x_2[x_2 > max.v])
+      flagged.value <- na.omit(c(x_1[x_1 < min.v], x_1[x_1 > max.v], x_2[x_2 < min.v], x_2[x_2 > max.v]))
       
       if(any(value_1.too.small, value_1.too.big)) covariate_1.not.within.range <- rbind(covariate_1.not.within.range, as.data.frame(MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v & MEASUREMENTS$coV_1.value %in% flagged.value, c("measurement.ID", "sites.sitename", "covariate_1", "coV_1.value")]))
       
@@ -412,8 +412,8 @@ HTML("<h1>These are plots to review wether records outside of range are plausibl
 for( v in sort(unique(mean.not.within.range$variable.name))) {
   old_minimum <- as.numeric(VARIABLES[VARIABLES$variable.name %in% v,]$min)
   old_maximum <- as.numeric(VARIABLES[VARIABLES$variable.name %in% v,]$max)
-  curr_minimum <- min(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean)
-  curr_maximum <- max(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean)
+  curr_minimum <- min(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, na.rm = T)
+  curr_maximum <- max(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, na.rm = T)
   
   plot(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, ylim = c(min(old_minimum, curr_minimum), max(old_maximum, curr_maximum)), main = v, col = ifelse(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID %in% mean.not.within.range[mean.not.within.range$variable.name %in% v, ]$measurement.ID, "red", "black"), pch = 16, ylab = v)
   abline(h =c(old_minimum, old_maximum))
