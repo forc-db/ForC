@@ -41,6 +41,7 @@ HISTTYPE     <- read_csv("data/ForC_histtype.csv")
 VARIABLES    <- read_csv("data/ForC_variables.csv", na = na_codes)
 METHODOLOGY  <- read_csv("data/ForC_methodology.csv", col_types = "ccccc", na = na_codes)
 ALLOMETRY    <- read_csv("data/ForC_allometry.csv", na = na_codes)
+CITATIONS    <- read_csv("data/ForC_citations.csv", na = na_codes)
 
 
 MEASUREMENTS_meta  <- read.csv("metadata/measurements_metadata.csv", stringsAsFactors = F)
@@ -109,6 +110,11 @@ if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in
 if(!all(unique(na.omit(MEASUREMENTS$allometry_1)) [!unique(na.omit(MEASUREMENTS$allometry_1)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_1.value in measurements that are not defined in ALLOMETRY") #
 
 if(!all(na.omit(MEASUREMENTS$allometry_2) [!na.omit(MEASUREMENTS$allometry_2) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_2.value in measurements that are not defined in ALLOMETRY")
+
+
+
+# For each citation_Id and allometry_2 in MEASUREMENTS, there is citation in CITATIONS
+if(!all(unique(na.omit(MEASUREMENTS$citation.ID)) [!unique(na.omit(MEASUREMENTS$citation.ID)) %in% CITATIONS$citation.ID] %in% na_codes)) warning("There are citation.ID in measurements that are not defined in CITATIONS") #
 
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
