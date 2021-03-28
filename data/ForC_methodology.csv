@@ -1,16 +1,16 @@
 method.ID,method.citation,variable.name,method.category,method.notes
 1,Valentini_2000_ratm,GPP,eddy flux partitioning,NEP + estimated Re
 2,Valentini_2000_ratm,NEE,eddy covariance,Eddy covariance
-3,Valentini_2000_ratm,Reco,NA,Ecosystem respiration based on nighttime respiration vs soil or air temperature relationship
+3,Valentini_2000_ratm,Reco,eddy flux partitioning,Ecosystem respiration based on nighttime respiration vs soil or air temperature relationship
 7,Chambers_2004_rfat,GPP,NPP + Ra,NPP + direct measurements of Ra
-8,Chambers_2004_rfat,NEP,NA,NPP - direct measurements of Rh
+8,Chambers_2004_rfat,NEP,NPP - Rh,NPP - direct measurements of Rh
 9,Chambers_2004_rfat,Reco,NA,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
 10,Giardina_2003_ppac,GPP,NPP + Ra,ANPP + BNPP (Raich & Nadelhoffer) + direct measurements of Ra
-12,Gielen_2005_ncsi,NEP,NA,NPP - direct measurements of Rh
-13,Gielen_2005_ncsi,Reco,NA,GPP-NEP
+12,Gielen_2005_ncsi,NEP,NPP - Rh,NPP - direct measurements of Rh
+13,Gielen_2005_ncsi,Reco,eddy flux partitioning,GPP-NEP
 14,Hanson_2003_etnp,GPP,eddy flux partitioning,NEP + estimated Re
-15,Hanson_2003_etnp,NEP,NA,NPP - direct measurements of Rh
-16,Hanson_2003_etnp,Reco,NA,GPP-NEP
+15,Hanson_2003_etnp,NEP,NPP - Rh,NPP - direct measurements of Rh
+16,Hanson_2003_etnp,Reco,eddy flux partitioning,GPP-NEP
 23,Kowalski_2004_pcoc,GPP,eddy flux partitioning,NEP + estimated Re
 24,Kowalski_2004_pcoc,NEE,eddy covariance,Eddy covariance
 25,Kowalski_2004_pcoc,Reco,NA,Ecosystem respiration based on nighttime respiration vs SWC and soil temperature relationship
@@ -23,16 +23,16 @@ method.ID,method.citation,variable.name,method.category,method.notes
 33,Law_1999_saar,NEP,NA,GPP - Re
 34,Law_1999_saar,Reco,NA,Direct measurement of of the components of Reco with chambers compared with Reco from eddy covariance
 35,Aubinet_2001_ltcd,NEE,eddy covariance,Eddy covariance
-36,Forcast,NEP,NA,NPP - direct measurements of Rh
+36,Forcast,NEP,NPP - Rh,NPP - direct measurements of Rh
 37,Law_2001_satv,GPP,eddy flux partitioning,NEP + estimated Re
-38,Law_2001_satv,NEP,NA,NPP - direct measurements of Rh
+38,Law_2001_satv,NEP,NPP - Rh,NPP - direct measurements of Rh
 39,Law_2001_satv,Reco,NA,Direct measurement of the components of Reco with chambers
 40,Lloyd_2002_saav,GPP,NA,Maximum net rate of carbon assimilation by the canopy foliage
 41,Lloyd_2002_saav,NEE,eddy covariance,Eddy covariance
-42,Lloyd_2002_saav,Reco,NA,GPP-NEP
+42,Lloyd_2002_saav,Reco,eddy flux partitioning,GPP-NEP
 43,Maier_2004_rcua,GPP,NPP + Ra,NPP + R_auto
 48,Ryan_1996_ffwa,GPP,NPP + Ra,NPP + direct measurements of Ra
-49,Wang_2004_ccfa,GPP,NA,"modeled based on continuous eddy flux measurements, with leaf photosynthesis described according to the model of Farquhar and von Caemmerer (1982)"
+49,Wang_2004_ccfa,GPP,eddy flux partitioning,"modeled based on continuous eddy flux measurements, with leaf photosynthesis described according to the model of Farquhar and von Caemmerer (1982)"
 50,Wang_2004_ccfa,NEE,eddy covariance,Eddy covariance
 51,Wang_2004_ccfa,Reco,NA,modeled based on continuous eddy flux measurements and site-specific functions for respiratory components
 53,Williams_2005_aiao,GPP,eddy flux partitioning,NEP + estimated Re
@@ -41,23 +41,23 @@ method.ID,method.citation,variable.name,method.category,method.notes
 56,Kutsch_2001_tcco,Reco,NA,Direct measurement of the components of Reco with chambers
 57,Schulze_2000_tcan,Reco,NA,Direct measurement of the components of Reco with chambers compared with Reco from eddy covariance
 58,Clark_2004_cdaa,Reco,NA,Direct measurement of the components of Reco with chambers
-59,Sierra_2007_satv,NEP,NA,NPP - direct measurements of Rh
+59,Sierra_2007_satv,NEP,NPP - Rh,NPP - direct measurements of Rh
 60,Law_2000_moga,GPP,NPP + Ra,NPP+Ra
-61,Law_2000_moga,NEP,NA,NPP - direct measurements of Rh
+61,Law_2000_moga,NEP,NPP - Rh,NPP - direct measurements of Rh
 62,Bolstad_2004_cawr,Reco,NA,Direct measurement of the components of Reco with chambers
 63,Zha_2007_tacc,GPP,scaling photosynthesis measurements,scaling branch chamber measurements
 64,Zha_2007_tacc,NEP,NA,GPP-Re
 65,Zha_2007_tacc,Reco,NA,Direct measurement of the components of Reco with chambers
 66,Harmon_2004_prao,GPP,NPP + Ra,NPP+Ra
-67,Harmon_2004_prao,NEP,NA,NPP-Rh
+67,Harmon_2004_prao,NEP,NPP - Rh,NPP-Rh
 68,Harmon_2004_prao,Reco,NA,Ra+Rh
-69,Gough_2007_tloh,NEP,NA,Biometric
-70,Yang_2007_srac,NEP,NA,NPP-Rh
+69,Gough_2007_tloh,NEP,sum of components,Biometric
+70,Yang_2007_srac,NEP,NPP - Rh,NPP-Rh
 71,Ma_2008_oamo,GPP,NA,No information.
 72,Ma_2008_oamo,NEE,eddy covariance,Eddy covariance
 73,Ma_2008_oamo,Reco,NA,Not mentioned
 75,Hamilton_2002_fcbu,GPP,eddy flux partitioning,NEP + estimated Re + DOC
-76,Hamilton_2002_fcbu,NEE,NA,"wood, foliage and fine root NPP + forest floor accumulation"
+76,Hamilton_2002_fcbu,NEP,sum of C increments,"wood, foliage and fine root NPP + forest floor accumulation"
 77,Hamilton_2002_fcbu,Reco,NA,"sum of C losses by total soil CO2 efflux, DIC, canopy respiration, woody respiration  and herbivory"
 78,Hanson_2003_etnp,BNPP_coarse root,NA,20% of aboveground wood increment
 79,Hanson_2003_etnp,BNPP_fine root,NA,"Soil cores, minirhizotrons"
@@ -367,7 +367,7 @@ method.ID,method.citation,variable.name,method.category,method.notes
 430,Uhl_1984_sand,ANPP_foliage_OM,litter traps,litter collection
 431,Malhi_2014_tpma,BNPP_fine root,NA,ingrowth cores
 432,Hughes_1999_bcan,deadwood_OM,NA,Measured DBH; Allometric relations
-433,Weaver_2001_ntfc,ANPP,sum of components,ANPP was estimated by summing annual litterfall accumulation (897 g/m2/year) plus biomass change due to delayed mortality (142 g/m2/year) plus estimated herbivory (25 g/m2/year)
+433,Weaver_2001_ntfc,ANPP,sum of components,ANPP was estimated by summing annual litterfall accumulation plus biomass change due to delayed mortality plus estimated herbivory
 434,Kadeba_1991_abpa,ANPP,sum of components,ANPP is mean periodic aboveground production plus mean annual litterfall
 435,Uhl_1987_fcsf,ANPP,sum of components,ANPP was calculated by combining litter (leaf+branch) and growth data (allometric relations based on height and diameter).
 437,Kira_1978_cano,ANPP_folivory_OM,NA,"from caterpillar frass in littertraps, and assuming 13% efficiency; this = 4.4% of leaf prod."
