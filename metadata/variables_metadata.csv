@@ -3,14 +3,15 @@ Column,Field,Description,Storage.Type,Variable.Codes,n,Min,Max
 2 / B,variable.type,Variable type ,character (string) ,flux - a C flux variable; increment- annual change in stock variable; stock - a C stock variable; secondary - a variable recorded because it can influence C cycle variables;  covariate - a variable required to interpret C cycle variables.,117,-,-
 3 / C,variable.name,Code name for variable sampled. Used in MEASUREMENTS table.,character (string) ,-,117,-,-
 4 / D,units,Units of the variable.,character (string) ,-,115,-,-
-5 / E,description,Definition and notes about the variable.,character (string) ,-,117,-,-
-6 / F,equations,Equations describing relationships among variables. Parentheses indicate variables that are not included in the current database version.,character (string) ,-,55,-,-
-7 / G,requires.allometry,Indicates whether covariate allometric.equation should (generally) be recorded in association with the measurement. Covariate is defined in this table. ,number (binary),0- false; 1- true,89,0,1
-8 / H,requires.min.dbh,Indicates whether covariate min.dbh should (generally) be recorded in association with the measurement. Covariate is defined in this table.,number (binary),0- false; 1- true,89,0,1
-9 / I,requires.depth,Indicates whether covariate depth should (generally) be recorded in association with the measurement. Covariate is defined in this table.,number (binary),0- false; 1- true,89,0,1
-10 / J,associated.covariate_1,Other covariate associated with the variable listed. Parentheses indicate non-required covariate. Order listed here does not necessarily match the order listed in the MEASUREMENTS table). These covariates are also defined in this table.,character (string) ,-,52,-,-
-11 / K,associated.covariate_2,Same as above.,character (string) ,-,10,-,-
-12 / L,n.records,Number of records in the database (at the time of most recent update),numeric (double),-,117,0,2079
-13 / M,min,Minimum value in current version of the database.,numeric (double),-,117,-25,53
-14 / N,max,Maximum value in current version of the database.,numeric (double),-,117,0,1533
-15 / O,notes,Notes of relevance to interpreting variables. ,character (string) ,-,31,-,-
+5 / E,description,"Concise definition, with abbreviation in parenthesesDefinition and notes about the variable.",character (string) ,-,117,-,-
+6 / F,extended.description,Full variable definition,character (string) ,-,117,-,-
+7 / G,equations,Equations describing relationships among variables. Parentheses indicate variables that are not included in the current database version.,character (string) ,-,55,-,-
+8 / H,requires.allometry,Indicates whether covariate allometric.equation should (generally) be recorded in association with the measurement. Covariate is defined in this table. ,number (binary),0- false; 1- true,89,0,1
+9 / I,requires.min.dbh,Indicates whether covariate min.dbh should (generally) be recorded in association with the measurement. Covariate is defined in this table.,number (binary),0- false; 1- true,89,0,1
+10 / J,requires.depth,Indicates whether covariate depth should (generally) be recorded in association with the measurement. Covariate is defined in this table.,number (binary),0- false; 1- true,89,0,1
+11 / K,associated.covariate_1,Other covariate associated with the variable listed. Parentheses indicate non-required covariate. Order listed here does not necessarily match the order listed in the MEASUREMENTS table). These covariates are also defined in this table.,character (string) ,-,52,-,-
+12 / L,associated.covariate_2,Same as above.,character (string) ,-,10,-,-
+13 / M,n.records,Number of records in the database (at the time of most recent update),numeric (double),-,117,0,2079
+14 / N,min,Minimum value in current version of the database.,numeric (double),-,117,-25,53
+15 / O,max,Maximum value in current version of the database.,numeric (double),-,117,0,1533
+16 / P,notes,Notes of relevance to interpreting variables. ,character (string) ,-,31,-,-
