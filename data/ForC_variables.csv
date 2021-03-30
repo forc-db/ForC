@@ -21,8 +21,6 @@ variable.ID,variable.type,variable.name,units,description,equations,requires.all
 20,flux,NPP_woody_C,Mg C ha-1 yr-1,"Woody NPP: annual increments in live woody biomass C (branch, stem, coarse root) estimated using allometric equations.",NPP_woody_C = ANPP_woody_C + BNPP_coarse root_C,1,1,1,include.recruitment,NA,137,0.08,19.06,NA
 21,flux,NPP_understory_OM,Mg ha-1 yr-1,Total understory NPP. Components included may vary.,NA,0,0,0,NA,NA,0,-,-,NA
 22,flux,NPP_understory_C,Mg C ha-1 yr-1,Total understory NPP. Components included may vary.,NA,0,0,0,NA,NA,199,0,6.65,NA
-23,flux,NPP_litter_OM,Mg C ha-1 yr-1,Total fine detrital turnover: litterfall + rine root turnover,NPP_litter_OM = ANPP_litterfall_OM + BNPP_root.turnover_fine_OM,0,0,1,min.diameter_root, max.diameter_root,0,-,-,NA
-24,flux,NPP_litter_C,Mg C ha-1 yr-1,Total fine detrital turnover: litterfall + rine root turnover,NPP_litter_C = ANPP_litterfall_C + BNPP_root.turnover_fine_C,0,0,1,min.diameter_root, max.diameter_root,0,-,-,NA
 25,flux,ANPP_1_OM,Mg ha-1 yr-1,"Annual aboveground NPP, including litterfall and stem growth",ANPP_1_OM = ANPP_woody_stem_OM + ANPP_foliage_OM,1,1,0,include.recruitment,NA,9,1.33,19.1,NA
 26,flux,ANPP_1_C,Mg C ha-1 yr-1,"Annual aboveground NPP, including litterfall and stem growth",ANPP_1_C = ANPP_woody_stem_C + ANPP_foliage_C,1,1,0,include.recruitment,NA,217,0.01,22.42,NA
 27,flux,ANPP_2_OM,Mg ha-1 yr-1,"Annual aboveground NPP, including litterfall, stem growth, and branch turnover",(1) ANPP_2_OM = ANPP_foliage_OM + ANPP_woody_stem_OM + ANPP_woody_branch_OM; (2) ANPP_2_OM = ANPP_foliage_OM + ANPP_woody_OM,1,1,0,include.recruitment,NA,26,0.94,39.1,NA
