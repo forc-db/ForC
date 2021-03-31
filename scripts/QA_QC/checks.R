@@ -114,7 +114,7 @@ if(!all(na.omit(MEASUREMENTS$allometry_2) [!na.omit(MEASUREMENTS$allometry_2) %i
 
 
 # For each citation_Id and allometry_2 in MEASUREMENTS, there is citation in CITATIONS
-if(!all(unique(na.omit(MEASUREMENTS$citation.ID)) [!unique(na.omit(MEASUREMENTS$citation.ID)) %in% CITATIONS$citation.ID] %in% na_codes)) warning("There are citation.ID in measurements that are not defined in CITATIONS") #
+if(!all(unique(na.omit(MEASUREMENTS$citation.ID)) [!unique(na.omit(MEASUREMENTS$citation.ID)) %in% CITATIONS$citation.ID] %in% na_codes)) warning("There are citation.ID in measurements that are not defined in CITATIONS") #unique(na.omit(MEASUREMENTS$citation.ID)) [!unique(na.omit(MEASUREMENTS$citation.ID)) %in% CITATIONS$citation.ID]
 
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
