@@ -1,20 +1,20 @@
-pftcode,description,notes
-2TEB,"Tree, evergreen, broadleaf",NA
-2TDB,"Tree, deciduous, broadleaf",Includes deciduous and semi-deciduous species. May be drought or cold deciduous. 
-2TEN,"Tree, evergreen, needleleaf",NA
-2TDN,"Tree, deciduous, needleleaf",Includes deciduous and semi-deciduous species.
-2TD,"Tree, deciduous","Includes deciduous and semi-deciduous species. May be drought or cold deciduous. Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
-2TE,"Tree, evergreen","Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
-2TN,"Tree, needleleaf (coniferous)","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
-2TB,"Tree, broadleaf","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
-2TM,"Tree, mixed broadleaf deciduous and needleleaf evergreen",NA
-2TREE,Tree of any leaf type/phenology,"Leaf type/phenology unknown. This code was originally used to refer to the 2TM category, and some records coded as '2TREE' may be identifiable as '2TM' based on information in the original publication."
-2SHRUB,Shrub,NA
-2VW,"Vine, woody",NA
-2GW,"Grass, woody (bamboo, etc.)",NA
-2GRAM,Graminoid (grass or grass-like),NA
-2FORB,"Forb (herbaceous, not grass nor grass-like)",NA
-2LTR,Litter,NA
-2BARE,Bare Ground (exposed soil),NA
-2RF,"Rock, fragments",NA
-2RB,"Rock, bedrock",NA
+pftcode,description,description.individual,notes
+2TEB,"Trees, broadleaf evergreen","Tree, evergreen, broadleaf",NA
+2TDB,"Trees, broadleaf, deciduous or with significant deciduous component","Tree, deciduous, broadleaf",Includes deciduous and semi-deciduous species. May be drought or cold deciduous. 
+2TEN,"Trees, conifer (needleleaf) evergreen","Tree, evergreen, needleleaf",NA
+2TDN,"Trees, conifer (needleleaf), deciduous or with significant deciduous component","Tree, deciduous, needleleaf",Includes deciduous and semi-deciduous species.
+2TD,"Trees, broadleaf and/or conifer, deciduous or with significant deciduous component","Tree, deciduous","Includes deciduous and semi-deciduous species. May be drought or cold deciduous. Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
+2TE,"Trees, broadleaf and/or conifer, evergreen","Tree, evergreen","Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
+2TN,"Trees, conifer (needleleaf)","Tree, needleleaf (coniferous)","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
+2TB,"Trees, broadleaf","Tree, broadleaf","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
+2TM,"Trees, mixed broadleaf and conifer",NA,NA
+2TREE,Trees,Tree of any leaf type/phenology,"Leaf type/phenology unknown. This code was originally used to refer to the 2TM category, and some records coded as '2TREE' may be identifiable as '2TM' based on information in the original publication."
+2SHRUB,Shrubs,Shrub,NA
+2VW,"Vinnes, woody","Vine, woody",NA
+2GW,"Grasses, woody (bamboo, etc.)","Grass, woody (bamboo, etc.)",NA
+2GRAM,Graminoids (grass or grass-like),Graminoid (grass or grass-like),NA
+2FORB,"Forbs (herbaceous, not grass nor grass-like)","Forb (herbaceous, not grass nor grass-like)",NA
+2LTR,No living vegetation (litter),Litter,NA
+2BARE,No living vegetation (bare ground),Bare Ground (exposed soil),NA
+2RF,"Rock, fragments ","Rock, fragments",NA
+2RB,"Rock, bedrock","Rock, bedrock",NA
