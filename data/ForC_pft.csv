@@ -1,9 +1,9 @@
 pftcode,description,description.individual,notes
 2TEB,"Trees, broadleaf evergreen","Tree, evergreen, broadleaf",NA
-2TDB,"Trees, broadleaf, deciduous or with significant deciduous component","Tree, deciduous, broadleaf",Includes deciduous and semi-deciduous species. May be drought or cold deciduous. 
+2TDB,"Trees, broadleaf, deciduous or with dominant deciduous component ","Tree, deciduous, broadleaf",May be drought or cold deciduous. Includes deciduous and semi-deciduous species. Mixed forest should be counted as deciduous if more than half of canopy trees are deciduous (if specified).
 2TEN,"Trees, conifer (needleleaf) evergreen","Tree, evergreen, needleleaf",NA
-2TDN,"Trees, conifer (needleleaf), deciduous or with significant deciduous component","Tree, deciduous, needleleaf",Includes deciduous and semi-deciduous species.
-2TD,"Trees, broadleaf and/or conifer, deciduous or with significant deciduous component","Tree, deciduous","Includes deciduous and semi-deciduous species. May be drought or cold deciduous. Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
+2TDN,"Trees, conifer (needleleaf), deciduous or with dominant deciduous component.","Tree, deciduous, needleleaf",Includes deciduous and semi-deciduous species. Mixed forest should be counted as deciduous if more than half of canopy trees are deciduous (if specified).
+2TD,"Trees, broadleaf and/or conifer, deciduous or with dominant deciduous component.","Tree, deciduous","Includes deciduous and semi-deciduous species. May be drought or cold deciduous. Mixed forest should be counted as deciduous if more than half of canopy trees are deciduous (if specified). Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
 2TE,"Trees, broadleaf and/or conifer, evergreen","Tree, evergreen","Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
 2TN,"Trees, conifer (needleleaf)","Tree, needleleaf (coniferous)","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
 2TB,"Trees, broadleaf","Tree, broadleaf","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
