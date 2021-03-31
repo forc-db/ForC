@@ -1,8 +1,10 @@
 allometric.equation,allometry.citation,allometry.notes
 1.1,Baker_2004_ibia,"modified version of Chambers et al. 2001, incorporating a simple multiplication factor to account for variation in wood specific gravity between species (Baker et al. 2004a, p. 355). "
 1.2,Baker_2004_viwd,"modified version of Chambers et al. 2001, incorporating a simple multiplication factor to account for variation in wood density."
-2,Chave_2005_taai,"methods state that Chave_2005_taai allometries were used, but do not speciffy which forest type"
+2,Chave_2005_taai,"methods state that Chave_2005_taai allometries were used, but do not specify which forest type"
+2.1,Chave_2005_taai,allometric equation for tropical wet forests
 2.2,Chave_2005_taai,allometric equation for tropical moist forests
+2.3,Chave_2005_taai,allometric equation for tropical dry forests
 3,Feldpausch_2011_haot,NAC
 4,van Breugel_2011_ecsi,allometric equation designed for secondary forests in Panama (with wood density or without)
 5,Chan_2013_eoam,Results of destructive sampling used to establish allometric equations for trees and bamboo
