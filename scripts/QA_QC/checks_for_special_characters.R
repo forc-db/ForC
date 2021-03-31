@@ -17,12 +17,12 @@ library(tools)
 # Load data ####
 
 ## ForC data ####
-MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
+MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F, )
 SITES        <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 HISTORY      <- read.csv("data/ForC_history.csv", stringsAsFactors = F)
 METHODOLOGY  <- read.csv("data/ForC_methodology.csv", stringsAsFactors = F)
 ALLOMETRY    <- read.csv("data/ForC_allometry.csv", stringsAsFactors = F)
-CITATIONS    <- read.csv("data/ForC_citations.csv", stringsAsFactors = F)
+CITATIONS    <- read.csv("data/ForC_citations.csv", stringsAsFactors = F, encoding = "UTF-8")
 
 # Special characters conversion table ####
 sp_ch_conv_tbl <- read.table("scripts/QA_QC/special_characters_convert_table.txt", h = T, encoding = "UTF-8", sep = ",", stringsAsFactors = F)
@@ -38,7 +38,8 @@ chr.cols.to.check <- c("sites.sitename", "plot.name", "scientific.name", "veg.no
                        "soil.notes", "hydrology.notes", "site.notes", "measurement.refs", 
                        "site.ref", "ref.notes", "lacks.info.from.ori.pub", "hist.notes", 
                        "method.citation", "citation.doi", "citation.author", "citation.year", 
-                       "citation.title")
+                       "citation.title", "citation.citation", "citation.language", "citation.url"#, "citation.abstract"
+                       )
 
 double.chck.char.changes <- NULL
 non.ascii.detected <- NULL
@@ -76,6 +77,8 @@ for(Table_name in c("MEASUREMENTS", "SITES", "HISTORY", "METHODOLOGY", "ALLOMETR
     
   } # for(chr.col in chr.cols.to.check)
   
+  assign(Table_name, Table)
+  
 } # for(Table_name in c("MEASUREMENTS", "SITES", "HISTORY", "METHODOLOGY", "ALLOMETRY", "CITATIONS"))
 
 non.ascii.detected # this should be empty if we detected all the non ASCII characters
@@ -84,6 +87,16 @@ if(length(non.ascii.detected) > 0) stop("Not all non ascii characters were detec
 
 (double.chck.char.changes <- double.chck.char.changes[!double.chck.char.changes$with_special_character %in% double.chck.char.changes$fixed,])
 View(double.chck.char.changes)
+
+
+# save to fix special characters
+# 
+# write.csv(MEASUREMENTS, "data/ForC_measurements.csv", row.names = F,)
+# write.csv(SITES, "data/ForC_sites.csv", row.names = F)
+# write.csv(HISTORY, "data/ForC_history.csv", row.names = F)
+# write.csv(METHODOLOGY, "data/ForC_methodology.csv", row.names = F)
+# write.csv(ALLOMETRY, "data/ForC_allometry.csv", row.names = F)
+# write.csv(CITATIONS, "data/ForC_citations.csv", row.names = F, fileEncoding =  "UTF-8")
 
 # (A <- sort(unique(double.chck.char.changes$after)))
 # i = 72
