@@ -251,7 +251,7 @@ ForC_simplified$history.no.info <- ifelse(paste(ForC_simplified$sites.sitename, 
 ordered.field <- c("measurement.ID", "sites.sitename", "plot.name", 
                   "stand.age", "dominant.life.form", "dominant.veg", "variable.name", 
                   "date", "start.date", "end.date", "mean", "min.dbh", "citation.ID", "required.citations", "ForC.investigator",
-                  "country", "lat", "lon", "masl", "mat", "map", "geographic.area", "continent"
+                  "country", "lat", "lon", "masl", "mat", "map", "geographic.area", "continent",
                   "biogeog", "Koeppen", "FAO.ecozone",
                   "plot.area", "year.establishment.oldest.trees", 
                   "regrowth.type", "regrowth.year", "distmrs.type", 
