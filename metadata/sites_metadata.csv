@@ -1,43 +1,44 @@
-Column,Field,Description,Storage.Type,Variable.Codes,Units,Populated.by,n,Min,Max,,
-1 / A,site.ID,Unique numerical identifier for each record in the SITES table.,numeric (integer),-,-,manual entry,2070,1,2070,,
-2 / B,sites.sitename,"Unique site identifier, descriptive enough to differentiate from other sites and sufficient to identify the site within the original publication. When an offficial/conventional name exists for a site, this should be used. Links to SITES, PLOTS, HISTORY, and MEASUREMENTS tables.",character (string),-,-,manual entry,2070,-,-,,
-3 / C,alt.names,Alternative site names or commonly used abbreviations,character (string),-,-,manual entry,0,,,,
-4 / D,super.site,"Name of research site containing >1 distinct sites associated with multiple original studies. At least two of the sites within a super.site are nested, overlapping, or of unknown relationship. ",character (string),-,-,manual entry,0,,,,
-5 / E,network,"Research network(s) in which the site is included, if applicable.",character (string),-,-,manual entry,0,-,-,,
-6 / F,city,"Nearest city, when identified in original publication.",character (string),-,-,manual entry,494,-,-,,
-7 / G,state,State / province/ region,character (string),-,-,manual entry,2065,-,-,,
-8 / H,country,Country,character (string),-,-,manual entry,2070,-,-,,
-9 / I,lat,"Latitude, where negative values indicate S hemisphere",numeric (double),-,decimal degrees,manual entry,2070,-43,73,,
-10 / J,lon,"Longitude, where negative values indicate W hemisphere",numeric (double),-,decimal degrees,manual entry,2070,-171,175,,
-11 / K,coordinates.precision,"Precision of coordinates, as reported by source or estimated from maps.",character (string),"degree- rounded to nearest degree or rough fraction of a degree (e.g., .167, .25, .33, .5, .67, .75, .83, or to just one decimal point); minute-  reported to the nearest minute in original source (increments of 0.01667); second- reported to the nearest second in original source; fraction of second - reported to fraction of second in original source; decimal degrees to [n] digits- reported in decimal degrees to n digits (where n is minimum precision of the two coordinates); other (see geography.notes) - unusual cases (e.g., composite of multiple sites), as detailed in geography.notes. ",-,manual entry,,,,,
-12 / L,masl,"Elevation in meters above sea level. When a range is given, midpoint is reported.",numeric (double),-,m ,manual entry,1211,1,3900,,
-13 / M,geography.notes,"Notes pertaining to site name, location, or topography",character (string),-,-,manual entry,155,-,-,,
-14 / N,mat,Mean annual temperature ,numeric (double),-,C,manual entry,1621,-17,30,,
-15 / O,min.temp,Mean temperature of the coldest month ,numeric (double),-,C,manual entry,146,-43,23,,
-16 / P,max.temp,Mean temperature of the warmest month,numeric (double),-,C,manual entry,139,12,42,,
-17 / Q,map,Mean annual precipitation ,numeric (double),-,mm,manual entry,1808,56,7670,,
-18 / R,climate.notes,Climate details not included above,character (string),-,-,manual entry,296,-,-,,
-19 / S,soil.texture,"Soil texture, based on % sand-silt-clay. Reported as catergorical classiffication, which follows USDA classification when derived based on % sand-silt-clay reported in original study. ",character (string),-,-,manual entry,721,-,-,,
-20 / T,sand,"Soil percent sand. If multiple depths are given, this is the top layer. If multiple values are reported for a site, this is the average.",numeric (double),-,-,manual entry,0,-,-,,
-21 / U,silt,"Soil percent silt. If multiple depths are given, this is the top layer. If multiple values are reported for a site, this is the average.",numeric (double),-,-,manual entry,0,-,-,,
-22 / V,clay,"Soil percent clay. If multiple depths are given, this is the top layer. If multiple values are reported for a site, this is the average.",numeric (double),-,-,manual entry,0,-,-,,
-23 / W,soil.classification,Soil classification (USDA soil taxonomy or FAO soil classification),character (string),-,-,manual entry,574,-,-,,
-24 / X,soil.notes,Soil details not included above,character (string),-,-,manual entry,411,-,-,,
-25 / Y,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,,manual entry,104,-,-,,
-26 / Z,site.notes,Site details not included above,character (string),-,-,manual entry,122,-,-,,
-27 / AA,geographic.area,"Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github scripts folder).",numeric (integer) ,-,-,script,2070,1,827,,
-28 / AB,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,external database,2070,-,-,,
-29 / AC,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,external database,2070,-,-,,
-30 / AD,FAO.ecozone,FAO global ecological zones (GEZ) classification.,character (string),-,-,external database,2065,-,-,,
-31 / AE,site.ID.v1,"Original site.ID, where numbers <=503 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,manual entry,725,1,1425,,
-32 / AF,measurement.refs,Citation ID(s) of reference(s) reporting measurements at this site. ,character (string),,-,script,0,-,-,,
-33 / AG,site.ref,"Citation ID(s) of reference from which site data were obtained. ""NA"" indicates that all site data were obtained from references associated with measurement data. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.",character (string),-,-,manual entry,558,-,-,,
-34 / AH,ref.notes,"Notes on references for site data, including citations of publications not included in the ForC references library.",character (string),-,-,manual entry,884,-,-,,
-35 / AI,lacks.info.from.ori.pub,Indicates studies that were flagged because they lack information obtained directly from the original study. A missing value code ('NA') does not necessarily guarantee that information was obtained from an original publication. ,numeric (integer),1- lacks info from original pub,-,manual entry,425,1,1,,
-36 / AJ,loaded.from,"Citation ID(s) of data compilations from which data were obtained, if applicable. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.",character (string),-,-,manual entry,1084,-,-,,
-37 / AK,loaded.by,Name of individual who created the record,character (string),-,-,manual entry,1189,-,-,,
-38 / AL,potential_duplicate_group,temporary working field grouping sites that are potentially duplicates. 0 indicates that sites are unique; numbers indicate groups of sites that are geographically proximate (within 5km) and have measurement values reported by more than one study.,numeric (integer),-,-,script,,,,,
-39 / AM,potential_duplicate_group_parsed,"temporary working field for sites that are potentially duplicates. Within each group of potential duplicates, this field identifies sub-groups.",numeric (integer),-,-,script,,,,,
-40 / AN,confirmed.unique,temporary working field for sites that are potentially duplicates. ,numeric (integer),1- site records have been reviewed and confirmed to be unique; 0- preliminary review indicates likely duplication that needs to be resolved; NA-no potential duplicates identified by automated script; NAC- not yet reviewed,-,manual entry,,,,,
-41 / AO,potential_duplicate_group_manual,temporary working field grouping sites that are potentially duplicates--manually edited. 0 indicates that sites are unique; numbers indicate groups of sites that are geographically proximate (within 5km) and have measurement values reported by more than one study.,numeric (integer),,-,manual entry,,,,,
-42/ AP,duplicate.notes,temporary working field with notes regarding sites that are potentially duplicates. ,character (string),-,-,manual entry,,,,,
+Column,Field,Description,Storage.Type,Variable.Codes,Units,Populated.by,n,Min,Max
+1 / A,site.ID,Unique numerical identifier for each record in the SITES table.,numeric (integer),-,-,manual entry,2070,1,2070
+2 / B,sites.sitename,"Unique site identifier, descriptive enough to differentiate from other sites and sufficient to identify the site within the original publication. When an offficial/conventional name exists for a site, this should be used. Links to SITES, PLOTS, HISTORY, and MEASUREMENTS tables.",character (string),-,-,manual entry,2070,-,-
+3 / C,alt.names,Alternative site names or commonly used abbreviations,character (string),-,-,manual entry,0,,
+4 / D,super.site,"Name of research site containing >1 distinct sites associated with multiple original studies. At least two of the sites within a super.site are nested, overlapping, or of unknown relationship. ",character (string),-,-,manual entry,0,,
+5 / E,network,"Research network(s) in which the site is included, if applicable.",character (string),-,-,manual entry,0,-,-
+6 / F,city,"Nearest city, when identified in original publication.",character (string),-,-,manual entry,494,-,-
+7 / G,state,State / province/ region,character (string),-,-,manual entry,2065,-,-
+8 / H,country,Country,character (string),-,-,manual entry,2070,-,-
+9 / I,lat,"Latitude, where negative values indicate S hemisphere",numeric (double),-,decimal degrees,manual entry,2070,-43,73
+10 / J,lon,"Longitude, where negative values indicate W hemisphere",numeric (double),-,decimal degrees,manual entry,2070,-171,175
+11 / K,coordinates.precision,"Precision of coordinates, as reported by source or estimated from maps.",character (string),"degree- rounded to nearest degree or rough fraction of a degree (e.g., .167, .25, .33, .5, .67, .75, .83, or to just one decimal point); minute-  reported to the nearest minute in original source (increments of 0.01667); second- reported to the nearest second in original source; fraction of second - reported to fraction of second in original source; decimal degrees to [n] digits- reported in decimal degrees to n digits (where n is minimum precision of the two coordinates); other (see geography.notes) - unusual cases (e.g., composite of multiple sites), as detailed in geography.notes. ",-,manual entry,,,
+12 / L,masl,"Elevation in meters above sea level. When a range is given, midpoint is reported.",numeric (double),-,m ,manual entry,1211,1,3900
+13 / M,geography.notes,"Notes pertaining to site name, location, or topography",character (string),-,-,manual entry,155,-,-
+14 / N,mat,Mean annual temperature ,numeric (double),-,C,manual entry,1621,-17,30
+15 / O,min.temp,Mean temperature of the coldest month ,numeric (double),-,C,manual entry,146,-43,23
+16 / P,max.temp,Mean temperature of the warmest month,numeric (double),-,C,manual entry,139,12,42
+17 / Q,map,Mean annual precipitation ,numeric (double),-,mm,manual entry,1808,56,7670
+18 / R,climate.notes,Climate details not included above,character (string),-,-,manual entry,296,-,-
+19 / S,soil.texture,"Soil texture, based on % sand-silt-clay. Reported as catergorical classiffication, which follows USDA classification when derived based on % sand-silt-clay reported in original study. ",character (string),-,-,manual entry,721,-,-
+20 / T,sand,"Soil percent sand. If multiple depths are given, this is the top layer. If multiple values are reported for a site, this is the average.",numeric (double),-,-,manual entry,0,-,-
+21 / U,silt,"Soil percent silt. If multiple depths are given, this is the top layer. If multiple values are reported for a site, this is the average.",numeric (double),-,-,manual entry,0,-,-
+22 / V,clay,"Soil percent clay. If multiple depths are given, this is the top layer. If multiple values are reported for a site, this is the average.",numeric (double),-,-,manual entry,0,-,-
+23 / W,soil.classification,Soil classification (USDA soil taxonomy or FAO soil classification),character (string),-,-,manual entry,574,-,-
+24 / X,soil.notes,Soil details not included above,character (string),-,-,manual entry,411,-,-
+25 / Y,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,,manual entry,104,-,-
+26 / Z,site.notes,Site details not included above,character (string),-,-,manual entry,122,-,-
+27 / AA,geographic.area,"Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github scripts folder).",numeric (integer) ,-,-,script,2070,1,827
+28 / AB,continent,Continent,character (string),-,-,external database,,-,-
+29 / AC,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,external database,2070,-,-
+30 / AD,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,external database,2070,-,-
+31 / AE,FAO.ecozone,FAO global ecological zones (GEZ) classification.,character (string),-,-,external database,2065,-,-
+32 / AF,site.ID.v1,"Original site.ID, where numbers <=503 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,manual entry,725,1,1425
+33 / AG,measurement.refs,Citation ID(s) of reference(s) reporting measurements at this site. ,character (string),,-,script,0,-,-
+34 / AH,site.ref,"Citation ID(s) of reference from which site data were obtained. ""NA"" indicates that all site data were obtained from references associated with measurement data. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.",character (string),-,-,manual entry,558,-,-
+35 / AI,ref.notes,"Notes on references for site data, including citations of publications not included in the ForC references library.",character (string),-,-,manual entry,884,-,-
+36 / AJ,lacks.info.from.ori.pub,Indicates studies that were flagged because they lack information obtained directly from the original study. A missing value code ('NA') does not necessarily guarantee that information was obtained from an original publication. ,numeric (integer),1- lacks info from original pub,-,manual entry,425,1,1
+37 / AK,loaded.from,"Citation ID(s) of data compilations from which data were obtained, if applicable. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.",character (string),-,-,manual entry,1084,-,-
+38 / AL,loaded.by,Name of individual who created the record,character (string),-,-,manual entry,1189,-,-
+39 / AM,potential_duplicate_group,temporary working field grouping sites that are potentially duplicates. 0 indicates that sites are unique; numbers indicate groups of sites that are geographically proximate (within 5km) and have measurement values reported by more than one study.,numeric (integer),-,-,script,,,
+40 / AN,potential_duplicate_group_parsed,"temporary working field for sites that are potentially duplicates. Within each group of potential duplicates, this field identifies sub-groups.",numeric (integer),-,-,script,,,
+41 / AO,confirmed.unique,temporary working field for sites that are potentially duplicates. ,numeric (integer),1- site records have been reviewed and confirmed to be unique; 0- preliminary review indicates likely duplication that needs to be resolved; NA-no potential duplicates identified by automated script; NAC- not yet reviewed,-,manual entry,,,
+42/ AP,potential_duplicate_group_manual,temporary working field grouping sites that are potentially duplicates--manually edited. 0 indicates that sites are unique; numbers indicate groups of sites that are geographically proximate (within 5km) and have measurement values reported by more than one study.,numeric (integer),,-,manual entry,,,
+43/AQ,duplicate.notes,temporary working field with notes regarding sites that are potentially duplicates. ,character (string),-,-,manual entry,,,

@@ -23,15 +23,19 @@ SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 
 # Load shapefiles and legends ####
 
-FAO <- readOGR("S:/Global Maps Data/Shapefiles/FAO global eco_zone/gez_2010_wgs84.shp", layer = "gez_2010_wgs84", stringsAsFactors = F)
+# FAO <- readOGR("S:/Global Maps Data/Shapefiles/FAO global eco_zone/gez_2010_wgs84.shp", layer = "gez_2010_wgs84", stringsAsFactors = F)
+# 
+# KOEPPEN <- readOGR("S:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/koeppen_dissolved.shp", layer = "koeppen_dissolved", stringsAsFactors = F)
+# categoriesKOEPPEN <- read.table("S:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/Legend.txt", stringsAsFactors = F)
+# categoriesKOEPPEN <- categoriesKOEPPEN[, c(1,3)]
+# colnames(categoriesKOEPPEN) <- c("GRIDCODE", "Koeppen")
 
-KOEPPEN <- readOGR("S:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/koeppen_dissolved.shp", layer = "koeppen_dissolved", stringsAsFactors = F)
-categoriesKOEPPEN <- read.table("S:/Global Maps Data/Shapefiles/Koeppen-Geiger-GIS/Legend.txt", stringsAsFactors = F)
-categoriesKOEPPEN <- categoriesKOEPPEN[, c(1,3)]
-colnames(categoriesKOEPPEN) <- c("GRIDCODE", "Koeppen")
+load("supplementary_resources/World Map data/data_for_World_Map_with_Biogeographic_Regions_and_ForC_Sites.Rdata")
 
 
 continents <- readOGR("supplementary_resources/World Map data/Continents/World_Continents.shp", stringsAsFactors = F)
+
+biogeog <-  readOGR("supplementary_resources/World Map data/Biogegraphic_Regions/wwf_terrestrial_ecoregions.shp", stringsAsFactors = F)
 
 
 # set SITES as coordinates ####
@@ -70,7 +74,7 @@ View(cbind(SITES$sites.sitename, SITES$FAO.ecozone, new.FAO)[!apply(cbind(SITES$
 
 SITES$FAO.ecozone <- new.FAO
 
-SITES[is.na(SITES$FAO.ecozone) | SITES$FAO.ecozone %in% "NAC", c("site.ID", "sites.sitename", "lat", "lon", "country", "FAO.ecozone", "biogeog", "Koeppen")] # should be empty. if not, either fix the coordinates by hand or use code like the few lines below
+SITES[is.na(SITES$FAO.ecozone) | SITES$FAO.ecozone %in% "NAC", c("site.ID", "sites.sitename", "lat", "lon", "country", "FAO.ecozone", "continent", "Koeppen")] # should be empty. if not, either fix the coordinates by hand or use code like the few lines below
 
 
 # SITES$FAO.ecozone[is.na(SITES$FAO.ecozone) & SITES$country %in% "Japan" & SITES$Koeppen %in% "Cfa"] <- "Subtropical humid forest"
@@ -125,42 +129,57 @@ plot(KOEPPEN)
 points(SITES.xy[is.na(SITES$Koeppen) | SITES$Koeppen %in% "NAC", ], col = "red", pch= 16)
 SITES.xy[is.na(SITES$Koeppen) | SITES$Koeppen %in% "NAC", ]
 
-
 # Extract biogeog ####
+plot(biogeog, col = factor(biogeog$REALM_1))
+
+
+new.biogeog <- over(SITES.xy, biogeog)
+
+new.biogeog[is.na(new.biogeog) & SITES$biogeog %in% "NAC",]
+View(SITES[is.na(new.biogeog)  & SITES$biogeog %in% "NAC", ])
+
+points(SITES.xy[is.na(c(new.biogeog[[1]])),], col = "red", pch= 16)
+
+new.biogeog[is.na(new.biogeog)] <- SITES.xy$biogeog[is.na(new.biogeog)]
+
+SITES$biogeog <- new.biogeog
+
+
+# Extract continent ####
 plot(continents)
 
-new.biogeog <- over(SITES.xy, continents)
+new.continent <- over(SITES.xy, continents)
 
-new.biogeog[SITES$biogeog %in% "NAC",]
+new.continent[SITES$continent %in% "NAC",]
 
-new.biogeog <- new.biogeog$CONTINENT
+new.continent <- new.continent$CONTINENT
 
-plot(SITES.xy, pch = 16, col = factor(SITES$biogeog)) # should look the same as previous plot
+plot(SITES.xy, pch = 16, col = factor(SITES$continent)) # should look the same as previous plot
 
 identical(SITES.xy$site.ID, SITES$site.ID) # has to be TRUE
 
-cbind(SITES$sites.sitename, SITES$biogeog, new.biogeog)[!apply(cbind(SITES$biogeog, new.biogeog), 1, function(x) x[1] %in% x[2]),] # should be empty
+cbind(SITES$sites.sitename, SITES$continent, new.continent)[!apply(cbind(SITES$continent, new.continent), 1, function(x) x[1] %in% x[2]),] # should be empty
 
 
-SITES[is.na(new.biogeog), c("sites.sitename", "lat", "lon", "country")]
+SITES[is.na(new.continent), c("sites.sitename", "lat", "lon", "country")]
 plot(continents)
-points(SITES.xy[is.na(new.biogeog),], pch = 2, col = "purple")
+points(SITES.xy[is.na(new.continent),], pch = 2, col = "purple")
 
-# Replace all biogeog by the ones extracted + manually edit the ones that fall in the water
-SITES$biogeog <- new.biogeog
+# Replace all continent by the ones extracted + manually edit the ones that fall in the water
+SITES$continent <- new.continent
 
-SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("United States of America", "United States Virgin Islands", "USA", "Costa Rica")] <- "North America"
-SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% "Australia"] <- "Australia"
-SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% "New Zealand"] <- "Oceania"
+SITES$continent[is.na(SITES$continent) & SITES$country %in% c("United States of America", "United States Virgin Islands", "USA", "Costa Rica")] <- "North America"
+SITES$continent[is.na(SITES$continent) & SITES$country %in% "Australia"] <- "Australia"
+SITES$continent[is.na(SITES$continent) & SITES$country %in% "New Zealand"] <- "Oceania"
 
-SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("Malaysia", "Japan", "China", "Cambodia", "Turkey")] <- "Asia"
-SITES$biogeog[is.na(SITES$biogeog) & SITES$country %in% c("French Guiana", "Brazil", "Panama", "Belize", "Colombia")] <- "South America"
+SITES$continent[is.na(SITES$continent) & SITES$country %in% c("Malaysia", "Japan", "China", "Cambodia", "Turkey")] <- "Asia"
+SITES$continent[is.na(SITES$continent) & SITES$country %in% c("French Guiana", "Brazil", "Panama", "Belize", "Colombia")] <- "South America"
 
 
-if(any(is.na(SITES$biogeog) | SITES$biogeog %in% "NAC")) stop("There are missing biogeog that you need to fill by hand in this script.")
+if(any(is.na(SITES$continent) | SITES$continent %in% "NAC")) stop("There are missing continent that you need to fill by hand in this script.")
 
-SITES[is.na(SITES$biogeog) | SITES$biogeog %in% "NAC", c("sites.sitename", "lat", "lon", "country")]
-points(SITES.xy[is.na(SITES$biogeog)| SITES$biogeog%in% "NAC",], pch = 16, col = "red")
+SITES[is.na(SITES$continent) | SITES$continent %in% "NAC", c("sites.sitename", "lat", "lon", "country")]
+points(SITES.xy[is.na(SITES$continent)| SITES$continent%in% "NAC",], pch = 16, col = "red")
 
 
 # SAVE ####

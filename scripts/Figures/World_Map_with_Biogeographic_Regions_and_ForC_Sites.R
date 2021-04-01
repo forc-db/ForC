@@ -19,6 +19,53 @@ library(rgdal)
 # Load pre-saved R environment ####
 load("supplementary_resources/World Map data/data_for_World_Map_with_Biogeographic_Regions_and_ForC_Sites.Rdata")
 
+# LOAD SITES AND MEASUREMENTS + count records ####
+
+MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
+SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
+
+No.of.records <- tapply(MEASUREMENTS$mean, MEASUREMENTS$sites.sitename, function(x) sum(!is.na(x)))
+
+
+SITES <- SITES[!is.na(SITES$lat) & !is.na(SITES$lon), c("sites.sitename", "lat", "lon", "FAO.ecozone")]
+SITES$No.of.records <- No.of.records[SITES$sites.sitename]
+
+
+
+coordinates(SITES) <- c("lon", "lat")
+str(SITES)
+proj4string(SITES) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 ")
+
+
+rbPal <- colorRampPalette(c("yellow", "red4"))
+SITES$Color <- rbPal(6)[as.numeric(cut(SITES$No.of.records, breaks = c(0,1,10,20,40,80,277)))]
+
+
+
+
+
+## make inset plot ####
+
+SITES$Ecoregion <- over(SITES, ECOREGIONS) 
+SITES$Ecoregion <- names(ECOREGIONS)[SITES$Ecoregion]
+
+HISTORY <- read.csv("data/ForC_history.csv", stringsAsFactors = F)
+
+
+HISTORY_Summary <- merge(HISTORY[, c("sites.sitename", "plot.name")], SITES[, c("sites.sitename", "Ecoregion")])
+MEASUREMENTS_Summary <- merge(MEASUREMENTS[, c("sites.sitename", "plot.name")], SITES[, c("sites.sitename", "Ecoregion")])
+
+### No. of sites
+No._of_sites <- table(SITES$Ecoregion)
+
+### No. of plots
+No._of_plots <- table(HISTORY_Summary$Ecoregion)
+
+### No. of records
+No._of_records <- table(MEASUREMENTS_Summary$Ecoregion)
+
+
+
 # Plot ####
 
 ## With biogeographic regions and chart####
