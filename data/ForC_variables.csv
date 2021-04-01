@@ -74,8 +74,8 @@ variable.ID,variable.type,variable.name,units,description,extended.description,e
 73,increment,delta.agb_C,Mg C ha-1 yr-1,Aboveground Biomass Increment (delta.agb),Net change in carbon in live aboveground biomass,delta.agb_C = ANPP_0_C - woody.mortality_ag_C,1,1,0,NA,NA,12,-0.908,2.51,NA
 74,stock,total.ecosystem_C,Mg C ha-1,"Total Ecosystem C stock, soil included (total.ecosystem_C)","Total ecosystem C stock, including total biomass, deadwood, organic layer, and soil organic C",total.ecosystem_C = biomass_C + deadwood_C + organic.layer_C + soil_C,1,1,1,NA,NA,63,20.6,488,NA
 75,stock,total.ecosystem_2_C,Mg C ha-1,"Total Ecosystem C stock, soil excluded (total.ecosystem_2_C)","Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",total.ecosystem_2_C = biomass_C + deadwood_C + organic.layer_C ,1,1,1,NA,NA,8,52.9,399,NA
-76,stock,biomass_OM,Mg ha-1,Biomass (biomass),Total live biomass.,biomass_OM = biomass_ag_OM + biomass_root_OM,1,1,1,NA,NA,236,0.683068,568.172,NA
-77,stock,biomass_C,Mg C ha-1,Biomass (biomass),Total carbon in live biomass.,biomass_C = biomass_ag_C + biomass_root_C,1,1,1,NA,NA,640,0,744.53,NA
+76,stock,biomass_OM,Mg ha-1,Biomass (biomass),Total live biomass (above and below-ground).,biomass_OM = biomass_ag_OM + biomass_root_OM,1,1,1,NA,NA,236,0.683068,568.172,NA
+77,stock,biomass_C,Mg C ha-1,Biomass (biomass),Total carbon in live biomass (above and below-ground).,biomass_C = biomass_ag_C + biomass_root_C,1,1,1,NA,NA,640,0,744.53,NA
 78,stock,biomass_ag_OM,Mg ha-1,Aboveground Biomass (biomass_ag),Total live aboveground live biomass.,biomass_ag_OM = biomass_ag_woody_OM + biomass_ag_foliage_OM,1,1,0,NA,NA,2079,0.034,1533,NA
 79,stock,biomass_ag_C,Mg C ha-1,Aboveground Biomass (biomass_ag),Total carbon in live aboveground biomass.,biomass_ag_C = biomass_ag_woody_C + biomass_ag_foliage_C,1,1,0,NA,NA,943,0,1053,NA
 80,stock,biomass_ag_woody_OM,Mg ha-1,Aboveground Biomass: woody component (biomass_ag_woody),Total aboveground woody (stem + branch) biomass,NA,1,1,0,NA,NA,162,0,460.574,NA
