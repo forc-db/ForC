@@ -91,7 +91,7 @@ MEASUREMENTS_no_duplicates$variable.name <- gsub("(\\w*)(_C$|_OM$)", "\\1", MEAS
 ## SITES ####
 
 sites.columns.to.keep <- c("sites.sitename", "country", "lat", "lon", "masl", "mat", "map", 
-                           "geographic.area", "biogeog", "Koeppen", "FAO.ecozone")
+                           "geographic.area", "continent", "biogeog", "Koeppen", "FAO.ecozone")
 names(SITES)
 
 SITES_simplified <- SITES[, sites.columns.to.keep]
@@ -251,7 +251,7 @@ ForC_simplified$history.no.info <- ifelse(paste(ForC_simplified$sites.sitename, 
 ordered.field <- c("measurement.ID", "sites.sitename", "plot.name", 
                   "stand.age", "dominant.life.form", "dominant.veg", "variable.name", 
                   "date", "start.date", "end.date", "mean", "min.dbh", "citation.ID", "required.citations", "ForC.investigator",
-                  "country", "lat", "lon", "masl", "mat", "map", "geographic.area", 
+                  "country", "lat", "lon", "masl", "mat", "map", "geographic.area", "continent"
                   "biogeog", "Koeppen", "FAO.ecozone",
                   "plot.area", "year.establishment.oldest.trees", 
                   "regrowth.type", "regrowth.year", "distmrs.type", 
