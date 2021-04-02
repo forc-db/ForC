@@ -2712,7 +2712,7 @@
 2748,"Jianfengling CTFS-ForestGEO plot","60-ha forest dynamics plot","60",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2749,"Kenting CTFS-ForestGEO plot","9.6-ha forest dynamics plot","9.6",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2750,"Korup CTFS-ForestGEO plot","50-ha forest dynamics plot","50",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2751,"La Planada CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1986",0,0,2751.01,"Harvest","<10%","1986",0,NA,NA,NA,0,0,0,0,0,0,0
+2751,"La Planada CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1986",0,0,2751.01,"Harvest","<100%","1986",0,NA,NA,NA,0,0,0,0,0,0,0
 2752,"Laupahoehoe CTFS-ForestGEO plot","4-ha forest dynamics plot","4",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,2752.01,"Harvest","minor","1700",0,NA,NA,NA,0,0,0,0,0,0,2752.03
 2753,"Lienhuachih CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2754,"Lilly Dickey Woods CTFS-ForestGEO plot","25-ha forest dynamics plot","25",2754.01,"1860",0,"NAC","NAC",0,"No disturbance",NA,"1860",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2723,7 +2723,7 @@
 2759,"Mudumalai CTFS-ForestGEO plot","50-ha forest dynamics plot","50",2759.01,"NI",0,"NAC","NAC",0,"No severe disturbance",NA,"1985",0,0,2759.02,"Harvest","<100%","1980",2759.04,"Burned","<100%",NA,2759.05,0,0,0,0,0,0
 2760,"Nanjenshan CTFS-ForestGEO plot","5.28 ha of 5.88-ha forest dynamics plot","5.28",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2761,"Palamanui CTFS-ForestGEO plot","4-ha forest dynamics plot","4",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,2761.02
-2762,"Palanan CTFS-ForestGEO plot","16-ha forest dynamics plot","16",2762.01,"NI",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,2762.02,"Harvest","minor","NI",2762.03,"Major storm","NAC","2003.583333",2762,0,0,0,0,0,0
+2762,"Palanan CTFS-ForestGEO plot","16-ha forest dynamics plot","16",2762.01,"NI",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,2762.02,"Harvest","<100%","NI",2762.03,"Major storm","NAC","2003.583333",2762,0,0,0,0,0,0
 2763,"Pasoh CTFS-ForestGEO plot","50-ha forest dynamics plot","50",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1917",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2764,"Rabi CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1930",0,0,2764.01,"Harvest","<100%","1925",0,NA,NA,NA,0,0,0,0,0,0,0
 2765,"Santa Cruz CTFS-ForestGEO plot","6-ha forest dynamics plot (original plot)","5.96",2765.02,"1900",0,"NAC","NAC",0,"No disturbance",NA,"1930",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
