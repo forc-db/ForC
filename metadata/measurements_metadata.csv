@@ -17,7 +17,7 @@ Column,Field,Description,Storage.Type,Variable.Codes,Units,Populated.by,n,Min,Ma
 16 / P,mean,Mean value of measurement recorded. Units depend on the variable and can be found in the VARIABLES table. ,numeric (double) ,-,Given in VARIABLES table,manual entry,17367,-25,1533
 17 / Q,original.units,units presented in original publication,character (string),-,,manual entry,,,
 18 / R,mean.in.original.units,"mean value in units presented in original publication. If it is already in ForC units, fill with `NA`",numeric (double) ,-,Given in `original.units` field.,manual entry,,,
-19 / S,C.conversion.factor,"Assumed/ measured C content of organic matter (as fraction between 0 and 1), used to convert organic matter to C (if applicable).",numeric (double) ,-,,,,,
+19 / S,C.conversion.factor,"Assumed/ measured C content of organic matter (as fraction between 0 and 1), used to convert organic matter to C (if applicable).",numeric (double) ,-,,manual entry,,,
 20 / T,n,Number of experimental replicates used to estimate mean and statistical summary.,numeric (integer) ,-,-,manual entry,7599,1,4810
 21 / U,sd,standard deviation,numeric (double) ,-,Given in VARIABLES table,manual entry,,,
 22 / V,se,standard error,numeric (double) ,-,Given in VARIABLES table,manual entry,,,
