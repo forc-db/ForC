@@ -1,7 +1,9 @@
 ﻿Table,Column,Description,Changes,Motivation,Date changed
-Sites,coordinates.precision,"Precision of geographic coordinates, as reported by source or estimated from maps.",field added,allow identification of records with poor coordinate precision,April 2021
-,data.location.within.source,Location of data within the source listed in citation.ID.,field added,"facilitate review, ensure traceability",April 2021
-Measuremennts,"sd, se, lower95%CI, upper 95%CI","Standard deviation, standard error, and lower and upper 95 percent confidence intvervals, respectively.",replaces `stat` and `stat.name`,cleaner format; ability to handle assymetrical 95 percent confidence intervals,March 2021
-PFT,description,Definition of the pftcode at the community level. Differs from individual level in that properly describes mixed plant functional types.,field added,,March 2021
-,description.individual,Definition of the pftcode at the individual plant level. ,field name change (previously `description`),,March 2021
-Citations,(several fields),,,,March 2021
+Sites,coordinates.precision,"Precision of geographic coordinates, as reported by source or estimated from maps.",field added,allow identification of records with poor coordinate precision,Apr-21
+,data.location.within.source,Location of data within the source listed in citation.ID.,field added,"facilitate review, ensure traceability",Apr-21
+Measuremennts,"sd, se, lower95%CI, upper 95%CI","Standard deviation, standard error, and lower and upper 95 percent confidence intvervals, respectively.",replaces `stat` and `stat.name`,cleaner format; ability to handle assymetrical 95 percent confidence intervals,Mar-21
+,"mean.in.original.units, original.units",mean value and units presented in original publication,fields added,"provide IPCC with original units, reduce errors/improve reproducibility",Apr-21
+,C.conversion.factor,Assumed/ measured C content of organic matter used to convert organic matter to C.,field added,"track units conversion, allow back-calculation of OM if conversion factor deemed inappropriate",Apr-21
+PFT,description,Definition of the pftcode at the community level. Differs from individual level in that properly describes mixed plant functional types.,field added,,Mar-21
+,description.individual,Definition of the pftcode at the individual plant level. ,field name change (previously `description`),,Mar-21
+Citations,(several fields),,,,Mar-21
