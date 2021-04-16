@@ -270,5 +270,13 @@ lang_final <- languages_key[lang_final]
 ## add to CITATIONS ####
 CITATIONS$citation.language[my_is.na(CITATIONS$citation.language)] <- ifelse(my_is.na(lang_final), "NAC", lang_final)[my_is.na(CITATIONS$citation.language)]
 
+
+# replace empty by "NAC ####
+CITATIONS$citation.url[my_is.na(CITATIONS$citation.url)] <- "NAC"
+CITATIONS$citation.citation[my_is.na(CITATIONS$citation.citation)] <- "NAC"
+CITATIONS$citation.abstract[my_is.na(CITATIONS$citation.abstract)] <- "NAC"
+CITATIONS$citation.language[my_is.na(CITATIONS$citation.language)] <- "NAC"
+
+
 # save ####
 write.csv(CITATIONS, file = paste0(dirname(getwd()), "/forc/data/ForC_citations.csv"), row.names = F, fileEncoding =  "UTF-8")
