@@ -53,15 +53,15 @@ MAT_sites <- raster::extract(MAT, ForC_sites)
 df <- data.frame(ForC_sites)
 df_MAT <- data.frame(siteID = df[,1], sites.sitename = as.character(df[,2]), MAT_sites)
 
-warmest <- apply(MAT_sites, 1, function(x){return(max(x))})
-coldest <- apply(MAT_sites, 1, function(x){return(min(x))})
+WC_warmest <- apply(MAT_sites, 1, function(x){return(max(x))})
+WC_coldest <- apply(MAT_sites, 1, function(x){return(min(x))})
 
 ### bind data
 df <- cbind(df, sites)
-df <- cbind(df, warmest)
-df <- cbind(df, coldest)
+df <- cbind(df, WC_warmest)
+df <- cbind(df, WC_coldest)
 
-names(df)[45:46] <- c("MAT", "MAP")
+names(df)[45:46] <- c("WC_MAT", "WC_MAP")
 
 ### save
 write.csv(df,"C:/Users/gyrcbm/Documents/GitHub/ForC/data/extracted_site_data/ForC_sites_climate_data.csv", row.names = F)
