@@ -35,12 +35,12 @@ VARIABLES$units <- ifelse(VARIABLES$units %in% "", NA, VARIABLES$units) # Replac
 for(i in 1:nrow(VARIABLES)){
   
   
-  v <- VARIABLES$variables.name[i]
+  v <- VARIABLES$variable.name[i]
   print(v)
   
-  if(!VARIABLES$variables.type[i] %in% "covariates"){
+  if(!VARIABLES$variable.type[i] %in% "covariates"){
     
-    x <- MEASUREMENTS[MEASUREMENTS$variables.name %in% v, ]$mean
+    x <- MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean
     x <- na.omit(ifelse(x %in% na_codes, NA, x))
  
     print(head(x))
@@ -52,7 +52,7 @@ for(i in 1:nrow(VARIABLES)){
     VARIABLES[i, "n.records"] <- sum(!is.na(x))
   }
   
-  if(VARIABLES$variables.type[i] %in% "covariates"){
+  if(VARIABLES$variable.type[i] %in% "covariates"){
     
     x <- c(MEASUREMENTS[MEASUREMENTS$covariate_1 %in% v, ]$coV_1.value, MEASUREMENTS[MEASUREMENTS$covariate_2 %in% v, ]$coV_2.value)
     x <- na.omit(as.numeric(ifelse(x %in% na_codes, NA, x)))
@@ -69,15 +69,15 @@ for(i in 1:nrow(VARIABLES)){
 }
 
 
-VARIABLES[, c("variables.type", "variables.name", "units", "min", "max", "n.records")]
+VARIABLES[, c("variable.type", "variable.name", "units", "min", "max", "n.records")]
 
 # REplace Inf by NA
 
 
-VARIABLES$min <- ifelse(VARIABLES$min == "Inf", "-", VARIABLES$min)
-VARIABLES$max <- ifelse(VARIABLES$max == "-Inf", "-", VARIABLES$max)
+VARIABLES$min[VARIABLES$min %in% "Inf"] <- "-"
+VARIABLES$max[VARIABLES$max %in% "-Inf"] <- "-"
 
-VARIABLES[, c("variables.type", "variables.name", "units", "min", "max", "n.records")]
+VARIABLES[, c("variable.type", "variable.name", "units", "min", "max", "n.records")]
 
 
 
