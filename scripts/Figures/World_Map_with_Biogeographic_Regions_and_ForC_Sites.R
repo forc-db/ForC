@@ -86,7 +86,7 @@ rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", borde
 
 legend(-182, -40, pch = 21, pt.bg = rbPal(6), legend = c("1", "2-10", "11-20", "21-40", "41-80", "81-277"), bty = "n", title = expression(bold("No. of records")))
 
-legend(-130, -50, fill = rgb(matrix(0, nrow = 4, ncol = 3), alpha = c(255, 150, 100, 50), maxColorValue = 255), border = "transparent", legend = c("Evegreen", "Decidous", "MixedED", "Other"), bty = "n", title = expression(bold("Forest Cover")))
+legend(-130, -50, fill = rgb(matrix(0, nrow = 4, ncol = 3), alpha = c(255, 150, 100, 50), maxColorValue = 255), border = "transparent", legend = c("Evegreen", "Decidous", "MixedED", "Other"), bty = "n", title = expression(bold("Dominant\nTree Type")))
 
 legend(-60, -50, fill = rgb(t(col2rgb(c("goldenrod3", "violetred3", "cadetblue4", "chocolate", "darkgreen", "darkorchid4", "darkred"))), alpha = rep(200, 8), maxColorValue = 255), border = "transparent", legend = names(ECOREGIONS)[-2], bty = "n", title = expression(bold("Biogeographic zone")), ncol = 2)
 
@@ -126,7 +126,7 @@ rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", borde
 
 legend(-182, 0, pch = 21, pt.bg = rbPal(6), legend = c("1", "2-10", "11-20", "21-40", "41-80", "81-277"), bty = "n", title = expression(bold("No. of records")))
 
-legend(-130, -10, fill =SYNMAP_forest_color[c(2,3,1,4)], border = "transparent", legend = c("Evegreen", "MixedED", "Decidous", "Other"), bty = "n", title = expression(bold("Forest Cover")))
+legend(-130, -10, fill =SYNMAP_forest_color[c(2,3,1,4)], border = "transparent", legend = c("Evegreen", "MixedED", "Decidous", "Other"), bty = "n", title = expression(bold("Dominant\nTree Type")))
 
 dev.off()
 
