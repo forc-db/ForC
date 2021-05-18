@@ -127,7 +127,7 @@ b <- barplot(t(rbind( No.of.sites/sum(No.of.sites), No.of.plots/sum(No.of.plots)
 
 
 axis(1, at = c(0, .5, 1), labels = c("0%", "50%"," 100%"))
-mtext(c("No. of records", "No. of plots", "No. of sites"), side = 2, at = rev(b), las = 1, line = 1)
+mtext(c("records", "plots", "sites"), side = 2, at = rev(b), las = 1, line = 1)
 
 dev.off()
 
