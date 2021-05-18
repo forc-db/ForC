@@ -1,5 +1,5 @@
 ######################################################
-# Purpose: Find oucoordintate precision of SITES 
+# Purpose: Find out coordintate precision of SITES 
 # Developped by: Valentine Herrmann - HerrmannV@si.edu
 # R version 4.0.3 (2020-10-10)
 ######################################################
