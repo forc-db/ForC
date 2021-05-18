@@ -114,7 +114,7 @@ rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", borde
 
 legend(-182, -40, pch = 21, pt.bg = rbPal(6), legend = c("1", "2-10", "11-20", "21-40", "41-80", "81-277"), bty = "n", title = expression(bold("No. of records")))
 
-legend(-130, -50, fill = rgb(matrix(0, nrow = 4, ncol = 3), alpha = c(255, 150, 100, 50), maxColorValue = 255), border = "transparent", legend = c("Evegreen", "Decidous", "MixedED", "Other"), bty = "n", title = expression(bold("Dominant\nTree Type")), xpd = NA)
+legend(-130, -50, fill = rgb(matrix(0, nrow = 3, ncol = 3), alpha = c(255, 150, 100), maxColorValue = 255), border = "transparent", legend = c("Evegreen", "Decidous", "MixedED"), bty = "n", title = expression(bold("Dominant\nTree Type")), xpd = NA) # removed "other" with alpha = 50 (and nrow matrix 4)
 
 legend(-60, -50, fill = rgb(t(col2rgb( KOEPPEN_biome_colors)), alpha = rep(200, 8), maxColorValue = 255), border = "transparent", legend = names(KOEPPEN_biome_colors), bty = "n", title = expression(bold("Biome")), xpd = NA)
 
