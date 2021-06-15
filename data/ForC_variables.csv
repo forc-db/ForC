@@ -98,8 +98,8 @@ variable.ID,variable.type,variable.name,units,description,extended.description,e
 97,stock,deadwood_down_C,Mg C ha-1,Dead wood: fallen (deadwood_down),Total carbon in downed dead wood (coarse and sometimes fine woody debris). ,NA,0,0,0,(min.diameter),(min.length),152,0,126.65,"Covariates depend on methodology. Include min.diameter, min.length. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
 98,stock,organic.layer_OM,Mg ha-1,Organic Layer/ Litter (organic.layer),Mass of litter/ organic layer/ forest floor. ,NA,0,0,0,max.diameter,NA,378,0,205.5,Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
 99,stock,organic.layer_C,Mg C ha-1,Organic Layer/ Litter (organic.layer),Carbon in litter/ organic layer/ forest floor.,NA,0,0,0,max.diameter,NA,660,0,328.75,Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
-100,stock,soil_OM,Mg ha-1,Soil Organic Matter (soil_OM),Soil organic matter to specified depth in mineral soil.,NA,0,0,1,NA,NA,17,2.6,170,depth refers to depth in mineral soil.
-101,stock,soil_C,Mg C ha-1,Soil Organic Carbon (soil_C),Soil organic carbon to specified depth in mineral soil.,NA,0,0,1,NA,NA,677,0.4,1641,depth refers to depth in mineral soil.
+100,stock,soil_OM,Mg ha-1,Soil Organic Matter (soil_OM),Soil organic matter to specified depth in mineral soil.,NA,0,0,1,NA,NA,17,2.6,170,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
+101,stock,soil_C,Mg C ha-1,Soil Organic Carbon (soil_C),Soil organic carbon to specified depth in mineral soil.,NA,0,0,1,NA,NA,677,0.4,1641,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
 102,secondary,stand.density,n ha-1,Stand density,,NA,0,1,0,stem.level,NA,0,-,-,NA
 103,secondary,LAI,m2 leaf m-2 ground,LAI: leaf area index (m2/m2),,NA,0,0,0,NA,NA,632,0,27.8025,NA
 104,secondary,leaf_pC,%,Leaf Percent C,,NA,0,0,0,NA,NA,13,44.8,51.3,NA
