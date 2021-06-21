@@ -90,63 +90,67 @@ variable.ID,variable.type,variable.name,units,description,extended.description,e
 89,increment,delta.deadwood_down_C,Mg C ha-1 yr-1,Dead wood increment: fallen (delta.deadwood_down),Net change in total carbon in downed dead wood (coarse and sometimes fine woody debris). ,,0,0,0,(min.diameter),(min.length),,,,"Covariates depend on methodology. Include min.diameter, min.length. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
 90,increment,delta.organic.layer_OM,Mg ha-1 yr-1,"Organic Layer increment, including litter and entire O horizon (delta.organic.layer)","Net change in mass of litter/ organic layer/ forest floor, including entire O horizon",,0,0,0,max.diameter,NA,,,,Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
 91,increment,delta.organic.layer_C,Mg C ha-1 yr-1,"Organic Layer increment, including litter and entire O horizon (delta.organic.layer)","Net change in carbon in litter/ organic layer/ forest floor, including entire O horizon",,0,0,0,max.diameter,NA,,,,Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
-92,increment,delta.soil_OM,Mg ha-1 yr-1,Soil Organic Matter increment (delta.soil_OM),Net change in soil organic matter to specified depth in mineral soil.,,0,0,1,NA,NA,,,,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
-93,increment,delta.soil_C,Mg C ha-1 yr-1,Soil Organic Carbon increment (soil_C),Net change in soil organic carbon to specified depth in mineral soil.,,0,0,1,NA,NA,,,,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
-94,stock,total.ecosystem_C,Mg C ha-1,"Total Ecosystem C stock, soil included (delta.total.ecosystem_C)","Total ecosystem C stock, including total biomass, deadwood, organic layer, and soil organic C",total.ecosystem_C = biomass_C + deadwood_C + organic.layer_C + soil_C,1,1,1,NA,NA,65,20.6,488,NA
-95,stock,total.ecosystem_2_C,Mg C ha-1,"Total Ecosystem C stock, soil excluded (total.ecosystem_2_C)","Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",total.ecosystem_2_C = biomass_C + deadwood_C + organic.layer_C ,1,1,1,NA,NA,64,4.9,399,NA
-96,stock,biomass_OM,Mg ha-1,Biomass (biomass),Total live biomass (above and below-ground).,biomass_OM = biomass_ag_OM + biomass_root_OM,1,1,1,NA,NA,261,0,568.172,NA
-97,stock,biomass_C,Mg C ha-1,Biomass (biomass),Total carbon in live biomass (above and below-ground).,biomass_C = biomass_ag_C + biomass_root_C,1,1,1,NA,NA,833,0,744.53,NA
-98,stock,biomass_ag_OM,Mg ha-1,Aboveground Biomass (biomass_ag),Total live aboveground live biomass.,biomass_ag_OM = biomass_ag_woody_OM + biomass_ag_foliage_OM,1,1,0,NA,NA,7509,0,1533,NA
-99,stock,biomass_ag_C,Mg C ha-1,Aboveground Biomass (biomass_ag),Total carbon in live aboveground biomass.,biomass_ag_C = biomass_ag_woody_C + biomass_ag_foliage_C,1,1,0,NA,NA,1509,0,1053,NA
-100,stock,biomass_ag_woody_OM,Mg ha-1,Aboveground Biomass: woody component (biomass_ag_woody),Total aboveground woody (stem + branch) biomass,NA,1,1,0,NA,NA,213,0,693.7,NA
-101,stock,biomass_ag_woody_C,Mg C ha-1,Aboveground Biomass: woody component (biomass_ag_woody),Total carbon in aboveground woody (stem + branch) biomass,NA,1,1,0,NA,NA,247,0,640.35,NA
-102,stock,biomass_ag_foliage_OM,Mg ha-1,Aboveground Biomass: foliage component (biomass_ag_foliage),Total foliage biomass,NA,1,1,0,NA,NA,336,0.009,35,NA
-103,stock,biomass_ag_foliage_C,Mg C ha-1,Aboveground Biomass: foliage component (biomass_ag_foliage),Total carbon in foliage biomass,NA,1,1,0,NA,NA,236,0,19.23,NA
-104,stock,biomass_ag_understory_OM,Mg ha-1,Aboveground Biomass: understory component (biomass_ag_understory),Total understory biomass.,NA,0,0,0,max.height  ,max.diameter,313,0,54.4,NA
-105,stock,biomass_ag_understory_C,Mg C ha-1,Aboveground Biomass: understory component (biomass_ag_understory),Total carbon in understory biomass.,NA,0,0,0,max.height  ,max.diameter,96,0,19.5,NA
-106,stock,biomass_root_OM,Mg ha-1,Biomass: root component (biomass_root),Total root biomass.,biomass_root_OM = biomass_root_coarse_OM + biomass_root_fine_OM,1,1,1,min.diameter_root,NA,3673,0,688,NA
-107,stock,biomass_root_C,Mg C ha-1,Biomass: root component (biomass_root),Total carbon in root biomass,biomass_root_C = biomass_root_coarse_C + biomass_root_fine_C,1,1,1,min.diameter_root,NA,970,0,181.63,NA
-108,stock,biomass_root_coarse_OM,Mg ha-1,Biomass: coarse root component (biomass_root_coarse),Total coarse root biomass. Typical size cutoff (min.diameter_root) is 1-2 mm diameter.,NA,1,1,0,min.diameter_root,NA,166,0.03,148,NA
-109,stock,biomass_root_coarse_C,Mg C ha-1,Biomass: coarse root component (biomass_root_coarse),Total carbon in coarse root biomass. Typical size cutoff (min.diameter_root) is 1-2 mm diameter.,NA,1,1,0,min.diameter_root,NA,433,0,593.28,NA
-110,stock,biomass_root_fine_OM,Mg ha-1,Biomass: fine root component (biomass_root_fine),Total fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter.,NA,0,0,1,min.diameter_root,max.diameter_root,254,0.005,39.8,NA
-111,stock,biomass_root_fine_C,Mg C ha-1,Biomass: fine root component (biomass_root_fine),Total carbon in fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter.,NA,0,0,1,min.diameter_root,max.diameter_root,677,0.00012,38,NA
-112,stock,deadwood_OM,Mg ha-1,Dead wood (deadwood),"Total mass of aboveground dead wood, including standing dead wood and woody debris. ",deadwood_OM = deadwood_down_OM + deadwood_standing_OM,1,1,0,(min.diameter),(min.length),233,0,172.7,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
-113,stock,deadwood_C,Mg C ha-1,Dead wood (deadwood),"Total carbon in aboveground dead wood, including standing dead wood and woody debris. ",deadwood_C = deadwood_down_C + deadwood_standing_C,1,1,0,(min.diameter),(min.length),201,0,234.5,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
-114,stock,deadwood_standing_OM,Mg ha-1,Dead wood: standing (deadwood_standing),Total mass of aboveground standing dead wood (snags).,NA,1,1,0,NA,NA,90,0,351,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
-115,stock,deadwood_standing_C,Mg C ha-1,Dead wood: standing (deadwood_standing),Total carbon in aboveground standing dead wood (snags).,NA,1,1,0,NA,NA,62,0.01,103.7,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
-116,stock,deadwood_down_OM,Mg ha-1,Dead wood: fallen (deadwood_down),Total mass of downed dead wood (coarse and sometimes fine woody debris). ,NA,0,0,0,(min.diameter),(min.length),285,0,164,"Covariates depend on methodology. Include min.diameter, min.length. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
-117,stock,deadwood_down_C,Mg C ha-1,Dead wood: fallen (deadwood_down),Total carbon in downed dead wood (coarse and sometimes fine woody debris). ,NA,0,0,0,(min.diameter),(min.length),152,0,126.65,"Covariates depend on methodology. Include min.diameter, min.length. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
-118,stock,organic.layer_OM,Mg ha-1,"Organic Layer, including litter and entire O horizon (organic.layer)","Mass of litter/ organic layer/ forest floor, including entire O horizon",NA,0,0,0,max.diameter,NA,378,0,205.5,Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
-119,stock,organic.layer_C,Mg C ha-1,"Organic Layer, including litter and entire O horizon (organic.layer)","Mass of litter/ organic layer/ forest floor, including entire O horizon",NA,0,0,0,max.diameter,NA,660,0,328.75,Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
-120,stock,soil_OM,Mg ha-1,Soil Organic Matter (soil_OM),Soil organic matter to specified depth in mineral soil.,NA,0,0,1,NA,NA,17,2.6,170,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
-121,stock,soil_C,Mg C ha-1,Soil Organic Carbon (soil_C),Soil organic carbon to specified depth in mineral soil.,NA,0,0,1,NA,NA,677,0.4,1641,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
-122,secondary,stand.density,n ha-1,Stand density,,NA,0,1,0,stem.level,NA,0,-,-,NA
-123,secondary,LAI,m2 leaf m-2 ground,LAI: leaf area index (m2/m2),,NA,0,0,0,NA,NA,632,0,27.8025,NA
-124,secondary,leaf_pC,%,Leaf Percent C,,NA,0,0,0,NA,NA,13,44.8,51.3,NA
-125,secondary,leaf_C2N,ratio,C:N ratio in leaves,,NA,0,0,0,NA,NA,44,19.6,59.19,NA
-126,secondary,leaf_pN,%,Leaf Percent Nitrogen,,NA,0,0,0,NA,NA,29,0.85,4.09,NA
-127,secondary,foliage_pN,Mg ha-1,Accumulation of foliage N of stand,,NA,0,0,0,NA,NA,22,0.0148,0.068,NA
-128,secondary,leaf_pCa,%,Foliar calcium concentration,,NA,0,0,0,NA,NA,13,0.34,1.01,NA
-129,secondary,leaf_pK,%,Foliar K concentration,,NA,0,0,0,NA,NA,13,0.35,1.34,NA
-130,secondary,leaf_pMg,%,Foliar magnesium concentration,,NA,0,0,0,NA,NA,13,0.09,0.49,NA
-131,secondary,leaf_pP,%,Foliar P concentration,,NA,0,0,0,NA,NA,13,0.14,4.09,NA
-132,secondary,stem_pC,%,C concentration in stems,,NA,0,0,0,NA,NA,9,47.8,51.3,NA
-133,secondary,stem_pN,%,Nitrogen in stem,,NA,0,0,0,NA,NA,22,0.12,1.26,NA
-134,secondary,root_pN,%,Percent N in belowground live tissue,,NA,0,0,0,NA,NA,12,0.24,1.08,NA
-135,secondary,root_pC,%,Percent C in belowground live tissue,,NA,0,0,0,NA,NA,9,37.8,47.5,NA
-136,secondary,soil_pC,%,Percent soil carbon content,,NA,0,0,1,NA,NA,4,0.65,7.4,NA
-137,secondary,soil_C2N,ratio,C:N ratio in soil,,NA,0,0,1,NA,NA,363,2.7,47.4,NA
-138,secondary,N.mineralization,Kg N ha-1 yr-1,Net N mineralization,,NA,NA,NA,NA,NA,NA,43,0.67,142.36,NA
-139,covariates,max.diameter,cm,"Maximum diameter of tree part being measured (stem, woody debris)",,NA,NA,NA,NA,NA,NA,150,1,10,NA
-140,covariates,min.diameter,cm,"Minimum diameter of tree part being measured (stem, woody debris)",,NA,NA,NA,NA,NA,NA,407,0,10,NA
-141,covariates,max.diameter_branch,cm,Maximum branch diameter,,NA,NA,NA,NA,NA,NA,6,10,10,NA
-142,covariates,min.diameter_branch,cm,Minimum branch diameter,,NA,NA,NA,NA,NA,NA,2,1,2,NA
-143,covariates,max.diameter_twig,cm,Maximum twig diameter,,NA,NA,NA,NA,NA,NA,33,0.5,3.5,NA
-144,covariates,max.diameter_root,mm,Maximum root diameter,,NA,NA,NA,NA,NA,NA,171,1,30,NA
-145,covariates,min.diameter_root,mm,Minimum root diameter,,NA,NA,NA,NA,NA,NA,212,0,10,NA
-146,covariates,min.diameter_liana,cm,Minimum diameter of lianas censused,,NA,NA,NA,NA,NA,NA,25,1,10,NA
-147,covariates,min.height,cm,Minimum height,,NA,NA,NA,NA,NA,NA,256,0,130,NA
-148,covariates,min.length,cm,Minimum length,,NA,NA,NA,NA,NA,NA,72,0,100,NA
-149,covariates,u.star,m s-1,Friction velocity,,NA,NA,NA,NA,NA,NA,351,0,0.5,NA
-150,covariates,stem.level,NA,"Indicates whether the variable is computed at the individual tree (0; e.g., only counts mortality if all stems of a multi-stemmed individual die) or stem (1; e.g., counts stem mortality when the individual tree remains alive) level.",,NA,NA,NA,NA,NA,NA,28,0,1,NA
-151,covariates,include.recruitment,NA,Indicates whether recruitment is counted as part of ANPP_woody_stem (0-no; 1-yes),,NA,NA,NA,NA,NA,NA,60,0,1,"Including recruitment in NPP estimates overestimates contributions of small stems, which have been growing for years before entering a tree census."
+92,increment,delta.litter_OM,Mg ha-1,Litter / OL soil layer increment (delta.litter),"Net change in mass of litter, or relatively undecomposed plant material (OL soil layer).",NA,0,0,0,max.diameter,NA,,,,Subset of organic.layer. Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
+93,increment,delta.litter_C,Mg C ha-1,Litter / OL soil layer increment (delta.litter),"Net change in C in litter, or relatively undecomposed plant material (OL soil layer).",NA,0,0,0,max.diameter,NA,,,,Subset of organic.layer. Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
+94,increment,delta.soil_OM,Mg ha-1 yr-1,Soil Organic Matter increment (delta.soil_OM),Net change in soil organic matter to specified depth in mineral soil.,,0,0,1,NA,NA,,,,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
+95,increment,delta.soil_C,Mg C ha-1 yr-1,Soil Organic Carbon increment (soil_C),Net change in soil organic carbon to specified depth in mineral soil.,,0,0,1,NA,NA,,,,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
+96,stock,total.ecosystem_C,Mg C ha-1,"Total Ecosystem C stock, soil included (delta.total.ecosystem_C)","Total ecosystem C stock, including total biomass, deadwood, organic layer, and soil organic C",total.ecosystem_C = biomass_C + deadwood_C + organic.layer_C + soil_C,1,1,1,NA,NA,65,20.6,488,NA
+97,stock,total.ecosystem_2_C,Mg C ha-1,"Total Ecosystem C stock, soil excluded (total.ecosystem_2_C)","Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",total.ecosystem_2_C = biomass_C + deadwood_C + organic.layer_C ,1,1,1,NA,NA,64,4.9,399,NA
+98,stock,biomass_OM,Mg ha-1,Biomass (biomass),Total live biomass (above and below-ground).,biomass_OM = biomass_ag_OM + biomass_root_OM,1,1,1,NA,NA,261,0,568.172,NA
+99,stock,biomass_C,Mg C ha-1,Biomass (biomass),Total carbon in live biomass (above and below-ground).,biomass_C = biomass_ag_C + biomass_root_C,1,1,1,NA,NA,833,0,744.53,NA
+100,stock,biomass_ag_OM,Mg ha-1,Aboveground Biomass (biomass_ag),Total live aboveground live biomass.,biomass_ag_OM = biomass_ag_woody_OM + biomass_ag_foliage_OM,1,1,0,NA,NA,7509,0,1533,NA
+101,stock,biomass_ag_C,Mg C ha-1,Aboveground Biomass (biomass_ag),Total carbon in live aboveground biomass.,biomass_ag_C = biomass_ag_woody_C + biomass_ag_foliage_C,1,1,0,NA,NA,1509,0,1053,NA
+102,stock,biomass_ag_woody_OM,Mg ha-1,Aboveground Biomass: woody component (biomass_ag_woody),Total aboveground woody (stem + branch) biomass,NA,1,1,0,NA,NA,213,0,693.7,NA
+103,stock,biomass_ag_woody_C,Mg C ha-1,Aboveground Biomass: woody component (biomass_ag_woody),Total carbon in aboveground woody (stem + branch) biomass,NA,1,1,0,NA,NA,247,0,640.35,NA
+104,stock,biomass_ag_foliage_OM,Mg ha-1,Aboveground Biomass: foliage component (biomass_ag_foliage),Total foliage biomass,NA,1,1,0,NA,NA,336,0.009,35,NA
+105,stock,biomass_ag_foliage_C,Mg C ha-1,Aboveground Biomass: foliage component (biomass_ag_foliage),Total carbon in foliage biomass,NA,1,1,0,NA,NA,236,0,19.23,NA
+106,stock,biomass_ag_understory_OM,Mg ha-1,Aboveground Biomass: understory component (biomass_ag_understory),Total understory biomass.,NA,0,0,0,max.height  ,max.diameter,313,0,54.4,NA
+107,stock,biomass_ag_understory_C,Mg C ha-1,Aboveground Biomass: understory component (biomass_ag_understory),Total carbon in understory biomass.,NA,0,0,0,max.height  ,max.diameter,96,0,19.5,NA
+108,stock,biomass_root_OM,Mg ha-1,Biomass: root component (biomass_root),Total root biomass.,biomass_root_OM = biomass_root_coarse_OM + biomass_root_fine_OM,1,1,1,min.diameter_root,NA,3673,0,688,NA
+109,stock,biomass_root_C,Mg C ha-1,Biomass: root component (biomass_root),Total carbon in root biomass,biomass_root_C = biomass_root_coarse_C + biomass_root_fine_C,1,1,1,min.diameter_root,NA,970,0,181.63,NA
+110,stock,biomass_root_coarse_OM,Mg ha-1,Biomass: coarse root component (biomass_root_coarse),Total coarse root biomass. Typical size cutoff (min.diameter_root) is 1-2 mm diameter.,NA,1,1,0,min.diameter_root,NA,166,0.03,148,NA
+111,stock,biomass_root_coarse_C,Mg C ha-1,Biomass: coarse root component (biomass_root_coarse),Total carbon in coarse root biomass. Typical size cutoff (min.diameter_root) is 1-2 mm diameter.,NA,1,1,0,min.diameter_root,NA,433,0,593.28,NA
+112,stock,biomass_root_fine_OM,Mg ha-1,Biomass: fine root component (biomass_root_fine),Total fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter.,NA,0,0,1,min.diameter_root,max.diameter_root,254,0.005,39.8,NA
+113,stock,biomass_root_fine_C,Mg C ha-1,Biomass: fine root component (biomass_root_fine),Total carbon in fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter.,NA,0,0,1,min.diameter_root,max.diameter_root,677,0.00012,38,NA
+114,stock,deadwood_OM,Mg ha-1,Dead wood (deadwood),"Total mass of aboveground dead wood, including standing dead wood and woody debris. ",deadwood_OM = deadwood_down_OM + deadwood_standing_OM,1,1,0,(min.diameter),(min.length),233,0,172.7,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
+115,stock,deadwood_C,Mg C ha-1,Dead wood (deadwood),"Total carbon in aboveground dead wood, including standing dead wood and woody debris. ",deadwood_C = deadwood_down_C + deadwood_standing_C,1,1,0,(min.diameter),(min.length),201,0,234.5,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
+116,stock,deadwood_standing_OM,Mg ha-1,Dead wood: standing (deadwood_standing),Total mass of aboveground standing dead wood (snags).,NA,1,1,0,NA,NA,90,0,351,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
+117,stock,deadwood_standing_C,Mg C ha-1,Dead wood: standing (deadwood_standing),Total carbon in aboveground standing dead wood (snags).,NA,1,1,0,NA,NA,62,0.01,103.7,"Covariates depend on methodology. Include min.diameter, min.length, allometric.equation."
+118,stock,deadwood_down_OM,Mg ha-1,Dead wood: fallen (deadwood_down),Total mass of downed dead wood (coarse and sometimes fine woody debris). ,NA,0,0,0,(min.diameter),(min.length),285,0,164,"Covariates depend on methodology. Include min.diameter, min.length. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
+119,stock,deadwood_down_C,Mg C ha-1,Dead wood: fallen (deadwood_down),Total carbon in downed dead wood (coarse and sometimes fine woody debris). ,NA,0,0,0,(min.diameter),(min.length),152,0,126.65,"Covariates depend on methodology. Include min.diameter, min.length. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm."
+120,stock,organic.layer_OM,Mg ha-1,"Organic Layer, including litter and entire O horizon (organic.layer)","Mass of litter/ organic layer/ forest floor, including entire O horizon",NA,0,0,0,max.diameter,NA,378,0,205.5,Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
+121,stock,organic.layer_C,Mg C ha-1,"Organic Layer, including litter and entire O horizon (organic.layer)","Mass of litter/ organic layer/ forest floor, including entire O horizon",NA,0,0,0,max.diameter,NA,660,0,328.75,Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
+122,stock,litter_OM,Mg ha-1,Litter / OL soil layer  (litter),"Mass of litter, or relatively undecomposed plant material (OL soil layer).",NA,0,0,0,max.diameter,NA,,,,Subset of organic.layer. Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
+123,stock,litter_C,Mg C ha-1,Litter / OL soil layer  (litter),"C in litter, or relatively undecomposed plant material (OL soil layer).",NA,0,0,0,max.diameter,NA,,,,Subset of organic.layer. Specify the exact components included in notes or methods. Recommended size threshold for distinguising dead wood from litter/ organic layer is diameter = 10cm.
+124,stock,soil_OM,Mg ha-1,Soil Organic Matter (soil_OM),Soil organic matter to specified depth in mineral soil.,NA,0,0,1,NA,NA,17,2.6,170,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
+125,stock,soil_C,Mg C ha-1,Soil Organic Carbon (soil_C),Soil organic carbon to specified depth in mineral soil.,NA,0,0,1,NA,NA,677,0.4,1641,depth refers to depth in mineral soil. 0 indicates above mineral soil (O-horizon)
+126,secondary,stand.density,n ha-1,Stand density,,NA,0,1,0,stem.level,NA,0,-,-,NA
+127,secondary,LAI,m2 leaf m-2 ground,LAI: leaf area index (m2/m2),,NA,0,0,0,NA,NA,632,0,27.8025,NA
+128,secondary,leaf_pC,%,Leaf Percent C,,NA,0,0,0,NA,NA,13,44.8,51.3,NA
+129,secondary,leaf_C2N,ratio,C:N ratio in leaves,,NA,0,0,0,NA,NA,44,19.6,59.19,NA
+130,secondary,leaf_pN,%,Leaf Percent Nitrogen,,NA,0,0,0,NA,NA,29,0.85,4.09,NA
+131,secondary,foliage_pN,Mg ha-1,Accumulation of foliage N of stand,,NA,0,0,0,NA,NA,22,0.0148,0.068,NA
+132,secondary,leaf_pCa,%,Foliar calcium concentration,,NA,0,0,0,NA,NA,13,0.34,1.01,NA
+133,secondary,leaf_pK,%,Foliar K concentration,,NA,0,0,0,NA,NA,13,0.35,1.34,NA
+134,secondary,leaf_pMg,%,Foliar magnesium concentration,,NA,0,0,0,NA,NA,13,0.09,0.49,NA
+135,secondary,leaf_pP,%,Foliar P concentration,,NA,0,0,0,NA,NA,13,0.14,4.09,NA
+136,secondary,stem_pC,%,C concentration in stems,,NA,0,0,0,NA,NA,9,47.8,51.3,NA
+137,secondary,stem_pN,%,Nitrogen in stem,,NA,0,0,0,NA,NA,22,0.12,1.26,NA
+138,secondary,root_pN,%,Percent N in belowground live tissue,,NA,0,0,0,NA,NA,12,0.24,1.08,NA
+139,secondary,root_pC,%,Percent C in belowground live tissue,,NA,0,0,0,NA,NA,9,37.8,47.5,NA
+140,secondary,soil_pC,%,Percent soil carbon content,,NA,0,0,1,NA,NA,4,0.65,7.4,NA
+141,secondary,soil_C2N,ratio,C:N ratio in soil,,NA,0,0,1,NA,NA,363,2.7,47.4,NA
+142,secondary,N.mineralization,Kg N ha-1 yr-1,Net N mineralization,,NA,NA,NA,NA,NA,NA,43,0.67,142.36,NA
+143,covariates,max.diameter,cm,"Maximum diameter of tree part being measured (stem, woody debris)",,NA,NA,NA,NA,NA,NA,150,1,10,NA
+144,covariates,min.diameter,cm,"Minimum diameter of tree part being measured (stem, woody debris)",,NA,NA,NA,NA,NA,NA,407,0,10,NA
+145,covariates,max.diameter_branch,cm,Maximum branch diameter,,NA,NA,NA,NA,NA,NA,6,10,10,NA
+146,covariates,min.diameter_branch,cm,Minimum branch diameter,,NA,NA,NA,NA,NA,NA,2,1,2,NA
+147,covariates,max.diameter_twig,cm,Maximum twig diameter,,NA,NA,NA,NA,NA,NA,33,0.5,3.5,NA
+148,covariates,max.diameter_root,mm,Maximum root diameter,,NA,NA,NA,NA,NA,NA,171,1,30,NA
+149,covariates,min.diameter_root,mm,Minimum root diameter,,NA,NA,NA,NA,NA,NA,212,0,10,NA
+150,covariates,min.diameter_liana,cm,Minimum diameter of lianas censused,,NA,NA,NA,NA,NA,NA,25,1,10,NA
+151,covariates,min.height,cm,Minimum height,,NA,NA,NA,NA,NA,NA,256,0,130,NA
+152,covariates,min.length,cm,Minimum length,,NA,NA,NA,NA,NA,NA,72,0,100,NA
+153,covariates,u.star,m s-1,Friction velocity,,NA,NA,NA,NA,NA,NA,351,0,0.5,NA
+154,covariates,stem.level,NA,"Indicates whether the variable is computed at the individual tree (0; e.g., only counts mortality if all stems of a multi-stemmed individual die) or stem (1; e.g., counts stem mortality when the individual tree remains alive) level.",,NA,NA,NA,NA,NA,NA,28,0,1,NA
+155,covariates,include.recruitment,NA,Indicates whether recruitment is counted as part of ANPP_woody_stem (0-no; 1-yes),,NA,NA,NA,NA,NA,NA,60,0,1,"Including recruitment in NPP estimates overestimates contributions of small stems, which have been growing for years before entering a tree census."
