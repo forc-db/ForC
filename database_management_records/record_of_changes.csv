@@ -1,6 +1,6 @@
 ﻿Table,Column,Description,Changes,Motivation,Date changed
 Sites,coordinates.precision,"Precision of geographic coordinates, as reported by source or estimated from maps.",field added,allow identification of records with poor coordinate precision,21-Apr
-Measuremennts,data.location.within.source,Location of data within the source listed in citation.ID.,field added,"facilitate review, ensure traceability",21-Apr
+Measurements,data.location.within.source,Location of data within the source listed in citation.ID.,field added,"facilitate review, ensure traceability",21-Apr
 ,"sd, se, lower95%CI, upper 95%CI","Standard deviation, standard error, and lower and upper 95 percent confidence intvervals, respectively.",replaces `stat` and `stat.name`,cleaner format; ability to handle assymetrical 95 percent confidence intervals,21-Mar
 ,"mean.in.original.units, original.units",mean value and units presented in original publication,fields added,"provide IPCC with original units, reduce errors/improve reproducibility",21-Apr
 ,C.conversion.factor,Assumed/ measured C content of organic matter used to convert organic matter to C.,field added,"track units conversion, allow back-calculation of OM if conversion factor deemed inappropriate",21-Apr
