@@ -6,4 +6,8 @@ Measuremennts,data.location.within.source,Location of data within the source lis
 ,C.conversion.factor,Assumed/ measured C content of organic matter used to convert organic matter to C.,field added,"track units conversion, allow back-calculation of OM if conversion factor deemed inappropriate",21-Apr
 PFT,description,Definition of the pftcode at the community level. Differs from individual level in that properly describes mixed plant functional types.,field added,,21-Mar
 ,description.individual,Definition of the pftcode at the individual plant level. ,field name change (previously `description`),,21-Mar
-Citations,(several fields),,,,21-Mar
+Citations,citation.citation,Full citation. Most of these records are automatically generated in R based upon DOI lookup.,field added,field required by IPCC,21-Mar
+,citation.language,"Language of original publication, automatically generated based on the title and abstract, with some manual entries and corrections.",field added,field required by IPCC,21-Mar
+,citation.url,"URL of original publication, generally retrieved automatically via URL lookup.",field added,field required by IPCC,21-Mar
+,citation.abstract,"Abstract, generally retrieved automatically via DOI lookup.",field added,field required by IPCC,21-Mar
+,pdf.in.repository,Indicates whether pdf of original study has been retrieved and saved in ForC's reference repository,field added,housekeeping,21-Mar
