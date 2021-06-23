@@ -9,3 +9,4 @@ Column,Field,Description,Storage.Type,Variable.Codes,n,Min,Max
 8 / H,citation.url,URL of original publication.,character (string),-,,,
 9 / I,citation.abstract,"Abstract, generally retrieved automatically via DOI lookup.",character (string),-,,,
 10 / J,pdf.in.repository,Indicates whether pdf of original study has been retrieved and saved in ForC's reference repository: https://github.com/forc-db/References (private repository; contact database managers for access).,numeric (integer),1- true; 0 -false,,,
+11 / K,EFDB.ready,Indicates whether data have been checked for export to EFDB.,numeric (integer),1- true; 0 -false,,,
