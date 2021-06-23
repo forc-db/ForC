@@ -7,5 +7,5 @@ Column,Field,Description,Storage.Type,Variable.Codes,n,Min,Max
 6 / F,citation.citation,Full citation. Most of these records are automatically generated in R based upon DOI lookup.,character (string),-,,,
 7 / G,citation.language,"Language of original publication. This was generated based on the title and abstract (retrieved via DOI lookup), and may mis-identify some that have title and abstract in English, but main article in another language.",character (string),-,,,
 8 / H,citation.url,URL of original publication.,character (string),-,,,
-9 / I,citation.abstract,"Abstract, generally retrieved automatically via URL lookup.",character (string),-,,,
+9 / I,citation.abstract,"Abstract, generally retrieved automatically via DOI lookup.",character (string),-,,,
 10 / J,pdf.in.repository,Indicates whether pdf of original study has been retrieved and saved in ForC's reference repository: https://github.com/forc-db/References (private repository; contact database managers for access).,numeric (integer),1- true; 0 -false,,,
