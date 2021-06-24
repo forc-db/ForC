@@ -10,5 +10,6 @@ Citations,citation.citation,Full citation. Most of these records are automatical
 ,citation.language,"Language of original publication, automatically generated based on the title and abstract, with some manual entries and corrections.",field added,field required by IPCC,2021-Mar
 ,citation.url,"URL of original publication, generally retrieved automatically via URL lookup.",field added,field required by IPCC,2021-Mar
 ,citation.abstract,"Abstract, generally retrieved automatically via DOI lookup.",field added,field required by IPCC,2021-Mar
+,source.type,citation source type,field added,field required by IPCC,2021-Jun
 ,pdf.in.repository,Indicates whether pdf of original study has been retrieved and saved in ForC's reference repository,field added,housekeeping,2021-Mar
 ,EFDB.ready,Indicates whether data have been checked for export to EFDB.,field added,housekeeping,2021-Jun
