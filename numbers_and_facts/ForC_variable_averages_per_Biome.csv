@@ -48,7 +48,7 @@
 "Boreal conifer MATURE","flux","ANPP_stem",0.62,0.38,0.05,0.52,0.73,0.15,1.26,NA,8,8,7
 "Boreal conifer YOUNG","flux","ANPP_stem",0.81,0.68,0.1,0.62,1,0.13,2.02,NA,9,9,7
 "Tropical broadleaf MATURE","flux","ANPP_branch",0.82,0.51,0.05,0.72,0.91,0.08,1.63,NA,14,13,11
-"Tropical broadleaf YOUNG","flux","ANPP_branch",20.1,NA,NA,NA,NA,20.1,20.1,NA,5,1,1
+"Tropical broadleaf YOUNG","flux","ANPP_branch",0.2,NA,NA,NA,NA,0.2,0.2,NA,5,1,1
 "Temperate broadleaf MATURE","flux","ANPP_branch",0.45,0.13,0.01,0.42,0.48,0.22,0.61,NA,13,12,9
 "Temperate broadleaf YOUNG","flux","ANPP_branch",0.63,0.8,0.13,0.36,0.89,0.04,2.2,NA,15,7,6
 "Temperate conifer MATURE","flux","ANPP_branch",0.28,0.18,0.02,0.25,0.32,0.09,0.66,NA,12,12,10
