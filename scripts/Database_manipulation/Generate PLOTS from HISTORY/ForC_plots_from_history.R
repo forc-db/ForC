@@ -12,6 +12,7 @@ rm(list = ls())
 setwd(".")
 
 # Load libaries ####
+library(progress)
 
 # Load data ####
 HISTORY <- read.csv("data/ForC_history.csv", stringsAsFactors = F)
@@ -31,8 +32,11 @@ PLOTS_updated <- NULL
 
 establishements_to_revisit_by_hand <- NULL
 
+
+pb <- progress_bar$new(total = n_plots, format = "Generating plots: [:bar] :percent in :elapsed")
+
 for (n in 1:n_plots) {
-  print(n)
+  pb$tick()
   
   # index records for the plot
   index <- which(site_plot %in% plots_list[n]) # index for all records for the plot

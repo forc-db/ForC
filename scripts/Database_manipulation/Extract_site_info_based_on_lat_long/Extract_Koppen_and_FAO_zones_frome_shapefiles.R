@@ -61,8 +61,15 @@ View(cbind(SITES$sites.sitename, SITES$FAO.ecozone, new.FAO)[!apply(cbind(SITES$
 # Ignore water and keep what was there before
 new.FAO[new.FAO %in% "Water"] <- SITES$FAO.ecozone[new.FAO %in% "Water"]
 
+
 # Ignore NA and keep what was there before
 new.FAO[is.na(new.FAO)] <- SITES$FAO.ecozone[is.na(new.FAO)]
+
+
+# Ignore Tropical rainforest and keep Tropical mountain system for site "La Fortuna Forest"
+
+new.FAO[new.FAO %in% "Tropical rainforest" & grepl("La Fortuna Forest", SITES$sites.sitename)] <- SITES$FAO.ecozone[new.FAO %in% "Tropical rainforest" & grepl("La Fortuna Forest", SITES$sites.sitename)]
+
 
 
 # Double check other differences
