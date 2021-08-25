@@ -12,3 +12,4 @@ Imports:
   readr
 URL: https://github.com/forc-db/ForC
 BugReports: https://github.com/forc-db/ForC/issues
+Config/testthat/edition: 3
