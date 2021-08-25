@@ -21,3 +21,8 @@ For an overview of the database, please see the [ForC database website](https://
 
 *Database publications* are listed in [ForC_publications.csv](https://github.com/forc-db/ForC/blob/master/ForC_publications.csv). We ask that any authors using the database add resulting publications to this table.
 
+
+
+[![There_is_no_errors to fix_:-)](https://github.com/forc-db/ForC/blob/master/error_reports/errors.png)](https://github.com/forc-db/ForC/tree/master/error_reports)
+
+[![There_is_no_warnings_:-)](https://github.com/forc-db/ForC/blob/master/warning_reports/warnings.png)](https://github.com/forc-db/ForC/tree/master/warning_reports)
