@@ -1043,6 +1043,8 @@ if(length(variable.not.within.range) > 0) cat("See variable.not.within.range")
 
 ## make a png with errors and warnings ####
 
+### errors
+
 filename <- file.path("error_reports/errors.png")
 if(length(err) > 0){
   err_message <- paste("ERRORS TO FIX:\n",  paste(err, collapse = "\n"), "\n\n[CLICK HERE TO SEE]")
@@ -1059,6 +1061,8 @@ if(length(err) > 0){
   }
 
 
+
+### warnings
 if(length(warn) > 0){
   
   filename <- file.path("warning_reports/all_warnings.png")
