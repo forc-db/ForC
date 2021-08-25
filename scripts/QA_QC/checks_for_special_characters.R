@@ -96,7 +96,7 @@ View(double.chck.char.changes)
 # write.csv(HISTORY, "data/ForC_history.csv", row.names = F)
 # write.csv(METHODOLOGY, "data/ForC_methodology.csv", row.names = F)
 # write.csv(ALLOMETRY, "data/ForC_allometry.csv", row.names = F)
-# write.csv(CITATIONS, "data/ForC_citations.csv", row.names = F, fileEncoding =  "UTF-8")
+# write.csv(CITATIONS, "data/ForC_citations.csv", row.names = F, fileEncoding =  "UTF-8", quote = F)
 
 # (A <- sort(unique(double.chck.char.changes$after)))
 # i = 72
