@@ -91,7 +91,7 @@ View(double.chck.char.changes)
 
 # save to fix special characters
 # 
-# write.csv(MEASUREMENTS, "data/ForC_measurements.csv", row.names = F,)
+# write.csv(MEASUREMENTS, "data/ForC_measurements.csv", row.names = F)
 # write.csv(SITES, "data/ForC_sites.csv", row.names = F)
 # write.csv(HISTORY, "data/ForC_history.csv", row.names = F)
 # write.csv(METHODOLOGY, "data/ForC_methodology.csv", row.names = F)
