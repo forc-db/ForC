@@ -11,7 +11,7 @@
 #          - ForC ALLOMETRY table and metadata
 # outputs: flagged issues
 # Developped by: BBL August 2017 and continued by Valentine Herrmann ( HerrmannV@si.edu) in December 2017
-# R version 4.0.3 (2020-10-10)
+# R version 4.0.3 (2020-10-10) 
 ######################################################
 
 
