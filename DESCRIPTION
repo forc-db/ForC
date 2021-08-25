@@ -7,9 +7,7 @@ Authors@R: c(
   person(given = c("Valentine"), family = "Herrmann", role = c("aut"), email = "HerrmannV@si.edu", comment = c(ORCID = "0000-0002-4519-481X")))
 Depends: R (>= 4.0.0)
 Imports: 
-  testthat,
   dplyr,
   readr
 URL: https://github.com/forc-db/ForC
 BugReports: https://github.com/forc-db/ForC/issues
-Config/testthat/edition: 3
