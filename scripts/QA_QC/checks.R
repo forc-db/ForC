@@ -11,7 +11,7 @@
 #          - ForC ALLOMETRY table and metadata
 # outputs: flagged issues
 # Developped by: BBL August 2017 and continued by Valentine Herrmann ( HerrmannV@si.edu) in December 2017
-# R version 3.4.2
+# R version 4.0.3 (2020-10-10)
 ######################################################
 
 
@@ -55,21 +55,38 @@ METHODOLOGY_meta   <- read.csv("metadata/methodology_metadata.csv", stringsAsFac
 ALLOMETRY_meta     <- read.csv("metadata/allometry_metadata.csv", stringsAsFactors = F)
 
 
+# ===== prepare messages ==== ####
+warn <- NULL
+err <- NULL
+
 # ===== MEASUREMENTS checks ==== ####
 
 # unique measurement ID:
 
+if(sum(duplicated(MEASUREMENTS$measurement.ID)) > 0) err <- c(err, paste("there are", sum(duplicated(MEASUREMENTS$measurement.ID)), "measurement.ID that are repeated"))
 cat(paste("there are", sum(duplicated(MEASUREMENTS$measurement.ID)), "measurement.ID that are repeated"))
 # View(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% MEASUREMENTS$measurement.ID[duplicated(MEASUREMENTS$measurement.ID)],])
 
 
-# For each site-plot combination in MEASUREMENTS, there is a corresponding site-plot record in PLOTS
+# For each site-plot combination in MEASUREMENTS, there is a corresponding site-plot record in HISTORY
 MEASUREMENTS %>%
-  anti_join(PLOTS, by = c("sites.sitename", "plot.name")) %>%
+  anti_join(HISTORY, by = c("sites.sitename", "plot.name")) %>%
   distinct(measurement.ID, sites.sitename, plot.name) ->
-  m_no_p
-cat("There are", nrow(m_no_p), "measurements with no corresponding plot record\n")
-if(nrow(m_no_p)) message("See `m_no_p`")
+  m_no_h
+
+look_name <- "m_no_h"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "measurements with no corresponding history record\n")
+cat(say)
+filename <- "QA_QC/error_reports/meas_with_no_history_record.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
 
 
 # For each site in MEASUREMENTS, there is a corresponding site record in SITES
@@ -77,8 +94,21 @@ MEASUREMENTS %>%
   anti_join(SITES, by = c("sites.sitename")) %>%
   distinct(measurement.ID, sites.sitename) ->
   m_no_s
-cat("There are", nrow(m_no_s), "measurements with no corresponding site in SITES record\n")
-if(nrow(m_no_s)) message("See `m_no_s`")
+
+
+look_name <- "m_no_s"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "measurements with no corresponding SITES record\n")
+cat(say)
+filename <- "QA_QC/error_reports/meas_with_no_SITES_record.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
 
 
 # All measurement PFTs should be defined
@@ -88,33 +118,140 @@ MEASUREMENTS %>%
   anti_join(PFT, by = c("dominant.veg" = "pftcode")) %>%
   distinct(measurement.ID, dominant.veg) ->
   m_no_pft
-cat("There are", nrow(m_no_pft), "measurement records with undefined PFTs\n")
-if(nrow(m_no_pft)) message("See `m_no_pft`")
 
-# All variables in MEASUREMENTS should be ID-ed in VARIABLES
-if(any(!unique(MEASUREMENTS$variable.name) %in% VARIABLES$variable.name)) {
-  message("There are variables not defined")
-  message("Check unique(MEASUREMENTS$variable.name)[!unique(MEASUREMENTS$variable.name)%in% VARIABLES$variable.name]")
+
+
+look_name <- "m_no_pft"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "measurements  with undefined PFTs\n")
+cat(say)
+filename <- "QA_QC/error_reports/meas_with_undefined_PFT.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
 }
 
 
 
 
-# For each covariate_# in MEASUREMENTS, there is a definition in VARIABLES
-if(!all(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variable.name] %in% na_codes)) warning("There are covariate_1 in measurements that are not defined in VARIABLES") #unique(na.omit(MEASUREMENTS$covariate_1)[!na.omit(MEASUREMENTS$covariate_1) %in% VARIABLES$variable.name])
+# All variables in MEASUREMENTS should be ID-ed in VARIABLES
 
-if(!all(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variable.name] %in% na_codes))warning("There are covariate_2 in measurements that are not defined in VARIABLES") # unique(na.omit(MEASUREMENTS$covariate_2)[!na.omit(MEASUREMENTS$covariate_2) %in% VARIABLES$variable.name])
+m_no_v <- unique(MEASUREMENTS[,"variable.name"][!MEASUREMENTS$variable.name%in% VARIABLES$variable.name,])
+
+
+
+look_name <- "m_no_v"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "variable.name in MEASUREMENT that are not defined in VARIABLES\n")
+cat(say)
+filename <- "QA_QC/error_reports/undefined_variables.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+
+
+
+
+# For each covariate_# in MEASUREMENTS, there is a definition in VARIABLES
+
+m_no_c1 <- unique(MEASUREMENTS[,"covariate_1"][!MEASUREMENTS$covariate_1 %in% VARIABLES$variable.name & !MEASUREMENTS$covariate_1 %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$covariate_1),])
+
+look_name <- "m_no_c1"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "There are covariate_1 in measurements that are not defined in VARIABLES\n")
+cat(say)
+filename <- "QA_QC/error_reports/undefined_covariate_1.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+m_no_c2 <- unique(MEASUREMENTS[,"covariate_2"][!MEASUREMENTS$covariate_1 %in% VARIABLES$variable.name & !MEASUREMENTS$covariate_2 %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$covariate_2),])
+
+look_name <- "m_no_c1"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "There are covariate_2 in measurements that are not defined in VARIABLES\n")
+cat(say)
+filename <- "QA_QC/error_reports/undefined_covariate_2.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+
 
 
 # For each allometry_1 and allometry_2 in MEASUREMENTS, there is an allometric equation in ALLOMETRIE
-if(!all(unique(na.omit(MEASUREMENTS$allometry_1)) [!unique(na.omit(MEASUREMENTS$allometry_1)) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_1.value in measurements that are not defined in ALLOMETRY") #
 
-if(!all(na.omit(MEASUREMENTS$allometry_2) [!na.omit(MEASUREMENTS$allometry_2) %in% ALLOMETRY$allometric.equation] %in% na_codes)) warning("There are coV_2.value in measurements that are not defined in ALLOMETRY")
+m_no_a1 <- unique(MEASUREMENTS[,"allometry_1"][!MEASUREMENTS$allometry_1 %in% VARIABLES$variable.name & !MEASUREMENTS$allometry_1 %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$allometry_1),])
+
+look_name <- "m_no_a1"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "There are allometry_1 in measurements that are not defined in VARIABLES\n")
+cat(say)
+filename <- "QA_QC/error_reports/undefined_allometry_1.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+m_no_a2 <- unique(MEASUREMENTS[,"allometry_2"][!MEASUREMENTS$allometry_2 %in% VARIABLES$variable.name & !MEASUREMENTS$allometry_2 %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$allometry_2),])
+
+look_name <- "m_no_a2"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "There are allometry_2 in measurements that are not defined in VARIABLES\n")
+cat(say)
+filename <- "QA_QC/error_reports/undefined_allometry_2.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
 
 
 
 # For each citation_Id and allometry_2 in MEASUREMENTS, there is citation in CITATIONS
 if(!all(unique(na.omit(MEASUREMENTS$citation.ID)) [!unique(na.omit(MEASUREMENTS$citation.ID)) %in% CITATIONS$citation.ID] %in% na_codes)) warning("There are citation.ID in measurements that are not defined in CITATIONS") #unique(na.omit(MEASUREMENTS$citation.ID)) [!unique(na.omit(MEASUREMENTS$citation.ID)) %in% CITATIONS$citation.ID]
+
+
+m_no_citation <- unique(MEASUREMENTS[,"citation.ID"][!MEASUREMENTS$citation.ID %in% CITATIONS$citation.ID & !MEASUREMENTS$citation.ID %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$citation.ID),])
+
+look_name <- "m_no_citation"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "There are citation.ID in measurements that are not defined in CITATIONS\n")
+cat(say)
+filename <- "QA_QC/error_reports/undefined_citation.ID.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 
 
 # There should be no records in MEASUREMENTS that lack corresponding records in METHODOLOGY
@@ -125,6 +262,20 @@ MEASUREMENTS %>%
   m_no_m
 cat("There are", nrow(m_no_m), "measurement records with no corresponding methodology record\n")
 if(nrow(m_no_m)) message("See `m_no_m`")
+
+
+look_name <- "m_no_m"
+look <- get(look_name)
+say <- paste("There are", nrow(m_no_m), "measurement records with no corresponding methodology record\n")
+cat(say)
+filename <- "QA_QC/error_reports/undefined_methodology.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
 
 
 
@@ -138,6 +289,22 @@ SITES %>%
 cat("There are", nrow(s_no_p), "sites with no corresponding plot record\n")
 if(nrow(s_no_p)) message("See `s_no_p`")
 
+
+look_name <- "s_no_p"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "sites with no corresponding plot record\n")
+cat(say)
+filename <- "QA_QC/error_reports/sites_with_no_plots.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+
 # There are no sites in SITES that lack records in History
 SITES %>% 
   anti_join(HISTORY, by = c("sites.sitename")) %>% 
@@ -145,6 +312,22 @@ SITES %>%
   s_no_h
 cat("There are", nrow(s_no_h), "sites with no corresponding history record\n")
 if(nrow(s_no_h)) message("See `s_no_h`")
+
+
+look_name <- "s_no_h"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "sites with no corresponding history record\n")
+filename <- "QA_QC/error_reports/sites_with_no_history.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 
 # There are no sites in SITES that lack records in MEASUREMENTS
 SITES %>% 
@@ -154,16 +337,68 @@ SITES %>%
 cat("There are", nrow(s_no_m), "sites with no corresponding measurements record\n")
 if(nrow(s_no_m)) message("See `s_no_m`")
 
+
+look_name <- "s_no_m"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "sites with no corresponding measurements record\n")
+
+filename <- "QA_QC/error_reports/sites_with_no_measurements.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 # Sites should only be defined once
 if(any(duplicated(SITES$sites.sitename))) {
   message("There are duplicated sites.sitename in the SITES table!")  
 }
+
+dup_sites <- SITES[SITES$sites.sitename %in% SITES$sites.sitename[duplicated(SITES$sites.sitename)],]
+
+look_name <- "dup_sites"
+look <- get(look_name)
+say <- paste("There are duplicated sites.sitename in the SITES table\n")
+
+filename <- "QA_QC/error_reports/duplicated_sites.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 
 # View(SITES[SITES$sites.sitename %in% SITES$sites.sitename[duplicated(SITES$sites.sitename)], ])
 
 if(any(duplicated(SITES$site.ID))) {
   message("There are duplicated site.ID names in the SITES table!")  
 }
+
+dup_sitesID <- SITES[SITES$site.ID %in% SITES$site.ID[duplicated(SITES$site.ID)],]
+
+look_name <- "dup_sites"
+look <- get(look_name)
+say <- paste("There are duplicated site.ID in the SITES table\n")
+
+filename <- "QA_QC/error_reports/duplicated_siteIDs.csv"
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 
 # ===== HISTORY checks ==== ####
 
@@ -172,8 +407,21 @@ HISTORY %>%
   anti_join(MEASUREMENTS, by = c("sites.sitename")) %>% 
   distinct(history.ID, sites.sitename) ->
   h_no_m
-cat("There are", nrow(h_no_m), "history records with no corresponding measurements record\n")
-if(nrow(h_no_m)) message("See `h_no_m`")
+
+look_name <- "h_no_m"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "history records with no corresponding measurements record\n")
+filename <- "QA_QC/error_reports/History_with_no_meas.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
 
 
 # There are no sites in History that lack records in SITES
@@ -185,6 +433,21 @@ cat("There are", nrow(h_no_s), "history records with no corresponding sites reco
 if(nrow(h_no_s)) message("See `h_no_s`")
 
 
+
+
+look_name <- "h_no_s"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "history records with no corresponding sites record\n")
+filename <- "QA_QC/error_reports/History_with_no_sites.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
 
 
 
@@ -206,6 +469,23 @@ cat("There are", nrow(h_no_dist), "history records with undefined disturbance ca
 if(nrow(h_no_dist)) message("See `h_no_dist`") # it is okay if all "NAC"
 
 
+
+
+look_name <- "h_no_dist"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "history records with undefined disturbance category/type combinations\n")
+filename <- "QA_QC/error_reports/undefined_hist_cat_hist_type_combinations.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 # There are no records in HISTORY that lack corresponding records in PLOTS
 # (these can be identified based on whether the site-plot combination and the history.ID 
 # show up in PLOTS. see metadata to understand how history.ID works in PLOTS)
@@ -215,6 +495,21 @@ HISTORY %>%
   h_no_p
 cat("There are", nrow(h_no_p), "history records with no corresponding plot record\n")
 if(nrow(h_no_p)) message("See `h_no_p`")
+
+look_name <- "h_no_p"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "history records with  no corresponding plot record\n")
+filename <- "QA_QC/error_reports/History_with_no_plot_record.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
 
 
 # ===== PLOTS checks ==== ####
@@ -228,6 +523,22 @@ cat("There are", nrow(p_no_m), "plots with no corresponding measurement record\n
 if(nrow(p_no_m)) message("See `p_no_m`")
 
 
+
+
+look_name <- "p_no_m"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "history records with  no corresponding measurement record\n")
+filename <- "QA_QC/error_reports/History_with_no_measurement_record.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
 # For each site-plot combination in PLOTS, there should be at least one corresponding record in HISTORY
 PLOTS %>% 
   anti_join(HISTORY, by = c("sites.sitename", "plot.name")) %>% 
@@ -235,6 +546,22 @@ PLOTS %>%
   p_no_h
 cat("There are", nrow(p_no_h), "plots with no corresponding history record\n")
 if(nrow(p_no_h)) message("See `p_no_h`")
+
+
+
+look_name <- "p_no_h"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "history records with  no corresponding history record\n")
+filename <- "QA_QC/error_reports/History_with_no_history_record.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
 
 
 # For each site in PLOTS, there should be a corresponding record in SITES
@@ -246,6 +573,22 @@ cat("There are", nrow(p_no_s), "plots with no corresponding site record\n")
 if(nrow(p_no_s)) message("See `p_no_s`")
 
 
+
+look_name <- "p_no_s"
+look <- get(look_name)
+say <- paste("There are", nrow(look), "history records with  no corresponding site record\n")
+filename <- "QA_QC/error_reports/History_with_no_site_record.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 # ===== HISTTYPE checks ==== ####
 
 # Disturbance types should only be defined once
@@ -253,8 +596,44 @@ if(any(duplicated(paste(HISTTYPE$hist.cat, HISTTYPE$hist.type)))) {
   message("There are duplicated history category/types in the HISTTYPE table!")  
 }
 
+dup_histtype <- HISTTYPE[paste(HISTTYPE$hist.cat, HISTTYPE$hist.type) %in% paste(HISTTYPE$hist.cat, HISTTYPE$hist.type)[duplicated(paste(HISTTYPE$hist.cat, HISTTYPE$hist.type))],]
+
+look_name <- "dup_histtype"
+look <- get(look_name)
+say <- paste("There are duplicated history category/types in the HISTTYPE table\n")
+filename <- "QA_QC/error_reports/duplicated_history_category_types.csv"
+
+if(nrow(look) > 0) {
+  err <- c(err, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+
 # All hist.cat exist in HISTORY
 if(!all(gsub("\\(_prior\\)", "", HISTTYPE$hist.cat) %in% HISTORY$hist.cat)) warning("There are hist.cat in HISTTYPE that don't exist in HISTORY")
+
+
+unused_hist.cat <- HISTTYPE[!gsub("\\(_prior\\)", "", HISTTYPE$hist.cat) %in% HISTORY$hist.cat, ]
+
+look_name <- "unused_hist.cat"
+look <- get(look_name)
+say <- paste("There are hist.cat in HISTTYPE that don't exist in HISTORY\n")
+filename <- "QA_QC/warning_reports/unused_hist.cat.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
 
 
 # All hist.type exist in HISTORY
@@ -263,10 +642,46 @@ if(!all(HISTTYPE$hist.type2 %in% HISTORY$hist.type))  warning("There are hist.ty
 ")
 HISTTYPE$hist.type2[!HISTTYPE$hist.type2 %in% HISTORY$hist.type] # Leave Precipitation Diversion
 
+
+unused_hist.type2 <- HISTTYPE[!HISTTYPE$hist.type2 %in% HISTORY$hist.type, ]
+
+look_name <- "unused_hist.type2"
+look <- get(look_name)
+say <- paste("There are hist.type in HISTTYPE that don't exist in HISTORY table\n")
+filename <- "QA_QC/warning_reports/unused_hist.type2.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+
+
 # All hist.type exist in PLOTS
 if(!all(HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type)))) warning("There are hist.cat in HISTTYPE that don't exist in PLOTS table. SEE")
 
-HISTTYPE$hist.type[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type))] # keep for furture records
+
+unused_hist.cat <- HISTTYPE[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.type, PLOTS$distmrs.type, PLOTS$dist1.type, PLOTS$dist2.type)), ] # keep for furture records
+
+
+look_name <- "unused_hist.cat"
+look <- get(look_name)
+say <- paste("There are hist.cat in HISTTYPE that don't exist in PLOTS table\n")
+filename <- "QA_QC/warning_reports/unused_hist.cat.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
 
 
 
@@ -276,10 +691,53 @@ if(any(duplicated(PFT$pftcode))) {
   message("There are duplicated PFT codes in the PFT table!")  
 }
 
+
+dup_PFT <- PFT[PFT$pftcode %in% PFT$pftcode[duplicated(PFT$pftcode)], ] # keep for furture records
+
+
+look_name <- "dup_PFT"
+look <- get(look_name)
+say <- paste("There are duplicated PFT codes in the PFT table\n")
+filename <- "QA_QC/warning_reports/dup_PFT.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+
+
 # All pftcode are present in MEASUREMENTS table
 if(!all(PFT$pftcode %in% MEASUREMENTS$dominant.veg)) warning("There are pftcode in PFT that don't exist in MEASUREMENTS table. See PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg]
 ")
 PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg] # Leave "2VW"   "2GW"   "2FORB" "2LTR"  "2RF"   "2RB"
+
+
+
+unused_PFT <- PFT[!PFT$pftcode %in% MEASUREMENTS$dominant.veg, ] # Leave "2VW"   "2GW"   "2FORB" "2LTR"  "2RF"   "2RB"
+
+
+
+look_name <- "unused_PFT"
+look <- get(look_name)
+say <- paste("There are pftcode in PFT that don't exist in MEASUREMENTS table\n")
+filename <- "QA_QC/warning_reports/unused_PFT.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 
 
 # ===== METHODOLOGY checks ==== ####
@@ -287,6 +745,25 @@ PFT$pftcode[!PFT$pftcode %in% MEASUREMENTS$dominant.veg] # Leave "2VW"   "2GW"  
 
 # There should be no records in METHODOLOGY that lack corresponding records in MEASUREMENTS
 if(!all(METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID)) warning("There are method.ID in METHODOLOGY that don't exist in MEASUREMENTS table. See METHODOLOGY$method.ID[!METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID]")
+
+
+unused_method <- METHODOLOGY[!METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID, ]
+
+look_name <- "unused_method"
+look <- get(look_name)
+say <- paste("There are method.ID in METHODOLOGY that don't exist in MEASUREMENTS table\n")
+filename <- "QA_QC/warning_reports/unused_method.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
 
 
 # All variables in METHODOLOGY exist in VARIABLES --> not checking as names may change
@@ -302,6 +779,25 @@ if(any(!VARIABLES$variable.name %in% c(MEASUREMENTS$variable.name, MEASUREMENTS$
 }
 
 unique(VARIABLES$variable.name)[!unique(VARIABLES$variable.name)%in% c(MEASUREMENTS$variable.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2)] # Leave "NPP_4", "NPP_5", "NPP_understory", "NPP_woody", "ANPP_litterfall_2_C", "ANPP_litterfall_3_C"
+
+unused_variable <- unique(VARIABLES[!VARIABLES$variable.name%in% c(MEASUREMENTS$variable.name, MEASUREMENTS$covariate_1, MEASUREMENTS$covariate_2),])
+
+look_name <- "unused_variable"
+look <- get(look_name)
+say <- paste("here variables not used in MEASUREMENTS table\n")
+filename <- "QA_QC/warning_reports/unused_variable.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+
 
 # All variables in VARIABLES should exist in METHODOLOGY --> not checking as names may change
 
@@ -321,6 +817,22 @@ unique(ALLOMETRY$allometric.equation)[!unique(ALLOMETRY$allometric.equation) %in
 sort(unique(c(MEASUREMENTS$allometry_1, MEASUREMENTS$allometry_2)))
 
 
+unused_allo <- ALLOMETRY[!ALLOMETRY$allometric.equation %in% c(MEASUREMENTS$allometry_1, MEASUREMENTS$allometry_2), ] # Keep all
+
+
+look_name <- "unused_allo"
+look <- get(look_name)
+say <- paste("There allometric.equation not used in MEASUREMENTS table\n")
+filename <- "QA_QC/warning_reports/unused_allometry.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
 
 
 
@@ -396,17 +908,71 @@ for(i in 1:nrow(VARIABLES)){
 warning(paste("There is", nrow(mean.not.within.range), "measurements falling out of variable range"))
 if(nrow(mean.not.within.range) > 0) cat("See mean.not.within.range")
 
+
+look_name <- "mean.not.within.range"
+look <- get(look_name)
+say <- paste("There is", nrow(look), "measurements falling out of variable range")
+filename <- "QA_QC/warning_reports/mean.not.within.range.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+
+
 # View(mean.not.within.range)
 # View(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% mean.not.within.range$measurement.ID, ])
 
-cat(paste("There is", nrow(covariate_1.not.within.range), "covariate_1 value(s) falling out of variable range"))
-if(nrow(covariate_1.not.within.range) > 0) cat("See covariate_1.not.within.range")
+look_name <- "covariate_1.not.within.range"
+look <- get(look_name)
+say <- paste("There is", nrow(look), "covariate_1 value(s) falling out of variable range")
+filename <- "QA_QC/warning_reports/covariate_1.not.within.range.csv"
 
-cat(paste("There is", nrow(covariate_2.not.within.range), "covariate_2 value(s) falling out of variable range"))
-if(nrow(covariate_2.not.within.range) > 0) cat("See covariate_2.not.within.range")
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
 
-cat(paste("There is", nrow(Value.for.variables.without.range), "value(s) from a variable that has no defined range (this is probably the first record for that variable)"))
-if(nrow(Value.for.variables.without.range) > 0) cat("See Value.for.variables.without.range")
+
+
+look_name <- "covariate_2.not.within.range"
+look <- get(look_name)
+say <- paste("There is", nrow(look), "covariate_2 value(s) falling out of variable range")
+filename <- "QA_QC/warning_reports/covariate_2.not.within.range.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
+
+
+look_name <- "Value.for.variables.without.range"
+look <- get(look_name)
+say <- paste("There is", nrow(look), "value(s) from a variable that has no defined range (this is probably the first record for that variable)")
+filename <- "QA_QC/warning_reports/Value.for.variables.without.range.csv"
+
+if(nrow(look) > 0) {
+  warn <- c(warn, say)
+  cat(say)
+  message("See ", look_name)
+  write.csv(look, file = filename, row.names = F)
+} else {
+  if(file.exists(filename)) file.remove(filename)
+}
 
 
 # plot to trouble shoot ####
@@ -431,7 +997,7 @@ for( v in sort(unique(mean.not.within.range$variable.name))) {
 }
 
 
-file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
+# file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
 
 # ===== All tables numerical variables, check against range in corresponding matadata table ==== ####
 
@@ -472,4 +1038,55 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
 
 cat(paste("There is", length(variable.not.within.range), "table(s) with at least one variable value that is out of variable range."))
 if(length(variable.not.within.range) > 0) cat("See variable.not.within.range")
+
+
+
+## make a png with errors and warnings ####
+
+### errors
+
+filename <- file.path("QA_QC/error_reports/errors.png")
+if(length(err) > 0){
+  err_message <- paste("ERRORS TO FIX:\n",  paste(err, collapse = "\n"), "\n\n[CLICK HERE TO SEE]")
+  
+  
+  png(filename, width = 6, height = 0.5 + (0.3*length(err)), units = "in", res = 300)
+  par(mar = c(0,0,0,0))
+  plot(0,0, axes = F, xlab = "", ylab = "", type = "n")
+  text(0,0.1, err_message, col = "red", cex = 0.6, adj = c(.5,0.5))
+  dev.off()
+  
+  } else {
+    if(exists(filename))  file.remove(filename)
+  }
+
+
+
+### warnings
+if(length(warn) > 0){
+  
+  filename <- file.path("QA_QC/warning_reports/all_warnings.png")
+  filename1 <- file.path("QA_QC/warning_reports/warnings.png")
+  
+  
+  warn_message <- paste("WARNINGS:\n\n",  paste(warn, collapse = "\n"))
+  warn_message1 <- paste("There are WARNINGS\n\n[CLICK HERE TO SEE]")
+  
+  
+  png(filename, width = 6, height = 0.5 + (0.3*length(warn)), units = "in", res = 300)
+  par(mar = c(0,0,0,0))
+  plot(0,0, axes = F, xlab = "", ylab = "", type = "n")
+  text(0,0.1, warn_message, col = "red", cex = 0.6, adj = c(.5,0.5))
+  dev.off()
+  
+  png(filename1, width = 6, height = 0.5, units = "in", res = 300)
+  par(mar = c(0,0,0,0))
+  plot(0,0, axes = F, xlab = "", ylab = "", type = "n")
+  text(0,0.1, warn_message1, col = "red", cex = 0.6, adj = c(.5,0.5))
+  dev.off()
+  
+} else {
+  if(exists(filename))  file.remove(filename)
+}
+
 
