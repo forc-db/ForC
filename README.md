@@ -23,6 +23,6 @@ For an overview of the database, please see the [ForC database website](https://
 
 
 
-[![There_is_no_errors to fix_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/error_reports/errors.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/error_reports)
+[![There_is_no_errors to fix_:-)](https://github.com/forc-db/ForC/blob/master/error_reports/errors.png)](https://github.com/forc-db/ForC/tree/master/error_reports)
 
-[![There_is_no_warnings_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/warning_reports/warnings.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/warning_reports)
+[![There_is_no_warnings_:-)](https://github.com/forc-db/ForC/blob/master/warning_reports/warnings.png)](https://github.com/forc-db/ForC/tree/master/warning_reports)
