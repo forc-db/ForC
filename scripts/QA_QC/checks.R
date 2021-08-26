@@ -68,17 +68,17 @@ cat(paste("there are", sum(duplicated(MEASUREMENTS$measurement.ID)), "measuremen
 # View(MEASUREMENTS[MEASUREMENTS$measurement.ID %in% MEASUREMENTS$measurement.ID[duplicated(MEASUREMENTS$measurement.ID)],])
 
 
-# For each site-plot combination in MEASUREMENTS, there is a corresponding site-plot record in PLOTS
+# For each site-plot combination in MEASUREMENTS, there is a corresponding site-plot record in HISTORY
 MEASUREMENTS %>%
-  anti_join(PLOTS, by = c("sites.sitename", "plot.name")) %>%
+  anti_join(HISTORY, by = c("sites.sitename", "plot.name")) %>%
   distinct(measurement.ID, sites.sitename, plot.name) ->
-  m_no_p
+  m_no_h
 
-look_name <- "m_no_p"
+look_name <- "m_no_h"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "measurements with no corresponding plot record\n")
+say <- paste("There are", nrow(look), "measurements with no corresponding history record\n")
 cat(say)
-filename <- "error_reports/meas_with_no_plot_record.csv"
+filename <- "error_reports/meas_with_no_history_record.csv"
 
 if(nrow(look) > 0) {
   err <- c(err, say)
