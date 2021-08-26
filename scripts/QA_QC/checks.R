@@ -997,7 +997,7 @@ for( v in sort(unique(mean.not.within.range$variable.name))) {
 }
 
 
-file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
+# file.remove(list.files("scripts/QA_QC", full.names = T)[grepl("GRAPH",list.files("scripts/QA_QC"), ignore.case = F)])
 
 # ===== All tables numerical variables, check against range in corresponding matadata table ==== ####
 
