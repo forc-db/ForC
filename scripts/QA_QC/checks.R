@@ -167,7 +167,7 @@ m_no_c1 <- unique(MEASUREMENTS[,"covariate_1"][!MEASUREMENTS$covariate_1 %in% VA
 
 look_name <- "m_no_c1"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "There are covariate_1 in measurements that are not defined in VARIABLES\n")
+say <- paste("There are", nrow(look), "covariate_1 in measurements that are not defined in VARIABLES\n")
 cat(say)
 filename <- "QA_QC/error_reports/undefined_covariate_1.csv"
 if(nrow(look) > 0) {
@@ -182,7 +182,7 @@ m_no_c2 <- unique(MEASUREMENTS[,"covariate_2"][!MEASUREMENTS$covariate_1 %in% VA
 
 look_name <- "m_no_c1"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "There are covariate_2 in measurements that are not defined in VARIABLES\n")
+say <- paste("There are", nrow(look), "covariate_2 in measurements that are not defined in VARIABLES\n")
 cat(say)
 filename <- "QA_QC/error_reports/undefined_covariate_2.csv"
 if(nrow(look) > 0) {
@@ -203,7 +203,7 @@ m_no_a1 <- unique(MEASUREMENTS[,"allometry_1"][!MEASUREMENTS$allometry_1 %in% VA
 
 look_name <- "m_no_a1"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "There are allometry_1 in measurements that are not defined in VARIABLES\n")
+say <- paste("There are", nrow(look), "allometry_1 in measurements that are not defined in VARIABLES\n")
 cat(say)
 filename <- "QA_QC/error_reports/undefined_allometry_1.csv"
 if(nrow(look) > 0) {
@@ -218,7 +218,7 @@ m_no_a2 <- unique(MEASUREMENTS[,"allometry_2"][!MEASUREMENTS$allometry_2 %in% VA
 
 look_name <- "m_no_a2"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "There are allometry_2 in measurements that are not defined in VARIABLES\n")
+say <- paste("There are", nrow(look), "allometry_2 in measurements that are not defined in VARIABLES\n")
 cat(say)
 filename <- "QA_QC/error_reports/undefined_allometry_2.csv"
 if(nrow(look) > 0) {
@@ -240,7 +240,7 @@ m_no_citation <- unique(MEASUREMENTS[,"citation.ID"][!MEASUREMENTS$citation.ID %
 
 look_name <- "m_no_citation"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "There are citation.ID in measurements that are not defined in CITATIONS\n")
+say <- paste("There are", nrow(look), "citation.ID in measurements that are not defined in CITATIONS\n")
 cat(say)
 filename <- "QA_QC/error_reports/undefined_citation.ID.csv"
 if(nrow(look) > 0) {
@@ -622,7 +622,7 @@ unused_hist.cat <- HISTTYPE[!gsub("\\(_prior\\)", "", HISTTYPE$hist.cat) %in% HI
 
 look_name <- "unused_hist.cat"
 look <- get(look_name)
-say <- paste("There are hist.cat in HISTTYPE that don't exist in HISTORY\n")
+say <- paste("There are", nrow(look), "hist.cat in HISTTYPE that don't exist in HISTORY\n")
 filename <- "QA_QC/warning_reports/unused_hist.cat.csv"
 
 if(nrow(look) > 0) {
@@ -647,7 +647,7 @@ unused_hist.type2 <- HISTTYPE[!HISTTYPE$hist.type2 %in% HISTORY$hist.type, ]
 
 look_name <- "unused_hist.type2"
 look <- get(look_name)
-say <- paste("There are hist.type in HISTTYPE that don't exist in HISTORY table\n")
+say <- paste("There are", nrow(look), "hist.type in HISTTYPE that don't exist in HISTORY table\n")
 filename <- "QA_QC/warning_reports/unused_hist.type2.csv"
 
 if(nrow(look) > 0) {
@@ -671,7 +671,7 @@ unused_hist.cat <- HISTTYPE[!HISTTYPE$hist.type %in% unique(c(PLOTS$regrowth.typ
 
 look_name <- "unused_hist.cat"
 look <- get(look_name)
-say <- paste("There are hist.cat in HISTTYPE that don't exist in PLOTS table\n")
+say <- paste("There are", nrow(look), "hist.cat in HISTTYPE that don't exist in PLOTS table\n")
 filename <- "QA_QC/warning_reports/unused_hist.cat.csv"
 
 if(nrow(look) > 0) {
@@ -725,7 +725,7 @@ unused_PFT <- PFT[!PFT$pftcode %in% MEASUREMENTS$dominant.veg, ] # Leave "2VW"  
 
 look_name <- "unused_PFT"
 look <- get(look_name)
-say <- paste("There are pftcode in PFT that don't exist in MEASUREMENTS table\n")
+say <- paste("There are", nrow(look), "pftcode in PFT that don't exist in MEASUREMENTS table\n")
 filename <- "QA_QC/warning_reports/unused_PFT.csv"
 
 if(nrow(look) > 0) {
@@ -751,7 +751,7 @@ unused_method <- METHODOLOGY[!METHODOLOGY$method.ID %in% MEASUREMENTS$method.ID,
 
 look_name <- "unused_method"
 look <- get(look_name)
-say <- paste("There are method.ID in METHODOLOGY that don't exist in MEASUREMENTS table\n")
+say <- paste("There are", nrow(look), "method.ID in METHODOLOGY that don't exist in MEASUREMENTS table\n")
 filename <- "QA_QC/warning_reports/unused_method.csv"
 
 if(nrow(look) > 0) {
