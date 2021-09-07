@@ -154,7 +154,9 @@ variable.ID,variable.type,variable.name,units,description,extended.description,e
 153,covariates,min.diameter_root,mm,Minimum root diameter,,NA,NA,NA,NA,NA,NA,212,0,10,NA
 154,covariates,min.diameter_liana,cm,Minimum diameter of lianas censused,,NA,NA,NA,NA,NA,NA,25,1,10,NA
 155,covariates,min.height,cm,Minimum height,,NA,NA,NA,NA,NA,NA,256,0,130,NA
-156,covariates,min.length,cm,Minimum length,,NA,NA,NA,NA,NA,NA,72,0,100,NA
-157,covariates,u.star,m s-1,Friction velocity,,NA,NA,NA,NA,NA,NA,351,0,0.5,NA
-158,covariates,stem.level,NA,"Indicates whether the variable is computed at the individual tree (0; e.g., only counts mortality if all stems of a multi-stemmed individual die) or stem (1; e.g., counts stem mortality when the individual tree remains alive) level.",,NA,NA,NA,NA,NA,NA,28,0,1,NA
-159,covariates,include.recruitment,NA,Indicates whether recruitment is counted as part of ANPP_woody_stem (0-no; 1-yes),,NA,NA,NA,NA,NA,NA,60,0,1,"Including recruitment in NPP estimates overestimates contributions of small stems, which have been growing for years before entering a tree census."
+156,covariates,max.height,cm,Maximum height,,NA,NA,NA,NA,NA,NA,,,,NA
+157,covariates,min.length,cm,Minimum length,,NA,NA,NA,NA,NA,NA,72,0,100,NA
+158,covariates,min.depth,cm,Minimum depth,,NA,NA,NA,NA,NA,NA,,,,"Superfluous at present (always = 0, as ForC does not currently contain any depth increments starting below the soil surface)."
+159,covariates,u.star,m s-1,Friction velocity,,NA,NA,NA,NA,NA,NA,351,0,0.5,NA
+160,covariates,stem.level,NA,"Indicates whether the variable is computed at the individual tree (0; e.g., only counts mortality if all stems of a multi-stemmed individual die) or stem (1; e.g., counts stem mortality when the individual tree remains alive) level.",,NA,NA,NA,NA,NA,NA,28,0,1,NA
+161,covariates,include.recruitment,NA,Indicates whether recruitment is counted as part of ANPP_woody_stem (0-no; 1-yes),,NA,NA,NA,NA,NA,NA,60,0,1,"Including recruitment in NPP estimates overestimates contributions of small stems, which have been growing for years before entering a tree census."
