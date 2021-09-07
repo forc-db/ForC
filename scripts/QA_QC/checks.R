@@ -1057,7 +1057,7 @@ if(length(err) > 0){
   dev.off()
   
   } else {
-    if(exists(filename))  file.remove(filename)
+    if(file.exists(filename))  file.remove(filename)
   }
 
 
