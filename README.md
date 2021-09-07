@@ -22,7 +22,9 @@ For an overview of the database, please see the [ForC database website](https://
 *Database publications* are listed in [ForC_publications.csv](https://github.com/forc-db/ForC/blob/master/ForC_publications.csv). We ask that any authors using the database add resulting publications to this table.
 
 
+## Database errors and warnings
+This is an automatically generated report of database errors and inconsistencies:
 
-[![There_is_no_errors to fix_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/error_reports/errors.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/error_reports)
+[![There_are_no_errors to fix_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/error_reports/errors.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/error_reports)
 
-[![There_is_no_warnings_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/warning_reports/warnings.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/warning_reports)
+[![There_are_no_warnings_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/warning_reports/warnings.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/warning_reports)
