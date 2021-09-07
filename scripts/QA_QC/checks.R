@@ -199,7 +199,7 @@ if(nrow(look) > 0) {
 
 # For each allometry_1 and allometry_2 in MEASUREMENTS, there is an allometric equation in ALLOMETRIE
 
-m_no_a1 <- unique(MEASUREMENTS[,"allometry_1"][!MEASUREMENTS$allometry_1 %in% VARIABLES$variable.name & !MEASUREMENTS$allometry_1 %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$allometry_1),])
+m_no_a1 <- unique(MEASUREMENTS[,"allometry_1"][!MEASUREMENTS$allometry_1 %in% ALLOMETRY$allometric.equation  & !MEASUREMENTS$allometry_1 %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$allometry_1),])
 
 look_name <- "m_no_a1"
 look <- get(look_name)
@@ -214,7 +214,7 @@ if(nrow(look) > 0) {
   if(file.exists(filename)) file.remove(filename)
 }
 
-m_no_a2 <- unique(MEASUREMENTS[,"allometry_2"][!MEASUREMENTS$allometry_2 %in% VARIABLES$variable.name & !MEASUREMENTS$allometry_2 %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$allometry_2),])
+m_no_a2 <- unique(MEASUREMENTS[,"allometry_2"][!MEASUREMENTS$allometry_2 %in% ALLOMETRY$allometric.equation & !MEASUREMENTS$allometry_2 %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$allometry_2),])
 
 look_name <- "m_no_a2"
 look <- get(look_name)
