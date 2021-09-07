@@ -4,7 +4,7 @@
 "$NPP$","net primary production ($ANPP$ + $BNPP$)",212,111,73,"TrB > TeB $\ge$ TeN > BoN","n.s.","NPP"
 "$ANPP$","aboveground $NPP$",343,236,131,"TrB > TeB $\ge$ TeN > BoN","+; xB","ANPP"
 "$ANPP_{woody}$","woody production ($ANPP_{stem}$ + $ANPP_{branch}$)",64,53,37,"n.s.","+","ANPP_woody"
-"$ANPP_{stem}$","woody stem production ",213,186,115,"TrB > TeN $\ge$ TeB $\ge$ BoN","n.s.","ANPP_stem"
+"$ANPP_{stem}$","woody stem production ",213,186,114,"TrB > TeN $\ge$ TeB $\ge$ BoN","n.s.","ANPP_stem"
 "$ANPP_{branch}$","branch turnover",74,60,42,"TrB > TeB $\ge$ TeN","n.s.","ANPP_branch"
 "$ANPP_{foliage}$","foliage production, typically estimated as annual leaf litterfall",162,132,88,"TrB > TeB $\ge$ TeN > BoN","+","ANPP_foliage"
 "$ANPP_{litterfall}$","litterfall, including leaves, reproductive structures, twigs, and sometimes branches ",87,71,55,"n.s.","+","ANPP_litterfall"
