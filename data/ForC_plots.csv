@@ -3025,12 +3025,13 @@
 3079,"New Brunswick, FNP","S5A","0.0025",0,"NAC",3079.03,"Planted","NI",3079.02,"Harvest","100","NI",3079.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3079.04,0
 3080,"New Brunswick, FNP","S4","0.0025",0,"NAC",3080.03,"Planted","NI",3080.02,"Harvest","100","NI",3080.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3080.04,0
 3081,"New Brunswick, FNP","S3A","0.002",0,"NAC",3081.03,"Planted","NI",3081.02,"Harvest","100","NI",3081.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3081.04,0
-3082,"New Brunswick, FNP","S3B","0.0025",0,"NAC",3081.03,"Planted","NI",3088.02,"Harvest","100","NI",3082,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3082,0
+3082,"New Brunswick, FNP","S3B","0.0025",0,"NAC",3082.03,"Planted","NI",3082.02,"Harvest","100","NI",3082.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3082.04,0
 3083,"WACOAST,Olympic Peninsula,HR","HR02","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3084,"WACOAST,Olympic Peninsula,HR","HR03","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3085,"WACOAST,Olympic Peninsula,HR","HR04","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3086,"Jadraas","Ih-V","NAC",3086.02,"1850",3086.01,"Initiation of post-disturbance cohort (natural)","1850",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3087,"Metolius Young Pine Burn (US-Me6)","Aggrading Temperate Evergreen Forest. Stand established 1990",NA,3087.04,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,3087.01,"Burned","100","1979",3087.02,"Harvest","100","1980",0,0,0,0,0,0,0
+3088,"New Brunswick, FNP","S5B","0.0025",0,"NAC",3088.03,"Planted","NI",3088.02,"Harvest","100","NI",3088.01,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,3088.04,0
 3089,"Adelaide River","AU-Ade","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3090,"Cumberland Plain","AU-Cum","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3091,"Gingin","AU-Gin","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -4228,9 +4229,9 @@
 4468,"Dinghushan Biosphere Reserve","Masson pine forest (MPF) with acid rain (pH 4.5) treatment. Stand established around 1950.","NAC",4468.01,"1950",4468.02,"Planted","1950",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,4468.03,0,0,0
 4470,"Dinghushan Biosphere Reserve","secondary coniferous and broadleaf mixed forest (MF) with acid rain (pH 4.5) treatment. Stand established around 1903.","NAC",4470.01,"1903",0,"NAC","NAC",0,"No disturbance",NA,"1910",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,4470.03,0,0,0
 4472,"Dinghushan Biosphere Reserve","primary evergreen broadleaf tropical forest (MEBF) with acid rain (pH 4.5) treatment","NAC",4472.01,"1604",0,"NAC","NAC",0,"No disturbance",NA,"1956",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,4472.03,0,0,0
-4474,"Robinson Forest","Aggrading Temperate Deciduous Forest. Stand established around 2001","NAC",4474.02,"2001",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,4474.01,"cut","100","2001",0,NA,NA,NA,0,0,0,0,0,0,0
-4475,"Robinson Forest","Aggrading Temperate Deciduous Forest. Stand established around 1993","NAC",4475.02,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,4475.01,"cut","100","1993",0,NA,NA,NA,0,0,0,0,0,0,0
-4476,"Robinson Forest/Daniel Boone National Forest","Aggrading Temperate Deciduous Forest. Stand established around 1985","NAC",4476.02,"1985",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,4476.01,"cut","100","1985",0,NA,NA,NA,0,0,0,0,0,0,0
+4474,"Robinson Forest","Aggrading Temperate Deciduous Forest. Stand established around 2001","NAC",4474.02,"2001",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,4474.01,"Cut","100","2001",0,NA,NA,NA,0,0,0,0,0,0,0
+4475,"Robinson Forest","Aggrading Temperate Deciduous Forest. Stand established around 1993","NAC",4475.02,"1993",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,4475.01,"Cut","100","1993",0,NA,NA,NA,0,0,0,0,0,0,0
+4476,"Robinson Forest/Daniel Boone National Forest","Aggrading Temperate Deciduous Forest. Stand established around 1985","NAC",4476.02,"1985",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,4476.01,"Cut","100","1985",0,NA,NA,NA,0,0,0,0,0,0,0
 4477,"Lyuri_2013_cisr research site in Russia","Boreal Evergreen Forest. Stand established around 1911","NAC",4477.01,"1911",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4478,"Lyuri_2013_cisr research site in Russia","Boreal Evergreen Forest. Stand established around 1841","NAC",4478.01,"1841",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4479,"Skogaryd","Picea abies dominated stand on drained organic soil. Stand established in 1951.","NAC",4479.03,"1951",4479.04,"Planted","1951",4479.02,"Agriculture_generic","100","1875",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,4479.01,0,0,0
