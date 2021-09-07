@@ -149,7 +149,7 @@ points(SITES.xy[is.na(c(new.biogeog[[1]])),], col = "red", pch= 16)
 
 new.biogeog[is.na(new.biogeog)] <- SITES.xy$biogeog[is.na(new.biogeog)]
 
-SITES$biogeog <- new.biogeog
+SITES$biogeog <- new.biogeog$REALM_1
 
 
 # Extract continent ####
