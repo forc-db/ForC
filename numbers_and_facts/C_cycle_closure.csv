@@ -244,7 +244,7 @@
 "Boreal conifer YOUNG","R_root",1.65,0.77,NA,"","-","n.t.","-"
 "Boreal conifer YOUNG","R_het_soil",3.68,2.74,NA,"","-","n.t.","-"
 "Boreal conifer YOUNG","R_soil",5.45,3.2,"R_root + R_het_soil","R_root; R_het_soil","5.33","equal","0"
-"Boreal conifer YOUNG","biomass",60.16,50.89,"biomass_ag + biomass_root","biomass_ag; biomass_root","52","equal","0"
+"Boreal conifer YOUNG","biomass",60.29,49.04,"biomass_ag + biomass_root","biomass_ag; biomass_root","52","equal","0"
 "Boreal conifer YOUNG","biomass_ag",40.55,32.57,"biomass_foliage + biomass_ag_woody","biomass_foliage; biomass_ag_woody","44.01","equal","0"
 "Boreal conifer YOUNG","biomass_ag_woody",41.6,49.5,NA,"","-","n.t.","-"
 "Boreal conifer YOUNG","biomass_foliage",2.41,1.6,NA,"","-","n.t.","-"

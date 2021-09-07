@@ -22,7 +22,7 @@
 "$R_{het-soil}$","soil heterotrophic respiration",194,155,99,"TrB > TeB $\ge$ TeN","n.s.","R_het_soil"
 "$R_{het-ag}$","aboveground heterotrophic respiration",0,0,0,"-","-","R_het_ag"
 "$R_{het}$","heterotrophic respiration ($R_{het-ag} +R_{het-soil}$)",0,0,0,"-","-","R_het"
-"$B_{tot}$","total live biomass ($B_{ag}$+$B_{root}$)",186,155,87,"TrB $\ge$ TeB > BoN","+; xB","biomass"
+"$B_{tot}$","total live biomass ($B_{ag}$+$B_{root}$)",187,156,88,"TrB $\ge$ TeB > BoN","+; xB","biomass"
 "$B_{ag}$","aboveground live biomass  ($B_{ag-wood}$+$B_{foliage}$)",4462,4068,618,"TrB $\ge$ TeN $\ge$ TeB > BoN","+; xB","biomass_ag"
 "$B_{ag-wood}$","woody component of aboveground biomass",115,102,64,"TeN > TrB $\ge$ BoN","+; xB","biomass_ag_woody"
 "$B_{foliage}$","foliage biomass ",134,115,72,"TeN > TrB $\ge$ BoN $\ge$ TeB","+; xB","biomass_foliage"
