@@ -100,7 +100,7 @@ variable.ID,variable.type,variable.name,units,description,extended.description,e
 99,stock,total.ecosystem_2_C,Mg C ha-1,"Total Ecosystem C stock, soil excluded (total.ecosystem_2_C)","Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",total.ecosystem_2_C = biomass_C + deadwood_C + organic.layer_C ,1,1,1,NA,NA,64,4.9,399,NA
 100,stock,biomass_OM,Mg ha-1,Biomass (biomass),Total live biomass (above and below-ground).,biomass_OM = biomass_ag_OM + biomass_root_OM,1,1,1,NA,NA,261,0,568.172,NA
 101,stock,biomass_C,Mg C ha-1,Biomass (biomass),Total carbon in live biomass (above and below-ground).,biomass_C = biomass_ag_C + biomass_root_C,1,1,1,NA,NA,833,0,744.53,NA
-102,stock,biomass_ag_OM,Mg ha-1,Aboveground Biomass (biomass_ag),Total live aboveground live biomass.,biomass_ag_OM = biomass_ag_woody_OM + biomass_ag_foliage_OM,1,1,0,NA,NA,7509,0,1533,NA
+102,stock,biomass_ag_OM,Mg ha-1,Aboveground Biomass (biomass_ag),Total live aboveground biomass.,biomass_ag_OM = biomass_ag_woody_OM + biomass_ag_foliage_OM,1,1,0,NA,NA,7509,0,1533,NA
 103,stock,biomass_ag_C,Mg C ha-1,Aboveground Biomass (biomass_ag),Total carbon in live aboveground biomass.,biomass_ag_C = biomass_ag_woody_C + biomass_ag_foliage_C,1,1,0,NA,NA,1509,0,1053,NA
 104,stock,biomass_ag_woody_OM,Mg ha-1,Aboveground Biomass: woody component (biomass_ag_woody),Total aboveground woody (stem + branch) biomass,NA,1,1,0,NA,NA,213,0,693.7,NA
 105,stock,biomass_ag_woody_C,Mg C ha-1,Aboveground Biomass: woody component (biomass_ag_woody),Total carbon in aboveground woody (stem + branch) biomass,NA,1,1,0,NA,NA,247,0,640.35,NA
