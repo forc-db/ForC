@@ -58,7 +58,7 @@ MEASUREMENTS$my.end.date <- ifelse(my_is.na(MEASUREMENTS$my.end.date), NA, paste
 MEASUREMENTS$my.end.date <- as.Date(MEASUREMENTS$my.end.date)
 
 ### if start and end date are the same day (january 1st of the same year) remove them and put that date in date ####
-idx <- !is.na(MEASUREMENTS$my.start.date) & (MEASUREMENTS$my.start.date == MEASUREMENTS$my.end.date)
+idx <- !is.na(MEASUREMENTS$my.start.date) & !is.na(MEASUREMENTS$my.end.date) & (MEASUREMENTS$my.start.date == MEASUREMENTS$my.end.date)
 MEASUREMENTS$my.date[idx] <- MEASUREMENTS$my.start.date[idx]
 MEASUREMENTS$my.start.date[idx] <- NA
 MEASUREMENTS$my.end.date[idx] <- NA
@@ -159,19 +159,28 @@ rm(list = ls())
 gc()
 load("scripts/Database_manipulation/Identify_and_resolve_duplicates/temporary_saved_environment.RData")
 
-MEASUREMENTS.split <- split(MEASUREMENTS, list(MEASUREMENTS$sites.sitename, MEASUREMENTS$plot.name, MEASUREMENTS$variable.name.combined), drop = TRUE)
+# find out idx with potential issues (same sites.sitename, plot.name, variable.name.combined)
+s_p_v <- paste(MEASUREMENTS$sites.sitename, MEASUREMENTS$plot.name, MEASUREMENTS$variable.name.combined)
 
+idx_s_p_v <- s_p_v %in% names(which(table(s_p_v)>1))
+
+
+MEASUREMENTS.split <- split(MEASUREMENTS[idx_s_p_v, ], MEASUREMENTS[idx_s_p_v, c("sites.sitename", "plot.name", "variable.name.combined")], drop = TRUE) # takes ~10 minutes if not idexing
+
+
+MEASUREMENTS[!idx_s_p_v, "conflicts"] <- "I" # fill those with "I" since they are unique measurements in plots
 
 # RUN THE CODE TO ID SETS OF DUPLICATE RECORDS ####
 
 MEASUREMENTS.final <- NULL
 
-new.R.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_R.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_R.group), ";"))), na.rm = T), 0)
-new.S.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_S.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_S.group), ";"))), na.rm = T), 0)
-new.D.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_D.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_D.group), ";"))), na.rm = T), 0)
+new.R.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_R.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_R.group), ";"))), na.rm = T), 0) # last number used, 0 if none used
+new.S.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_S.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_S.group), ";"))), na.rm = T), 0) # last number used, 0 if none used
+new.D.group.ID <- ifelse(any(!my_is.na(unlist(strsplit(unique(MEASUREMENTS$old_D.group), ";")))), max(as.numeric(unlist(strsplit(unique(MEASUREMENTS$old_D.group), ";"))), na.rm = T), 0) # last number used, 0 if none used
 
 more.thn.one.D.precedence.measurement.ID.given.and.not.easy.case.split.ID <- NULL
 
+starttime <- Sys.time()
 for(i in 1:length(MEASUREMENTS.split)){
   
   X <- MEASUREMENTS.split[[i]]
@@ -539,7 +548,7 @@ for(i in 1:length(MEASUREMENTS.split)){
           if(any(table(unlist(strsplit(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]), ";"))) == length(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) & all(!my_is.na(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) {
             # S.group.ID.to.add <- unique(x$S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])
             S.group.ID.to.add <- names(which((table(unlist(strsplit(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]), ";"))) == length(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])))))
-            if(length(S.group.ID.to.add) > 1) stop()
+            if(length(S.group.ID.to.add) > 1) S.group.ID.to.add <- paste(S.group.ID.to.add, collapse = ";") # stop() --  decided to paste the groups together but could be wrong...
           }
           
           if(!(any(table(unlist(strsplit(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]), ";"))) == length(unique(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])]))) & all(!my_is.na(x$old_S.group[c(idx.range.date.subset,idx.non.range.dates[dates.within.range])])))) {
@@ -640,7 +649,7 @@ for(i in 1:length(MEASUREMENTS.split)){
     }
     
     
-
+    
   } # if more than one record...  
   
   ### Clean up the group codes ####
@@ -1225,24 +1234,27 @@ for(i in 1:length(MEASUREMENTS.split)){
   } # if there is any duplicates
   
   # save output into final object####
-    MEASUREMENTS.final[[i]] <- X
+  MEASUREMENTS.final[[i]] <- X
 } # for(i in 1:length(MEASUREMENTS.split))
 
+endtime <- Sys.time()
+endtime - starttime # 1.6 seconds
 
 # re-formate output ####
 MEASUREMENTS.final.split <- MEASUREMENTS.final
-MEASUREMENTS.final <- do.call(rbind, MEASUREMENTS.final)
+MEASUREMENTS.final <- do.call(rbind, MEASUREMENTS.final.split)
 rownames(MEASUREMENTS.final) <- NULL
-MEASUREMENTS.final <- MEASUREMENTS.final[match(MEASUREMENTS$measurement.ID, MEASUREMENTS.final$measurement.ID),]
+
+MEASUREMENTS.final <- MEASUREMENTS.final[match(MEASUREMENTS$measurement.ID[idx_s_p_v], MEASUREMENTS.final$measurement.ID),]
 
 # compare original with new values in the duplicate related columns ####
 new.duplicate.related.column.values <- MEASUREMENTS.final[, duplicate.related.columns]
 
 ## ID split.ID that are not the same as the original ####
 
-not.the.same.ones <- which(apply(original.duplicate.related.column.values == new.duplicate.related.column.values, 1, function(x) any(!x[!is.na(x)])))
+not.the.same.ones <- which(apply(original.duplicate.related.column.values[idx_s_p_v,] == new.duplicate.related.column.values, 1, function(x) any(!x[!is.na(x)])))
 
-what.not.the.same.ones <- apply(original.duplicate.related.column.values == new.duplicate.related.column.values, 1, function(x) names(x)[!x & !is.na(x)])
+what.not.the.same.ones <- apply(original.duplicate.related.column.values[idx_s_p_v,] == new.duplicate.related.column.values, 1, function(x) names(x)[!x & !is.na(x)])
 table(unlist(what.not.the.same.ones[not.the.same.ones]))
 
 what.not.the.same.ones.split.ID <- sort(unique(MEASUREMENTS.final$split.ID[not.the.same.ones]))
@@ -1283,150 +1295,29 @@ retrieve.old.version.meas.IDs <- c("1224;1225;1226;1227;1228;1229;17532;17542;17
                                    "26209;29187;29204;29205;29206", "28699;28700;28701", # looks like it was editted manually before
                                    "17035;17036;17037;17039;17040;17041;17042;17043;17044;23082;23092;23102;23112;23122;23132", # looks like it was editted manually before
                                    "28947;28948;28949;28950", "30567;30570", "30568;30569", # looks like it was editted manually before
-                                   "13538;13539;30692;30693" # looks like it was legintimately added
+                                   "13538;13539;30692;30693", # looks like it was legintimately added
+                                   "4683;4684;33420;33421",
+                                   "4691;4692;33422;33423",
+                                   "4699;4700;33416;33417",
+                                   "4707;4708;33418;33419"
 ) # paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the old version is more approriate than the code's output
 
+
+
+
+
+
+
 delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% only.one.record.left.split.ID, ]$measurement.ID, #ignore old conflicts of measurement.ID that are in a conflict groups where only one record is left
-                                  "11525;11541", # Abby Ferson weird assignment of R group
-                                  "11542;11543;11552;11560", # Abby Ferson weird assignment of R group
-                                  "11576;19886;19887;19888", # Abby Ferson weird assignment of R group
-                                  "11647;11652", # Abby Ferson weird assignment of R group
-                                  "3229;3236;3239;12103",
-                                  "3230;3237;3240;12104",
-                                  "8816;17416;17480", # different but now it will be like that
-                                  "17428;17482", # different but now it will be like that
-                                  "10449;10455;10461;10467;10473;10481;10487;10492", # different but now it will be like that
-                                  "3510;3511;3512;17378",
-                                  "1684;1685",
-                                  "6647;6662", # M,T becomes M in conflict.type because now small range of date is considered as one date
-                                  "6855;6860", # M,T becomes M in conflict.type because now small range of date is considered as one date
-                                  "7663;7664;7669;7670;7671;7672;7676;7677;7678;7679", # M,T becomes M in conflict.type because now small range of date is considered as one date
-                                  "6651;6660", # M,T becomes M in conflict.type because now small range of date is considered as one date
-                                  "6848;6858", # M,T becomes M in conflict.type because now small range of date is considered as one date
-                                  "6649;6661", # M,T becomes M in conflict.type because now small range of date is considered as one date
-                                  "6846;6859", # M,T becomes M in conflict.type because now small range of date is considered as one date
-                                  "6669;6686;6689", # will have to manually add D.precedence beacuse S becomes D
-                                  "6671;6684;6687", # will have to manually add D.precedence beacuse S becomes D
-                                  "6673;6685;6688", # will have to manually add D.precedence beacuse S becomes D
-                                  "15060;15063;15066;15069;15072;15079;15080;15081;15088;15089;15090", # simpler thus better now, same D.precedence
-                                  "15278;15279;15280;15281;15290;15291;15293;15294;15295", # simpler thus better now, same D.precedence
-                                  "15058;15061;15064;15067;15070;15073;15074;15075;15082;15083;15084", # simpler thus better now, same D.precedence
-                                  "15059;15062;15065;15068;15071;15076;15077;15078;15085;15086;15087", # simpler thus better now, same D.precedence
-                                  "17382;17470", # fixes D.group
-                                  "17458;17490", # fixes D.group
-                                  "17410;17478", # fixes D.group
-                                  "1208;17370;17464", # fixes D.group
-                                  "17404;17474", # fixes D.group
-                                  "9485;9486;9511;9512;9513", # meaningless change in D.precedence.meas.ID
-                                  "17035;17036;17037;17039;17040;17041;17042;17043;17044", # meaningless change in D.precedence.meas.ID
-                                  "17029;17030;17031;17038;17045;17046;17047;17048;17049;17050", # meaningless change in D.precedence.meas.ID
-                                  "9483;9484;9508;9509;9510", # meaningless change in D.precedence.meas.ID
-                                  "13761;18758",  # C is correct in conflict.type
-                                  "13776;18759", # C is correct in conflict.type
-                                  "13791;18760", # C is correct in conflict.type
-                                  "13806;18761", # C is correct in conflict.type
-                                  "13821;18762", # C is correct in conflict.type
-                                  "13836;18763", # C is correct in conflict.type
-                                  "13851;18764", # C is correct in conflict.type
-                                  "13866;18765", # C is correct in conflict.type
-                                  "13881;18766", # C is correct in conflict.type
-                                  "13896;18767", # C is correct in conflict.type
-                                  "13911;18768", # C is correct in conflict.type
-                                  "13926;18769", # C is correct in conflict.type
-                                  "13941;18770", # C is correct in conflict.type
-                                  "13956;18771", # C is correct in conflict.type
-                                  "13971;18772", # C is correct in conflict.type
-                                  "13986;18773", # C is correct in conflict.type
-                                  "14001;18774", # C is correct in conflict.type
-                                  "8576;8582;18028", # C is correct in conflict.type
-                                  "2983;2995", # C is correct in conflict.type
-                                  "3017;3025", # C is correct in conflict.type
-                                  "15238;20420", # now a conflict (not I anymore)
-                                  "14249;14259;14267", # legitimate conflict
-                                  "15237;20421", "13023;20410", "15241;20422", "259;20392", "13024;20411", "15242;20423", "16284;20438", "20455;20457;20459;20461", # now a conflict (not I anymore)
-                                  "3191;3195;3197;20445", # now a new sort of conflict
-                                  "21004;28480", "21248;28743",  # now a conflict (not I anymore)
-                                  "26783;26788;26792;26795;26798;26802;26808;26812;26814;26817;26823;26827;26830", # better handled now
-                                  "23561;23567;23573;23579;23633;23639;23645;23651", "22473;22481;22489", # better handled now
-                                  "26415;26420;26425;26430;26435;26440;26445;26450;26455;26460;26465;26469", # better handled now
-                                  "23713;23725;23737;23749;23758;23767;23776;23785;23794", # better handled now
-                                  "22684;22686;22688;22690;22692;22694;22696;22698", "22475;22483;22491", "25200;25203;25206;25209", # better handled now
-                                  "26417;26422;26427;26432;26437;26442;26447;26452;26457;26462;26466;26471", # better handled now
-                                  "23715;23727;23739;23751;23760;23769;23778;23787;23796", # better handled now
-                                  "22685;22687;22689;22691;22693;22695;22697;22699","23562;23568;23574;23580;23634;23640;23646;23652", # better handled now
-                                  "24335;24337;24339;24341", "25817;25820;25823", "22867;22872;22877;22882;22887", "22476;22484;22492", # better handled now
-                                  "22773;22774;22775", "26418;26423;26428;26433;26438;26443;26448;26453;26458;26463;26467;26472", # better handled now
-                                  "23716;23728;23740", "22275;22280;22285;22290", "22477;22485;22493", "26363;26365;26367;26369", # better handled now
-                                  "26329;26339;26348", "22478;22486;22494", "25201;25204;25207;25210",# better handled now
-                                  "26785;26790;26794;26796;26799;26804;26806;26809;26815;26819;26822;26825;26828;26832", # better handled now
-                                  "23564;23570;23576;23582;23636;23642;23648;23654", "22276;22281;22286;22291", "26330;26340;26349", # better handled now
-                                  "25929;25935;25940;25951","22479;22487;22495", "24405;24407;24409;24411;24413", "23717;23729;23741", # better handled now
-                                  "26786;26791;26800;26810;26820", "23565;23571;23577;23583;23637;23643;23649;23655", # better handled now
-                                  "26331;26341;26350", "26784;26789;26793;26803;26818;26824;26831", # better handled now
-                                  "23714;23726;23738;23750;23759;23768;23777;23786;23795", "22863;22868;22873;22878;22883", # better handled now
-                                  "26414;26419;26424;26429;26434;26439;26444;26449;26454;26459;26464;26468", "25928;25934;25939;25950", # better handled now
-                                  "23563;23569;23575;23581;23635;23641;23647;23653", "26624;26626;26628;26630;26632;26633", # better handled now
-                                  "25818;25821;25824","22865;22870;22875;22880;22885", # better handled now
-                                  "23711;23723;23735;23747;23756;23765;23774;23783;23792", "22272;22278;22283;22288", # better handled now
-                                  "22866;22871;22876;22881;22886", "23712;23724;23736;23748;23757;23766;23775;23784;23793", # better handled now
-                                  "22273;22279;22284;22289","22480;22488;22496", "25202;25205;25208;25211", # better handled now
-                                  "24406;24408;24410;24412;24414",  "26364;26366;26368;26370", "23718;23730;23742", # better handled now
-                                  "26787;26797;26801;26805;26807;26811;26813;26816;26821;26826;26829", # better handled now
-                                  "23566;23572;23578;23584;23638;23644;23650;23656","24604;24613;24616", # better handled now
-                                  "22277;22282;22287;22292","23825;23827;23829;23831;23833;23835;23837;23839","22922;22923;22924", # better handled now
-                                  "26332;26342;26351",  "25926;25932;25937;25948", # better handled now
-                                  "23709;23721;23733;23745;23754;23763;23772;23781;23790", # better handled now
-                                  "23924;23930;23934", "26326;26337;26346", "22864;22869;22874;22879;22884", # better handled now
-                                  "22592;22593;22594;22595;22596;22597;22598", "23708;23720;23732;23744;23753;23762;23771;23780;23789", # better handled now
-                                  "26325;26336;26345",  "25927;25933;25938;25949", "21299;21300;21301;21302", # better handled now
-                                  "23710;23722;23734;23746;23755;23764;23773;23782;23791",  "23925;23931;23935", "23234;23242;23244", # better handled now
-                                  "26327;26338;26347", "25925;25931;25936;25947",  "23232;23241;23243", "26324;26335;26344", # better handled now
-                                  "24605;24614;24617", "24336;24338;24340;24342", "23826;23828;23830;23832;23834;23836;23838;23840", # better handled now
-                                  "26333;26343;26352", "23944;23945;23946", "27664;27665;27666;27667", "26623;26625;26627;26629;26631", # better handled now
-                                  "24603;24612;24615", "27099;27100;27101;27102;27103", "28413;28414;28415", "22474;22482;22490", # better handled now
-                                  "26416;26421;26426;26431;26436;26441;26446;26451;26456;26461;26470", "25816;25819;25822", # better handled now
-                                  "27545;30490", "21004;28496", "21274;28955",  "21286;28957",  "20922;28494", "21248;28994",  # now a conflict
-                                  "21558;21564;21569;28581;28582;28583", # now a conflict
-                                  "26324;26335;26344;30023;30024",
-                                  "25871;27540", # actual deplicate
-                                  "9710;9736;9737;21999", "21157;21176;21195;21205;21771;21776", # I think it is better now
-                                  "21116;21219;21355", "21117;21220;21356", "21109;21212;21348", "9724;9742;9743;22000", "25872;27541", # I think it is better now
-                                  "21112;21215;21351",  "21110;21213;21349", "9720;9740;9741;22001", "9712;9756;9757;21998", # I think it is better now
-                                  "29908;29911;30449", "29641;29642;29643;30190;30191;30192;30193", "21111;21214;21350", # better now
-                                  "14424;14427;14430;14433;14436;20452;25042;25045;25048;25051;25054", # better now
-                                  "22630;25365;26578;26580;26582;26584;26586;26588;26590", "27249;27256", # better now
-                                  "23087;23097;23107;23117;23127;23137;25327;25328;25330;25332;25334;25336;25338",  "21114;21217;21353;24675",# better now
-                                  "21160;21179;21198;21206;21777", "22633;25368;26579;26581;26583;26585;26587;26589;26591", # better now
-                                  "21102;23084;23094;23104;23114;23124;23134",  "22632;25367", "25870;27539", # better now
-                                  "21153;21172;21191;21204;21770;21775", "9744;9745", "21485;21486", "9748;9749", "21113;21216;21352", # better now
-                                  "21105;21208;21344", "21151;21170;21189;21200;21768;21773", # better now
-                                  "17032;17033;17034;23083;23093;23103;23113;23123;23133", # better now
-                                  "14425;14428;14431;14434;14437;25043;25046;25049;25052;25055", "22631;25366", #better now
-                                  "25004;25007;25010;26869", "21106;21209;21345", "21152;21171;21190;21201;21769;21774", "28687;28869",  # better now
-                                  "30379;30380;30381;30382;30383;30384;30385;30386;30387;30388", # better now
-                                  "28505;29142;29143;29144;29145;29146;29147;29723;29724;29725;29726;29727;29728", # better now
-                                  "21104;21207;21343;28601;29518", "29651;29652;29653;29654;29655", "9714;28824", # better now
-                                  "29443;30353;30500;30501;30502;30503;30504;30505;30506", "30389;30390;30391;30392;30393",  "29881;30488", # better now
-                                  "21248;28982;28994;28995;28996;28997;28998;28999;29000;29001", "2390;28749", # better now
-                                  "21150;21169;21188;21199;21772", "28602;28604;28689;28694",  "28603;28605;28697", "2385;28748", # better now
-                                  "30394;30395;30396","25044;25047;25050;25053;25056",  "9857;21955", "9856;21953;28791;28792", # better now
-                                  "14165;23862;23875;23888;23901;23914", "24541;24546;24551;24556;24807", "24223;24487;24985;26513", # better now
-                                  "24219;24493;24989;26518;27932", "24542;24547;24552;24557;24808", "24567;26520", # better now
-                                  "14171;23865;23878;23891;23904;23917", "14170;23867;23880;23893;23906;23919", "24568;27195", # better now
-                                  "24224;24488;24986;26514",  "24220;24494;24566;24990;26519", "14173;23861;23874;23887;23900;23913", # better now
-                                  "24543;24548;24553;24558;24809", "23500;23858;23871;23884;23897;23910", "24218;24490;24988",# better now
-                                  "23501;23859;23872;23885;23898;23911", "29454;29455;29456;29457;29563", # better now
-                                  "30261;30458;30459;30460;30461;30462;30463;30464;30465", # better now
-                                  "29742;29743;30260;30450;30451;30452;30453;30454;30455;30456;30457", # better now
-                                  "9714;28824;29496;29497;29498;29499;29500;29501;29502;29503;29504;29505", "30081;30357", # better now
-                                  "4127;29376;29636;30084;30351",  "27454;30515;30516;30517;30518", "29463;30219", "30082;30358", # better now
-                                  "4125;29375;29464;29637;30085;30352", "24544;24549;24554;24559;24810", # better now
-                                  "27453;27640;27642;27644;27646",  "24222;24484;24984", # better now
-                                  "14176;14188;14189;14190;14191;14192;14193;14194;14195;14196;14216;14217;14218;14219;14220;24676;24677;24678;24679;24680;24681;24682;24683", # I think it is better now
-                                  "14154;14155;14156;14157;14158;14159;14178;23499;23857;23870;23883;23896;23909;29250;29251;29252;29253;29254;29522;29523;29524;29525;29526;29527;29528;29529;29530"# I think it is better now
-                                  
-# better now
-)# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was.
+                                  "4358;4361;4362;4367;4368;4369;4370;4371;4372;4373;4375;4377;4378;4379;4381;4384;4387;4390;4393;4396;4399;4402",
+                                  "17424;48973", 
+                                  "5828;17384",
+                                  "48970;48971",
+                                  "8816;17416;17480;48968",
+                                  "15286;15287;15288;15289;19495;19496;19497;19498;19499;19500;19501;19502;19503;19504;19505;19506;19507;19508;19509;19510;19511;19512;25301;25311",
+                                  "15298;15299;29714;29715;29716",
+                                  "17481;48972"
+)# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was. ONCE MEASUREMENT IS UPDATED AND PUSHED, THIS SHOULD BE EMPTIED THIS WAY: delete.old.version.meas.IDs <- c("")
 
 
 #### keep new handling of stand age 999 ####
@@ -1620,25 +1511,25 @@ if(length(need.user.input.split.ID) > 0) {
   # You are here because what the code above produced is somehow different than what already existed in the data base.
   # The code could be correct (e.g. if something has changed in one measurement)
   # OR
-  # The code could be wrong because it can't do beter than a human brain... or at least I don't know how to tell him how to act like one....
+  # The code could be wrong because it can't do better than a human brain... or at least I don't know how to tell him how to act like one....
   # So your role here is to decide whether the code is correct or wrong. Whether we should keep what the code says or if we should retrieve what the original data said.
   # To do so:
   # 1 - Run this whole script up until section called "## now look at the split.ID in need of user input ###"
   # 2 - Uncomment the line that says to "readline("Press [enter]")" in the for loop bellow
-  # 2 - Run the the for loop bellow. It will stop after each set of measurements to review.
-  # 3 - Each time the loop waits for you to press enter, review the dataframe that is printed in the console: 
+  # 2 - Run the for loop bellow. It will stop after each set of measurements to review.
+  # 3 - Each time the loop waits for you to press enter, review the data.frame that is printed in the console: 
   #     - Look at all the conflict related columns that are in the output of this code ( "conflicts", "R.group", "S.group", "D.group", "D.precedence", "conflict.type", "D.precedence.measurement.ID", "conflicts.notes",)
   #     - and compare them to the original conflict related columns ( "old_conflicts", "old_R.group",  "old_S.group", "old_D.group", "old_conflict.type", "old_conflicts.notes", "old_D.precedence", "old_D.precedence.measurement.ID")
   #     - If you think the old version is better, copy the last row of the output (which is just the measurement IDs concatenated with a semicolumn inbetween, and paste that into the object called "retrieve.old.version.meas.IDs".
   #     - If you think the code does a better job than the old version, copy the last row of the output (which is just the measurement IDs concatenated with a semicolumn inbetween, and paste that into the object called "delete.old.version.meas.IDs". This will delete the old version FOR EVER, so make sure you know what you are doing here...
   #     - If you don't know, press enter to skip. The old version will be maintained by default.
-  
+  # 4- once you are all done (saved new MEASUREMENTS and PUSHED to the remote, empty the or measurements IDS in "delete.old.version.meas.IDs" + save and push changes to this script! )
   for(split.ID in need.user.input.split.ID) { 
     print(which(need.user.input.split.ID %in% split.ID))
     
     print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
     print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
-    # readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
+     readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
     
   }
   
@@ -1647,14 +1538,19 @@ if(length(need.user.input.split.ID) > 0) {
 
 ## other checks 'by hand'####
 
-X.group = 2103 # 1397 #1373 # 1323
+X.group = 2852             # 1397 #1373 # 1323
 pattern.X.group <- paste0("(^",X.group, "$)|(^",X.group, ";)|(;", X.group, ";)|(;", X.group, "$)")
 MEASUREMENTS.final[grepl(pattern.X.group, MEASUREMENTS.final$D.group), ]
 
+X.group = 659 # 1397 #1373 # 1323
+pattern.X.group <- paste0("(^",X.group, "$)|(^",X.group, ";)|(;", X.group, ";)|(;", X.group, "$)")
+MEASUREMENTS.final[grepl(pattern.X.group, MEASUREMENTS.final$S.group), ]
 
-split.ID <-  462
-MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID, ]
-MEASUREMENTS[MEASUREMENTS.final$split.ID %in% split.ID, ]
+
+
+split.ID <-  2041
+MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]
+View(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID, c(duplicate.related.columns, paste0("old_", duplicate.related.columns[c(2:7)]))])
 
 
 MEASUREMENTS[MEASUREMENTS$D.group %in% 661,]
@@ -1667,9 +1563,9 @@ MEASUREMENTS.final[MEASUREMENTS.final$measurement.ID %in% c("17541", "17551", "1
 
 MEASUREMENTS.final[grepl("dup.num", MEASUREMENTS.final$old_conflicts.notes),]$conflicts.notes <- MEASUREMENTS.final[grepl("dup.num", MEASUREMENTS.final$old_conflicts.notes),]$old_conflicts.notes 
 
-### look for "manually" in old_conflicts.notes and copy notes over to the new notes (even if the code worked without previous manual help). This is not to loose track of precedence potentially given by hand... ####
+### keep old_conflicts.notes + add new ones ####
 
-MEASUREMENTS.final[grepl("manually", MEASUREMENTS.final$old_conflicts.notes),]$conflicts.notes <- "D.precedence given manually."   
+MEASUREMENTS.final[grepl("manually", MEASUREMENTS.final$old_conflicts.notes),]$conflicts.notes <- ifelse(is.na(MEASUREMENTS.final[grepl("manually", MEASUREMENTS.final$old_conflicts.notes),]$old_conflicts.notes), MEASUREMENTS.final[grepl("manually", MEASUREMENTS.final$old_conflicts.notes),]$conflicts.notes ,MEASUREMENTS.final[grepl("manually", MEASUREMENTS.final$old_conflicts.notes),]$old_conflicts.notes    )    
 
 ## retrieve old conflict information when we decided it was better that way ####
 for(split.ID in c(retrieve.old.version.split.ID, need.user.input.split.ID)) { 
@@ -1700,11 +1596,15 @@ for(split.ID in c(retrieve.old.version.split.ID, need.user.input.split.ID)) {
   MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,] <- X
 }
 
+# add the rest of the measurements back ####
+MEASUREMENTS.final <- plyr::rbind.fill(MEASUREMENTS.final, MEASUREMENTS[!idx_s_p_v, ]) # add those that are not idx_s_p_v
+MEASUREMENTS.final <- MEASUREMENTS.final[match(MEASUREMENTS$measurement.ID, MEASUREMENTS.final$measurement.ID), ]
+
 
 ## double check a few things ####
 
 ### make sure we've got all measurement.IDs ####
-all(MEASUREMENTS.final$measurement.ID %in% MEASUREMENTS$measurement.ID) & all(MEASUREMENTS$measurement.ID %in% MEASUREMENTS.final$measurement.ID) # HAS TO BE TRUE!!!!
+all(MEASUREMENTS.final$measurement.ID == MEASUREMENTS$measurement.ID) & all(MEASUREMENTS$measurement.ID == MEASUREMENTS.final$measurement.ID) # HAS TO BE TRUE!!!!
 
 ### make sure there is no D.precedence or D.precedence.measurement.ID given when there is not D.group or D in conflicts ####
 if( any(!is.na(MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence))) MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),][!is.na(MEASUREMENTS.final[!grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence), ]$D.precedence <- NA
@@ -1722,7 +1622,7 @@ for(split.ID in missing.D.precedence.split.ID) {
 
 ## Pop up window to say if there is D.precedence that needs to be manually edited ####
 
-NAC.D.precedence.split.ID <- sort(unique(MEASUREMENTS.final[grepl("D", MEASUREMENTS.final$conflicts),][MEASUREMENTS.final[grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence %in% "NAC",]$split.ID))
+NAC.D.precedence.split.ID <- sort(unique(MEASUREMENTS.final[grepl("D", MEASUREMENTS.final$conflicts),][my_is.na(MEASUREMENTS.final[grepl("D", MEASUREMENTS.final$conflicts),]$D.precedence),]$split.ID))
 
 for(split.ID in NAC.D.precedence.split.ID) {
   X <- MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID, ]
