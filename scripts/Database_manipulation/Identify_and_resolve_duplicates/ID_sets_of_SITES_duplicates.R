@@ -44,7 +44,7 @@ fit <- hclust(as.dist(dist.in.km.matrix), method = "single")
 clusters <- cutree(fit,h = threshold.in.km)
 
 table(clusters)
-sum(table(clusters) > 1) # 307 clusters of more than one site
+sum(table(clusters) > 1) # 691 clusters of more than one site
 
 clusters_with_potential_duplicates <- names(table(clusters))[table(clusters) > 1]
 
