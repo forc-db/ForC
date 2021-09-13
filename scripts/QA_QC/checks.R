@@ -237,7 +237,7 @@ if(!all(unique(na.omit(MEASUREMENTS$citation.ID)) [!unique(na.omit(MEASUREMENTS$
 
 
 m_no_citation <- unique(MEASUREMENTS[,"citation.ID"][!MEASUREMENTS$citation.ID %in% CITATIONS$citation.ID & !MEASUREMENTS$citation.ID %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$citation.ID),])
-
+ 
 look_name <- "m_no_citation"
 look <- get(look_name)
 say <- paste("There are", nrow(look), "citation.ID in measurements that are not defined in CITATIONS\n")
