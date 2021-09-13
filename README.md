@@ -23,7 +23,11 @@ For an overview of the database, please see the [ForC database website](https://
 
 
 ## QA/QC
-This is an automatically generated report of database errors and inconsistencies:
+This is an automatically generated report of database errors and inconsistencies.
+
+[![QA_QC_checks](https://github.com/forc-db/ForC/workflows/QA_QC_checks/badge.svg)](https://github.com/forc-db/ForC/actions) **ATTENTION!!!!** If this is not passing, the dashboard below is not up-to-date because the continuous integration system needs to be fixed!
+
+
 
 [![There_are_no_errors to fix_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/error_reports/errors.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/error_reports)
 
