@@ -1,0 +1,1 @@
+This folder contains .csv files with the subet of the data containing errors.
