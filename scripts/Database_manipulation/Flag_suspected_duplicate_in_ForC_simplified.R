@@ -123,8 +123,15 @@ for( vgya in groups_to_flag) {
   
 }
 
+#unflag "Tepley_2017_vtfl" and "Fleming_1998_conm"
+
+ForC_simplified$suspected.duplicate[ForC_simplified$citation.ID %in% "Tepley_2017_vtfl"] <- 0
+ForC_simplified$suspected.duplicate[ForC_simplified$citation.ID %in% "Fleming_1998_conm"] <- 0
+
 table(ForC_simplified$suspected.duplicate)
 table(ForC_simplified$suspected.duplicate, ForC_simplified$managed==0 & ForC_simplified$disturbed==0 & ForC_simplified$history.no.info==0) # will remove 5911 record from what we have been looking at in ERL review so far (9/29/2020)
+
+
 
 # save ####
 write.csv(ForC_simplified[, -which(colnames(ForC_simplified) %in% c("age.group", "year"))], file = "ForC_simplified/ForC_simplified.csv", row.names = F)
