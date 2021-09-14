@@ -145,8 +145,8 @@ variable.ID,variable.type,variable.name,units,description,extended.description,e
 144,secondary,soil_pC,%,Percent soil carbon content,,NA,0,0,1,NA,NA,4,0.65,7.4,NA
 145,secondary,soil_C2N,ratio,C:N ratio in soil,,NA,0,0,1,NA,NA,363,2.7,47.4,NA
 146,secondary,N.mineralization,Kg N ha-1 yr-1,Net N mineralization,,NA,NA,NA,NA,NA,NA,43,0.67,142.36,NA
-147,covariates,max.diameter,cm,"Maximum diameter of tree part being measured (stem, woody debris)",,NA,NA,NA,NA,NA,NA,150,1,10,NA
-148,covariates,min.diameter,cm,"Minimum diameter of tree part being measured (stem, woody debris)",,NA,NA,NA,NA,NA,NA,407,0,10,NA
+147,covariates,max.diameter,cm,Maximum diameter,,NA,NA,NA,NA,NA,NA,150,1,10,NA
+148,covariates,min.diameter,cm,Minimum diameter,,NA,NA,NA,NA,NA,NA,407,0,10,NA
 149,covariates,max.diameter_branch,cm,Maximum branch diameter,,NA,NA,NA,NA,NA,NA,6,10,10,NA
 150,covariates,min.diameter_branch,cm,Minimum branch diameter,,NA,NA,NA,NA,NA,NA,2,1,2,NA
 151,covariates,max.diameter_twig,cm,Maximum twig diameter,,NA,NA,NA,NA,NA,NA,33,0.5,3.5,NA
