@@ -123,10 +123,19 @@ for( vgya in groups_to_flag) {
   
 }
 
-#unflag "Tepley_2017_vtfl" and "Fleming_1998_conm"
+# unflag when site is confirmed.unique = 1 or potential_duplicate_group  = "0"
+SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
+idx_sites <- SITES$confirmed.unique %in% "1" | SITES$potential_duplicate_group %in% "0"
 
-ForC_simplified$suspected.duplicate[ForC_simplified$citation.ID %in% "Tepley_2017_vtfl"] <- 0
-ForC_simplified$suspected.duplicate[ForC_simplified$citation.ID %in% "Fleming_1998_conm"] <- 0
+ForC_simplified$suspected.duplicate[ForC_simplified$sites.sitename %in% SITES$sites.sitename[idx_sites] ] <- 0
+
+
+# #unflag "Tepley_2017_vtfl" and "Fleming_1998_conm"
+# 
+# ForC_simplified$suspected.duplicate[ForC_simplified$citation.ID %in% "Tepley_2017_vtfl"] <- 0
+# ForC_simplified$suspected.duplicate[ForC_simplified$citation.ID %in% "Fleming_1998_conm"] <- 0
+# 
+# ForC_simplified$suspected.duplicate[ForC_simplified$citation.ID %in% "McGarvey_2015_csio"]
 
 table(ForC_simplified$suspected.duplicate)
 table(ForC_simplified$suspected.duplicate, ForC_simplified$managed==0 & ForC_simplified$disturbed==0 & ForC_simplified$history.no.info==0) # will remove 5911 record from what we have been looking at in ERL review so far (9/29/2020)
