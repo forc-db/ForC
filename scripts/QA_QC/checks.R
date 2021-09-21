@@ -527,7 +527,7 @@ if(nrow(p_no_m)) message("See `p_no_m`")
 
 look_name <- "p_no_m"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "history records with  no corresponding measurement record\n")
+say <- paste("There are", nrow(look), "plots records with  no corresponding measurement record\n")
 filename <- "QA_QC/error_reports/History_with_no_measurement_record.csv"
 
 if(nrow(look) > 0) {
@@ -551,7 +551,7 @@ if(nrow(p_no_h)) message("See `p_no_h`")
 
 look_name <- "p_no_h"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "history records with  no corresponding history record\n")
+say <- paste("There are", nrow(look), "plots records with  no corresponding history record\n")
 filename <- "QA_QC/error_reports/History_with_no_history_record.csv"
 
 if(nrow(look) > 0) {
@@ -576,7 +576,7 @@ if(nrow(p_no_s)) message("See `p_no_s`")
 
 look_name <- "p_no_s"
 look <- get(look_name)
-say <- paste("There are", nrow(look), "history records with  no corresponding site record\n")
+say <- paste("There are", nrow(look), "plots records with  no corresponding site record\n")
 filename <- "QA_QC/error_reports/History_with_no_site_record.csv"
 
 if(nrow(look) > 0) {
