@@ -1,0 +1,55 @@
+# For help debugging build failures open an issue on the RStudio community with the 'github-actions' tag.
+# https://community.rstudio.com/new-topic?category=Package%20development&tags=github-actions
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'source("scripts/Database_manipulation/Create_ForC_simplified.R")'
+      - 'source("scripts/Database_manipulation/Create_ForC_simplified_metadata.R")'
+      - 'source("scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R")'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'source("scripts/Database_manipulation/Create_ForC_simplified.R")'
+      - 'source("scripts/Database_manipulation/Create_ForC_simplified_metadata.R")'
+      - 'source("scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R")'
+
+name: Create_ForC_simplified
+
+jobs:
+  Create_ForC_simplified:
+    runs-on: windows-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-r@v1
+      - name: Install dependencies
+        run: |
+          install.packages(c("remotes", "rcmdcheck", "dplyr", "readr", "R2HTML", "progress"))
+          # remotes::install_deps(dependencies = TRUE)
+        shell: Rscript {0}
+      # - name: Check
+      #   run: |
+      #     options(crayon.enabled = TRUE)
+      #     rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
+      #   shell: Rscript {0}
+      - name: Ignore SITES without coordinates
+        id:  Ignore_SITES_without_coordinates
+        run: |
+          source("scripts/Database_manipulation/Separate_out_SITES_with_missing_coordinates.R")
+        shell: Rscript {0}
+      - name: Create ForC simplified
+        id: Create_ForC_simplified
+        run: |
+          source("scripts/Database_manipulation/Create_ForC_simplified.R")
+          source("scripts/Database_manipulation/Create_ForC_simplified_metadata.R")
+          source("scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R")
+        shell: Rscript {0}   
+      - name: Commit new files
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull
+          git commit -m "Updating ForC_simplifed" ForC_simplified/ForC_simplified.csv "ForC_simplified/ForC_simplified_metadata.csv
+          git push     
