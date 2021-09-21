@@ -51,5 +51,5 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git pull
-          git commit -m "Updating ForC_simplifed" ForC_simplified/ForC_simplified.csv "ForC_simplified/ForC_simplified_metadata.csv
+          git commit -m "Updating ForC_simplifed" ForC_simplified/ForC_simplified.csv ForC_simplified/ForC_simplified_metadata.csv
           git push     
