@@ -35,7 +35,7 @@ jobs:
       - name: Generating PLOTS
         id: Generating_PLOTS
         run: |
-          source("scripts/Database_manipulation/Generate PLOTS from HISTORY/ForC_plots_from_history.R"")
+          source("scripts/Database_manipulation/Generate PLOTS from HISTORY/ForC_plots_from_history.R")
         shell: Rscript {0}
       - name: Quality checks
         id: Quality_checks
