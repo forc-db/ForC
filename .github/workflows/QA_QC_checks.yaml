@@ -30,11 +30,16 @@ jobs:
       #     options(crayon.enabled = TRUE)
       #     rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
       #   shell: Rscript {0}
+      - name: Generating PLOTS
+        id: Generating_PLOTS
+        run: |
+          source("scripts/Database_manipulation/Generate PLOTS from HISTORY/ForC_plots_from_history.R"")
+        shell: Rscript {0}
       - name: Quality checks
         id: Quality_checks
         run: |
           source("scripts/QA_QC/checks.R")
-        shell: Rscript {0}
+        shell: Rscript {0}   
       - name: Commit new files
         run: |
           git config --local user.email "actions@github.com"
