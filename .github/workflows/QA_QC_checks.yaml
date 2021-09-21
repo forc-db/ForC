@@ -5,10 +5,12 @@ on:
     paths:
       - 'data/**'
       - 'scripts/QA_QC/checks.R'
+      - 'scripts/Database_manipulation/Generate PLOTS from HISTORY/ForC_plots_from_history.R'
   pull_request:
     paths:
       - 'data/**'
       - 'scripts/QA_QC/checks.R'
+      - 'scripts/Database_manipulation/Generate PLOTS from HISTORY/ForC_plots_from_history.R'
 
 name: QA_QC_checks
 
