@@ -11,7 +11,7 @@
 # - ForC_simplified table
 # Developped by: Valentine Herrmann - HerrmannV@si.edu in Arpil 2018
 #  R version 3.4.4 (2018-03-15)
-###################################################### 
+######################################################
 
 
 # Clean environment ####
