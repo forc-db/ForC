@@ -4,15 +4,15 @@ on:
   push:
     paths:
       - 'data/**'
-      - 'source("scripts/Database_manipulation/Create_ForC_simplified.R")'
-      - 'source("scripts/Database_manipulation/Create_ForC_simplified_metadata.R")'
-      - 'source("scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R")'
+      - 'scripts/Database_manipulation/Create_ForC_simplified.R'
+      - 'scripts/Database_manipulation/Create_ForC_simplified_metadata.R'
+      - 'scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R'
   pull_request:
     paths:
       - 'data/**'
-      - 'source("scripts/Database_manipulation/Create_ForC_simplified.R")'
-      - 'source("scripts/Database_manipulation/Create_ForC_simplified_metadata.R")'
-      - 'source("scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R")'
+      - 'scripts/Database_manipulation/Create_ForC_simplified.R'
+      - 'scripts/Database_manipulation/Create_ForC_simplified_metadata.R'
+      - 'scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R'
 
 name: Create_ForC_simplified
 
