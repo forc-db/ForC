@@ -22,7 +22,7 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - name: Install dependencies
         run: |
-          install.packages(c("remotes", "rcmdcheck", "dplyr", "readr", "R2HTML"))
+          install.packages(c("remotes", "rcmdcheck", "dplyr", "readr", "R2HTML", "progress"))
           # remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
       # - name: Check
