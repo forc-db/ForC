@@ -1,18 +1,22 @@
 # For help debugging build failures open an issue on the RStudio community with the 'github-actions' tag.
 # https://community.rstudio.com/new-topic?category=Package%20development&tags=github-actions
 on:
-  push:
-    paths:
-      - 'data/**'
-      - 'scripts/Database_manipulation/Create_ForC_simplified.R'
-      - 'scripts/Database_manipulation/Create_ForC_simplified_metadata.R'
-      - 'scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R'
-  pull_request:
-    paths:
-      - 'data/**'
-      - 'scripts/Database_manipulation/Create_ForC_simplified.R'
-      - 'scripts/Database_manipulation/Create_ForC_simplified_metadata.R'
-      - 'scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R'
+  workflow_run:
+    workflows: ["QA_QC_checks"]
+    types:
+      - completed
+  # push:
+  #   paths:
+  #     - 'data/**'
+  #     - 'scripts/Database_manipulation/Create_ForC_simplified.R'
+  #     - 'scripts/Database_manipulation/Create_ForC_simplified_metadata.R'
+  #     - 'scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R'
+  # pull_request:
+  #   paths:
+  #     - 'data/**'
+  #     - 'scripts/Database_manipulation/Create_ForC_simplified.R'
+  #     - 'scripts/Database_manipulation/Create_ForC_simplified_metadata.R'
+  #     - 'scripts/Database_manipulation/Flag_suspected_duplicate_in_ForC_simplified.R'
 
 name: Create_ForC_simplified
 
