@@ -1,0 +1,51 @@
+# For help debugging build failures open an issue on the RStudio community with the 'github-actions' tag.
+# https://community.rstudio.com/new-topic?category=Package%20development&tags=github-actions
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '30 4 * * 5' # on Fridays at 4:30 UTC so 12:30 EDT (easteard daylight time)
+
+
+
+name: Update_all_Figures
+
+jobs:
+  Create_ForC_simplified:
+    runs-on: windows-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-r@v1
+      - name: Install dependencies
+        run: |
+          install.packages(c("remotes", "rcmdcheck", "lubridate", "lme4", "rgdal", "raster", "moments", "multcomp", "png", "reshape", "DT"))
+          # remotes::install_deps(dependencies = TRUE)
+        shell: Rscript {0}
+      - name: Ignore SITES without coordinates
+        id:  Ignore_SITES_without_coordinates
+        run: |
+          source("scripts/Database_manipulation/Separate_out_SITES_with_missing_coordinates.R")
+        shell: Rscript {0}
+      - name: Update all Figures
+        id: Update_all_Figures
+        run: |
+          source("scripts/Database_numbers_and_facts/Calculate_biome_average_and_age_trend_for_any_ForC_variable.R")
+          source("scripts/Database_numbers_and_facts/Sample_size_per_variable_and forest_biome_combination.R")
+          source("scripts/Database_numbers_and_facts/Test_for_C_cycle_closure_(consistency).R")
+          source("scripts/Figures/C_Cylce_diagrams.R")
+          source("scripts/Figures/Figure_of_Climate_of_forC_sites.R")
+          source("scripts/Figures/Histogram_of_dominant_vegetation.R")
+          source("scripts/Figures/Histogram_of_number_of_records_by_measurement_date.R")
+          source("scripts/Figures/Histogram_of_sites_elevetion.R")
+          source("scripts/Figures/Histogram_of_Stand_Age.R")
+          source("scripts/Figures/World_Map_with_Biogeographic_Regions_and_ForC_Sites.R")
+          source("scripts/Figures/World_Map_with_Biomes_and_ForC_simplified_Sites_for_ERL_review.R")
+        shell: Rscript {0}   
+      - name: Commit new files
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull
+          git commit -m "Updating ForC_simplifed" ForC_simplified/ForC_simplified.csv ForC_simplified/ForC_simplified_metadata.csv
+          git push     
