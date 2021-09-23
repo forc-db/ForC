@@ -1057,7 +1057,14 @@ if(length(err) > 0){
   dev.off()
   
   } else {
-    if(file.exists(filename))  file.remove(filename)
+    # if(file.exists(filename))  file.remove(filename)
+    
+    png(filename, width = 6, height = 0.5 + (0.3*length(err)), units = "in", res = 300)
+    par(mar = c(0,0,0,0))
+    plot(0,0, axes = F, xlab = "", ylab = "", type = "n")
+    text(0,0.1, "HOORAY!\nThere are NO ERRORS to fix!", col = "forestgreen", cex = 0.6, adj = c(.5,0.5))
+    dev.off()
+    
   }
 
 
@@ -1086,7 +1093,12 @@ if(length(warn) > 0){
   dev.off()
   
 } else {
-  if(exists(filename))  file.remove(filename)
+  # if(exists(filename))  file.remove(filename)
+  png(filename, width = 6, height = 0.5 + (0.3*length(err)), units = "in", res = 300)
+  par(mar = c(0,0,0,0))
+  plot(0,0, axes = F, xlab = "", ylab = "", type = "n")
+  text(0,0.1, "HOORAY!\nThere are NO WARNINGS!", col = "forestgreen", cex = 0.6, adj = c(.5,0.5))
+  dev.off()
 }
 
 
