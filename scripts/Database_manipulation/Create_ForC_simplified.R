@@ -22,6 +22,9 @@ library(lubridate)
 # Set working directory as ForC main folder ####
 setwd(".")
 
+# abort creating ForC_simplied if there are errors detected by QA_QC
+if(length(list.files("QA_QC/error_reports/", pattern = ".csv")) > 0) stop("There are errors to be fixed before ForC_simplified can be updated")
+
 # Load libaries ####
 
 # Load data ####
