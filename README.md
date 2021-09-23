@@ -32,3 +32,8 @@ This is an automatically generated report of database errors and inconsistencies
 [![There_are_no_errors to fix_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/error_reports/errors.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/error_reports)
 
 [![There_are_no_warnings_:-)](https://github.com/forc-db/ForC/blob/master/QA_QC/warning_reports/warnings.png)](https://github.com/forc-db/ForC/tree/master/QA_QC/warning_reports)
+
+
+## Is ForC_simplified up to date?
+[![Create_ForC_simplified](https://github.com/forc-db/ForC/workflows/Create_ForC_simplified/badge.svg)](https://github.com/forc-db/ForC/actions) **ATTENTION!!!!** If this is not passing, ForC_simplified is not up to date.
+
