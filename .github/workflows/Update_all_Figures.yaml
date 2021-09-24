@@ -3,7 +3,7 @@
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '35 3 * * 5' # on Fridays at 3:35 UTC so 11:35 EDT (easteard daylight time)
+    - cron:  '40 15 * * 5' # on Fridays at 3:40 UTC so 11:40 EDT (easteard daylight time)
 
 
 
