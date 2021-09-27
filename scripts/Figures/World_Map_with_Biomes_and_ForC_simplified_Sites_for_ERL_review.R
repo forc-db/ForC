@@ -134,5 +134,5 @@ dev.off()
 
 # copy plot to ERL review repo ####
 
-file.copy("figures/World_Map_with_Biomes_and_ForC_simplified_sites_for_ERL_review.png",
-          paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/World_Map_records_in_Biomes.png"), overwrite = T)
+# file.copy("figures/World_Map_with_Biomes_and_ForC_simplified_sites_for_ERL_review.png",
+#           paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/World_Map_records_in_Biomes.png"), overwrite = T)

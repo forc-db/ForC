@@ -156,7 +156,8 @@ temp_idx <- ForC_simplified$variable.name %in%
 A <- table(Biome[temp_idx], Age[temp_idx], useNA = "ifany")
 A <- data.frame(A)
 names(A) <- c("Biome", "Age", "n_records")
-write.csv(A, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/Biomes_n_records_variables_of_interest.csv"), row.names = F)
+# write.csv(A, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/Biomes_n_records_variables_of_interest.csv"), row.names = F)
+write.csv(A, "numbers_and_facts/Biomes_n_records_variables_of_interest.csv", row.names = F)
 
 ## Remove Biome Other ####
 ForC_simplified <- droplevels(ForC_simplified[!ForC_simplified$Biome %in% "Other", ])
@@ -189,7 +190,9 @@ B <- data.frame(n_records=sum(temp_idx),
                   n_plots = length(unique(paste(ForC_simplified$plot.name, ForC_simplified$sites.sitename)[temp_idx])),
                 n_areas = length(unique(ForC_simplified$geographic.area[temp_idx])))
 
-write.csv(B, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/Count_n_record_n_plot_n_area.csv"), row.names = F)
+# write.csv(B, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/Count_n_record_n_plot_n_area.csv"), row.names = F)
+write.csv(B, "numbers_and_facts/Count_n_record_n_plot_n_area.csv", row.names = F)
+
 
 
 #### get % record per countries
@@ -642,16 +645,16 @@ for( fig in c("Flux_age_trends", "Stock_age_trends")) {
 write.csv(ForC_biome_averages, file = "numbers_and_facts/ForC_variable_averages_per_Biome.csv", row.names = F)
 write.csv(summary_for_ERL, file = "numbers_and_facts/C_variables_summary_for_ERL_review.csv", row.names = F)
 names(summary_for_ERL) <- gsub("\\.", " ", names(summary_for_ERL))
-write.csv(summary_for_ERL[,-8], file = paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/C_variables.csv"), row.names = F)
+# write.csv(summary_for_ERL[,-8], file = paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/C_variables.csv"), row.names = F)
 
 names(age_trend_model_summaries) <- c("Variable", "Parameter", "Estimate", "SE", "$t_{value}$")
-write.csv(age_trend_model_summaries, file = paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/SI_age_trend_model_summaries.csv"), row.names = F)
+# write.csv(age_trend_model_summaries, file = paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/SI_age_trend_model_summaries.csv"), row.names = F)
 if(!is.null(v_not_enough_data_for_mature)) {
   write.csv(v_not_enough_data_for_mature, "figures/age_trends/for_ERL_review/v_not_enough_data_for_mature.txt", row.names = F, quote = F, col.names = NULL)
-  write.csv(v_not_enough_data_for_mature, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/v_not_enough_data_for_mature.txt"), row.names = F, quote = F, col.names = NULL, )
+  # write.csv(v_not_enough_data_for_mature, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/v_not_enough_data_for_mature.txt"), row.names = F, quote = F, col.names = NULL, )
 }
 if(!is.null(v_not_enough_data_for_young)) {
   write.csv(v_not_enough_data_for_young, "figures/age_trends/for_ERL_review/v_not_enough_data_for_young.txt", row.names = F, quote = F, col.names = NULL)
-  write.csv(v_not_enough_data_for_young, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/v_not_enough_data_for_young.txt"), row.names = F, quote = F, col.names = NULL, )
+  # write.csv(v_not_enough_data_for_young, paste0(dirname(getwd()), "/ERL-review/manuscript/tables_figures/v_not_enough_data_for_young.txt"), row.names = F, quote = F, col.names = NULL, )
 }
 
