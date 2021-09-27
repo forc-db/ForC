@@ -26,6 +26,7 @@ setwd(".")
 # Load libraries ####
 library(reshape)
 library(DT)
+library(htmlwidgets)
 
 # Load tables ####
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
