@@ -3,7 +3,7 @@
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '55 14 * * 1' # on Mondays at 14:55 UTC so 10:55 EDT (easteard daylight time)
+    - cron:  '10 15 * * 1' # on Mondays at 15:10 UTC so 11:10 EDT (easteard daylight time)
 
 
 
@@ -17,6 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
       - name: Install dependencies
         run: |
           install.packages(c("remotes", "rcmdcheck", "lubridate", "lme4", "rgdal", "rgeos", "raster", "moments", "multcomp", "png", "reshape", "DT", "htmlwidgets"))
