@@ -3,14 +3,14 @@
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '10 15 * * 1' # on Mondays at 15:10 UTC so 11:10 EDT (easteard daylight time)
+    - cron:  '00 19 * * 2' # on Tuesdays at 19:00 UTC so 15:00 EDT (easteard daylight time)
 
 
 
 name: Update_all_Figures
 
 jobs:
-  Create_ForC_simplified:
+  Update_all_Figures:
     runs-on: windows-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -20,7 +20,7 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install dependencies
         run: |
-          install.packages(c("remotes", "rcmdcheck", "lubridate", "lme4", "rgdal", "rgeos", "raster", "moments", "multcomp", "png", "reshape", "DT", "htmlwidgets"))
+          install.packages(c("remotes", "rcmdcheck", "lubridate", "lme4", "rgdal", "rgeos", "raster", "moments", "multcomp", "png", "reshape", "DT", "htmlwidgets", "shape"))
           # remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
       - name: Ignore SITES without coordinates
