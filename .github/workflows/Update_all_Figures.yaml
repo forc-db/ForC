@@ -10,7 +10,7 @@ on:
 name: Update_all_Figures
 
 jobs:
-  Create_ForC_simplified:
+  Update_all_Figures:
     runs-on: windows-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
