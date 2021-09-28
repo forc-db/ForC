@@ -3,7 +3,7 @@
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '15 19 * * 2' # on Tuesdays at 19:15 UTC so 15:15 EDT (easteard daylight time)
+    - cron:  '15 21 * * 2' # on Tuesdays at 21:15 UTC so 17:15 EDT (easteard daylight time)
 
 
 
@@ -49,5 +49,7 @@ jobs:
           git config --local user.name "GitHub Actions"
           git pull
           git add --all
+          git reset data/ForC_sites.csv
+          git reset data/ForC_sites_missing_coordinates.csv
           git commit -am "update ForC_simplified figures"
           git push       
