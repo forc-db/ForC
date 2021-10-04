@@ -123,9 +123,9 @@ for( vgya in groups_to_flag) {
   
 }
 
-# unflag when site is confirmed.unique = 1 or potential_duplicate_group  = "0"
+# unflag when site is confirmed.unique = 1 or potential_duplicate_group  = "0" or duplicate_precedence = 1
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
-idx_sites <- SITES$confirmed.unique %in% "1" | SITES$potential_duplicate_group %in% "0"
+idx_sites <- SITES$confirmed.unique %in% "1" | SITES$potential_duplicate_group %in% "0" | SITES$duplicate_precedence %in% "1"
 
 ForC_simplified$suspected.duplicate[ForC_simplified$sites.sitename %in% SITES$sites.sitename[idx_sites] ] <- 0
 
