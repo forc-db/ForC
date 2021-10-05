@@ -1238,7 +1238,7 @@ for(i in 1:length(MEASUREMENTS.split)){
 } # for(i in 1:length(MEASUREMENTS.split))
 
 endtime <- Sys.time()
-endtime - starttime # 1.6 seconds
+endtime - starttime #  1.02038 mins
 
 # re-formate output ####
 MEASUREMENTS.final.split <- MEASUREMENTS.final
@@ -1316,7 +1316,8 @@ delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID
                                   "8816;17416;17480;48968",
                                   "15286;15287;15288;15289;19495;19496;19497;19498;19499;19500;19501;19502;19503;19504;19505;19506;19507;19508;19509;19510;19511;19512;25301;25311",
                                   "15298;15299;29714;29715;29716",
-                                  "17481;48972"
+                                  "17481;48972",
+                                  "7607;35161", "7608;35163", "7609;35165", "7597;35141", "7598;35143", "7610;35167", "7599;35145", "7600;35147", "7601;35149", "7639;35169", "7640;35171", "7641;35173", "7602;35151", "7642;35175", "7643;35177", "7644;35179", "7603;35153", "7604;35155", "7645;35181", "7646;35183", "7605;35157", "7606;35159", "8284;33574", "8285;33575", "8286;33576", "8288;33577" # correctly gives precedence to lower min.dbh
 )# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was. ONCE MEASUREMENT IS UPDATED AND PUSHED, THIS SHOULD BE EMPTIED THIS WAY: delete.old.version.meas.IDs <- c("")
 
 
