@@ -49,7 +49,6 @@ jobs:
           git config --local user.name "GitHub Actions"
           git pull
           git add --all
-          git reset data/ForC_sites.csv
-          git reset data/ForC_sites_missing_coordinates.csv
+          git reset -- data/ForC_sites.csv
           git commit -am "update ForC_simplified figures"
           git push       
