@@ -989,7 +989,7 @@ for( v in sort(unique(mean.not.within.range$variable.name))) {
   
   
     nowd <- date()
-    png(paste("scripts/QA_QC/GRAPH_", substring(nowd, 5, 7), 
+    png(paste("scripts/QA_QC/", v, "GRAPH_", substring(nowd, 5, 7), 
                            substring(nowd, 9, 10), "_", 
                            substring(nowd, 12, 13), 
                            substring(nowd, 15, 16), 
