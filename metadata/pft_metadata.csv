@@ -1,5 +1,5 @@
 Column,Field,Description,Storage.Type,Variable.Codes,n,Min,Max
 1 / A,pftcode,Code name for dominant plant functional type. Used in MEASUREMENTS table. ,character (string),-,19,-,-
 2 / B,description,Definition of the pftcode at the community level. Differs from individual level in that properly describes mixed plant functional types. Implemented March 2021 (version > v3.0).,character (string),-,19,-,-
-3 / C,description.individual,Definition of the pftcode at the individual plant level. This was the `description` field through v3.0 (changed March 2021). ,,-,19,-,-
-4 / D,notes,Details.,character (string),-,8,-,-
+3 / C,description.individual,Definition of the pftcode at the individual plant level. This was the `description` field through v3.0 (changed March 2021). ,,-,18,-,-
+4 / D,notes,Details.,character (string),-,7,-,-

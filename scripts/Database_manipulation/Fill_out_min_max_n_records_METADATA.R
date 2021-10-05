@@ -125,12 +125,12 @@ for(Table in c("MEASUREMENTS", "PLOTS", "SITES", "HISTORY", "PFT", "HISTTYPE", "
 }
 
 # SAVE ####
-# write.csv(MEASUREMENTS_meta, "metadata/measurements_metadata.csv", row.names = F)
-# write.csv(PLOTS_meta, "metadata/plots_metadata.csv", row.names = F)
-# write.csv(SITES_meta, "metadata/sites_metadata.csv", row.names = F)
-# write.csv(HISTORY_meta, "metadata/history_metadata.csv", row.names = F)
-# write.csv(PFT_meta, "metadata/pft_metadata.csv", row.names = F)
-# write.csv(HISTTYPE_meta, "metadata/histtype_metadata.csv", row.names = F)
-# write.csv(VARIABLES_meta, "metadata/variables_metadata.csv", row.names = F)
-# write.csv(METHODOLOGY_meta, "metadata/methodology_metadata.csv", row.names = F)
-# write.csv(ALLOMETRY_meta, "metadata/allometry_metadata.csv", row.names = F)
+write.csv(MEASUREMENTS_meta, "metadata/measurements_metadata.csv", row.names = F)
+write.csv(PLOTS_meta, "metadata/plots_metadata.csv", row.names = F)
+write.csv(SITES_meta, "metadata/sites_metadata.csv", row.names = F)
+write.csv(HISTORY_meta, "metadata/history_metadata.csv", row.names = F)
+write.csv(PFT_meta, "metadata/pft_metadata.csv", row.names = F)
+write.csv(HISTTYPE_meta, "metadata/histtype_metadata.csv", row.names = F)
+write.csv(VARIABLES_meta, "metadata/variables_metadata.csv", row.names = F)
+write.csv(METHODOLOGY_meta, "metadata/methodology_metadata.csv", row.names = F)
+write.csv(ALLOMETRY_meta, "metadata/allometry_metadata.csv", row.names = F)

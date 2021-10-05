@@ -1,4 +1,4 @@
 Column,Field,Description,Storage.Type,Variable.Codes,n,Min,Max
-1 / A,allometric.equation,"Code for allometric equation. Used in allometry and allometry2 fields in MEASUREMENTS table. When a single study presents multiple allometries (e.g., for various vegetation components or climates), the integer part refers to the study and the fractional parts refer to each individual allometry.   ",numeric (double) ,-,65,1,35
-2 / B,allometry.citation,Citation ID for publication describing the allometries. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.,character (string) ,-,65,-,-
-3 / C,allometry.notes,Description of the allometries used.,character (string) ,-,64,-,-
+1 / A,allometric.equation,"Code for allometric equation. Used in allometry and allometry2 fields in MEASUREMENTS table. When a single study presents multiple allometries (e.g., for various vegetation components or climates), the integer part refers to the study and the fractional parts refer to each individual allometry.   ",numeric (double) ,-,80,1,46
+2 / B,allometry.citation,Citation ID for publication describing the allometries. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.,character (string) ,-,80,-,-
+3 / C,allometry.notes,Description of the allometries used.,character (string) ,-,74,-,-

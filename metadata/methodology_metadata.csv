@@ -1,6 +1,6 @@
 Column,Field,Description,Storage.Type,Variable.Codes,n,Min,Max
-1 / A,method.ID,Code name for methodology. Used in MEASUREMENTS table. ,numeric (double) ,-,383,1,448
-2 / B,method.citation,Citation ID for publication describing the allometries. ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to the citations table. References to non-publications are not coded,character (string) ,-,383,-,-
-3 / C,variable.name,"The type of variable for which the methodology is described. May not exactly correspond to variable.name in VARIABLES table, as similar variables may be grouped together.",character (string) ,-,383,-,-
-4 / D,method.category,Categorical classification of method. Field added August 2018.,character (string) ,-,,,
-5 / E,method.notes,Description of the methodology used.,character (string) ,-,383,-,-
+1 / A,method.ID,Code name for methodology. Used in MEASUREMENTS table. ,numeric (double) ,-,415,1,1025
+2 / B,method.citation,Citation ID for publication describing the allometries. ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to the citations table. References to non-publications are not coded,character (string) ,-,415,-,-
+3 / C,variable.name,"The type of variable for which the methodology is described. May not exactly correspond to variable.name in VARIABLES table, as similar variables may be grouped together.",character (string) ,-,415,-,-
+4 / D,method.category,Categorical classification of method. Field added August 2018.,character (string) ,-,140,-,-
+5 / E,method.notes,Description of the methodology used.,character (string) ,-,385,-,-
