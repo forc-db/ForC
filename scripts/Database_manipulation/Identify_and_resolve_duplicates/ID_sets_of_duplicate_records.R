@@ -1530,7 +1530,7 @@ if(length(need.user.input.split.ID) > 0) {
     
     print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
     print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
-     readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
+     # readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
     
   }
   
