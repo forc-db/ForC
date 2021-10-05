@@ -1,6 +1,6 @@
 "Biome","Age","n_records"
 "Boreal broadleaf","MATURE",3
-"Boreal conifer","MATURE",676
+"Boreal conifer","MATURE",671
 "Boreal Other","MATURE",53
 "Other broadleaf","MATURE",8
 "Other conifer","MATURE",24
@@ -8,18 +8,18 @@
 "Temperate broadleaf","MATURE",916
 "Temperate conifer","MATURE",662
 "Temperate Other","MATURE",204
-"Tropical broadleaf","MATURE",1133
+"Tropical broadleaf","MATURE",1136
 "Tropical conifer","MATURE",3
 "Tropical Other","MATURE",8
 "Boreal broadleaf","YOUNG",416
-"Boreal conifer","YOUNG",1317
+"Boreal conifer","YOUNG",1338
 "Boreal Other","YOUNG",267
 "Other broadleaf","YOUNG",126
 "Other conifer","YOUNG",48
 "Other Other","YOUNG",23
-"Temperate broadleaf","YOUNG",3556
-"Temperate conifer","YOUNG",3243
-"Temperate Other","YOUNG",2516
+"Temperate broadleaf","YOUNG",3568
+"Temperate conifer","YOUNG",3201
+"Temperate Other","YOUNG",2494
 "Tropical broadleaf","YOUNG",3055
 "Tropical conifer","YOUNG",4
 "Tropical Other","YOUNG",0
@@ -32,6 +32,6 @@
 "Temperate broadleaf",NA,237
 "Temperate conifer",NA,171
 "Temperate Other",NA,135
-"Tropical broadleaf",NA,110
+"Tropical broadleaf",NA,109
 "Tropical conifer",NA,0
 "Tropical Other",NA,9
