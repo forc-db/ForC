@@ -237,7 +237,7 @@ if(!all(unique(na.omit(MEASUREMENTS$citation.ID)) [!unique(na.omit(MEASUREMENTS$
 
 
 m_no_citation <- unique(MEASUREMENTS[,"citation.ID"][!MEASUREMENTS$citation.ID %in% CITATIONS$citation.ID & !MEASUREMENTS$citation.ID %in% c("NAC", "NI", "NRA") & !is.na(MEASUREMENTS$citation.ID),])
- 
+
 look_name <- "m_no_citation"
 look <- get(look_name)
 say <- paste("There are", nrow(look), "citation.ID in measurements that are not defined in CITATIONS\n")
@@ -976,10 +976,10 @@ if(nrow(look) > 0) {
 
 
 # plot to trouble shoot ####
-require("R2HTML")
+# require("R2HTML")
 
-target <- HTMLInitFile(outdir = paste0(getwd(), "/scripts/QA_QC"), filename = "checking_range_of_records")
-HTML("<h1>These are plots to review wether records outside of range are plausible or if they are mistakes.</h1>",file=target)
+# target <- HTMLInitFile(outdir = paste0(getwd(), "/scripts/QA_QC"), filename = "checking_range_of_records")
+# HTML("<h1>These are plots to review wether records outside of range are plausible or if they are mistakes.</h1>",file=target)
 
 for( v in sort(unique(mean.not.within.range$variable.name))) {
   old_minimum <- as.numeric(VARIABLES[VARIABLES$variable.name %in% v,]$min)
@@ -987,11 +987,21 @@ for( v in sort(unique(mean.not.within.range$variable.name))) {
   curr_minimum <- min(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, na.rm = T)
   curr_maximum <- max(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, na.rm = T)
   
+  
+    nowd <- date()
+    png(paste("scripts/QA_QC/GRAPH_", substring(nowd, 5, 7), 
+                           substring(nowd, 9, 10), "_", 
+                           substring(nowd, 12, 13), 
+                           substring(nowd, 15, 16), 
+                           substring(nowd, 18, 19), ".png", sep = ""))
+
+  
   plot(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, ylim = c(min(old_minimum, curr_minimum), max(old_maximum, curr_maximum)), main = v, col = ifelse(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID %in% mean.not.within.range[mean.not.within.range$variable.name %in% v, ]$measurement.ID, "red", "black"), pch = 16, ylab = v)
   abline(h =c(old_minimum, old_maximum))
   text(x = 1:nrow(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]), y = MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$mean, labels = ifelse(MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID %in% mean.not.within.range[mean.not.within.range$variable.name %in% v, ]$measurement.ID, MEASUREMENTS[MEASUREMENTS$variable.name %in% v, ]$measurement.ID, NA), pos = 2)
   
-  HTMLplot(file=target, append = T, GraphDirectory = "scripts/QA_QC")
+  # HTMLplot(file=target, append = T, GraphDirectory = "scripts/QA_QC")
+dev.off()  
   
   Sys.sleep(1)
 }
@@ -1056,16 +1066,16 @@ if(length(err) > 0){
   text(0,0.1, err_message, col = "red", cex = 0.6, adj = c(.5,0.5))
   dev.off()
   
-  } else {
-    # if(file.exists(filename))  file.remove(filename)
-    
-    png(filename, width = 6, height = 0.5 + (0.3*length(err)), units = "in", res = 300)
-    par(mar = c(0,0,0,0))
-    plot(0,0, axes = F, xlab = "", ylab = "", type = "n")
-    text(0,0.1, "HOORAY!\nThere are NO ERRORS to fix!", col = "forestgreen", cex = 0.6, adj = c(.5,0.5))
-    dev.off()
-    
-  }
+} else {
+  # if(file.exists(filename))  file.remove(filename)
+  
+  png(filename, width = 6, height = 0.5 + (0.3*length(err)), units = "in", res = 300)
+  par(mar = c(0,0,0,0))
+  plot(0,0, axes = F, xlab = "", ylab = "", type = "n")
+  text(0,0.1, "HOORAY!\nThere are NO ERRORS to fix!", col = "forestgreen", cex = 0.6, adj = c(.5,0.5))
+  dev.off()
+  
+}
 
 
 
