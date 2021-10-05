@@ -3364,8 +3364,6 @@
 3454,"Conasauga River","Temperate Deciduous Forest","NAC",3454.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3455,"Conasauga River","Temperate Deciduous Forest with Burning treatment","NAC",3455.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3456,"Tomakomai","Temperate Deciduous Forest. Stand established around 1956","NAC",3456.01,"1956",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3457,"Yellowstone NP","Aggrading Temperate Evergreen Forest. Stand established around 1988","NAC",3457.01,"1988",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3458,"Yellowstone NP","Temperate Evergreen Forest. Stand established around 1891","NAC",3458.01,"1891",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3459,"SETRES","Managed Aggrading Temperate Evergreen Forest with Irrigation treatment. Stand established around 1984","NAC",3459.01,"1984",3459.02,"Initiation of post-disturbance cohort (planted or natural)","1984",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3459.03,0,0,0
 3460,"SETRES","Managed Aggrading Temperate Evergreen Forest with Irrigation, fertilized treatment. Stand established around 1984","NAC",3460.01,"1984",3460.02,"Initiation of post-disturbance cohort (planted or natural)","1984",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,3460.03,3460.04,0,0
 3461,"Texas Agricultural Experiment Station La Copita Research Area","Subtropical Deciduous Forest. Stand established around 1955.7","NAC",3461.01,"1955",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -4459,10 +4457,6 @@
 4746,"Blodgett FRS","Aggrading Mediterranean Evergreen Forest. Stand established around 1990","NAC",4746.01,"1990",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4747,"Nam","Temperate Deciduous Forest","NAC",4747.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4748,"Kwangung","Temperate Deciduous Forest","NAC",4748.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4749,"Yellowstone-younglow","Aggrading Temperate Evergreen Forest. Stand established around 1987","NAC",4749.01,"1987",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4750,"Yellowstone-youngmedium","Aggrading Temperate Evergreen Forest. Stand established around 1987","NAC",4750.01,"1987",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4751,"Yellowstone-younghigh","Aggrading Temperate Evergreen Forest. Stand established around 1987","NAC",4751.01,"1987",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4752,"Yellowstone-old","Temperate Evergreen Forest. Stand established around 1890","NAC",4752.01,"1890",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4753,"Hyytiala-SMEAR II","Boreal Evergreen Forest. Stand established around 1962","NAC",4753.01,"1962",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4754,"Bad a Cheo","Aggrading Temperate Evergreen Forest. Stand established around 1968","NAC",4754.01,"1968",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4755,"USDA FS Institute Forest Genetics","Aggrading Temperate Evergreen Forest","NAC",4755.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -10387,7 +10381,6 @@
 10815,"Thompson Research Center","regrowth stand regenerating via spontaneous natural regeneration (GROA plot.id 9180)","0.045",10815.02,"NAC",10815.03,"Initiation of post-disturbance cohort (planted or natural)","NAC",10815.01,"StandClearing","100","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 10816,"Craigieburn Range","regrowth stand regenerating via spontaneous natural regeneration established around 1981 16","NAC",10816.02,"1981",10816.03,"Initiation of post-disturbance cohort (planted or natural)","1981",10816.01,"NAC","NAC","1981",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 10817,"Craigieburn Range","regrowth stand regenerating via spontaneous natural regeneration established around 1966 9","NAC",10817.02,"1966",10817.03,"Initiation of post-disturbance cohort (planted or natural)","1966",10817.01,"NAC","NAC","1966",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-10818,"Yellowstone National Park - low density young","low density young regrowth stand regenerating via spontaneous natural regeneration established around 1988","NAC",10818.02,"1988",10818.03,"Initiation of post-disturbance cohort (planted or natural)","1988",10818.01,"Burned","NAC","1988",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 10819,"Magog","regrowth stand regenerating via spontaneous natural regeneration established around 1984 36","NAC",10819.02,"1984",10819.03,"Initiation of post-disturbance cohort (planted or natural)","1984",10819.01,"Grazed","100","1984",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 10820,"Magog","regrowth stand regenerating via spontaneous natural regeneration established around 1938 5","NAC",10820.02,"1938",10820.03,"Initiation of post-disturbance cohort (planted or natural)","1938",10820.01,"Agriculture_generic","100","1938",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 10821,"Magog","regrowth stand regenerating via spontaneous natural regeneration established around 2009 3","NAC",10821.02,"2009",10821.03,"Initiation of post-disturbance cohort (planted or natural)","2009",10821.01,"Grazed","100","2009",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
