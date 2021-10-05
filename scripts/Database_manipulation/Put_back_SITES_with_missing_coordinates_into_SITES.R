@@ -18,5 +18,7 @@ SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 SITES_MISSING_COOR <- read.csv("data/ForC_sites_missing_coordinates.csv", stringsAsFactors = F)
 
 # SAVE ####
+SITES <- rbind(SITES, SITES_MISSING_COOR)
+SITES <- SITES[order(SITES$site.ID), ]
 
-write.csv(rbind(SITES, SITES_MISSING_COOR), "data/ForC_sites.csv", row.names = F)
+write.csv(SITES, "data/ForC_sites.csv", row.names = F)
