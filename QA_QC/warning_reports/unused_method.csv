@@ -2,6 +2,8 @@
 "130","Norby_2002_nppo","BNPP_coarse root",NA,"Allometric relations"
 "131","Norby_2002_nppo","BNPP_fine root",NA,"Soil cores, minirhizitrons"
 "132","Norby_2002_nppo","NPP","sum of components","includes foliage, stem, coarse root, fine root, branch, understory production as detailed in methodology source."
+"166","Wirth_2002_babc","BNPP_coarse root",NA,"Allometric relations"
+"167","Wirth_2002_babc","BNPP_fine root",NA,"Fine root biomass, turnover (Finnish values)"
 "281","Yan_2006_eosr","R_soil_C",NA,"Chamber"
 "313","Moncrieff_1999_amfs","R_soil_C",NA,"Chamber"
 "328","Ehman_2002_aiio","R_het_soil_C",NA,"litter + fine root turnover (C-balance)"
