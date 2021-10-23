@@ -1,4 +1,7 @@
 "measurement.ID","sites.sitename","variable.name","mean","min_range","max_range"
-17062,"Yellowstone National Park (YNP)","ANPP_2_C",5900,0,17.91
+17055,"Yellowstone National Park (YNP)","ANPP_2_C",8727000,0,17.91
+17062,"Yellowstone National Park (YNP)","ANPP_2_C",59000,0,17.91
+17068,"Yellowstone National Park (YNP)","ANPP_2_C",76000,0,17.91
+17073,"Yellowstone National Park (YNP)","ANPP_2_C",333000,0,17.91
 49099,"Manaus BR-174","delta.agb_OM",11,-3.95,2.88
 49100,"Manaus BR-174","delta.agb_C",5.6,-0.908,4.5
