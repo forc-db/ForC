@@ -15,6 +15,10 @@
 22475,"Yellowstone National Park (YNP)","ANPP_litterfall_0_C",53000,0,28
 22483,"Yellowstone National Park (YNP)","ANPP_litterfall_0_C",42000,0,28
 22499,"Yellowstone National Park (YNP)","ANPP_litterfall_0_C",37000,0,28
+17058,"Yellowstone National Park (YNP)","BNPP_root_coarse_C",2148000,0,9.86
+17071,"Yellowstone National Park (YNP)","BNPP_root_coarse_C",3000,0,9.86
+17076,"Yellowstone National Park (YNP)","BNPP_root_coarse_C",56000,0,9.86
+17065,"Yellowstone National Park (YNP)","BNPP_root_coarse_C",105000,0,9.86
 49099,"Manaus BR-174","delta.agb_OM",11,-3.95,2.88
 49100,"Manaus BR-174","delta.agb_C",5.6,-0.908,4.5
 22492,"Yellowstone National Park (YNP)","biomass_ag_C",412000,0,1053
@@ -33,3 +37,11 @@
 22487,"Yellowstone National Park (YNP)","biomass_root_fine_C",42000,0.00012,38
 22495,"Yellowstone National Park (YNP)","biomass_root_fine_C",58000,0.00012,38
 22503,"Yellowstone National Park (YNP)","biomass_root_fine_C",68000,0.00012,38
+22480,"Yellowstone National Park (YNP)","organic.layer_C",7526000,0,328.75
+22488,"Yellowstone National Park (YNP)","organic.layer_C",6550000,0,328.75
+22504,"Yellowstone National Park (YNP)","organic.layer_C",6122000,0,328.75
+22496,"Yellowstone National Park (YNP)","organic.layer_C",5783000,0,328.75
+17059,"Yellowstone National Park (YNP)","soil_C",3376000,2.2,1641
+17070,"Yellowstone National Park (YNP)","soil_C",3586000,2.2,1641
+17077,"Yellowstone National Park (YNP)","soil_C",2814000,2.2,1641
+17064,"Yellowstone National Park (YNP)","soil_C",2383000,2.2,1641
