@@ -1,4 +1,8 @@
 "measurement.ID","sites.sitename","variable.name","mean","min_range","max_range"
+17054,"Yellowstone National Park (YNP)","TBCF_C",2230000,0.68,24.6
+17069,"Yellowstone National Park (YNP)","TBCF_C",34000,0.68,24.6
+17072,"Yellowstone National Park (YNP)","TBCF_C",117000,0.68,24.6
+17063,"Yellowstone National Park (YNP)","TBCF_C",175000,0.68,24.6
 17055,"Yellowstone National Park (YNP)","ANPP_2_C",8727000,0,17.91
 17062,"Yellowstone National Park (YNP)","ANPP_2_C",59000,0,17.91
 17068,"Yellowstone National Park (YNP)","ANPP_2_C",76000,0,17.91
