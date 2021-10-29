@@ -1,10 +1,7 @@
 "measurement.ID","sites.sitename","variable.name","mean","min_range","max_range"
-17069,"Yellowstone National Park (YNP)","TBCF_C",0.34,0.68,24.6
-17056,"Yellowstone National Park (YNP)","ANPP_woody_stem_C",79.09,0,18.05
 22491,"Yellowstone National Park (YNP)","ANPP_litterfall_1_C",0.3,0.41,6.53
 22475,"Yellowstone National Park (YNP)","ANPP_litterfall_1_C",0.003,0.41,6.53
 22483,"Yellowstone National Park (YNP)","ANPP_litterfall_1_C",0.19,0.41,6.53
-17058,"Yellowstone National Park (YNP)","BNPP_root_coarse_C",21.48,0,9.86
 49099,"Manaus BR-174","delta.agb_OM",11,-3.95,2.88
 49100,"Manaus BR-174","delta.agb_C",5.6,-0.908,4.5
 22480,"Yellowstone National Park (YNP)","O.horizon_C",0.77,1.2,57
