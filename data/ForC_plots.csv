@@ -246,9 +246,9 @@
 245,"Bilos Clear","recently disturbed","NAC",245.03,"1999.915068",245.02,"Initiation of post-disturbance cohort (planted or natural)","1999.915068",245.01,"Harvest","NI","1999.915068",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 246,"Bilos","Managed","NAC",246.03,"1970",246.02,"Initiation of post-disturbance cohort (planted or natural)","1970",246.01,"Harvest","NI","1970",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 247,"Bily Kriz Forest","Managed","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-248,"Biology of Forest Growth experimental plantation in Pierces Creek Forest","Control (C)","NAC",248.06,"1973",248.07,"Planted","1973",248.05,"Burned","100","1972",248.04,248,248.08,"Cut","<100%","1988.748634",0,NA,NA,NA,0,0,0,0,0,0,0
-249,"Biology of Forest Growth experimental plantation in Pierces Creek Forest","Irrigated (I)","NAC",249.06,"1973",249.07,"Planted","1973",249.05,"Burned","100","1972",249.04,249,249.09,"Cut","<100%","1988.748634",0,NA,NA,NA,0,0,0,249.08,0,0,0
-250,"Biology of Forest Growth experimental plantation in Pierces Creek Forest","Irrigated + Liquid Fertilized (IF)","NAC",250.07,"1973",250.06,"Planted","1973",250.05,"Burned","100","1972",250.04,250,250.1,"Cut","<100%","1988.748634",0,NA,NA,NA,0,0,0,250.08,250.09,0,0
+248,"Biology of Forest Growth experimental Plantation-C in Pierces Creek Forest","Control (C)","NAC",248.06,"1973",248.07,"Planted","1973",248.05,"Burned","100","1972",248.04,248,248.08,"Cut","<100%","1988.748634",0,NA,NA,NA,0,0,0,0,0,0,0
+249,"Biology of Forest Growth experimental Plantation-C in Pierces Creek Forest","Irrigated (I)","NAC",249.06,"1973",249.07,"Planted","1973",249.05,"Burned","100","1972",249.04,249,249.09,"Cut","<100%","1988.748634",0,NA,NA,NA,0,0,0,249.08,0,0,0
+250,"Biology of Forest Growth experimental Plantation-C in Pierces Creek Forest","Irrigated + Liquid Fertilized (IF)","NAC",250.07,"1973",250.06,"Planted","1973",250.05,"Burned","100","1972",250.04,250,250.1,"Cut","<100%","1988.748634",0,NA,NA,NA,0,0,0,250.08,250.09,0,0
 251,"Bionte (Luizao)","lowland tropical forest","NAC",0,"NAC",0,"NI","NAC",0,"NI",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 252,"Bionte 1","terra firma BNT-01","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 253,"Bionte 2","terra firma BNT-02","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3114,7 +3114,7 @@
 3182,"Vaatsa","Managed Aggrading Boreal Evergreen Forest with Drained treatment. Stand established around 1959","NAC",3182.01,"1959",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3183,"Vesijako","Managed Aggrading Boreal Evergreen Forest with Drained treatment. Stand established around 1948","NAC",3183.01,"1948",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3184,"Kivalo","Managed Boreal Evergreen Forest with Drained treatment. Stand established around 1933","NAC",3184.01,"1933",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3185,"BFG Plantation-C","Aggrading Temperate Evergreen Forest. Stand established around 1973","NAC",3185.01,"1973",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+3185,"Biology of Forest Growth experimental Plantation-C in Pierces Creek Forest","Aggrading Temperate Evergreen Forest. Stand established around 1973","NAC",3185.01,"1973",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3186,"BOREAS SSA-OJP","Boreal Evergreen Forest. Stand established around 1929","NAC",3186.01,"1929",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3187,"BOREAS SSA-OA","Boreal Deciduous Forest. Stand established around 1927","NAC",3187.01,"1927",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3189,"University of Michigan Biological Station","Aggrading Temperate Deciduous Forest. Stand established around 1998","NAC",3189.01,"1998",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
