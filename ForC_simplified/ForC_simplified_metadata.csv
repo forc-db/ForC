@@ -1,5 +1,5 @@
 "Column","Source.Table","Field","Description","Storage.Type","Variable.Codes","Units","n","Min","Max"
-"1/A","MEASUREMENTS","measurement.ID","Unique identifier for each record in the measurements table.","numeric (integer)","-","-",32533,"1","49113"
+"1/A","MEASUREMENTS","measurement.ID","Unique identifier for each record in the measurements table.","numeric (integer)","-","-",32533,"1","49116"
 "2/B","MEASUREMENTS","sites.sitename","Site identifier, sufficient to uniquely identify the site within the paper.","character (string)","-","-",32533,"-","-"
 "3/C","MEASUREMENTS","plot.name","Plot name, unique within the associated site and sufficient to identify the plot within the original publication.","character (string)","-","-",31947,"-","-"
 "4/D","MEASUREMENTS","stand.age","Age of stand at time of measurement as reported in the original publication or calculated based on the date of initiation of forest regrowth. When the publication reports a range of ages, the mean is recorded. For stands that were reported as primary/old-growth/mature/ intact stands, the stand.age is recorded as ""999"". WARNING: The ""999"" designation may include some older secondary stands that were designated ""mature"" or some partially disturbed primary stands (e.g., partially logged).","numeric (double)","see description","years",30914,"0","3400"
