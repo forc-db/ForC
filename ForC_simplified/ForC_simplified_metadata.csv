@@ -17,7 +17,7 @@
 "16/P","SITES","country","Country","character (string)","-","-",32532,"-","-"
 "17/Q","SITES","lat","Latitude, where negative values indicate S hemisphere","numeric (double)","-","decimal degrees",32532,"-45","70"
 "18/R","SITES","lon","Longitude, where negative values indicate W hemisphere","numeric (double)","-","decimal degrees",32532,"-171","176"
-"19/S","SITES","masl","Elevation in meters above sea level. When a range is given, midpoint is reported.","numeric (double)","-","m ",24084,"-22","4868"
+"19/S","SITES","masl","Elevation in meters above sea level. When a range is given, midpoint is reported.","numeric (double)","-","m ",24085,"-22","4868"
 "20/T","SITES","mat","Mean annual temperature ","numeric (double)","-","C",24315,"-17","32"
 "21/U","SITES","map","Mean annual precipitation ","numeric (double)","-","mm",26350,"56","10754"
 "22/V","SITES","geographic.area","Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github scripts folder).","numeric (integer) ","-","-",32493,"1","1531"
