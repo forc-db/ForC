@@ -3,8 +3,10 @@ library(sp)
 library(maptools)
 library(rgdal)
 library(mapview)
+
 setwd()
-ForC_sites <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/ForC/data/ForC_sites.csv")
+
+ForC_sites <- read.csv("data/ForC_sites.csv")
 coordinates(ForC_sites)<- c("lon", "lat")
 BNG<- CRS("+init=epsg:4326") #reference from http://spatialreference.org/ref/epsg/4326/
 p4s <- CRS("+proj=longlat +ellps=WGS84 +datum=WGS84")
