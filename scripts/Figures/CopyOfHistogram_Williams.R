@@ -15,8 +15,13 @@ setwd(".")
 
 # Load libraries ####
 
+library(dplyr)
 # Load forC MEASUREMENTS table ####
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
+
+MEASUREMENTS <- MEASUREMENTS %>% 
+  filter(loaded.by == "Madison Williams" | loaded.by=="Madison Williams; R script by Valentine Herrmann"
+         |loaded.by == "R script by Valentine Herrmann; Madison Williams")
 
 # Prepare data to plot ####
 
@@ -43,7 +48,7 @@ names.data.to.plot <- c("2TEN\nevergreen needleleaf", "2TDB\nbroadleaf deciduous
 
 # Plot ####
 
-png(file="figures/Histogram_of_dominant_vegetation.png", width=200, height = 150, units = "mm", res = 300, pointsize = 10)
+png(file="figures/Williams_Histogram_of_dominant_vegetation.png", width=200, height = 150, units = "mm", res = 300, pointsize = 10)
 
 par(mar = c(8,5,2.1,2.1))
 
