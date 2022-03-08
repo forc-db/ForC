@@ -19,7 +19,7 @@ setwd(".")
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 CITATIONS <-  read.csv("data/ForC_citations.csv", stringsAsFactors = F)
 
-# Prepare data to plot ####
+# Prepare data to plot #### 
 
 
 dates.collection <- as.numeric(substr(MEASUREMENTS$end.date, 1,4))
