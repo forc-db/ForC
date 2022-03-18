@@ -1,4 +1,5 @@
 current.priority,citation.ID,citation.doi,citation.author,citation.year,citation.title,variables,disturbance.types,geographic.scope,n.sites,n.plots,n.records,notes,status,GitHub.issue,date.finished
+1,Piponiot_2022_dobd,10.1111/nph.17995,Piponiot,2022,Distribution of biomass dynamics in relation to tree size in forests across the world,"AGB, ANPP_stem, M_woody, delta.agb",mixed,global,,,,,2-pending,,
 ,Collalti_2020_fpei,10.1038/s41467-020-19187-w,Collalti,2020,Forest production efficiency increases with growth temperature,,,,,,,data in Zenodo repo: https://doi.org/10.5281/zenodo.3953478. AC contacted KAT in spring 2021 with interest in contributing data,1-requires assessment,,
 ,,,Chao,,Very low stocks and inputs of necromass in wind-affected tropical forests,,,,,,,,,,
 ,,10.1186/s13717-020-00275-0,Lutz,2021,"Large-diameter trees, snags, and deadwood in southern Utah, US","deadwood, biomass mortality(?)",old growth,"Utah, US",1,1,,,2-pending,,
