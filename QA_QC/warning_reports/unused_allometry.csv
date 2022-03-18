@@ -21,5 +21,7 @@
 23.08,"Hughes_1999_bcan","Biomass; sapling leaves"
 27.1,"Lugo_1992_cott","Tabebuia heterophylla leaf biomass"
 27.2,"Lugo_1992_cott","Tabebuia heterophylla stem biomass"
+33.1,"Chave_2014_iamt","Equation 4. Includes height as an input variable"
 40.2,"Niiyama_2010_eorb","equation to estimate fine root biomass"
 40.3,"Niiyama_2010_eorb","equation to estimate AGB"
+48,"McEwan et al., 2011","height allometry subtropical broad-leaved forests of Taiwan"
