@@ -64,6 +64,7 @@ allometric.equation,allometry.citation,allometry.notes
 31,Gonzalez-Akre_2016_potm,"Stem biomass was estimated using local and species-specific biomass allometries, when possible (Appendix S1: Table S2). Allometric equations were obtained from existing compilations for North America (Jenkins et al. 2004, Chojnacky et al. 2014). For each species, we selected among available allometries in the following order of priority: (1) species-specific allometries > genus-specific allometries > family-specific allometries; (2) proximity to site > regional allometries. When no biomass regressions were found for a particular species (n = 11) at any taxonomical level, we used the generalized equation for mixed woods in Jenkins et al. (2004).  "
 32,Tepley_2017_vtfl,See Appendix S2 for a compilation of allometric equations by species and the citations to the original publications
 33,Chave_2014_iamt,"Equation 7. Based on DBH and an environmental stress parameter (E), which is a function of climatic water deficit, temperature seasonality, and precipitation seasonality"
+33.1,Chave_2014_iamt,Equation 4. Includes height as an input variable
 34,Goodman_2013_apba,"Palm trees (Arecaceae), based on DBH"
 35,Crow_1980_arca,"functions were derived from weight-dimensional data listed by Ovington and Olson (1970), but with sample trees less than 4.0 cm dbh eliminated"
 36,Chojnacky_2013_ugbe,composite taxa-specific equations
@@ -80,3 +81,4 @@ allometric.equation,allometry.citation,allometry.notes
 45,Lambert_2005_cnta,Canadian national tree aboveground biomass equations 
 46,Perala_1993_abef,NA
 47,Litton_2003_baab,postfire lodgepole pine forests in Yellowstone
+48,"McEwan et al., 2011 ",height allometry subtropical broad-leaved forests of Taiwan
