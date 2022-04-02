@@ -19,6 +19,7 @@ library(dplyr)
 # Load forC MEASUREMENTS table ####
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 
+# Filtering for measurements entered by Madison Williams 
 MEASUREMENTS <- MEASUREMENTS %>% 
   filter(loaded.by == "Madison Williams" | loaded.by=="Madison Williams; R script by Valentine Herrmann"
          |loaded.by == "R script by Valentine Herrmann; Madison Williams")
