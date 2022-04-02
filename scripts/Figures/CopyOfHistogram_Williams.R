@@ -14,52 +14,62 @@ rm(list = ls())
 setwd(".")
 
 # Load libraries ####
-
+library(ggplot2)
 library(dplyr)
+
 # Load forC MEASUREMENTS table ####
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 
 # Filtering for measurements entered by Madison Williams 
-MEASUREMENTS <- MEASUREMENTS %>% 
+MEASUREMENTS_filter <- MEASUREMENTS %>% 
   filter(loaded.by == "Madison Williams" | loaded.by=="Madison Williams; R script by Valentine Herrmann"
          |loaded.by == "R script by Valentine Herrmann; Madison Williams")
 
-# Prepare data to plot ####
+View(MEASUREMENTS_filter)
 
+a<- ggplot(data = MEASUREMENTS_filter, mapping = aes(x =count(dominant.veg) )) +
+  geom_bar()
+a
 
-category <-ifelse(MEASUREMENTS$dominant.life.form %in% "woody+grass", "savanna", MEASUREMENTS$dominant.veg)
-
-category <-ifelse(category %in% "2TB", "2TDB",
-                  ifelse(category %in% "2TN", "2TDN",
-                         ifelse(category %in%  c("2TD", "2TE"), "2TM",
-                                ifelse(category %in% c("2BARE", "2GRAM"), "no woody vegetation",
-                                       ifelse(category %in% c("NAC", "2TREE", "2SHRUB"), "woody other/unclassified",
-                                              category)))))
-
-
-
-data.to.plot <- table(category, dnn = NULL)
-
-data.to.plot <- sort(data.to.plot, decreasing = T)
-
-names(data.to.plot)
-names.data.to.plot <- c("2TEN\nevergreen needleleaf", "2TDB\nbroadleaf deciduous", "2TEB\nbroadleaf evergreen", "2TM\nbroadleaf needleleaf mix", "2TDN\nneedleleaf deciduous", "woody\nother/unclassified", 
-                        "savanna", "no woody\nvegetation")
-
-
-# Plot ####
-
-png(file="figures/Williams_Histogram_of_dominant_vegetation.png", width=200, height = 150, units = "mm", res = 300, pointsize = 10)
-
-par(mar = c(8,5,2.1,2.1))
-
-b <- barplot(data.to.plot, ylab = "", xlab = "", las = 1, xaxt = "n" )
-
-text(x = b-0.5 , y = rep(-1000, length(names.data.to.plot)), labels = names.data.to.plot, xpd = TRUE, srt = 45)
-
-mtext("Number of records", side = 2, line = 4)
-
-
-dev.off()
-
-
+ggplot(data = MEASUREMENTS_filter["dominant.life.form"], mapping = aes(x=count())) +
+  geom_histogram(color = "white")
+ 
+# # Prepare data to plot ####
+# 
+# 
+# category <-ifelse(MEASUREMENTS$dominant.life.form %in% "woody+grass", "savanna", MEASUREMENTS$dominant.veg)
+# 
+# category <-ifelse(category %in% "2TB", "2TDB",
+#                   ifelse(category %in% "2TN", "2TDN",
+#                          ifelse(category %in%  c("2TD", "2TE"), "2TM",
+#                                 ifelse(category %in% c("2BARE", "2GRAM"), "no woody vegetation",
+#                                        ifelse(category %in% c("NAC", "2TREE", "2SHRUB"), "woody other/unclassified",
+#                                               category)))))
+# 
+# 
+# 
+# data.to.plot <- table(category, dnn = NULL)
+# 
+# data.to.plot <- sort(data.to.plot, decreasing = T)
+# 
+# names(data.to.plot)
+# names.data.to.plot <- c("2TEN\nevergreen needleleaf", "2TDB\nbroadleaf deciduous", "2TEB\nbroadleaf evergreen", "2TM\nbroadleaf needleleaf mix", "2TDN\nneedleleaf deciduous", "woody\nother/unclassified", 
+#                         "savanna", "no woody\nvegetation")
+# 
+# 
+# # Plot ####
+# 
+# png(file="figures/Williams_Histogram_of_dominant_vegetation.png", width=200, height = 150, units = "mm", res = 300, pointsize = 10)
+# 
+# par(mar = c(8,5,2.1,2.1))
+# 
+# b <- barplot(data.to.plot, ylab = "", xlab = "", las = 1, xaxt = "n" )
+# 
+# text(x = b-0.5 , y = rep(-1000, length(names.data.to.plot)), labels = names.data.to.plot, xpd = TRUE, srt = 45)
+# 
+# mtext("Number of records", side = 2, line = 4)
+# 
+# 
+# dev.off()
+# 
+# 
