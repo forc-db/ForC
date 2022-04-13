@@ -21,7 +21,7 @@ load("supplementary_resources/World Map data/data_for_World_Map_with_Biogeograph
 # load and prepare ForC_simplified sites ####
 ForC_simplified <- read.csv("ForC_simplified/ForC_simplified.csv", stringsAsFactors = F)
 
-## Filter out managed, disturbed and no hisotry info sites
+## Filter out managed, disturbed and no history info sites
 ForC_simplified <- ForC_simplified[ForC_simplified$managed %in% 0 & ForC_simplified$disturbed %in% 0 & ForC_simplified$history.no.info %in% 0, ]
 
 ## filter out suspected duplicates ####
