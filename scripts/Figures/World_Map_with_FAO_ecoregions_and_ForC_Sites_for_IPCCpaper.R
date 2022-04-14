@@ -54,7 +54,15 @@ proj4string(SITES) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +tow
 
 
 rbPal <- colorRampPalette(c("yellow", "red4"))
-SITES$Color <- rbPal(6)[as.numeric(cut(SITES$No.of.records, breaks = c(0,1,10,20,30, 40, 50) ))]
+bin = 9
+SITES$No.of.records_Group <- findInterval(SITES$No.of.records, unique(quantile(SITES$No.of.records, seq(0, 1, length.out = bin + 1))), rightmost.closed = T)
+SITES$No.of.records_Group[SITES$No.of.records == 1] <- 0
+SITES$No.of.records_Group <- factor(SITES$No.of.records_Group)
+levels(SITES$No.of.records_Group) <- tapply(SITES$No.of.records, SITES$No.of.records_Group, function(x) paste(min(x), max(x), sep = "-"))
+
+levels(SITES$No.of.records_Group) <-  gsub("(^\\d&)-\\1", "\\1", levels(SITES$No.of.records_Group))
+                                          
+SITES$Color <- rbPal(bin)[as.numeric(SITES$No.of.records_Group)]
 
 
 
@@ -73,15 +81,15 @@ par(mar = c(0,0,0,0))
 plot(FAO, col = FAO_colors$Color, border = "transparent")
 axis(2)
 box()
-points(SITES, bg = SITES$Color, pch = ifelse(SITES$some_data_sent_to_EFDB, 24, 21), col = "black", lwd = 0.5)
+points(SITES, bg = SITES$Color, pch = ifelse(SITES$some_data_sent_to_EFDB, 24, 21), lwd = ifelse(SITES$some_data_sent_to_EFDB, 1, 0.5), cex = ifelse(SITES$some_data_sent_to_EFDB, 1.5, 1), col = "black")
 
 rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", border = "transparent")
 # legend
 
 
-legend(-182, -35, pch = 21, pt.bg = rbPal(6), legend = c("1", "2-10", "11-20", "21-40", "41-80", "81-277"), bty = "n", title = expression(bold("No. of records")))
+legend(-182, -35, pch = 21, pt.bg = rbPal(bin), pt.lwd = 0.5, legend = levels(SITES$No.of.records_Group), bty = "n", title = expression(bold("No. of records")))
 
-legend(-182, -90, pch = 24, pt.bg = "white", legend = c("Site with some data sent to EFDB"), bty = "n", title = "")
+legend(-182, -90, pch = 24, pt.cex = 1.5, pt.bg = "white", legend = c("Site with some data sent to EFDB"), bty = "n", title = "")
 
 legend(-20, -40, fill =FAO_colors$Color, border = "transparent", legend = FAO_colors$gez_abbrev, bty = "n", title = expression(bold("FAO ecozone")), ncol = 3) # removed other
 
