@@ -60,7 +60,7 @@ SITES$No.of.records_Group[SITES$No.of.records == 1] <- 0
 SITES$No.of.records_Group <- factor(SITES$No.of.records_Group)
 levels(SITES$No.of.records_Group) <- tapply(SITES$No.of.records, SITES$No.of.records_Group, function(x) paste(min(x), max(x), sep = "-"))
 
-levels(SITES$No.of.records_Group) <- gsub("(\\d)-\\1", "\\1", levels(SITES$No.of.records_Group))
+levels(SITES$No.of.records_Group) <-  gsub("(^\\d&)-\\1", "\\1", levels(SITES$No.of.records_Group))
                                           
 SITES$Color <- rbPal(bin)[as.numeric(SITES$No.of.records_Group)]
 

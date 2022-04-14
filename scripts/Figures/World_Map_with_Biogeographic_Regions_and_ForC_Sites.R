@@ -37,10 +37,17 @@ str(SITES)
 proj4string(SITES) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 ")
 
 
+
 rbPal <- colorRampPalette(c("yellow", "red4"))
-SITES$Color <- rbPal(6)[as.numeric(cut(SITES$No.of.records, breaks = c(0,1,10,20,40,80,277)))]
+bin = 9
+SITES$No.of.records_Group <- findInterval(SITES$No.of.records, unique(quantile(SITES$No.of.records, seq(0, 1, length.out = bin + 1))), rightmost.closed = T)
+SITES$No.of.records_Group[SITES$No.of.records == 1] <- 0
+SITES$No.of.records_Group <- factor(SITES$No.of.records_Group)
+levels(SITES$No.of.records_Group) <- tapply(SITES$No.of.records, SITES$No.of.records_Group, function(x) paste(min(x), max(x), sep = "-"))
 
+levels(SITES$No.of.records_Group) <- gsub("(^\\d&)-\\1", "\\1", levels(SITES$No.of.records_Group))
 
+SITES$Color <- rbPal(bin)[as.numeric(SITES$No.of.records_Group)]
 
 
 
@@ -84,7 +91,7 @@ rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", borde
 # legend
 
 
-legend(-182, -40, pch = 21, pt.bg = rbPal(6), legend = c("1", "2-10", "11-20", "21-40", "41-80", "81-277"), bty = "n", title = expression(bold("No. of records")))
+legend(-182, -40, pch = 21, pt.bg = rbPal(bin), legend = levels(SITES$No.of.records_Group), bty = "n", title = expression(bold("No. of records")))
 
 legend(-130, -50, fill = rgb(matrix(0, nrow = 3, ncol = 3), alpha = c(255, 150, 100), maxColorValue = 255), border = "transparent", legend = c("Evegreen", "Decidous", "MixedED"), bty = "n", title = expression(bold("Dominant\nTree Type"))) # removed "other" with alpha = 50 (and nrow matrix 4)
 
@@ -125,7 +132,7 @@ rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", borde
 # legend
 
 
-legend(-182, 0, pch = 21, pt.bg = rbPal(6), legend = c("1", "2-10", "11-20", "21-40", "41-80", "81-277"), bty = "n", title = expression(bold("No. of records")))
+legend(-182, 0, pch = 21, pt.bg = rbPal(bin), legend = levels(SITES$No.of.records_Group), bty = "n", title = expression(bold("No. of records")))
 
 legend(-130, -10, fill =SYNMAP_forest_color[c(2,3,1)], border = "transparent", legend = c("Evegreen", "MixedED", "Decidous"), bty = "n", title = expression(bold("Dominant\nTree Type"))) # removed other
 
