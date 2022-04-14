@@ -2554,7 +2554,7 @@
 2592,"Willow Creek YA 1","recently disturbed","NAC",2592.01,"1986",2592.02,"Initiation of post-disturbance cohort (planted or natural)","1986",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2593,"Willow Creek YA 2","recently disturbed","NAC",2593.01,"1991",2593.02,"Initiation of post-disturbance cohort (planted or natural)","1991",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2594,"Winand","NAC","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2595,"Wind River Canopy Crane","old-growth douglas fir and western hemlock","NAC",2595.01,"1500",0,"NAC","NAC",0,"No disturbance",NA,"1500",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2595,"Wind River Canopy Crane","old-growth douglas fir and western hemlock",NA,0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1490",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2596,"Wind River Ranger District chronosequence: clear-cut","Forest recovery following clear-cutting of mature forest.10y","NAC",2596.03,"1988",2596.02,"Initiation of post-disturbance cohort (natural)","1988",2596.01,"Cut","100","1988",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2597,"Wind River Ranger District chronosequence: clear-cut","Forest recovery following clear-cutting of mature forest.11y","NAC",2597.03,"1987",2597.02,"Initiation of post-disturbance cohort (natural)","1987",2597.01,"Cut","100","1987",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2598,"Wind River Ranger District chronosequence: clear-cut","Forest recovery following clear-cutting of mature forest.12y","NAC",2598.03,"1986",2598.02,"Initiation of post-disturbance cohort (natural)","1986",2598.01,"Cut","100","1986",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2725,16 +2725,16 @@
 2765,"Santa Cruz CTFS-ForestGEO plot","6-ha forest dynamics plot (original plot)","5.96",2765.02,"1900",0,"NAC","NAC",0,"No disturbance",NA,"1930",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2766,"Scotty Creek CTFS-ForestGEO plot","9.6 ha of 21-ha forest dynamics plot","9.6",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2767,"Sinharaja CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1907",0,0,2767.02,"Other","NI","1995",0,NA,NA,NA,0,0,0,0,0,0,0
-2768,"Smithsonian Environmental Research Center CTFS-ForestGEO plot","16-ha forest dynamics plot","16",2768.01,"1900",2768.02,"Initiation of post-disturbance cohort (natural)","1900",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2768,"Smithsonian Environmental Research Center CTFS-ForestGEO plot","16-ha forest dynamics plot","16",2768.01,"1890",2768.02,"Initiation of post-disturbance cohort (natural)","1890",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2769,"Tyson Research Center CTFS-ForestGEO plot","20.16-ha forest dynamics plot","20.16",2769.02,"1820",0,"NAC","NAC",0,"No disturbance",NA,"1935",0,0,2769.01,"Harvest",NA,"1900",0,NA,NA,NA,0,0,0,0,0,0,0
-2770,"Wabikon CTFS-ForestGEO plot","25.2-ha forest dynamics plot","25.2",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1900",0,0,2770.01,"Harvest",NA,"1900",0,NA,NA,NA,0,0,0,0,0,0,0
+2770,"Wabikon CTFS-ForestGEO plot","25.2-ha forest dynamics plot","25.2",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"2007",0,0,2770.01,"Harvest",NA,"1900",2770.02,"Harvest",NA,"1985",0,0,0,0,0,0,0
 2771,"Wanang CTFS-ForestGEO plot","50-ha forest dynamics plot","50",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2772,"Wind River CTFS-ForestGEO plot","25.6 ha of 27.2-ha forest dynamics plot","25.6",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2772,"Wind River CTFS-ForestGEO plot","25.6 ha of 27.2-ha forest dynamics plot","25.6",2772.02,"1490",0,"NAC","NAC",0,"No disturbance",NA,"1490",0,0,2772.01,"Burned",NA,"1490",0,NA,NA,NA,0,0,0,0,0,0,0
 2773,"Wytham Woods CTFS-ForestGEO plot","18-ha forest dynamics plot","18",2773.01,"NI",2773.04,"Planted_and_natural_regeneration","NI",2773.03,"Harvest","NI","NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,2773.05,0
 2778,"Xishuangbanna CTFS-ForestGEO plot","20-ha forest dynamics plot","20",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2779,"Yasuni CTFS-ForestGEO plot","25-ha forest dynamics plot (western half of 50-ha forest dynamics plot)","25",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NI",0,0,2779.02,"Other","4","1980",0,NA,NA,NA,0,0,0,0,0,0,2779.04
 2780,"Yosemite National Park CTFS-ForestGEO plot","25.6-ha forest dynamics plot","25.6",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2781,"Zofin CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1838",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2781,"Zofin CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1838",0,0,2781.02,"Major storm","<100%","2007.049315",0,NA,NA,NA,0,0,0,0,0,0,0
 2782,"Yasuni CTFS-ForestGEO plot","25-ha forest dynamics plot (western half of 50-ha forest dynamics plot), excluding disturbed 1ha","24",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,2782.02
 2783,"Gorakhpur_S_10","Sal Plantation Forest","NAC",2783.01,"1962",2783.02,"Planted","1962",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2785,"Gorakhpur_S_22","Sal Plantation Forest","NAC",2785.01,"1950",2785.02,"Planted","1950",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -3476,7 +3476,6 @@
 3573,"Duke FACE","Aggrading Temperate Evergreen Forest. Stand established around 1983","NAC",3573.01,"1983",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3574,"Duke FACE","Managed Aggrading Temperate Evergreen Forest with CO2 treatment. Stand established around 1983","NAC",3574.01,"1983",3574.02,"Initiation of post-disturbance cohort (planted or natural)","1983",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,3574.03,0,0,0,0,0
 3575,"BOREAS NSA-D1850; NOBS","Boreal Evergreen Forest. Stand established around 1849","NAC",3575.01,"1849",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-3576,"Wind River Canopy Crane Research Facilty","Temperate Evergreen Forest. Stand established around 1499","NAC",3576.01,"1499",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3577,"Wind River Canopy Crane Research Facilty","Aggrading Temperate Evergreen Forest. Stand established around 1979","NAC",3577.01,"1979",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3578,"Wind River Canopy Crane Research Facilty","Aggrading Temperate Evergreen Forest. Stand established around 1959","NAC",3578.01,"1959",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 3579,"Tok Junction","Populus tremuloides stand-unburned","NAC",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"NAC",0,0,3579.01,"Burned",NA,"NAC",0,NA,NA,NA,0,0,0,0,0,0,0
@@ -10583,3 +10582,6 @@
 11021,"Yenisei 270vm/v","moderately burned Pinus sylvestris stand, mosses+Vaccinum understory","0.0254",11021.02,"1727",11021.03,"Initiation of post-disturbance cohort (planted or natural)","1727",11021.01,"Burned","100","1727",0,0,11021.04,"Burned","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
 11022,"Yenisei 130lm/ld","moderately burned Pinus sylvestris stand, lichen understory","NAC",11022.02,"1867",11022.03,"Initiation of post-disturbance cohort (planted or natural)","1867",11022.01,"Burned","100","1867",0,0,11022.04,"Burned","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
 11023,"Yenisei 50lh/lw","heavily burned Pinus sylvestris stand, lichen understory","NAC",11023.02,"1947",11023.03,"Initiation of post-disturbance cohort (planted or natural)","1947",11023.01,"Burned","100","1947",0,0,11023.04,"Burned","<100%","NAC",0,NA,NA,NA,0,0,0,0,0,0,0
+11024,"Wind River CTFS-ForestGEO plot","27.2-ha forest dynamics plot","27.2",11024.02,"1490",0,"NAC","NAC",0,"No disturbance",NA,"1490",0,0,11024.01,"Burned",NA,"1490",0,NA,NA,NA,0,0,0,0,0,0,0
+11025,"Danum Valley CTFS-ForestGEO plot","50-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+11026,"Michigan Big Woods CTFS-ForestGEO plot","23-ha forest dynamics plot","23",11026.02,"1860",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
