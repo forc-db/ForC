@@ -7,7 +7,7 @@ pftcode,description,description.individual,notes
 2TE,"Trees, broadleaf and/or conifer, evergreen","Tree, evergreen","Dominant species may be a mix of broadleaf and needleleaf species, or leaf type was not specified."
 2TN,"Trees, conifer (needleleaf)","Tree, needleleaf (coniferous)","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
 2TB,"Trees, broadleaf","Tree, broadleaf","Dominant species are a mix of deciduous and evergreen species, or leaf habit not specified."
-2TM,"Trees, mixed broadleaf and conifer",NA,NA
+2TM,"Trees, mixed broadleaf and conifer","Tree, mixed leaf type/phenology",NA
 2TREE,Trees,Tree of any leaf type/phenology,"Leaf type/phenology unknown. This code was originally used to refer to the 2TM category, and some records coded as '2TREE' may be identifiable as '2TM' based on information in the original publication."
 2SHRUB,Shrubs,Shrub,NA
 2VW,"Vinnes, woody","Vine, woody",NA
