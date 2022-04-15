@@ -60,7 +60,7 @@ SITES$No.of.records_Group[SITES$No.of.records == 1] <- 0
 SITES$No.of.records_Group <- factor(SITES$No.of.records_Group)
 levels(SITES$No.of.records_Group) <- tapply(SITES$No.of.records, SITES$No.of.records_Group, function(x) paste(min(x), max(x), sep = "-"))
 
-levels(SITES$No.of.records_Group) <-  gsub("(^\\d&)-\\1", "\\1", levels(SITES$No.of.records_Group))
+levels(SITES$No.of.records_Group) <-  gsub("(^\\d)-\\1", "\\1", levels(SITES$No.of.records_Group))
                                           
 SITES$Color <- rbPal(bin)[as.numeric(SITES$No.of.records_Group)]
 
@@ -81,7 +81,10 @@ par(mar = c(0,0,0,0))
 plot(FAO, col = FAO_colors$Color, border = "transparent")
 axis(2)
 box()
-points(SITES, bg = SITES$Color, pch = ifelse(SITES$some_data_sent_to_EFDB, 24, 21), lwd = ifelse(SITES$some_data_sent_to_EFDB, 1, 0.5), cex = ifelse(SITES$some_data_sent_to_EFDB, 1.5, 1), col = "black")
+
+points(SITES[!SITES$some_data_sent_to_EFDB, ], bg = SITES$Color, pch =21, lwd = 0.5, cex = 1, col = "black")
+points(SITES[SITES$some_data_sent_to_EFDB, ], bg = SITES$Color, pch =24, lwd = 1, cex = 1.3, col = "black") # these will be drwan on top
+
 
 rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", border = "transparent")
 # legend
@@ -89,7 +92,7 @@ rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", borde
 
 legend(-182, -35, pch = 21, pt.bg = rbPal(bin), pt.lwd = 0.5, legend = levels(SITES$No.of.records_Group), bty = "n", title = expression(bold("No. of records")))
 
-legend(-182, -90, pch = 24, pt.cex = 1.5, pt.bg = "white", legend = c("Site with some data sent to EFDB"), bty = "n", title = "")
+legend(-182, -90, pch = 24, pt.cex = 1.3, pt.bg = "white", legend = c("Site with some data sent to EFDB"), bty = "n", title = "")
 
 legend(-20, -40, fill =FAO_colors$Color, border = "transparent", legend = FAO_colors$gez_abbrev, bty = "n", title = expression(bold("FAO ecozone")), ncol = 3) # removed other
 
