@@ -1,4 +1,230 @@
 "measurement.ID","sites.sitename","variable.name","mean","min_range","max_range"
+254,"Allpahuayo A","woody.mortality_ag_OM",2.5,NA,NA
+273,"Allpahuayo B","woody.mortality_ag_OM",7.9,NA,NA
+292,"Allpahuayo C ALP30","woody.mortality_ag_OM",3.3,NA,NA
+1672,"Bionte averaged (Chao2009)","woody.mortality_ag_OM",2.3,NA,NA
+3879,"Cuzco Amazonico 1","woody.mortality_ag_OM",4.9,NA,NA
+3883,"Cuzco Amazonico 1","woody.mortality_ag_OM",5.2,NA,NA
+3887,"Cuzco Amazonico 2","woody.mortality_ag_OM",4.6,NA,NA
+3891,"Cuzco Amazonico 2","woody.mortality_ag_OM",7.4,NA,NA
+4666,"El Dorado km 91","woody.mortality_ag_OM",6.7,NA,NA
+4669,"El Dorado km 98","woody.mortality_ag_OM",8.6,NA,NA
+4672,"El Dorado/Rio Grande","woody.mortality_ag_OM",2.6,NA,NA
+7220,"Jenaro Herrera","woody.mortality_ag_OM",4.6,NA,NA
+7222,"Jenaro Herrera","woody.mortality_ag_OM",0.6,NA,NA
+7445,"Juruena","woody.mortality_ag_OM",7.9,NA,NA
+7935,"Lago Cobra 23-25 m a.s.l.","woody.mortality_ag_OM",6,NA,NA
+8893,"Manaus 2","woody.mortality_ag_OM",3.6,NA,NA
+12408,"Rio Grande, RG","woody.mortality_ag_OM",6.3,NA,NA
+13540,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",3.62,NA,NA
+13541,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",3.4,NA,NA
+13542,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",1.9,NA,NA
+13543,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",2.9,NA,NA
+14050,"Sucusari A","woody.mortality_ag_OM",5.9,NA,NA
+14054,"Sucusari B","woody.mortality_ag_OM",4.4,NA,NA
+14055,"Sucusari C","woody.mortality_ag_OM",3.4,NA,NA
+14057,"Sucusari D","woody.mortality_ag_OM",5.5,NA,NA
+14059,"Sucusari E","woody.mortality_ag_OM",4.8,NA,NA
+14233,"Tambopata-Candamo Reserve permanent plot TAM-01","woody.mortality_ag_OM",3.7,NA,NA
+14237,"Tambopata-Candamo Reserve permanent plot TAM-02","woody.mortality_ag_OM",4.8,NA,NA
+14242,"Tambopata-Candamo Reserve permanent plot TAM-04","woody.mortality_ag_OM",5.3,NA,NA
+14268,"Tambopata-Candamo Reserve permanent plot TAM-05","woody.mortality_ag_OM",4.7,NA,NA
+14294,"Tambopata-Candamo Reserve permanent plot TAM-06","woody.mortality_ag_OM",3.5,NA,NA
+14298,"Tambopata-Candamo Reserve permanent plot TAM-07","woody.mortality_ag_OM",3.9,NA,NA
+14300,"Tambopata-Candamo Reserve permanent plot TAM-08","woody.mortality_ag_OM",3,NA,NA
+14372,"Tapajos NF near km 67 on BR-163","woody.mortality_ag_OM",4.8,NA,NA
+14391,"Tapajos NF near km 83 on BR-163","woody.mortality_ag_OM",8.5,NA,NA
+14396,"Tapajos NF near km 83 on BR-163","woody.mortality_ag_OM",7.9,NA,NA
+14401,"Tapajos NF near km 83 on BR-163","woody.mortality_ag_OM",7.9,NA,NA
+15054,"Tomakomai Experimental Forest.Horonai stream basin","woody.mortality_ag_OM",0.79,NA,NA
+16987,"Yanamono A","woody.mortality_ag_OM",4.8,NA,NA
+16988,"Yanamono B","woody.mortality_ag_OM",4.1,NA,NA
+17465,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_OM",4.6,NA,NA
+17467,"Bukit Timah Primary CTFS-ForestGEO plot","woody.mortality_ag_OM",7.27,NA,NA
+17469,"Bukit Timah Secondary CTFS-ForestGEO plot","woody.mortality_ag_OM",0.98,NA,NA
+17471,"Fushan CTFS-ForestGEO plot","woody.mortality_ag_OM",1.49,NA,NA
+17473,"Huai Kha Khaeng CTFS-ForestGEO plot","woody.mortality_ag_OM",3.08,NA,NA
+17475,"Korup CTFS-ForestGEO plot","woody.mortality_ag_OM",3.65,NA,NA
+17477,"Lambir CTFS-ForestGEO plot","woody.mortality_ag_OM",11.09,NA,NA
+17479,"Laupahoehoe CTFS-ForestGEO plot","woody.mortality_ag_OM",0.74,NA,NA
+17481,"Luquillo CTFS-ForestGEO plot","woody.mortality_ag_OM",4.63,NA,NA
+17483,"Palamanui CTFS-ForestGEO plot","woody.mortality_ag_OM",0.3,NA,NA
+17485,"Palanan CTFS-ForestGEO plot","woody.mortality_ag_OM",5,NA,NA
+17487,"Pasoh CTFS-ForestGEO plot","woody.mortality_ag_OM",6.08,NA,NA
+17489,"Sinharaja CTFS-ForestGEO plot","woody.mortality_ag_OM",10.38,NA,NA
+17491,"Yasuni CTFS-ForestGEO plot","woody.mortality_ag_OM",4.02,NA,NA
+17572,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_OM",5.29,NA,NA
+17573,"Ituri- Edoro 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",6.42,NA,NA
+17574,"Ituri- Lenda 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",4.36,NA,NA
+17575,"Huai Kha Khaeng CTFS-ForestGEO plot","woody.mortality_ag_OM",3.85,NA,NA
+17576,"La Planada CTFS-ForestGEO plot","woody.mortality_ag_OM",3.57,NA,NA
+17577,"Lambir CTFS-ForestGEO plot","woody.mortality_ag_OM",6.14,NA,NA
+17578,"Palanan CTFS-ForestGEO plot","woody.mortality_ag_OM",4.69,NA,NA
+17579,"Pasoh CTFS-ForestGEO plot","woody.mortality_ag_OM",5.37,NA,NA
+17580,"Sinharaja CTFS-ForestGEO plot","woody.mortality_ag_OM",8.41,NA,NA
+17581,"Yasuni CTFS-ForestGEO plot","woody.mortality_ag_OM",6.22,NA,NA
+17582,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_OM",4.97,NA,NA
+17583,"Ituri- Edoro 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",6.14,NA,NA
+17584,"Ituri- Lenda 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",4.18,NA,NA
+17585,"Huai Kha Khaeng CTFS-ForestGEO plot","woody.mortality_ag_OM",3.59,NA,NA
+17586,"La Planada CTFS-ForestGEO plot","woody.mortality_ag_OM",2.94,NA,NA
+17587,"Lambir CTFS-ForestGEO plot","woody.mortality_ag_OM",5.87,NA,NA
+17588,"Palanan CTFS-ForestGEO plot","woody.mortality_ag_OM",4.57,NA,NA
+17589,"Pasoh CTFS-ForestGEO plot","woody.mortality_ag_OM",5.11,NA,NA
+17590,"Sinharaja CTFS-ForestGEO plot","woody.mortality_ag_OM",8.14,NA,NA
+17591,"Yasuni CTFS-ForestGEO plot","woody.mortality_ag_OM",5.93,NA,NA
+48972,"Luquillo CTFS-ForestGEO plot","woody.mortality_ag_OM",10.78,NA,NA
+48977,"Mudumalai CTFS-ForestGEO plot","woody.mortality_ag_OM",1.51,NA,NA
+49164,"Amacayacu CTFS-ForestGEO plot","woody.mortality_ag_OM",5.62,NA,NA
+49168,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_OM",6.64,NA,NA
+49171,"Changbaishan CTFS-ForestGEO plot","woody.mortality_ag_OM",1.79,NA,NA
+49175,"Cocoli CTFS-ForestGEO plot","woody.mortality_ag_OM",2.61,NA,NA
+49179,"Danum Valley CTFS-ForestGEO plot","woody.mortality_ag_OM",6.99,NA,NA
+49184,"Fushan CTFS-ForestGEO plot","woody.mortality_ag_OM",2.4,NA,NA
+49188,"Gutianshan CTFS-ForestGEO plot","woody.mortality_ag_OM",5.73,NA,NA
+49192,"Ituri- Edoro 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",3.94,NA,NA
+49196,"Ituri- Lenda 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",6.72,NA,NA
+49200,"Korup CTFS-ForestGEO plot","woody.mortality_ag_OM",5.87,NA,NA
+49204,"Lambir CTFS-ForestGEO plot","woody.mortality_ag_OM",6.57,NA,NA
+49208,"Laupahoehoe CTFS-ForestGEO plot","woody.mortality_ag_OM",3.81,NA,NA
+49212,"Luquillo CTFS-ForestGEO plot","woody.mortality_ag_OM",4.21,NA,NA
+49216,"Michigan Big Woods CTFS-ForestGEO plot","woody.mortality_ag_OM",1.82,NA,NA
+49220,"Mudumalai CTFS-ForestGEO plot","woody.mortality_ag_OM",1.44,NA,NA
+49223,"Palamanui CTFS-ForestGEO plot","woody.mortality_ag_OM",0.729,NA,NA
+49228,"Pasoh CTFS-ForestGEO plot","woody.mortality_ag_OM",9.58,NA,NA
+49231,"San Lorenzo CTFS-ForestGEO plot","woody.mortality_ag_OM",6.77,NA,NA
+49235,"Sinharaja CTFS-ForestGEO plot","woody.mortality_ag_OM",10.8,NA,NA
+49240,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",3.12,NA,NA
+49244,"Smithsonian Environmental Research Center CTFS-ForestGEO plot","woody.mortality_ag_OM",2.65,NA,NA
+49247,"Wabikon CTFS-ForestGEO plot","woody.mortality_ag_OM",1.66,NA,NA
+49252,"Wanang CTFS-ForestGEO plot","woody.mortality_ag_OM",10.2,NA,NA
+49255,"Wind River CTFS-ForestGEO plot","woody.mortality_ag_OM",5.04,NA,NA
+49259,"Zofin CTFS-ForestGEO plot","woody.mortality_ag_OM",3.07,NA,NA
+1230,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",4.86,NA,NA
+1231,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.4,NA,NA
+1232,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.43,NA,NA
+1233,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.7,NA,NA
+1234,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.84,NA,NA
+1235,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.86,NA,NA
+3517,"Cocoli CTFS-ForestGEO plot","woody.mortality_ag_C",1.18,NA,NA
+3518,"Cocoli CTFS-ForestGEO plot","woody.mortality_ag_C",3.18,NA,NA
+13012,"San Lorenzo CTFS-ForestGEO plot","woody.mortality_ag_C",2.83,NA,NA
+13013,"San Lorenzo CTFS-ForestGEO plot","woody.mortality_ag_C",1.97,NA,NA
+13014,"San Lorenzo CTFS-ForestGEO plot","woody.mortality_ag_C",2.96,NA,NA
+48966,"Tapajos km 67","woody.mortality_ag_C",2.4,NA,NA
+254,"Allpahuayo A","woody.mortality_ag_OM",2.5,NA,NA
+273,"Allpahuayo B","woody.mortality_ag_OM",7.9,NA,NA
+292,"Allpahuayo C ALP30","woody.mortality_ag_OM",3.3,NA,NA
+1672,"Bionte averaged (Chao2009)","woody.mortality_ag_OM",2.3,NA,NA
+3879,"Cuzco Amazonico 1","woody.mortality_ag_OM",4.9,NA,NA
+3883,"Cuzco Amazonico 1","woody.mortality_ag_OM",5.2,NA,NA
+3887,"Cuzco Amazonico 2","woody.mortality_ag_OM",4.6,NA,NA
+3891,"Cuzco Amazonico 2","woody.mortality_ag_OM",7.4,NA,NA
+4666,"El Dorado km 91","woody.mortality_ag_OM",6.7,NA,NA
+4669,"El Dorado km 98","woody.mortality_ag_OM",8.6,NA,NA
+4672,"El Dorado/Rio Grande","woody.mortality_ag_OM",2.6,NA,NA
+7220,"Jenaro Herrera","woody.mortality_ag_OM",4.6,NA,NA
+7222,"Jenaro Herrera","woody.mortality_ag_OM",0.6,NA,NA
+7445,"Juruena","woody.mortality_ag_OM",7.9,NA,NA
+7935,"Lago Cobra 23-25 m a.s.l.","woody.mortality_ag_OM",6,NA,NA
+8893,"Manaus 2","woody.mortality_ag_OM",3.6,NA,NA
+12408,"Rio Grande, RG","woody.mortality_ag_OM",6.3,NA,NA
+13540,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",3.62,NA,NA
+13541,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",3.4,NA,NA
+13542,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",1.9,NA,NA
+13543,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",2.9,NA,NA
+14050,"Sucusari A","woody.mortality_ag_OM",5.9,NA,NA
+14054,"Sucusari B","woody.mortality_ag_OM",4.4,NA,NA
+14055,"Sucusari C","woody.mortality_ag_OM",3.4,NA,NA
+14057,"Sucusari D","woody.mortality_ag_OM",5.5,NA,NA
+14059,"Sucusari E","woody.mortality_ag_OM",4.8,NA,NA
+14233,"Tambopata-Candamo Reserve permanent plot TAM-01","woody.mortality_ag_OM",3.7,NA,NA
+14237,"Tambopata-Candamo Reserve permanent plot TAM-02","woody.mortality_ag_OM",4.8,NA,NA
+14242,"Tambopata-Candamo Reserve permanent plot TAM-04","woody.mortality_ag_OM",5.3,NA,NA
+14268,"Tambopata-Candamo Reserve permanent plot TAM-05","woody.mortality_ag_OM",4.7,NA,NA
+14294,"Tambopata-Candamo Reserve permanent plot TAM-06","woody.mortality_ag_OM",3.5,NA,NA
+14298,"Tambopata-Candamo Reserve permanent plot TAM-07","woody.mortality_ag_OM",3.9,NA,NA
+14300,"Tambopata-Candamo Reserve permanent plot TAM-08","woody.mortality_ag_OM",3,NA,NA
+14372,"Tapajos NF near km 67 on BR-163","woody.mortality_ag_OM",4.8,NA,NA
+14391,"Tapajos NF near km 83 on BR-163","woody.mortality_ag_OM",8.5,NA,NA
+14396,"Tapajos NF near km 83 on BR-163","woody.mortality_ag_OM",7.9,NA,NA
+14401,"Tapajos NF near km 83 on BR-163","woody.mortality_ag_OM",7.9,NA,NA
+15054,"Tomakomai Experimental Forest.Horonai stream basin","woody.mortality_ag_OM",0.79,NA,NA
+16987,"Yanamono A","woody.mortality_ag_OM",4.8,NA,NA
+16988,"Yanamono B","woody.mortality_ag_OM",4.1,NA,NA
+17465,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_OM",4.6,NA,NA
+17467,"Bukit Timah Primary CTFS-ForestGEO plot","woody.mortality_ag_OM",7.27,NA,NA
+17469,"Bukit Timah Secondary CTFS-ForestGEO plot","woody.mortality_ag_OM",0.98,NA,NA
+17471,"Fushan CTFS-ForestGEO plot","woody.mortality_ag_OM",1.49,NA,NA
+17473,"Huai Kha Khaeng CTFS-ForestGEO plot","woody.mortality_ag_OM",3.08,NA,NA
+17475,"Korup CTFS-ForestGEO plot","woody.mortality_ag_OM",3.65,NA,NA
+17477,"Lambir CTFS-ForestGEO plot","woody.mortality_ag_OM",11.09,NA,NA
+17479,"Laupahoehoe CTFS-ForestGEO plot","woody.mortality_ag_OM",0.74,NA,NA
+17481,"Luquillo CTFS-ForestGEO plot","woody.mortality_ag_OM",4.63,NA,NA
+17483,"Palamanui CTFS-ForestGEO plot","woody.mortality_ag_OM",0.3,NA,NA
+17485,"Palanan CTFS-ForestGEO plot","woody.mortality_ag_OM",5,NA,NA
+17487,"Pasoh CTFS-ForestGEO plot","woody.mortality_ag_OM",6.08,NA,NA
+17489,"Sinharaja CTFS-ForestGEO plot","woody.mortality_ag_OM",10.38,NA,NA
+17491,"Yasuni CTFS-ForestGEO plot","woody.mortality_ag_OM",4.02,NA,NA
+17572,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_OM",5.29,NA,NA
+17573,"Ituri- Edoro 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",6.42,NA,NA
+17574,"Ituri- Lenda 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",4.36,NA,NA
+17575,"Huai Kha Khaeng CTFS-ForestGEO plot","woody.mortality_ag_OM",3.85,NA,NA
+17576,"La Planada CTFS-ForestGEO plot","woody.mortality_ag_OM",3.57,NA,NA
+17577,"Lambir CTFS-ForestGEO plot","woody.mortality_ag_OM",6.14,NA,NA
+17578,"Palanan CTFS-ForestGEO plot","woody.mortality_ag_OM",4.69,NA,NA
+17579,"Pasoh CTFS-ForestGEO plot","woody.mortality_ag_OM",5.37,NA,NA
+17580,"Sinharaja CTFS-ForestGEO plot","woody.mortality_ag_OM",8.41,NA,NA
+17581,"Yasuni CTFS-ForestGEO plot","woody.mortality_ag_OM",6.22,NA,NA
+17582,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_OM",4.97,NA,NA
+17583,"Ituri- Edoro 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",6.14,NA,NA
+17584,"Ituri- Lenda 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",4.18,NA,NA
+17585,"Huai Kha Khaeng CTFS-ForestGEO plot","woody.mortality_ag_OM",3.59,NA,NA
+17586,"La Planada CTFS-ForestGEO plot","woody.mortality_ag_OM",2.94,NA,NA
+17587,"Lambir CTFS-ForestGEO plot","woody.mortality_ag_OM",5.87,NA,NA
+17588,"Palanan CTFS-ForestGEO plot","woody.mortality_ag_OM",4.57,NA,NA
+17589,"Pasoh CTFS-ForestGEO plot","woody.mortality_ag_OM",5.11,NA,NA
+17590,"Sinharaja CTFS-ForestGEO plot","woody.mortality_ag_OM",8.14,NA,NA
+17591,"Yasuni CTFS-ForestGEO plot","woody.mortality_ag_OM",5.93,NA,NA
+48972,"Luquillo CTFS-ForestGEO plot","woody.mortality_ag_OM",10.78,NA,NA
+48977,"Mudumalai CTFS-ForestGEO plot","woody.mortality_ag_OM",1.51,NA,NA
+49164,"Amacayacu CTFS-ForestGEO plot","woody.mortality_ag_OM",5.62,NA,NA
+49168,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_OM",6.64,NA,NA
+49171,"Changbaishan CTFS-ForestGEO plot","woody.mortality_ag_OM",1.79,NA,NA
+49175,"Cocoli CTFS-ForestGEO plot","woody.mortality_ag_OM",2.61,NA,NA
+49179,"Danum Valley CTFS-ForestGEO plot","woody.mortality_ag_OM",6.99,NA,NA
+49184,"Fushan CTFS-ForestGEO plot","woody.mortality_ag_OM",2.4,NA,NA
+49188,"Gutianshan CTFS-ForestGEO plot","woody.mortality_ag_OM",5.73,NA,NA
+49192,"Ituri- Edoro 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",3.94,NA,NA
+49196,"Ituri- Lenda 1&2 CTFS-ForestGEO plots","woody.mortality_ag_OM",6.72,NA,NA
+49200,"Korup CTFS-ForestGEO plot","woody.mortality_ag_OM",5.87,NA,NA
+49204,"Lambir CTFS-ForestGEO plot","woody.mortality_ag_OM",6.57,NA,NA
+49208,"Laupahoehoe CTFS-ForestGEO plot","woody.mortality_ag_OM",3.81,NA,NA
+49212,"Luquillo CTFS-ForestGEO plot","woody.mortality_ag_OM",4.21,NA,NA
+49216,"Michigan Big Woods CTFS-ForestGEO plot","woody.mortality_ag_OM",1.82,NA,NA
+49220,"Mudumalai CTFS-ForestGEO plot","woody.mortality_ag_OM",1.44,NA,NA
+49223,"Palamanui CTFS-ForestGEO plot","woody.mortality_ag_OM",0.729,NA,NA
+49228,"Pasoh CTFS-ForestGEO plot","woody.mortality_ag_OM",9.58,NA,NA
+49231,"San Lorenzo CTFS-ForestGEO plot","woody.mortality_ag_OM",6.77,NA,NA
+49235,"Sinharaja CTFS-ForestGEO plot","woody.mortality_ag_OM",10.8,NA,NA
+49240,"Smithsonian Conservation Biology Institute CTFS-ForestGEO plot","woody.mortality_ag_OM",3.12,NA,NA
+49244,"Smithsonian Environmental Research Center CTFS-ForestGEO plot","woody.mortality_ag_OM",2.65,NA,NA
+49247,"Wabikon CTFS-ForestGEO plot","woody.mortality_ag_OM",1.66,NA,NA
+49252,"Wanang CTFS-ForestGEO plot","woody.mortality_ag_OM",10.2,NA,NA
+49255,"Wind River CTFS-ForestGEO plot","woody.mortality_ag_OM",5.04,NA,NA
+49259,"Zofin CTFS-ForestGEO plot","woody.mortality_ag_OM",3.07,NA,NA
+1230,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",4.86,NA,NA
+1231,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.4,NA,NA
+1232,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.43,NA,NA
+1233,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.7,NA,NA
+1234,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.84,NA,NA
+1235,"Barro Colorado Island CTFS-ForestGEO plot","woody.mortality_ag_C",2.86,NA,NA
+3517,"Cocoli CTFS-ForestGEO plot","woody.mortality_ag_C",1.18,NA,NA
+3518,"Cocoli CTFS-ForestGEO plot","woody.mortality_ag_C",3.18,NA,NA
+13012,"San Lorenzo CTFS-ForestGEO plot","woody.mortality_ag_C",2.83,NA,NA
+13013,"San Lorenzo CTFS-ForestGEO plot","woody.mortality_ag_C",1.97,NA,NA
+13014,"San Lorenzo CTFS-ForestGEO plot","woody.mortality_ag_C",2.96,NA,NA
+48966,"Tapajos km 67","woody.mortality_ag_C",2.4,NA,NA
 17058,"Yellowstone National Park (YNP)","delta.O.horizon_C",0.06,NA,NA
 17065,"Yellowstone National Park (YNP)","delta.O.horizon_C",0.24,NA,NA
 17071,"Yellowstone National Park (YNP)","delta.O.horizon_C",0.03,NA,NA
