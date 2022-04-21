@@ -341,3 +341,7 @@ El Dorado ELD-03,terra firma ELD-03 plotG3,El Dorado km 98,terra firma ELD-03 pl
 El Dorado ELD-04,terra firma ELD-04 plot G4,El Dorado km 98,terra firma ELD-04 plot G4,4/21/22,clarify site names
 El Dorado ELD-01/02,terra firma ELD-01/02,El Dorado km 91,terra firma ELD-01/02,4/21/22,clarify site names
 El Dorado ELD-03/04,terra firma ELD-03/04,El Dorado km 98,terra firma ELD-03/04,4/21/22,clarify site names
+Rio Grande RIO-01,terra firma RIO-01 plotDA1,"Rio Grande, RG",terra firma RIO-01 plotDA1,4/21/22,clarify site names
+Rio Grande RIO-01/02,terra firma RIO-01/02,"Rio Grande, RG",terra firma RIO-01/02,4/21/22,clarify site names
+Rio Grande RIO-02,terra firma RIO-02 plotDA2,"Rio Grande, RG",terra firma RIO-02 plotDA2,4/21/22,clarify site names
+,,El Dorado/Rio Grande,ELD-01/02 and RIO-01/02,4/21/22,remove composite site
