@@ -54,12 +54,12 @@
 53,"Allpahuayo A ALP11/ALP12","wet aseasonal forest","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 54,"Allpahuayo A clay-rich soils","terra firma clay-rich soils ALP-11","0.44",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 55,"Allpahuayo A sandy soils","terra firma sandy soils ALP-12","0.4",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-56,"Allpahuayo A","terra firma ALP-A","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+56,"Allpahuayo A (ALP-01)","terra firma ALP-A","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 57,"Allpahuayo B clay-rich soils","terra firma clay-rich soils ALP-22","0.44",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 58,"Allpahuayo B sandy soils","terra firma sandy soils ALP-21","0.48",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-59,"Allpahuayo B","terra firma ALP-B","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-60,"Allpahuayo C ALP30","wet aseasonal forest","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-61,"Allpahuayo C ALP30","white sand","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+59,"Allpahuayo B (ALP-02)","terra firma ALP-B","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+60,"Allpahuayo C (ALP-30)","wet aseasonal forest","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+61,"Allpahuayo C (ALP-30)","white sand","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 62,"AM10","Forest recovery following clearing. A10","0.1",62.03,"1983",62.02,"Initiation of post-disturbance cohort (natural)","1983",62.01,"Cut","100","1983",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 63,"AM10","Forest recovery following long-term agriculture. A3","0.07",63.05,"1991",63.04,"Initiation of post-disturbance cohort (natural)","1991",63.03,"Cultivation","100","1985",63,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 64,"AM10","Forest recovery following long-term pasture. A12","0.08",64.05,"1988",64.04,"Initiation of post-disturbance cohort (natural)","1988",64.03,"Grazed","100","1982",64,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
