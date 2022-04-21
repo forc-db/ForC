@@ -722,13 +722,12 @@
 728,"EJA-04_Ejagham 4","african tropical forest","1",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 729,"EJA-05_Ejagham 5","african tropical forest","1",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 730,"EKO-41e_Ekobakoba","african tropical forest","1",0,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,730.01,"Other","<100%","NI",0,NA,NA,NA,0,0,0,0,0,0,0
-731,"El Dorado km 91","terra firma ELD-01 plotG1","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-732,"El Dorado km 91","terra firma ELD-01/02","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-733,"El Dorado km 91","terra firma ELD-02 plotG2","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-734,"El Dorado km 98","terra firma ELD-03 plotG3","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-735,"El Dorado km 98","terra firma ELD-03/04","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-736,"El Dorado km 98","terra firma ELD-04 plot G4","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-737,"El Dorado/Rio Grande","ELD-01/02 and RIO-01/02","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+731,"El Dorado ELD-01","terra firma ELD-01 plotG1","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+732,"El Dorado ELD-01/02","terra firma ELD-01/02","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+733,"El Dorado ELD-02","terra firma ELD-02 plotG2","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+734,"El Dorado ELD-03","terra firma ELD-03 plotG3","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+735,"El Dorado ELD-03/04","terra firma ELD-03/04","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+736,"El Dorado ELD-04","terra firma ELD-04 plot G4","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 738,"El Eden Ecological Reserve fire chronosequence","Forest recovery following fire.1-y","0.3",738.06,"2002.161644",738.05,"Initiation of post-disturbance cohort (natural)","2002.161644",738.04,"Burned","100","2002.161644",738,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 739,"El Eden Ecological Reserve fire chronosequence","Forest recovery following fire.14-y","0.3",739.06,"1989.161644",739.05,"Initiation of post-disturbance cohort (natural)","1989.161644",739.04,"Burned","100","1989.161644",739,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 740,"El Eden Ecological Reserve fire chronosequence","Forest recovery following fire.28-y","0.3",740.06,"1975.161644",740.05,"Initiation of post-disturbance cohort (natural)","1975.161644",740.04,"Burned","100","1975.161644",740,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -1975,9 +1974,9 @@
 1997,"Rilonggou 1","Larix","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1998,"Rilonggou 2","Cupressus, Sabina (Juniperus)","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 1999,"Rio Branco","open forest","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2000,"Rio Grande, RG","terra firma RIO-01 plotDA1","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2001,"Rio Grande, RG","terra firma RIO-01/02","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2002,"Rio Grande, RG","terra firma RIO-02 plotDA2","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"2001.008219",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2000,"Rio Grande RIO-01","terra firma RIO-01 plotDA1","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2001,"Rio Grande RIO-01/02","terra firma RIO-01/02","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2002,"Rio Grande RIO-02","terra firma RIO-02 plotDA2","0.25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"2001.008219",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2003,"Rio Juruena","old-growth tropical forest.JUR","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2004,"Rio Mameyes abandoned pastures chronosequence","Forest recovery following pasture abandonment.22-y","NI",2004.02,"1971",2004.03,"Initiation of post-disturbance cohort (natural)","1971",2004.01,"Grazed","100","1966",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2005,"Rio Mameyes abandoned pastures chronosequence","Forest recovery following pasture abandonment.25-y","NI",2005.02,"1968",2005.03,"Initiation of post-disturbance cohort (natural)","1968",2005.01,"Grazed","100","1933",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
@@ -2254,9 +2253,9 @@
 2276,"Subtropical broad-leaved evergreen forest chronosequence","Forest recovery following clear-cut.60y","NAC",2276.03,"1930",2276.02,"Initiation of post-disturbance cohort (natural)","1930",2276.01,"Cut","100","1930",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2277,"Sucusari A","terra firma SUC-01","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2278,"Sucusari B","terra firma SUC-02","1",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1904",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2279,"Sucusari C","terra firma SUC-03","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2280,"Sucusari D","terra firma SUC-04","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2281,"Sucusari E","terra firma SUC-05","NAC",0,"NI",0,"NI","NI",0,"NI",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2279,"Sucusari C","terra firma SUC-03","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2280,"Sucusari D","terra firma SUC-04","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2281,"Sucusari E","terra firma SUC-05","NAC",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2282,"Sulawesi","upland tropical forest","NAC",0,"NAC",0,"NI","NAC",0,"NI",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2283,"Surutu","Forest recovery following slash and burn agriculture.10y S3 or S14","NAC",2283.05,"1985",2283.04,"Initiation of post-disturbance cohort (natural)","1985",2283.03,"Cultivation","100","NI",2283,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2284,"Surutu","Forest recovery following slash and burn agriculture.12y","0.1",2284.05,"1983",2284.04,"Initiation of post-disturbance cohort (natural)","1983",2284.03,"Cultivation","100","NI",2284,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
