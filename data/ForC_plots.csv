@@ -2692,7 +2692,7 @@
 2733,"Amacayacu CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2734,"Bukit Timah Primary CTFS-ForestGEO plot","2-ha forest dynamics plot","2",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,2734.02,"Other",NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2735,"Bukit Timah Secondary CTFS-ForestGEO plot","2-ha forest dynamics plot","2",2735.03,"1957",2735.02,"Initiation of post-disturbance cohort (natural)","1955",2735.01,"Cultivation","100","1845",0,0,2735.05,"Other",NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-2736,"Cedar Breaks CTFS-ForestGEO plot","13.64-ha forest dynamics plot","13.64",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1933",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+2736,"Cedar Breaks CTFS-ForestGEO plot","13.64-ha forest dynamics plot","13.64",0,"NAC",0,"NAC","NAC",0,"No severe disturbance",NA,"1000",0,0,2736.02,"Drought","<100%","1345",2736.03,"Burned","<100%","1597",2736,0,0,0,0,0,0
 2737,"Changbaishan CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"1830",0,0,2737.01,"Harvest","NAC","1829",0,NA,NA,NA,0,0,0,0,0,0,2737.03
 2738,"Danum Valley CTFS-ForestGEO plot","25-ha of 50-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 2739,"Fushan CTFS-ForestGEO plot","25-ha forest dynamics plot","25",0,"NAC",0,"NAC","NAC",0,"No disturbance",NA,"NI",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
