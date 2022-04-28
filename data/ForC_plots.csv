@@ -3852,12 +3852,12 @@
 4035,"Bontioli Reserve","Tropical Deciduous Savanna","NAC",4035.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4036,"EOBS","Boreal Evergreen Forest. Stand established around 1905","NAC",4036.01,"1905",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4037,"Stillberg","Alpine Larix-Pine stand planted in 1975.","NAC",4037.01,"1975",4037.02,"Planted","1975",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4038,"Rhtkg","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",4038.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4039,"Mtkg I","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",4039.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4040,"Mtkg II","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",4040.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4041,"Ptkg I","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",4041.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4042,"Ptkg II","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",4042.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
-4043,"Vatkg","Managed Aggrading Boreal Evergreen Forest with Drained treatment","NAC",4043.01,"NAC",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+4038,"Finland (composite of 68 sites between 60 and 67 N)","Rhtkg","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+4039,"Finland (composite of 68 sites between 60 and 67 N)","Mtkg I","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+4040,"Finland (composite of 68 sites between 60 and 67 N)","Mtkg II","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+4041,"Finland (composite of 68 sites between 60 and 67 N)","Ptkg I","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+4042,"Finland (composite of 68 sites between 60 and 67 N)","Ptkg II","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
+4043,"Finland (composite of 68 sites between 60 and 67 N)","Vatkg","NAC",0,"NAC",0,"NAC","NAC",0,"NAC",NA,"NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4044,"Puechabon State Forest","Temperate Evergreen Forest. Stand established around 1941","NAC",4044.01,"1941",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
 4045,"Puechabon State Forest","Managed Temperate Evergreen Forest with Drought treatment. Stand established around 1941","NAC",4045.01,"1941",4045.02,"Initiation of post-disturbance cohort (planted or natural)","1941",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,4045.03,0,0,0
 4046,"Valsain-plot14","Mediterranean Evergreen Forest. Stand established around 1885","NAC",4046.01,"1885",0,"NAC","NAC",0,"NAC","NAC","NAC",0,0,0,NA,NA,NA,0,NA,NA,NA,0,0,0,0,0,0,0
