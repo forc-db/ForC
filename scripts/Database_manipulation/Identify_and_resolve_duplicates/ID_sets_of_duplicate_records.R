@@ -1237,6 +1237,8 @@ for(i in 1:length(MEASUREMENTS.split)){
   MEASUREMENTS.final[[i]] <- X
 } # for(i in 1:length(MEASUREMENTS.split))
 
+if(i != length(MEASUREMENTS.split)) stop("loop aborted")
+
 endtime <- Sys.time()
 endtime - starttime #  1.02038 mins
 
@@ -1317,7 +1319,23 @@ delete.old.version.meas.IDs <- c( MEASUREMENTS.final[MEASUREMENTS.final$split.ID
                                   "15286;15287;15288;15289;19495;19496;19497;19498;19499;19500;19501;19502;19503;19504;19505;19506;19507;19508;19509;19510;19511;19512;25301;25311",
                                   "15298;15299;29714;29715;29716",
                                   "17481;48972",
-                                  "7607;35161", "7608;35163", "7609;35165", "7597;35141", "7598;35143", "7610;35167", "7599;35145", "7600;35147", "7601;35149", "7639;35169", "7640;35171", "7641;35173", "7602;35151", "7642;35175", "7643;35177", "7644;35179", "7603;35153", "7604;35155", "7645;35181", "7646;35183", "7605;35157", "7606;35159", "8284;33574", "8285;33575", "8286;33576", "8288;33577" # correctly gives precedence to lower min.dbh
+                                  "7607;35161", "7608;35163", "7609;35165", "7597;35141", "7598;35143", "7610;35167", "7599;35145", "7600;35147", "7601;35149", "7639;35169", "7640;35171", "7641;35173", "7602;35151", "7642;35175", "7643;35177", "7644;35179", "7603;35153", "7604;35155", "7645;35181", "7646;35183", "7605;35157", "7606;35159", "8284;33574", "8285;33575", "8286;33576", "8288;33577", # correctly gives precedence to lower min.dbh
+                                  "3515;3516;49174", # correcly gives precedence to Camille's calculations
+                                  "3513;3514;49176", # correcly gives precedence to Camille's calculations
+                                  "13540;13541;13542;13543;49240", # correcly gives precedence to Camille's calculations
+                                  "3517;3518;49175", # correcly gives precedence to Camille's calculations
+                                  "8816;17416;17480;48968;49210", # I believ it will salvage Camille's record
+                                  "17448;49249", # correcly gives precedence to Camille's calculations
+                                  "17442;49238", # correcly gives precedence to Camille's calculations
+                                  "17444;49242", # correcly gives precedence to Camille's calculations
+                                  "3510;3511;3512;17378;49177", # correcly gives precedence to Camille's calculations
+                                  "17424;48973;49218",# correcly gives precedence to Camille's calculations
+                                  "33587;49123", "33588;49124", "21535;49120", "33563;49117", "33560;49132", "33562;49133", # correct because Wirth_1999_abas has n = 20 while Wirth_2002_fast has n = 1.
+                                  "1597;21316","1591;21310", "1598;21315", # D.precedence will be given manually
+                                  "1592;21309", "1606;21305", # seems fine (SRDB instead of Bety-DB)
+                                  "49099;49100", # prefered OM
+                                  "15282;15283;15284;15285;25302;25312;25319", # looks fine
+                                  "5828;17384;49186" # good
 )# paste here the measurement.ID (concatenated and separated by a semicolumn) of the all the records in a group for which you think the code does a better job than what the original conflict situation was. ONCE MEASUREMENT IS UPDATED AND PUSHED, THIS SHOULD BE EMPTIED THIS WAY: delete.old.version.meas.IDs <- c("")
 
 
@@ -1530,7 +1548,7 @@ if(length(need.user.input.split.ID) > 0) {
     
     print(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,])
     print(paste(MEASUREMENTS.final[MEASUREMENTS.final$split.ID %in% split.ID,]$measurement.ID, collapse = ";"))
-     # readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
+     readline("Press [enter]") # uncomment this when you are ready to review the groups one by one
     
   }
   
