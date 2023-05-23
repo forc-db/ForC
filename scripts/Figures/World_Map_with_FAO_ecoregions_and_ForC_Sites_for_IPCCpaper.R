@@ -92,7 +92,7 @@ rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", borde
 
 legend(-182, -35, pch = 21, pt.bg = rbPal(bin), pt.lwd = 0.5, legend = levels(SITES$No.of.records_Group), bty = "n", title = expression(bold("No. of records")))
 
-legend(-182, -90, pch = 24, pt.cex = 1.3, pt.bg = "white", legend = c("Site with some data sent to EFDB"), bty = "n", title = "")
+legend(-182, -90, pch = 24, pt.cex = 1.3, pt.bg = "white", legend = c("site with some data submitted to EFDB"), bty = "n", title = "")
 
 legend(-20, -40, fill =FAO_colors$Color, border = "transparent", legend = FAO_colors$gez_abbrev, bty = "n", title = expression(bold("FAO ecozone")), ncol = 3) # removed other
 
