@@ -4,8 +4,8 @@ Measurements,data.location.within.source,Location of data within the source list
 ,"sd, se, lower95%CI, upper 95%CI","Standard deviation, standard error, and lower and upper 95 percent confidence intvervals, respectively.",replaces `stat` and `stat.name`,cleaner format; ability to handle assymetrical 95 percent confidence intervals,2021-Mar
 ,"mean.in.original.units, original.units",mean value and units presented in original publication,fields added,"provide IPCC with original units, reduce errors/improve reproducibility",2021-Apr
 ,C.conversion.factor,Assumed/ measured C content of organic matter used to convert organic matter to C.,field added,"track units conversion, allow back-calculation of OM if conversion factor deemed inappropriate",2021-Apr
-PFT,description,Definition of the pftcode at the community level. Differs from individual level in that properly describes mixed plant functional types.,field added,,2021-Mar
-,description.individual,Definition of the pftcode at the individual plant level. ,field name change (previously `description`),,2021-Mar
+PFT,description,Definition of the pftcode at the community level. Differs from individual level in that properly describes mixed plant functional types.,field added,clarify PFT at community and individual levels,2021-Mar
+,description.individual,Definition of the pftcode at the individual plant level. ,field name change (previously `description`),clarify PFT at community and individual levels,2021-Mar
 Citations,citation.citation,Full citation. Most of these records are automatically generated in R based upon DOI lookup.,field added,field required by IPCC,2021-Mar
 ,citation.language,"Language of original publication, automatically generated based on the title and abstract, with some manual entries and corrections.",field added,field required by IPCC,2021-Mar
 ,citation.url,"URL of original publication, generally retrieved automatically via URL lookup.",field added,field required by IPCC,2021-Mar
