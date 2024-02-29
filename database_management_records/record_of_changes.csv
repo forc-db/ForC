@@ -1,4 +1,4 @@
-﻿Table,Column,Description,Changes,Motivation,Date changed
+﻿Table,Field,Description,Changes,Motivation,Date changed
 Sites,coordinates.precision,"Precision of geographic coordinates, as reported by source or estimated from maps.",field added,allow identification of records with poor coordinate precision,2021-Apr
 Measurements,data.location.within.source,Location of data within the source listed in citation.ID.,field added,"facilitate review, ensure traceability",2021-Apr
 ,"sd, se, lower95%CI, upper 95%CI","Standard deviation, standard error, and lower and upper 95 percent confidence intvervals, respectively.",replaces `stat` and `stat.name`,cleaner format; ability to handle assymetrical 95 percent confidence intervals,2021-Mar
