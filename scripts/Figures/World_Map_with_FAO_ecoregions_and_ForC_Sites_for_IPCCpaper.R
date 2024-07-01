@@ -12,13 +12,21 @@ rm(list = ls())
 setwd(".")
 
 # Load libraries ####
-library(rgdal)
-library(rgeos)
+library(sf)
+library(tidyverse)
 
 # Load pre-saved R environment ####
 load("supplementary_resources/World Map data/data_for_World_Map_with_Biogeographic_Regions_and_ForC_Sites.Rdata")
 
 # load data
+sf::sf_use_s2(F)
+
+SYNMAP <- st_read("S:/Global Maps Data/SYNMAP_Hurtt/synmap_polygon_dissolve.shp") %>% 
+  filter(LandCovTex %in% c("Trees","Trees & Grasses")) %>%
+  group_by(LandCovTex) %>%
+  summarize() %>% 
+  st_as_sf()
+
 
 MEASUREMENTS <- read.csv("data/ForC_measurements.csv", stringsAsFactors = F)
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
@@ -68,7 +76,29 @@ SITES$Color <- rbPal(bin)[as.numeric(SITES$No.of.records_Group)]
 
 
 
+# make site's FAO.ecozone a factor
+SITES$FAO.ecozone <- factor(SITES$FAO.ecozone, levels = FAO_colors$gez_name)
 
+
+# get info for barplot
+order_FAO_zones <- FAO_colors$gez_name 
+
+### No. of sites
+No._of_sites <- table(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB])[order_FAO_zones]
+
+### No. of records
+No._of_records <- tapply(SITES$No.of.records[SITES$some_data_sent_to_EFDB], factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name), sum, default = 0)[order_FAO_zones]
+
+### No. of records sent
+No._of_records_sent <- tapply(SITES$No.of.records_sent[SITES$some_data_sent_to_EFDB], factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name), sum, default = 0)[order_FAO_zones]
+
+
+
+### FAO areas within SYNMAP
+FAO_areas <- st_intersection(SYNMAP, FAO %>% st_as_sf) %>% group_by(gez_name) %>% summarize()
+FAO_areas$AREA <- st_area(FAO_areas)
+
+FAO_areas <- setNames(FAO_areas$AREA, FAO_areas$gez_name)[order_FAO_zones]
 
 
 
@@ -97,43 +127,26 @@ legend(-185, -35, pch = 21, pt.bg = rbPal(bin), pt.lwd = 0.5, legend = levels(SI
 
 legend(-185, -85, pch = 24, pt.cex = 1.3, pt.bg = "white", legend = c("site with some data submitted\nto EFDB"), bty = "n", title = "")
 
-legend(-70, -45, fill =FAO_colors$Color, border = "transparent", legend = FAO_colors$gez_abbrev, bty = "n", title = expression(bold("FAO ecozone")), ncol = 3) # removed other
+legend(-75, -45, fill =FAO_colors$Color, border = "transparent", legend = FAO_colors$gez_abbrev, bty = "n", title = expression(bold("FAO ecozone")), ncol = 3) # removed other
 
 
 
 
 ## add barplot of ecoozone availability + number of records and sites
 
-order_FAO_zones <- FAO_colors$gez_name[-4] # remove polar
-
-### No. of sites
-No._of_sites <- table(factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name))[order_FAO_zones]
-### No. of records
-No._of_records <- tapply(SITES$No.of.records[SITES$some_data_sent_to_EFDB], factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name), sum, default = 0)[order_FAO_zones]
-
-### No. of records sent
-No._of_records_sent <- tapply(SITES$No.of.records_sent[SITES$some_data_sent_to_EFDB], factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name), sum, default = 0)[order_FAO_zones]
-
-
-
-### FAO areas
-FAO_areas <- setNames(FAO$AREA, FAO$gez_name)[order_FAO_zones]
-
-# plot
 
 par()$fig
 par(fig = c(0.63, 1, 0, 0.41), new = T)
-par(mar = c(3.1, 4.1, 4.1, 2.1))
+par(mar = c(3.1, 5.1, 4.1, 2.1))
 par(oma = c(0,5,0,0))
 
 
-b <- barplot(t(rbind(prop.table(FAO_areas), prop.table(No._of_sites), prop.table(No._of_records_sent))), col = FAO_colors$Color, horiz = T, xaxt = "n", border = "transparent")
+b <- barplot(cbind(prop.table(No._of_records_sent), prop.table(No._of_sites), prop.table(FAO_areas)), col = FAO_colors$Color[match(order_FAO_zones, FAO_colors$gez_name)], horiz = T, xaxt = "n", border = "transparent")
 
 
 axis(1, at = c(0, .5, 1), labels = c("0%", "50%"," 100%"))
-mtext(c("ecozone", "sites submitted", "records submitted"), side = 2, at = rev(b), las = 1, line = 0.2, cex = 0.9)
-mtext(c("(Polar region ignored)"), side = 1, at =0.5, las = 1, line = 1.8, cex = 0.6)
+mtext(c("Forested FAO ecozone", "sites submitted", "records submitted"), side = 2, at = rev(b), las = 1, line = 0.2, cex = 0.9)
+# mtext(c("(Polar region ignored)"), side = 1, at =0.5, las = 1, line = 1.8, cex = 0.6)
 
 
 dev.off()
-
