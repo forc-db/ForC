@@ -41,10 +41,12 @@ SITES$some_data_sent_to_EFDB <- SITES$sites.sitename %in% MEASUREMENTS$sites.sit
 
 # count records ####
 No.of.records <- tapply(MEASUREMENTS$mean, MEASUREMENTS$sites.sitename, function(x) sum(!is.na(x)))
+No.of.records_sent <- tapply(MEASUREMENTS$mean[MEASUREMENTS$measurement.ID %in% Meas_IDs_sent_to_EFDB$measurement.ID], MEASUREMENTS$sites.sitename[MEASUREMENTS$measurement.ID %in% Meas_IDs_sent_to_EFDB$measurement.ID], function(x) sum(!is.na(x)))
 
 
 SITES <- SITES[!is.na(SITES$lat) & !is.na(SITES$lon), c("sites.sitename", "lat", "lon", "FAO.ecozone", "some_data_sent_to_EFDB")]
 SITES$No.of.records <- No.of.records[SITES$sites.sitename]
+SITES$No.of.records_sent <- No.of.records_sent[SITES$sites.sitename]
 
 
 
@@ -73,7 +75,8 @@ SITES$Color <- rbPal(bin)[as.numeric(SITES$No.of.records_Group)]
 
 # Plot ####
 
-png("figures/World_Map_of_sites_with_FAO_and_IPCC_data_sent.png", width=169, height = 100, units = "mm", res = 300, pointsize = 8)
+png("figures/World_Map_of_sites_with_FAO_and_IPCC_data_sent2.png", width=169, height = 100, units = "mm", res = 300, pointsize = 8)
+
 par(mar = c(0,0,0,0))
 
 
@@ -83,18 +86,54 @@ axis(2)
 box()
 
 points(SITES[!SITES$some_data_sent_to_EFDB, ], bg = SITES$Color, pch =21, lwd = 0.5, cex = 1, col = "black")
-points(SITES[SITES$some_data_sent_to_EFDB, ], bg = SITES$Color, pch =24, lwd = 1, cex = 1.3, col = "black") # these will be drwan on top
+points(SITES[SITES$some_data_sent_to_EFDB, ], bg = SITES$Color, pch =24, lwd = 1, cex = 1.3, col = "black") # these will be drawn on top
 
 
 rect(xleft = -180, xright = 180, ybottom = -91, ytop = -60, col = "white", border = "transparent")
 # legend
 
 
-legend(-182, -35, pch = 21, pt.bg = rbPal(bin), pt.lwd = 0.5, legend = levels(SITES$No.of.records_Group), bty = "n", title = expression(bold("No. of records")))
+legend(-185, -35, pch = 21, pt.bg = rbPal(bin), pt.lwd = 0.5, legend = levels(SITES$No.of.records_Group), bty = "n", title = expression(bold("No. of records")))
 
-legend(-182, -90, pch = 24, pt.cex = 1.3, pt.bg = "white", legend = c("site with some data submitted to EFDB"), bty = "n", title = "")
+legend(-185, -85, pch = 24, pt.cex = 1.3, pt.bg = "white", legend = c("site with some data submitted\nto EFDB"), bty = "n", title = "")
 
-legend(-20, -40, fill =FAO_colors$Color, border = "transparent", legend = FAO_colors$gez_abbrev, bty = "n", title = expression(bold("FAO ecozone")), ncol = 3) # removed other
+legend(-70, -45, fill =FAO_colors$Color, border = "transparent", legend = FAO_colors$gez_abbrev, bty = "n", title = expression(bold("FAO ecozone")), ncol = 3) # removed other
+
+
+
+
+## add barplot of ecoozone availability + number of records and sites
+
+order_FAO_zones <- FAO_colors$gez_name[-4] # remove polar
+
+### No. of sites
+No._of_sites <- table(factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name))[order_FAO_zones]
+### No. of records
+No._of_records <- tapply(SITES$No.of.records[SITES$some_data_sent_to_EFDB], factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name), sum, default = 0)[order_FAO_zones]
+
+### No. of records sent
+No._of_records_sent <- tapply(SITES$No.of.records_sent[SITES$some_data_sent_to_EFDB], factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name), sum, default = 0)[order_FAO_zones]
+
+
+
+### FAO areas
+FAO_areas <- setNames(FAO$AREA, FAO$gez_name)[order_FAO_zones]
+
+# plot
+
+par()$fig
+par(fig = c(0.63, 1, 0, 0.41), new = T)
+par(mar = c(3.1, 4.1, 4.1, 2.1))
+par(oma = c(0,5,0,0))
+
+
+b <- barplot(t(rbind(prop.table(FAO_areas), prop.table(No._of_sites), prop.table(No._of_records_sent))), col = FAO_colors$Color, horiz = T, xaxt = "n", border = "transparent")
+
+
+axis(1, at = c(0, .5, 1), labels = c("0%", "50%"," 100%"))
+mtext(c("ecozone", "sites submitted", "records submitted"), side = 2, at = rev(b), las = 1, line = 0.2, cex = 0.9)
+mtext(c("(Polar region ignored)"), side = 1, at =0.5, las = 1, line = 1.8, cex = 0.6)
+
 
 dev.off()
 
