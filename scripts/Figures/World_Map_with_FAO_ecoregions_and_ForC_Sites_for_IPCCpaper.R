@@ -105,7 +105,7 @@ FAO_areas <- setNames(FAO_areas$AREA, FAO_areas$gez_name)[order_FAO_zones]
 
 # Plot ####
 
-png("figures/World_Map_of_sites_with_FAO_and_IPCC_data_sent2.png", width=169, height = 100, units = "mm", res = 300, pointsize = 8)
+png("figures/World_Map_of_sites_with_FAO_and_IPCC_data_sent.png", width=169, height = 100, units = "mm", res = 300, pointsize = 8)
 
 par(mar = c(0,0,0,0))
 
@@ -145,7 +145,7 @@ b <- barplot(cbind(prop.table(No._of_records_sent), prop.table(No._of_sites), pr
 
 
 axis(1, at = c(0, .5, 1), labels = c("0%", "50%"," 100%"))
-mtext(c("Forested FAO ecozone", "sites submitted", "records submitted"), side = 2, at = rev(b), las = 1, line = 0.2, cex = 0.9)
+mtext(c("tree cover area", "sites submitted", "records submitted"), side = 2, at = rev(b), las = 1, line = 0.2, cex = 0.9)
 # mtext(c("(Polar region ignored)"), side = 1, at =0.5, las = 1, line = 1.8, cex = 0.6)
 
 
