@@ -57,10 +57,10 @@ SITES$No.of.records <- No.of.records[SITES$sites.sitename]
 SITES$No.of.records_sent <- No.of.records_sent[SITES$sites.sitename]
 
 
-
-coordinates(SITES) <- c("lon", "lat")
-str(SITES)
-proj4string(SITES) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 ")
+SITES <- st_as_sf(SITES, coords = c("lon", "lat"), crs = 4326)
+# coordinates(SITES) <- c("lon", "lat")
+# str(SITES)
+# proj4string(SITES) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 ")
 
 
 rbPal <- colorRampPalette(c("yellow", "red4"))
@@ -84,7 +84,10 @@ SITES$FAO.ecozone <- factor(SITES$FAO.ecozone, levels = FAO_colors$gez_name)
 order_FAO_zones <- FAO_colors$gez_name 
 
 ### No. of sites
-No._of_sites <- table(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB])[order_FAO_zones]
+No._of_sites <- table(SITES$FAO.ecozone)[order_FAO_zones]
+
+### No. of sites with some data sent sent
+No._of_sites_sent <- table(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB])[order_FAO_zones]
 
 ### No. of records
 No._of_records <- tapply(SITES$No.of.records[SITES$some_data_sent_to_EFDB], factor(SITES$FAO.ecozone[SITES$some_data_sent_to_EFDB], levels = FAO_colors$gez_name), sum, default = 0)[order_FAO_zones]
@@ -141,11 +144,11 @@ par(mar = c(3.1, 5.1, 4.1, 2.1))
 par(oma = c(0,5,0,0))
 
 
-b <- barplot(cbind(prop.table(No._of_records_sent), prop.table(No._of_sites), prop.table(FAO_areas)), col = FAO_colors$Color[match(order_FAO_zones, FAO_colors$gez_name)], horiz = T, xaxt = "n", border = "transparent")
+b <- barplot(cbind(prop.table(No._of_records_sent), prop.table(No._of_sites_sent), prop.table(No._of_records),  prop.table(No._of_sites), prop.table(FAO_areas)), col = FAO_colors$Color[match(order_FAO_zones, FAO_colors$gez_name)], horiz = T, xaxt = "n", border = "transparent")
 
 
 axis(1, at = c(0, .5, 1), labels = c("0%", "50%"," 100%"))
-mtext(c("tree cover area", "sites submitted", "records submitted"), side = 2, at = rev(b), las = 1, line = 0.2, cex = 0.9)
+mtext(c("tree cover area", "ForC sites", "ForC records", "sites submitted", "records submitted"), side = 2, at = rev(b), las = 1, line = 0.2, cex = 0.9)
 # mtext(c("(Polar region ignored)"), side = 1, at =0.5, las = 1, line = 1.8, cex = 0.6)
 
 
