@@ -21,7 +21,7 @@ library(reshape2)
 # load data
 
 
-# Load CRU data (summary of CRU data for 1990-2014 given by Ben Bond-Lamberty thought GitHub on 8/23/2017)
+# Load CRU data (summary of CRU data for 1990-2014 given by Ben Bond-Lamberty through GitHub on 8/23/2017)
 crudata <- read.csv("supplementary_resources/crudata_period.csv", stringsAsFactors = F)
 
 

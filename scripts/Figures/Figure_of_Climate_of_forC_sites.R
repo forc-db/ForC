@@ -16,12 +16,12 @@ rm(list = ls())
 setwd(".")
 
 # Load libaries ####
-library(reshape)
+library(reshape2)
 
 # Load sites table ####
 SITES <- read.csv("data/ForC_sites.csv", stringsAsFactors = F)
 
-# Load CRU data (summary of CRU data for 1990-2014 given by Ben Bond-Lamberty thought GitHub on 8/23/2017)
+# Load CRU data (summary of CRU data for 1990-2014 given by Ben Bond-Lamberty through GitHub on 8/23/2017)
 crudata <- read.csv("supplementary_resources/crudata_period.csv", stringsAsFactors = F)
 
 # Load file with subset of sites for which we extracted WorldClim MAT and MAP
