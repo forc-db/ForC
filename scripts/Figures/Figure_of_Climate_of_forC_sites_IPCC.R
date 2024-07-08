@@ -15,6 +15,8 @@ setwd(".")
 library(tidyverse)
 library(sf)
 library(plotbiomes) # devtools::install_github("valentinitnelav/plotbiomes")
+library(terra)
+library(reshape2)
 
 # load data
 
@@ -178,10 +180,10 @@ text(x = -25, y = seq(2000, 6500, length.out = 11), labels = as.character(round(
 text(x = -28, y = 7000, labels = expression("Global Climate space (x 1000 km"^2~")"), adj = 0)
 
 
-points(map ~ mat, data = SITES[!SITES$some_data_sent_to_EFDB, ], pch = ".")
+points(map ~ mat, data = SITES[!SITES$some_data_sent_to_EFDB, ], pch = 1, cex = 0.1)
 points(map ~ mat, data = SITES[SITES$some_data_sent_to_EFDB, ], pch = 2)
 
-legend("topleft", pch = c(2), c("site with some data submitted to EFDB"), bty = "n")
+legend("topleft", pch = c(1, 2), pt.cex = c(0.1,1), c("ForC site with EFDB-relevant data", "site with data submitted to EFDB"), bty = "n")
 
 
 dev.off()
